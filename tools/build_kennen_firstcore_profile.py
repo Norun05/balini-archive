@@ -121,26 +121,42 @@ def snapshot_diffs(match):
     return out
 
 
-def matchup_stats(rows, limit=None):
-    groups = defaultdict(lambda: {"games": 0, "wins": 0})
+def matchup_stats(rows, limit=None, with_checkpoints=False):
+    groups = defaultdict(list)
     for row in rows:
         opponent = row.get("opponent")
-        if not opponent:
-            continue
-        groups[opponent]["games"] += 1
-        groups[opponent]["wins"] += int(bool(row.get("win")))
+        if opponent:
+            groups[opponent].append(row)
 
     out = []
-    for champion, data in groups.items():
-        games = data["games"]
-        wins = data["wins"]
-        out.append({
+    for champion, champion_rows in groups.items():
+        games = len(champion_rows)
+        wins = sum(int(bool(row.get("win"))) for row in champion_rows)
+        item = {
             "champion": champion,
             "games": games,
             "wins": wins,
             "losses": games - wins,
             "winRate": pct(wins, games),
-        })
+        }
+
+        if with_checkpoints:
+            checkpoints = {}
+            for minute in (10, 15):
+                snaps = []
+                for row in champion_rows:
+                    row_snaps = row.get("snapshots")
+                    if row_snaps is None:
+                        row_snaps = snapshot_diffs(row)
+                    snaps.append((row_snaps or {}).get(str(minute)) or {})
+                checkpoints[str(minute)] = {
+                    "goldDiff": stat([s.get("goldDiff") for s in snaps]),
+                    "csDiff": stat([s.get("csDiff") for s in snaps]),
+                    "levelDiff": stat([s.get("levelDiff") for s in snaps]),
+                }
+            item["checkpoints"] = checkpoints
+
+        out.append(item)
 
     out.sort(key=lambda r: (-r["games"], -r["winRate"], r["champion"]))
     return out[:limit] if limit is not None else out
@@ -277,7 +293,7 @@ def build_profile(champion_key, position_key, matches):
                 "earliestGameCreation": earliest,
                 "latestGameCreation": latest,
             },
-            "topOpponents": matchup_stats(core_rows, 30),
+            "topOpponents": matchup_stats(core_rows, limit=30, with_checkpoints=True),
             "secondCores": [
                 {"item": name, "games": count}
                 for name, count in second.most_common()
@@ -297,7 +313,7 @@ def build_profile(champion_key, position_key, matches):
         "position": position_key.upper(),
         "sampleCount": len(matches),
         "recognizedFirstCoreCount": len(rows),
-        "matchups": matchup_stats(matches),
+        "matchups": matchup_stats(matches, with_checkpoints=True),
         "coreSlots": {
             "1": build_slot_stats(rows, 1),
             "2": build_slot_stats(rows, 2),
@@ -305,7 +321,7 @@ def build_profile(champion_key, position_key, matches):
         },
         "notes": [
             "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
-            "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+            "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate plus 10/15-minute lane diffs.",
             "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
             "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
             "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
