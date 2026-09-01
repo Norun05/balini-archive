@@ -1,0 +1,3708 @@
+{
+  "count": 6,
+  "page": 1,
+  "pageSize": 50,
+  "matches": [
+    {
+      "matchId": "KR_8250445039",
+      "gameCreation": 1780852748052,
+      "gameDuration": 1522,
+      "queueId": 1750,
+      "gameMode": "CHERRY",
+      "championName": "Seraphine",
+      "position": "Invalid",
+      "opponent": "Fiora",
+      "kills": 3,
+      "deaths": 6,
+      "assists": 13,
+      "cs": 0,
+      "gold": 12250,
+      "damage": 21888,
+      "win": true,
+      "detailPath": "matches/KR_8250445039.json",
+      "items": [
+        223222,
+        447119,
+        226617,
+        223504,
+        4016,
+        223158,
+        3348
+      ],
+      "meChallenges": {
+        "killParticipation": 0.20512820512820512,
+        "laneMinionsFirst10Minutes": 0,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0.038090144937670385,
+        "damagePerMinute": 862.8962938146716,
+        "goldPerMinute": 482.9141960882266,
+        "visionScorePerMinute": 0
+      },
+      "laneOpponent": {
+        "championName": "Fiora",
+        "kills": 9,
+        "deaths": 7,
+        "assists": 6,
+        "cs": 0,
+        "gold": 10306,
+        "damage": 36023,
+        "items": [
+          223008,
+          223074,
+          446632,
+          226333,
+          226609,
+          0,
+          3348
+        ],
+        "challenges": {
+          "killParticipation": 0.3333333333333333,
+          "laneMinionsFirst10Minutes": 0,
+          "soloKills": 1,
+          "turretPlatesTaken": 0,
+          "teamDamagePercentage": 0.11830009939819543,
+          "damagePerMinute": 1420.088344712478,
+          "goldPerMinute": 406.27866978655214,
+          "visionScorePerMinute": 0
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300080,
+            "me": {
+              "gold": 1000,
+              "currentGold": 500,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 2010,
+              "position": {
+                "x": 7545,
+                "y": 7874
+              }
+            },
+            "opponent": {
+              "gold": 751,
+              "currentGold": 251,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 2020,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": 249,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600121,
+            "me": {
+              "gold": 3750,
+              "currentGold": 750,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 6396,
+              "position": {
+                "x": 12782,
+                "y": 21510
+              }
+            },
+            "opponent": {
+              "gold": 3853,
+              "currentGold": 853,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 11810,
+              "position": {
+                "x": 4337,
+                "y": 19133
+              }
+            },
+            "goldDiff": -103,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 15,
+            "timestamp": 900193,
+            "me": {
+              "gold": 6750,
+              "currentGold": 1250,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 13,
+              "xp": 12000,
+              "damageToChampions": 14752,
+              "position": {
+                "x": 19382,
+                "y": 7476
+              }
+            },
+            "opponent": {
+              "gold": 6955,
+              "currentGold": 705,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 13,
+              "xp": 12000,
+              "damageToChampions": 30016,
+              "position": {
+                "x": 4316,
+                "y": 13562
+              }
+            },
+            "goldDiff": -205,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200276,
+            "me": {
+              "gold": 9750,
+              "currentGold": 1750,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 16,
+              "xp": 15000,
+              "damageToChampions": 16738,
+              "position": {
+                "x": 7545,
+                "y": 7874
+              }
+            },
+            "opponent": {
+              "gold": 10306,
+              "currentGold": 656,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 15,
+              "xp": 14000,
+              "damageToChampions": 36023,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": -556,
+            "csDiff": 0,
+            "levelDiff": 1
+          }
+        ],
+        "firstKillTimestamp": 99602,
+        "firstDeathTimestamp": 403503,
+        "firstAssistTimestamp": 105481,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 99602,
+            "killerId": 5,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 14161,
+              "y": 14892
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 105481,
+            "killerId": 16,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              5,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 14607,
+              "y": 14797
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 124923,
+            "killerId": 16,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              5,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 14202,
+              "y": 13046
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 269761,
+            "killerId": 16,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              5,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5612,
+              "y": 13689
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 282855,
+            "killerId": 15,
+            "victimId": 13,
+            "assistingParticipantIds": [
+              5,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4476,
+              "y": 14772
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 296216,
+            "killerId": 5,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              15,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4766,
+              "y": 13631
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 371218,
+            "killerId": 16,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              5
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19701,
+              "y": 17207
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 392413,
+            "killerId": 16,
+            "victimId": 17,
+            "assistingParticipantIds": [
+              5
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21845,
+              "y": 17872
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 399127,
+            "killerId": 16,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              5,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21162,
+              "y": 16597
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 403503,
+            "killerId": 3,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              6
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21372,
+              "y": 16648
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 424164,
+            "killerId": 16,
+            "victimId": 3,
+            "assistingParticipantIds": [
+              5,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21486,
+              "y": 16594
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 540979,
+            "killerId": 18,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              11
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 17894,
+              "y": 8295
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 612335,
+            "killerId": 9,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              8,
+              10
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12651,
+              "y": 19700
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 751196,
+            "killerId": 15,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              5,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5330,
+              "y": 20276
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 757242,
+            "killerId": 16,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              5,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4977,
+              "y": 20498
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 773649,
+            "killerId": 16,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              5,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5208,
+              "y": 18806
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 896820,
+            "killerId": 16,
+            "victimId": 13,
+            "assistingParticipantIds": [
+              5
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19050,
+              "y": 7320
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 897989,
+            "killerId": 15,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              5,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19458,
+              "y": 7606
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 910743,
+            "killerId": 5,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              15,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19385,
+              "y": 6534
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1033713,
+            "killerId": 3,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              6
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 13759,
+              "y": 20170
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1259306,
+            "killerId": 9,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              8,
+              10
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 2858,
+              "y": 5055
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1360187,
+            "killerId": 7,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12046,
+              "y": 20172
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 28430,
+            "participantId": 5,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 459710,
+            "participantId": 5,
+            "itemId": 226617
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 680724,
+            "participantId": 5,
+            "itemId": 223222
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1106754,
+            "participantId": 5,
+            "itemId": 4016
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1310269,
+            "participantId": 5,
+            "itemId": 223504
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1315747,
+            "participantId": 5,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_UNDO",
+            "timestamp": 1316649,
+            "participantId": 5,
+            "beforeId": 0,
+            "afterId": 223158,
+            "goldGain": -350
+          }
+        ],
+        "objectiveEvents": []
+      }
+    },
+    {
+      "matchId": "KR_8238348428",
+      "gameCreation": 1780148088558,
+      "gameDuration": 1466,
+      "queueId": 1750,
+      "gameMode": "CHERRY",
+      "championName": "Seraphine",
+      "position": "Invalid",
+      "opponent": "Akshan",
+      "kills": 2,
+      "deaths": 7,
+      "assists": 10,
+      "cs": 0,
+      "gold": 12000,
+      "damage": 17026,
+      "win": false,
+      "detailPath": "matches/KR_8238348428.json",
+      "items": [
+        223107,
+        443063,
+        223504,
+        3430,
+        222524,
+        223158,
+        3348
+      ],
+      "meChallenges": {
+        "killParticipation": 0.4,
+        "laneMinionsFirst10Minutes": 0,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0.05698798601566207,
+        "damagePerMinute": 696.5643492409176,
+        "goldPerMinute": 490.9170201775938,
+        "visionScorePerMinute": 0
+      },
+      "laneOpponent": {
+        "championName": "Akshan",
+        "kills": 8,
+        "deaths": 6,
+        "assists": 7,
+        "cs": 0,
+        "gold": 16057,
+        "damage": 36096,
+        "items": [
+          446671,
+          443060,
+          226676,
+          226672,
+          223153,
+          223031,
+          3348
+        ],
+        "challenges": {
+          "killParticipation": 0.189873417721519,
+          "laneMinionsFirst10Minutes": 0,
+          "soloKills": 1,
+          "turretPlatesTaken": 0,
+          "teamDamagePercentage": 0.0858439159091106,
+          "damagePerMinute": 1476.6811133573997,
+          "goldPerMinute": 656.887882749302,
+          "visionScorePerMinute": 0
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300056,
+            "me": {
+              "gold": 750,
+              "currentGold": 250,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 1361,
+              "position": {
+                "x": 6585,
+                "y": 9860
+              }
+            },
+            "opponent": {
+              "gold": 1202,
+              "currentGold": 702,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 4350,
+              "position": {
+                "x": 7545,
+                "y": 7874
+              }
+            },
+            "goldDiff": -452,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600090,
+            "me": {
+              "gold": 3500,
+              "currentGold": 500,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 3326,
+              "position": {
+                "x": 3176,
+                "y": 3964
+              }
+            },
+            "opponent": {
+              "gold": 4429,
+              "currentGold": 429,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 10241,
+              "position": {
+                "x": 15208,
+                "y": 13775
+              }
+            },
+            "goldDiff": -929,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 15,
+            "timestamp": 900171,
+            "me": {
+              "gold": 6750,
+              "currentGold": 1250,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 13,
+              "xp": 12000,
+              "damageToChampions": 8576,
+              "position": {
+                "x": 14032,
+                "y": 4248
+              }
+            },
+            "opponent": {
+              "gold": 7280,
+              "currentGold": 1530,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 13,
+              "xp": 12000,
+              "damageToChampions": 19458,
+              "position": {
+                "x": 14276,
+                "y": 4224
+              }
+            },
+            "goldDiff": -530,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200273,
+            "me": {
+              "gold": 11750,
+              "currentGold": 1250,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 16,
+              "xp": 15000,
+              "damageToChampions": 10632,
+              "position": {
+                "x": 6585,
+                "y": 9860
+              }
+            },
+            "opponent": {
+              "gold": 12706,
+              "currentGold": 1556,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 16,
+              "xp": 15000,
+              "damageToChampions": 26562,
+              "position": {
+                "x": 7545,
+                "y": 7874
+              }
+            },
+            "goldDiff": -956,
+            "csDiff": 0,
+            "levelDiff": 0
+          }
+        ],
+        "firstKillTimestamp": 655602,
+        "firstDeathTimestamp": 116209,
+        "firstAssistTimestamp": 139459,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 116209,
+            "killerId": 2,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 15193,
+              "y": 13349
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 137322,
+            "killerId": 3,
+            "victimId": 9,
+            "bounty": 0,
+            "position": {
+              "x": 14995,
+              "y": 13324
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 139459,
+            "killerId": 6,
+            "victimId": 3,
+            "assistingParticipantIds": [
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 15569,
+              "y": 14347
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 270891,
+            "killerId": 1,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              15,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19283,
+              "y": 6283
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 389707,
+            "killerId": 11,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              12,
+              17
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5511,
+              "y": 18891
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 492127,
+            "killerId": 6,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              8,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5683,
+              "y": 14445
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 502484,
+            "killerId": 6,
+            "victimId": 18,
+            "assistingParticipantIds": [
+              8,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5468,
+              "y": 14256
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 505457,
+            "killerId": 6,
+            "victimId": 13,
+            "assistingParticipantIds": [
+              8,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5630,
+              "y": 13780
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 650258,
+            "killerId": 8,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              6,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4518,
+              "y": 4035
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 654467,
+            "killerId": 8,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              6,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4924,
+              "y": 4240
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 655602,
+            "killerId": 9,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              6,
+              8
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5368,
+              "y": 4222
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 746855,
+            "killerId": 6,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              8,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20344,
+              "y": 17354
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 752369,
+            "killerId": 9,
+            "victimId": 3,
+            "assistingParticipantIds": [
+              6,
+              8
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19915,
+              "y": 17319
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 758866,
+            "killerId": 6,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              8,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20425,
+              "y": 17371
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 845883,
+            "killerId": 8,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              6,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12688,
+              "y": 19860
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 846788,
+            "killerId": 15,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              1,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 13438,
+              "y": 20370
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1042793,
+            "killerId": 17,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              11,
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 13845,
+              "y": 14371
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1252790,
+            "killerId": 8,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              6,
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20537,
+              "y": 7631
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1256835,
+            "killerId": 11,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              12,
+              17
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20477,
+              "y": 7622
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 38194,
+            "participantId": 9,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 434587,
+            "participantId": 9,
+            "itemId": 223504
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 680613,
+            "participantId": 9,
+            "itemId": 3430
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 977337,
+            "participantId": 9,
+            "itemId": 222524
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1103509,
+            "participantId": 9,
+            "itemId": 223107
+          }
+        ],
+        "objectiveEvents": []
+      }
+    },
+    {
+      "matchId": "KR_8233244103",
+      "gameCreation": 1779804887216,
+      "gameDuration": 1269,
+      "queueId": 1750,
+      "gameMode": "CHERRY",
+      "championName": "Seraphine",
+      "position": "Invalid",
+      "opponent": "Kayn",
+      "kills": 2,
+      "deaths": 6,
+      "assists": 20,
+      "cs": 0,
+      "gold": 15750,
+      "damage": 16221,
+      "win": true,
+      "detailPath": "matches/KR_8233244103.json",
+      "items": [
+        447105,
+        223107,
+        3430,
+        223504,
+        444637,
+        226616,
+        3348
+      ],
+      "meChallenges": {
+        "killParticipation": 0.27848101265822783,
+        "laneMinionsFirst10Minutes": 0,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0.04013774450556133,
+        "damagePerMinute": 766.8083105685376,
+        "goldPerMinute": 744.5350425062595,
+        "visionScorePerMinute": 0
+      },
+      "laneOpponent": {
+        "championName": "Kayn",
+        "kills": 1,
+        "deaths": 6,
+        "assists": 1,
+        "cs": 0,
+        "gold": 7750,
+        "damage": 9260,
+        "items": [
+          223008,
+          226696,
+          447115,
+          226630,
+          223072,
+          0,
+          3348
+        ],
+        "challenges": {
+          "killParticipation": 0.046511627906976744,
+          "laneMinionsFirst10Minutes": 0,
+          "soloKills": 0,
+          "turretPlatesTaken": 0,
+          "teamDamagePercentage": 0.038188272362411416,
+          "damagePerMinute": 437.7558596850057,
+          "goldPerMinute": 366.3585129792706,
+          "visionScorePerMinute": 0
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300107,
+            "me": {
+              "gold": 750,
+              "currentGold": 250,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 3002,
+              "position": {
+                "x": 8591,
+                "y": 7528
+              }
+            },
+            "opponent": {
+              "gold": 2250,
+              "currentGold": 1750,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 844,
+              "position": {
+                "x": 6752,
+                "y": 10226
+              }
+            },
+            "goldDiff": -1500,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600179,
+            "me": {
+              "gold": 6500,
+              "currentGold": 1000,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 11000,
+              "damageToChampions": 6988,
+              "position": {
+                "x": 15033,
+                "y": 13501
+              }
+            },
+            "opponent": {
+              "gold": 7750,
+              "currentGold": 750,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 11000,
+              "damageToChampions": 9260,
+              "position": {
+                "x": 21849,
+                "y": 16927
+              }
+            },
+            "goldDiff": -1250,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 15,
+            "timestamp": 900266,
+            "me": {
+              "gold": 10000,
+              "currentGold": 2000,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 15,
+              "xp": 14000,
+              "damageToChampions": 9435,
+              "position": {
+                "x": 8508,
+                "y": 7494
+              }
+            },
+            "opponent": {
+              "gold": 7750,
+              "currentGold": 750,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 11000,
+              "damageToChampions": 9260,
+              "position": {
+                "x": 6985,
+                "y": 9860
+              }
+            },
+            "goldDiff": 2250,
+            "csDiff": 0,
+            "levelDiff": 3
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200364,
+            "me": {
+              "gold": 15500,
+              "currentGold": 850,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 18,
+              "xp": 17000,
+              "damageToChampions": 13379,
+              "position": {
+                "x": 8508,
+                "y": 7494
+              }
+            },
+            "opponent": {
+              "gold": 7750,
+              "currentGold": 750,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 11000,
+              "damageToChampions": 9260,
+              "position": {
+                "x": 6985,
+                "y": 9860
+              }
+            },
+            "goldDiff": 7750,
+            "csDiff": 0,
+            "levelDiff": 6
+          }
+        ],
+        "firstKillTimestamp": 705102,
+        "firstDeathTimestamp": 118106,
+        "firstAssistTimestamp": 226966,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 118106,
+            "killerId": 8,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              7,
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4637,
+              "y": 3832
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 226966,
+            "killerId": 1,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20632,
+              "y": 17290
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 239503,
+            "killerId": 1,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21742,
+              "y": 17014
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 258606,
+            "killerId": 12,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              13
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20700,
+              "y": 17597
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 319194,
+            "killerId": 17,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              16,
+              18
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4084,
+              "y": 5214
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 320429,
+            "killerId": 1,
+            "victimId": 17,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4166,
+              "y": 4388
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 422050,
+            "killerId": 3,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21905,
+              "y": 18284
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 424154,
+            "killerId": 3,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21367,
+              "y": 18011
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 429199,
+            "killerId": 3,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19824,
+              "y": 17405
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 493822,
+            "killerId": 1,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 13054,
+              "y": 20263
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 494256,
+            "killerId": 3,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12842,
+              "y": 20322
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 495458,
+            "killerId": 1,
+            "victimId": 11,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 13034,
+              "y": 20616
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 606024,
+            "killerId": 15,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              7,
+              8
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 14195,
+              "y": 14849
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 607627,
+            "killerId": 1,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 15769,
+              "y": 13920
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 696233,
+            "killerId": 3,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4949,
+              "y": 13383
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 705102,
+            "killerId": 2,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4231,
+              "y": 14150
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 711581,
+            "killerId": 2,
+            "victimId": 13,
+            "assistingParticipantIds": [
+              1,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4996,
+              "y": 13514
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 838827,
+            "killerId": 18,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              16,
+              17
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5244,
+              "y": 19424
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 994408,
+            "killerId": 9,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              10,
+              11
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20280,
+              "y": 7894
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 995176,
+            "killerId": 1,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20090,
+              "y": 8098
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 996812,
+            "killerId": 1,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19994,
+              "y": 7936
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 997681,
+            "killerId": 3,
+            "victimId": 11,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20130,
+              "y": 7838
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1088795,
+            "killerId": 1,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20308,
+              "y": 17236
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1096518,
+            "killerId": 1,
+            "victimId": 15,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20128,
+              "y": 17067
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1099391,
+            "killerId": 1,
+            "victimId": 8,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21236,
+              "y": 16394
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1238743,
+            "killerId": 1,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5509,
+              "y": 20068
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1240814,
+            "killerId": 1,
+            "victimId": 15,
+            "assistingParticipantIds": [
+              2,
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5474,
+              "y": 19846
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1263070,
+            "killerId": 3,
+            "victimId": 8,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5436,
+              "y": 20196
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 31023,
+            "participantId": 2,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 361437,
+            "participantId": 2,
+            "itemId": 223504
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 554080,
+            "participantId": 2,
+            "itemId": 226620
+          },
+          {
+            "type": "ITEM_UNDO",
+            "timestamp": 556518,
+            "participantId": 2,
+            "beforeId": 226620,
+            "afterId": 0,
+            "goldGain": 2500
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 560566,
+            "participantId": 2,
+            "itemId": 223107
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 868000,
+            "participantId": 2,
+            "itemId": 226616
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1037179,
+            "participantId": 2,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1044527,
+            "participantId": 2,
+            "itemId": 3430
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1052575,
+            "participantId": 2,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1055782,
+            "participantId": 2,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1058888,
+            "participantId": 2,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1188741,
+            "participantId": 2,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1194619,
+            "participantId": 2,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1198761,
+            "participantId": 2,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1202368,
+            "participantId": 2,
+            "itemId": 220000
+          }
+        ],
+        "objectiveEvents": []
+      }
+    },
+    {
+      "matchId": "KR_8217814528",
+      "gameCreation": 1778882940410,
+      "gameDuration": 1335,
+      "queueId": 1750,
+      "gameMode": "CHERRY",
+      "championName": "Seraphine",
+      "position": "Invalid",
+      "opponent": "Teemo",
+      "kills": 7,
+      "deaths": 4,
+      "assists": 25,
+      "cs": 1,
+      "gold": 16289,
+      "damage": 21838,
+      "win": true,
+      "detailPath": "matches/KR_8217814528.json",
+      "items": [
+        446656,
+        223157,
+        223165,
+        223110,
+        226657,
+        447119,
+        3348
+      ],
+      "meChallenges": {
+        "killParticipation": 0.463768115942029,
+        "laneMinionsFirst10Minutes": 0,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0.05739358789075355,
+        "damagePerMinute": 981.4563146716268,
+        "goldPerMinute": 732.0558628634582,
+        "visionScorePerMinute": 0
+      },
+      "laneOpponent": {
+        "championName": "Teemo",
+        "kills": 0,
+        "deaths": 4,
+        "assists": 2,
+        "cs": 0,
+        "gold": 3371,
+        "damage": 7777,
+        "items": [
+          447107,
+          447118,
+          223020,
+          226653,
+          0,
+          0,
+          3348
+        ],
+        "challenges": {
+          "killParticipation": 0.058823529411764705,
+          "laneMinionsFirst10Minutes": 0,
+          "soloKills": 1,
+          "turretPlatesTaken": 0,
+          "teamDamagePercentage": 0.04138702344588015,
+          "damagePerMinute": 349.517045916759,
+          "goldPerMinute": 151.49857656778914,
+          "visionScorePerMinute": 0
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300121,
+            "me": {
+              "gold": 1000,
+              "currentGold": 500,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 2155,
+              "position": {
+                "x": 7745,
+                "y": 7674
+              }
+            },
+            "opponent": {
+              "gold": 771,
+              "currentGold": 271,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 1966,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": 229,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600206,
+            "me": {
+              "gold": 4004,
+              "currentGold": 1004,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 8131,
+              "position": {
+                "x": 7745,
+                "y": 7674
+              }
+            },
+            "opponent": {
+              "gold": 3371,
+              "currentGold": 371,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 9,
+              "xp": 8000,
+              "damageToChampions": 7777,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": 633,
+            "csDiff": 0,
+            "levelDiff": 2
+          },
+          {
+            "minute": 15,
+            "timestamp": 900277,
+            "me": {
+              "gold": 8004,
+              "currentGold": 2504,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 15,
+              "xp": 14000,
+              "damageToChampions": 9829,
+              "position": {
+                "x": 7745,
+                "y": 7674
+              }
+            },
+            "opponent": {
+              "gold": 3371,
+              "currentGold": 371,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 9,
+              "xp": 8000,
+              "damageToChampions": 7777,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": 4633,
+            "csDiff": 0,
+            "levelDiff": 6
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200364,
+            "me": {
+              "gold": 15289,
+              "currentGold": 639,
+              "cs": 1,
+              "laneCs": 1,
+              "jungleCs": 0,
+              "level": 18,
+              "xp": 17000,
+              "damageToChampions": 17013,
+              "position": {
+                "x": 7745,
+                "y": 7674
+              }
+            },
+            "opponent": {
+              "gold": 3371,
+              "currentGold": 371,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 9,
+              "xp": 8000,
+              "damageToChampions": 7777,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": 11918,
+            "csDiff": 1,
+            "levelDiff": 9
+          }
+        ],
+        "firstKillTimestamp": 108021,
+        "firstDeathTimestamp": 285927,
+        "firstAssistTimestamp": 93385,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 93385,
+            "killerId": 16,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19988,
+              "y": 16804
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 101503,
+            "killerId": 3,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20581,
+              "y": 17056
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 108021,
+            "killerId": 4,
+            "victimId": 11,
+            "assistingParticipantIds": [
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21701,
+              "y": 18268
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 263553,
+            "killerId": 4,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 15760,
+              "y": 13746
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 264455,
+            "killerId": 16,
+            "victimId": 13,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 16098,
+              "y": 14907
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 285927,
+            "killerId": 12,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 14764,
+              "y": 13205
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 391423,
+            "killerId": 3,
+            "victimId": 18,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 13122,
+              "y": 20242
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 413154,
+            "killerId": 4,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              3,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12358,
+              "y": 20722
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 414490,
+            "killerId": 16,
+            "victimId": 18,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12442,
+              "y": 20424
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 420700,
+            "killerId": 18,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              2,
+              17
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12523,
+              "y": 20556
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 422036,
+            "killerId": 4,
+            "victimId": 17,
+            "assistingParticipantIds": [
+              3,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11736,
+              "y": 20801
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 498451,
+            "killerId": 3,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 6051,
+              "y": 19596
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 507427,
+            "killerId": 4,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5509,
+              "y": 20020
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 507862,
+            "killerId": 3,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5300,
+              "y": 20753
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 718742,
+            "killerId": 16,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12805,
+              "y": 20951
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 726294,
+            "killerId": 11,
+            "victimId": 4,
+            "bounty": 0,
+            "position": {
+              "x": 11469,
+              "y": 19530
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 835924,
+            "killerId": 3,
+            "victimId": 15,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 18567,
+              "y": 6557
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 836459,
+            "killerId": 3,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19754,
+              "y": 6380
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 963330,
+            "killerId": 16,
+            "victimId": 18,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4681,
+              "y": 13685
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 982860,
+            "killerId": 16,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4115,
+              "y": 15018
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 984764,
+            "killerId": 16,
+            "victimId": 17,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4354,
+              "y": 14895
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1052867,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              3,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20395,
+              "y": 16949
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1056425,
+            "killerId": 3,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19878,
+              "y": 17521
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1063654,
+            "killerId": 3,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20148,
+              "y": 16574
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1155850,
+            "killerId": 3,
+            "victimId": 15,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 3705,
+              "y": 2904
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1156442,
+            "killerId": 16,
+            "victimId": 13,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 3843,
+              "y": 2975
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1161433,
+            "killerId": 4,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              3,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 3352,
+              "y": 3487
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1228382,
+            "killerId": 11,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              9,
+              10
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19214,
+              "y": 7373
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1229148,
+            "killerId": 3,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19224,
+              "y": 7515
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1230951,
+            "killerId": 16,
+            "victimId": 11,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 18914,
+              "y": 6924
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1242410,
+            "killerId": 16,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19025,
+              "y": 7286
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1304622,
+            "killerId": 16,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12039,
+              "y": 21431
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1309601,
+            "killerId": 3,
+            "victimId": 11,
+            "assistingParticipantIds": [
+              4,
+              16
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11656,
+              "y": 21695
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1323112,
+            "killerId": 16,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11675,
+              "y": 21378
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1327311,
+            "killerId": 16,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11901,
+              "y": 21744
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1328781,
+            "killerId": 16,
+            "victimId": 11,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11780,
+              "y": 21268
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 36408,
+            "participantId": 4,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 451896,
+            "participantId": 4,
+            "itemId": 223116
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 659539,
+            "participantId": 4,
+            "itemId": 226657
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 910973,
+            "participantId": 4,
+            "itemId": 223157
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1005497,
+            "participantId": 4,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1018976,
+            "participantId": 4,
+            "itemId": 223165
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1023774,
+            "participantId": 4,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1118925,
+            "participantId": 4,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1178930,
+            "participantId": 4,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1184214,
+            "participantId": 4,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1188858,
+            "participantId": 4,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1192232,
+            "participantId": 4,
+            "itemId": 220000
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1267995,
+            "participantId": 4,
+            "itemId": 223116
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1270338,
+            "participantId": 4,
+            "itemId": 223110
+          }
+        ],
+        "objectiveEvents": []
+      }
+    },
+    {
+      "matchId": "KR_8207724018",
+      "gameCreation": 1778247073754,
+      "gameDuration": 1345,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Seraphine",
+      "position": "Invalid",
+      "opponent": "Renekton",
+      "kills": 0,
+      "deaths": 9,
+      "assists": 11,
+      "cs": 0,
+      "gold": 15003,
+      "damage": 14754,
+      "win": false,
+      "detailPath": "matches/KR_8207724018.json",
+      "items": [
+        223107,
+        447119,
+        223116,
+        443063,
+        3430,
+        223504,
+        3348
+      ],
+      "meChallenges": {
+        "killParticipation": 0.3142857142857143,
+        "laneMinionsFirst10Minutes": 0,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0.08510662304328916,
+        "damagePerMinute": 657.8623307774355,
+        "goldPerMinute": 668.9516004789626,
+        "visionScorePerMinute": 0
+      },
+      "laneOpponent": {
+        "championName": "Renekton",
+        "kills": 3,
+        "deaths": 6,
+        "assists": 11,
+        "cs": 1,
+        "gold": 15359,
+        "damage": 16242,
+        "items": [
+          223047,
+          447103,
+          226693,
+          446691,
+          223071,
+          447115,
+          3348
+        ],
+        "challenges": {
+          "killParticipation": 0.18666666666666668,
+          "laneMinionsFirst10Minutes": 0,
+          "soloKills": 0,
+          "turretPlatesTaken": 0,
+          "teamDamagePercentage": 0.055263987494836644,
+          "damagePerMinute": 724.2148078523503,
+          "goldPerMinute": 684.8248771416642,
+          "visionScorePerMinute": 0
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300108,
+            "me": {
+              "gold": 1000,
+              "currentGold": 500,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 1770,
+              "position": {
+                "x": 6341,
+                "y": 9065
+              }
+            },
+            "opponent": {
+              "gold": 1009,
+              "currentGold": 509,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 2865,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": -9,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600234,
+            "me": {
+              "gold": 4003,
+              "currentGold": 1003,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 5455,
+              "position": {
+                "x": 19244,
+                "y": 7445
+              }
+            },
+            "opponent": {
+              "gold": 4559,
+              "currentGold": 1559,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 6265,
+              "position": {
+                "x": 14521,
+                "y": 13691
+              }
+            },
+            "goldDiff": -556,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 15,
+            "timestamp": 900335,
+            "me": {
+              "gold": 9003,
+              "currentGold": 1003,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 14,
+              "xp": 13000,
+              "damageToChampions": 8339,
+              "position": {
+                "x": 6991,
+                "y": 9230
+              }
+            },
+            "opponent": {
+              "gold": 8859,
+              "currentGold": 1859,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 14,
+              "xp": 13000,
+              "damageToChampions": 9749,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": 144,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200445,
+            "me": {
+              "gold": 15003,
+              "currentGold": 103,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 17,
+              "xp": 16000,
+              "damageToChampions": 14754,
+              "position": {
+                "x": 6341,
+                "y": 9065
+              }
+            },
+            "opponent": {
+              "gold": 15059,
+              "currentGold": 59,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 18,
+              "xp": 17000,
+              "damageToChampions": 14527,
+              "position": {
+                "x": 8708,
+                "y": 7694
+              }
+            },
+            "goldDiff": -56,
+            "csDiff": 0,
+            "levelDiff": -1
+          }
+        ],
+        "firstKillTimestamp": null,
+        "firstDeathTimestamp": 464198,
+        "firstAssistTimestamp": 110834,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 110834,
+            "killerId": 11,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 3380,
+              "y": 14206
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 134784,
+            "killerId": 11,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4918,
+              "y": 15100
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 262440,
+            "killerId": 11,
+            "victimId": 13,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12299,
+              "y": 20475
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 273230,
+            "killerId": 11,
+            "victimId": 16,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11998,
+              "y": 20564
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 362050,
+            "killerId": 11,
+            "victimId": 15,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4777,
+              "y": 14416
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 367862,
+            "killerId": 11,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 3675,
+              "y": 13971
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 461659,
+            "killerId": 11,
+            "victimId": 3,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 16165,
+              "y": 14139
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 464198,
+            "killerId": 4,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 15493,
+              "y": 14466
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 566222,
+            "killerId": 8,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              9
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19244,
+              "y": 7445
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 683124,
+            "killerId": 11,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5611,
+              "y": 4359
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 687677,
+            "killerId": 1,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4096,
+              "y": 4902
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 708845,
+            "killerId": 2,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4560,
+              "y": 4225
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 782529,
+            "killerId": 11,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 18433,
+              "y": 7718
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 795497,
+            "killerId": 7,
+            "victimId": 12,
+            "bounty": 0,
+            "position": {
+              "x": 18460,
+              "y": 7763
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 820259,
+            "killerId": 7,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              10
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19698,
+              "y": 7579
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 930817,
+            "killerId": 11,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5843,
+              "y": 20364
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 933357,
+            "killerId": 6,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              5
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5528,
+              "y": 20342
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1018088,
+            "killerId": 11,
+            "victimId": 8,
+            "assistingParticipantIds": [
+              12
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20215,
+              "y": 16824
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1025957,
+            "killerId": 9,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              8
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20376,
+              "y": 17408
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1185713,
+            "killerId": 4,
+            "victimId": 12,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11594,
+              "y": 20488
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 16939,
+            "participantId": 12,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 396573,
+            "participantId": 12,
+            "itemId": 223116
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 656947,
+            "participantId": 12,
+            "itemId": 223107
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 889763,
+            "participantId": 12,
+            "itemId": 3430
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 981478,
+            "participantId": 12,
+            "itemId": 223504
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1122644,
+            "participantId": 12,
+            "itemId": 220007
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1130895,
+            "participantId": 12,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1134669,
+            "participantId": 12,
+            "itemId": 220000
+          }
+        ],
+        "objectiveEvents": []
+      }
+    },
+    {
+      "matchId": "KR_8207671508",
+      "gameCreation": 1778245783094,
+      "gameDuration": 1286,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Seraphine",
+      "position": "Invalid",
+      "opponent": "Anivia",
+      "kills": 3,
+      "deaths": 7,
+      "assists": 8,
+      "cs": 0,
+      "gold": 13283,
+      "damage": 22274,
+      "win": false,
+      "detailPath": "matches/KR_8207671508.json",
+      "items": [
+        228002,
+        447109,
+        223116,
+        3430,
+        223158,
+        223102,
+        3348
+      ],
+      "meChallenges": {
+        "killParticipation": 0.3142857142857143,
+        "laneMinionsFirst10Minutes": 0,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0.14735093358886647,
+        "damagePerMinute": 1038.5981751356717,
+        "goldPerMinute": 619.3475598606042,
+        "visionScorePerMinute": 0
+      },
+      "laneOpponent": {
+        "championName": "Anivia",
+        "kills": 10,
+        "deaths": 6,
+        "assists": 1,
+        "cs": 0,
+        "gold": 19906,
+        "damage": 36298,
+        "items": [
+          223135,
+          223157,
+          226657,
+          226653,
+          223102,
+          447109,
+          3348
+        ],
+        "challenges": {
+          "killParticipation": 0.1864406779661017,
+          "laneMinionsFirst10Minutes": 0,
+          "soloKills": 2,
+          "turretPlatesTaken": 0,
+          "teamDamagePercentage": 0.14844233740933177,
+          "damagePerMinute": 1692.4873886287103,
+          "goldPerMinute": 928.1587387326045,
+          "visionScorePerMinute": 0
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300109,
+            "me": {
+              "gold": 750,
+              "currentGold": 250,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 2749,
+              "position": {
+                "x": 6585,
+                "y": 9860
+              }
+            },
+            "opponent": {
+              "gold": 3751,
+              "currentGold": 1001,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 6000,
+              "damageToChampions": 1835,
+              "position": {
+                "x": 6944,
+                "y": 8175
+              }
+            },
+            "goldDiff": -3001,
+            "csDiff": 0,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600226,
+            "me": {
+              "gold": 3765,
+              "currentGold": 765,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 11,
+              "xp": 10000,
+              "damageToChampions": 9120,
+              "position": {
+                "x": 20163,
+                "y": 7651
+              }
+            },
+            "opponent": {
+              "gold": 7352,
+              "currentGold": 102,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 11000,
+              "damageToChampions": 8990,
+              "position": {
+                "x": 5010,
+                "y": 14492
+              }
+            },
+            "goldDiff": -3587,
+            "csDiff": 0,
+            "levelDiff": -1
+          },
+          {
+            "minute": 15,
+            "timestamp": 900293,
+            "me": {
+              "gold": 7783,
+              "currentGold": 2283,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 14,
+              "xp": 13000,
+              "damageToChampions": 15029,
+              "position": {
+                "x": 7078,
+                "y": 9687
+              }
+            },
+            "opponent": {
+              "gold": 11704,
+              "currentGold": 704,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 15,
+              "xp": 14000,
+              "damageToChampions": 23224,
+              "position": {
+                "x": 7345,
+                "y": 8160
+              }
+            },
+            "goldDiff": -3921,
+            "csDiff": 0,
+            "levelDiff": -1
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200345,
+            "me": {
+              "gold": 13283,
+              "currentGold": 283,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 16,
+              "xp": 15000,
+              "damageToChampions": 22274,
+              "position": {
+                "x": 6585,
+                "y": 9860
+              }
+            },
+            "opponent": {
+              "gold": 19655,
+              "currentGold": 5,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 18,
+              "xp": 17000,
+              "damageToChampions": 30247,
+              "position": {
+                "x": 6944,
+                "y": 8175
+              }
+            },
+            "goldDiff": -6372,
+            "csDiff": 0,
+            "levelDiff": -2
+          }
+        ],
+        "firstKillTimestamp": 395844,
+        "firstDeathTimestamp": 289783,
+        "firstAssistTimestamp": 92934,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 92934,
+            "killerId": 13,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19035,
+              "y": 7813
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 106062,
+            "killerId": 13,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20391,
+              "y": 7850
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 289783,
+            "killerId": 6,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 21380,
+              "y": 16786
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 362276,
+            "killerId": 1,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              7
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5375,
+              "y": 19809
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 395844,
+            "killerId": 14,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              13
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5847,
+              "y": 19146
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 408116,
+            "killerId": 13,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 5402,
+              "y": 19926
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 499580,
+            "killerId": 10,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11723,
+              "y": 21098
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 532228,
+            "killerId": 13,
+            "victimId": 3,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 12192,
+              "y": 20138
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 534098,
+            "killerId": 14,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              13
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 11462,
+              "y": 20004
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 626369,
+            "killerId": 13,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 20386,
+              "y": 7127
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 629308,
+            "killerId": 14,
+            "victimId": 8,
+            "assistingParticipantIds": [
+              13
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 19787,
+              "y": 7396
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 720777,
+            "killerId": 11,
+            "victimId": 14,
+            "bounty": 0,
+            "position": {
+              "x": 4554,
+              "y": 15360
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 795768,
+            "killerId": 16,
+            "victimId": 14,
+            "assistingParticipantIds": [
+              15
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 14294,
+              "y": 13519
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 934067,
+            "killerId": 5,
+            "victimId": 14,
+            "bounty": 0,
+            "position": {
+              "x": 4952,
+              "y": 20511
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1014393,
+            "killerId": 13,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4894,
+              "y": 15120
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1025999,
+            "killerId": 13,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 3359,
+              "y": 13719
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1103170,
+            "killerId": 13,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              14
+            ],
+            "bounty": 0,
+            "position": {
+              "x": 4091,
+              "y": 3647
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1114673,
+            "killerId": 3,
+            "victimId": 14,
+            "bounty": 0,
+            "position": {
+              "x": 3289,
+              "y": 3900
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 59550,
+            "participantId": 14,
+            "itemId": 223158
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 447283,
+            "participantId": 14,
+            "itemId": 3430
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 656966,
+            "participantId": 14,
+            "itemId": 223157
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 961110,
+            "participantId": 14,
+            "itemId": 223089
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 973201,
+            "participantId": 14,
+            "itemId": 223116
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1077390,
+            "participantId": 14,
+            "itemId": 223102
+          }
+        ],
+        "objectiveEvents": []
+      }
+    }
+  ]
+}
