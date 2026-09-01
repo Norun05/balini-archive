@@ -10,12 +10,16 @@ if %errorlevel%==0 (
     if errorlevel 1 goto :failed
     py -3 tools\build_team_context.py
     if errorlevel 1 goto :failed
+    py -3 tools\build_kennen_skill_order.py
+    if errorlevel 1 goto :failed
 ) else (
     where python >nul 2>nul
     if %errorlevel%==0 (
         python tools\build_site_data.py
         if errorlevel 1 goto :failed
         python tools\build_team_context.py
+        if errorlevel 1 goto :failed
+        python tools\build_kennen_skill_order.py
         if errorlevel 1 goto :failed
     ) else (
         echo Python 3 was not found.
@@ -26,7 +30,7 @@ if %errorlevel%==0 (
 )
 
 echo.
-echo Split site data and cross-lane team context are ready.
+echo Split site data, cross-lane team context, and Kennen skill-order stats are ready.
 echo Commit all changed files in GitHub Desktop and Push origin.
 goto :done
 
