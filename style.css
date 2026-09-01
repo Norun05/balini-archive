@@ -1,0 +1,72 @@
+:root {
+  color-scheme: dark;
+  --bg: #101114;
+  --panel: #17191f;
+  --panel-2: #1d2027;
+  --line: #2b2f39;
+  --text: #f3f5f7;
+  --muted: #9ea5b2;
+  --accent: #ffd45a;
+  --win: #7ddc91;
+  --loss: #ff8585;
+  --shadow: 0 14px 40px rgba(0,0,0,.22);
+}
+
+* { box-sizing: border-box; }
+html { font-family: Inter, Pretendard, "Noto Sans KR", system-ui, sans-serif; background: var(--bg); color: var(--text); }
+body { margin: 0; min-height: 100vh; background: radial-gradient(circle at top right, rgba(255,212,90,.08), transparent 30%), var(--bg); }
+a { color: inherit; }
+.wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+.site-header { padding: 42px 0 22px; }
+.header-inner { display:flex; justify-content:space-between; gap:20px; align-items:flex-start; }
+h1,h2,h3,p { margin-top:0; }
+h1 { margin-bottom: 8px; font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing:-.04em; }
+h2 { margin-bottom: 8px; letter-spacing:-.025em; }
+.eyebrow,.section-kicker { font-size:.76rem; font-weight:800; letter-spacing:.15em; color:var(--accent); margin-bottom:8px; }
+.muted { color:var(--muted); }
+.badge { border:1px solid var(--line); padding:9px 12px; border-radius:999px; color:var(--muted); white-space:nowrap; background:#12141a; }
+.card { background:linear-gradient(180deg, rgba(255,255,255,.025), transparent), var(--panel); border:1px solid var(--line); border-radius:20px; box-shadow:var(--shadow); }
+.hero { padding:26px; display:grid; grid-template-columns:1.5fr 1fr; gap:28px; }
+.hero p:last-child { margin-bottom:0; line-height:1.65; }
+.hero-stats { display:grid; grid-template-columns:repeat(3,1fr); border:1px solid var(--line); border-radius:16px; overflow:hidden; align-self:stretch; }
+.hero-stats div { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; padding:18px 10px; background:var(--panel-2); }
+.hero-stats div+div { border-left:1px solid var(--line); }
+.hero-stats strong { font-size:1.7rem; }
+.hero-stats span { font-size:.8rem; color:var(--muted); }
+.toolbar { margin-top:18px; padding:18px; display:flex; gap:12px; align-items:end; flex-wrap:wrap; }
+.field { min-width:140px; display:flex; flex-direction:column; gap:7px; }
+.field.grow { flex:1; min-width:240px; }
+label { color:var(--muted); font-size:.8rem; font-weight:700; }
+input,select { width:100%; border:1px solid var(--line); background:#111319; color:var(--text); border-radius:12px; padding:11px 12px; outline:none; }
+input:focus,select:focus { border-color:#666d7b; }
+.section-head { display:flex; justify-content:space-between; align-items:end; gap:16px; margin:32px 2px 14px; }
+.section-head h2 { margin-bottom:0; }
+.match-list { display:grid; gap:10px; }
+.match { display:grid; grid-template-columns:90px 1.1fr .8fr .8fr 1fr; align-items:center; gap:14px; padding:15px 17px; border:1px solid var(--line); border-radius:16px; background:var(--panel); }
+.match.win { border-left:4px solid var(--win); }
+.match.loss { border-left:4px solid var(--loss); }
+.result { font-weight:900; }
+.win .result { color:var(--win); }
+.loss .result { color:var(--loss); }
+.champ { font-weight:800; font-size:1.05rem; }
+.meta { font-size:.8rem; color:var(--muted); margin-top:4px; }
+.kda { font-weight:800; }
+.enemy-list { font-size:.82rem; color:var(--muted); line-height:1.5; }
+.match-id { font-family:ui-monospace, SFMono-Regular, Menlo, monospace; font-size:.75rem; color:var(--muted); word-break:break-all; }
+.empty { padding:30px; text-align:center; }
+.footer { padding:28px 0 40px; display:flex; flex-wrap:wrap; gap:16px; color:var(--muted); font-size:.82rem; }
+.footer a:hover { color:var(--text); }
+code { color:var(--accent); }
+@media (max-width: 820px) {
+  .hero { grid-template-columns:1fr; }
+  .match { grid-template-columns:80px 1fr 1fr; }
+  .match > :nth-child(4), .match > :nth-child(5) { grid-column:2 / -1; }
+}
+@media (max-width: 560px) {
+  .wrap { width:min(100% - 20px,1120px); }
+  .header-inner { flex-direction:column; }
+  .hero-stats { grid-template-columns:1fr 1fr 1fr; }
+  .match { grid-template-columns:1fr 1fr; }
+  .match > * { grid-column:auto !important; }
+  .match-id,.enemy-list { grid-column:1 / -1 !important; }
+}
