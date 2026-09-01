@@ -1,288 +1,51 @@
-const state = { profile: null, matches: [], filtered: [], details: new Map() };
+const state = { profile: null, matches: [], filtered: [], details: new Map(), stats: {} };
 
+const $ = (s) => document.querySelector(s);
 const els = {
-  accountLine: document.querySelector('#accountLine'),
-  syncBadge: document.querySelector('#syncBadge'),
-  matchCount: document.querySelector('#matchCount'),
-  winRate: document.querySelector('#winRate'),
-  championCount: document.querySelector('#championCount'),
-  searchInput: document.querySelector('#searchInput'),
-  championFilter: document.querySelector('#championFilter'),
-  positionFilter: document.querySelector('#positionFilter'),
-  resultFilter: document.querySelector('#resultFilter'),
-  matchList: document.querySelector('#matchList'),
-  resultCount: document.querySelector('#resultCount'),
-  emptyState: document.querySelector('#emptyState')
+  accountLine: $('#accountLine'), syncBadge: $('#syncBadge'), matchCount: $('#matchCount'), winRate: $('#winRate'), championCount: $('#championCount'),
+  searchInput: $('#searchInput'), championFilter: $('#championFilter'), positionFilter: $('#positionFilter'), resultFilter: $('#resultFilter'),
+  matchList: $('#matchList'), resultCount: $('#resultCount'), emptyState: $('#emptyState'),
+  statsOverview: $('#statsOverview'), positionStats: $('#positionStats'), summonerStats: $('#summonerStats'),
+  championStats: $('#championStats'), championStatsSearch: $('#championStatsSearch'), teammateStats: $('#teammateStats'), teammateSearch: $('#teammateSearch')
 };
 
-const fmtDate = (ms) => {
-  if (!ms) return '-';
-  return new Intl.DateTimeFormat('ko-KR', {
-    timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit',
-    hour: '2-digit', minute: '2-digit'
-  }).format(new Date(ms));
-};
+const fmtDate = (ms) => !ms ? '-' : new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(ms));
+const fmtDuration = (sec) => Number.isFinite(sec) ? `${Math.floor(sec/60)}:${String(Math.floor(sec%60)).padStart(2,'0')}` : '-';
+const fmtDiff = (v) => Number.isFinite(v) ? (v > 0 ? `+${v}` : String(v)) : '-';
+const fmtPct = (v) => Number.isFinite(v) ? `${v.toFixed(1)}%` : '-';
+const n = (v) => Number(v || 0).toLocaleString('ko-KR');
 
-const fmtDuration = (sec) => {
-  if (!Number.isFinite(sec)) return '-';
-  const m = Math.floor(sec / 60);
-  const s = Math.floor(sec % 60);
-  return `${m}:${String(s).padStart(2, '0')}`;
-};
-
-const fmtDiff = (value) => {
-  if (!Number.isFinite(value)) return '-';
-  return value > 0 ? `+${value}` : String(value);
-};
-
-async function loadJson(path, fallback = null) {
-  try {
-    const res = await fetch(path, { cache: 'no-store' });
-    if (!res.ok) throw new Error(`${res.status}`);
-    return await res.json();
-  } catch (err) {
-    console.warn(`Failed to load ${path}`, err);
-    return fallback;
-  }
+async function loadJson(path, fallback=null) {
+  try { const r = await fetch(path,{cache:'no-store'}); if(!r.ok) throw new Error(r.status); return await r.json(); }
+  catch(err) { console.warn(`Failed to load ${path}`,err); return fallback; }
 }
 
-function normalizeMatch(m) {
-  return {
-    matchId: m.matchId ?? '',
-    gameCreation: m.gameCreation ?? null,
-    gameDuration: m.gameDuration ?? null,
-    queueId: m.queueId ?? null,
-    gameMode: m.gameMode ?? '',
-    championName: m.championName ?? 'Unknown',
-    position: m.position ?? '',
-    opponent: m.opponent ?? m.laneOpponent?.championName ?? '',
-    kills: m.kills ?? 0,
-    deaths: m.deaths ?? 0,
-    assists: m.assists ?? 0,
-    cs: m.cs ?? 0,
-    gold: m.gold ?? 0,
-    damage: m.damage ?? 0,
-    win: Boolean(m.win),
-    detailPath: m.detailPath ?? `matches/${m.matchId}.json`
-  };
-}
+function escapeHtml(v) { return String(v ?? '').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch])); }
+function normalizeMatch(m){return {matchId:m.matchId??'',gameCreation:m.gameCreation??null,gameDuration:m.gameDuration??null,queueId:m.queueId??null,gameMode:m.gameMode??'',championName:m.championName??'Unknown',position:m.position??'',opponent:m.opponent??m.laneOpponent?.championName??'',kills:m.kills??0,deaths:m.deaths??0,assists:m.assists??0,cs:m.cs??0,gold:m.gold??0,damage:m.damage??0,win:Boolean(m.win),detailPath:m.detailPath??`matches/${m.matchId}.json`};}
 
-function renderStats() {
-  const ms = state.matches;
-  els.matchCount.textContent = ms.length.toLocaleString('ko-KR');
-  if (ms.length) {
-    const wins = ms.filter(m => m.win).length;
-    els.winRate.textContent = `${((wins / ms.length) * 100).toFixed(1)}%`;
-    els.championCount.textContent = new Set(ms.map(m => m.championName)).size;
-  } else {
-    els.winRate.textContent = '-';
-    els.championCount.textContent = '0';
-  }
-}
+function renderHero(){ const ms=state.matches; els.matchCount.textContent=n(ms.length); els.winRate.textContent=ms.length?fmtPct(ms.filter(m=>m.win).length*100/ms.length):'-'; els.championCount.textContent=new Set(ms.map(m=>m.championName)).size; }
+function fillChampionFilter(){ [...new Set(state.matches.map(m=>m.championName))].sort((a,b)=>a.localeCompare(b)).forEach(name=>{const o=document.createElement('option');o.value=name;o.textContent=name;els.championFilter.appendChild(o);}); }
+function applyFilters(){const q=els.searchInput.value.trim().toLowerCase(),c=els.championFilter.value,p=els.positionFilter.value,r=els.resultFilter.value;state.filtered=state.matches.filter(m=>{const h=`${m.matchId} ${m.championName} ${m.position} ${m.opponent}`.toLowerCase();return (!q||h.includes(q))&&(!c||m.championName===c)&&(!p||m.position===p)&&(!r||(r==='win'?m.win:!m.win));});renderMatches();}
 
-function fillChampionFilter() {
-  const names = [...new Set(state.matches.map(m => m.championName))].sort((a, b) => a.localeCompare(b));
-  for (const name of names) {
-    const opt = document.createElement('option');
-    opt.value = name;
-    opt.textContent = name;
-    els.championFilter.appendChild(opt);
-  }
-}
+function renderMatches(){els.matchList.innerHTML='';els.resultCount.textContent=`${n(state.filtered.length)}경기`;els.emptyState.hidden=state.matches.length!==0;const f=document.createDocumentFragment();for(const m of state.filtered.slice(0,200)){const card=document.createElement('article');card.className=`match ${m.win?'win':'loss'}`;card.tabIndex=0;card.setAttribute('role','button');card.setAttribute('aria-expanded','false');card.innerHTML=`<div><div class="result">${m.win?'승리':'패배'}</div><div class="meta">${fmtDuration(m.gameDuration)}</div></div><div><div class="champ">${escapeHtml(m.championName)}</div><div class="meta">${escapeHtml(m.position||'-')} · ${fmtDate(m.gameCreation)}</div></div><div><div class="kda">${m.kills} / ${m.deaths} / ${m.assists}</div><div class="meta">CS ${n(m.cs)} · Gold ${n(m.gold)}</div></div><div><div>${n(m.damage)}</div><div class="meta">챔피언 피해량</div></div><div><div class="enemy-list">라인 상대: ${escapeHtml(m.opponent||'-')}</div><div class="match-id">${escapeHtml(m.matchId)}</div><div class="meta detail-hint">클릭하면 상세 요약 불러오기</div></div>`;const t=()=>toggleDetail(card,m);card.addEventListener('click',t);card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});f.appendChild(card);}els.matchList.appendChild(f);}
 
-function applyFilters() {
-  const q = els.searchInput.value.trim().toLowerCase();
-  const champ = els.championFilter.value;
-  const pos = els.positionFilter.value;
-  const result = els.resultFilter.value;
+async function toggleDetail(card,match){const old=card.querySelector('.match-detail');if(old){old.hidden=!old.hidden;card.setAttribute('aria-expanded',String(!old.hidden));return;}const panel=document.createElement('div');panel.className='match-detail';panel.innerHTML='<p class="muted">상세 데이터를 불러오는 중…</p>';card.appendChild(panel);let d=state.details.get(match.matchId);if(!d){d=await loadJson(`./data/${match.detailPath}`,null);if(d)state.details.set(match.matchId,d);}panel.innerHTML=d?renderDetail(d):'<p class="muted">상세 JSON을 불러오지 못했습니다.</p>';}
 
-  state.filtered = state.matches.filter(m => {
-    const haystack = `${m.matchId} ${m.championName} ${m.position} ${m.opponent}`.toLowerCase();
-    if (q && !haystack.includes(q)) return false;
-    if (champ && m.championName !== champ) return false;
-    if (pos && m.position !== pos) return false;
-    if (result === 'win' && !m.win) return false;
-    if (result === 'loss' && m.win) return false;
-    return true;
-  });
-  renderMatches();
-}
+function renderDetail(d){const opp=d.laneOpponent,t=d.timeline||{},snaps=t.earlySnapshots||t.snapshots||[],team=[d.me,...(d.teammates||[])].filter(Boolean),enemies=d.enemies||[],meId=d.me?.participantId,all=[...team,...enemies],nameMap=new Map(all.map(p=>[p.participantId,p.riotId||p.championName||`P${p.participantId}`]));const rows=snaps.map(s=>`<tr><td>${s.minute}분</td><td>${n(s.me?.gold)}</td><td>${fmtDiff(s.goldDiff)}</td><td>${s.me?.cs??'-'}</td><td>${fmtDiff(s.csDiff)}</td><td>${s.me?.level??'-'}</td><td>${fmtDiff(s.levelDiff)}</td><td>${fmtDiff(s.xpDiff)}</td></tr>`).join('');const kills=(t.events||[]).filter(e=>e.type==='CHAMPION_KILL');const fights=kills.slice(0,12).map(e=>`<li class="${e.killerId===meId||e.victimId===meId||(e.assistingParticipantIds||[]).includes(meId)?'mine':''}"><strong>${fmtDuration((e.timestamp||0)/1000)}</strong> ${escapeHtml(nameMap.get(e.killerId)||e.killerChampion||'?')} → ${escapeHtml(nameMap.get(e.victimId)||e.victimChampion||'?')}</li>`).join('');const spells=(p)=>(p?.summonerSpells||[]).map(s=>s.nameKo||s.id).join(' + ')||'-';return `<div class="detail-grid"><div class="detail-block"><h3>라인 매치업</h3><p><strong>${escapeHtml(d.championName||'-')}</strong> vs <strong>${escapeHtml(opp?.championName||'확인 불가')}</strong></p><p class="meta">내 Riot ID: ${escapeHtml(d.me?.riotId||'-')} · ${escapeHtml(spells(d.me))}</p><p class="meta">상대 Riot ID: ${escapeHtml(opp?.riotId||'-')} · ${escapeHtml(spells(opp))}</p></div><div class="detail-block"><h3>팀</h3><p class="meta">아군: ${team.map(p=>escapeHtml(p.riotId||p.championName)).join(' · ')}</p><p class="meta">적군: ${enemies.map(p=>escapeHtml(p.riotId||p.championName)).join(' · ')}</p></div></div>${rows?`<div class="detail-block"><h3>라인 스냅샷</h3><div class="table-scroll"><table class="snapshot-table"><thead><tr><th>시점</th><th>Gold</th><th>골드차</th><th>CS</th><th>CS차</th><th>Lv</th><th>Lv차</th><th>XP차</th></tr></thead><tbody>${rows}</tbody></table></div></div>`:''}${fights?`<details class="event-details"><summary>전체 킬 이벤트 보기</summary><ul>${fights}</ul></details>`:''}<a class="json-link" href="./data/matches/${encodeURIComponent(d.matchId)}.json" target="_blank" rel="noopener">이 경기 상세 JSON 열기</a>`;}
 
-function renderMatches() {
-  els.matchList.innerHTML = '';
-  els.resultCount.textContent = `${state.filtered.length.toLocaleString('ko-KR')}경기`;
-  els.emptyState.hidden = state.matches.length !== 0;
+function statCard(label,value,sub=''){return `<article class="metric-card card"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong>${sub?`<small>${escapeHtml(sub)}</small>`:''}</article>`;}
+function statsTable(headers,rows){return `<table class="stats-table"><thead><tr>${headers.map(h=>`<th>${escapeHtml(h)}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table>`;}
 
-  const frag = document.createDocumentFragment();
-  for (const m of state.filtered.slice(0, 200)) {
-    const card = document.createElement('article');
-    card.className = `match ${m.win ? 'win' : 'loss'}`;
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-    card.setAttribute('aria-expanded', 'false');
-    card.dataset.matchId = m.matchId;
-    card.innerHTML = `
-      <div>
-        <div class="result">${m.win ? '승리' : '패배'}</div>
-        <div class="meta">${fmtDuration(m.gameDuration)}</div>
-      </div>
-      <div>
-        <div class="champ">${escapeHtml(m.championName)}</div>
-        <div class="meta">${escapeHtml(m.position || '-')} · ${fmtDate(m.gameCreation)}</div>
-      </div>
-      <div>
-        <div class="kda">${m.kills} / ${m.deaths} / ${m.assists}</div>
-        <div class="meta">CS ${Number(m.cs || 0).toLocaleString('ko-KR')} · Gold ${Number(m.gold || 0).toLocaleString('ko-KR')}</div>
-      </div>
-      <div>
-        <div>${Number(m.damage || 0).toLocaleString('ko-KR')}</div>
-        <div class="meta">챔피언 피해량</div>
-      </div>
-      <div>
-        <div class="enemy-list">라인 상대: ${escapeHtml(m.opponent || '-')}</div>
-        <div class="match-id">${escapeHtml(m.matchId)}</div>
-        <div class="meta detail-hint">클릭하면 상세 요약 불러오기</div>
-      </div>`;
+async function loadStats(){if(state.stats.loaded)return;const [overview,positions,champions,teammates,summoners]=await Promise.all([loadJson('./data/stats/overview.json',null),loadJson('./data/stats/positions.json',[]),loadJson('./data/stats/champions.json',[]),loadJson('./data/stats/teammates.json',[]),loadJson('./data/stats/summoners.json',[])]);state.stats={loaded:true,overview,positions,champions,teammates,summoners};renderOverview();renderChampions();renderTeammates();}
 
-    const toggle = () => toggleDetail(card, m);
-    card.addEventListener('click', toggle);
-    card.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        toggle();
-      }
-    });
-    frag.appendChild(card);
-  }
-  els.matchList.appendChild(frag);
-}
+function renderOverview(){const o=state.stats.overview;if(!o){els.statsOverview.innerHTML='<p class="muted">통계 데이터가 아직 없습니다. update_site_data.bat을 실행해주세요.</p>';return;}els.statsOverview.innerHTML=statCard('전체 경기',n(o.games||o.matchCount))+statCard('승률',fmtPct(o.winRate))+statCard('평균 KDA',String(o.kdaRatio??'-'))+statCard('평균 CS',String(o.avgCs??'-'))+statCard('평균 골드',n(o.avgGold))+statCard('평균 피해량',n(o.avgDamage));const posRows=(state.stats.positions||[]).map(p=>`<tr><td>${escapeHtml(p.position)}</td><td>${n(p.games)}</td><td>${fmtPct(p.winRate)}</td><td>${p.avgKills??'-'} / ${p.avgDeaths??'-'} / ${p.avgAssists??'-'}</td><td>${p.lane?.['10']?.avgGoldDiff??'-'}</td><td>${p.lane?.['10']?.avgCsDiff??'-'}</td></tr>`);els.positionStats.innerHTML=statsTable(['포지션','경기','승률','평균 K/D/A','10분 골드차','10분 CS차'],posRows);const sRows=(state.stats.summoners||[]).slice(0,30).map(s=>`<tr><td>${escapeHtml(s.champion)}</td><td>${escapeHtml(s.position)}</td><td>${escapeHtml(s.summoners)}</td><td>${n(s.games)}</td><td>${fmtPct(s.winRate)}</td></tr>`);els.summonerStats.innerHTML=statsTable(['챔피언','포지션','주문','경기','승률'],sRows);}
 
-async function toggleDetail(card, match) {
-  const existing = card.querySelector('.match-detail');
-  if (existing) {
-    const hidden = existing.hidden;
-    existing.hidden = !hidden;
-    card.setAttribute('aria-expanded', String(hidden));
-    return;
-  }
+function renderChampions(){const q=(els.championStatsSearch?.value||'').trim().toLowerCase();const list=(state.stats.champions||[]).filter(c=>!q||String(c.champion).toLowerCase().includes(q));els.championStats.innerHTML=list.map(c=>`<article class="stats-card card"><div class="stats-card-head"><div><p class="section-kicker">${n(c.games)} GAMES</p><h3>${escapeHtml(c.champion)}</h3></div><strong>${fmtPct(c.winRate)}</strong></div><div class="mini-metrics"><span>KDA ${c.kdaRatio??'-'}</span><span>평균 CS ${c.avgCs??'-'}</span><span>평균 피해 ${n(c.avgDamage)}</span></div>${c.positions?`<div class="chip-row">${Object.entries(c.positions).map(([p,v])=>`<span class="stat-chip">${escapeHtml(p)} ${n(v.games)}판 · ${fmtPct(v.winRate)}</span>`).join('')}</div>`:''}</article>`).join('')||'<p class="muted">검색 결과가 없습니다.</p>';}
 
-  card.setAttribute('aria-expanded', 'true');
-  const panel = document.createElement('div');
-  panel.className = 'match-detail';
-  panel.innerHTML = '<p class="muted">상세 데이터를 불러오는 중…</p>';
-  card.appendChild(panel);
+function renderTeammates(){const q=(els.teammateSearch?.value||'').trim().toLowerCase();const list=(state.stats.teammates||[]).filter(p=>!q||String(p.riotId).toLowerCase().includes(q));els.teammateStats.innerHTML=list.slice(0,200).map(p=>`<article class="stats-card card"><div class="stats-card-head"><div><p class="section-kicker">${n(p.games)} GAMES TOGETHER</p><h3>${escapeHtml(p.riotId)}</h3></div><strong>${fmtPct(p.winRate)}</strong></div><div class="mini-metrics"><span>${n(p.wins)}승 ${n(p.losses)}패</span><span>내 평균 KDA ${p.kdaRatio??'-'}</span></div>${(p.myChampionPositionPairs||[]).length?`<div class="chip-row">${p.myChampionPositionPairs.slice(0,8).map(x=>`<span class="stat-chip">${escapeHtml(x.champion)} ${escapeHtml(x.position)} · ${n(x.games)}판</span>`).join('')}</div>`:''}</article>`).join('')||'<p class="muted">검색 결과가 없습니다.</p>';}
 
-  let detail = state.details.get(match.matchId);
-  if (!detail) {
-    detail = await loadJson(`./data/${match.detailPath}`, null);
-    if (detail) state.details.set(match.matchId, detail);
-  }
+async function switchTab(name){document.querySelectorAll('.tab-button').forEach(b=>b.classList.toggle('active',b.dataset.tab===name));document.querySelectorAll('.tab-panel').forEach(p=>{const on=p.dataset.panel===name;p.hidden=!on;p.classList.toggle('active',on);});if(name!=='matches')await loadStats();}
 
-  if (!detail) {
-    panel.innerHTML = '<p class="muted">상세 JSON을 불러오지 못했습니다. 데이터 갱신 후 다시 시도해주세요.</p>';
-    return;
-  }
-  panel.innerHTML = renderDetail(detail);
-}
-
-function renderDetail(detail) {
-  const opponent = detail.laneOpponent;
-  const timeline = detail.timeline || {};
-  const snapshots = timeline.snapshots || [];
-  const team = [detail.me, ...(detail.teammates || [])].filter(Boolean);
-  const enemies = detail.enemies || [];
-  const meId = detail.me?.participantId;
-
-  const participantName = new Map(
-    [...team, ...enemies].filter(Boolean).map(p => [p.participantId, p.championName || `P${p.participantId}`])
-  );
-
-  const snapshotRows = snapshots.map(s => `
-    <tr>
-      <td>${s.minute}분</td>
-      <td>${Number(s.me?.gold || 0).toLocaleString('ko-KR')}</td>
-      <td>${fmtDiff(s.goldDiff)}</td>
-      <td>${s.me?.cs ?? '-'}</td>
-      <td>${fmtDiff(s.csDiff)}</td>
-      <td>${s.me?.level ?? '-'}</td>
-      <td>${fmtDiff(s.levelDiff)}</td>
-    </tr>`).join('');
-
-  const championEvents = (timeline.events || []).filter(e => e.type === 'CHAMPION_KILL');
-  const myFirstKill = championEvents.find(e => e.killerId === meId);
-  const myFirstDeath = championEvents.find(e => e.victimId === meId);
-  const myFirstAssist = championEvents.find(e => (e.assistingParticipantIds || []).includes(meId));
-
-  const eventTime = (e) => e ? fmtDuration((e.timestamp || 0) / 1000) : '-';
-  const comp = (rows) => rows.map(p => escapeHtml(p.championName || '?')).join(' · ') || '-';
-
-  const recentFightEvents = championEvents.slice(0, 8).map(e => {
-    const killer = participantName.get(e.killerId) || `P${e.killerId ?? '?'}`;
-    const victim = participantName.get(e.victimId) || `P${e.victimId ?? '?'}`;
-    const mine = e.killerId === meId || e.victimId === meId || (e.assistingParticipantIds || []).includes(meId);
-    return `<li class="${mine ? 'mine' : ''}"><strong>${fmtDuration((e.timestamp || 0) / 1000)}</strong> ${escapeHtml(killer)} → ${escapeHtml(victim)}</li>`;
-  }).join('');
-
-  return `
-    <div class="detail-grid">
-      <div class="detail-block">
-        <h3>라인 매치업</h3>
-        <p><strong>${escapeHtml(detail.championName || '-')}</strong> vs <strong>${escapeHtml(opponent?.championName || '확인 불가')}</strong></p>
-        <p class="meta">내 최종: ${detail.kills}/${detail.deaths}/${detail.assists} · CS ${detail.cs} · Gold ${Number(detail.gold || 0).toLocaleString('ko-KR')}</p>
-        ${opponent ? `<p class="meta">상대 최종: ${opponent.kills}/${opponent.deaths}/${opponent.assists} · CS ${(opponent.totalMinionsKilled || 0) + (opponent.neutralMinionsKilled || 0)} · Gold ${Number(opponent.goldEarned || 0).toLocaleString('ko-KR')}</p>` : ''}
-      </div>
-      <div class="detail-block">
-        <h3>첫 관여 시점</h3>
-        <p class="meta">첫 킬 ${eventTime(myFirstKill)} · 첫 데스 ${eventTime(myFirstDeath)} · 첫 어시스트 ${eventTime(myFirstAssist)}</p>
-        <p class="meta">아군: ${comp(team)}</p>
-        <p class="meta">적군: ${comp(enemies)}</p>
-      </div>
-    </div>
-    ${snapshotRows ? `
-      <div class="detail-block">
-        <h3>라인 스냅샷</h3>
-        <div class="table-scroll">
-          <table class="snapshot-table">
-            <thead><tr><th>시점</th><th>Gold</th><th>골드차</th><th>CS</th><th>CS차</th><th>Lv</th><th>Lv차</th></tr></thead>
-            <tbody>${snapshotRows}</tbody>
-          </table>
-        </div>
-      </div>` : '<p class="muted">이 경기에는 타임라인 스냅샷이 없습니다.</p>'}
-    ${recentFightEvents ? `
-      <details class="event-details">
-        <summary>내가 관여한 킬 이벤트 보기</summary>
-        <ul>${recentFightEvents}</ul>
-      </details>` : ''}
-    <a class="json-link" href="./data/matches/${encodeURIComponent(detail.matchId)}.json" target="_blank" rel="noopener">이 경기 상세 JSON 열기</a>`;
-}
-
-function escapeHtml(v) {
-  return String(v ?? '').replace(/[&<>'"]/g, ch => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
-  }[ch]));
-}
-
-async function init() {
-  const profilePromise = loadJson('./data/profile.json', {});
-  let rawCatalog = await loadJson('./data/catalog.json', null);
-  if (!Array.isArray(rawCatalog)) {
-    rawCatalog = await loadJson('./data/matches.json', []);
-  }
-  const profile = await profilePromise;
-
-  state.profile = profile;
-  state.matches = (Array.isArray(rawCatalog) ? rawCatalog : []).map(normalizeMatch)
-    .sort((a, b) => (b.gameCreation ?? 0) - (a.gameCreation ?? 0));
-  state.filtered = [...state.matches];
-
-  els.accountLine.textContent = profile.riotId ?? '발린이#극악무도';
-  els.syncBadge.textContent = profile.updatedAt ? `업데이트 ${fmtDate(profile.updatedAt)}` : '데이터 준비 중';
-  renderStats();
-  fillChampionFilter();
-  renderMatches();
-
-  [els.searchInput, els.championFilter, els.positionFilter, els.resultFilter]
-    .forEach(el => el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', applyFilters));
-}
+async function init(){const profileP=loadJson('./data/profile.json',{});let raw=await loadJson('./data/catalog.json',null);if(!Array.isArray(raw))raw=await loadJson('./data/matches.json',[]);state.profile=await profileP;state.matches=(Array.isArray(raw)?raw:[]).map(normalizeMatch).sort((a,b)=>(b.gameCreation??0)-(a.gameCreation??0));state.filtered=[...state.matches];els.accountLine.textContent=state.profile.riotId??'발린이#극악무도';els.syncBadge.textContent=state.profile.updatedAt?`업데이트 ${fmtDate(state.profile.updatedAt)}`:'데이터 준비 중';renderHero();fillChampionFilter();renderMatches();[els.searchInput,els.championFilter,els.positionFilter,els.resultFilter].forEach(el=>el.addEventListener(el.tagName==='INPUT'?'input':'change',applyFilters));document.querySelectorAll('.tab-button').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab)));els.championStatsSearch?.addEventListener('input',renderChampions);els.teammateSearch?.addEventListener('input',renderTeammates);}
 
 init();
