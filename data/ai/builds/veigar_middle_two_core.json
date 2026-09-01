@@ -1,0 +1,5452 @@
+{
+  "champion": "Veigar",
+  "position": "MIDDLE",
+  "sampleCount": 188,
+  "matchesWithRecognizedTwoCore": 130,
+  "notes": [
+    "Two-core order is based on ITEM_PURCHASED timestamps.",
+    "Checkpoint diffs compare Veigar with the inferred MIDDLE lane opponent.",
+    "Only checkpoints before the exact match end are included.",
+    "Two-core samples exclude games that ended before a second recognized core was completed."
+  ],
+  "groups": [
+    {
+      "combo": "루덴의 동반자 → 폭풍쇄도",
+      "games": 69,
+      "wins": 42,
+      "losses": 27,
+      "winRate": 0.6087,
+      "avgSecondCoreMinute": 20.44,
+      "opponents": [
+        {
+          "champion": "Sylas",
+          "games": 7
+        },
+        {
+          "champion": "Akali",
+          "games": 5
+        },
+        {
+          "champion": "Yasuo",
+          "games": 5
+        },
+        {
+          "champion": "Yone",
+          "games": 5
+        },
+        {
+          "champion": "Mel",
+          "games": 4
+        },
+        {
+          "champion": "Aurora",
+          "games": 4
+        },
+        {
+          "champion": "Xerath",
+          "games": 3
+        },
+        {
+          "champion": "Ryze",
+          "games": 3
+        },
+        {
+          "champion": "Talon",
+          "games": 2
+        },
+        {
+          "champion": "Zed",
+          "games": 2
+        },
+        {
+          "champion": "Azir",
+          "games": 2
+        },
+        {
+          "champion": "Lux",
+          "games": 2
+        },
+        {
+          "champion": "Akshan",
+          "games": 2
+        },
+        {
+          "champion": "Cassiopeia",
+          "games": 2
+        },
+        {
+          "champion": "Ahri",
+          "games": 2
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 2
+        },
+        {
+          "champion": "Syndra",
+          "games": 1
+        },
+        {
+          "champion": "Zoe",
+          "games": 1
+        },
+        {
+          "champion": "Vex",
+          "games": 1
+        },
+        {
+          "champion": "Brand",
+          "games": 1
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1
+        },
+        {
+          "champion": "Zilean",
+          "games": 1
+        },
+        {
+          "champion": "Orianna",
+          "games": 1
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1
+        },
+        {
+          "champion": "Volibear",
+          "games": 1
+        },
+        {
+          "champion": "Tristana",
+          "games": 1
+        },
+        {
+          "champion": "Varus",
+          "games": 1
+        },
+        {
+          "champion": "Morgana",
+          "games": 1
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1
+        },
+        {
+          "champion": "Smolder",
+          "games": 1
+        },
+        {
+          "champion": "Hwei",
+          "games": 1
+        },
+        {
+          "champion": "Lissandra",
+          "games": 1
+        },
+        {
+          "champion": "Corki",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 69,
+            "avg": 43.04,
+            "median": -105,
+            "ahead": 31,
+            "behind": 38,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 69,
+            "avg": -4.35,
+            "median": -7,
+            "ahead": 21,
+            "behind": 48,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 69,
+            "avg": 0.29,
+            "median": 0,
+            "ahead": 29,
+            "behind": 11,
+            "even": 29
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 69,
+            "avg": 188.71,
+            "median": 79,
+            "ahead": 38,
+            "behind": 31,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 69,
+            "avg": -1.09,
+            "median": -5,
+            "ahead": 26,
+            "behind": 43,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 69,
+            "avg": 0.57,
+            "median": 0,
+            "ahead": 34,
+            "behind": 10,
+            "even": 25
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 63,
+            "avg": 148.35,
+            "median": 428,
+            "ahead": 39,
+            "behind": 24,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 63,
+            "avg": -1.44,
+            "median": -4,
+            "ahead": 30,
+            "behind": 33,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 63,
+            "avg": 0.4,
+            "median": 0,
+            "ahead": 30,
+            "behind": 14,
+            "even": 19
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8312239693",
+          "gameCreation": 1784902154706,
+          "gameDuration": 2069,
+          "opponent": "Sylas",
+          "win": false,
+          "kills": 4,
+          "deaths": 12,
+          "assists": 8,
+          "firstCoreTimestamp": 629729,
+          "secondCoreTimestamp": 2051117,
+          "snapshots": {
+            "10": {
+              "goldDiff": -965,
+              "csDiff": -3,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -2228,
+              "csDiff": -5,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -4181,
+              "csDiff": -12,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8312160930",
+          "gameCreation": 1784899988963,
+          "gameDuration": 1750,
+          "opponent": "Talon",
+          "win": false,
+          "kills": 0,
+          "deaths": 3,
+          "assists": 0,
+          "firstCoreTimestamp": 732232,
+          "secondCoreTimestamp": 1512678,
+          "snapshots": {
+            "10": {
+              "goldDiff": -375,
+              "csDiff": -18,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1012,
+              "csDiff": -11,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1015,
+              "csDiff": -3,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8312086991",
+          "gameCreation": 1784897849315,
+          "gameDuration": 1563,
+          "opponent": "Syndra",
+          "win": true,
+          "kills": 8,
+          "deaths": 0,
+          "assists": 4,
+          "firstCoreTimestamp": 652153,
+          "secondCoreTimestamp": 1246462,
+          "snapshots": {
+            "10": {
+              "goldDiff": -149,
+              "csDiff": -5,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -93,
+              "csDiff": -8,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 172,
+              "csDiff": -12,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8240516777",
+          "gameCreation": 1780259070385,
+          "gameDuration": 1805,
+          "opponent": "Xerath",
+          "win": false,
+          "kills": 5,
+          "deaths": 3,
+          "assists": 4,
+          "firstCoreTimestamp": 698403,
+          "secondCoreTimestamp": 1319143,
+          "snapshots": {
+            "10": {
+              "goldDiff": 387,
+              "csDiff": -1,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1857,
+              "csDiff": 10,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1574,
+              "csDiff": 14,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8238594168",
+          "gameCreation": 1780154507825,
+          "gameDuration": 1607,
+          "opponent": "Zoe",
+          "win": false,
+          "kills": 3,
+          "deaths": 4,
+          "assists": 5,
+          "firstCoreTimestamp": 574745,
+          "secondCoreTimestamp": 1215025,
+          "snapshots": {
+            "10": {
+              "goldDiff": 302,
+              "csDiff": -11,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 649,
+              "csDiff": 4,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 627,
+              "csDiff": 8,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8236825642",
+          "gameCreation": 1780065914844,
+          "gameDuration": 1636,
+          "opponent": "Sylas",
+          "win": true,
+          "kills": 7,
+          "deaths": 3,
+          "assists": 7,
+          "firstCoreTimestamp": 685167,
+          "secondCoreTimestamp": 1189975,
+          "snapshots": {
+            "10": {
+              "goldDiff": -251,
+              "csDiff": -15,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -1185,
+              "csDiff": -23,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -808,
+              "csDiff": -16,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8236552630",
+          "gameCreation": 1780058497029,
+          "gameDuration": 1897,
+          "opponent": "Sylas",
+          "win": false,
+          "kills": 12,
+          "deaths": 3,
+          "assists": 8,
+          "firstCoreTimestamp": 793881,
+          "secondCoreTimestamp": 1077936,
+          "snapshots": {
+            "10": {
+              "goldDiff": 88,
+              "csDiff": 6,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 1147,
+              "csDiff": 22,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 2810,
+              "csDiff": 21,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8228279760",
+          "gameCreation": 1779538027823,
+          "gameDuration": 2166,
+          "opponent": "Akali",
+          "win": true,
+          "kills": 7,
+          "deaths": 4,
+          "assists": 7,
+          "firstCoreTimestamp": 612517,
+          "secondCoreTimestamp": 1286934,
+          "snapshots": {
+            "10": {
+              "goldDiff": 865,
+              "csDiff": 10,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1194,
+              "csDiff": 20,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 1528,
+              "csDiff": 20,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8221126665",
+          "gameCreation": 1779045603481,
+          "gameDuration": 1204,
+          "opponent": "Akali",
+          "win": false,
+          "kills": 6,
+          "deaths": 2,
+          "assists": 2,
+          "firstCoreTimestamp": 811698,
+          "secondCoreTimestamp": 1025882,
+          "snapshots": {
+            "10": {
+              "goldDiff": 680,
+              "csDiff": 12,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1666,
+              "csDiff": 23,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1564,
+              "csDiff": 26,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8209791851",
+          "gameCreation": 1778343948817,
+          "gameDuration": 2413,
+          "opponent": "Zed",
+          "win": true,
+          "kills": 5,
+          "deaths": 3,
+          "assists": 11,
+          "firstCoreTimestamp": 618625,
+          "secondCoreTimestamp": 1177450,
+          "snapshots": {
+            "10": {
+              "goldDiff": -45,
+              "csDiff": -9,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -385,
+              "csDiff": -4,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 428,
+              "csDiff": -8,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8206765564",
+          "gameCreation": 1778171695550,
+          "gameDuration": 1818,
+          "opponent": "Yasuo",
+          "win": true,
+          "kills": 5,
+          "deaths": 6,
+          "assists": 8,
+          "firstCoreTimestamp": 764357,
+          "secondCoreTimestamp": 1476082,
+          "snapshots": {
+            "10": {
+              "goldDiff": -659,
+              "csDiff": -6,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -746,
+              "csDiff": -6,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1034,
+              "csDiff": -19,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8206632472",
+          "gameCreation": 1778165486553,
+          "gameDuration": 2846,
+          "opponent": "Akali",
+          "win": true,
+          "kills": 12,
+          "deaths": 10,
+          "assists": 8,
+          "firstCoreTimestamp": 591545,
+          "secondCoreTimestamp": 1346449,
+          "snapshots": {
+            "10": {
+              "goldDiff": -368,
+              "csDiff": -14,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -253,
+              "csDiff": -8,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 132,
+              "csDiff": 7,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8198758991",
+          "gameCreation": 1777729852409,
+          "gameDuration": 1538,
+          "opponent": "Vex",
+          "win": false,
+          "kills": 4,
+          "deaths": 2,
+          "assists": 2,
+          "firstCoreTimestamp": 741553,
+          "secondCoreTimestamp": 1369604,
+          "snapshots": {
+            "10": {
+              "goldDiff": 23,
+              "csDiff": -7,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 79,
+              "csDiff": 3,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 213,
+              "csDiff": 6,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8198482117",
+          "gameCreation": 1777722081663,
+          "gameDuration": 1887,
+          "opponent": "Sylas",
+          "win": true,
+          "kills": 10,
+          "deaths": 4,
+          "assists": 7,
+          "firstCoreTimestamp": 590722,
+          "secondCoreTimestamp": 1230500,
+          "snapshots": {
+            "10": {
+              "goldDiff": 823,
+              "csDiff": 21,
+              "levelDiff": 2
+            },
+            "15": {
+              "goldDiff": 2115,
+              "csDiff": 43,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 1730,
+              "csDiff": 41,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8198379754",
+          "gameCreation": 1777718954573,
+          "gameDuration": 1984,
+          "opponent": "Sylas",
+          "win": true,
+          "kills": 11,
+          "deaths": 5,
+          "assists": 9,
+          "firstCoreTimestamp": 709086,
+          "secondCoreTimestamp": 1216938,
+          "snapshots": {
+            "10": {
+              "goldDiff": 300,
+              "csDiff": 14,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1609,
+              "csDiff": 34,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1936,
+              "csDiff": 51,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8198342619",
+          "gameCreation": 1777717308495,
+          "gameDuration": 1193,
+          "opponent": "Azir",
+          "win": false,
+          "kills": 2,
+          "deaths": 3,
+          "assists": 3,
+          "firstCoreTimestamp": 591918,
+          "secondCoreTimestamp": 845022,
+          "snapshots": {
+            "10": {
+              "goldDiff": 446,
+              "csDiff": -18,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 40,
+              "csDiff": -17,
+              "levelDiff": 0
+            },
+            "20": null
+          }
+        },
+        {
+          "matchId": "KR_8198281250",
+          "gameCreation": 1777714721476,
+          "gameDuration": 1456,
+          "opponent": "Yone",
+          "win": false,
+          "kills": 7,
+          "deaths": 6,
+          "assists": 11,
+          "firstCoreTimestamp": 330874,
+          "secondCoreTimestamp": 501767,
+          "snapshots": {
+            "10": {
+              "goldDiff": 2597,
+              "csDiff": -14,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1765,
+              "csDiff": -9,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 902,
+              "csDiff": -18,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8198158546",
+          "gameCreation": 1777710319338,
+          "gameDuration": 1219,
+          "opponent": "Mel",
+          "win": true,
+          "kills": 8,
+          "deaths": 0,
+          "assists": 2,
+          "firstCoreTimestamp": 625892,
+          "secondCoreTimestamp": 1049748,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1052,
+              "csDiff": 1,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 2603,
+              "csDiff": 25,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 3402,
+              "csDiff": 57,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8161407335",
+          "gameCreation": 1775316067228,
+          "gameDuration": 1906,
+          "opponent": "Xerath",
+          "win": false,
+          "kills": 2,
+          "deaths": 9,
+          "assists": 3,
+          "firstCoreTimestamp": 750255,
+          "secondCoreTimestamp": 1647993,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1056,
+              "csDiff": -29,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -2379,
+              "csDiff": -49,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -3306,
+              "csDiff": -56,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8161331468",
+          "gameCreation": 1775313975839,
+          "gameDuration": 1830,
+          "opponent": "Mel",
+          "win": true,
+          "kills": 2,
+          "deaths": 6,
+          "assists": 9,
+          "firstCoreTimestamp": 809540,
+          "secondCoreTimestamp": 1555419,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1559,
+              "csDiff": -33,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -3426,
+              "csDiff": -59,
+              "levelDiff": -2
+            },
+            "20": {
+              "goldDiff": -4724,
+              "csDiff": -76,
+              "levelDiff": -3
+            }
+          }
+        },
+        {
+          "matchId": "KR_8161220229",
+          "gameCreation": 1775310746234,
+          "gameDuration": 1368,
+          "opponent": "Lux",
+          "win": false,
+          "kills": 2,
+          "deaths": 6,
+          "assists": 4,
+          "firstCoreTimestamp": 266075,
+          "secondCoreTimestamp": 679424,
+          "snapshots": {
+            "10": {
+              "goldDiff": 444,
+              "csDiff": 32,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 438,
+              "csDiff": 49,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 105,
+              "csDiff": 68,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8154119007",
+          "gameCreation": 1774791366619,
+          "gameDuration": 2150,
+          "opponent": "Brand",
+          "win": true,
+          "kills": 10,
+          "deaths": 2,
+          "assists": 5,
+          "firstCoreTimestamp": 627174,
+          "secondCoreTimestamp": 1424929,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1093,
+              "csDiff": 13,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1846,
+              "csDiff": 28,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 1945,
+              "csDiff": 39,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8153976984",
+          "gameCreation": 1774787774058,
+          "gameDuration": 2288,
+          "opponent": "Xerath",
+          "win": true,
+          "kills": 11,
+          "deaths": 6,
+          "assists": 13,
+          "firstCoreTimestamp": 771781,
+          "secondCoreTimestamp": 1228336,
+          "snapshots": {
+            "10": {
+              "goldDiff": -678,
+              "csDiff": -15,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -800,
+              "csDiff": -26,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1804,
+              "csDiff": -20,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8152025965",
+          "gameCreation": 1774693643533,
+          "gameDuration": 1959,
+          "opponent": "Ryze",
+          "win": false,
+          "kills": 4,
+          "deaths": 8,
+          "assists": 6,
+          "firstCoreTimestamp": 679543,
+          "secondCoreTimestamp": 1379018,
+          "snapshots": {
+            "10": {
+              "goldDiff": -757,
+              "csDiff": -15,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -593,
+              "csDiff": -26,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -2547,
+              "csDiff": -61,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8141520300",
+          "gameCreation": 1774014639859,
+          "gameDuration": 2115,
+          "opponent": "Lux",
+          "win": false,
+          "kills": 4,
+          "deaths": 7,
+          "assists": 3,
+          "firstCoreTimestamp": 847062,
+          "secondCoreTimestamp": 1445494,
+          "snapshots": {
+            "10": {
+              "goldDiff": 19,
+              "csDiff": 7,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 1041,
+              "csDiff": 30,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 1037,
+              "csDiff": 41,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8133383927",
+          "gameCreation": 1773493204182,
+          "gameDuration": 1844,
+          "opponent": "Aurora",
+          "win": false,
+          "kills": 7,
+          "deaths": 6,
+          "assists": 9,
+          "firstCoreTimestamp": 645510,
+          "secondCoreTimestamp": 1214214,
+          "snapshots": {
+            "10": {
+              "goldDiff": -300,
+              "csDiff": -3,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 692,
+              "csDiff": 10,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1350,
+              "csDiff": 13,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8133320655",
+          "gameCreation": 1773491459465,
+          "gameDuration": 1404,
+          "opponent": "Hecarim",
+          "win": true,
+          "kills": 5,
+          "deaths": 0,
+          "assists": 8,
+          "firstCoreTimestamp": 602028,
+          "secondCoreTimestamp": 1178381,
+          "snapshots": {
+            "10": {
+              "goldDiff": 580,
+              "csDiff": 26,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1233,
+              "csDiff": 38,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 1887,
+              "csDiff": 44,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8127704888",
+          "gameCreation": 1773148031653,
+          "gameDuration": 2049,
+          "opponent": "Sylas",
+          "win": true,
+          "kills": 5,
+          "deaths": 2,
+          "assists": 13,
+          "firstCoreTimestamp": 598603,
+          "secondCoreTimestamp": 1207951,
+          "snapshots": {
+            "10": {
+              "goldDiff": 508,
+              "csDiff": 32,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 929,
+              "csDiff": 60,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 583,
+              "csDiff": 66,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8126493248",
+          "gameCreation": 1773063085927,
+          "gameDuration": 1547,
+          "opponent": "Yasuo",
+          "win": true,
+          "kills": 7,
+          "deaths": 1,
+          "assists": 7,
+          "firstCoreTimestamp": 653999,
+          "secondCoreTimestamp": 1185903,
+          "snapshots": {
+            "10": {
+              "goldDiff": -495,
+              "csDiff": -22,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -48,
+              "csDiff": -15,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 876,
+              "csDiff": -21,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8126407585",
+          "gameCreation": 1773060642880,
+          "gameDuration": 2085,
+          "opponent": "Yone",
+          "win": false,
+          "kills": 7,
+          "deaths": 8,
+          "assists": 4,
+          "firstCoreTimestamp": 735151,
+          "secondCoreTimestamp": 1363982,
+          "snapshots": {
+            "10": {
+              "goldDiff": -584,
+              "csDiff": -3,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -1532,
+              "csDiff": -1,
+              "levelDiff": -2
+            },
+            "20": {
+              "goldDiff": -977,
+              "csDiff": 7,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8121215491",
+          "gameCreation": 1772799871558,
+          "gameDuration": 3068,
+          "opponent": "Zed",
+          "win": false,
+          "kills": 8,
+          "deaths": 13,
+          "assists": 17,
+          "firstCoreTimestamp": 865795,
+          "secondCoreTimestamp": 1701620,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1092,
+              "csDiff": -34,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -2402,
+              "csDiff": -59,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -3729,
+              "csDiff": -85,
+              "levelDiff": -3
+            }
+          }
+        },
+        {
+          "matchId": "KR_8121127642",
+          "gameCreation": 1772797180246,
+          "gameDuration": 2300,
+          "opponent": "Akshan",
+          "win": false,
+          "kills": 3,
+          "deaths": 6,
+          "assists": 4,
+          "firstCoreTimestamp": 650967,
+          "secondCoreTimestamp": 1324699,
+          "snapshots": {
+            "10": {
+              "goldDiff": -167,
+              "csDiff": -9,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -25,
+              "csDiff": -14,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": -939,
+              "csDiff": -13,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8118539896",
+          "gameCreation": 1772623715800,
+          "gameDuration": 1608,
+          "opponent": "Zilean",
+          "win": true,
+          "kills": 5,
+          "deaths": 1,
+          "assists": 4,
+          "firstCoreTimestamp": 771651,
+          "secondCoreTimestamp": 1229138,
+          "snapshots": {
+            "10": {
+              "goldDiff": 2,
+              "csDiff": -2,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 868,
+              "csDiff": -5,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1596,
+              "csDiff": 3,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8104477952",
+          "gameCreation": 1771867833081,
+          "gameDuration": 2150,
+          "opponent": "Cassiopeia",
+          "win": true,
+          "kills": 9,
+          "deaths": 3,
+          "assists": 6,
+          "firstCoreTimestamp": 508218,
+          "secondCoreTimestamp": 1143478,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1520,
+              "csDiff": 23,
+              "levelDiff": 2
+            },
+            "15": {
+              "goldDiff": 1948,
+              "csDiff": 20,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 2327,
+              "csDiff": 25,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8104316321",
+          "gameCreation": 1771860229095,
+          "gameDuration": 1790,
+          "opponent": "Yone",
+          "win": true,
+          "kills": 16,
+          "deaths": 0,
+          "assists": 11,
+          "firstCoreTimestamp": 590718,
+          "secondCoreTimestamp": 1014954,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1167,
+              "csDiff": 17,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 2196,
+              "csDiff": 28,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 3349,
+              "csDiff": 32,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8100336685",
+          "gameCreation": 1771679894448,
+          "gameDuration": 1912,
+          "opponent": "Yone",
+          "win": true,
+          "kills": 17,
+          "deaths": 3,
+          "assists": 10,
+          "firstCoreTimestamp": 735542,
+          "secondCoreTimestamp": 1083099,
+          "snapshots": {
+            "10": {
+              "goldDiff": 825,
+              "csDiff": 17,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 2504,
+              "csDiff": 32,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 3552,
+              "csDiff": 39,
+              "levelDiff": 3
+            }
+          }
+        },
+        {
+          "matchId": "KR_8097395679",
+          "gameCreation": 1771552502332,
+          "gameDuration": 1868,
+          "opponent": "Orianna",
+          "win": true,
+          "kills": 6,
+          "deaths": 3,
+          "assists": 7,
+          "firstCoreTimestamp": 644948,
+          "secondCoreTimestamp": 1485476,
+          "snapshots": {
+            "10": {
+              "goldDiff": -387,
+              "csDiff": -9,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -492,
+              "csDiff": -16,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1633,
+              "csDiff": -30,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8091356095",
+          "gameCreation": 1771258702370,
+          "gameDuration": 1787,
+          "opponent": "Yasuo",
+          "win": false,
+          "kills": 6,
+          "deaths": 6,
+          "assists": 1,
+          "firstCoreTimestamp": 661418,
+          "secondCoreTimestamp": 1133840,
+          "snapshots": {
+            "10": {
+              "goldDiff": 658,
+              "csDiff": -10,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -109,
+              "csDiff": -25,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -470,
+              "csDiff": -37,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8091264682",
+          "gameCreation": 1771256215638,
+          "gameDuration": 2182,
+          "opponent": "Akshan",
+          "win": true,
+          "kills": 11,
+          "deaths": 3,
+          "assists": 10,
+          "firstCoreTimestamp": 656319,
+          "secondCoreTimestamp": 1106731,
+          "snapshots": {
+            "10": {
+              "goldDiff": -474,
+              "csDiff": -9,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 943,
+              "csDiff": 3,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 962,
+              "csDiff": 20,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8083410107",
+          "gameCreation": 1770909640620,
+          "gameDuration": 1169,
+          "opponent": "Ambessa",
+          "win": false,
+          "kills": 6,
+          "deaths": 4,
+          "assists": 2,
+          "firstCoreTimestamp": 412924,
+          "secondCoreTimestamp": 606793,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1588,
+              "csDiff": -1,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -1771,
+              "csDiff": -18,
+              "levelDiff": 0
+            },
+            "20": null
+          }
+        },
+        {
+          "matchId": "KR_8076925266",
+          "gameCreation": 1770574875039,
+          "gameDuration": 1016,
+          "opponent": "Volibear",
+          "win": true,
+          "kills": 4,
+          "deaths": 0,
+          "assists": 3,
+          "firstCoreTimestamp": 270048,
+          "secondCoreTimestamp": 482402,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1286,
+              "csDiff": -1,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 2076,
+              "csDiff": -4,
+              "levelDiff": 1
+            },
+            "20": null
+          }
+        },
+        {
+          "matchId": "KR_8060517370",
+          "gameCreation": 1769856965751,
+          "gameDuration": 2630,
+          "opponent": "Cassiopeia",
+          "win": false,
+          "kills": 11,
+          "deaths": 10,
+          "assists": 8,
+          "firstCoreTimestamp": 731329,
+          "secondCoreTimestamp": 1324215,
+          "snapshots": {
+            "10": {
+              "goldDiff": -648,
+              "csDiff": -18,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -1439,
+              "csDiff": -18,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1672,
+              "csDiff": -16,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8047114432",
+          "gameCreation": 1769249345460,
+          "gameDuration": 2041,
+          "opponent": "Ahri",
+          "win": false,
+          "kills": 11,
+          "deaths": 5,
+          "assists": 7,
+          "firstCoreTimestamp": 621851,
+          "secondCoreTimestamp": 1189795,
+          "snapshots": {
+            "10": {
+              "goldDiff": 71,
+              "csDiff": -9,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -166,
+              "csDiff": -10,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 920,
+              "csDiff": 6,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8036730356",
+          "gameCreation": 1768750832856,
+          "gameDuration": 2794,
+          "opponent": "Mel",
+          "win": true,
+          "kills": 16,
+          "deaths": 3,
+          "assists": 7,
+          "firstCoreTimestamp": 679669,
+          "secondCoreTimestamp": 1254721,
+          "snapshots": {
+            "10": {
+              "goldDiff": -220,
+              "csDiff": -17,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -457,
+              "csDiff": -21,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 24,
+              "csDiff": -25,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8033474687",
+          "gameCreation": 1768643251301,
+          "gameDuration": 1401,
+          "opponent": "Tristana",
+          "win": true,
+          "kills": 4,
+          "deaths": 1,
+          "assists": 2,
+          "firstCoreTimestamp": 621574,
+          "secondCoreTimestamp": 1191500,
+          "snapshots": {
+            "10": {
+              "goldDiff": 418,
+              "csDiff": 10,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 751,
+              "csDiff": 18,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 2432,
+              "csDiff": 18,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8033020372",
+          "gameCreation": 1768629183512,
+          "gameDuration": 1719,
+          "opponent": "Aurora",
+          "win": true,
+          "kills": 3,
+          "deaths": 2,
+          "assists": 7,
+          "firstCoreTimestamp": 730061,
+          "secondCoreTimestamp": 1388610,
+          "snapshots": {
+            "10": {
+              "goldDiff": -148,
+              "csDiff": -8,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 138,
+              "csDiff": -16,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 42,
+              "csDiff": -26,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8032299285",
+          "gameCreation": 1768581032618,
+          "gameDuration": 1990,
+          "opponent": "TwistedFate",
+          "win": true,
+          "kills": 1,
+          "deaths": 2,
+          "assists": 10,
+          "firstCoreTimestamp": 734882,
+          "secondCoreTimestamp": 1381091,
+          "snapshots": {
+            "10": {
+              "goldDiff": -95,
+              "csDiff": -17,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -739,
+              "csDiff": -10,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -3031,
+              "csDiff": -20,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8031933874",
+          "gameCreation": 1768572724382,
+          "gameDuration": 1599,
+          "opponent": "Varus",
+          "win": false,
+          "kills": 4,
+          "deaths": 5,
+          "assists": 1,
+          "firstCoreTimestamp": 624259,
+          "secondCoreTimestamp": 1376308,
+          "snapshots": {
+            "10": {
+              "goldDiff": 299,
+              "csDiff": -15,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -433,
+              "csDiff": -27,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -516,
+              "csDiff": -48,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8029935826",
+          "gameCreation": 1768482038112,
+          "gameDuration": 1678,
+          "opponent": "Morgana",
+          "win": true,
+          "kills": 2,
+          "deaths": 3,
+          "assists": 10,
+          "firstCoreTimestamp": 706073,
+          "secondCoreTimestamp": 1353949,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1144,
+              "csDiff": -16,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 28,
+              "csDiff": 2,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 577,
+              "csDiff": -4,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8006722360",
+          "gameCreation": 1767452126278,
+          "gameDuration": 1992,
+          "opponent": "Aurora",
+          "win": true,
+          "kills": 7,
+          "deaths": 3,
+          "assists": 7,
+          "firstCoreTimestamp": 745505,
+          "secondCoreTimestamp": 1281184,
+          "snapshots": {
+            "10": {
+              "goldDiff": -105,
+              "csDiff": 1,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 718,
+              "csDiff": -4,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1162,
+              "csDiff": 9,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7990683176",
+          "gameCreation": 1766812397292,
+          "gameDuration": 1095,
+          "opponent": "Ahri",
+          "win": true,
+          "kills": 10,
+          "deaths": 0,
+          "assists": 3,
+          "firstCoreTimestamp": 567554,
+          "secondCoreTimestamp": 949843,
+          "snapshots": {
+            "10": {
+              "goldDiff": 578,
+              "csDiff": 13,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 921,
+              "csDiff": 17,
+              "levelDiff": 2
+            },
+            "20": null
+          }
+        },
+        {
+          "matchId": "KR_7912710070",
+          "gameCreation": 1763121303939,
+          "gameDuration": 1714,
+          "opponent": "Akali",
+          "win": true,
+          "kills": 9,
+          "deaths": 2,
+          "assists": 15,
+          "firstCoreTimestamp": 826946,
+          "secondCoreTimestamp": 1223443,
+          "snapshots": {
+            "10": {
+              "goldDiff": -183,
+              "csDiff": -9,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -128,
+              "csDiff": -7,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 780,
+              "csDiff": 7,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7902608554",
+          "gameCreation": 1762524850943,
+          "gameDuration": 1698,
+          "opponent": "Akali",
+          "win": true,
+          "kills": 7,
+          "deaths": 2,
+          "assists": 8,
+          "firstCoreTimestamp": 572216,
+          "secondCoreTimestamp": 1062991,
+          "snapshots": {
+            "10": {
+              "goldDiff": -187,
+              "csDiff": -14,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -689,
+              "csDiff": -5,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 1100,
+              "csDiff": 16,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_7902517835",
+          "gameCreation": 1762522726812,
+          "gameDuration": 1508,
+          "opponent": "DrMundo",
+          "win": true,
+          "kills": 3,
+          "deaths": 4,
+          "assists": 9,
+          "firstCoreTimestamp": 896629,
+          "secondCoreTimestamp": 1036390,
+          "snapshots": {
+            "10": {
+              "goldDiff": -404,
+              "csDiff": -10,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 94,
+              "csDiff": -13,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 268,
+              "csDiff": -18,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7902456084",
+          "gameCreation": 1762521010096,
+          "gameDuration": 1583,
+          "opponent": "Smolder",
+          "win": true,
+          "kills": 9,
+          "deaths": 1,
+          "assists": 4,
+          "firstCoreTimestamp": 600587,
+          "secondCoreTimestamp": 962569,
+          "snapshots": {
+            "10": {
+              "goldDiff": -186,
+              "csDiff": -18,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 961,
+              "csDiff": -15,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": -372,
+              "csDiff": -21,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7893057974",
+          "gameCreation": 1761927497614,
+          "gameDuration": 1742,
+          "opponent": "Hwei",
+          "win": true,
+          "kills": 6,
+          "deaths": 1,
+          "assists": 8,
+          "firstCoreTimestamp": 802551,
+          "secondCoreTimestamp": 1287520,
+          "snapshots": {
+            "10": {
+              "goldDiff": 15,
+              "csDiff": -5,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 520,
+              "csDiff": -14,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 641,
+              "csDiff": -18,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7861891755",
+          "gameCreation": 1760095025832,
+          "gameDuration": 2137,
+          "opponent": "Lissandra",
+          "win": true,
+          "kills": 7,
+          "deaths": 1,
+          "assists": 11,
+          "firstCoreTimestamp": 723260,
+          "secondCoreTimestamp": 1655800,
+          "snapshots": {
+            "10": {
+              "goldDiff": -173,
+              "csDiff": -3,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -406,
+              "csDiff": -4,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -186,
+              "csDiff": -6,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7858079166",
+          "gameCreation": 1759929820942,
+          "gameDuration": 1397,
+          "opponent": "Azir",
+          "win": true,
+          "kills": 7,
+          "deaths": 1,
+          "assists": 9,
+          "firstCoreTimestamp": 640555,
+          "secondCoreTimestamp": 1041121,
+          "snapshots": {
+            "10": {
+              "goldDiff": -382,
+              "csDiff": -19,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": 454,
+              "csDiff": -23,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": -13,
+              "csDiff": -44,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7855734572",
+          "gameCreation": 1759839783097,
+          "gameDuration": 1916,
+          "opponent": "Yone",
+          "win": false,
+          "kills": 8,
+          "deaths": 6,
+          "assists": 5,
+          "firstCoreTimestamp": 666415,
+          "secondCoreTimestamp": 1166626,
+          "snapshots": {
+            "10": {
+              "goldDiff": 242,
+              "csDiff": -4,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1272,
+              "csDiff": -9,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 762,
+              "csDiff": -11,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7850848218",
+          "gameCreation": 1759654775892,
+          "gameDuration": 2298,
+          "opponent": "TwistedFate",
+          "win": false,
+          "kills": 6,
+          "deaths": 6,
+          "assists": 3,
+          "firstCoreTimestamp": 766486,
+          "secondCoreTimestamp": 1381007,
+          "snapshots": {
+            "10": {
+              "goldDiff": -539,
+              "csDiff": -7,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -506,
+              "csDiff": 2,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1532,
+              "csDiff": -11,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7849593870",
+          "gameCreation": 1759594132493,
+          "gameDuration": 1737,
+          "opponent": "Talon",
+          "win": true,
+          "kills": 10,
+          "deaths": 3,
+          "assists": 3,
+          "firstCoreTimestamp": 681711,
+          "secondCoreTimestamp": 1176876,
+          "snapshots": {
+            "10": {
+              "goldDiff": -565,
+              "csDiff": -18,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 77,
+              "csDiff": -5,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1222,
+              "csDiff": 23,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_7849347565",
+          "gameCreation": 1759588159858,
+          "gameDuration": 1174,
+          "opponent": "Ryze",
+          "win": true,
+          "kills": 6,
+          "deaths": 0,
+          "assists": 5,
+          "firstCoreTimestamp": 810076,
+          "secondCoreTimestamp": 1128919,
+          "snapshots": {
+            "10": {
+              "goldDiff": 508,
+              "csDiff": 11,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1216,
+              "csDiff": 27,
+              "levelDiff": 2
+            },
+            "20": null
+          }
+        },
+        {
+          "matchId": "KR_7848441920",
+          "gameCreation": 1759565210117,
+          "gameDuration": 1547,
+          "opponent": "Mel",
+          "win": true,
+          "kills": 2,
+          "deaths": 2,
+          "assists": 5,
+          "firstCoreTimestamp": 657271,
+          "secondCoreTimestamp": 1328564,
+          "snapshots": {
+            "10": {
+              "goldDiff": -348,
+              "csDiff": -21,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -1220,
+              "csDiff": -25,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -2675,
+              "csDiff": -35,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_7832439119",
+          "gameCreation": 1758977639361,
+          "gameDuration": 2306,
+          "opponent": "Yasuo",
+          "win": false,
+          "kills": 6,
+          "deaths": 7,
+          "assists": 18,
+          "firstCoreTimestamp": 722342,
+          "secondCoreTimestamp": 1479764,
+          "snapshots": {
+            "10": {
+              "goldDiff": -610,
+              "csDiff": -33,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1416,
+              "csDiff": -50,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1067,
+              "csDiff": -59,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7806368533",
+          "gameCreation": 1757678512267,
+          "gameDuration": 2737,
+          "opponent": "Sylas",
+          "win": false,
+          "kills": 3,
+          "deaths": 12,
+          "assists": 11,
+          "firstCoreTimestamp": 664640,
+          "secondCoreTimestamp": 1468981,
+          "snapshots": {
+            "10": {
+              "goldDiff": -249,
+              "csDiff": 4,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -566,
+              "csDiff": -7,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -520,
+              "csDiff": 7,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7803042536",
+          "gameCreation": 1757468536898,
+          "gameDuration": 1033,
+          "opponent": "Corki",
+          "win": true,
+          "kills": 4,
+          "deaths": 1,
+          "assists": 11,
+          "firstCoreTimestamp": 520628,
+          "secondCoreTimestamp": 815084,
+          "snapshots": {
+            "10": {
+              "goldDiff": -528,
+              "csDiff": 18,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 845,
+              "csDiff": 41,
+              "levelDiff": 2
+            },
+            "20": null
+          }
+        },
+        {
+          "matchId": "KR_7787762541",
+          "gameCreation": 1756562108666,
+          "gameDuration": 2023,
+          "opponent": "Aurora",
+          "win": true,
+          "kills": 11,
+          "deaths": 3,
+          "assists": 16,
+          "firstCoreTimestamp": 736382,
+          "secondCoreTimestamp": 1275546,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1157,
+              "csDiff": 23,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 425,
+              "csDiff": 49,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 542,
+              "csDiff": 60,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7784334104",
+          "gameCreation": 1756389057332,
+          "gameDuration": 2144,
+          "opponent": "Yasuo",
+          "win": true,
+          "kills": 6,
+          "deaths": 5,
+          "assists": 12,
+          "firstCoreTimestamp": 710281,
+          "secondCoreTimestamp": 1314788,
+          "snapshots": {
+            "10": {
+              "goldDiff": -409,
+              "csDiff": -20,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -176,
+              "csDiff": -18,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -249,
+              "csDiff": -29,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7784237009",
+          "gameCreation": 1756386589279,
+          "gameDuration": 2025,
+          "opponent": "Ryze",
+          "win": false,
+          "kills": 11,
+          "deaths": 5,
+          "assists": 8,
+          "firstCoreTimestamp": 720553,
+          "secondCoreTimestamp": 1158628,
+          "snapshots": {
+            "10": {
+              "goldDiff": -87,
+              "csDiff": -14,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 983,
+              "csDiff": -4,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1287,
+              "csDiff": -7,
+              "levelDiff": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "루덴의 동반자 → 존야의 모래시계",
+      "games": 20,
+      "wins": 13,
+      "losses": 7,
+      "winRate": 0.65,
+      "avgSecondCoreMinute": 22.69,
+      "opponents": [
+        {
+          "champion": "Yone",
+          "games": 6
+        },
+        {
+          "champion": "Yasuo",
+          "games": 4
+        },
+        {
+          "champion": "Fizz",
+          "games": 2
+        },
+        {
+          "champion": "Zoe",
+          "games": 2
+        },
+        {
+          "champion": "Azir",
+          "games": 1
+        },
+        {
+          "champion": "Renekton",
+          "games": 1
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1
+        },
+        {
+          "champion": "Akali",
+          "games": 1
+        },
+        {
+          "champion": "Heimerdinger",
+          "games": 1
+        },
+        {
+          "champion": "XinZhao",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 20,
+            "avg": -386.6,
+            "median": -528.0,
+            "ahead": 5,
+            "behind": 15,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 20,
+            "avg": -11.4,
+            "median": -11.5,
+            "ahead": 3,
+            "behind": 17,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 20,
+            "avg": -0.3,
+            "median": 0.0,
+            "ahead": 3,
+            "behind": 9,
+            "even": 8
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 19,
+            "avg": -266.16,
+            "median": -111,
+            "ahead": 6,
+            "behind": 13,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 19,
+            "avg": -11.79,
+            "median": -12,
+            "ahead": 4,
+            "behind": 15,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 19,
+            "avg": -0.05,
+            "median": 0,
+            "ahead": 5,
+            "behind": 5,
+            "even": 9
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 19,
+            "avg": -538.68,
+            "median": -392,
+            "ahead": 7,
+            "behind": 12,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 19,
+            "avg": -20.0,
+            "median": -21,
+            "ahead": 2,
+            "behind": 17,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 19,
+            "avg": -0.47,
+            "median": -1,
+            "ahead": 5,
+            "behind": 10,
+            "even": 4
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8255624082",
+          "gameCreation": 1781255723669,
+          "gameDuration": 1729,
+          "opponent": "Yone",
+          "win": true,
+          "kills": 11,
+          "deaths": 2,
+          "assists": 12,
+          "firstCoreTimestamp": 607435,
+          "secondCoreTimestamp": 1511699,
+          "snapshots": {
+            "10": {
+              "goldDiff": 130,
+              "csDiff": -14,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -52,
+              "csDiff": -17,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -37,
+              "csDiff": -36,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8196970720",
+          "gameCreation": 1777643128421,
+          "gameDuration": 1795,
+          "opponent": "Fizz",
+          "win": true,
+          "kills": 3,
+          "deaths": 4,
+          "assists": 6,
+          "firstCoreTimestamp": 733960,
+          "secondCoreTimestamp": 1701515,
+          "snapshots": {
+            "10": {
+              "goldDiff": -496,
+              "csDiff": -8,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1278,
+              "csDiff": -13,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -2909,
+              "csDiff": -34,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8100434796",
+          "gameCreation": 1771682004399,
+          "gameDuration": 2868,
+          "opponent": "Yasuo",
+          "win": true,
+          "kills": 7,
+          "deaths": 7,
+          "assists": 16,
+          "firstCoreTimestamp": 746980,
+          "secondCoreTimestamp": 1509467,
+          "snapshots": {
+            "10": {
+              "goldDiff": -162,
+              "csDiff": -11,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 191,
+              "csDiff": -15,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1816,
+              "csDiff": -57,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8086871188",
+          "gameCreation": 1771076113578,
+          "gameDuration": 1620,
+          "opponent": "Zoe",
+          "win": true,
+          "kills": 3,
+          "deaths": 3,
+          "assists": 2,
+          "firstCoreTimestamp": 649001,
+          "secondCoreTimestamp": 1568431,
+          "snapshots": {
+            "10": {
+              "goldDiff": -721,
+              "csDiff": -12,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -285,
+              "csDiff": -20,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -392,
+              "csDiff": -10,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8086577122",
+          "gameCreation": 1771069024913,
+          "gameDuration": 1897,
+          "opponent": "Azir",
+          "win": true,
+          "kills": 9,
+          "deaths": 1,
+          "assists": 6,
+          "firstCoreTimestamp": 769569,
+          "secondCoreTimestamp": 1173285,
+          "snapshots": {
+            "10": {
+              "goldDiff": -268,
+              "csDiff": -21,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": 1295,
+              "csDiff": -17,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 2073,
+              "csDiff": -5,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8083445225",
+          "gameCreation": 1770910922424,
+          "gameDuration": 1354,
+          "opponent": "Yasuo",
+          "win": false,
+          "kills": 1,
+          "deaths": 5,
+          "assists": 6,
+          "firstCoreTimestamp": 397177,
+          "secondCoreTimestamp": 793834,
+          "snapshots": {
+            "10": {
+              "goldDiff": -674,
+              "csDiff": -29,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -766,
+              "csDiff": -57,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1108,
+              "csDiff": -54,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8082873210",
+          "gameCreation": 1770895912881,
+          "gameDuration": 869,
+          "opponent": "Yone",
+          "win": false,
+          "kills": 4,
+          "deaths": 5,
+          "assists": 7,
+          "firstCoreTimestamp": 308813,
+          "secondCoreTimestamp": 677351,
+          "snapshots": {
+            "10": {
+              "goldDiff": -819,
+              "csDiff": -24,
+              "levelDiff": -1
+            },
+            "15": null,
+            "20": null
+          }
+        },
+        {
+          "matchId": "KR_8080269535",
+          "gameCreation": 1770743629403,
+          "gameDuration": 1794,
+          "opponent": "Zoe",
+          "win": true,
+          "kills": 7,
+          "deaths": 3,
+          "assists": 6,
+          "firstCoreTimestamp": 661497,
+          "secondCoreTimestamp": 1510617,
+          "snapshots": {
+            "10": {
+              "goldDiff": -190,
+              "csDiff": -8,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -75,
+              "csDiff": -5,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1140,
+              "csDiff": -30,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8049375649",
+          "gameCreation": 1769334756714,
+          "gameDuration": 1680,
+          "opponent": "Renekton",
+          "win": true,
+          "kills": 7,
+          "deaths": 2,
+          "assists": 10,
+          "firstCoreTimestamp": 918443,
+          "secondCoreTimestamp": 1478387,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1290,
+              "csDiff": -16,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -111,
+              "csDiff": 4,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": -348,
+              "csDiff": -16,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8031690405",
+          "gameCreation": 1768567416895,
+          "gameDuration": 2340,
+          "opponent": "Malzahar",
+          "win": false,
+          "kills": 3,
+          "deaths": 5,
+          "assists": 6,
+          "firstCoreTimestamp": 744132,
+          "secondCoreTimestamp": 1493525,
+          "snapshots": {
+            "10": {
+              "goldDiff": -517,
+              "csDiff": -26,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -1466,
+              "csDiff": -38,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -3031,
+              "csDiff": -58,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8030027683",
+          "gameCreation": 1768484067309,
+          "gameDuration": 1920,
+          "opponent": "Akali",
+          "win": false,
+          "kills": 7,
+          "deaths": 5,
+          "assists": 9,
+          "firstCoreTimestamp": 678377,
+          "secondCoreTimestamp": 1368032,
+          "snapshots": {
+            "10": {
+              "goldDiff": -670,
+              "csDiff": -1,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1484,
+              "csDiff": 15,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1305,
+              "csDiff": -3,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8006839127",
+          "gameCreation": 1767454449147,
+          "gameDuration": 2800,
+          "opponent": "Yone",
+          "win": true,
+          "kills": 13,
+          "deaths": 9,
+          "assists": 11,
+          "firstCoreTimestamp": 616901,
+          "secondCoreTimestamp": 1174542,
+          "snapshots": {
+            "10": {
+              "goldDiff": 774,
+              "csDiff": 1,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 460,
+              "csDiff": -5,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1593,
+              "csDiff": -3,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8006513899",
+          "gameCreation": 1767448258633,
+          "gameDuration": 1907,
+          "opponent": "Yasuo",
+          "win": true,
+          "kills": 7,
+          "deaths": 3,
+          "assists": 9,
+          "firstCoreTimestamp": 640574,
+          "secondCoreTimestamp": 1336140,
+          "snapshots": {
+            "10": {
+              "goldDiff": 718,
+              "csDiff": 23,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 1181,
+              "csDiff": 43,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1882,
+              "csDiff": 54,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8002238450",
+          "gameCreation": 1767276317957,
+          "gameDuration": 2795,
+          "opponent": "Heimerdinger",
+          "win": true,
+          "kills": 12,
+          "deaths": 4,
+          "assists": 14,
+          "firstCoreTimestamp": 657165,
+          "secondCoreTimestamp": 1621295,
+          "snapshots": {
+            "10": {
+              "goldDiff": -665,
+              "csDiff": -21,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -321,
+              "csDiff": -12,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 191,
+              "csDiff": -8,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7991378472",
+          "gameCreation": 1766832533397,
+          "gameDuration": 2610,
+          "opponent": "Yasuo",
+          "win": true,
+          "kills": 13,
+          "deaths": 10,
+          "assists": 13,
+          "firstCoreTimestamp": 646111,
+          "secondCoreTimestamp": 1427715,
+          "snapshots": {
+            "10": {
+              "goldDiff": 291,
+              "csDiff": 13,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1406,
+              "csDiff": 3,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 1055,
+              "csDiff": 6,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7977740526",
+          "gameCreation": 1766241203002,
+          "gameDuration": 2063,
+          "opponent": "Yone",
+          "win": false,
+          "kills": 9,
+          "deaths": 3,
+          "assists": 13,
+          "firstCoreTimestamp": 693014,
+          "secondCoreTimestamp": 1440908,
+          "snapshots": {
+            "10": {
+              "goldDiff": 270,
+              "csDiff": -10,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1310,
+              "csDiff": -6,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 1413,
+              "csDiff": -21,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7935207746",
+          "gameCreation": 1764341952918,
+          "gameDuration": 2365,
+          "opponent": "Fizz",
+          "win": true,
+          "kills": 4,
+          "deaths": 6,
+          "assists": 9,
+          "firstCoreTimestamp": 800798,
+          "secondCoreTimestamp": 1813135,
+          "snapshots": {
+            "10": {
+              "goldDiff": -539,
+              "csDiff": -26,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -869,
+              "csDiff": -30,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1625,
+              "csDiff": -36,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_7894213000",
+          "gameCreation": 1762000178283,
+          "gameDuration": 1679,
+          "opponent": "Yone",
+          "win": false,
+          "kills": 5,
+          "deaths": 6,
+          "assists": 9,
+          "firstCoreTimestamp": 590023,
+          "secondCoreTimestamp": 1046692,
+          "snapshots": {
+            "10": {
+              "goldDiff": -975,
+              "csDiff": -6,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1346,
+              "csDiff": -12,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -2591,
+              "csDiff": -36,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_7892926875",
+          "gameCreation": 1761923244551,
+          "gameDuration": 1589,
+          "opponent": "Yone",
+          "win": true,
+          "kills": 4,
+          "deaths": 4,
+          "assists": 3,
+          "firstCoreTimestamp": 864402,
+          "secondCoreTimestamp": 1460514,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1139,
+              "csDiff": -22,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -2767,
+              "csDiff": -33,
+              "levelDiff": -2
+            },
+            "20": {
+              "goldDiff": -2611,
+              "csDiff": -30,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7873102114",
+          "gameCreation": 1760697220261,
+          "gameDuration": 2088,
+          "opponent": "XinZhao",
+          "win": false,
+          "kills": 7,
+          "deaths": 5,
+          "assists": 5,
+          "firstCoreTimestamp": 750397,
+          "secondCoreTimestamp": 1120138,
+          "snapshots": {
+            "10": {
+              "goldDiff": -790,
+              "csDiff": -10,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -80,
+              "csDiff": -9,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 471,
+              "csDiff": -3,
+              "levelDiff": -1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "영겁의 지팡이 → 대천사의 지팡이",
+      "games": 18,
+      "wins": 13,
+      "losses": 5,
+      "winRate": 0.7222,
+      "avgSecondCoreMinute": 20.97,
+      "opponents": [
+        {
+          "champion": "Zed",
+          "games": 4
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1
+        },
+        {
+          "champion": "Mel",
+          "games": 1
+        },
+        {
+          "champion": "Akali",
+          "games": 1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1
+        },
+        {
+          "champion": "Anivia",
+          "games": 1
+        },
+        {
+          "champion": "Cassiopeia",
+          "games": 1
+        },
+        {
+          "champion": "Diana",
+          "games": 1
+        },
+        {
+          "champion": "TwistedFate",
+          "games": 1
+        },
+        {
+          "champion": "Blitzcrank",
+          "games": 1
+        },
+        {
+          "champion": "Yone",
+          "games": 1
+        },
+        {
+          "champion": "Sylas",
+          "games": 1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1
+        },
+        {
+          "champion": "Evelynn",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 18,
+            "avg": -441.56,
+            "median": -267.0,
+            "ahead": 3,
+            "behind": 15,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 18,
+            "avg": -11.28,
+            "median": -10.5,
+            "ahead": 5,
+            "behind": 13,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 18,
+            "avg": -0.17,
+            "median": 0.0,
+            "ahead": 3,
+            "behind": 5,
+            "even": 10
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 18,
+            "avg": -400.78,
+            "median": -139.0,
+            "ahead": 7,
+            "behind": 11,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 18,
+            "avg": -10.11,
+            "median": -7.0,
+            "ahead": 6,
+            "behind": 12,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 18,
+            "avg": -0.06,
+            "median": 0.0,
+            "ahead": 7,
+            "behind": 4,
+            "even": 7
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 18,
+            "avg": -552.33,
+            "median": -251.0,
+            "ahead": 7,
+            "behind": 11,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 18,
+            "avg": -7.06,
+            "median": -4.0,
+            "ahead": 8,
+            "behind": 10,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 18,
+            "avg": -0.11,
+            "median": 0.0,
+            "ahead": 7,
+            "behind": 3,
+            "even": 8
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8294549414",
+          "gameCreation": 1783779093672,
+          "gameDuration": 1544,
+          "opponent": "Malzahar",
+          "win": false,
+          "kills": 0,
+          "deaths": 3,
+          "assists": 0,
+          "firstCoreTimestamp": 774207,
+          "secondCoreTimestamp": 1189166,
+          "snapshots": {
+            "10": {
+              "goldDiff": -658,
+              "csDiff": -38,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1093,
+              "csDiff": -53,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1556,
+              "csDiff": -51,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8282644632",
+          "gameCreation": 1783008133254,
+          "gameDuration": 1302,
+          "opponent": "Naafiri",
+          "win": true,
+          "kills": 4,
+          "deaths": 0,
+          "assists": 4,
+          "firstCoreTimestamp": 673086,
+          "secondCoreTimestamp": 1189262,
+          "snapshots": {
+            "10": {
+              "goldDiff": -276,
+              "csDiff": -20,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 275,
+              "csDiff": -16,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 967,
+              "csDiff": -29,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8248051343",
+          "gameCreation": 1780741596041,
+          "gameDuration": 1402,
+          "opponent": "Mel",
+          "win": true,
+          "kills": 7,
+          "deaths": 5,
+          "assists": 5,
+          "firstCoreTimestamp": 753345,
+          "secondCoreTimestamp": 1220999,
+          "snapshots": {
+            "10": {
+              "goldDiff": -842,
+              "csDiff": -39,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -1853,
+              "csDiff": -72,
+              "levelDiff": -3
+            },
+            "20": {
+              "goldDiff": -2073,
+              "csDiff": -65,
+              "levelDiff": -2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8222891000",
+          "gameCreation": 1779189780740,
+          "gameDuration": 1928,
+          "opponent": "Zed",
+          "win": true,
+          "kills": 5,
+          "deaths": 3,
+          "assists": 13,
+          "firstCoreTimestamp": 799100,
+          "secondCoreTimestamp": 1445345,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1070,
+              "csDiff": -11,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -832,
+              "csDiff": 4,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -248,
+              "csDiff": 13,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8151874631",
+          "gameCreation": 1774687164921,
+          "gameDuration": 1671,
+          "opponent": "Akali",
+          "win": true,
+          "kills": 5,
+          "deaths": 6,
+          "assists": 9,
+          "firstCoreTimestamp": 742837,
+          "secondCoreTimestamp": 1350018,
+          "snapshots": {
+            "10": {
+              "goldDiff": -157,
+              "csDiff": -5,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -522,
+              "csDiff": -7,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1130,
+              "csDiff": -22,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8100682216",
+          "gameCreation": 1771687299099,
+          "gameDuration": 2211,
+          "opponent": "Xerath",
+          "win": true,
+          "kills": 6,
+          "deaths": 8,
+          "assists": 12,
+          "firstCoreTimestamp": 701508,
+          "secondCoreTimestamp": 1304354,
+          "snapshots": {
+            "10": {
+              "goldDiff": 315,
+              "csDiff": 18,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 261,
+              "csDiff": 20,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 308,
+              "csDiff": 31,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8047193544",
+          "gameCreation": 1769251734563,
+          "gameDuration": 1397,
+          "opponent": "Zed",
+          "win": true,
+          "kills": 3,
+          "deaths": 1,
+          "assists": 4,
+          "firstCoreTimestamp": 701831,
+          "secondCoreTimestamp": 1053646,
+          "snapshots": {
+            "10": {
+              "goldDiff": -339,
+              "csDiff": 9,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 611,
+              "csDiff": 35,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": -526,
+              "csDiff": 29,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8017750085",
+          "gameCreation": 1767962904502,
+          "gameDuration": 1968,
+          "opponent": "Anivia",
+          "win": false,
+          "kills": 0,
+          "deaths": 10,
+          "assists": 4,
+          "firstCoreTimestamp": 723634,
+          "secondCoreTimestamp": 1483767,
+          "snapshots": {
+            "10": {
+              "goldDiff": -2449,
+              "csDiff": -46,
+              "levelDiff": -2
+            },
+            "15": {
+              "goldDiff": -3742,
+              "csDiff": -70,
+              "levelDiff": -4
+            },
+            "20": {
+              "goldDiff": -6184,
+              "csDiff": -116,
+              "levelDiff": -6
+            }
+          }
+        },
+        {
+          "matchId": "KR_8002376846",
+          "gameCreation": 1767279417199,
+          "gameDuration": 2465,
+          "opponent": "Cassiopeia",
+          "win": true,
+          "kills": 12,
+          "deaths": 4,
+          "assists": 11,
+          "firstCoreTimestamp": 743723,
+          "secondCoreTimestamp": 1067686,
+          "snapshots": {
+            "10": {
+              "goldDiff": 431,
+              "csDiff": 9,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 980,
+              "csDiff": 22,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 2132,
+              "csDiff": 42,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_7991489564",
+          "gameCreation": 1766835404118,
+          "gameDuration": 1330,
+          "opponent": "Zed",
+          "win": false,
+          "kills": 1,
+          "deaths": 2,
+          "assists": 2,
+          "firstCoreTimestamp": 886519,
+          "secondCoreTimestamp": 1322767,
+          "snapshots": {
+            "10": {
+              "goldDiff": -911,
+              "csDiff": -24,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -1065,
+              "csDiff": -26,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -636,
+              "csDiff": -14,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7892762419",
+          "gameCreation": 1761918808410,
+          "gameDuration": 2257,
+          "opponent": "Diana",
+          "win": true,
+          "kills": 5,
+          "deaths": 4,
+          "assists": 13,
+          "firstCoreTimestamp": 812327,
+          "secondCoreTimestamp": 1300439,
+          "snapshots": {
+            "10": {
+              "goldDiff": -161,
+              "csDiff": -14,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -205,
+              "csDiff": -1,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 145,
+              "csDiff": 9,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7884847365",
+          "gameCreation": 1761397671505,
+          "gameDuration": 2868,
+          "opponent": "TwistedFate",
+          "win": false,
+          "kills": 11,
+          "deaths": 4,
+          "assists": 3,
+          "firstCoreTimestamp": 771286,
+          "secondCoreTimestamp": 1099241,
+          "snapshots": {
+            "10": {
+              "goldDiff": 346,
+              "csDiff": 8,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 515,
+              "csDiff": 22,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 1302,
+              "csDiff": 32,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7849418742",
+          "gameCreation": 1759589820501,
+          "gameDuration": 1593,
+          "opponent": "Zed",
+          "win": true,
+          "kills": 4,
+          "deaths": 3,
+          "assists": 2,
+          "firstCoreTimestamp": 835109,
+          "secondCoreTimestamp": 1308550,
+          "snapshots": {
+            "10": {
+              "goldDiff": -572,
+              "csDiff": -10,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -865,
+              "csDiff": -7,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1629,
+              "csDiff": -9,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7848552093",
+          "gameCreation": 1759568142455,
+          "gameDuration": 1775,
+          "opponent": "Blitzcrank",
+          "win": true,
+          "kills": 9,
+          "deaths": 1,
+          "assists": 5,
+          "firstCoreTimestamp": 868833,
+          "secondCoreTimestamp": 1234798,
+          "snapshots": {
+            "10": {
+              "goldDiff": -917,
+              "csDiff": -22,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -73,
+              "csDiff": -16,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -254,
+              "csDiff": 21,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7846079636",
+          "gameCreation": 1759480378548,
+          "gameDuration": 1379,
+          "opponent": "Yone",
+          "win": true,
+          "kills": 5,
+          "deaths": 0,
+          "assists": 4,
+          "firstCoreTimestamp": 664658,
+          "secondCoreTimestamp": 1108841,
+          "snapshots": {
+            "10": {
+              "goldDiff": -250,
+              "csDiff": -9,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 351,
+              "csDiff": -18,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 524,
+              "csDiff": -23,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7806291573",
+          "gameCreation": 1757675878805,
+          "gameDuration": 2247,
+          "opponent": "Sylas",
+          "win": false,
+          "kills": 6,
+          "deaths": 6,
+          "assists": 8,
+          "firstCoreTimestamp": 722859,
+          "secondCoreTimestamp": 1471008,
+          "snapshots": {
+            "10": {
+              "goldDiff": -65,
+              "csDiff": -5,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -10,
+              "csDiff": -6,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -238,
+              "csDiff": -7,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_7787671724",
+          "gameCreation": 1756559889305,
+          "gameDuration": 1865,
+          "opponent": "Ahri",
+          "win": true,
+          "kills": 14,
+          "deaths": 6,
+          "assists": 9,
+          "firstCoreTimestamp": 953469,
+          "secondCoreTimestamp": 1275816,
+          "snapshots": {
+            "10": {
+              "goldDiff": -258,
+              "csDiff": -11,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -541,
+              "csDiff": -11,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -1515,
+              "csDiff": -1,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7763081103",
+          "gameCreation": 1755254180242,
+          "gameDuration": 1999,
+          "opponent": "Evelynn",
+          "win": true,
+          "kills": 6,
+          "deaths": 6,
+          "assists": 1,
+          "firstCoreTimestamp": 752149,
+          "secondCoreTimestamp": 1222535,
+          "snapshots": {
+            "10": {
+              "goldDiff": -115,
+              "csDiff": 7,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 594,
+              "csDiff": 18,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 669,
+              "csDiff": 33,
+              "levelDiff": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "루덴의 동반자 → 그림자불꽃",
+      "games": 7,
+      "wins": 5,
+      "losses": 2,
+      "winRate": 0.7143,
+      "avgSecondCoreMinute": 25.21,
+      "opponents": [
+        {
+          "champion": "Yasuo",
+          "games": 1
+        },
+        {
+          "champion": "Zed",
+          "games": 1
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1
+        },
+        {
+          "champion": "Ryze",
+          "games": 1
+        },
+        {
+          "champion": "Orianna",
+          "games": 1
+        },
+        {
+          "champion": "Quinn",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 7,
+            "avg": -0.86,
+            "median": -64,
+            "ahead": 3,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": -12.14,
+            "median": -13,
+            "ahead": 2,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.57,
+            "median": 1,
+            "ahead": 4,
+            "behind": 0,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 7,
+            "avg": -94.43,
+            "median": -21,
+            "ahead": 3,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": -9.86,
+            "median": -6,
+            "ahead": 2,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.43,
+            "median": 0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 4
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 7,
+            "avg": -535.86,
+            "median": -790,
+            "ahead": 2,
+            "behind": 5,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": -19.29,
+            "median": -25,
+            "ahead": 2,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 2,
+            "behind": 3,
+            "even": 2
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8255704821",
+          "gameCreation": 1781260675122,
+          "gameDuration": 1933,
+          "opponent": "Yasuo",
+          "win": true,
+          "kills": 7,
+          "deaths": 2,
+          "assists": 12,
+          "firstCoreTimestamp": 699150,
+          "secondCoreTimestamp": 1785105,
+          "snapshots": {
+            "10": {
+              "goldDiff": -64,
+              "csDiff": -24,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1165,
+              "csDiff": -43,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1647,
+              "csDiff": -64,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8238402776",
+          "gameCreation": 1780149725519,
+          "gameDuration": 1949,
+          "opponent": "Zed",
+          "win": false,
+          "kills": 3,
+          "deaths": 5,
+          "assists": 6,
+          "firstCoreTimestamp": 680624,
+          "secondCoreTimestamp": 1602602,
+          "snapshots": {
+            "10": {
+              "goldDiff": -238,
+              "csDiff": 1,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -230,
+              "csDiff": 14,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -790,
+              "csDiff": 5,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8236341842",
+          "gameCreation": 1780050354504,
+          "gameDuration": 1880,
+          "opponent": "DrMundo",
+          "win": true,
+          "kills": 10,
+          "deaths": 2,
+          "assists": 7,
+          "firstCoreTimestamp": 598970,
+          "secondCoreTimestamp": 1761933,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1004,
+              "csDiff": 14,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 1642,
+              "csDiff": 24,
+              "levelDiff": 3
+            },
+            "20": {
+              "goldDiff": 2824,
+              "csDiff": 34,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "matchId": "KR_8091173852",
+          "gameCreation": 1771253931452,
+          "gameDuration": 1933,
+          "opponent": "Ahri",
+          "win": true,
+          "kills": 7,
+          "deaths": 4,
+          "assists": 10,
+          "firstCoreTimestamp": 644942,
+          "secondCoreTimestamp": 1496262,
+          "snapshots": {
+            "10": {
+              "goldDiff": 55,
+              "csDiff": -33,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 331,
+              "csDiff": -28,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -326,
+              "csDiff": -40,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8058533525",
+          "gameCreation": 1769774276231,
+          "gameDuration": 1286,
+          "opponent": "Ryze",
+          "win": false,
+          "kills": 2,
+          "deaths": 4,
+          "assists": 4,
+          "firstCoreTimestamp": 644790,
+          "secondCoreTimestamp": 1278912,
+          "snapshots": {
+            "10": {
+              "goldDiff": -283,
+              "csDiff": -10,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -1354,
+              "csDiff": -6,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -2595,
+              "csDiff": -19,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8004024672",
+          "gameCreation": 1767358111184,
+          "gameDuration": 1778,
+          "opponent": "Orianna",
+          "win": true,
+          "kills": 6,
+          "deaths": 4,
+          "assists": 5,
+          "firstCoreTimestamp": 740198,
+          "secondCoreTimestamp": 1447775,
+          "snapshots": {
+            "10": {
+              "goldDiff": -488,
+              "csDiff": -20,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -21,
+              "csDiff": -26,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 39,
+              "csDiff": -26,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7894084625",
+          "gameCreation": 1761996437099,
+          "gameDuration": 2597,
+          "opponent": "Quinn",
+          "win": true,
+          "kills": 17,
+          "deaths": 8,
+          "assists": 19,
+          "firstCoreTimestamp": 769979,
+          "secondCoreTimestamp": 1214454,
+          "snapshots": {
+            "10": {
+              "goldDiff": 8,
+              "csDiff": -13,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 136,
+              "csDiff": -4,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": -1256,
+              "csDiff": -25,
+              "levelDiff": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "루덴의 동반자 → 밴시의 장막",
+      "games": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 0.4,
+      "avgSecondCoreMinute": 19.08,
+      "opponents": [
+        {
+          "champion": "Sylas",
+          "games": 1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1
+        },
+        {
+          "champion": "Azir",
+          "games": 1
+        },
+        {
+          "champion": "Aurora",
+          "games": 1
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -535.6,
+            "median": -572,
+            "ahead": 0,
+            "behind": 5,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -14.4,
+            "median": -16,
+            "ahead": 0,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 5
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -1223.0,
+            "median": -1225,
+            "ahead": 1,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -24.6,
+            "median": -29,
+            "ahead": 0,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": -0.8,
+            "median": -1,
+            "ahead": 0,
+            "behind": 4,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -1342.0,
+            "median": -1483,
+            "ahead": 0,
+            "behind": 5,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -24.0,
+            "median": -17,
+            "ahead": 0,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": -0.8,
+            "median": -1,
+            "ahead": 0,
+            "behind": 4,
+            "even": 1
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8356195656",
+          "gameCreation": 1787755359841,
+          "gameDuration": 2052,
+          "opponent": "Sylas",
+          "win": true,
+          "kills": 10,
+          "deaths": 7,
+          "assists": 12,
+          "firstCoreTimestamp": 773888,
+          "secondCoreTimestamp": 1680311,
+          "snapshots": {
+            "10": {
+              "goldDiff": -969,
+              "csDiff": -20,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1910,
+              "csDiff": -29,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -2077,
+              "csDiff": -17,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8161284016",
+          "gameCreation": 1775312347670,
+          "gameDuration": 1301,
+          "opponent": "Xerath",
+          "win": false,
+          "kills": 5,
+          "deaths": 5,
+          "assists": 6,
+          "firstCoreTimestamp": 353690,
+          "secondCoreTimestamp": 694818,
+          "snapshots": {
+            "10": {
+              "goldDiff": -44,
+              "csDiff": -3,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 120,
+              "csDiff": -18,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -163,
+              "csDiff": -16,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8076908254",
+          "gameCreation": 1770573500318,
+          "gameDuration": 1271,
+          "opponent": "Azir",
+          "win": false,
+          "kills": 4,
+          "deaths": 6,
+          "assists": 3,
+          "firstCoreTimestamp": 302394,
+          "secondCoreTimestamp": 698452,
+          "snapshots": {
+            "10": {
+              "goldDiff": -705,
+              "csDiff": -18,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -2132,
+              "csDiff": -15,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1483,
+              "csDiff": -14,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "matchId": "KR_8032030355",
+          "gameCreation": 1768574661013,
+          "gameDuration": 2404,
+          "opponent": "Aurora",
+          "win": true,
+          "kills": 9,
+          "deaths": 5,
+          "assists": 12,
+          "firstCoreTimestamp": 778228,
+          "secondCoreTimestamp": 1376696,
+          "snapshots": {
+            "10": {
+              "goldDiff": -572,
+              "csDiff": -16,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -1225,
+              "csDiff": -30,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1478,
+              "csDiff": -34,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "matchId": "KR_7832604708",
+          "gameCreation": 1758980449483,
+          "gameDuration": 1855,
+          "opponent": "Yasuo",
+          "win": false,
+          "kills": 2,
+          "deaths": 4,
+          "assists": 7,
+          "firstCoreTimestamp": 856669,
+          "secondCoreTimestamp": 1275151,
+          "snapshots": {
+            "10": {
+              "goldDiff": -388,
+              "csDiff": -15,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -968,
+              "csDiff": -31,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -1509,
+              "csDiff": -39,
+              "levelDiff": -1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "검은불꽃 횃불 → 공허의 지팡이",
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 23.67,
+      "opponents": [
+        {
+          "champion": "Malphite",
+          "games": 1
+        },
+        {
+          "champion": "Galio",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 646.5,
+            "median": 646.5,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 3.0,
+            "median": 3.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1.0,
+            "median": 1.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 748.5,
+            "median": 748.5,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 6.5,
+            "median": 6.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1.0,
+            "median": 1.0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 1560.5,
+            "median": 1560.5,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 26.0,
+            "median": 26.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 2.0,
+            "median": 2.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8312332297",
+          "gameCreation": 1784904573007,
+          "gameDuration": 1900,
+          "opponent": "Malphite",
+          "win": true,
+          "kills": 8,
+          "deaths": 0,
+          "assists": 3,
+          "firstCoreTimestamp": 651429,
+          "secondCoreTimestamp": 1254126,
+          "snapshots": {
+            "10": {
+              "goldDiff": 833,
+              "csDiff": -7,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 881,
+              "csDiff": -6,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 1479,
+              "csDiff": 10,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "matchId": "KR_8237500091",
+          "gameCreation": 1780115991407,
+          "gameDuration": 1745,
+          "opponent": "Galio",
+          "win": true,
+          "kills": 11,
+          "deaths": 4,
+          "assists": 8,
+          "firstCoreTimestamp": 631011,
+          "secondCoreTimestamp": 1586728,
+          "snapshots": {
+            "10": {
+              "goldDiff": 460,
+              "csDiff": 13,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": 616,
+              "csDiff": 19,
+              "levelDiff": 2
+            },
+            "20": {
+              "goldDiff": 1642,
+              "csDiff": 42,
+              "levelDiff": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "라바돈의 죽음모자 → 무덤꽃",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 33.46,
+      "opponents": [
+        {
+          "champion": "Sylas",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 595.0,
+            "median": 595,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 28.0,
+            "median": 28,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1963.0,
+            "median": 1963,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 49.0,
+            "median": 49,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 3315.0,
+            "median": 3315,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 60.0,
+            "median": 60,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8189670295",
+          "gameCreation": 1777203290996,
+          "gameDuration": 2024,
+          "opponent": "Sylas",
+          "win": true,
+          "kills": 9,
+          "deaths": 5,
+          "assists": 16,
+          "firstCoreTimestamp": 1585791,
+          "secondCoreTimestamp": 2007874,
+          "snapshots": {
+            "10": {
+              "goldDiff": 595,
+              "csDiff": 28,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": 1963,
+              "csDiff": 49,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 3315,
+              "csDiff": 60,
+              "levelDiff": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "루덴의 동반자 → 공허의 지팡이",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 30.93,
+      "opponents": [
+        {
+          "champion": "Galio",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 17.0,
+            "median": 17,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -6.0,
+            "median": -6,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 392.0,
+            "median": 392,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -3.0,
+            "median": -3,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1001.0,
+            "median": 1001,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 14.0,
+            "median": 14,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8145152598",
+          "gameCreation": 1774191746362,
+          "gameDuration": 2289,
+          "opponent": "Galio",
+          "win": false,
+          "kills": 5,
+          "deaths": 8,
+          "assists": 6,
+          "firstCoreTimestamp": 653045,
+          "secondCoreTimestamp": 1856063,
+          "snapshots": {
+            "10": {
+              "goldDiff": 17,
+              "csDiff": -6,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 392,
+              "csDiff": -3,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 1001,
+              "csDiff": 14,
+              "levelDiff": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "루덴의 동반자 → 대천사의 지팡이",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 16.51,
+      "opponents": [
+        {
+          "champion": "Sylas",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 234.0,
+            "median": 234,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1444.0,
+            "median": 1444,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 19.0,
+            "median": 19,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1620.0,
+            "median": 1620,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 36.0,
+            "median": 36,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_7893779041",
+          "gameCreation": 1761983300612,
+          "gameDuration": 1206,
+          "opponent": "Sylas",
+          "win": true,
+          "kills": 6,
+          "deaths": 1,
+          "assists": 2,
+          "firstCoreTimestamp": 693957,
+          "secondCoreTimestamp": 990869,
+          "snapshots": {
+            "10": {
+              "goldDiff": 234,
+              "csDiff": 1,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": 1444,
+              "csDiff": 19,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": 1620,
+              "csDiff": 36,
+              "levelDiff": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "영겁의 지팡이 → 존야의 모래시계",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 20.23,
+      "opponents": [
+        {
+          "champion": "Zed",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -484.0,
+            "median": -484,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -10.0,
+            "median": -10,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -653.0,
+            "median": -653,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -19.0,
+            "median": -19,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -328.0,
+            "median": -328,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -9.0,
+            "median": -9,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_7762724154",
+          "gameCreation": 1755242368830,
+          "gameDuration": 1482,
+          "opponent": "Zed",
+          "win": true,
+          "kills": 2,
+          "deaths": 2,
+          "assists": 4,
+          "firstCoreTimestamp": 688449,
+          "secondCoreTimestamp": 1213805,
+          "snapshots": {
+            "10": {
+              "goldDiff": -484,
+              "csDiff": -10,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": -653,
+              "csDiff": -19,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -328,
+              "csDiff": -9,
+              "levelDiff": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "존야의 모래시계 → 그림자불꽃",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 18.33,
+      "opponents": [
+        {
+          "champion": "TwistedFate",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1093.0,
+            "median": -1093,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -30.0,
+            "median": -30,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 156.0,
+            "median": 156,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -47.0,
+            "median": -47,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -895.0,
+            "median": -895,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -52.0,
+            "median": -52,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8076875809",
+          "gameCreation": 1770571927047,
+          "gameDuration": 1415,
+          "opponent": "TwistedFate",
+          "win": false,
+          "kills": 1,
+          "deaths": 6,
+          "assists": 6,
+          "firstCoreTimestamp": 708401,
+          "secondCoreTimestamp": 1099828,
+          "snapshots": {
+            "10": {
+              "goldDiff": -1093,
+              "csDiff": -30,
+              "levelDiff": -1
+            },
+            "15": {
+              "goldDiff": 156,
+              "csDiff": -47,
+              "levelDiff": -1
+            },
+            "20": {
+              "goldDiff": -895,
+              "csDiff": -52,
+              "levelDiff": -1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "존야의 모래시계 → 루덴의 동반자",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 18.42,
+      "opponents": [
+        {
+          "champion": "Kayle",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -173.0,
+            "median": -173,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -18.0,
+            "median": -18,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -428.0,
+            "median": -428,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -34.0,
+            "median": -34,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -578.0,
+            "median": -578,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -55.0,
+            "median": -55,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8086658470",
+          "gameCreation": 1771071336560,
+          "gameDuration": 1980,
+          "opponent": "Kayle",
+          "win": false,
+          "kills": 4,
+          "deaths": 3,
+          "assists": 6,
+          "firstCoreTimestamp": 1099291,
+          "secondCoreTimestamp": 1104969,
+          "snapshots": {
+            "10": {
+              "goldDiff": -173,
+              "csDiff": -18,
+              "levelDiff": 1
+            },
+            "15": {
+              "goldDiff": -428,
+              "csDiff": -34,
+              "levelDiff": 0
+            },
+            "20": {
+              "goldDiff": -578,
+              "csDiff": -55,
+              "levelDiff": -1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "존야의 모래시계 → 밴시의 장막",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 15.7,
+      "opponents": [
+        {
+          "champion": "Akali",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -251.0,
+            "median": -251,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -6.0,
+            "median": -6,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -414.0,
+            "median": -414,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8082901541",
+          "gameCreation": 1770896871979,
+          "gameDuration": 1158,
+          "opponent": "Akali",
+          "win": false,
+          "kills": 2,
+          "deaths": 4,
+          "assists": 0,
+          "firstCoreTimestamp": 661415,
+          "secondCoreTimestamp": 941892,
+          "snapshots": {
+            "10": {
+              "goldDiff": -251,
+              "csDiff": -6,
+              "levelDiff": 0
+            },
+            "15": {
+              "goldDiff": -414,
+              "csDiff": 0,
+              "levelDiff": 1
+            },
+            "20": null
+          }
+        }
+      ]
+    },
+    {
+      "combo": "폭풍쇄도 → 그림자불꽃",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 14.69,
+      "opponents": [
+        {
+          "champion": "Annie",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 668.0,
+            "median": 668,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1287.0,
+            "median": 1287,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 12.0,
+            "median": 12,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 3.0,
+            "median": 3,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2123.0,
+            "median": 2123,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 11.0,
+            "median": 11,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 3.0,
+            "median": 3,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8076835296",
+          "gameCreation": 1770569540903,
+          "gameDuration": 1365,
+          "opponent": "Annie",
+          "win": true,
+          "kills": 7,
+          "deaths": 2,
+          "assists": 9,
+          "firstCoreTimestamp": 565641,
+          "secondCoreTimestamp": 881381,
+          "snapshots": {
+            "10": {
+              "goldDiff": 668,
+              "csDiff": 0,
+              "levelDiff": 2
+            },
+            "15": {
+              "goldDiff": 1287,
+              "csDiff": 12,
+              "levelDiff": 3
+            },
+            "20": {
+              "goldDiff": 2123,
+              "csDiff": 11,
+              "levelDiff": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "combo": "폭풍쇄도 → 루덴의 동반자",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 25.65,
+      "opponents": [
+        {
+          "champion": "Pantheon",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1406.0,
+            "median": 1406,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 32.0,
+            "median": 32,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1724.0,
+            "median": 1724,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 41.0,
+            "median": 41,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2347.0,
+            "median": 2347,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 71.0,
+            "median": 71,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "matches": [
+        {
+          "matchId": "KR_8206708709",
+          "gameCreation": 1778168696330,
+          "gameDuration": 1632,
+          "opponent": "Pantheon",
+          "win": false,
+          "kills": 5,
+          "deaths": 3,
+          "assists": 2,
+          "firstCoreTimestamp": 1034567,
+          "secondCoreTimestamp": 1539164,
+          "snapshots": {
+            "10": {
+              "goldDiff": 1406,
+              "csDiff": 32,
+              "levelDiff": 2
+            },
+            "15": {
+              "goldDiff": 1724,
+              "csDiff": 41,
+              "levelDiff": 1
+            },
+            "20": {
+              "goldDiff": 2347,
+              "csDiff": 71,
+              "levelDiff": 2
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
