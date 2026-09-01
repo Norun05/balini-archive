@@ -3,8 +3,68 @@
   "position": "TOP",
   "sampleCount": 4,
   "recognizedFirstCoreCount": 4,
+  "coreSlots": {
+    "1": {
+      "slot": 1,
+      "recognizedCount": 4,
+      "items": [
+        {
+          "item": "루덴의 동반자",
+          "games": 3,
+          "wins": 0,
+          "losses": 3,
+          "winRate": 0.0,
+          "avgCompletionMinute": 13.49,
+          "medianCompletionMinute": 13.84,
+          "withTimestamp": 3
+        },
+        {
+          "item": "영겁의 지팡이",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 15.04,
+          "medianCompletionMinute": 15.04,
+          "withTimestamp": 1
+        }
+      ]
+    },
+    "2": {
+      "slot": 2,
+      "recognizedCount": 1,
+      "items": [
+        {
+          "item": "대천사의 지팡이",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 21.4,
+          "medianCompletionMinute": 21.4,
+          "withTimestamp": 1
+        }
+      ]
+    },
+    "3": {
+      "slot": 3,
+      "recognizedCount": 1,
+      "items": [
+        {
+          "item": "라바돈의 죽음모자",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 29.95,
+          "medianCompletionMinute": 29.95,
+          "withTimestamp": 1
+        }
+      ]
+    }
+  },
   "notes": [
-    "Groups are based on first recognized completed core from ITEM_PURCHASED timestamps.",
+    "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -44,6 +104,7 @@
         }
       ],
       "secondCores": [],
+      "thirdCores": [],
       "checkpoints": {
         "5": {
           "goldDiff": {
@@ -292,6 +353,12 @@
       "secondCores": [
         {
           "item": "대천사의 지팡이",
+          "games": 1
+        }
+      ],
+      "thirdCores": [
+        {
+          "item": "라바돈의 죽음모자",
           "games": 1
         }
       ],

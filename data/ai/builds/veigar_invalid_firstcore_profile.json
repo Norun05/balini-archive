@@ -3,8 +3,58 @@
   "position": "INVALID",
   "sampleCount": 21,
   "recognizedFirstCoreCount": 2,
+  "coreSlots": {
+    "1": {
+      "slot": 1,
+      "recognizedCount": 2,
+      "items": [
+        {
+          "item": "영겁의 지팡이",
+          "games": 2,
+          "wins": 2,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 5.09,
+          "medianCompletionMinute": 5.09,
+          "withTimestamp": 2
+        }
+      ]
+    },
+    "2": {
+      "slot": 2,
+      "recognizedCount": 1,
+      "items": [
+        {
+          "item": "대천사의 지팡이",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 9.61,
+          "medianCompletionMinute": 9.61,
+          "withTimestamp": 1
+        }
+      ]
+    },
+    "3": {
+      "slot": 3,
+      "recognizedCount": 1,
+      "items": [
+        {
+          "item": "존야의 모래시계",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 15.35,
+          "medianCompletionMinute": 15.35,
+          "withTimestamp": 1
+        }
+      ]
+    }
+  },
   "notes": [
-    "Groups are based on first recognized completed core from ITEM_PURCHASED timestamps.",
+    "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -42,6 +92,12 @@
       "secondCores": [
         {
           "item": "대천사의 지팡이",
+          "games": 1
+        }
+      ],
+      "thirdCores": [
+        {
+          "item": "존야의 모래시계",
           "games": 1
         }
       ],

@@ -3,8 +3,138 @@
   "position": "BOTTOM",
   "sampleCount": 21,
   "recognizedFirstCoreCount": 18,
+  "coreSlots": {
+    "1": {
+      "slot": 1,
+      "recognizedCount": 18,
+      "items": [
+        {
+          "item": "루덴의 동반자",
+          "games": 18,
+          "wins": 12,
+          "losses": 6,
+          "winRate": 0.6667,
+          "avgCompletionMinute": 10.88,
+          "medianCompletionMinute": 10.85,
+          "withTimestamp": 18
+        }
+      ]
+    },
+    "2": {
+      "slot": 2,
+      "recognizedCount": 13,
+      "items": [
+        {
+          "item": "폭풍쇄도",
+          "games": 7,
+          "wins": 5,
+          "losses": 2,
+          "winRate": 0.7143,
+          "avgCompletionMinute": 18.16,
+          "medianCompletionMinute": 17.43,
+          "withTimestamp": 7
+        },
+        {
+          "item": "존야의 모래시계",
+          "games": 3,
+          "wins": 2,
+          "losses": 1,
+          "winRate": 0.6667,
+          "avgCompletionMinute": 21.45,
+          "medianCompletionMinute": 22.05,
+          "withTimestamp": 3
+        },
+        {
+          "item": "그림자불꽃",
+          "games": 2,
+          "wins": 2,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 11.68,
+          "medianCompletionMinute": 11.68,
+          "withTimestamp": 2
+        },
+        {
+          "item": "밴시의 장막",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 18.19,
+          "medianCompletionMinute": 18.19,
+          "withTimestamp": 1
+        }
+      ]
+    },
+    "3": {
+      "slot": 3,
+      "recognizedCount": 6,
+      "items": [
+        {
+          "item": "그림자불꽃",
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0,
+          "avgCompletionMinute": 21.84,
+          "medianCompletionMinute": 21.84,
+          "withTimestamp": 1
+        },
+        {
+          "item": "라바돈의 죽음모자",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 17.46,
+          "medianCompletionMinute": 17.46,
+          "withTimestamp": 1
+        },
+        {
+          "item": "밴시의 장막",
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0,
+          "avgCompletionMinute": 24.28,
+          "medianCompletionMinute": 24.28,
+          "withTimestamp": 1
+        },
+        {
+          "item": "존야의 모래시계",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 19.83,
+          "medianCompletionMinute": 19.83,
+          "withTimestamp": 1
+        },
+        {
+          "item": "지평선의 초점",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 26.14,
+          "medianCompletionMinute": 26.14,
+          "withTimestamp": 1
+        },
+        {
+          "item": "폭풍쇄도",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 20.96,
+          "medianCompletionMinute": 20.96,
+          "withTimestamp": 1
+        }
+      ]
+    }
+  },
   "notes": [
-    "Groups are based on first recognized completed core from ITEM_PURCHASED timestamps.",
+    "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -102,6 +232,32 @@
         },
         {
           "item": "밴시의 장막",
+          "games": 1
+        }
+      ],
+      "thirdCores": [
+        {
+          "item": "라바돈의 죽음모자",
+          "games": 1
+        },
+        {
+          "item": "밴시의 장막",
+          "games": 1
+        },
+        {
+          "item": "지평선의 초점",
+          "games": 1
+        },
+        {
+          "item": "폭풍쇄도",
+          "games": 1
+        },
+        {
+          "item": "그림자불꽃",
+          "games": 1
+        },
+        {
+          "item": "존야의 모래시계",
           "games": 1
         }
       ],
