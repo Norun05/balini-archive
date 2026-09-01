@@ -1,0 +1,328 @@
+{
+  "champion": "Veigar",
+  "position": "MIDDLE",
+  "sampleCount": 188,
+  "matchesWithRecognizedFirstCore": 179,
+  "matchesWithRecognizedTwoCore": 130,
+  "notes": [
+    "firstCore/twoCore use ITEM_PURCHASED timestamps, not final inventory order.",
+    "finalPresence is descriptive only and is strongly affected by game length and gold income.",
+    "Only the listed major completed items are recognized as cores."
+  ],
+  "firstCore": [
+    {
+      "key": "루덴의 동반자",
+      "games": 140,
+      "wins": 87,
+      "losses": 53,
+      "winRate": 0.6214
+    },
+    {
+      "key": "영겁의 지팡이",
+      "games": 27,
+      "wins": 20,
+      "losses": 7,
+      "winRate": 0.7407
+    },
+    {
+      "key": "검은불꽃 횃불",
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 0.75
+    },
+    {
+      "key": "폭풍쇄도",
+      "games": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 0.6667
+    },
+    {
+      "key": "존야의 모래시계",
+      "games": 3,
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
+    },
+    {
+      "key": "라바돈의 죽음모자",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "라일라이의 수정홀",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    }
+  ],
+  "twoCoreOrder": [
+    {
+      "key": "루덴의 동반자 → 폭풍쇄도",
+      "games": 69,
+      "wins": 42,
+      "losses": 27,
+      "winRate": 0.6087
+    },
+    {
+      "key": "루덴의 동반자 → 존야의 모래시계",
+      "games": 20,
+      "wins": 13,
+      "losses": 7,
+      "winRate": 0.65
+    },
+    {
+      "key": "영겁의 지팡이 → 대천사의 지팡이",
+      "games": 18,
+      "wins": 13,
+      "losses": 5,
+      "winRate": 0.7222
+    },
+    {
+      "key": "루덴의 동반자 → 그림자불꽃",
+      "games": 7,
+      "wins": 5,
+      "losses": 2,
+      "winRate": 0.7143
+    },
+    {
+      "key": "루덴의 동반자 → 밴시의 장막",
+      "games": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 0.4
+    },
+    {
+      "key": "검은불꽃 횃불 → 공허의 지팡이",
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "라바돈의 죽음모자 → 무덤꽃",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "루덴의 동반자 → 대천사의 지팡이",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "영겁의 지팡이 → 존야의 모래시계",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "폭풍쇄도 → 그림자불꽃",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "루덴의 동반자 → 공허의 지팡이",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "존야의 모래시계 → 그림자불꽃",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "존야의 모래시계 → 루덴의 동반자",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "존야의 모래시계 → 밴시의 장막",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "폭풍쇄도 → 루덴의 동반자",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ],
+  "boots": [
+    {
+      "key": "마법사의 신발",
+      "games": 79,
+      "wins": 55,
+      "losses": 24,
+      "winRate": 0.6962
+    },
+    {
+      "key": "헤르메스의 발걸음",
+      "games": 40,
+      "wins": 24,
+      "losses": 16,
+      "winRate": 0.6
+    },
+    {
+      "key": "판금 장화",
+      "games": 34,
+      "wins": 18,
+      "losses": 16,
+      "winRate": 0.5294
+    },
+    {
+      "key": "명석함의 아이오니아 장화",
+      "games": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 0.4
+    },
+    {
+      "key": "신속의 장화",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    }
+  ],
+  "finalItemPresence": [
+    {
+      "key": "루덴의 동반자",
+      "games": 142,
+      "wins": 87,
+      "losses": 55,
+      "winRate": 0.6127
+    },
+    {
+      "key": "폭풍쇄도",
+      "games": 75,
+      "wins": 44,
+      "losses": 31,
+      "winRate": 0.5867
+    },
+    {
+      "key": "존야의 모래시계",
+      "games": 48,
+      "wins": 31,
+      "losses": 17,
+      "winRate": 0.6458
+    },
+    {
+      "key": "영겁의 지팡이",
+      "games": 27,
+      "wins": 20,
+      "losses": 7,
+      "winRate": 0.7407
+    },
+    {
+      "key": "마법사의 신발",
+      "games": 27,
+      "wins": 17,
+      "losses": 10,
+      "winRate": 0.6296
+    },
+    {
+      "key": "그림자불꽃",
+      "games": 27,
+      "wins": 14,
+      "losses": 13,
+      "winRate": 0.5185
+    },
+    {
+      "key": "라바돈의 죽음모자",
+      "games": 26,
+      "wins": 14,
+      "losses": 12,
+      "winRate": 0.5385
+    },
+    {
+      "key": "대천사의 포옹",
+      "games": 18,
+      "wins": 14,
+      "losses": 4,
+      "winRate": 0.7778
+    },
+    {
+      "key": "판금 장화",
+      "games": 16,
+      "wins": 8,
+      "losses": 8,
+      "winRate": 0.5
+    },
+    {
+      "key": "헤르메스의 발걸음",
+      "games": 14,
+      "wins": 8,
+      "losses": 6,
+      "winRate": 0.5714
+    },
+    {
+      "key": "공허의 지팡이",
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "winRate": 0.5833
+    },
+    {
+      "key": "밴시의 장막",
+      "games": 10,
+      "wins": 4,
+      "losses": 6,
+      "winRate": 0.4
+    },
+    {
+      "key": "검은불꽃 횃불",
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 0.75
+    },
+    {
+      "key": "무덤꽃",
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 0.75
+    },
+    {
+      "key": "모렐로노미콘",
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 0.25
+    },
+    {
+      "key": "라일라이의 수정홀",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "대천사의 지팡이",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ]
+}
