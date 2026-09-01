@@ -1568,7 +1568,659 @@
       "ITEM_SOLD",
       "ITEM_UNDO",
       "SKILL_LEVEL_UP"
-    ]
+    ],
+    "earlyLaningSnapshots": [],
+    "earlyLaningSnapshotMinutes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      15,
+      20
+    ],
+    "levelMilestones": {
+      "2": {
+        "me": null,
+        "opponent": null,
+        "source": "Riot Match-V5 participantFrames",
+        "precision": "approximately 1 minute; first frame observed at or above target level"
+      },
+      "3": {
+        "me": null,
+        "opponent": null,
+        "source": "Riot Match-V5 participantFrames",
+        "precision": "approximately 1 minute; first frame observed at or above target level"
+      }
+    },
+    "levelMilestoneNote": "Level 2/3 timestamps are approximate. Riot Match-V5 participantFrames are about 1 minute apart, so this records the first frame where the player is observed at or above the target level.",
+    "movementSnapshots": [
+      {
+        "timestamp": 0,
+        "minute": 0.0,
+        "x": 362,
+        "y": 135,
+        "jungleCs": 0,
+        "laneCs": 0,
+        "level": 1,
+        "xp": 0
+      },
+      {
+        "timestamp": 60012,
+        "minute": 1.0,
+        "x": 4956,
+        "y": 8600,
+        "jungleCs": 0,
+        "laneCs": 0,
+        "level": 1,
+        "xp": 0,
+        "fromPrevious": {
+          "distance": 9631.3,
+          "elapsedMs": 60012,
+          "largeDisplacement": true
+        }
+      },
+      {
+        "timestamp": 110125,
+        "minute": 1.84,
+        "x": 7328,
+        "y": 6975,
+        "jungleCs": 0,
+        "laneCs": 1,
+        "level": 1,
+        "xp": 185,
+        "fromPrevious": {
+          "distance": 2875.2,
+          "elapsedMs": 50113,
+          "largeDisplacement": false
+        }
+      }
+    ],
+    "largeDisplacements": [
+      {
+        "fromTimestamp": 0,
+        "toTimestamp": 60012,
+        "fromMinute": 0.0,
+        "toMinute": 1.0,
+        "from": {
+          "x": 362,
+          "y": 135
+        },
+        "to": {
+          "x": 4956,
+          "y": 8600
+        },
+        "distance": 9631.3,
+        "note": "Large displacement between Riot timeline frames; cause is not identifiable from Match-V5 alone."
+      }
+    ],
+    "movementSource": "Riot Match-V5 timeline participantFrames",
+    "movementFrameCadence": "about 1 minute",
+    "movementScope": "user participant for this match",
+    "movementCaveat": "Adjacent frame positions do not reveal the path or cause of movement. Large displacement is a heuristic and must not be treated as proof of Teleport or a champion ability.",
+    "itemEconomy": {
+      "participants": {
+        "3": {
+          "riotId": "발린이#극악무도",
+          "championName": "Veigar",
+          "position": "MIDDLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4297,
+              "itemId": 1056,
+              "itemNameKo": "도란의 반지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4297,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4297,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4831,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "10": {
+          "riotId": "dornrwk0429#KR1",
+          "championName": "Blitzcrank",
+          "position": "UTILITY",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4431,
+              "itemId": 2055,
+              "itemNameKo": "제어 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 75,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4765,
+              "itemId": 3364,
+              "itemNameKo": "예언자의 렌즈",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 5165,
+              "itemId": 3364,
+              "itemNameKo": "예언자의 렌즈",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 5165,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 5499,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 5499,
+              "itemId": 3364,
+              "itemNameKo": "예언자의 렌즈",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_UNDO",
+              "timestamp": 8439,
+              "itemId": null,
+              "itemNameKo": null,
+              "beforeId": 0,
+              "beforeItemNameKo": null,
+              "afterId": 3364,
+              "afterItemNameKo": "예언자의 렌즈",
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_UNDO",
+              "timestamp": 8806,
+              "itemId": null,
+              "itemNameKo": null,
+              "beforeId": 0,
+              "beforeItemNameKo": null,
+              "afterId": 3340,
+              "afterItemNameKo": "투명 와드",
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_UNDO",
+              "timestamp": 10476,
+              "itemId": null,
+              "itemNameKo": null,
+              "beforeId": 0,
+              "beforeItemNameKo": null,
+              "afterId": 3364,
+              "afterItemNameKo": "예언자의 렌즈",
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_UNDO",
+              "timestamp": 11311,
+              "itemId": null,
+              "itemNameKo": null,
+              "beforeId": 2055,
+              "beforeItemNameKo": "제어 와드",
+              "afterId": 0,
+              "afterItemNameKo": null,
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 11913,
+              "itemId": 3364,
+              "itemNameKo": "예언자의 렌즈",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 12080,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 12247,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 106083,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "8": {
+          "riotId": "키타가와마린짜앙#KR1",
+          "championName": "Yasuo",
+          "position": "MIDDLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 5466,
+              "itemId": 1055,
+              "itemNameKo": "도란의 검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 5466,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "5": {
+          "riotId": "Harvest Mice#KR1",
+          "championName": "Alistar",
+          "position": "UTILITY",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 5566,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 5900,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 6635,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "9": {
+          "riotId": "악어상어새#0562",
+          "championName": "Ashe",
+          "position": "BOTTOM",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7838,
+              "itemId": 1055,
+              "itemNameKo": "도란의 검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7838,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "7": {
+          "riotId": "하르망이#KR1",
+          "championName": "Lillia",
+          "position": "JUNGLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7904,
+              "itemId": 1102,
+              "itemNameKo": "새끼 바람돌이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 8673,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "2": {
+          "riotId": "중동고중동에없음#KR1",
+          "championName": "Sylas",
+          "position": "JUNGLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 10510,
+              "itemId": 1102,
+              "itemNameKo": "새끼 바람돌이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 11278,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 11545,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "1": {
+          "riotId": "DTC Soul#영혼수집가",
+          "championName": "Darius",
+          "position": "TOP",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 17090,
+              "itemId": 1054,
+              "itemNameKo": "도란의 방패",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 17090,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        },
+        "6": {
+          "riotId": "냥이펀치캥거루#KR1",
+          "championName": "Malphite",
+          "position": "TOP",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 26375,
+              "itemId": 1054,
+              "itemNameKo": "도란의 방패",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 26375,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": null,
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        }
+      },
+      "coreRule": "Purchased terminal non-boots item with Data Dragon totalGold >= 2000.",
+      "firstBackRule": "First ITEM_PURCHASED after 90s, grouped within 5s.",
+      "limitations": [
+        "Core completion is a heuristic, not a Riot-provided semantic field.",
+        "ITEM_UNDO, unusual transformations, support/jungle upgrades, and mode-specific items can make inferred build order imperfect.",
+        "Gold spent should be read from event chronology rather than naively summing item totalGold."
+      ]
+    }
   },
   "itemNameLanguage": "ko_KR",
   "itemDataVersion": "15.22.1"

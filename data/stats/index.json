@@ -1,0 +1,20 @@
+{
+  "generatedAt": 1788289802091,
+  "schemaVersion": 1,
+  "matchCount": 830,
+  "files": {
+    "overview": "stats/overview.json",
+    "champions": "stats/champions.json",
+    "positions": "stats/positions.json",
+    "matchups": "stats/matchups/index.json",
+    "teammates": "stats/teammates.json",
+    "summoners": "stats/summoners.json",
+    "builds": "stats/builds.json",
+    "itemTimings": "stats/item_timings.json"
+  },
+  "notes": [
+    "Statistics are precomputed from generated match detail JSON.",
+    "Matchup files include matchIds so AI can inspect only relevant games when deeper analysis is needed.",
+    "Early-lane metrics use timeline snapshots and inherit Riot timeline cadence limitations."
+  ]
+}

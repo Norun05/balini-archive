@@ -210,6 +210,24 @@
         "championEvents": [
           {
             "type": "CHAMPION_KILL",
+            "timestamp": 56542,
+            "killerId": 5,
+            "victimId": 7,
+            "bounty": 300,
+            "shutdownBounty": 0,
+            "position": {
+              "x": 7361,
+              "y": 9792
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "Zyra",
+            "victimRiotId": "Zyra bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
             "timestamp": 62012,
             "killerId": 3,
             "victimId": 6,
@@ -219,10 +237,146 @@
               4
             ],
             "bounty": 300,
+            "shutdownBounty": 0,
             "position": {
               "x": 13456,
               "y": 7042
-            }
+            },
+            "killerChampion": "Teemo",
+            "killerRiotId": "앙쫑횽#KR1",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko",
+              "Zoe",
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1",
+              "발린이#극악무도",
+              "관 점#1207"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 75106,
+            "killerId": 5,
+            "victimId": 9,
+            "bounty": 300,
+            "shutdownBounty": 0,
+            "position": {
+              "x": 6034,
+              "y": 9104
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 78814,
+            "killerId": 4,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1,
+              3
+            ],
+            "bounty": 300,
+            "shutdownBounty": 0,
+            "position": {
+              "x": 13230,
+              "y": 6046
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko",
+              "Teemo"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1",
+              "앙쫑횽#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 119067,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 250,
+            "shutdownBounty": -50,
+            "position": {
+              "x": 13774,
+              "y": 4233
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 128720,
+            "killerId": 4,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 250,
+            "shutdownBounty": -50,
+            "position": {
+              "x": 13671,
+              "y": 4499
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 160954,
+            "killerId": 5,
+            "victimId": 8,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 300,
+            "shutdownBounty": 0,
+            "position": {
+              "x": 5467,
+              "y": 13487
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "DrMundo",
+            "victimRiotId": "DrMundo bot#BOT",
+            "assistingChampions": [
+              "Teemo"
+            ],
+            "assistingRiotIds": [
+              "앙쫑횽#KR1"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -230,10 +384,192 @@
             "killerId": 2,
             "victimId": 9,
             "bounty": 250,
+            "shutdownBounty": -50,
             "position": {
               "x": 8254,
               "y": 6138
-            }
+            },
+            "killerChampion": "Zoe",
+            "killerRiotId": "발린이#극악무도",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 218283,
+            "killerId": 4,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 150,
+            "shutdownBounty": -150,
+            "position": {
+              "x": 13025,
+              "y": 2548
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 244607,
+            "killerId": 5,
+            "victimId": 7,
+            "bounty": 250,
+            "shutdownBounty": -50,
+            "position": {
+              "x": 8550,
+              "y": 6172
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "Zyra",
+            "victimRiotId": "Zyra bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 268628,
+            "killerId": 5,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1,
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13353,
+              "y": 5507
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko",
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1",
+              "관 점#1207"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 277112,
+            "killerId": 5,
+            "victimId": 6,
+            "bounty": 150,
+            "shutdownBounty": -150,
+            "position": {
+              "x": 14062,
+              "y": 8198
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 286976,
+            "killerId": 3,
+            "victimId": 9,
+            "bounty": 150,
+            "shutdownBounty": -150,
+            "position": {
+              "x": 2132,
+              "y": 11563
+            },
+            "killerChampion": "Teemo",
+            "killerRiotId": "앙쫑횽#KR1",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 290018,
+            "killerId": 3,
+            "victimId": 8,
+            "bounty": 250,
+            "shutdownBounty": -50,
+            "position": {
+              "x": 1689,
+              "y": 11246
+            },
+            "killerChampion": "Teemo",
+            "killerRiotId": "앙쫑횽#KR1",
+            "victimChampion": "DrMundo",
+            "victimRiotId": "DrMundo bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 317136,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13582,
+              "y": 4135
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 322647,
+            "killerId": 1,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13728,
+              "y": 4687
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "관 점#1207"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -244,10 +580,89 @@
               2
             ],
             "bounty": 50,
+            "shutdownBounty": -250,
             "position": {
               "x": 8280,
               "y": 8036
-            }
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [
+              "Zoe"
+            ],
+            "assistingRiotIds": [
+              "발린이#극악무도"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 384549,
+            "killerId": 4,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13513,
+              "y": 3449
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 390561,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 11697,
+              "y": 2839
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 410602,
+            "killerId": 5,
+            "victimId": 8,
+            "bounty": 150,
+            "shutdownBounty": -150,
+            "position": {
+              "x": 3131,
+              "y": 13020
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "DrMundo",
+            "victimRiotId": "DrMundo bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
           },
           {
             "type": "CHAMPION_KILL",
@@ -255,10 +670,267 @@
             "killerId": 2,
             "victimId": 9,
             "bounty": 50,
+            "shutdownBounty": -250,
             "position": {
               "x": 7005,
               "y": 6645
-            }
+            },
+            "killerChampion": "Zoe",
+            "killerRiotId": "발린이#극악무도",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 428310,
+            "killerId": 1,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13555,
+              "y": 6416
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "관 점#1207"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 436106,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 12106,
+              "y": 5094
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 453612,
+            "killerId": 4,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 150,
+            "shutdownBounty": -150,
+            "position": {
+              "x": 13068,
+              "y": 7472
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Zyra",
+            "victimRiotId": "Zyra bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 460736,
+            "killerId": 4,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13191,
+              "y": 8136
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 470957,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13617,
+              "y": 7598
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 473028,
+            "killerId": 1,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 12734,
+              "y": 7440
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "관 점#1207"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 512768,
+            "killerId": 1,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13316,
+              "y": 8958
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "관 점#1207"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 513581,
+            "killerId": 1,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13375,
+              "y": 8368
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "관 점#1207"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 545136,
+            "killerId": 4,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13672,
+              "y": 8131
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 546673,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13374,
+              "y": 8463
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -266,10 +938,42 @@
             "killerId": 2,
             "victimId": 9,
             "bounty": 50,
+            "shutdownBounty": -250,
             "position": {
               "x": 8147,
               "y": 7534
-            }
+            },
+            "killerChampion": "Zoe",
+            "killerRiotId": "발린이#극악무도",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [],
+            "assistingRiotIds": []
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 582626,
+            "killerId": 1,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13258,
+              "y": 10202
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "관 점#1207"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -280,10 +984,199 @@
               2
             ],
             "bounty": 50,
+            "shutdownBounty": -250,
             "position": {
               "x": 8462,
               "y": 8638
-            }
+            },
+            "killerChampion": "Jax",
+            "killerRiotId": "히듀듀#KR1",
+            "victimChampion": "DrMundo",
+            "victimRiotId": "DrMundo bot#BOT",
+            "assistingChampions": [
+              "Zoe"
+            ],
+            "assistingRiotIds": [
+              "발린이#극악무도"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 589340,
+            "killerId": 1,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13261,
+              "y": 9479
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [
+              "Yunara"
+            ],
+            "assistingRiotIds": [
+              "관 점#1207"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 596940,
+            "killerId": 4,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 12300,
+              "y": 9791
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Zyra",
+            "victimRiotId": "Zyra bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 602785,
+            "killerId": 10,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              7,
+              9
+            ],
+            "bounty": 300,
+            "shutdownBounty": 600,
+            "position": {
+              "x": 13558,
+              "y": 10699
+            },
+            "killerChampion": "Seraphine",
+            "killerRiotId": "Seraphine bot#BOT",
+            "victimChampion": "Neeko",
+            "victimRiotId": "테티아#KR1",
+            "assistingChampions": [
+              "Zyra",
+              "Lux"
+            ],
+            "assistingRiotIds": [
+              "Zyra bot#BOT",
+              "Lux bot#BOT"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 604355,
+            "killerId": 4,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 300,
+            "shutdownBounty": 0,
+            "position": {
+              "x": 13980,
+              "y": 11116
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 686993,
+            "killerId": 1,
+            "victimId": 9,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13851,
+              "y": 8586
+            },
+            "killerChampion": "Neeko",
+            "killerRiotId": "테티아#KR1",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [
+              "Teemo"
+            ],
+            "assistingRiotIds": [
+              "앙쫑횽#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 699155,
+            "killerId": 4,
+            "victimId": 10,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 300,
+            "shutdownBounty": 0,
+            "position": {
+              "x": 13839,
+              "y": 9699
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 700224,
+            "killerId": 4,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13436,
+              "y": 10247
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Sivir",
+            "victimRiotId": "Sivir bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -295,10 +1188,48 @@
               2
             ],
             "bounty": 50,
+            "shutdownBounty": -250,
             "position": {
               "x": 13564,
               "y": 9918
-            }
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Zyra",
+            "victimRiotId": "Zyra bot#BOT",
+            "assistingChampions": [
+              "Neeko",
+              "Zoe"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1",
+              "발린이#극악무도"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 720409,
+            "killerId": 4,
+            "victimId": 8,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 10327,
+              "y": 10580
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "DrMundo",
+            "victimRiotId": "DrMundo bot#BOT",
+            "assistingChampions": [
+              "Teemo"
+            ],
+            "assistingRiotIds": [
+              "앙쫑횽#KR1"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -309,10 +1240,21 @@
               2
             ],
             "bounty": 50,
+            "shutdownBounty": -250,
             "position": {
               "x": 12390,
               "y": 11256
-            }
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Lux",
+            "victimRiotId": "Lux bot#BOT",
+            "assistingChampions": [
+              "Zoe"
+            ],
+            "assistingRiotIds": [
+              "발린이#극악무도"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -323,10 +1265,46 @@
               2
             ],
             "bounty": 250,
+            "shutdownBounty": -50,
             "position": {
               "x": 12791,
               "y": 11624
-            }
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Seraphine",
+            "victimRiotId": "Seraphine bot#BOT",
+            "assistingChampions": [
+              "Zoe"
+            ],
+            "assistingRiotIds": [
+              "발린이#극악무도"
+            ]
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 737412,
+            "killerId": 4,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 50,
+            "shutdownBounty": -250,
+            "position": {
+              "x": 13403,
+              "y": 12404
+            },
+            "killerChampion": "Yunara",
+            "killerRiotId": "관 점#1207",
+            "victimChampion": "Zyra",
+            "victimRiotId": "Zyra bot#BOT",
+            "assistingChampions": [
+              "Neeko"
+            ],
+            "assistingRiotIds": [
+              "테티아#KR1"
+            ]
           },
           {
             "type": "CHAMPION_KILL",
@@ -338,78 +1316,1286 @@
               10
             ],
             "bounty": 300,
+            "shutdownBounty": 200,
             "position": {
               "x": 14195,
               "y": 13599
-            }
+            },
+            "killerChampion": "Sivir",
+            "killerRiotId": "Sivir bot#BOT",
+            "victimChampion": "Zoe",
+            "victimRiotId": "발린이#극악무도",
+            "assistingChampions": [
+              "DrMundo",
+              "Seraphine"
+            ],
+            "assistingRiotIds": [
+              "DrMundo bot#BOT",
+              "Seraphine bot#BOT"
+            ]
           }
         ],
         "itemEvents": [
           {
             "type": "ITEM_PURCHASED",
-            "timestamp": 2830,
-            "participantId": 2,
-            "itemId": 1056
+            "timestamp": 0,
+            "participantId": 0,
+            "itemId": 3865,
+            "itemNameKo": "세계 지도집"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 6,
+            "itemId": 1055,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "도란의 검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 6,
+            "itemId": 2003,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 7,
+            "itemId": 1102,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "새끼 바람돌이"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 8,
+            "itemId": 1028,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "루비 수정"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 8,
+            "itemId": 2003,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 8,
+            "itemId": 2003,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 9,
+            "itemId": 323070,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "여신의 눈물"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 9,
+            "itemId": 2003,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1093,
+            "participantId": 9,
+            "itemId": 2003,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1761,
+            "participantId": 4,
+            "itemId": 1055,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "도란의 검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1761,
+            "participantId": 4,
+            "itemId": 2003,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 2295,
+            "participantId": 10,
+            "itemId": 2003,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 2429,
+            "participantId": 10,
+            "itemId": 2003,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "체력 물약"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 2830,
             "participantId": 2,
-            "itemId": 2003
+            "itemId": 1056,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "도란의 반지"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 2830,
             "participantId": 2,
-            "itemId": 2003
+            "itemId": 2003,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 2830,
+            "participantId": 2,
+            "itemId": 2003,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "체력 물약"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 3598,
             "participantId": 2,
-            "itemId": 3340
+            "itemId": 3340,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "투명 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 8074,
+            "participantId": 3,
+            "itemId": 1056,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "도란의 반지"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 8074,
+            "participantId": 3,
+            "itemId": 2003,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 8074,
+            "participantId": 3,
+            "itemId": 2003,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 10579,
+            "participantId": 5,
+            "itemId": 1101,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "새끼 화염발톱"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 10913,
+            "participantId": 1,
+            "itemId": 3865,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "세계 지도집"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 10913,
+            "participantId": 1,
+            "itemId": 2003,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 10913,
+            "participantId": 1,
+            "itemId": 2003,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 11314,
+            "participantId": 5,
+            "itemId": 2003,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "체력 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 11514,
+            "participantId": 5,
+            "itemId": 3340,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "투명 와드"
+          },
+          {
+            "type": "ITEM_UNDO",
+            "timestamp": 11748,
+            "participantId": 1,
+            "beforeId": 2003,
+            "afterId": 0,
+            "goldGain": 50,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "beforeItemNameKo": "체력 물약",
+            "afterItemNameKo": null
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 12516,
+            "participantId": 1,
+            "itemId": 3340,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "투명 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 171009,
+            "participantId": 8,
+            "itemId": 2055,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "제어 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 181004,
+            "participantId": 1,
+            "itemId": 1028,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "루비 수정"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 181505,
+            "participantId": 1,
+            "itemId": 2022,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "빛나는 티끌"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 181639,
+            "participantId": 4,
+            "itemId": 1043,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "곡궁"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 181973,
+            "participantId": 4,
+            "itemId": 1036,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "롱소드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 183176,
+            "participantId": 4,
+            "itemId": 1042,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "단검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 183944,
+            "participantId": 3,
+            "itemId": 1052,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 183977,
+            "participantId": 3,
+            "itemId": 1028,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "루비 수정"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 186315,
+            "participantId": 4,
+            "itemId": 2031,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "충전형 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 191059,
+            "participantId": 9,
+            "itemId": 1001,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 214975,
+            "participantId": 6,
+            "itemId": 2055,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "제어 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 214975,
+            "participantId": 6,
+            "itemId": 1001,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "장화"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 219686,
             "participantId": 2,
-            "itemId": 1052
+            "itemId": 1052,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "증폭의 고서"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 220153,
             "participantId": 2,
-            "itemId": 1027
+            "itemId": 1027,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "사파이어 수정"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 228337,
+            "participantId": 10,
+            "itemId": 1001,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 230007,
+            "participantId": 8,
+            "itemId": 1006,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "원기 회복의 구슬"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 254664,
+            "participantId": 7,
+            "itemId": 2055,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "제어 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 254730,
+            "participantId": 7,
+            "itemId": 1052,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 280727,
+            "participantId": 10,
+            "itemId": 2055,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "제어 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 289147,
+            "participantId": 6,
+            "itemId": 1042,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "단검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 289147,
+            "participantId": 6,
+            "itemId": 1042,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "단검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 295830,
+            "participantId": 5,
+            "itemId": 3077,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "티아맷"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 298536,
+            "participantId": 5,
+            "itemId": 1043,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "곡궁"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 299037,
+            "participantId": 9,
+            "itemId": 2055,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "제어 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 299104,
+            "participantId": 9,
+            "itemId": 3020,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "마법사의 신발"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 302062,
+            "participantId": 8,
+            "itemId": 1001,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 302062,
+            "participantId": 8,
+            "itemId": 1011,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "거인의 허리띠"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 303331,
+            "participantId": 5,
+            "itemId": 1042,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "단검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 304200,
+            "participantId": 5,
+            "itemId": 1042,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "단검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 329193,
+            "participantId": 6,
+            "itemId": 3144,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "정찰병의 새총"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 329193,
+            "participantId": 6,
+            "itemId": 1036,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "롱소드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 334938,
+            "participantId": 10,
+            "itemId": 2055,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "제어 와드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 334938,
+            "participantId": 10,
+            "itemId": 3009,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "신속의 장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 335005,
+            "participantId": 10,
+            "itemId": 2022,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "빛나는 티끌"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 344660,
+            "participantId": 1,
+            "itemId": 3145,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "마법공학 교류 발전기"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 348100,
+            "participantId": 4,
+            "itemId": 3006,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "광전사의 군화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 348434,
+            "participantId": 1,
+            "itemId": 1001,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 349937,
+            "participantId": 4,
+            "itemId": 3051,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "온기가 필요한 자의 도끼"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 367214,
+            "participantId": 9,
+            "itemId": 1052,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 379973,
+            "participantId": 3,
+            "itemId": 3147,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "기괴한 가면"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 380040,
+            "participantId": 3,
+            "itemId": 2508,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "운명의 재"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 389960,
             "participantId": 2,
-            "itemId": 3802
+            "itemId": 3802,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "사라진 양피지"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 390595,
             "participantId": 2,
-            "itemId": 3145
+            "itemId": 3145,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "마법공학 교류 발전기"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 398811,
+            "participantId": 10,
+            "itemId": 3364,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "예언자의 렌즈"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 398811,
+            "participantId": 10,
+            "itemId": 1052,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 404623,
+            "participantId": 6,
+            "itemId": 2022,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "빛나는 티끌"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 426673,
+            "participantId": 8,
+            "itemId": 1011,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "거인의 허리띠"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 432699,
+            "participantId": 9,
+            "itemId": 1027,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "사파이어 수정"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 432699,
+            "participantId": 9,
+            "itemId": 2022,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "빛나는 티끌"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 442385,
+            "participantId": 10,
+            "itemId": 1029,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "천 갑옷"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 450206,
+            "participantId": 6,
+            "itemId": 3133,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "콜필드의 전투 망치"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 463842,
+            "participantId": 5,
+            "itemId": 3006,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "광전사의 군화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 467149,
+            "participantId": 5,
+            "itemId": 1053,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "흡혈의 낫"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 468418,
+            "participantId": 5,
+            "itemId": 2031,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "충전형 물약"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 469654,
+            "participantId": 7,
+            "itemId": 1001,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 469654,
+            "participantId": 7,
+            "itemId": 3147,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "기괴한 가면"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 469654,
+            "participantId": 7,
+            "itemId": 2508,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "운명의 재"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 476802,
+            "participantId": 9,
+            "itemId": 3802,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "사라진 양피지"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 523768,
+            "participantId": 1,
+            "itemId": 3152,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "마법공학 로켓 벨트"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 524236,
+            "participantId": 4,
+            "itemId": 6672,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "크라켄 학살자"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 524603,
+            "participantId": 1,
+            "itemId": 3158,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "명석함의 아이오니아 장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 525672,
+            "participantId": 4,
+            "itemId": 3086,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "열정의 검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 526073,
+            "participantId": 4,
+            "itemId": 1042,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "단검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 527008,
+            "participantId": 1,
+            "itemId": 1052,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 527075,
+            "participantId": 1,
+            "itemId": 1052,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 528812,
+            "participantId": 10,
+            "itemId": 2420,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "추적자의 팔목 보호대"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 529680,
+            "participantId": 6,
+            "itemId": 1037,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "곡괭이"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 533822,
+            "participantId": 8,
+            "itemId": 3083,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "워모그의 갑옷"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 561178,
+            "participantId": 10,
+            "itemId": 3871,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "자자크의 세계가시"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 566864,
+            "participantId": 9,
+            "itemId": 1052,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 566864,
+            "participantId": 9,
+            "itemId": 1052,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 575548,
+            "participantId": 7,
+            "itemId": 6653,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "리안드리의 고통"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 590943,
+            "participantId": 3,
+            "itemId": 6653,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "리안드리의 고통"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 591678,
+            "participantId": 3,
+            "itemId": 1001,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 593281,
+            "participantId": 3,
+            "itemId": 2031,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "충전형 물약"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 603353,
             "participantId": 2,
-            "itemId": 6655
+            "itemId": 6655,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "루덴의 동반자"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 604455,
             "participantId": 2,
-            "itemId": 3020
+            "itemId": 3020,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "마법사의 신발"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 607996,
+            "participantId": 8,
+            "itemId": 3009,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "신속의 장화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 607996,
+            "participantId": 8,
+            "itemId": 1006,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "원기 회복의 구슬"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 609408,
+            "participantId": 9,
+            "itemId": 6655,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "루덴의 동반자"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 609440,
+            "participantId": 1,
+            "itemId": 2420,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "추적자의 팔목 보호대"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 619695,
+            "participantId": 4,
+            "itemId": 3085,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "루난의 허리케인"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 620897,
+            "participantId": 4,
+            "itemId": 3172,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "건메탈 군화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 622667,
+            "participantId": 4,
+            "itemId": 3363,
+            "championName": "Yunara",
+            "riotId": "관 점#1207",
+            "itemNameKo": "망원형 개조"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 624438,
+            "participantId": 10,
+            "itemId": 3157,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "존야의 모래시계"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 625039,
+            "participantId": 10,
+            "itemId": 1052,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 639392,
+            "participantId": 1,
+            "itemId": 3171,
+            "championName": "Neeko",
+            "riotId": "테티아#KR1",
+            "itemNameKo": "핏빛 명석함"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 696249,
+            "participantId": 5,
+            "itemId": 3153,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "몰락한 왕의 검"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 703442,
+            "participantId": 5,
+            "itemId": 6698,
+            "championName": "Jax",
+            "riotId": "히듀듀#KR1",
+            "itemNameKo": "불경한 히드라"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 712226,
+            "participantId": 9,
+            "itemId": 1052,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 712226,
+            "participantId": 9,
+            "itemId": 1027,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "사파이어 수정"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 720442,
+            "participantId": 6,
+            "itemId": 3508,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "정수 약탈자"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 720442,
+            "participantId": 6,
+            "itemId": 3006,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "광전사의 군화"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 721912,
+            "participantId": 7,
+            "itemId": 3020,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "마법사의 신발"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 721912,
+            "participantId": 7,
+            "itemId": 1052,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 721912,
+            "participantId": 7,
+            "itemId": 1052,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 724450,
+            "participantId": 10,
+            "itemId": 3108,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "악마의 마법서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 724450,
+            "participantId": 10,
+            "itemId": 1052,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 736644,
+            "participantId": 6,
+            "itemId": 1036,
+            "championName": "Sivir",
+            "riotId": "Sivir bot#BOT",
+            "itemNameKo": "롱소드"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 748761,
+            "participantId": 8,
+            "itemId": 1011,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "거인의 허리띠"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 748761,
+            "participantId": 8,
+            "itemId": 3801,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "수정 팔 보호구"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 751166,
+            "participantId": 3,
+            "itemId": 3020,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "마법사의 신발"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 759207,
+            "participantId": 8,
+            "itemId": 1028,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "루비 수정"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 759475,
+            "participantId": 3,
+            "itemId": 3802,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "사라진 양피지"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 759508,
+            "participantId": 3,
+            "itemId": 1052,
+            "championName": "Teemo",
+            "riotId": "앙쫑횽#KR1",
+            "itemNameKo": "증폭의 고서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 760543,
+            "participantId": 10,
+            "itemId": 3108,
+            "championName": "Seraphine",
+            "riotId": "Seraphine bot#BOT",
+            "itemNameKo": "악마의 마법서"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 761881,
+            "participantId": 9,
+            "itemId": 3363,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "망원형 개조"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 761881,
+            "participantId": 9,
+            "itemId": 3145,
+            "championName": "Lux",
+            "riotId": "Lux bot#BOT",
+            "itemNameKo": "마법공학 교류 발전기"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 762749,
+            "participantId": 7,
+            "itemId": 3145,
+            "championName": "Zyra",
+            "riotId": "Zyra bot#BOT",
+            "itemNameKo": "마법공학 교류 발전기"
           },
           {
             "type": "ITEM_PURCHASED",
             "timestamp": 776100,
             "participantId": 2,
-            "itemId": 4645
+            "itemId": 4645,
+            "championName": "Zoe",
+            "riotId": "발린이#극악무도",
+            "itemNameKo": "그림자불꽃"
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 780471,
+            "participantId": 8,
+            "itemId": 1011,
+            "championName": "DrMundo",
+            "riotId": "DrMundo bot#BOT",
+            "itemNameKo": "거인의 허리띠"
           }
         ],
         "objectiveEvents": [

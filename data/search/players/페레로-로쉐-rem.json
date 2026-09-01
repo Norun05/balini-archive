@@ -1,0 +1,83 @@
+{
+  "riotId": "페레로 로쉐#REM",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Soraka",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Kennen",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Lissandra",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Sejuani",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Kennen",
+      "myPosition": "Invalid",
+      "theirChampion": "Sejuani",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8133688454"
+      ]
+    },
+    {
+      "myChampion": "Soraka",
+      "myPosition": "Invalid",
+      "theirChampion": "Lissandra",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8133789635"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8133789635",
+    "KR_8133688454"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8133789635",
+      "gameCreation": 1773503064585,
+      "win": false,
+      "myChampion": "Soraka",
+      "myPosition": "Invalid",
+      "theirChampion": "Lissandra",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_8133688454",
+      "gameCreation": 1773500305753,
+      "win": true,
+      "myChampion": "Kennen",
+      "myPosition": "Invalid",
+      "theirChampion": "Sejuani",
+      "theirPosition": "Invalid"
+    }
+  ]
+}

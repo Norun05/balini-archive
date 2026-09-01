@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 1,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "early-snapshots-incomplete",
+      "message": "Some requested early-game snapshots are unavailable in the latest match.",
+      "missingMinutes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20
+      ]
+    }
+  ],
+  "checks": {
+    "requiredFiles": {
+      "ok": true,
+      "missing": []
+    },
+    "matchCounts": {
+      "ok": true,
+      "manifest": 830,
+      "catalog": 830,
+      "detailFiles": 830
+    },
+    "statsCount": {
+      "ok": true,
+      "stats": 830,
+      "details": 830
+    },
+    "latestMatch": {
+      "matchId": "KR_8362005931",
+      "participantCount": 10,
+      "riotIdCount": 10,
+      "summonerSpellCount": 10,
+      "eventTypes": [
+        "BUILDING_KILL",
+        "CHAMPION_KILL",
+        "ELITE_MONSTER_KILL",
+        "ITEM_DESTROYED",
+        "ITEM_PURCHASED",
+        "ITEM_SOLD",
+        "ITEM_UNDO",
+        "SKILL_LEVEL_UP"
+      ],
+      "earlySnapshotMinutes": [],
+      "movementSnapshotCount": 35,
+      "hasItemEconomy": true
+    },
+    "sampleRoutes": [
+      {
+        "type": "matchup",
+        "champion": "aatrox",
+        "position": "invalid",
+        "path": "stats/matchups/aatrox/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "ambessa",
+        "position": "middle",
+        "path": "stats/matchups/ambessa/middle.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "ambessa",
+        "position": "top",
+        "path": "stats/matchups/ambessa/top.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "amumu",
+        "position": "invalid",
+        "path": "stats/matchups/amumu/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "aurelionsol",
+        "position": "invalid",
+        "path": "stats/matchups/aurelionsol/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "caitlyn",
+        "position": "bottom",
+        "path": "stats/matchups/caitlyn/bottom.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "caitlyn",
+        "position": "invalid",
+        "path": "stats/matchups/caitlyn/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "chogath",
+        "position": "invalid",
+        "path": "stats/matchups/chogath/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "darius",
+        "position": "invalid",
+        "path": "stats/matchups/darius/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "darius",
+        "position": "top",
+        "path": "stats/matchups/darius/top.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "drmundo",
+        "position": "invalid",
+        "path": "stats/matchups/drmundo/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "ekko",
+        "position": "invalid",
+        "path": "stats/matchups/ekko/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "matchup",
+        "champion": "galio",
+        "position": "invalid",
+        "path": "stats/matchups/galio/invalid.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "dtc-soul-영혼수집가",
+        "path": "search/players/dtc-soul-영혼수집가.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "dtc-soul",
+        "path": "search/players/dtc-soul-영혼수집가.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "sas-ghost",
+        "path": "search/players/sas-ghost-tf141.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "sas-ghost-tf141",
+        "path": "search/players/sas-ghost-tf141.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "고트-메시1-kr1",
+        "path": "search/players/고트-메시1-kr1.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "고트-메시1",
+        "path": "search/players/고트-메시1-kr1.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "찌개는보글보글-kr1",
+        "path": "search/players/찌개는보글보글-kr1.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "찌개는보글보글",
+        "path": "search/players/찌개는보글보글-kr1.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "dtc-volibear",
+        "path": "search/players/dtc-volibear-볼리베어.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "dtc-volibear-볼리베어",
+        "path": "search/players/dtc-volibear-볼리베어.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "정신-차려-4444",
+        "path": "search/players/정신-차려-4444.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "정신-차려",
+        "path": "search/players/정신-차려-4444.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "jaywon",
+        "path": "search/players/jaywon-1100.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "jaywon-1100",
+        "path": "search/players/jaywon-1100.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "서포터의1순위목표는셋둘하나빵야",
+        "path": "search/players/서포터의1순위목표는셋둘하나빵야-hwayo.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "서포터의1순위목표는셋둘하나빵야-hwayo",
+        "path": "search/players/서포터의1순위목표는셋둘하나빵야-hwayo.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "찌보글보글",
+        "path": "search/players/찌보글보글-보글보글.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "찌보글보글-보글보글",
+        "path": "search/players/찌보글보글-보글보글.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "포니님2-3753",
+        "path": "search/players/포니님2-3753.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "포니님2",
+        "path": "search/players/포니님2-3753.json",
+        "ok": true
+      }
+    ],
+    "archiveMerge": {
+      "ok": true,
+      "archiveCount": 3,
+      "matchCount": 830,
+      "timelineCount": 830
+    }
+  },
+  "notes": [
+    "Errors fail update_site_data.bat; warnings are written for inspection but do not fail the build.",
+    "Ability and summoner-spell cast timestamps are not inferred from Match-V5 when Riot does not provide them explicitly."
+  ]
+}

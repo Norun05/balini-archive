@@ -1,0 +1,83 @@
+{
+  "riotId": "관 점#1207",
+  "games": 2,
+  "wins": 2,
+  "losses": 0,
+  "winRate": 100.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Neeko",
+      "position": "TOP",
+      "games": 1
+    },
+    {
+      "champion": "Zoe",
+      "position": "MIDDLE",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Ezreal",
+      "position": "BOTTOM",
+      "games": 1
+    },
+    {
+      "champion": "Yunara",
+      "position": "BOTTOM",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Neeko",
+      "myPosition": "TOP",
+      "theirChampion": "Ezreal",
+      "theirPosition": "BOTTOM",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7884596275"
+      ]
+    },
+    {
+      "myChampion": "Zoe",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Yunara",
+      "theirPosition": "BOTTOM",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7884569779"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_7884596275",
+    "KR_7884569779"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_7884596275",
+      "gameCreation": 1761389158341,
+      "win": true,
+      "myChampion": "Neeko",
+      "myPosition": "TOP",
+      "theirChampion": "Ezreal",
+      "theirPosition": "BOTTOM"
+    },
+    {
+      "matchId": "KR_7884569779",
+      "gameCreation": 1761388245918,
+      "win": true,
+      "myChampion": "Zoe",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Yunara",
+      "theirPosition": "BOTTOM"
+    }
+  ]
+}

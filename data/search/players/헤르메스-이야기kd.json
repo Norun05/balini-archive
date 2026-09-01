@@ -1,0 +1,83 @@
+{
+  "riotId": "헤르메스#이야기KD",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Kennen",
+      "position": "TOP",
+      "games": 1
+    },
+    {
+      "champion": "Veigar",
+      "position": "MIDDLE",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Rakan",
+      "position": "UTILITY",
+      "games": 1
+    },
+    {
+      "champion": "Pyke",
+      "position": "UTILITY",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Rakan",
+      "theirPosition": "UTILITY",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8240526372"
+      ]
+    },
+    {
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Pyke",
+      "theirPosition": "UTILITY",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8240516777"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8240526372",
+    "KR_8240516777"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8240526372",
+      "gameCreation": 1780261160589,
+      "win": true,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Rakan",
+      "theirPosition": "UTILITY"
+    },
+    {
+      "matchId": "KR_8240516777",
+      "gameCreation": 1780259070385,
+      "win": false,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Pyke",
+      "theirPosition": "UTILITY"
+    }
+  ]
+}

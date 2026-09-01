@@ -1,0 +1,78 @@
+{
+  "riotId": "ISTP#2399",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Kennen",
+      "position": "TOP",
+      "games": 2
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "XinZhao",
+      "position": "JUNGLE",
+      "games": 1
+    },
+    {
+      "champion": "LeeSin",
+      "position": "JUNGLE",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "LeeSin",
+      "theirPosition": "JUNGLE",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8227446558"
+      ]
+    },
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "XinZhao",
+      "theirPosition": "JUNGLE",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8227468741"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8227468741",
+    "KR_8227446558"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8227468741",
+      "gameCreation": 1779500391477,
+      "win": true,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "XinZhao",
+      "theirPosition": "JUNGLE"
+    },
+    {
+      "matchId": "KR_8227446558",
+      "gameCreation": 1779498150317,
+      "win": false,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "LeeSin",
+      "theirPosition": "JUNGLE"
+    }
+  ]
+}

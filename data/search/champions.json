@@ -1,0 +1,634 @@
+{
+  "veigar": {
+    "champion": "Veigar",
+    "games": 240,
+    "positions": [
+      "BOTTOM",
+      "MIDDLE",
+      "TOP",
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/veigar/bottom.json",
+      "middle": "stats/matchups/veigar/middle.json",
+      "top": "stats/matchups/veigar/top.json",
+      "utility": "stats/matchups/veigar/utility.json"
+    }
+  },
+  "kennen": {
+    "champion": "Kennen",
+    "games": 230,
+    "positions": [
+      "BOTTOM",
+      "MIDDLE",
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/kennen/bottom.json",
+      "middle": "stats/matchups/kennen/middle.json",
+      "top": "stats/matchups/kennen/top.json"
+    }
+  },
+  "shen": {
+    "champion": "Shen",
+    "games": 43,
+    "positions": [
+      "JUNGLE",
+      "MIDDLE",
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "jungle": "stats/matchups/shen/jungle.json",
+      "middle": "stats/matchups/shen/middle.json",
+      "top": "stats/matchups/shen/top.json"
+    }
+  },
+  "seraphine": {
+    "champion": "Seraphine",
+    "games": 35,
+    "positions": [
+      "MIDDLE",
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "middle": "stats/matchups/seraphine/middle.json",
+      "utility": "stats/matchups/seraphine/utility.json"
+    }
+  },
+  "nautilus": {
+    "champion": "Nautilus",
+    "games": 33,
+    "positions": [
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "utility": "stats/matchups/nautilus/utility.json"
+    }
+  },
+  "lulu": {
+    "champion": "Lulu",
+    "games": 30,
+    "positions": [
+      "BOTTOM",
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/lulu/bottom.json",
+      "utility": "stats/matchups/lulu/utility.json"
+    }
+  },
+  "mordekaiser": {
+    "champion": "Mordekaiser",
+    "games": 23,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/mordekaiser/top.json"
+    }
+  },
+  "neeko": {
+    "champion": "Neeko",
+    "games": 20,
+    "positions": [
+      "MIDDLE",
+      "TOP",
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "middle": "stats/matchups/neeko/middle.json",
+      "top": "stats/matchups/neeko/top.json",
+      "utility": "stats/matchups/neeko/utility.json"
+    }
+  },
+  "yuumi": {
+    "champion": "Yuumi",
+    "games": 19,
+    "positions": [
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "utility": "stats/matchups/yuumi/utility.json"
+    }
+  },
+  "amumu": {
+    "champion": "Amumu",
+    "games": 12,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "jhin": {
+    "champion": "Jhin",
+    "games": 10,
+    "positions": [
+      "BOTTOM"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/jhin/bottom.json"
+    }
+  },
+  "rammus": {
+    "champion": "Rammus",
+    "games": 10,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "orianna": {
+    "champion": "Orianna",
+    "games": 8,
+    "positions": [
+      "MIDDLE"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "middle": "stats/matchups/orianna/middle.json"
+    }
+  },
+  "lux": {
+    "champion": "Lux",
+    "games": 7,
+    "positions": [
+      "MIDDLE",
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "middle": "stats/matchups/lux/middle.json",
+      "utility": "stats/matchups/lux/utility.json"
+    }
+  },
+  "sona": {
+    "champion": "Sona",
+    "games": 7,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "malphite": {
+    "champion": "Malphite",
+    "games": 6,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/malphite/top.json"
+    }
+  },
+  "soraka": {
+    "champion": "Soraka",
+    "games": 6,
+    "positions": [
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "utility": "stats/matchups/soraka/utility.json"
+    }
+  },
+  "caitlyn": {
+    "champion": "Caitlyn",
+    "games": 5,
+    "positions": [
+      "BOTTOM"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/caitlyn/bottom.json"
+    }
+  },
+  "locke": {
+    "champion": "Locke",
+    "games": 5,
+    "positions": [
+      "MIDDLE",
+      "TOP",
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "middle": "stats/matchups/locke/middle.json",
+      "top": "stats/matchups/locke/top.json",
+      "utility": "stats/matchups/locke/utility.json"
+    }
+  },
+  "darius": {
+    "champion": "Darius",
+    "games": 4,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/darius/top.json"
+    }
+  },
+  "galio": {
+    "champion": "Galio",
+    "games": 4,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "velkoz": {
+    "champion": "Velkoz",
+    "games": 4,
+    "positions": [
+      "BOTTOM",
+      "MIDDLE",
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/velkoz/bottom.json",
+      "middle": "stats/matchups/velkoz/middle.json",
+      "utility": "stats/matchups/velkoz/utility.json"
+    }
+  },
+  "volibear": {
+    "champion": "Volibear",
+    "games": 4,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/volibear/top.json"
+    }
+  },
+  "gwen": {
+    "champion": "Gwen",
+    "games": 3,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/gwen/top.json"
+    }
+  },
+  "karma": {
+    "champion": "Karma",
+    "games": 3,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "senna": {
+    "champion": "Senna",
+    "games": 3,
+    "positions": [
+      "BOTTOM"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/senna/bottom.json"
+    }
+  },
+  "thresh": {
+    "champion": "Thresh",
+    "games": 3,
+    "positions": [
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "utility": "stats/matchups/thresh/utility.json"
+    }
+  },
+  "yone": {
+    "champion": "Yone",
+    "games": 3,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/yone/top.json"
+    }
+  },
+  "zoe": {
+    "champion": "Zoe",
+    "games": 3,
+    "positions": [
+      "MIDDLE"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "middle": "stats/matchups/zoe/middle.json"
+    }
+  },
+  "ambessa": {
+    "champion": "Ambessa",
+    "games": 2,
+    "positions": [
+      "MIDDLE",
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "middle": "stats/matchups/ambessa/middle.json",
+      "top": "stats/matchups/ambessa/top.json"
+    }
+  },
+  "chogath": {
+    "champion": "Chogath",
+    "games": 2,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "malzahar": {
+    "champion": "Malzahar",
+    "games": 2,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "nami": {
+    "champion": "Nami",
+    "games": 2,
+    "positions": [
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "utility": "stats/matchups/nami/utility.json"
+    }
+  },
+  "quinn": {
+    "champion": "Quinn",
+    "games": 2,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/quinn/top.json"
+    }
+  },
+  "sivir": {
+    "champion": "Sivir",
+    "games": 2,
+    "positions": [
+      "BOTTOM"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/sivir/bottom.json"
+    }
+  },
+  "swain": {
+    "champion": "Swain",
+    "games": 2,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "taric": {
+    "champion": "Taric",
+    "games": 2,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "zac": {
+    "champion": "Zac",
+    "games": 2,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "zilean": {
+    "champion": "Zilean",
+    "games": 2,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "aatrox": {
+    "champion": "Aatrox",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "aurelionsol": {
+    "champion": "AurelionSol",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "drmundo": {
+    "champion": "DrMundo",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "ekko": {
+    "champion": "Ekko",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "gnar": {
+    "champion": "Gnar",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "illaoi": {
+    "champion": "Illaoi",
+    "games": 1,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/illaoi/top.json"
+    }
+  },
+  "ivern": {
+    "champion": "Ivern",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "janna": {
+    "champion": "Janna",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "jax": {
+    "champion": "Jax",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "kaisa": {
+    "champion": "Kaisa",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "khazix": {
+    "champion": "Khazix",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "kogmaw": {
+    "champion": "KogMaw",
+    "games": 1,
+    "positions": [
+      "BOTTOM"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "bottom": "stats/matchups/kogmaw/bottom.json"
+    }
+  },
+  "lillia": {
+    "champion": "Lillia",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "maokai": {
+    "champion": "Maokai",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "morgana": {
+    "champion": "Morgana",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "sett": {
+    "champion": "Sett",
+    "games": 1,
+    "positions": [
+      "JUNGLE"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "jungle": "stats/matchups/sett/jungle.json"
+    }
+  },
+  "sion": {
+    "champion": "Sion",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "skarner": {
+    "champion": "Skarner",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "sylas": {
+    "champion": "Sylas",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "tahmkench": {
+    "champion": "TahmKench",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "teemo": {
+    "champion": "Teemo",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "varus": {
+    "champion": "Varus",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "vladimir": {
+    "champion": "Vladimir",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "xayah": {
+    "champion": "Xayah",
+    "games": 1,
+    "positions": [],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {}
+  },
+  "xinzhao": {
+    "champion": "XinZhao",
+    "games": 1,
+    "positions": [
+      "UTILITY"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "utility": "stats/matchups/xinzhao/utility.json"
+    }
+  },
+  "zaahen": {
+    "champion": "Zaahen",
+    "games": 1,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/zaahen/top.json"
+    }
+  },
+  "zed": {
+    "champion": "Zed",
+    "games": 1,
+    "positions": [
+      "TOP"
+    ],
+    "statsPath": "stats/champions.json",
+    "matchupPositions": {
+      "top": "stats/matchups/zed/top.json"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "riotId": "only Jett#God",
+  "games": 3,
+  "wins": 2,
+  "losses": 1,
+  "winRate": 66.67,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Veigar",
+      "position": "MIDDLE",
+      "games": 3
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Yunara",
+      "position": "BOTTOM",
+      "games": 2
+    },
+    {
+      "champion": "Jhin",
+      "position": "BOTTOM",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Yunara",
+      "theirPosition": "BOTTOM",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 50.0,
+      "matchIds": [
+        "KR_7990746904",
+        "KR_7990721589"
+      ]
+    },
+    {
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Jhin",
+      "theirPosition": "BOTTOM",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7990683176"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_7990746904",
+    "KR_7990721589",
+    "KR_7990683176"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_7990746904",
+      "gameCreation": 1766814747264,
+      "win": false,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Yunara",
+      "theirPosition": "BOTTOM"
+    },
+    {
+      "matchId": "KR_7990721589",
+      "gameCreation": 1766813747057,
+      "win": true,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Yunara",
+      "theirPosition": "BOTTOM"
+    },
+    {
+      "matchId": "KR_7990683176",
+      "gameCreation": 1766812397292,
+      "win": true,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Jhin",
+      "theirPosition": "BOTTOM"
+    }
+  ]
+}

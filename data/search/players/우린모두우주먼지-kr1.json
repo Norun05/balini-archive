@@ -1,0 +1,172 @@
+{
+  "riotId": "우린모두우주먼지#KR1",
+  "games": 5,
+  "wins": 3,
+  "losses": 2,
+  "winRate": 60.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Kennen",
+      "position": "TOP",
+      "games": 2
+    },
+    {
+      "champion": "Kennen",
+      "position": "MIDDLE",
+      "games": 1
+    },
+    {
+      "champion": "Kaisa",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Veigar",
+      "position": "MIDDLE",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Velkoz",
+      "position": "UTILITY",
+      "games": 2
+    },
+    {
+      "champion": "Velkoz",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Amumu",
+      "position": "JUNGLE",
+      "games": 1
+    },
+    {
+      "champion": "Syndra",
+      "position": "UTILITY",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Kaisa",
+      "myPosition": "Invalid",
+      "theirChampion": "Velkoz",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7849673855"
+      ]
+    },
+    {
+      "myChampion": "Kennen",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Velkoz",
+      "theirPosition": "UTILITY",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8243004121"
+      ]
+    },
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Syndra",
+      "theirPosition": "UTILITY",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7849518076"
+      ]
+    },
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Velkoz",
+      "theirPosition": "UTILITY",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8242933741"
+      ]
+    },
+    {
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Amumu",
+      "theirPosition": "JUNGLE",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7849593870"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8243004121",
+    "KR_8242933741",
+    "KR_7849673855",
+    "KR_7849593870",
+    "KR_7849518076"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8243004121",
+      "gameCreation": 1780423049496,
+      "win": false,
+      "myChampion": "Kennen",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Velkoz",
+      "theirPosition": "UTILITY"
+    },
+    {
+      "matchId": "KR_8242933741",
+      "gameCreation": 1780419867400,
+      "win": false,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Velkoz",
+      "theirPosition": "UTILITY"
+    },
+    {
+      "matchId": "KR_7849673855",
+      "gameCreation": 1759596394170,
+      "win": true,
+      "myChampion": "Kaisa",
+      "myPosition": "Invalid",
+      "theirChampion": "Velkoz",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_7849593870",
+      "gameCreation": 1759594132493,
+      "win": true,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Amumu",
+      "theirPosition": "JUNGLE"
+    },
+    {
+      "matchId": "KR_7849518076",
+      "gameCreation": 1759591969773,
+      "win": true,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Syndra",
+      "theirPosition": "UTILITY"
+    }
+  ]
+}

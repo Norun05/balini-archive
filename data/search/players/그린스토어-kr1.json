@@ -1,0 +1,83 @@
+{
+  "riotId": "그린스토어#KR1",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Malzahar",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Jax",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Jinx",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Xerath",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Jax",
+      "myPosition": "Invalid",
+      "theirChampion": "Xerath",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8047559984"
+      ]
+    },
+    {
+      "myChampion": "Malzahar",
+      "myPosition": "Invalid",
+      "theirChampion": "Jinx",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8047723198"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8047723198",
+    "KR_8047559984"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8047723198",
+      "gameCreation": 1769263088164,
+      "win": true,
+      "myChampion": "Malzahar",
+      "myPosition": "Invalid",
+      "theirChampion": "Jinx",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_8047559984",
+      "gameCreation": 1769260071592,
+      "win": false,
+      "myChampion": "Jax",
+      "myPosition": "Invalid",
+      "theirChampion": "Xerath",
+      "theirPosition": "Invalid"
+    }
+  ]
+}

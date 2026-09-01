@@ -1,0 +1,116 @@
+{
+  "riotId": "호두짱#1004",
+  "games": 3,
+  "wins": 1,
+  "losses": 2,
+  "winRate": 33.33,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Seraphine",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Sona",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Shen",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Shyvana",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Kaisa",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Zac",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Seraphine",
+      "myPosition": "Invalid",
+      "theirChampion": "Shyvana",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8217814528"
+      ]
+    },
+    {
+      "myChampion": "Shen",
+      "myPosition": "Invalid",
+      "theirChampion": "Zac",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8217809137"
+      ]
+    },
+    {
+      "myChampion": "Sona",
+      "myPosition": "Invalid",
+      "theirChampion": "Kaisa",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8217813311"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8217814528",
+    "KR_8217813311",
+    "KR_8217809137"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8217814528",
+      "gameCreation": 1778882940410,
+      "win": true,
+      "myChampion": "Seraphine",
+      "myPosition": "Invalid",
+      "theirChampion": "Shyvana",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_8217813311",
+      "gameCreation": 1778881884716,
+      "win": false,
+      "myChampion": "Sona",
+      "myPosition": "Invalid",
+      "theirChampion": "Kaisa",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_8217809137",
+      "gameCreation": 1778880683304,
+      "win": false,
+      "myChampion": "Shen",
+      "myPosition": "Invalid",
+      "theirChampion": "Zac",
+      "theirPosition": "Invalid"
+    }
+  ]
+}

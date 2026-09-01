@@ -1,0 +1,78 @@
+{
+  "riotId": "장충동 보고 쌈#1111",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Kennen",
+      "position": "TOP",
+      "games": 2
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Akali",
+      "position": "MIDDLE",
+      "games": 1
+    },
+    {
+      "champion": "Cassiopeia",
+      "position": "MIDDLE",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Akali",
+      "theirPosition": "MIDDLE",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8085168532"
+      ]
+    },
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Cassiopeia",
+      "theirPosition": "MIDDLE",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8080076547"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8085168532",
+    "KR_8080076547"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8085168532",
+      "gameCreation": 1770997034068,
+      "win": true,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Akali",
+      "theirPosition": "MIDDLE"
+    },
+    {
+      "matchId": "KR_8080076547",
+      "gameCreation": 1770736296549,
+      "win": false,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Cassiopeia",
+      "theirPosition": "MIDDLE"
+    }
+  ]
+}

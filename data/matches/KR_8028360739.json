@@ -4428,7 +4428,3289 @@
       "ITEM_SOLD",
       "ITEM_UNDO",
       "SKILL_LEVEL_UP"
-    ]
+    ],
+    "earlyLaningSnapshots": [
+      {
+        "timestamp": 120059,
+        "me": {
+          "gold": 783,
+          "currentGold": 283,
+          "cs": 10,
+          "laneCs": 10,
+          "jungleCs": 0,
+          "level": 2,
+          "xp": 620,
+          "damageToChampions": 0,
+          "position": {
+            "x": 2468,
+            "y": 12414
+          }
+        },
+        "opponent": null,
+        "minute": 2
+      },
+      {
+        "timestamp": 180140,
+        "me": {
+          "gold": 1163,
+          "currentGold": 663,
+          "cs": 16,
+          "laneCs": 16,
+          "jungleCs": 0,
+          "level": 4,
+          "xp": 1191,
+          "damageToChampions": 0,
+          "position": {
+            "x": 2675,
+            "y": 13072
+          }
+        },
+        "opponent": null,
+        "minute": 3
+      },
+      {
+        "timestamp": 240168,
+        "me": {
+          "gold": 1354,
+          "currentGold": 54,
+          "cs": 20,
+          "laneCs": 20,
+          "jungleCs": 0,
+          "level": 4,
+          "xp": 1439,
+          "damageToChampions": 218,
+          "position": {
+            "x": 1151,
+            "y": 8677
+          }
+        },
+        "opponent": null,
+        "minute": 4
+      },
+      {
+        "timestamp": 300189,
+        "me": {
+          "gold": 1688,
+          "currentGold": 388,
+          "cs": 33,
+          "laneCs": 33,
+          "jungleCs": 0,
+          "level": 5,
+          "xp": 2152,
+          "damageToChampions": 218,
+          "position": {
+            "x": 3050,
+            "y": 13160
+          }
+        },
+        "opponent": null,
+        "minute": 5
+      },
+      {
+        "timestamp": 360206,
+        "me": {
+          "gold": 2072,
+          "currentGold": 772,
+          "cs": 41,
+          "laneCs": 41,
+          "jungleCs": 0,
+          "level": 6,
+          "xp": 2785,
+          "damageToChampions": 218,
+          "position": {
+            "x": 2659,
+            "y": 12925
+          }
+        },
+        "opponent": null,
+        "minute": 6
+      },
+      {
+        "timestamp": 480254,
+        "me": {
+          "gold": 2816,
+          "currentGold": 666,
+          "cs": 61,
+          "laneCs": 61,
+          "jungleCs": 0,
+          "level": 7,
+          "xp": 3852,
+          "damageToChampions": 218,
+          "position": {
+            "x": 2828,
+            "y": 12929
+          }
+        },
+        "opponent": null,
+        "minute": 8
+      },
+      {
+        "timestamp": 600288,
+        "me": {
+          "gold": 3673,
+          "currentGold": 1523,
+          "cs": 80,
+          "laneCs": 80,
+          "jungleCs": 0,
+          "level": 9,
+          "xp": 5144,
+          "damageToChampions": 1319,
+          "position": {
+            "x": 3643,
+            "y": 13330
+          }
+        },
+        "opponent": null,
+        "minute": 10
+      },
+      {
+        "timestamp": 900351,
+        "me": {
+          "gold": 6452,
+          "currentGold": 1052,
+          "cs": 111,
+          "laneCs": 111,
+          "jungleCs": 0,
+          "level": 11,
+          "xp": 8133,
+          "damageToChampions": 3196,
+          "position": {
+            "x": 9589,
+            "y": 13330
+          }
+        },
+        "opponent": null,
+        "minute": 15
+      }
+    ],
+    "earlyLaningSnapshotMinutes": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      15,
+      20
+    ],
+    "levelMilestones": {
+      "2": {
+        "me": {
+          "level": 2,
+          "timestamp": 120059,
+          "minute": 2.0,
+          "observedLevel": 2,
+          "xp": 620
+        },
+        "opponent": null,
+        "source": "Riot Match-V5 participantFrames",
+        "precision": "approximately 1 minute; first frame observed at or above target level"
+      },
+      "3": {
+        "me": {
+          "level": 3,
+          "timestamp": 180140,
+          "minute": 3.0,
+          "observedLevel": 4,
+          "xp": 1191
+        },
+        "opponent": null,
+        "source": "Riot Match-V5 participantFrames",
+        "precision": "approximately 1 minute; first frame observed at or above target level"
+      }
+    },
+    "levelMilestoneNote": "Level 2/3 timestamps are approximate. Riot Match-V5 participantFrames are about 1 minute apart, so this records the first frame where the player is observed at or above the target level.",
+    "movementSnapshots": [
+      {
+        "timestamp": 0,
+        "minute": 0.0,
+        "x": 603,
+        "y": 611,
+        "jungleCs": 0,
+        "laneCs": 0,
+        "level": 1,
+        "xp": 0
+      },
+      {
+        "timestamp": 60029,
+        "minute": 1.0,
+        "x": 1635,
+        "y": 10775,
+        "jungleCs": 0,
+        "laneCs": 0,
+        "level": 1,
+        "xp": 0,
+        "fromPrevious": {
+          "distance": 10216.3,
+          "elapsedMs": 60029,
+          "largeDisplacement": true
+        }
+      },
+      {
+        "timestamp": 120059,
+        "minute": 2.0,
+        "x": 2468,
+        "y": 12414,
+        "jungleCs": 0,
+        "laneCs": 10,
+        "level": 2,
+        "xp": 620,
+        "fromPrevious": {
+          "distance": 1838.5,
+          "elapsedMs": 60030,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 180140,
+        "minute": 3.0,
+        "x": 2675,
+        "y": 13072,
+        "jungleCs": 0,
+        "laneCs": 16,
+        "level": 4,
+        "xp": 1191,
+        "fromPrevious": {
+          "distance": 689.8,
+          "elapsedMs": 60081,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 240168,
+        "minute": 4.0,
+        "x": 1151,
+        "y": 8677,
+        "jungleCs": 0,
+        "laneCs": 20,
+        "level": 4,
+        "xp": 1439,
+        "fromPrevious": {
+          "distance": 4651.7,
+          "elapsedMs": 60028,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 300189,
+        "minute": 5.0,
+        "x": 3050,
+        "y": 13160,
+        "jungleCs": 0,
+        "laneCs": 33,
+        "level": 5,
+        "xp": 2152,
+        "fromPrevious": {
+          "distance": 4868.6,
+          "elapsedMs": 60021,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 360206,
+        "minute": 6.0,
+        "x": 2659,
+        "y": 12925,
+        "jungleCs": 0,
+        "laneCs": 41,
+        "level": 6,
+        "xp": 2785,
+        "fromPrevious": {
+          "distance": 456.2,
+          "elapsedMs": 60017,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 420233,
+        "minute": 7.0,
+        "x": 1656,
+        "y": 12852,
+        "jungleCs": 0,
+        "laneCs": 51,
+        "level": 7,
+        "xp": 3356,
+        "fromPrevious": {
+          "distance": 1005.7,
+          "elapsedMs": 60027,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 480254,
+        "minute": 8.0,
+        "x": 2828,
+        "y": 12929,
+        "jungleCs": 0,
+        "laneCs": 61,
+        "level": 7,
+        "xp": 3852,
+        "fromPrevious": {
+          "distance": 1174.5,
+          "elapsedMs": 60021,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 540270,
+        "minute": 9.0,
+        "x": 2695,
+        "y": 12499,
+        "jungleCs": 0,
+        "laneCs": 73,
+        "level": 8,
+        "xp": 4485,
+        "fromPrevious": {
+          "distance": 450.1,
+          "elapsedMs": 60016,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 600288,
+        "minute": 10.0,
+        "x": 3643,
+        "y": 13330,
+        "jungleCs": 0,
+        "laneCs": 80,
+        "level": 9,
+        "xp": 5144,
+        "fromPrevious": {
+          "distance": 1260.7,
+          "elapsedMs": 60018,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 660305,
+        "minute": 11.01,
+        "x": 394,
+        "y": 461,
+        "jungleCs": 0,
+        "laneCs": 86,
+        "level": 10,
+        "xp": 6302,
+        "fromPrevious": {
+          "distance": 13272.8,
+          "elapsedMs": 60017,
+          "largeDisplacement": true
+        }
+      },
+      {
+        "timestamp": 720313,
+        "minute": 12.01,
+        "x": 6109,
+        "y": 13453,
+        "jungleCs": 0,
+        "laneCs": 89,
+        "level": 10,
+        "xp": 6668,
+        "fromPrevious": {
+          "distance": 14193.4,
+          "elapsedMs": 60008,
+          "largeDisplacement": true
+        }
+      },
+      {
+        "timestamp": 780344,
+        "minute": 13.01,
+        "x": 3560,
+        "y": 13096,
+        "jungleCs": 0,
+        "laneCs": 96,
+        "level": 10,
+        "xp": 7163,
+        "fromPrevious": {
+          "distance": 2573.9,
+          "elapsedMs": 60031,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 840346,
+        "minute": 14.01,
+        "x": 4553,
+        "y": 13418,
+        "jungleCs": 0,
+        "laneCs": 97,
+        "level": 10,
+        "xp": 7232,
+        "fromPrevious": {
+          "distance": 1043.9,
+          "elapsedMs": 60002,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 900351,
+        "minute": 15.01,
+        "x": 9589,
+        "y": 13330,
+        "jungleCs": 0,
+        "laneCs": 111,
+        "level": 11,
+        "xp": 8133,
+        "fromPrevious": {
+          "distance": 5036.8,
+          "elapsedMs": 60005,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 960356,
+        "minute": 16.01,
+        "x": 10697,
+        "y": 13477,
+        "jungleCs": 0,
+        "laneCs": 127,
+        "level": 12,
+        "xp": 9090,
+        "fromPrevious": {
+          "distance": 1117.7,
+          "elapsedMs": 60005,
+          "largeDisplacement": false
+        }
+      },
+      {
+        "timestamp": 1017854,
+        "minute": 16.96,
+        "x": 1098,
+        "y": 6019,
+        "jungleCs": 0,
+        "laneCs": 128,
+        "level": 12,
+        "xp": 9229,
+        "fromPrevious": {
+          "distance": 12155.8,
+          "elapsedMs": 57498,
+          "largeDisplacement": true
+        }
+      }
+    ],
+    "largeDisplacements": [
+      {
+        "fromTimestamp": 0,
+        "toTimestamp": 60029,
+        "fromMinute": 0.0,
+        "toMinute": 1.0,
+        "from": {
+          "x": 603,
+          "y": 611
+        },
+        "to": {
+          "x": 1635,
+          "y": 10775
+        },
+        "distance": 10216.3,
+        "note": "Large displacement between Riot timeline frames; cause is not identifiable from Match-V5 alone."
+      },
+      {
+        "fromTimestamp": 600288,
+        "toTimestamp": 660305,
+        "fromMinute": 10.0,
+        "toMinute": 11.01,
+        "from": {
+          "x": 3643,
+          "y": 13330
+        },
+        "to": {
+          "x": 394,
+          "y": 461
+        },
+        "distance": 13272.8,
+        "note": "Large displacement between Riot timeline frames; cause is not identifiable from Match-V5 alone."
+      },
+      {
+        "fromTimestamp": 660305,
+        "toTimestamp": 720313,
+        "fromMinute": 11.01,
+        "toMinute": 12.01,
+        "from": {
+          "x": 394,
+          "y": 461
+        },
+        "to": {
+          "x": 6109,
+          "y": 13453
+        },
+        "distance": 14193.4,
+        "note": "Large displacement between Riot timeline frames; cause is not identifiable from Match-V5 alone."
+      },
+      {
+        "fromTimestamp": 960356,
+        "toTimestamp": 1017854,
+        "fromMinute": 16.01,
+        "toMinute": 16.96,
+        "from": {
+          "x": 10697,
+          "y": 13477
+        },
+        "to": {
+          "x": 1098,
+          "y": 6019
+        },
+        "distance": 12155.8,
+        "note": "Large displacement between Riot timeline frames; cause is not identifiable from Match-V5 alone."
+      }
+    ],
+    "movementSource": "Riot Match-V5 timeline participantFrames",
+    "movementFrameCadence": "about 1 minute",
+    "movementScope": "user participant for this match",
+    "movementCaveat": "Adjacent frame positions do not reveal the path or cause of movement. Large displacement is a heuristic and must not be treated as proof of Teleport or a champion ability.",
+    "itemEconomy": {
+      "participants": {
+        "9": {
+          "riotId": "bubblegun#777",
+          "championName": "Nidalee",
+          "position": "BOTTOM",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4880,
+              "itemId": 1082,
+              "itemNameKo": "암흑의 인장",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4880,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4880,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 4880,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 218600,
+              "itemId": 3113,
+              "itemNameKo": "에테르 환영",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 900,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 352090,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 447020,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 456840,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 580481,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 600021,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 600021,
+              "itemId": 3113,
+              "itemNameKo": "에테르 환영",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 900,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 600021,
+              "itemId": 4646,
+              "itemNameKo": "폭풍 쇄도",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2800,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 762338,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 841826,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 841826,
+              "itemId": 3020,
+              "itemNameKo": "마법사의 신발",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 941418,
+              "itemId": 1202,
+              "itemNameKo": "하단 공격로 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 941418,
+              "itemId": 3020,
+              "itemNameKo": "마법사의 신발",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": true,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 218600,
+            "items": [
+              {
+                "itemId": 3113,
+                "itemNameKo": "에테르 환영"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": {
+            "timestamp": 762338,
+            "itemId": 1001,
+            "itemNameKo": "장화"
+          },
+          "coreCompletions": [
+            {
+              "timestamp": 600021,
+              "itemId": 4646,
+              "itemNameKo": "폭풍 쇄도",
+              "totalGold": 2800
+            }
+          ],
+          "firstCore": {
+            "timestamp": 600021,
+            "itemId": 4646,
+            "itemNameKo": "폭풍 쇄도",
+            "totalGold": 2800
+          },
+          "secondCore": null
+        },
+        "1": {
+          "riotId": "발린이#극악무도",
+          "championName": "Kennen",
+          "position": "TOP",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 6583,
+              "itemId": 1055,
+              "itemNameKo": "도란의 검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 6583,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7151,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 222687,
+              "itemId": 1028,
+              "itemNameKo": "루비 수정",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 223188,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 425209,
+              "itemId": 1026,
+              "itemNameKo": "방출의 마법봉",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 850,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 644459,
+              "itemId": 1222,
+              "itemNameKo": "상단 공격로 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 674902,
+              "itemId": 1026,
+              "itemNameKo": "방출의 마법봉",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 850,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 674902,
+              "itemId": 1028,
+              "itemNameKo": "루비 수정",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 674902,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 674902,
+              "itemId": 3116,
+              "itemNameKo": "라일라이의 수정홀",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2600,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 678093,
+              "itemId": 1058,
+              "itemNameKo": "쓸데없이 큰 지팡이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 797089,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 994893,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 994893,
+              "itemId": 1058,
+              "itemNameKo": "쓸데없이 큰 지팡이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 994893,
+              "itemId": 4645,
+              "itemNameKo": "그림자불꽃",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 3200,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 1001773,
+              "itemId": 1058,
+              "itemNameKo": "쓸데없이 큰 지팡이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 222687,
+            "items": [
+              {
+                "itemId": 1028,
+                "itemNameKo": "루비 수정"
+              },
+              {
+                "itemId": 1052,
+                "itemNameKo": "증폭의 고서"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": null,
+          "coreCompletions": [
+            {
+              "timestamp": 674902,
+              "itemId": 3116,
+              "itemNameKo": "라일라이의 수정홀",
+              "totalGold": 2600
+            },
+            {
+              "timestamp": 994893,
+              "itemId": 4645,
+              "itemNameKo": "그림자불꽃",
+              "totalGold": 3200
+            }
+          ],
+          "firstCore": {
+            "timestamp": 674902,
+            "itemId": 3116,
+            "itemNameKo": "라일라이의 수정홀",
+            "totalGold": 2600
+          },
+          "secondCore": {
+            "timestamp": 994893,
+            "itemId": 4645,
+            "itemNameKo": "그림자불꽃",
+            "totalGold": 3200
+          }
+        },
+        "2": {
+          "riotId": "나랑야루#6974",
+          "championName": "Sion",
+          "position": "JUNGLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 6583,
+              "itemId": 1101,
+              "itemNameKo": "새끼 화염발톱",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7218,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 257706,
+              "itemId": 3134,
+              "itemNameKo": "톱날 단검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1000,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 259476,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 388517,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 388517,
+              "itemId": 3009,
+              "itemNameKo": "신속의 장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1000,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 491783,
+              "itemId": 6690,
+              "itemNameKo": "꽁지깃",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 775,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 595764,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 781279,
+              "itemId": 3134,
+              "itemNameKo": "톱날 단검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1000,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 781279,
+              "itemId": 6690,
+              "itemNameKo": "꽁지깃",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 775,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 781279,
+              "itemId": 3142,
+              "itemNameKo": "요우무의 유령검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2800,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 783583,
+              "itemId": 2020,
+              "itemNameKo": "야수화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1337,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 784285,
+              "itemId": 1036,
+              "itemNameKo": "롱소드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 816819,
+              "itemId": 1204,
+              "itemNameKo": "정글 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 816819,
+              "itemId": 1101,
+              "itemNameKo": "새끼 화염발톱",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 878440,
+              "itemId": 2020,
+              "itemNameKo": "야수화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1337,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 878440,
+              "itemId": 1036,
+              "itemNameKo": "롱소드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 878440,
+              "itemId": 6696,
+              "itemNameKo": "원칙의 원형낫",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2750,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 943556,
+              "itemId": 2001,
+              "itemNameKo": null,
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 943556,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 945593,
+              "itemId": 3513,
+              "itemNameKo": "전령의 눈",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 257706,
+            "items": [
+              {
+                "itemId": 3134,
+                "itemNameKo": "톱날 단검"
+              },
+              {
+                "itemId": 1001,
+                "itemNameKo": "장화"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": {
+            "timestamp": 259476,
+            "itemId": 1001,
+            "itemNameKo": "장화"
+          },
+          "coreCompletions": [
+            {
+              "timestamp": 781279,
+              "itemId": 3142,
+              "itemNameKo": "요우무의 유령검",
+              "totalGold": 2800
+            },
+            {
+              "timestamp": 878440,
+              "itemId": 6696,
+              "itemNameKo": "원칙의 원형낫",
+              "totalGold": 2750
+            }
+          ],
+          "firstCore": {
+            "timestamp": 781279,
+            "itemId": 3142,
+            "itemNameKo": "요우무의 유령검",
+            "totalGold": 2800
+          },
+          "secondCore": {
+            "timestamp": 878440,
+            "itemId": 6696,
+            "itemNameKo": "원칙의 원형낫",
+            "totalGold": 2750
+          }
+        },
+        "10": {
+          "riotId": "아기돌고래야 어디가#아기고래임",
+          "championName": "Zoe",
+          "position": "UTILITY",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7251,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7552,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 8186,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 94205,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 97878,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 212821,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 212855,
+              "itemId": 2022,
+              "itemNameKo": "빛나는 티끌",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 250,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 434361,
+              "itemId": 3865,
+              "itemNameKo": "세계 지도집",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 454502,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 454502,
+              "itemId": 2022,
+              "itemNameKo": "빛나는 티끌",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 250,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 454502,
+              "itemId": 3802,
+              "itemNameKo": "사라진 양피지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 454536,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 601223,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 601223,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 670459,
+              "itemId": 3802,
+              "itemNameKo": "사라진 양피지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 670459,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 670459,
+              "itemId": 6655,
+              "itemNameKo": "루덴의 메아리",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2750,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 799294,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 843830,
+              "itemId": 3866,
+              "itemNameKo": "룬 나침반",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 843830,
+              "itemId": 1203,
+              "itemNameKo": "서포터 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 845366,
+              "itemId": 3867,
+              "itemNameKo": "세계의 결실",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 948733,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 948733,
+              "itemId": 3020,
+              "itemNameKo": "마법사의 신발",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": true,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 212821,
+            "items": [
+              {
+                "itemId": 1052,
+                "itemNameKo": "증폭의 고서"
+              },
+              {
+                "itemId": 2022,
+                "itemNameKo": "빛나는 티끌"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": {
+            "timestamp": 799294,
+            "itemId": 1001,
+            "itemNameKo": "장화"
+          },
+          "coreCompletions": [
+            {
+              "timestamp": 670459,
+              "itemId": 6655,
+              "itemNameKo": "루덴의 메아리",
+              "totalGold": 2750
+            }
+          ],
+          "firstCore": {
+            "timestamp": 670459,
+            "itemId": 6655,
+            "itemNameKo": "루덴의 메아리",
+            "totalGold": 2750
+          },
+          "secondCore": null
+        },
+        "8": {
+          "riotId": "간석동오리발#KR1",
+          "championName": "Xerath",
+          "position": "MIDDLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7518,
+              "itemId": 1056,
+              "itemNameKo": "도란의 반지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7518,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7518,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 9255,
+              "itemId": 3340,
+              "itemNameKo": "투명 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 424742,
+              "itemId": 3802,
+              "itemNameKo": "사라진 양피지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 426412,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 428082,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 429318,
+              "itemId": 2055,
+              "itemNameKo": "제어 와드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 75,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_UNDO",
+              "timestamp": 430820,
+              "itemId": null,
+              "itemNameKo": null,
+              "beforeId": 2055,
+              "beforeItemNameKo": "제어 와드",
+              "afterId": 0,
+              "afterItemNameKo": null,
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 557149,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 563229,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 572063,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 687111,
+              "itemId": 3802,
+              "itemNameKo": "사라진 양피지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 687111,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 687111,
+              "itemId": 6655,
+              "itemNameKo": "루덴의 메아리",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2750,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 690052,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 759766,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 796254,
+              "itemId": 2001,
+              "itemNameKo": null,
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 796254,
+              "itemId": 1201,
+              "itemNameKo": "중단 공격로 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 800529,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 801999,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 951906,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 424742,
+            "items": [
+              {
+                "itemId": 3802,
+                "itemNameKo": "사라진 양피지"
+              },
+              {
+                "itemId": 1052,
+                "itemNameKo": "증폭의 고서"
+              },
+              {
+                "itemId": 2003,
+                "itemNameKo": "체력 물약"
+              },
+              {
+                "itemId": 2055,
+                "itemNameKo": "제어 와드"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": {
+            "timestamp": 800529,
+            "itemId": 1001,
+            "itemNameKo": "장화"
+          },
+          "coreCompletions": [
+            {
+              "timestamp": 687111,
+              "itemId": 6655,
+              "itemNameKo": "루덴의 메아리",
+              "totalGold": 2750
+            }
+          ],
+          "firstCore": {
+            "timestamp": 687111,
+            "itemId": 6655,
+            "itemNameKo": "루덴의 메아리",
+            "totalGold": 2750
+          },
+          "secondCore": null
+        },
+        "3": {
+          "riotId": "DTC Soul#영혼수집가",
+          "championName": "Garen",
+          "position": "MIDDLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7719,
+              "itemId": 1054,
+              "itemNameKo": "도란의 방패",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 7719,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 467495,
+              "itemId": 3006,
+              "itemNameKo": "광전사의 군화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 470902,
+              "itemId": 3044,
+              "itemNameKo": "탐식의 망치",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_SOLD",
+              "timestamp": 473106,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 473975,
+              "itemId": 1036,
+              "itemNameKo": "롱소드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 696666,
+              "itemId": 2001,
+              "itemNameKo": null,
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 696666,
+              "itemId": 1201,
+              "itemNameKo": "중단 공격로 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 696666,
+              "itemId": 3006,
+              "itemNameKo": "광전사의 군화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 785988,
+              "itemId": 2002,
+              "itemNameKo": "상급 귀환",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 60,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 786589,
+              "itemId": 1036,
+              "itemNameKo": "롱소드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 786589,
+              "itemId": 3044,
+              "itemNameKo": "탐식의 망치",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 786589,
+              "itemId": 6631,
+              "itemNameKo": "발걸음 분쇄기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 3300,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 789696,
+              "itemId": 1042,
+              "itemNameKo": "단검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 250,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 790998,
+              "itemId": 1018,
+              "itemNameKo": "민첩성의 망토",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 600,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 935707,
+              "itemId": 2001,
+              "itemNameKo": null,
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": null,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 978561,
+              "itemId": 2002,
+              "itemNameKo": "상급 귀환",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 60,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 978761,
+              "itemId": 1042,
+              "itemNameKo": "단검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 250,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 978761,
+              "itemId": 1018,
+              "itemNameKo": "민첩성의 망토",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 600,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 978761,
+              "itemId": 3046,
+              "itemNameKo": "유령 무희",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2650,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 987779,
+              "itemId": 1037,
+              "itemNameKo": "곡괭이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 875,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 989148,
+              "itemId": 1036,
+              "itemNameKo": "롱소드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 467495,
+            "items": [
+              {
+                "itemId": 3006,
+                "itemNameKo": "광전사의 군화"
+              },
+              {
+                "itemId": 3044,
+                "itemNameKo": "탐식의 망치"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": {
+            "timestamp": 467495,
+            "itemId": 3006,
+            "itemNameKo": "광전사의 군화"
+          },
+          "coreCompletions": [
+            {
+              "timestamp": 786589,
+              "itemId": 6631,
+              "itemNameKo": "발걸음 분쇄기",
+              "totalGold": 3300
+            },
+            {
+              "timestamp": 978761,
+              "itemId": 3046,
+              "itemNameKo": "유령 무희",
+              "totalGold": 2650
+            }
+          ],
+          "firstCore": {
+            "timestamp": 786589,
+            "itemId": 6631,
+            "itemNameKo": "발걸음 분쇄기",
+            "totalGold": 3300
+          },
+          "secondCore": {
+            "timestamp": 978761,
+            "itemId": 3046,
+            "itemNameKo": "유령 무희",
+            "totalGold": 2650
+          }
+        },
+        "7": {
+          "riotId": "lunch#8447",
+          "championName": "MasterYi",
+          "position": "JUNGLE",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 8387,
+              "itemId": 1102,
+              "itemNameKo": "새끼 바람돌이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 450,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 255936,
+              "itemId": 1042,
+              "itemNameKo": "단검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 250,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 256336,
+              "itemId": 1053,
+              "itemNameKo": "흡혈의 낫",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 900,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 443145,
+              "itemId": 1042,
+              "itemNameKo": "단검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 250,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 443145,
+              "itemId": 1043,
+              "itemNameKo": "곡궁",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 700,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 592257,
+              "itemId": 1037,
+              "itemNameKo": "곡괭이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 875,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 799227,
+              "itemId": 1053,
+              "itemNameKo": "흡혈의 낫",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 900,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 799227,
+              "itemId": 1043,
+              "itemNameKo": "곡궁",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 700,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 799227,
+              "itemId": 1037,
+              "itemNameKo": "곡괭이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 875,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 799227,
+              "itemId": 3153,
+              "itemNameKo": "몰락한 왕의 검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 3200,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 808245,
+              "itemId": 1036,
+              "itemNameKo": "롱소드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 865882,
+              "itemId": 1036,
+              "itemNameKo": "롱소드",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 350,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 865882,
+              "itemId": 1053,
+              "itemNameKo": "흡혈의 낫",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 900,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 972514,
+              "itemId": 1038,
+              "itemNameKo": "B.F. 대검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1300,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 255936,
+            "items": [
+              {
+                "itemId": 1042,
+                "itemNameKo": "단검"
+              },
+              {
+                "itemId": 1053,
+                "itemNameKo": "흡혈의 낫"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": null,
+          "coreCompletions": [
+            {
+              "timestamp": 799227,
+              "itemId": 3153,
+              "itemNameKo": "몰락한 왕의 검",
+              "totalGold": 3200
+            }
+          ],
+          "firstCore": {
+            "timestamp": 799227,
+            "itemId": 3153,
+            "itemNameKo": "몰락한 왕의 검",
+            "totalGold": 3200
+          },
+          "secondCore": null
+        },
+        "4": {
+          "riotId": "김정은하트#KR1",
+          "championName": "Gragas",
+          "position": "BOTTOM",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 10558,
+              "itemId": 1056,
+              "itemNameKo": "도란의 반지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 10558,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 10558,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 95573,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 108934,
+              "itemId": 2003,
+              "itemNameKo": "체력 물약",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 154310,
+              "itemId": 2010,
+              "itemNameKo": "굳건한 의지의 완전한 비스킷",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 211385,
+              "itemId": 3070,
+              "itemNameKo": "여신의 눈물",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 216529,
+              "itemId": 1028,
+              "itemNameKo": "루비 수정",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 309549,
+              "itemId": 2010,
+              "itemNameKo": "굳건한 의지의 완전한 비스킷",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 449893,
+              "itemId": 1028,
+              "itemNameKo": "루비 수정",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 449893,
+              "itemId": 3803,
+              "itemNameKo": "억겁의 카탈리스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1300,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 569257,
+              "itemId": 2010,
+              "itemNameKo": "굳건한 의지의 완전한 비스킷",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 50,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 610546,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 846101,
+              "itemId": 1202,
+              "itemNameKo": "하단 공격로 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 846101,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 896932,
+              "itemId": 3803,
+              "itemNameKo": "억겁의 카탈리스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1300,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 896932,
+              "itemId": 6657,
+              "itemNameKo": "영겁의 지팡이",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2600,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 898335,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 898335,
+              "itemId": 3020,
+              "itemNameKo": "마법사의 신발",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 948198,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 948265,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 211385,
+            "items": [
+              {
+                "itemId": 3070,
+                "itemNameKo": "여신의 눈물"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": {
+            "timestamp": 610546,
+            "itemId": 1001,
+            "itemNameKo": "장화"
+          },
+          "coreCompletions": [
+            {
+              "timestamp": 896932,
+              "itemId": 6657,
+              "itemNameKo": "영겁의 지팡이",
+              "totalGold": 2600
+            }
+          ],
+          "firstCore": {
+            "timestamp": 896932,
+            "itemId": 6657,
+            "itemNameKo": "영겁의 지팡이",
+            "totalGold": 2600
+          },
+          "secondCore": null
+        },
+        "5": {
+          "riotId": "레젼무사#KR1",
+          "championName": "Alistar",
+          "position": "UTILITY",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 309854,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 449425,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 449425,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 569926,
+              "itemId": 1027,
+              "itemNameKo": "사파이어 수정",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 629481,
+              "itemId": 3865,
+              "itemNameKo": "세계 지도집",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 745600,
+              "itemId": 1027,
+              "itemNameKo": "사파이어 수정",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 745600,
+              "itemId": 3802,
+              "itemNameKo": "사라진 양피지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 873631,
+              "itemId": 3802,
+              "itemNameKo": "사라진 양피지",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1200,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 873631,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 873631,
+              "itemId": 6655,
+              "itemNameKo": "루덴의 메아리",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 2750,
+              "isBoot": false,
+              "isCoreCandidate": true
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 875134,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 876002,
+              "itemId": 1001,
+              "itemNameKo": "장화",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 300,
+              "isBoot": true,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 939013,
+              "itemId": 3866,
+              "itemNameKo": "룬 나침반",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 939013,
+              "itemId": 1203,
+              "itemNameKo": "서포터 퀘스트",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 0,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 942086,
+              "itemId": 3867,
+              "itemNameKo": "세계의 결실",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 944825,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 954644,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_DESTROYED",
+              "timestamp": 954644,
+              "itemId": 1052,
+              "itemNameKo": "증폭의 고서",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 954644,
+              "itemId": 3145,
+              "itemNameKo": "마법공학 교류 발전기",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 1100,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 309854,
+            "items": [
+              {
+                "itemId": 1052,
+                "itemNameKo": "증폭의 고서"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": {
+            "timestamp": 876002,
+            "itemId": 1001,
+            "itemNameKo": "장화"
+          },
+          "coreCompletions": [
+            {
+              "timestamp": 873631,
+              "itemId": 6655,
+              "itemNameKo": "루덴의 메아리",
+              "totalGold": 2750
+            }
+          ],
+          "firstCore": {
+            "timestamp": 873631,
+            "itemId": 6655,
+            "itemNameKo": "루덴의 메아리",
+            "totalGold": 2750
+          },
+          "secondCore": null
+        },
+        "6": {
+          "riotId": "거북한 돌거북#siiuu",
+          "championName": "KSante",
+          "position": "Invalid",
+          "events": [
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 691255,
+              "itemId": 3057,
+              "itemNameKo": "광휘의 검",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 900,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 691321,
+              "itemId": 1031,
+              "itemNameKo": "쇠사슬 조끼",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 800,
+              "isBoot": false,
+              "isCoreCandidate": false
+            },
+            {
+              "type": "ITEM_PURCHASED",
+              "timestamp": 826047,
+              "itemId": 1028,
+              "itemNameKo": "루비 수정",
+              "beforeId": null,
+              "beforeItemNameKo": null,
+              "afterId": null,
+              "afterItemNameKo": null,
+              "totalGold": 400,
+              "isBoot": false,
+              "isCoreCandidate": false
+            }
+          ],
+          "firstBackPurchase": {
+            "timestamp": 691255,
+            "items": [
+              {
+                "itemId": 3057,
+                "itemNameKo": "광휘의 검"
+              },
+              {
+                "itemId": 1031,
+                "itemNameKo": "쇠사슬 조끼"
+              }
+            ],
+            "note": "First post-opening purchase cluster; used as a first-return purchase heuristic."
+          },
+          "firstBootPurchase": null,
+          "coreCompletions": [],
+          "firstCore": null,
+          "secondCore": null
+        }
+      },
+      "coreRule": "Purchased terminal non-boots item with Data Dragon totalGold >= 2000.",
+      "firstBackRule": "First ITEM_PURCHASED after 90s, grouped within 5s.",
+      "limitations": [
+        "Core completion is a heuristic, not a Riot-provided semantic field.",
+        "ITEM_UNDO, unusual transformations, support/jungle upgrades, and mode-specific items can make inferred build order imperfect.",
+        "Gold spent should be read from event chronology rather than naively summing item totalGold."
+      ]
+    }
   },
   "itemNameLanguage": "ko_KR",
   "itemDataVersion": "16.1.1"

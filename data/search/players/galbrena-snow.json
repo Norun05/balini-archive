@@ -1,0 +1,177 @@
+{
+  "riotId": "Galbrena#Snow",
+  "games": 5,
+  "wins": 0,
+  "losses": 5,
+  "winRate": 0.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Veigar",
+      "position": "MIDDLE",
+      "games": 2
+    },
+    {
+      "champion": "Lulu",
+      "position": "UTILITY",
+      "games": 1
+    },
+    {
+      "champion": "Seraphine",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Shen",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Volibear",
+      "position": "TOP",
+      "games": 1
+    },
+    {
+      "champion": "Caitlyn",
+      "position": "BOTTOM",
+      "games": 1
+    },
+    {
+      "champion": "Volibear",
+      "position": "JUNGLE",
+      "games": 1
+    },
+    {
+      "champion": "TwistedFate",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Vayne",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Lulu",
+      "myPosition": "UTILITY",
+      "theirChampion": "Caitlyn",
+      "theirPosition": "BOTTOM",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8238490729"
+      ]
+    },
+    {
+      "myChampion": "Seraphine",
+      "myPosition": "Invalid",
+      "theirChampion": "TwistedFate",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8238348428"
+      ]
+    },
+    {
+      "myChampion": "Shen",
+      "myPosition": "Invalid",
+      "theirChampion": "Vayne",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8238289204"
+      ]
+    },
+    {
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Volibear",
+      "theirPosition": "JUNGLE",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8238402776"
+      ]
+    },
+    {
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Volibear",
+      "theirPosition": "TOP",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8238594168"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8238594168",
+    "KR_8238490729",
+    "KR_8238402776",
+    "KR_8238348428",
+    "KR_8238289204"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8238594168",
+      "gameCreation": 1780154507825,
+      "win": false,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Volibear",
+      "theirPosition": "TOP"
+    },
+    {
+      "matchId": "KR_8238490729",
+      "gameCreation": 1780151984762,
+      "win": false,
+      "myChampion": "Lulu",
+      "myPosition": "UTILITY",
+      "theirChampion": "Caitlyn",
+      "theirPosition": "BOTTOM"
+    },
+    {
+      "matchId": "KR_8238402776",
+      "gameCreation": 1780149725519,
+      "win": false,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Volibear",
+      "theirPosition": "JUNGLE"
+    },
+    {
+      "matchId": "KR_8238348428",
+      "gameCreation": 1780148088558,
+      "win": false,
+      "myChampion": "Seraphine",
+      "myPosition": "Invalid",
+      "theirChampion": "TwistedFate",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_8238289204",
+      "gameCreation": 1780146452112,
+      "win": false,
+      "myChampion": "Shen",
+      "myPosition": "Invalid",
+      "theirChampion": "Vayne",
+      "theirPosition": "Invalid"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "riotId": "kimminjae#1022",
+  "games": 2,
+  "wins": 0,
+  "losses": 2,
+  "winRate": 0.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Veigar",
+      "position": "BOTTOM",
+      "games": 1
+    },
+    {
+      "champion": "Veigar",
+      "position": "MIDDLE",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Ekko",
+      "position": "JUNGLE",
+      "games": 1
+    },
+    {
+      "champion": "Kaisa",
+      "position": "BOTTOM",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Veigar",
+      "myPosition": "BOTTOM",
+      "theirChampion": "Ekko",
+      "theirPosition": "JUNGLE",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8198236723"
+      ]
+    },
+    {
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Kaisa",
+      "theirPosition": "BOTTOM",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_7850848218"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8198236723",
+    "KR_7850848218"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8198236723",
+      "gameCreation": 1777713376096,
+      "win": false,
+      "myChampion": "Veigar",
+      "myPosition": "BOTTOM",
+      "theirChampion": "Ekko",
+      "theirPosition": "JUNGLE"
+    },
+    {
+      "matchId": "KR_7850848218",
+      "gameCreation": 1759654775892,
+      "win": false,
+      "myChampion": "Veigar",
+      "myPosition": "MIDDLE",
+      "theirChampion": "Kaisa",
+      "theirPosition": "BOTTOM"
+    }
+  ]
+}

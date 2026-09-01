@@ -1,0 +1,83 @@
+{
+  "riotId": "롤상호#KR1",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Yuumi",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Darius",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Ashe",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Braum",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Darius",
+      "myPosition": "Invalid",
+      "theirChampion": "Braum",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7864019868"
+      ]
+    },
+    {
+      "myChampion": "Yuumi",
+      "myPosition": "Invalid",
+      "theirChampion": "Ashe",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_7864124537"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_7864124537",
+    "KR_7864019868"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_7864124537",
+      "gameCreation": 1760185713945,
+      "win": false,
+      "myChampion": "Yuumi",
+      "myPosition": "Invalid",
+      "theirChampion": "Ashe",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_7864019868",
+      "gameCreation": 1760183124566,
+      "win": true,
+      "myChampion": "Darius",
+      "myPosition": "Invalid",
+      "theirChampion": "Braum",
+      "theirPosition": "Invalid"
+    }
+  ]
+}

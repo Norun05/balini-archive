@@ -1,0 +1,83 @@
+{
+  "riotId": "한번해보자는건가#KR1",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Zoe",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Taric",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "MasterYi",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Ziggs",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Taric",
+      "myPosition": "Invalid",
+      "theirChampion": "Ziggs",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8056293632"
+      ]
+    },
+    {
+      "myChampion": "Zoe",
+      "myPosition": "Invalid",
+      "theirChampion": "MasterYi",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8056330111"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8056330111",
+    "KR_8056293632"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8056330111",
+      "gameCreation": 1769671619001,
+      "win": true,
+      "myChampion": "Zoe",
+      "myPosition": "Invalid",
+      "theirChampion": "MasterYi",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_8056293632",
+      "gameCreation": 1769670286066,
+      "win": false,
+      "myChampion": "Taric",
+      "myPosition": "Invalid",
+      "theirChampion": "Ziggs",
+      "theirPosition": "Invalid"
+    }
+  ]
+}

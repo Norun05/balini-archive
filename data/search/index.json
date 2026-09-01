@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Tiny routing indexes for AI queries; open routed stats files instead of scanning catalog.json.",
+  "statsIndexPath": "stats/index.json",
+  "routes": {
+    "champions": "search/champions.json",
+    "matchups": "search/matchup_routes.json",
+    "players": "search/players.json"
+  },
+  "queryExamples": {
+    "championPositionOpponent": [
+      "Normalize champion and position, open the routed matchup file, then select only the requested opponent entry.",
+      "Example: Kennen + TOP -> stats/matchups/kennen/top.json -> Volibear entry."
+    ],
+    "teammate": [
+      "Normalize Riot ID or game name, look it up in search/players.json, then open only that player's file.",
+      "Example: DTC Soul -> search/players.json -> one search/players/*.json file."
+    ],
+    "deepMatchReview": [
+      "Use matchIds from a stats/player entry and open only data/matches/{matchId}.json for the few relevant games."
+    ]
+  },
+  "statsSchemaVersion": 1,
+  "championRouteCount": 66,
+  "matchupRouteCount": 105,
+  "playerAliasCount": 6046,
+  "playerFileCount": 3030
+}

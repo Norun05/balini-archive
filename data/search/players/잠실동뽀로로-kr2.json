@@ -1,0 +1,78 @@
+{
+  "riotId": "잠실동뽀로로#KR2",
+  "games": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 50.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Sivir",
+      "position": "BOTTOM",
+      "games": 2
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Yone",
+      "position": "TOP",
+      "games": 1
+    },
+    {
+      "champion": "Belveth",
+      "position": "JUNGLE",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Sivir",
+      "myPosition": "BOTTOM",
+      "theirChampion": "Belveth",
+      "theirPosition": "JUNGLE",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_7857784941"
+      ]
+    },
+    {
+      "myChampion": "Sivir",
+      "myPosition": "BOTTOM",
+      "theirChampion": "Yone",
+      "theirPosition": "TOP",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7857848150"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_7857848150",
+    "KR_7857784941"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_7857848150",
+      "gameCreation": 1759924265785,
+      "win": true,
+      "myChampion": "Sivir",
+      "myPosition": "BOTTOM",
+      "theirChampion": "Yone",
+      "theirPosition": "TOP"
+    },
+    {
+      "matchId": "KR_7857784941",
+      "gameCreation": 1759922669404,
+      "win": false,
+      "myChampion": "Sivir",
+      "myPosition": "BOTTOM",
+      "theirChampion": "Belveth",
+      "theirPosition": "JUNGLE"
+    }
+  ]
+}

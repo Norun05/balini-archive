@@ -1,0 +1,83 @@
+{
+  "riotId": "HeeOn2#KR1",
+  "games": 2,
+  "wins": 2,
+  "losses": 0,
+  "winRate": 100.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Kennen",
+      "position": "TOP",
+      "games": 1
+    },
+    {
+      "champion": "Lux",
+      "position": "UTILITY",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Rumble",
+      "position": "MIDDLE",
+      "games": 1
+    },
+    {
+      "champion": "Caitlyn",
+      "position": "MIDDLE",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Rumble",
+      "theirPosition": "MIDDLE",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8150286380"
+      ]
+    },
+    {
+      "myChampion": "Lux",
+      "myPosition": "UTILITY",
+      "theirChampion": "Caitlyn",
+      "theirPosition": "MIDDLE",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_8150275307"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8150286380",
+    "KR_8150275307"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8150286380",
+      "gameCreation": 1774598598864,
+      "win": true,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Rumble",
+      "theirPosition": "MIDDLE"
+    },
+    {
+      "matchId": "KR_8150275307",
+      "gameCreation": 1774598012123,
+      "win": true,
+      "myChampion": "Lux",
+      "myPosition": "UTILITY",
+      "theirChampion": "Caitlyn",
+      "theirPosition": "MIDDLE"
+    }
+  ]
+}

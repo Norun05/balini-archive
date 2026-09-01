@@ -1,0 +1,116 @@
+{
+  "riotId": "응애44#9587",
+  "games": 3,
+  "wins": 2,
+  "losses": 1,
+  "winRate": 66.67,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Mordekaiser",
+      "position": "TOP",
+      "games": 1
+    },
+    {
+      "champion": "Mordekaiser",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Yuumi",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Akali",
+      "position": "MIDDLE",
+      "games": 1
+    },
+    {
+      "champion": "Volibear",
+      "position": "Invalid",
+      "games": 1
+    },
+    {
+      "champion": "Malphite",
+      "position": "Invalid",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Mordekaiser",
+      "myPosition": "Invalid",
+      "theirChampion": "Volibear",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7864197114"
+      ]
+    },
+    {
+      "myChampion": "Mordekaiser",
+      "myPosition": "TOP",
+      "theirChampion": "Akali",
+      "theirPosition": "MIDDLE",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "matchIds": [
+        "KR_7864275605"
+      ]
+    },
+    {
+      "myChampion": "Yuumi",
+      "myPosition": "Invalid",
+      "theirChampion": "Malphite",
+      "theirPosition": "Invalid",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_7864124537"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_7864275605",
+    "KR_7864197114",
+    "KR_7864124537"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_7864275605",
+      "gameCreation": 1760189349525,
+      "win": true,
+      "myChampion": "Mordekaiser",
+      "myPosition": "TOP",
+      "theirChampion": "Akali",
+      "theirPosition": "MIDDLE"
+    },
+    {
+      "matchId": "KR_7864197114",
+      "gameCreation": 1760187361552,
+      "win": true,
+      "myChampion": "Mordekaiser",
+      "myPosition": "Invalid",
+      "theirChampion": "Volibear",
+      "theirPosition": "Invalid"
+    },
+    {
+      "matchId": "KR_7864124537",
+      "gameCreation": 1760185713945,
+      "win": false,
+      "myChampion": "Yuumi",
+      "myPosition": "Invalid",
+      "theirChampion": "Malphite",
+      "theirPosition": "Invalid"
+    }
+  ]
+}

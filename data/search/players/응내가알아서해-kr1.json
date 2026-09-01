@@ -1,0 +1,83 @@
+{
+  "riotId": "응내가알아서해#KR1",
+  "games": 2,
+  "wins": 0,
+  "losses": 2,
+  "winRate": 0.0,
+  "myChampionPositionPairs": [
+    {
+      "champion": "Kennen",
+      "position": "TOP",
+      "games": 1
+    },
+    {
+      "champion": "Jhin",
+      "position": "BOTTOM",
+      "games": 1
+    }
+  ],
+  "theirChampionPositionPairs": [
+    {
+      "champion": "Teemo",
+      "position": "UTILITY",
+      "games": 1
+    },
+    {
+      "champion": "KSante",
+      "position": "TOP",
+      "games": 1
+    }
+  ],
+  "duoCombinations": [
+    {
+      "myChampion": "Jhin",
+      "myPosition": "BOTTOM",
+      "theirChampion": "KSante",
+      "theirPosition": "TOP",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8221163201"
+      ]
+    },
+    {
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Teemo",
+      "theirPosition": "UTILITY",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "matchIds": [
+        "KR_8221161806"
+      ]
+    }
+  ],
+  "matchIds": [
+    "KR_8221161806",
+    "KR_8221163201"
+  ],
+  "recentMatches": [
+    {
+      "matchId": "KR_8221161806",
+      "gameCreation": 1779055779538,
+      "win": false,
+      "myChampion": "Kennen",
+      "myPosition": "TOP",
+      "theirChampion": "Teemo",
+      "theirPosition": "UTILITY"
+    },
+    {
+      "matchId": "KR_8221163201",
+      "gameCreation": 1779053242318,
+      "win": false,
+      "myChampion": "Jhin",
+      "myPosition": "BOTTOM",
+      "theirChampion": "KSante",
+      "theirPosition": "TOP"
+    }
+  ]
+}
