@@ -10,6 +10,8 @@ if %errorlevel%==0 (
     if errorlevel 1 goto :failed
     py -3 tools\enrich_full_events.py
     if errorlevel 1 goto :failed
+    py -3 tools\enrich_early_laning.py
+    if errorlevel 1 goto :failed
     py -3 tools\add_movement_snapshots.py
     if errorlevel 1 goto :failed
     py -3 tools\add_item_names_ko.py
@@ -24,6 +26,8 @@ if %errorlevel%==0 (
         python tools\build_site_data.py
         if errorlevel 1 goto :failed
         python tools\enrich_full_events.py
+        if errorlevel 1 goto :failed
+        python tools\enrich_early_laning.py
         if errorlevel 1 goto :failed
         python tools\add_movement_snapshots.py
         if errorlevel 1 goto :failed
@@ -42,7 +46,7 @@ if %errorlevel%==0 (
 )
 
 echo.
-echo Split site data, full participant/event data, jungle movement snapshots, Korean item names, cross-lane team context, and Kennen skill-order stats are ready.
+echo Split site data, full participant/event data, dense early-laning snapshots, jungle movement snapshots, Korean item names, cross-lane team context, and Kennen skill-order stats are ready.
 echo Commit all changed files in GitHub Desktop and Push origin.
 goto :done
 
