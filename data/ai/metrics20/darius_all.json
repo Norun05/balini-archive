@@ -1,0 +1,147 @@
+{
+  "champion": "darius",
+  "position": "all",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 0.5,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": 527.0,
+      "medianGoldDiff": 527.0,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 2.5,
+      "medianCsDiff": 2.5,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": 545.5,
+      "medianGoldDiff": 545.5,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 10.0,
+      "medianCsDiff": 10.0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.5
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": 467.0,
+      "medianGoldDiff": 467.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 5.0,
+      "medianCsDiff": 5.0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": -0.5
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": 1010.5,
+      "medianGoldDiff": 1010.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 14.5,
+      "medianCsDiff": 14.5,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 557.0,
+    "avg15GoldDiff": 1270.0,
+    "avg20GoldDiff": 2835.0,
+    "avg10CsDiff": 22.0,
+    "avg15CsDiff": 26.0,
+    "avg20CsDiff": 37.0,
+    "avgFirstDeathMin": 9.91,
+    "avgFirstKillMin": 1.04
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 534.0,
+    "avg15GoldDiff": -336.0,
+    "avg20GoldDiff": -814.0,
+    "avg10CsDiff": -2.0,
+    "avg15CsDiff": -16.0,
+    "avg20CsDiff": -8.0,
+    "avgFirstDeathMin": 8.76,
+    "avgFirstKillMin": 3.21
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 9.34,
+    "before5": 0,
+    "before8": 0,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 1,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 2,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8280308021",
+      "opponent": "Malphite",
+      "win": true,
+      "kda": [
+        14,
+        3,
+        1
+      ],
+      "durationMin": 27.1,
+      "firstDeathMin": 9.91,
+      "firstKillMin": 1.04,
+      "g5": 607,
+      "cs5": 7,
+      "g10": 557,
+      "cs10": 22,
+      "g15": 1270,
+      "cs15": 26,
+      "g20": 2835,
+      "cs20": 37,
+      "soloKills": 7,
+      "teamDamagePercentage": 0.33371127192313443
+    },
+    {
+      "matchId": "KR_8273947234",
+      "opponent": "Sett",
+      "win": false,
+      "kda": [
+        6,
+        10,
+        2
+      ],
+      "durationMin": 35.7,
+      "firstDeathMin": 8.76,
+      "firstKillMin": 3.21,
+      "g5": 447,
+      "cs5": -2,
+      "g10": 534,
+      "cs10": -2,
+      "g15": -336,
+      "cs15": -16,
+      "g20": -814,
+      "cs20": -8,
+      "soloKills": 4,
+      "teamDamagePercentage": 0.21354667761112917
+    }
+  ]
+}

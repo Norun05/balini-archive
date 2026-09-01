@@ -1,0 +1,124 @@
+{
+  "champion": "swain",
+  "position": "invalid",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 250.0,
+      "medianGoldDiff": 250,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 500.0,
+      "medianGoldDiff": 500,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 5750.0,
+      "medianGoldDiff": 5750,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 4.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 9000.0,
+      "medianGoldDiff": 9000,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 6.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 500.0,
+    "avg15GoldDiff": 5750.0,
+    "avg20GoldDiff": 9000.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 1.5,
+    "avgFirstKillMin": 6.62
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.5,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8161541391",
+      "opponent": "Briar",
+      "win": true,
+      "kda": [
+        2,
+        6,
+        9
+      ],
+      "durationMin": 17.7,
+      "firstDeathMin": 1.5,
+      "firstKillMin": 6.62,
+      "g5": 250,
+      "cs5": 0,
+      "g10": 500,
+      "cs10": 0,
+      "g15": 5750,
+      "cs15": 0,
+      "g20": 9000,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.08376820161352128
+    }
+  ]
+}

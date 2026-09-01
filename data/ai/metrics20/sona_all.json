@@ -1,0 +1,239 @@
+{
+  "champion": "sona",
+  "position": "all",
+  "availableCount": 6,
+  "sampleCount": 6,
+  "wins": 4,
+  "losses": 2,
+  "winRate": 0.6667,
+  "snapshots": {
+    "5": {
+      "sampleCount": 6,
+      "avgGoldDiff": -2.67,
+      "medianGoldDiff": -250.0,
+      "goldAhead": 1,
+      "goldBehind": 5,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 6,
+      "avgGoldDiff": 416.5,
+      "medianGoldDiff": -8.0,
+      "goldAhead": 1,
+      "goldBehind": 3,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 6,
+      "avgGoldDiff": 460.33,
+      "medianGoldDiff": -250.0,
+      "goldAhead": 2,
+      "goldBehind": 4,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.33
+    },
+    "20": {
+      "sampleCount": 6,
+      "avgGoldDiff": 1897.83,
+      "medianGoldDiff": 1187.5,
+      "goldAhead": 3,
+      "goldBehind": 3,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 1.17
+    }
+  },
+  "winsStats": {
+    "count": 4,
+    "avg10GoldDiff": 624.75,
+    "avg15GoldDiff": 815.5,
+    "avg20GoldDiff": 4346.75,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 7.25,
+    "avgFirstKillMin": 5.45
+  },
+  "lossesStats": {
+    "count": 2,
+    "avg10GoldDiff": 0.0,
+    "avg15GoldDiff": -250.0,
+    "avg20GoldDiff": -3000.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 2.02,
+    "avgFirstKillMin": 4.49
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 5.51,
+    "before5": 5,
+    "before8": 5,
+    "before10": 5,
+    "before15": 5
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 1,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 2,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 2,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8238224075",
+      "opponent": "Poppy",
+      "win": true,
+      "kda": [
+        1,
+        6,
+        24
+      ],
+      "durationMin": 26.8,
+      "firstDeathMin": 2.17,
+      "firstKillMin": 4.84,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -250,
+      "cs10": 0,
+      "g15": -250,
+      "cs15": 0,
+      "g20": -250,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.02688941756390128
+    },
+    {
+      "matchId": "KR_8225387448",
+      "opponent": "Vi",
+      "win": true,
+      "kda": [
+        0,
+        6,
+        26
+      ],
+      "durationMin": 23.0,
+      "firstDeathMin": 1.89,
+      "firstKillMin": null,
+      "g5": -500,
+      "cs5": 0,
+      "g10": -500,
+      "cs10": 0,
+      "g15": -2000,
+      "cs15": 0,
+      "g20": 2625,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.036385164108955294
+    },
+    {
+      "matchId": "KR_8217813311",
+      "opponent": "Aatrox",
+      "win": false,
+      "kda": [
+        4,
+        5,
+        5
+      ],
+      "durationMin": 17.2,
+      "firstDeathMin": 1.93,
+      "firstKillMin": 6.99,
+      "g5": -250,
+      "cs5": 0,
+      "g10": 0,
+      "cs10": 0,
+      "g15": -250,
+      "cs15": 0,
+      "g20": -250,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.08655536259341122
+    },
+    {
+      "matchId": "KR_8215628377",
+      "opponent": "Fiora",
+      "win": true,
+      "kda": [
+        3,
+        11,
+        17
+      ],
+      "durationMin": 26.6,
+      "firstDeathMin": 1.82,
+      "firstKillMin": 9.95,
+      "g5": -266,
+      "cs5": 0,
+      "g10": -16,
+      "cs10": 0,
+      "g15": 2247,
+      "cs15": 0,
+      "g20": 5247,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.05495922469289792
+    },
+    {
+      "matchId": "KR_8215565556",
+      "opponent": "Poppy",
+      "win": false,
+      "kda": [
+        3,
+        6,
+        5
+      ],
+      "durationMin": 21.9,
+      "firstDeathMin": 2.12,
+      "firstKillMin": 1.99,
+      "g5": -250,
+      "cs5": 0,
+      "g10": 0,
+      "cs10": 0,
+      "g15": -250,
+      "cs15": 0,
+      "g20": -5750,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.026873190628753714
+    },
+    {
+      "matchId": "KR_8202074070",
+      "opponent": "MasterYi",
+      "win": true,
+      "kda": [
+        6,
+        4,
+        22
+      ],
+      "durationMin": 26.6,
+      "firstDeathMin": 23.12,
+      "firstKillMin": 1.55,
+      "g5": 1500,
+      "cs5": 0,
+      "g10": 3265,
+      "cs10": 0,
+      "g15": 3265,
+      "cs15": 0,
+      "g20": 9765,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09885037174762054
+    }
+  ]
+}

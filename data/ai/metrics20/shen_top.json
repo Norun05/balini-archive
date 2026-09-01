@@ -1,0 +1,124 @@
+{
+  "champion": "shen",
+  "position": "top",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 138.0,
+      "medianGoldDiff": 138,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 6.0,
+      "medianCsDiff": 6,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -450.0,
+      "medianGoldDiff": -450,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -19.0,
+      "medianCsDiff": -19,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -811.0,
+      "medianGoldDiff": -811,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -32.0,
+      "medianCsDiff": -32,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -979.0,
+      "medianGoldDiff": -979,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -41.0,
+      "medianCsDiff": -41,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -450.0,
+    "avg15GoldDiff": -811.0,
+    "avg20GoldDiff": -979.0,
+    "avg10CsDiff": -19.0,
+    "avg15CsDiff": -32.0,
+    "avg20CsDiff": -41.0,
+    "avgFirstDeathMin": 12.47,
+    "avgFirstKillMin": 14.59
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 12.47,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8227415113",
+      "opponent": "KSante",
+      "win": true,
+      "kda": [
+        6,
+        6,
+        13
+      ],
+      "durationMin": 38.0,
+      "firstDeathMin": 12.47,
+      "firstKillMin": 14.59,
+      "g5": 138,
+      "cs5": 6,
+      "g10": -450,
+      "cs10": -19,
+      "g15": -811,
+      "cs15": -32,
+      "g20": -979,
+      "cs20": -41,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.10801837052892656
+    }
+  ]
+}

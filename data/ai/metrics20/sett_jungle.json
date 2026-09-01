@@ -1,0 +1,124 @@
+{
+  "champion": "sett",
+  "position": "jungle",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -296.0,
+      "medianGoldDiff": -296,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -7.0,
+      "medianCsDiff": -7,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -566.0,
+      "medianGoldDiff": -566,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -18.0,
+      "medianCsDiff": -18,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1443.0,
+      "medianGoldDiff": -1443,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -18.0,
+      "medianCsDiff": -18,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 490.0,
+      "medianGoldDiff": 490,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": -3.0,
+      "medianCsDiff": -3,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -566.0,
+    "avg15GoldDiff": -1443.0,
+    "avg20GoldDiff": 490.0,
+    "avg10CsDiff": -18.0,
+    "avg15CsDiff": -18.0,
+    "avg20CsDiff": -3.0,
+    "avgFirstDeathMin": 9.94,
+    "avgFirstKillMin": 5.58
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 9.94,
+    "before5": 0,
+    "before8": 0,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8273034616",
+      "opponent": "Nocturne",
+      "win": true,
+      "kda": [
+        4,
+        5,
+        3
+      ],
+      "durationMin": 20.6,
+      "firstDeathMin": 9.94,
+      "firstKillMin": 5.58,
+      "g5": -296,
+      "cs5": -7,
+      "g10": -566,
+      "cs10": -18,
+      "g15": -1443,
+      "cs15": -18,
+      "g20": 490,
+      "cs20": -3,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09076506314428456
+    }
+  ]
+}

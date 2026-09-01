@@ -1,0 +1,124 @@
+{
+  "champion": "yone",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -753.0,
+      "medianGoldDiff": -753,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -4.0,
+      "medianCsDiff": -4,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1386.0,
+      "medianGoldDiff": -1386,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -14.0,
+      "medianCsDiff": -14,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -2.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -2527.0,
+      "medianGoldDiff": -2527,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -26.0,
+      "medianCsDiff": -26,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -2.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -4527.0,
+      "medianGoldDiff": -4527,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -53.0,
+      "medianCsDiff": -53,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -3.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -1386.0,
+    "avg15GoldDiff": -2527.0,
+    "avg20GoldDiff": -4527.0,
+    "avg10CsDiff": -14.0,
+    "avg15CsDiff": -26.0,
+    "avg20CsDiff": -53.0,
+    "avgFirstDeathMin": 1.22,
+    "avgFirstKillMin": 14.49
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.22,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8273905508",
+      "opponent": "Riven",
+      "win": false,
+      "kda": [
+        3,
+        16,
+        7
+      ],
+      "durationMin": 33.2,
+      "firstDeathMin": 1.22,
+      "firstKillMin": 14.49,
+      "g5": -753,
+      "cs5": -4,
+      "g10": -1386,
+      "cs10": -14,
+      "g15": -2527,
+      "cs15": -26,
+      "g20": -4527,
+      "cs20": -53,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.10796334278926072
+    }
+  ]
+}

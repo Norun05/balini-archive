@@ -1,0 +1,124 @@
+{
+  "champion": "xinzhao",
+  "position": "utility",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -22.0,
+      "medianGoldDiff": -22,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 2.0,
+      "medianCsDiff": 2,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -411.0,
+      "medianGoldDiff": -411,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1647.0,
+      "medianGoldDiff": -1647,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1144.0,
+      "medianGoldDiff": -1144,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 23.0,
+      "medianCsDiff": 23,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -411.0,
+    "avg15GoldDiff": -1647.0,
+    "avg20GoldDiff": -1144.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 23.0,
+    "avgFirstDeathMin": 4.55,
+    "avgFirstKillMin": 19.85
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 4.55,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8279564257",
+      "opponent": "Ziggs",
+      "win": false,
+      "kda": [
+        1,
+        14,
+        2
+      ],
+      "durationMin": 26.7,
+      "firstDeathMin": 4.55,
+      "firstKillMin": 19.85,
+      "g5": -22,
+      "cs5": 2,
+      "g10": -411,
+      "cs10": 0,
+      "g15": -1647,
+      "cs15": 0,
+      "g20": -1144,
+      "cs20": 23,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.13860394458495626
+    }
+  ]
+}

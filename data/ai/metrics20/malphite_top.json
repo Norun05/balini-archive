@@ -1,0 +1,147 @@
+{
+  "champion": "malphite",
+  "position": "top",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 0.5,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": 120.5,
+      "medianGoldDiff": 120.5,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 3.5,
+      "medianCsDiff": 3.5,
+      "csAhead": 2,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": 155.5,
+      "medianGoldDiff": 155.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 7.5,
+      "medianCsDiff": 7.5,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": 482.5,
+      "medianGoldDiff": 482.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 13.5,
+      "medianCsDiff": 13.5,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.5
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": 1407.0,
+      "medianGoldDiff": 1407.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 15.5,
+      "medianCsDiff": 15.5,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -532.0,
+    "avg15GoldDiff": -982.0,
+    "avg20GoldDiff": -110.0,
+    "avg10CsDiff": -2.0,
+    "avg15CsDiff": -12.0,
+    "avg20CsDiff": -14.0,
+    "avgFirstDeathMin": 7.94,
+    "avgFirstKillMin": 16.93
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 843.0,
+    "avg15GoldDiff": 1947.0,
+    "avg20GoldDiff": 2924.0,
+    "avg10CsDiff": 17.0,
+    "avg15CsDiff": 39.0,
+    "avg20CsDiff": 45.0,
+    "avgFirstDeathMin": 35.68,
+    "avgFirstKillMin": 7.41
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 21.81,
+    "before5": 0,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8280357199",
+      "opponent": "Brand",
+      "win": true,
+      "kda": [
+        3,
+        3,
+        1
+      ],
+      "durationMin": 24.1,
+      "firstDeathMin": 7.94,
+      "firstKillMin": 16.93,
+      "g5": 9,
+      "cs5": 2,
+      "g10": -532,
+      "cs10": -2,
+      "g15": -982,
+      "cs15": -12,
+      "g20": -110,
+      "cs20": -14,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09995159096927776
+    },
+    {
+      "matchId": "KR_8221008042",
+      "opponent": "Rengar",
+      "win": false,
+      "kda": [
+        5,
+        1,
+        8
+      ],
+      "durationMin": 36.2,
+      "firstDeathMin": 35.68,
+      "firstKillMin": 7.41,
+      "g5": 232,
+      "cs5": 5,
+      "g10": 843,
+      "cs10": 17,
+      "g15": 1947,
+      "cs15": 39,
+      "g20": 2924,
+      "cs20": 45,
+      "soloKills": 5,
+      "teamDamagePercentage": 0.22330520434791676
+    }
+  ]
+}

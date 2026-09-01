@@ -1,0 +1,124 @@
+{
+  "champion": "zed",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 194.0,
+      "medianGoldDiff": 194,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 1.0,
+      "medianCsDiff": 1,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 170.0,
+      "medianGoldDiff": 170,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 211.0,
+      "medianGoldDiff": 211,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 4.0,
+      "medianCsDiff": 4,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 391.0,
+      "medianGoldDiff": 391,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 4.0,
+      "medianCsDiff": 4,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 170.0,
+    "avg15GoldDiff": 211.0,
+    "avg20GoldDiff": 391.0,
+    "avg10CsDiff": -1.0,
+    "avg15CsDiff": 4.0,
+    "avg20CsDiff": 4.0,
+    "avgFirstDeathMin": 6.28,
+    "avgFirstKillMin": 15.58
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 6.28,
+    "before5": 0,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8274030143",
+      "opponent": "Ryze",
+      "win": false,
+      "kda": [
+        2,
+        8,
+        1
+      ],
+      "durationMin": 35.3,
+      "firstDeathMin": 6.28,
+      "firstKillMin": 15.58,
+      "g5": 194,
+      "cs5": 1,
+      "g10": 170,
+      "cs10": -1,
+      "g15": 211,
+      "cs15": 4,
+      "g20": 391,
+      "cs20": 4,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.22902661377077269
+    }
+  ]
+}

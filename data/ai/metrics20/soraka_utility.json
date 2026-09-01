@@ -1,0 +1,124 @@
+{
+  "champion": "soraka",
+  "position": "utility",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -22.0,
+      "medianGoldDiff": -22,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -6.0,
+      "medianCsDiff": -6,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -537.0,
+      "medianGoldDiff": -537,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -5.0,
+      "medianCsDiff": -5,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1299.0,
+      "medianGoldDiff": -1299,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -12.0,
+      "medianCsDiff": -12,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1132.0,
+      "medianGoldDiff": -1132,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -19.0,
+      "medianCsDiff": -19,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -537.0,
+    "avg15GoldDiff": -1299.0,
+    "avg20GoldDiff": -1132.0,
+    "avg10CsDiff": -5.0,
+    "avg15CsDiff": -12.0,
+    "avg20CsDiff": -19.0,
+    "avgFirstDeathMin": 10.73,
+    "avgFirstKillMin": 21.49
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 10.73,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8356119966",
+      "opponent": "Lillia",
+      "win": true,
+      "kda": [
+        1,
+        5,
+        23
+      ],
+      "durationMin": 28.6,
+      "firstDeathMin": 10.73,
+      "firstKillMin": 21.49,
+      "g5": -22,
+      "cs5": -6,
+      "g10": -537,
+      "cs10": -5,
+      "g15": -1299,
+      "cs15": -12,
+      "g20": -1132,
+      "cs20": -19,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.0361645577145694
+    }
+  ]
+}

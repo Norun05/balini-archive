@@ -1,0 +1,216 @@
+{
+  "champion": "locke",
+  "position": "all",
+  "availableCount": 5,
+  "sampleCount": 5,
+  "wins": 1,
+  "losses": 4,
+  "winRate": 0.2,
+  "snapshots": {
+    "5": {
+      "sampleCount": 5,
+      "avgGoldDiff": -484.2,
+      "medianGoldDiff": -241,
+      "goldAhead": 1,
+      "goldBehind": 4,
+      "avgCsDiff": -1.4,
+      "medianCsDiff": -3,
+      "csAhead": 2,
+      "csBehind": 3,
+      "avgLevelDiff": -0.4
+    },
+    "10": {
+      "sampleCount": 5,
+      "avgGoldDiff": -1216.8,
+      "medianGoldDiff": -1137,
+      "goldAhead": 1,
+      "goldBehind": 4,
+      "avgCsDiff": -7.0,
+      "medianCsDiff": -9,
+      "csAhead": 0,
+      "csBehind": 4,
+      "avgLevelDiff": -0.8
+    },
+    "15": {
+      "sampleCount": 5,
+      "avgGoldDiff": -739.6,
+      "medianGoldDiff": -887,
+      "goldAhead": 1,
+      "goldBehind": 4,
+      "avgCsDiff": -5.6,
+      "medianCsDiff": -8,
+      "csAhead": 2,
+      "csBehind": 3,
+      "avgLevelDiff": -0.8
+    },
+    "20": {
+      "sampleCount": 5,
+      "avgGoldDiff": -613.6,
+      "medianGoldDiff": -383,
+      "goldAhead": 1,
+      "goldBehind": 4,
+      "avgCsDiff": -3.6,
+      "medianCsDiff": -6,
+      "csAhead": 1,
+      "csBehind": 4,
+      "avgLevelDiff": -1.2
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -1137.0,
+    "avg15GoldDiff": -242.0,
+    "avg20GoldDiff": -338.0,
+    "avg10CsDiff": -9.0,
+    "avg15CsDiff": -8.0,
+    "avg20CsDiff": -16.0,
+    "avgFirstDeathMin": 1.8,
+    "avgFirstKillMin": 1.23
+  },
+  "lossesStats": {
+    "count": 4,
+    "avg10GoldDiff": -1236.75,
+    "avg15GoldDiff": -864.0,
+    "avg20GoldDiff": -682.5,
+    "avg10CsDiff": -6.5,
+    "avg15CsDiff": -5.0,
+    "avg20CsDiff": -0.5,
+    "avgFirstDeathMin": 2.71,
+    "avgFirstKillMin": 8.38
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.53,
+    "before5": 5,
+    "before8": 5,
+    "before10": 5,
+    "before15": 5
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 4,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 3
+  },
+  "matches": [
+    {
+      "matchId": "KR_8279508355",
+      "opponent": "Veigar",
+      "win": false,
+      "kda": [
+        2,
+        9,
+        5
+      ],
+      "durationMin": 25.3,
+      "firstDeathMin": 3.23,
+      "firstKillMin": 13.02,
+      "g5": -241,
+      "cs5": -3,
+      "g10": -1014,
+      "cs10": -14,
+      "g15": -887,
+      "cs15": -16,
+      "g20": -1387,
+      "cs20": -18,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.13089103818097614
+    },
+    {
+      "matchId": "KR_8273991222",
+      "opponent": "Neeko",
+      "win": false,
+      "kda": [
+        7,
+        13,
+        3
+      ],
+      "durationMin": 30.9,
+      "firstDeathMin": 4.19,
+      "firstKillMin": 8.37,
+      "g5": -216,
+      "cs5": 4,
+      "g10": 190,
+      "cs10": 0,
+      "g15": 768,
+      "cs15": 4,
+      "g20": 725,
+      "cs20": 28,
+      "soloKills": 3,
+      "teamDamagePercentage": 0.14050619519852375
+    },
+    {
+      "matchId": "KR_8273082269",
+      "opponent": "Darius",
+      "win": true,
+      "kda": [
+        3,
+        9,
+        1
+      ],
+      "durationMin": 17.3,
+      "firstDeathMin": 1.8,
+      "firstKillMin": 1.23,
+      "g5": -726,
+      "cs5": -5,
+      "g10": -1137,
+      "cs10": -9,
+      "g15": -242,
+      "cs15": -8,
+      "g20": -338,
+      "cs20": -16,
+      "soloKills": 2,
+      "teamDamagePercentage": 0.17213197705001942
+    },
+    {
+      "matchId": "KR_8272988584",
+      "opponent": "Sett",
+      "win": false,
+      "kda": [
+        7,
+        14,
+        3
+      ],
+      "durationMin": 27.4,
+      "firstDeathMin": 1.98,
+      "firstKillMin": 8.06,
+      "g5": -1480,
+      "cs5": -7,
+      "g10": -2353,
+      "cs10": -11,
+      "g15": -1515,
+      "cs15": 1,
+      "g20": -383,
+      "cs20": -6,
+      "soloKills": 3,
+      "teamDamagePercentage": 0.17882357379978797
+    },
+    {
+      "matchId": "KR_8272662341",
+      "opponent": "Jax",
+      "win": false,
+      "kda": [
+        3,
+        12,
+        2
+      ],
+      "durationMin": 19.0,
+      "firstDeathMin": 1.45,
+      "firstKillMin": 4.07,
+      "g5": 242,
+      "cs5": 4,
+      "g10": -1770,
+      "cs10": -1,
+      "g15": -1822,
+      "cs15": -9,
+      "g20": -1685,
+      "cs20": -6,
+      "soloKills": 2,
+      "teamDamagePercentage": 0.2813136781130835
+    }
+  ]
+}

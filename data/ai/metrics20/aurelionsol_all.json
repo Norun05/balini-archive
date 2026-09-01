@@ -1,0 +1,124 @@
+{
+  "champion": "aurelionsol",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -255.0,
+      "medianGoldDiff": -255,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 308.0,
+      "medianGoldDiff": 308,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 935.0,
+      "medianGoldDiff": 935,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 1.0,
+      "medianCsDiff": 1,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 3037.0,
+      "medianGoldDiff": 3037,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 1.0,
+      "medianCsDiff": 1,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 2.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 308.0,
+    "avg15GoldDiff": 935.0,
+    "avg20GoldDiff": 3037.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 1.0,
+    "avg20CsDiff": 1.0,
+    "avgFirstDeathMin": 1.78,
+    "avgFirstKillMin": 4.31
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.78,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8215686326",
+      "opponent": "Velkoz",
+      "win": true,
+      "kda": [
+        10,
+        10,
+        13
+      ],
+      "durationMin": 24.7,
+      "firstDeathMin": 1.78,
+      "firstKillMin": 4.31,
+      "g5": -255,
+      "cs5": 0,
+      "g10": 308,
+      "cs10": 0,
+      "g15": 935,
+      "cs15": 1,
+      "g20": 3037,
+      "cs20": 1,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.06164894034895291
+    }
+  ]
+}

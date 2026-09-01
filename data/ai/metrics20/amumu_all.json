@@ -1,0 +1,193 @@
+{
+  "champion": "amumu",
+  "position": "all",
+  "availableCount": 4,
+  "sampleCount": 4,
+  "wins": 0,
+  "losses": 4,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 4,
+      "avgGoldDiff": 74.75,
+      "medianGoldDiff": -0.5,
+      "goldAhead": 1,
+      "goldBehind": 2,
+      "avgCsDiff": 0.75,
+      "medianCsDiff": 0.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 4,
+      "avgGoldDiff": -149.25,
+      "medianGoldDiff": -178.5,
+      "goldAhead": 1,
+      "goldBehind": 3,
+      "avgCsDiff": 1.25,
+      "medianCsDiff": 0.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 4,
+      "avgGoldDiff": -819.0,
+      "medianGoldDiff": -641.5,
+      "goldAhead": 1,
+      "goldBehind": 3,
+      "avgCsDiff": 1.25,
+      "medianCsDiff": 0.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": -0.25
+    },
+    "20": {
+      "sampleCount": 4,
+      "avgGoldDiff": -1802.25,
+      "medianGoldDiff": -957.0,
+      "goldAhead": 2,
+      "goldBehind": 2,
+      "avgCsDiff": 1.25,
+      "medianCsDiff": 0.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 4,
+    "avg10GoldDiff": -149.25,
+    "avg15GoldDiff": -819.0,
+    "avg20GoldDiff": -1802.25,
+    "avg10CsDiff": 1.25,
+    "avg15CsDiff": 1.25,
+    "avg20CsDiff": 1.25,
+    "avgFirstDeathMin": 5.96,
+    "avgFirstKillMin": 3.3
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 5.96,
+    "before5": 2,
+    "before8": 3,
+    "before10": 3,
+    "before15": 4
+  },
+  "transitions": {
+    "ahead10_to_behind15": 1,
+    "behind10_to_ahead15": 1,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 2
+  },
+  "matches": [
+    {
+      "matchId": "KR_8225564365",
+      "opponent": "Orianna",
+      "win": false,
+      "kda": [
+        2,
+        6,
+        9
+      ],
+      "durationMin": 17.1,
+      "firstDeathMin": 1.82,
+      "firstKillMin": 4.45,
+      "g5": 0,
+      "cs5": 0,
+      "g10": -255,
+      "cs10": 0,
+      "g15": -2005,
+      "cs15": 0,
+      "g20": -2005,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09683616238092053
+    },
+    {
+      "matchId": "KR_8202513516",
+      "opponent": "Xerath",
+      "win": false,
+      "kda": [
+        9,
+        10,
+        7
+      ],
+      "durationMin": 29.0,
+      "firstDeathMin": 6.51,
+      "firstKillMin": 1.91,
+      "g5": -6,
+      "cs5": 0,
+      "g10": -494,
+      "cs10": 0,
+      "g15": 12,
+      "cs15": 0,
+      "g20": 2260,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.21680288171527437
+    },
+    {
+      "matchId": "KR_8202220069",
+      "opponent": "Ahri",
+      "win": false,
+      "kda": [
+        3,
+        6,
+        11
+      ],
+      "durationMin": 25.3,
+      "firstDeathMin": 10.62,
+      "firstKillMin": 4.58,
+      "g5": 306,
+      "cs5": 3,
+      "g10": 254,
+      "cs10": 5,
+      "g15": -330,
+      "cs15": 5,
+      "g20": 91,
+      "cs20": 5,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.1632986734556683
+    },
+    {
+      "matchId": "KR_8202141270",
+      "opponent": "Corki",
+      "win": false,
+      "kda": [
+        2,
+        7,
+        1
+      ],
+      "durationMin": 27.3,
+      "firstDeathMin": 4.9,
+      "firstKillMin": 2.25,
+      "g5": -1,
+      "cs5": 0,
+      "g10": -102,
+      "cs10": 0,
+      "g15": -953,
+      "cs15": 0,
+      "g20": -7555,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.055468057308459585
+    }
+  ]
+}

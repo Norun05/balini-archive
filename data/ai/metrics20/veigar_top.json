@@ -1,0 +1,124 @@
+{
+  "champion": "veigar",
+  "position": "top",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -11.0,
+      "medianGoldDiff": -11,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 4.0,
+      "medianCsDiff": 4,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 452.0,
+      "medianGoldDiff": 452,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 5.0,
+      "medianCsDiff": 5,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 658.0,
+      "medianGoldDiff": 658,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 33.0,
+      "medianCsDiff": 33,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 610.0,
+      "medianGoldDiff": 610,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 33.0,
+      "medianCsDiff": 33,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 452.0,
+    "avg15GoldDiff": 658.0,
+    "avg20GoldDiff": 610.0,
+    "avg10CsDiff": 5.0,
+    "avg15CsDiff": 33.0,
+    "avg20CsDiff": 33.0,
+    "avgFirstDeathMin": 15.57,
+    "avgFirstKillMin": 8.9
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 15.57,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 0
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8248085670",
+      "opponent": "Aatrox",
+      "win": false,
+      "kda": [
+        2,
+        1,
+        0
+      ],
+      "durationMin": 16.6,
+      "firstDeathMin": 15.57,
+      "firstKillMin": 8.9,
+      "g5": -11,
+      "cs5": 4,
+      "g10": 452,
+      "cs10": 5,
+      "g15": 658,
+      "cs15": 33,
+      "g20": 610,
+      "cs20": 33,
+      "soloKills": 2,
+      "teamDamagePercentage": 0.17927228443316898
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "champion": "nautilus",
+  "position": "all",
+  "availableCount": 4,
+  "sampleCount": 4,
+  "wins": 0,
+  "losses": 4,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 4,
+      "avgGoldDiff": -185.0,
+      "medianGoldDiff": -125.0,
+      "goldAhead": 1,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -0.5
+    },
+    "10": {
+      "sampleCount": 4,
+      "avgGoldDiff": -400.75,
+      "medianGoldDiff": -374.0,
+      "goldAhead": 0,
+      "goldBehind": 4,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -1.25
+    },
+    "15": {
+      "sampleCount": 4,
+      "avgGoldDiff": -1053.25,
+      "medianGoldDiff": -753.0,
+      "goldAhead": 0,
+      "goldBehind": 4,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -2.25
+    },
+    "20": {
+      "sampleCount": 4,
+      "avgGoldDiff": -5041.5,
+      "medianGoldDiff": -4960.0,
+      "goldAhead": 0,
+      "goldBehind": 4,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -5.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 4,
+    "avg10GoldDiff": -400.75,
+    "avg15GoldDiff": -1053.25,
+    "avg20GoldDiff": -5041.5,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 1.91,
+    "avgFirstKillMin": 3.66
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.91,
+    "before5": 4,
+    "before8": 4,
+    "before10": 4,
+    "before15": 4
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 2,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 2
+  },
+  "matches": [
+    {
+      "matchId": "KR_8294730912",
+      "opponent": "Amumu",
+      "win": false,
+      "kda": [
+        0,
+        6,
+        12
+      ],
+      "durationMin": 19.3,
+      "firstDeathMin": 1.85,
+      "firstKillMin": null,
+      "g5": -498,
+      "cs5": 0,
+      "g10": -498,
+      "cs10": 0,
+      "g15": -496,
+      "cs15": 0,
+      "g20": -3246,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.0545984614271055
+    },
+    {
+      "matchId": "KR_8294662744",
+      "opponent": "Yone",
+      "win": false,
+      "kda": [
+        1,
+        7,
+        1
+      ],
+      "durationMin": 23.2,
+      "firstDeathMin": 2.01,
+      "firstKillMin": 1.72,
+      "g5": 0,
+      "cs5": 0,
+      "g10": -250,
+      "cs10": 0,
+      "g15": -1010,
+      "cs15": 0,
+      "g20": -6260,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.04577063492699337
+    },
+    {
+      "matchId": "KR_8215605334",
+      "opponent": "Shen",
+      "win": false,
+      "kda": [
+        4,
+        7,
+        10
+      ],
+      "durationMin": 24.0,
+      "firstDeathMin": 1.75,
+      "firstKillMin": 4.86,
+      "g5": 8,
+      "cs5": 0,
+      "g10": -105,
+      "cs10": 0,
+      "g15": -457,
+      "cs15": 0,
+      "g20": -3660,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09274389394897366
+    },
+    {
+      "matchId": "KR_8161513144",
+      "opponent": "Garen",
+      "win": false,
+      "kda": [
+        1,
+        6,
+        2
+      ],
+      "durationMin": 24.2,
+      "firstDeathMin": 2.02,
+      "firstKillMin": 4.4,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -750,
+      "cs10": 0,
+      "g15": -2250,
+      "cs15": 0,
+      "g20": -7000,
+      "cs20": 0,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.06826299795663804
+    }
+  ]
+}

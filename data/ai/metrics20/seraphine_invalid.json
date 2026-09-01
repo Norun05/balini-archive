@@ -1,0 +1,239 @@
+{
+  "champion": "seraphine",
+  "position": "invalid",
+  "availableCount": 6,
+  "sampleCount": 6,
+  "wins": 3,
+  "losses": 3,
+  "winRate": 0.5,
+  "snapshots": {
+    "5": {
+      "sampleCount": 6,
+      "avgGoldDiff": -747.33,
+      "medianGoldDiff": -230.5,
+      "goldAhead": 2,
+      "goldBehind": 4,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 6,
+      "avgGoldDiff": -965.33,
+      "medianGoldDiff": -742.5,
+      "goldAhead": 1,
+      "goldBehind": 5,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.17
+    },
+    "15": {
+      "sampleCount": 6,
+      "avgGoldDiff": 395.17,
+      "medianGoldDiff": -30.5,
+      "goldAhead": 3,
+      "goldBehind": 3,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 1.33
+    },
+    "20": {
+      "sampleCount": 6,
+      "avgGoldDiff": 1954.67,
+      "medianGoldDiff": -306.0,
+      "goldAhead": 2,
+      "goldBehind": 4,
+      "avgCsDiff": 0.17,
+      "medianCsDiff": 0.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 2.17
+    }
+  },
+  "winsStats": {
+    "count": 3,
+    "avg10GoldDiff": -240.0,
+    "avg15GoldDiff": 2226.0,
+    "avg20GoldDiff": 6370.67,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.33,
+    "avgFirstDeathMin": 4.49,
+    "avgFirstKillMin": 5.07
+  },
+  "lossesStats": {
+    "count": 3,
+    "avg10GoldDiff": -1690.67,
+    "avg15GoldDiff": -1435.67,
+    "avg20GoldDiff": -2461.33,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 4.84,
+    "avgFirstKillMin": 8.77
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 4.66,
+    "before5": 4,
+    "before8": 6,
+    "before10": 6,
+    "before15": 6
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 2,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 4,
+    "ahead15_by500_plus": 2,
+    "behind15_by500_plus": 2
+  },
+  "matches": [
+    {
+      "matchId": "KR_8250445039",
+      "opponent": "Fiora",
+      "win": true,
+      "kda": [
+        3,
+        6,
+        13
+      ],
+      "durationMin": 25.4,
+      "firstDeathMin": 6.73,
+      "firstKillMin": 1.66,
+      "g5": 249,
+      "cs5": 0,
+      "g10": -103,
+      "cs10": 0,
+      "g15": -205,
+      "cs15": 0,
+      "g20": -556,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.038090144937670385
+    },
+    {
+      "matchId": "KR_8238348428",
+      "opponent": "Akshan",
+      "win": false,
+      "kda": [
+        2,
+        7,
+        10
+      ],
+      "durationMin": 24.4,
+      "firstDeathMin": 1.94,
+      "firstKillMin": 10.93,
+      "g5": -452,
+      "cs5": 0,
+      "g10": -929,
+      "cs10": 0,
+      "g15": -530,
+      "cs15": 0,
+      "g20": -956,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.05698798601566207
+    },
+    {
+      "matchId": "KR_8233244103",
+      "opponent": "Kayn",
+      "win": true,
+      "kda": [
+        2,
+        6,
+        20
+      ],
+      "durationMin": 21.1,
+      "firstDeathMin": 1.97,
+      "firstKillMin": 11.75,
+      "g5": -1500,
+      "cs5": 0,
+      "g10": -1250,
+      "cs10": 0,
+      "g15": 2250,
+      "cs15": 0,
+      "g20": 7750,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.04013774450556133
+    },
+    {
+      "matchId": "KR_8217814528",
+      "opponent": "Teemo",
+      "win": true,
+      "kda": [
+        7,
+        4,
+        25
+      ],
+      "durationMin": 22.2,
+      "firstDeathMin": 4.77,
+      "firstKillMin": 1.8,
+      "g5": 229,
+      "cs5": 0,
+      "g10": 633,
+      "cs10": 0,
+      "g15": 4633,
+      "cs15": 0,
+      "g20": 11918,
+      "cs20": 1,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.05739358789075355
+    },
+    {
+      "matchId": "KR_8207724018",
+      "opponent": "Renekton",
+      "win": false,
+      "kda": [
+        0,
+        9,
+        11
+      ],
+      "durationMin": 22.4,
+      "firstDeathMin": 7.74,
+      "firstKillMin": null,
+      "g5": -9,
+      "cs5": 0,
+      "g10": -556,
+      "cs10": 0,
+      "g15": 144,
+      "cs15": 0,
+      "g20": -56,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.08510662304328916
+    },
+    {
+      "matchId": "KR_8207671508",
+      "opponent": "Anivia",
+      "win": false,
+      "kda": [
+        3,
+        7,
+        8
+      ],
+      "durationMin": 21.4,
+      "firstDeathMin": 4.83,
+      "firstKillMin": 6.6,
+      "g5": -3001,
+      "cs5": 0,
+      "g10": -3587,
+      "cs10": 0,
+      "g15": -3921,
+      "cs15": 0,
+      "g20": -6372,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.14735093358886647
+    }
+  ]
+}

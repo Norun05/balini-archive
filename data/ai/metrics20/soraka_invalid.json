@@ -1,0 +1,124 @@
+{
+  "champion": "soraka",
+  "position": "invalid",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 0.0,
+      "medianGoldDiff": 0,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 0.0,
+      "medianGoldDiff": 0,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -250.0,
+      "medianGoldDiff": -250,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -500.0,
+      "medianGoldDiff": -500,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 0.0,
+    "avg15GoldDiff": -250.0,
+    "avg20GoldDiff": -500.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 2.2,
+    "avgFirstKillMin": 2.2
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.2,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8161465886",
+      "opponent": "Zaahen",
+      "win": false,
+      "kda": [
+        4,
+        9,
+        6
+      ],
+      "durationMin": 27.1,
+      "firstDeathMin": 2.2,
+      "firstKillMin": 2.2,
+      "g5": 0,
+      "cs5": 0,
+      "g10": 0,
+      "cs10": 0,
+      "g15": -250,
+      "cs15": 0,
+      "g20": -500,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.05179501184172565
+    }
+  ]
+}

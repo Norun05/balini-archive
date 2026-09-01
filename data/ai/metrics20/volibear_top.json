@@ -1,0 +1,147 @@
+{
+  "champion": "volibear",
+  "position": "top",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 0,
+  "losses": 2,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": 560.5,
+      "medianGoldDiff": 560.5,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 5.0,
+      "medianCsDiff": 5.0,
+      "csAhead": 2,
+      "csBehind": 0,
+      "avgLevelDiff": 1.5
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": -405.5,
+      "medianGoldDiff": -405.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": -3.0,
+      "medianCsDiff": -3.0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": -0.5
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": -260.5,
+      "medianGoldDiff": -260.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 3.5,
+      "medianCsDiff": 3.5,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -1040.5,
+      "medianGoldDiff": -1040.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 6.0,
+      "medianCsDiff": 6.0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 2,
+    "avg10GoldDiff": -405.5,
+    "avg15GoldDiff": -260.5,
+    "avg20GoldDiff": -1040.5,
+    "avg10CsDiff": -3.0,
+    "avg15CsDiff": 3.5,
+    "avg20CsDiff": 6.0,
+    "avgFirstDeathMin": 2.03,
+    "avgFirstKillMin": 2.17
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.03,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8280267179",
+      "opponent": "Ornn",
+      "win": false,
+      "kda": [
+        9,
+        13,
+        3
+      ],
+      "durationMin": 28.3,
+      "firstDeathMin": 2.77,
+      "firstKillMin": 1.8,
+      "g5": 862,
+      "cs5": 8,
+      "g10": 238,
+      "cs10": 11,
+      "g15": 1257,
+      "cs15": 28,
+      "g20": 754,
+      "cs20": 47,
+      "soloKills": 5,
+      "teamDamagePercentage": 0.23431810745352705
+    },
+    {
+      "matchId": "KR_8279592310",
+      "opponent": "Yone",
+      "win": false,
+      "kda": [
+        6,
+        18,
+        6
+      ],
+      "durationMin": 37.5,
+      "firstDeathMin": 1.29,
+      "firstKillMin": 2.55,
+      "g5": 259,
+      "cs5": 2,
+      "g10": -1049,
+      "cs10": -17,
+      "g15": -1778,
+      "cs15": -21,
+      "g20": -2835,
+      "cs20": -35,
+      "soloKills": 5,
+      "teamDamagePercentage": 0.17023058719328288
+    }
+  ]
+}

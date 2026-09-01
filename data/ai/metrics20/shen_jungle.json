@@ -1,0 +1,239 @@
+{
+  "champion": "shen",
+  "position": "jungle",
+  "availableCount": 6,
+  "sampleCount": 6,
+  "wins": 6,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 6,
+      "avgGoldDiff": 32.67,
+      "medianGoldDiff": -42.5,
+      "goldAhead": 3,
+      "goldBehind": 3,
+      "avgCsDiff": 2.83,
+      "medianCsDiff": 2.0,
+      "csAhead": 3,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 6,
+      "avgGoldDiff": 346.5,
+      "medianGoldDiff": 529.0,
+      "goldAhead": 4,
+      "goldBehind": 2,
+      "avgCsDiff": 6.83,
+      "medianCsDiff": 5.5,
+      "csAhead": 3,
+      "csBehind": 2,
+      "avgLevelDiff": 0.5
+    },
+    "15": {
+      "sampleCount": 6,
+      "avgGoldDiff": 463.67,
+      "medianGoldDiff": 429.5,
+      "goldAhead": 5,
+      "goldBehind": 1,
+      "avgCsDiff": 11.17,
+      "medianCsDiff": 16.5,
+      "csAhead": 5,
+      "csBehind": 1,
+      "avgLevelDiff": 0.67
+    },
+    "20": {
+      "sampleCount": 6,
+      "avgGoldDiff": 542.0,
+      "medianGoldDiff": 751.5,
+      "goldAhead": 5,
+      "goldBehind": 1,
+      "avgCsDiff": 11.33,
+      "medianCsDiff": 10.5,
+      "csAhead": 5,
+      "csBehind": 1,
+      "avgLevelDiff": 1.17
+    }
+  },
+  "winsStats": {
+    "count": 6,
+    "avg10GoldDiff": 346.5,
+    "avg15GoldDiff": 463.67,
+    "avg20GoldDiff": 542.0,
+    "avg10CsDiff": 6.83,
+    "avg15CsDiff": 11.17,
+    "avg20CsDiff": 11.33,
+    "avgFirstDeathMin": 11.87,
+    "avgFirstKillMin": 7.51
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 11.87,
+    "before5": 1,
+    "before8": 2,
+    "before10": 3,
+    "before15": 4
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 1,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 3,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 3,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8263588882",
+      "opponent": "Sylas",
+      "win": true,
+      "kda": [
+        13,
+        3,
+        29
+      ],
+      "durationMin": 42.9,
+      "firstDeathMin": 16.71,
+      "firstKillMin": 5.23,
+      "g5": -302,
+      "cs5": 0,
+      "g10": 988,
+      "cs10": 20,
+      "g15": 1295,
+      "cs15": 20,
+      "g20": 2273,
+      "cs20": 23,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.11615281945511675
+    },
+    {
+      "matchId": "KR_8237596622",
+      "opponent": "Evelynn",
+      "win": true,
+      "kda": [
+        2,
+        1,
+        10
+      ],
+      "durationMin": 25.3,
+      "firstDeathMin": 3.84,
+      "firstKillMin": 10.35,
+      "g5": 20,
+      "cs5": 0,
+      "g10": 131,
+      "cs10": -1,
+      "g15": 167,
+      "cs15": 6,
+      "g20": 474,
+      "cs20": 4,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.05986650354723592
+    },
+    {
+      "matchId": "KR_8236763782",
+      "opponent": "Shaco",
+      "win": true,
+      "kda": [
+        2,
+        2,
+        5
+      ],
+      "durationMin": 22.2,
+      "firstDeathMin": 9.14,
+      "firstKillMin": 6.46,
+      "g5": -133,
+      "cs5": 9,
+      "g10": -254,
+      "cs10": 0,
+      "g15": 182,
+      "cs15": 21,
+      "g20": 826,
+      "cs20": 28,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.0639567328834033
+    },
+    {
+      "matchId": "KR_8235807868",
+      "opponent": "Nocturne",
+      "win": true,
+      "kda": [
+        4,
+        1,
+        11
+      ],
+      "durationMin": 11.5,
+      "firstDeathMin": 10.09,
+      "firstKillMin": 4.95,
+      "g5": 353,
+      "cs5": 8,
+      "g10": 1068,
+      "cs10": 17,
+      "g15": 677,
+      "cs15": 17,
+      "g20": 677,
+      "cs20": 17,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09185397612263672
+    },
+    {
+      "matchId": "KR_8224993090",
+      "opponent": "Viego",
+      "win": true,
+      "kda": [
+        8,
+        3,
+        32
+      ],
+      "durationMin": 48.0,
+      "firstDeathMin": 24.93,
+      "firstKillMin": 2.69,
+      "g5": 363,
+      "cs5": 4,
+      "g10": 927,
+      "cs10": 11,
+      "g15": 1270,
+      "cs15": 16,
+      "g20": 867,
+      "cs20": 4,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09382835673647126
+    },
+    {
+      "matchId": "KR_8223555501",
+      "opponent": "Rammus",
+      "win": true,
+      "kda": [
+        3,
+        3,
+        7
+      ],
+      "durationMin": 26.1,
+      "firstDeathMin": 6.52,
+      "firstKillMin": 15.39,
+      "g5": -105,
+      "cs5": -4,
+      "g10": -781,
+      "cs10": -6,
+      "g15": -809,
+      "cs15": -13,
+      "g20": -1865,
+      "cs20": -8,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.06507366143010226
+    }
+  ]
+}

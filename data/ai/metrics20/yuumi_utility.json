@@ -1,0 +1,124 @@
+{
+  "champion": "yuumi",
+  "position": "utility",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -503.0,
+      "medianGoldDiff": -503,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -8.0,
+      "medianCsDiff": -8,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1411.0,
+      "medianGoldDiff": -1411,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -14.0,
+      "medianCsDiff": -14,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1742.0,
+      "medianGoldDiff": -1742,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -20.0,
+      "medianCsDiff": -20,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -2064.0,
+      "medianGoldDiff": -2064,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -27.0,
+      "medianCsDiff": -27,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -1411.0,
+    "avg15GoldDiff": -1742.0,
+    "avg20GoldDiff": -2064.0,
+    "avg10CsDiff": -14.0,
+    "avg15CsDiff": -20.0,
+    "avg20CsDiff": -27.0,
+    "avgFirstDeathMin": 7.22,
+    "avgFirstKillMin": 28.41
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 7.22,
+    "before5": 0,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8194622276",
+      "opponent": "Morgana",
+      "win": true,
+      "kda": [
+        3,
+        2,
+        31
+      ],
+      "durationMin": 38.9,
+      "firstDeathMin": 7.22,
+      "firstKillMin": 28.41,
+      "g5": -503,
+      "cs5": -8,
+      "g10": -1411,
+      "cs10": -14,
+      "g15": -1742,
+      "cs15": -20,
+      "g20": -2064,
+      "cs20": -27,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.06611147992432852
+    }
+  ]
+}

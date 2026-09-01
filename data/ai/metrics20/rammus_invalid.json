@@ -1,0 +1,124 @@
+{
+  "champion": "rammus",
+  "position": "invalid",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -260.0,
+      "medianGoldDiff": -260,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -894.0,
+      "medianGoldDiff": -894,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1520.0,
+      "medianGoldDiff": -1520,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -5271.0,
+      "medianGoldDiff": -5271,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -2.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -894.0,
+    "avg15GoldDiff": -1520.0,
+    "avg20GoldDiff": -5271.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": -1.0,
+    "avg20CsDiff": -1.0,
+    "avgFirstDeathMin": 4.43,
+    "avgFirstKillMin": 1.94
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 4.43,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8294690913",
+      "opponent": "Senna",
+      "win": false,
+      "kda": [
+        2,
+        7,
+        11
+      ],
+      "durationMin": 22.9,
+      "firstDeathMin": 4.43,
+      "firstKillMin": 1.94,
+      "g5": -260,
+      "cs5": 0,
+      "g10": -894,
+      "cs10": 0,
+      "g15": -1520,
+      "cs15": -1,
+      "g20": -5271,
+      "cs20": -1,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09653361579563585
+    }
+  ]
+}
