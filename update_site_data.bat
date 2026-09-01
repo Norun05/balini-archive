@@ -32,6 +32,8 @@ if %errorlevel%==0 (
     if errorlevel 1 goto :failed
     py -3 tools\build_kennen_skill_order.py
     if errorlevel 1 goto :failed
+    py -3 tools\validate_generated_data.py
+    if errorlevel 1 goto :failed
 ) else (
     where python >nul 2>nul
     if %errorlevel%==0 (
@@ -61,6 +63,8 @@ if %errorlevel%==0 (
         if errorlevel 1 goto :failed
         python tools\build_kennen_skill_order.py
         if errorlevel 1 goto :failed
+        python tools\validate_generated_data.py
+        if errorlevel 1 goto :failed
     ) else (
         echo Python 3 was not found.
         echo Install Python 3 and run this file again.
@@ -70,14 +74,15 @@ if %errorlevel%==0 (
 )
 
 echo.
-echo Local archives were merged into balini-lol-archive-v999, then site data, full events, early-laning snapshots, all-position movement, Korean item names, item economy, team context, generic stats, item timing stats, duo/player stats, AI search routes, and Kennen skill-order stats were rebuilt.
+echo Local archives were merged into balini-lol-archive-v999, then site data, full events, early-laning snapshots, all-position movement, Korean item names, item economy, team context, generic stats, item timing stats, duo/player stats, AI search routes, Kennen skill-order stats, and end-to-end validation were rebuilt.
+echo Validation report: data\validation.json
 echo Commit all changed files in GitHub Desktop and Push origin.
 goto :done
 
 :failed
 echo.
-echo Site data update failed.
-echo Send the error text or a screenshot to ChatGPT.
+echo Site data update failed or validation found a blocking inconsistency.
+echo Check data\validation.json if it exists, then send the error text or a screenshot to ChatGPT.
 
 :done
 echo.
