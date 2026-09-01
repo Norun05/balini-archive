@@ -9,406 +9,3538 @@
       "games": 17,
       "wins": 11,
       "losses": 6,
-      "winRate": 0.6471
+      "winRate": 0.6471,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 16,
+            "avg": -168.31,
+            "median": -389.5,
+            "ahead": 4,
+            "behind": 12,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 16,
+            "avg": -14.75,
+            "median": -17.5,
+            "ahead": 2,
+            "behind": 14,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 16,
+            "avg": 0.06,
+            "median": 0.0,
+            "ahead": 3,
+            "behind": 2,
+            "even": 11
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 14,
+            "avg": -119.79,
+            "median": -78.5,
+            "ahead": 6,
+            "behind": 8,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 14,
+            "avg": -18.93,
+            "median": -17.0,
+            "ahead": 2,
+            "behind": 12,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 14,
+            "avg": -0.29,
+            "median": 0.0,
+            "ahead": 1,
+            "behind": 5,
+            "even": 8
+          }
+        }
+      }
     },
     {
       "champion": "Yone",
       "games": 15,
       "wins": 8,
       "losses": 7,
-      "winRate": 0.5333
+      "winRate": 0.5333,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 15,
+            "avg": 138.27,
+            "median": 130,
+            "ahead": 8,
+            "behind": 7,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 15,
+            "avg": -6.2,
+            "median": -6,
+            "ahead": 4,
+            "behind": 10,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 15,
+            "avg": 0.2,
+            "median": 0,
+            "ahead": 7,
+            "behind": 4,
+            "even": 4
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 14,
+            "avg": 309.93,
+            "median": 405.5,
+            "ahead": 8,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 14,
+            "avg": -4.93,
+            "median": -7.5,
+            "ahead": 3,
+            "behind": 11,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 14,
+            "avg": 0.57,
+            "median": 1.0,
+            "ahead": 9,
+            "behind": 3,
+            "even": 2
+          }
+        }
+      }
     },
     {
       "champion": "Sylas",
       "games": 14,
       "wins": 8,
       "losses": 6,
-      "winRate": 0.5714
+      "winRate": 0.5714,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 14,
+            "avg": -49.64,
+            "median": 161.0,
+            "ahead": 8,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 14,
+            "avg": 3.36,
+            "median": 2.5,
+            "ahead": 8,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 14,
+            "avg": 0.07,
+            "median": 0.0,
+            "ahead": 4,
+            "behind": 3,
+            "even": 7
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 14,
+            "avg": 290.5,
+            "median": 992.5,
+            "ahead": 8,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 14,
+            "avg": 10.86,
+            "median": 12.0,
+            "ahead": 8,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 14,
+            "avg": 0.43,
+            "median": 0.5,
+            "ahead": 7,
+            "behind": 3,
+            "even": 4
+          }
+        }
+      }
     },
     {
       "champion": "Zed",
       "games": 12,
       "wins": 9,
       "losses": 3,
-      "winRate": 0.75
+      "winRate": 0.75,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -642.64,
+            "median": -484,
+            "ahead": 0,
+            "behind": 11,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -14.36,
+            "median": -11,
+            "ahead": 2,
+            "behind": 9,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": -0.36,
+            "median": 0,
+            "ahead": 1,
+            "behind": 5,
+            "even": 5
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -924.82,
+            "median": -865,
+            "ahead": 1,
+            "behind": 10,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -15,
+            "median": -15,
+            "ahead": 3,
+            "behind": 8,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": -0.27,
+            "median": 0,
+            "ahead": 1,
+            "behind": 5,
+            "even": 5
+          }
+        }
+      }
     },
     {
       "champion": "Akali",
       "games": 11,
       "wins": 7,
       "losses": 4,
-      "winRate": 0.6364
+      "winRate": 0.6364,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -135.73,
+            "median": -251,
+            "ahead": 2,
+            "behind": 9,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -6.45,
+            "median": -8,
+            "ahead": 2,
+            "behind": 9,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": 0.09,
+            "median": 0,
+            "ahead": 3,
+            "behind": 2,
+            "even": 6
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -259.82,
+            "median": -522,
+            "ahead": 2,
+            "behind": 9,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -2.09,
+            "median": -7,
+            "ahead": 3,
+            "behind": 7,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": 0.09,
+            "median": 0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 8
+          }
+        }
+      }
     },
     {
       "champion": "Mel",
       "games": 9,
       "wins": 7,
       "losses": 2,
-      "winRate": 0.7778
+      "winRate": 0.7778,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 9,
+            "avg": -568.67,
+            "median": -773,
+            "ahead": 1,
+            "behind": 8,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": -27.56,
+            "median": -31,
+            "ahead": 1,
+            "behind": 8,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": -0.56,
+            "median": -1,
+            "ahead": 1,
+            "behind": 6,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 9,
+            "avg": -1160.22,
+            "median": -1220,
+            "ahead": 1,
+            "behind": 8,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": -39.89,
+            "median": -41,
+            "ahead": 1,
+            "behind": 8,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": -0.89,
+            "median": -1,
+            "ahead": 2,
+            "behind": 6,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Ahri",
       "games": 9,
       "wins": 5,
       "losses": 4,
-      "winRate": 0.5556
+      "winRate": 0.5556,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 8,
+            "avg": 177.62,
+            "median": 63.0,
+            "ahead": 5,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 8,
+            "avg": -7,
+            "median": -9.5,
+            "ahead": 2,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 8,
+            "avg": 0.88,
+            "median": 1.0,
+            "ahead": 7,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 7,
+            "avg": 358.14,
+            "median": 331,
+            "ahead": 4,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": -2.29,
+            "median": -3,
+            "ahead": 2,
+            "behind": 4,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.57,
+            "median": 0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 5
+          }
+        }
+      }
     },
     {
       "champion": "Aurora",
       "games": 6,
       "wins": 5,
       "losses": 1,
-      "winRate": 0.8333
+      "winRate": 0.8333,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 5,
+            "avg": 6.4,
+            "median": -148,
+            "ahead": 1,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -0.6,
+            "median": -3,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.2,
+            "median": 0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 4
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 5,
+            "avg": 149.6,
+            "median": 425,
+            "ahead": 4,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": 1.8,
+            "median": -4,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.4,
+            "median": 1,
+            "ahead": 3,
+            "behind": 1,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Azir",
       "games": 6,
       "wins": 4,
       "losses": 2,
-      "winRate": 0.6667
+      "winRate": 0.6667,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 6,
+            "avg": 47,
+            "median": 20.5,
+            "ahead": 3,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -14,
+            "median": -18.0,
+            "ahead": 0,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0.33,
+            "median": 0.5,
+            "ahead": 3,
+            "behind": 2,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 5,
+            "avg": 467.6,
+            "median": 454,
+            "ahead": 4,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -9,
+            "median": -17,
+            "ahead": 1,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.8,
+            "median": 1,
+            "ahead": 3,
+            "behind": 1,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Xerath",
       "games": 6,
       "wins": 3,
       "losses": 3,
-      "winRate": 0.5
+      "winRate": 0.5,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 6,
+            "avg": -190.83,
+            "median": -56.5,
+            "ahead": 2,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -8.33,
+            "median": -9.0,
+            "ahead": 1,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0.17,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 6,
+            "avg": -244.33,
+            "median": -202.5,
+            "ahead": 3,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -15.5,
+            "median": -22.0,
+            "ahead": 2,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 2
+          }
+        }
+      }
     },
     {
       "champion": "Zoe",
       "games": 5,
       "wins": 3,
       "losses": 2,
-      "winRate": 0.6
+      "winRate": 0.6,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 4,
+            "avg": -477,
+            "median": -455.5,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": -15.75,
+            "median": -11.5,
+            "ahead": 0,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": -0.5,
+            "median": -0.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 4,
+            "avg": -588.5,
+            "median": -180.0,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": -14,
+            "median": -12.5,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": -0.25,
+            "median": -0.5,
+            "ahead": 1,
+            "behind": 2,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Ryze",
       "games": 5,
       "wins": 2,
       "losses": 3,
-      "winRate": 0.4
+      "winRate": 0.4,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -163,
+            "median": -196,
+            "ahead": 1,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -5.8,
+            "median": -10,
+            "ahead": 1,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.4,
+            "median": 0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 5,
+            "avg": 114.8,
+            "median": 322,
+            "ahead": 3,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -2.4,
+            "median": -4,
+            "ahead": 1,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.4,
+            "median": 0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 2
+          }
+        }
+      }
     },
     {
       "champion": "TwistedFate",
       "games": 5,
       "wins": 2,
       "losses": 3,
-      "winRate": 0.4
+      "winRate": 0.4,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -221.4,
+            "median": -95,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -8.4,
+            "median": -7,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0,
+            "median": 0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -163.4,
+            "median": -243,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -4.6,
+            "median": 2,
+            "ahead": 3,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": -0.2,
+            "median": 0,
+            "ahead": 0,
+            "behind": 1,
+            "even": 4
+          }
+        }
+      }
     },
     {
       "champion": "Cassiopeia",
       "games": 4,
       "wins": 3,
       "losses": 1,
-      "winRate": 0.75
+      "winRate": 0.75,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 4,
+            "avg": 954,
+            "median": 975.5,
+            "ahead": 3,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": 9.5,
+            "median": 16.0,
+            "ahead": 3,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 1.25,
+            "median": 1.5,
+            "ahead": 3,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 3,
+            "avg": 496.33,
+            "median": 980,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": 8,
+            "median": 20,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 0.67,
+            "median": 1,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Galio",
       "games": 4,
       "wins": 2,
       "losses": 2,
-      "winRate": 0.5
+      "winRate": 0.5,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 4,
+            "avg": 29.5,
+            "median": -50.0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": 2.5,
+            "median": 1.5,
+            "ahead": 2,
+            "behind": 1,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 0.25,
+            "median": 0.5,
+            "ahead": 2,
+            "behind": 1,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 4,
+            "avg": 378,
+            "median": 504.0,
+            "ahead": 3,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": 10,
+            "median": 12.0,
+            "ahead": 3,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 0.75,
+            "median": 0.5,
+            "ahead": 2,
+            "behind": 0,
+            "even": 2
+          }
+        }
+      }
     },
     {
       "champion": "Akshan",
       "games": 3,
       "wins": 2,
       "losses": 1,
-      "winRate": 0.6667
+      "winRate": 0.6667,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 3,
+            "avg": -524,
+            "median": -474,
+            "ahead": 0,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": -11.33,
+            "median": -9,
+            "ahead": 0,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 3,
+            "avg": -201,
+            "median": -25,
+            "ahead": 1,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": -6.33,
+            "median": -8,
+            "ahead": 1,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 0.67,
+            "median": 1,
+            "ahead": 2,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Lux",
       "games": 3,
       "wins": 0,
       "losses": 3,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 3,
+            "avg": 362.67,
+            "median": 444,
+            "ahead": 3,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": 15.33,
+            "median": 7,
+            "ahead": 3,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 0.67,
+            "median": 1,
+            "ahead": 2,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 3,
+            "avg": 373.33,
+            "median": 438,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": 23.67,
+            "median": 30,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 1,
+            "median": 2,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "DrMundo",
       "games": 2,
       "wins": 2,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 300,
+            "median": 300.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 2,
+            "median": 2.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 868,
+            "median": 868.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 5.5,
+            "median": 5.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1.5,
+            "median": 1.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Fizz",
       "games": 2,
       "wins": 2,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -517.5,
+            "median": -517.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -17,
+            "median": -17.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1073.5,
+            "median": -1073.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -21.5,
+            "median": -21.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        }
+      }
     },
     {
       "champion": "Lissandra",
       "games": 2,
       "wins": 2,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -218.5,
+            "median": -218.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 2.5,
+            "median": 2.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.5,
+            "median": 0.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 187.5,
+            "median": 187.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 9.5,
+            "median": 9.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Morgana",
       "games": 2,
       "wins": 2,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -491,
+            "median": -491.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -9.5,
+            "median": -9.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 99.5,
+            "median": 99.5,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -2,
+            "median": -2.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Orianna",
       "games": 2,
       "wins": 2,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -437.5,
+            "median": -437.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -14.5,
+            "median": -14.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.5,
+            "median": 0.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -256.5,
+            "median": -256.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -21,
+            "median": -21.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        }
+      }
     },
     {
       "champion": "Smolder",
       "games": 2,
       "wins": 2,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 25.5,
+            "median": 25.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -17,
+            "median": -17.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 964.5,
+            "median": 964.5,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -19,
+            "median": -19.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "AurelionSol",
       "games": 2,
       "wins": 1,
       "losses": 1,
-      "winRate": 0.5
+      "winRate": 0.5,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -347.5,
+            "median": -347.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -16.5,
+            "median": -16.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 179,
+            "median": 179.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -14,
+            "median": -14.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Diana",
       "games": 2,
       "wins": 1,
       "losses": 1,
-      "winRate": 0.5
+      "winRate": 0.5,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1118.5,
+            "median": -1118.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -12,
+            "median": -12.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -0.5,
+            "median": -0.5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -205,
+            "median": -205,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Talon",
       "games": 2,
       "wins": 1,
       "losses": 1,
-      "winRate": 0.5
+      "winRate": 0.5,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -470,
+            "median": -470.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -18,
+            "median": -18.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -467.5,
+            "median": -467.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -8,
+            "median": -8.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.5,
+            "median": 0.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Tryndamere",
       "games": 2,
       "wins": 1,
       "losses": 1,
-      "winRate": 0.5
+      "winRate": 0.5,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -249,
+            "median": -249.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -11,
+            "median": -11.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.5,
+            "median": 0.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -251.5,
+            "median": -251.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -10.5,
+            "median": -10.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 1,
+            "median": 1.0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Anivia",
       "games": 2,
       "wins": 0,
       "losses": 2,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1359,
+            "median": -1359.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -28.5,
+            "median": -28.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -1,
+            "median": -1.0,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -3742,
+            "median": -3742,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -70,
+            "median": -70,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -4,
+            "median": -4,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Malzahar",
       "games": 2,
       "wins": 0,
       "losses": 2,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -587.5,
+            "median": -587.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -32,
+            "median": -32.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -0.5,
+            "median": -0.5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1279.5,
+            "median": -1279.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -45.5,
+            "median": -45.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -0.5,
+            "median": -0.5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Vex",
       "games": 2,
       "wins": 0,
       "losses": 2,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": 135.5,
+            "median": 135.5,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -3,
+            "median": -3.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -347,
+            "median": -347.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -4.5,
+            "median": -4.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        }
+      }
     },
     {
       "champion": "Annie",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 668,
+            "median": 668,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1287,
+            "median": 1287,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 12,
+            "median": 12,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 3,
+            "median": 3,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Blitzcrank",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -917,
+            "median": -917,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -22,
+            "median": -22,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -73,
+            "median": -73,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -16,
+            "median": -16,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Brand",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1093,
+            "median": 1093,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 13,
+            "median": 13,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1846,
+            "median": 1846,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 28,
+            "median": 28,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Corki",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -528,
+            "median": -528,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 18,
+            "median": 18,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 845,
+            "median": 845,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 41,
+            "median": 41,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Evelynn",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -115,
+            "median": -115,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 7,
+            "median": 7,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 594,
+            "median": 594,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 18,
+            "median": 18,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Hecarim",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 580,
+            "median": 580,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 26,
+            "median": 26,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1233,
+            "median": 1233,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 38,
+            "median": 38,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Heimerdinger",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -665,
+            "median": -665,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -21,
+            "median": -21,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -321,
+            "median": -321,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -12,
+            "median": -12,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Hwei",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 15,
+            "median": 15,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -5,
+            "median": -5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 520,
+            "median": 520,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -14,
+            "median": -14,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Irelia",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -586,
+            "median": -586,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -33,
+            "median": -33,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 86,
+            "median": 86,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -36,
+            "median": -36,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Locke",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -536,
+            "median": -536,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -13,
+            "median": -13,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 30,
+            "median": 30,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 3,
+            "median": 3,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Malphite",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 833,
+            "median": 833,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -7,
+            "median": -7,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 881,
+            "median": 881,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -6,
+            "median": -6,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Naafiri",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -276,
+            "median": -276,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -20,
+            "median": -20,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 275,
+            "median": 275,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -16,
+            "median": -16,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Pyke",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -813,
+            "median": -813,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 6,
+            "median": 6,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -439,
+            "median": -439,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 24,
+            "median": 24,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Quinn",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 8,
+            "median": 8,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -13,
+            "median": -13,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 136,
+            "median": 136,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -4,
+            "median": -4,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Renekton",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1290,
+            "median": -1290,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -16,
+            "median": -16,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -111,
+            "median": -111,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 4,
+            "median": 4,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Syndra",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -149,
+            "median": -149,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -5,
+            "median": -5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -93,
+            "median": -93,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -8,
+            "median": -8,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Tristana",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 418,
+            "median": 418,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 10,
+            "median": 10,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 751,
+            "median": 751,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 18,
+            "median": 18,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Vladimir",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 247,
+            "median": 247,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1453,
+            "median": 1453,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 18,
+            "median": 18,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Volibear",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1286,
+            "median": 1286,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2076,
+            "median": 2076,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -4,
+            "median": -4,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Yuumi",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1308,
+            "median": 1308,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 65,
+            "median": 65,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2579,
+            "median": 2579,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 90,
+            "median": 90,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Zilean",
       "games": 1,
       "wins": 1,
       "losses": 0,
-      "winRate": 1.0
+      "winRate": 1.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -2,
+            "median": -2,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 868,
+            "median": 868,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -5,
+            "median": -5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Ambessa",
       "games": 1,
       "wins": 0,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1588,
+            "median": 1588,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1771,
+            "median": -1771,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -18,
+            "median": -18,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Briar",
       "games": 1,
       "wins": 0,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -188,
+            "median": -188,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -8,
+            "median": -8,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1170,
+            "median": -1170,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -22,
+            "median": -22,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Ekko",
       "games": 1,
       "wins": 0,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -563,
+            "median": -563,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -4,
+            "median": -4,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -840,
+            "median": -840,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Kayle",
       "games": 1,
       "wins": 0,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -173,
+            "median": -173,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -18,
+            "median": -18,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -428,
+            "median": -428,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -34,
+            "median": -34,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "Pantheon",
       "games": 1,
       "wins": 0,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1406,
+            "median": 1406,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 32,
+            "median": 32,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1724,
+            "median": 1724,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 41,
+            "median": 41,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
     },
     {
       "champion": "Varus",
       "games": 1,
       "wins": 0,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 299,
+            "median": 299,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -15,
+            "median": -15,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -433,
+            "median": -433,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -27,
+            "median": -27,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     },
     {
       "champion": "XinZhao",
       "games": 1,
       "wins": 0,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.0,
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -790,
+            "median": -790,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -10,
+            "median": -10,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -80,
+            "median": -80,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -9,
+            "median": -9,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
     }
   ],
   "coreSlots": {
@@ -653,7 +3785,7 @@
   },
   "notes": [
     "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
-    "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+    "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate plus 10/15-minute lane diffs.",
     "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
@@ -685,210 +3817,1830 @@
           "games": 15,
           "wins": 10,
           "losses": 5,
-          "winRate": 0.6667
+          "winRate": 0.6667,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 15,
+                "avg": -226.87,
+                "median": -391,
+                "ahead": 3,
+                "behind": 12,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 15,
+                "avg": -15,
+                "median": -20,
+                "ahead": 2,
+                "behind": 13,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 15,
+                "avg": 0,
+                "median": 0,
+                "ahead": 2,
+                "behind": 2,
+                "even": 11
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 14,
+                "avg": -119.79,
+                "median": -78.5,
+                "ahead": 6,
+                "behind": 8,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 14,
+                "avg": -18.93,
+                "median": -17.0,
+                "ahead": 2,
+                "behind": 12,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 14,
+                "avg": -0.29,
+                "median": 0.0,
+                "ahead": 1,
+                "behind": 5,
+                "even": 8
+              }
+            }
+          }
         },
         {
           "champion": "Yone",
           "games": 13,
           "wins": 6,
           "losses": 7,
-          "winRate": 0.4615
+          "winRate": 0.4615,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 13,
+                "avg": 215.77,
+                "median": 242,
+                "ahead": 8,
+                "behind": 5,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 13,
+                "avg": -4.69,
+                "median": -4,
+                "ahead": 4,
+                "behind": 8,
+                "even": 1
+              },
+              "levelDiff": {
+                "n": 13,
+                "avg": 0.23,
+                "median": 1,
+                "ahead": 7,
+                "behind": 4,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 12,
+                "avg": 350.42,
+                "median": 866.0,
+                "ahead": 7,
+                "behind": 5,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 12,
+                "avg": -2.5,
+                "median": -5.5,
+                "ahead": 3,
+                "behind": 9,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 12,
+                "avg": 0.5,
+                "median": 1.0,
+                "ahead": 7,
+                "behind": 3,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Sylas",
           "games": 10,
           "wins": 6,
           "losses": 4,
-          "winRate": 0.6
+          "winRate": 0.6,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 10,
+                "avg": 14.4,
+                "median": 161.0,
+                "ahead": 6,
+                "behind": 4,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 10,
+                "avg": 5.8,
+                "median": 5.0,
+                "ahead": 7,
+                "behind": 3,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 10,
+                "avg": 0.4,
+                "median": 0.0,
+                "ahead": 4,
+                "behind": 1,
+                "even": 5
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 10,
+                "avg": 241.1,
+                "median": 992.5,
+                "ahead": 6,
+                "behind": 4,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 10,
+                "avg": 14.8,
+                "median": 20.5,
+                "ahead": 6,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 10,
+                "avg": 0.6,
+                "median": 0.5,
+                "ahead": 5,
+                "behind": 1,
+                "even": 4
+              }
+            }
+          }
         },
         {
           "champion": "Mel",
           "games": 8,
           "wins": 6,
           "losses": 2,
-          "winRate": 0.75
+          "winRate": 0.75,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 8,
+                "avg": -534.5,
+                "median": -560.5,
+                "ahead": 1,
+                "behind": 7,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 8,
+                "avg": -26.12,
+                "median": -30.0,
+                "ahead": 1,
+                "behind": 7,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 8,
+                "avg": -0.5,
+                "median": -1.0,
+                "ahead": 1,
+                "behind": 5,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 8,
+                "avg": -1073.62,
+                "median": -1142.5,
+                "ahead": 1,
+                "behind": 7,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 8,
+                "avg": -35.88,
+                "median": -38.5,
+                "ahead": 1,
+                "behind": 7,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 8,
+                "avg": -0.62,
+                "median": -1.0,
+                "ahead": 2,
+                "behind": 5,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Akali",
           "games": 8,
           "wins": 5,
           "losses": 3,
-          "winRate": 0.625
+          "winRate": 0.625,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 8,
+                "avg": -90.5,
+                "median": -235.5,
+                "ahead": 2,
+                "behind": 6,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 8,
+                "avg": -6,
+                "median": -8.5,
+                "ahead": 2,
+                "behind": 6,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 8,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 2,
+                "behind": 2,
+                "even": 4
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 8,
+                "avg": -132,
+                "median": -446.5,
+                "ahead": 2,
+                "behind": 6,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 8,
+                "avg": -0.38,
+                "median": -6.0,
+                "ahead": 3,
+                "behind": 5,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 8,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 6
+              }
+            }
+          }
         },
         {
           "champion": "Ahri",
           "games": 6,
           "wins": 4,
           "losses": 2,
-          "winRate": 0.6667
+          "winRate": 0.6667,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 6,
+                "avg": 307.33,
+                "median": 206.0,
+                "ahead": 5,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 6,
+                "avg": -5.83,
+                "median": -5.5,
+                "ahead": 2,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 6,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 6,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 6,
+                "avg": 508,
+                "median": 558.5,
+                "ahead": 4,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 6,
+                "avg": -0.83,
+                "median": -1.5,
+                "ahead": 2,
+                "behind": 3,
+                "even": 1
+              },
+              "levelDiff": {
+                "n": 6,
+                "avg": 0.67,
+                "median": 0.0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 4
+              }
+            }
+          }
         },
         {
           "champion": "Azir",
           "games": 6,
           "wins": 4,
           "losses": 2,
-          "winRate": 0.6667
+          "winRate": 0.6667,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 6,
+                "avg": 47,
+                "median": 20.5,
+                "ahead": 3,
+                "behind": 3,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 6,
+                "avg": -14,
+                "median": -18.0,
+                "ahead": 0,
+                "behind": 6,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 6,
+                "avg": 0.33,
+                "median": 0.5,
+                "ahead": 3,
+                "behind": 2,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 5,
+                "avg": 467.6,
+                "median": 454,
+                "ahead": 4,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -9,
+                "median": -17,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": 0.8,
+                "median": 1,
+                "ahead": 3,
+                "behind": 1,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Aurora",
           "games": 5,
           "wins": 4,
           "losses": 1,
-          "winRate": 0.8
+          "winRate": 0.8,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 5,
+                "avg": 6.4,
+                "median": -148,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -0.6,
+                "median": -3,
+                "ahead": 2,
+                "behind": 3,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": 0.2,
+                "median": 0,
+                "ahead": 1,
+                "behind": 0,
+                "even": 4
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 5,
+                "avg": 149.6,
+                "median": 425,
+                "ahead": 4,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": 1.8,
+                "median": -4,
+                "ahead": 2,
+                "behind": 3,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": 0.4,
+                "median": 1,
+                "ahead": 3,
+                "behind": 1,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Zed",
           "games": 5,
           "wins": 3,
           "losses": 2,
-          "winRate": 0.6
+          "winRate": 0.6,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 5,
+                "avg": -646.4,
+                "median": -451,
+                "ahead": 0,
+                "behind": 5,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -17,
+                "median": -11,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": -0.2,
+                "median": 0,
+                "ahead": 1,
+                "behind": 2,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 5,
+                "avg": -1235.6,
+                "median": -1339,
+                "ahead": 0,
+                "behind": 5,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -20.8,
+                "median": -15,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": -0.6,
+                "median": -1,
+                "ahead": 0,
+                "behind": 3,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Ryze",
           "games": 5,
           "wins": 2,
           "losses": 3,
-          "winRate": 0.4
+          "winRate": 0.4,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 5,
+                "avg": -163,
+                "median": -196,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -5.8,
+                "median": -10,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": 0.4,
+                "median": 0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 3
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 5,
+                "avg": 114.8,
+                "median": 322,
+                "ahead": 3,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -2.4,
+                "median": -4,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": 0.4,
+                "median": 0,
+                "ahead": 2,
+                "behind": 1,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Xerath",
           "games": 5,
           "wins": 2,
           "losses": 3,
-          "winRate": 0.4
+          "winRate": 0.4,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 5,
+                "avg": -292,
+                "median": -69,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -13.6,
+                "median": -15,
+                "ahead": 0,
+                "behind": 5,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": 0,
+                "median": 0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 3
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 5,
+                "avg": -345.4,
+                "median": -525,
+                "ahead": 2,
+                "behind": 3,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -22.6,
+                "median": -26,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": -0.2,
+                "median": 0,
+                "ahead": 1,
+                "behind": 2,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Zoe",
           "games": 4,
           "wins": 2,
           "losses": 2,
-          "winRate": 0.5
+          "winRate": 0.5,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 4,
+                "avg": -477,
+                "median": -455.5,
+                "ahead": 1,
+                "behind": 3,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 4,
+                "avg": -15.75,
+                "median": -11.5,
+                "ahead": 0,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 4,
+                "avg": -0.5,
+                "median": -0.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 4,
+                "avg": -588.5,
+                "median": -180.0,
+                "ahead": 1,
+                "behind": 3,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 4,
+                "avg": -14,
+                "median": -12.5,
+                "ahead": 1,
+                "behind": 3,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 4,
+                "avg": -0.25,
+                "median": -0.5,
+                "ahead": 1,
+                "behind": 2,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "TwistedFate",
           "games": 3,
           "wins": 2,
           "losses": 1,
-          "winRate": 0.6667
+          "winRate": 0.6667,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 3,
+                "avg": -120,
+                "median": -95,
+                "ahead": 1,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": -6.67,
+                "median": -7,
+                "ahead": 1,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": 0.33,
+                "median": 0,
+                "ahead": 1,
+                "behind": 0,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 3,
+                "avg": -496,
+                "median": -506,
+                "ahead": 0,
+                "behind": 3,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": 0.67,
+                "median": 2,
+                "ahead": 2,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 3
+              }
+            }
+          }
         },
         {
           "champion": "Lux",
           "games": 3,
           "wins": 0,
           "losses": 3,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 3,
+                "avg": 362.67,
+                "median": 444,
+                "ahead": 3,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": 15.33,
+                "median": 7,
+                "ahead": 3,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": 0.67,
+                "median": 1,
+                "ahead": 2,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 3,
+                "avg": 373.33,
+                "median": 438,
+                "ahead": 2,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": 23.67,
+                "median": 30,
+                "ahead": 2,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": 1,
+                "median": 2,
+                "ahead": 2,
+                "behind": 1,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "DrMundo",
           "games": 2,
           "wins": 2,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 300,
+                "median": 300.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": 2,
+                "median": 2.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 868,
+                "median": 868.0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": 5.5,
+                "median": 5.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1.5,
+                "median": 1.5,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Fizz",
           "games": 2,
           "wins": 2,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -517.5,
+                "median": -517.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -17,
+                "median": -17.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -1073.5,
+                "median": -1073.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -21.5,
+                "median": -21.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Lissandra",
           "games": 2,
           "wins": 2,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -218.5,
+                "median": -218.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": 2.5,
+                "median": 2.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0.5,
+                "median": 0.5,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 187.5,
+                "median": 187.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": 9.5,
+                "median": 9.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Orianna",
           "games": 2,
           "wins": 2,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -437.5,
+                "median": -437.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -14.5,
+                "median": -14.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0.5,
+                "median": 0.5,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -256.5,
+                "median": -256.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -21,
+                "median": -21.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Smolder",
           "games": 2,
           "wins": 2,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 25.5,
+                "median": 25.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -17,
+                "median": -17.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 964.5,
+                "median": 964.5,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -19,
+                "median": -19.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Akshan",
           "games": 2,
           "wins": 1,
           "losses": 1,
-          "winRate": 0.5
+          "winRate": 0.5,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -320.5,
+                "median": -320.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -9,
+                "median": -9.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 459,
+                "median": 459.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -5.5,
+                "median": -5.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "AurelionSol",
           "games": 2,
           "wins": 1,
           "losses": 1,
-          "winRate": 0.5
+          "winRate": 0.5,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -347.5,
+                "median": -347.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -16.5,
+                "median": -16.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 179,
+                "median": 179.0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -14,
+                "median": -14.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Cassiopeia",
           "games": 2,
           "wins": 1,
           "losses": 1,
-          "winRate": 0.5
+          "winRate": 0.5,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 436,
+                "median": 436.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": 2.5,
+                "median": 2.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0.5,
+                "median": 0.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 254.5,
+                "median": 254.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0.5,
+                "median": 0.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Talon",
           "games": 2,
           "wins": 1,
           "losses": 1,
-          "winRate": 0.5
+          "winRate": 0.5,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -470,
+                "median": -470.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -18,
+                "median": -18.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -467.5,
+                "median": -467.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -8,
+                "median": -8.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0.5,
+                "median": 0.5,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Tryndamere",
           "games": 2,
           "wins": 1,
           "losses": 1,
-          "winRate": 0.5
+          "winRate": 0.5,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -249,
+                "median": -249.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -11,
+                "median": -11.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0.5,
+                "median": 0.5,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -251.5,
+                "median": -251.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -10.5,
+                "median": -10.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Vex",
           "games": 2,
           "wins": 0,
           "losses": 2,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 135.5,
+                "median": 135.5,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -3,
+                "median": -3.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -347,
+                "median": -347.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -4.5,
+                "median": -4.5,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Brand",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 1093,
+                "median": 1093,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 13,
+                "median": 13,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 1846,
+                "median": 1846,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 28,
+                "median": 28,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 2,
+                "median": 2,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Corki",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -528,
+                "median": -528,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 18,
+                "median": 18,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 845,
+                "median": 845,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 41,
+                "median": 41,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 2,
+                "median": 2,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Hecarim",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 580,
+                "median": 580,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 26,
+                "median": 26,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 1233,
+                "median": 1233,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 38,
+                "median": 38,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 2,
+                "median": 2,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Heimerdinger",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -665,
+                "median": -665,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -21,
+                "median": -21,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -321,
+                "median": -321,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -12,
+                "median": -12,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Hwei",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 15,
+                "median": 15,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -5,
+                "median": -5,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 520,
+                "median": 520,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -14,
+                "median": -14,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         }
       ],
       "secondCores": [
@@ -1192,133 +5944,1159 @@
           "games": 5,
           "wins": 4,
           "losses": 1,
-          "winRate": 0.8
+          "winRate": 0.8,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 5,
+                "avg": -675.2,
+                "median": -572,
+                "ahead": 0,
+                "behind": 5,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -9.2,
+                "median": -10,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": -0.6,
+                "median": -1,
+                "ahead": 0,
+                "behind": 3,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 5,
+                "avg": -560.8,
+                "median": -832,
+                "ahead": 1,
+                "behind": 4,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 5,
+                "avg": -2.6,
+                "median": -7,
+                "ahead": 2,
+                "behind": 3,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 5,
+                "avg": 0.2,
+                "median": 0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 3
+              }
+            }
+          }
         },
         {
           "champion": "Sylas",
           "games": 3,
           "wins": 1,
           "losses": 2,
-          "winRate": 0.3333
+          "winRate": 0.3333,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 3,
+                "avg": -478,
+                "median": -65,
+                "ahead": 1,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": -13,
+                "median": -6,
+                "ahead": 0,
+                "behind": 3,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": -0.67,
+                "median": 0,
+                "ahead": 0,
+                "behind": 1,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 3,
+                "avg": -102.33,
+                "median": -10,
+                "ahead": 1,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": -15,
+                "median": -6,
+                "ahead": 1,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": -0.33,
+                "median": -1,
+                "ahead": 1,
+                "behind": 2,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Akali",
           "games": 2,
           "wins": 2,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -259,
+                "median": -259.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -8.5,
+                "median": -8.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0.5,
+                "median": 0.5,
+                "ahead": 1,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -694,
+                "median": -694.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -10,
+                "median": -10.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            }
+          }
         },
         {
           "champion": "Yone",
           "games": 2,
           "wins": 2,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 2,
+                "avg": -365.5,
+                "median": -365.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -16,
+                "median": -16.0,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 0,
+                "median": 0.0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 2
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 2,
+                "avg": 67,
+                "median": 67.0,
+                "ahead": 1,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 2,
+                "avg": -19.5,
+                "median": -19.5,
+                "ahead": 0,
+                "behind": 2,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 2,
+                "avg": 1,
+                "median": 1.0,
+                "ahead": 2,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Ahri",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -258,
+                "median": -258,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -11,
+                "median": -11,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -541,
+                "median": -541,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -11,
+                "median": -11,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Akshan",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -931,
+                "median": -931,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -16,
+                "median": -16,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -1521,
+                "median": -1521,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -8,
+                "median": -8,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Blitzcrank",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -917,
+                "median": -917,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -22,
+                "median": -22,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -73,
+                "median": -73,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -16,
+                "median": -16,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Cassiopeia",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 431,
+                "median": 431,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 9,
+                "median": 9,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 980,
+                "median": 980,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 22,
+                "median": 22,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Diana",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -161,
+                "median": -161,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -14,
+                "median": -14,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -205,
+                "median": -205,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Evelynn",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -115,
+                "median": -115,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 7,
+                "median": 7,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 594,
+                "median": 594,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 18,
+                "median": 18,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Mel",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -842,
+                "median": -842,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -39,
+                "median": -39,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -1853,
+                "median": -1853,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -72,
+                "median": -72,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -3,
+                "median": -3,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Morgana",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 162,
+                "median": 162,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -3,
+                "median": -3,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 171,
+                "median": 171,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -6,
+                "median": -6,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Naafiri",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -276,
+                "median": -276,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -20,
+                "median": -20,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 275,
+                "median": 275,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -16,
+                "median": -16,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Pyke",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -813,
+                "median": -813,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 6,
+                "median": 6,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 2,
+                "median": 2,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -439,
+                "median": -439,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 24,
+                "median": 24,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 2,
+                "median": 2,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Xerath",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 315,
+                "median": 315,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 18,
+                "median": 18,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 261,
+                "median": 261,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 20,
+                "median": 20,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Anivia",
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -2449,
+                "median": -2449,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -46,
+                "median": -46,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -2,
+                "median": -2,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -3742,
+                "median": -3742,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -70,
+                "median": -70,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -4,
+                "median": -4,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Briar",
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -188,
+                "median": -188,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -8,
+                "median": -8,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -1170,
+                "median": -1170,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -22,
+                "median": -22,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Malzahar",
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -658,
+                "median": -658,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -38,
+                "median": -38,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -1093,
+                "median": -1093,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -53,
+                "median": -53,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "TwistedFate",
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 346,
+                "median": 346,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 8,
+                "median": 8,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 515,
+                "median": 515,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 22,
+                "median": 22,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         }
       ],
       "secondCores": [
@@ -1586,14 +7364,122 @@
           "games": 3,
           "wins": 2,
           "losses": 1,
-          "winRate": 0.6667
+          "winRate": 0.6667,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 3,
+                "avg": 33.67,
+                "median": -117,
+                "ahead": 1,
+                "behind": 2,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": 5.33,
+                "median": 3,
+                "ahead": 2,
+                "behind": 0,
+                "even": 1
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": 0.33,
+                "median": 1,
+                "ahead": 2,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 3,
+                "avg": 373.33,
+                "median": 616,
+                "ahead": 2,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 3,
+                "avg": 14.33,
+                "median": 13,
+                "ahead": 3,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 3,
+                "avg": 1,
+                "median": 1,
+                "ahead": 2,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "Malphite",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 833,
+                "median": 833,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -7,
+                "median": -7,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 881,
+                "median": 881,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -6,
+                "median": -6,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         }
       ],
       "secondCores": [
@@ -1848,21 +7734,183 @@
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -251,
+                "median": -251,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -6,
+                "median": -6,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -414,
+                "median": -414,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Kayle",
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -173,
+                "median": -173,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -18,
+                "median": -18,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -428,
+                "median": -428,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -34,
+                "median": -34,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            }
+          }
         },
         {
           "champion": "TwistedFate",
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -1093,
+                "median": -1093,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -30,
+                "median": -30,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 156,
+                "median": 156,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -47,
+                "median": -47,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            }
+          }
         }
       ],
       "secondCores": [
@@ -2130,21 +8178,183 @@
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 668,
+                "median": 668,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 2,
+                "median": 2,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 1287,
+                "median": 1287,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 12,
+                "median": 12,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 3,
+                "median": 3,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Cassiopeia",
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 2513,
+                "median": 2513,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 24,
+                "median": 24,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 3,
+                "median": 3,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 0,
+                "avg": null,
+                "median": null,
+                "ahead": 0,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 0,
+                "avg": null,
+                "median": null,
+                "ahead": 0,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 0,
+                "avg": null,
+                "median": null,
+                "ahead": 0,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         },
         {
           "champion": "Pantheon",
           "games": 1,
           "wins": 0,
           "losses": 1,
-          "winRate": 0.0
+          "winRate": 0.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 1406,
+                "median": 1406,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 32,
+                "median": 32,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 2,
+                "median": 2,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 1724,
+                "median": 1724,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 41,
+                "median": 41,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         }
       ],
       "secondCores": [
@@ -2408,7 +8618,61 @@
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 595,
+                "median": 595,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 28,
+                "median": 28,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": 1963,
+                "median": 1963,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": 49,
+                "median": 49,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 1,
+                "median": 1,
+                "ahead": 1,
+                "behind": 0,
+                "even": 0
+              }
+            }
+          }
         }
       ],
       "secondCores": [
@@ -2663,7 +8927,61 @@
           "games": 1,
           "wins": 1,
           "losses": 0,
-          "winRate": 1.0
+          "winRate": 1.0,
+          "checkpoints": {
+            "10": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -461,
+                "median": -461,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -27,
+                "median": -27,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": 0,
+                "median": 0,
+                "ahead": 0,
+                "behind": 0,
+                "even": 1
+              }
+            },
+            "15": {
+              "goldDiff": {
+                "n": 1,
+                "avg": -1191,
+                "median": -1191,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "csDiff": {
+                "n": 1,
+                "avg": -48,
+                "median": -48,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              },
+              "levelDiff": {
+                "n": 1,
+                "avg": -1,
+                "median": -1,
+                "ahead": 0,
+                "behind": 1,
+                "even": 0
+              }
+            }
+          }
         }
       ],
       "secondCores": [],
