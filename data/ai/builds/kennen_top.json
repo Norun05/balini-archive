@@ -2,8 +2,8 @@
   "champion": "Kennen",
   "position": "TOP",
   "sampleCount": 61,
-  "matchesWithRecognizedFirstCore": 54,
-  "matchesWithRecognizedTwoCore": 38,
+  "matchesWithRecognizedFirstCore": 58,
+  "matchesWithRecognizedTwoCore": 44,
   "notes": [
     "firstCore/twoCore use ITEM_PURCHASED timestamps, not final inventory order.",
     "finalPresence is descriptive only and is strongly affected by game length and gold income.",
@@ -18,34 +18,48 @@
       "winRate": 0.6333
     },
     {
-      "key": "그림자불꽃",
-      "games": 12,
-      "wins": 7,
-      "losses": 5,
-      "winRate": 0.5833
+      "key": "라일라이의 수정홀",
+      "games": 11,
+      "wins": 8,
+      "losses": 3,
+      "winRate": 0.7273
+    },
+    {
+      "key": "마법공학 총검",
+      "games": 8,
+      "wins": 4,
+      "losses": 4,
+      "winRate": 0.5
     },
     {
       "key": "리안드리의 고통",
-      "games": 10,
-      "wins": 3,
-      "losses": 7,
-      "winRate": 0.3
+      "games": 8,
+      "wins": 2,
+      "losses": 6,
+      "winRate": 0.25
     },
     {
-      "key": "존야의 모래시계",
-      "games": 2,
+      "key": "그림자불꽃",
+      "games": 1,
       "wins": 0,
-      "losses": 2,
+      "losses": 1,
       "winRate": 0.0
     }
   ],
   "twoCoreOrder": [
     {
       "key": "마법공학 로켓 벨트 → 그림자불꽃",
-      "games": 10,
+      "games": 9,
       "wins": 5,
-      "losses": 5,
-      "winRate": 0.5
+      "losses": 4,
+      "winRate": 0.5556
+    },
+    {
+      "key": "라일라이의 수정홀 → 그림자불꽃",
+      "games": 8,
+      "wins": 6,
+      "losses": 2,
+      "winRate": 0.75
     },
     {
       "key": "마법공학 로켓 벨트 → 존야의 모래시계",
@@ -55,13 +69,6 @@
       "winRate": 0.7143
     },
     {
-      "key": "그림자불꽃 → 존야의 모래시계",
-      "games": 5,
-      "wins": 3,
-      "losses": 2,
-      "winRate": 0.6
-    },
-    {
       "key": "리안드리의 고통 → 공허의 지팡이",
       "games": 4,
       "wins": 1,
@@ -69,14 +76,21 @@
       "winRate": 0.25
     },
     {
-      "key": "리안드리의 고통 → 그림자불꽃",
+      "key": "마법공학 총검 → 그림자불꽃",
       "games": 3,
       "wins": 1,
       "losses": 2,
       "winRate": 0.3333
     },
     {
-      "key": "그림자불꽃 → 폭풍쇄도",
+      "key": "라일라이의 수정홀 → 리안드리의 고통",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5
+    },
+    {
+      "key": "리안드리의 고통 → 그림자불꽃",
       "games": 2,
       "wins": 1,
       "losses": 1,
@@ -90,18 +104,11 @@
       "winRate": 0.5
     },
     {
-      "key": "리안드리의 고통 → 존야의 모래시계",
+      "key": "마법공학 총검 → 존야의 모래시계",
       "games": 2,
       "wins": 0,
       "losses": 2,
       "winRate": 0.0
-    },
-    {
-      "key": "그림자불꽃 → 공허의 지팡이",
-      "games": 1,
-      "wins": 1,
-      "losses": 0,
-      "winRate": 1.0
     },
     {
       "key": "마법공학 로켓 벨트 → 리안드리의 고통",
@@ -111,7 +118,28 @@
       "winRate": 1.0
     },
     {
-      "key": "존야의 모래시계 → 그림자불꽃",
+      "key": "그림자불꽃 → 존야의 모래시계",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "리안드리의 고통 → 라일라이의 수정홀",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "리안드리의 고통 → 존야의 모래시계",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "마법공학 로켓 벨트 → 마법공학 총검",
       "games": 1,
       "wins": 0,
       "losses": 1,
@@ -171,11 +199,25 @@
       "winRate": 0.52
     },
     {
+      "key": "라일라이의 수정홀",
+      "games": 11,
+      "wins": 8,
+      "losses": 3,
+      "winRate": 0.7273
+    },
+    {
       "key": "리안드리의 고통",
       "games": 11,
       "wins": 4,
       "losses": 7,
       "winRate": 0.3636
+    },
+    {
+      "key": "마법공학 총검",
+      "games": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 0.4444
     },
     {
       "key": "공허의 지팡이",
