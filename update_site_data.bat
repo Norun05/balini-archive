@@ -8,19 +8,15 @@ where py >nul 2>nul
 if %errorlevel%==0 (
     py -3 tools\merge_local_archives.py
     if errorlevel 1 goto :failed
-    py -3 tools\build_site_data.py
+    py -3 tools\build_site_data_incremental.py
     if errorlevel 1 goto :failed
-    py -3 tools\enrich_full_events.py
-    if errorlevel 1 goto :failed
-    py -3 tools\enrich_early_laning.py
-    if errorlevel 1 goto :failed
-    py -3 tools\add_movement_snapshots.py
+    py -3 tools\enrich_timeline_incremental.py
     if errorlevel 1 goto :failed
     py -3 tools\add_item_names_ko.py
     if errorlevel 1 goto :failed
     py -3 tools\build_item_economy.py
     if errorlevel 1 goto :failed
-    py -3 tools\build_team_context.py
+    py -3 tools\build_team_context_incremental.py
     if errorlevel 1 goto :failed
     py -3 tools\build_stats.py
     if errorlevel 1 goto :failed
@@ -39,19 +35,15 @@ if %errorlevel%==0 (
     if %errorlevel%==0 (
         python tools\merge_local_archives.py
         if errorlevel 1 goto :failed
-        python tools\build_site_data.py
+        python tools\build_site_data_incremental.py
         if errorlevel 1 goto :failed
-        python tools\enrich_full_events.py
-        if errorlevel 1 goto :failed
-        python tools\enrich_early_laning.py
-        if errorlevel 1 goto :failed
-        python tools\add_movement_snapshots.py
+        python tools\enrich_timeline_incremental.py
         if errorlevel 1 goto :failed
         python tools\add_item_names_ko.py
         if errorlevel 1 goto :failed
         python tools\build_item_economy.py
         if errorlevel 1 goto :failed
-        python tools\build_team_context.py
+        python tools\build_team_context_incremental.py
         if errorlevel 1 goto :failed
         python tools\build_stats.py
         if errorlevel 1 goto :failed
@@ -74,7 +66,7 @@ if %errorlevel%==0 (
 )
 
 echo.
-echo Local archives were merged into balini-lol-archive-v999, then site data, full events, early-laning snapshots, all-position movement, Korean item names, item economy, team context, generic stats, item timing stats, duo/player stats, AI search routes, Kennen skill-order stats, and end-to-end validation were rebuilt.
+echo Incremental update complete. Unchanged match details, timelines, and team-context files were reused; only new or changed raw matches were processed heavily.
 echo Validation report: data\validation.json
 echo Commit all changed files in GitHub Desktop and Push origin.
 goto :done
