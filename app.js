@@ -55,7 +55,7 @@ function normalizeMatch(m) {
     gameMode: m.gameMode ?? '',
     championName: m.championName ?? 'Unknown',
     position: m.position ?? '',
-    opponent: m.opponent ?? '',
+    opponent: m.opponent ?? m.laneOpponent?.championName ?? '',
     kills: m.kills ?? 0,
     deaths: m.deaths ?? 0,
     assists: m.assists ?? 0,
@@ -263,10 +263,12 @@ function escapeHtml(v) {
 }
 
 async function init() {
-  const [profile, rawCatalog] = await Promise.all([
-    loadJson('./data/profile.json', {}),
-    loadJson('./data/catalog.json', [])
-  ]);
+  const profilePromise = loadJson('./data/profile.json', {});
+  let rawCatalog = await loadJson('./data/catalog.json', null);
+  if (!Array.isArray(rawCatalog)) {
+    rawCatalog = await loadJson('./data/matches.json', []);
+  }
+  const profile = await profilePromise;
 
   state.profile = profile;
   state.matches = (Array.isArray(rawCatalog) ? rawCatalog : []).map(normalizeMatch)
