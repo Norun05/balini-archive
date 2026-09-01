@@ -2,7 +2,7 @@
   "champion": "Kennen",
   "position": "INVALID",
   "sampleCount": 7,
-  "recognizedFirstCoreCount": 1,
+  "recognizedFirstCoreCount": 2,
   "matchups": [
     {
       "champion": "Ivern",
@@ -374,6 +374,48 @@
   "coreSlots": {
     "1": {
       "slot": 1,
+      "recognizedCount": 2,
+      "items": [
+        {
+          "item": "그림자불꽃",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 11.32,
+          "medianCompletionMinute": 11.32,
+          "withTimestamp": 1
+        },
+        {
+          "item": "폭풍쇄도",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 5.49,
+          "medianCompletionMinute": 5.49,
+          "withTimestamp": 1
+        }
+      ]
+    },
+    "2": {
+      "slot": 2,
+      "recognizedCount": 1,
+      "items": [
+        {
+          "item": "라바돈의 죽음모자",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0,
+          "avgCompletionMinute": 5.77,
+          "medianCompletionMinute": 5.77,
+          "withTimestamp": 1
+        }
+      ]
+    },
+    "3": {
+      "slot": 3,
       "recognizedCount": 1,
       "items": [
         {
@@ -384,38 +426,6 @@
           "winRate": 1.0,
           "avgCompletionMinute": 6.35,
           "medianCompletionMinute": 6.35,
-          "withTimestamp": 1
-        }
-      ]
-    },
-    "2": {
-      "slot": 2,
-      "recognizedCount": 1,
-      "items": [
-        {
-          "item": "존야의 모래시계",
-          "games": 1,
-          "wins": 1,
-          "losses": 0,
-          "winRate": 1.0,
-          "avgCompletionMinute": 12.92,
-          "medianCompletionMinute": 12.92,
-          "withTimestamp": 1
-        }
-      ]
-    },
-    "3": {
-      "slot": 3,
-      "recognizedCount": 1,
-      "items": [
-        {
-          "item": "라바돈의 죽음모자",
-          "games": 1,
-          "wins": 1,
-          "losses": 0,
-          "winRate": 1.0,
-          "avgCompletionMinute": 17.16,
-          "medianCompletionMinute": 17.16,
           "withTimestamp": 1
         }
       ]
@@ -432,13 +442,255 @@
   ],
   "groups": [
     {
-      "firstCore": "마법공학 로켓 벨트",
+      "firstCore": "그림자불꽃",
       "games": 1,
       "wins": 1,
       "losses": 0,
       "winRate": 1.0,
-      "avgFirstCoreMinute": 6.35,
-      "medianFirstCoreMinute": 6.35,
+      "avgFirstCoreMinute": 11.32,
+      "medianFirstCoreMinute": 11.32,
+      "completion": {
+        "by10": 0,
+        "by12": 1,
+        "by15": 1,
+        "withTimestamp": 1
+      },
+      "dateRange": {
+        "earliestGameCreation": 1774657425990,
+        "latestGameCreation": 1774657425990
+      },
+      "topOpponents": [],
+      "secondCores": [],
+      "thirdCores": [],
+      "checkpoints": {
+        "5": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "10": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "resultSplit": {
+        "wins": {
+          "10": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          }
+        },
+        "losses": {
+          "10": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "firstCore": "폭풍쇄도",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgFirstCoreMinute": 5.49,
+      "medianFirstCoreMinute": 5.49,
       "completion": {
         "by10": 1,
         "by12": 1,
@@ -514,13 +766,13 @@
       ],
       "secondCores": [
         {
-          "item": "존야의 모래시계",
+          "item": "라바돈의 죽음모자",
           "games": 1
         }
       ],
       "thirdCores": [
         {
-          "item": "라바돈의 죽음모자",
+          "item": "마법공학 로켓 벨트",
           "games": 1
         }
       ],

@@ -2,169 +2,1353 @@
   "champion": "Veigar",
   "position": "MIDDLE",
   "sampleCount": 188,
-  "matchesWithRecognizedTwoCore": 130,
+  "matchesWithRecognizedTwoCore": 165,
   "groups": [
     {
       "combo": "루덴의 동반자 → 폭풍쇄도",
-      "games": 69,
-      "wins": 42,
-      "losses": 27,
-      "winRate": 0.6087,
-      "avgSecondCoreMinute": 20.44,
+      "games": 21,
+      "wins": 14,
+      "losses": 7,
+      "winRate": 0.6667,
+      "avgSecondCoreMinute": 17.06,
       "topOpponents": [
         {
           "champion": "Sylas",
-          "games": 7
-        },
-        {
-          "champion": "Akali",
-          "games": 5
-        },
-        {
-          "champion": "Yasuo",
-          "games": 5
+          "games": 4
         },
         {
           "champion": "Yone",
-          "games": 5
+          "games": 3
         },
         {
           "champion": "Mel",
-          "games": 4
-        },
-        {
-          "champion": "Aurora",
-          "games": 4
-        },
-        {
-          "champion": "Xerath",
           "games": 3
         },
         {
-          "champion": "Ryze",
-          "games": 3
-        },
-        {
-          "champion": "Talon",
+          "champion": "Yasuo",
           "games": 2
         },
         {
           "champion": "Zed",
-          "games": 2
+          "games": 1
+        },
+        {
+          "champion": "Akali",
+          "games": 1
         },
         {
           "champion": "Azir",
-          "games": 2
+          "games": 1
         },
         {
-          "champion": "Lux",
-          "games": 2
+          "champion": "Akshan",
+          "games": 1
+        },
+        {
+          "champion": "Orianna",
+          "games": 1
+        },
+        {
+          "champion": "Zoe",
+          "games": 1
+        },
+        {
+          "champion": "Annie",
+          "games": 1
+        },
+        {
+          "champion": "Smolder",
+          "games": 1
         }
       ],
       "checkpoints": {
         "10": {
           "goldDiff": {
-            "n": 69,
-            "avg": 43.04,
-            "median": -105,
-            "ahead": 31,
-            "behind": 38,
+            "n": 21,
+            "avg": 144.57,
+            "median": -45,
+            "ahead": 10,
+            "behind": 11,
             "even": 0
           },
           "csDiff": {
-            "n": 69,
-            "avg": -4.35,
-            "median": -7,
-            "ahead": 21,
-            "behind": 48,
-            "even": 0
+            "n": 21,
+            "avg": -7.05,
+            "median": -10,
+            "ahead": 6,
+            "behind": 14,
+            "even": 1
           },
           "levelDiff": {
-            "n": 69,
-            "avg": 0.29,
+            "n": 21,
+            "avg": 0.38,
             "median": 0,
-            "ahead": 29,
-            "behind": 11,
-            "even": 29
+            "ahead": 9,
+            "behind": 3,
+            "even": 9
           }
         },
         "15": {
           "goldDiff": {
-            "n": 69,
-            "avg": 188.71,
-            "median": 79,
-            "ahead": 38,
-            "behind": 31,
+            "n": 21,
+            "avg": 349.0,
+            "median": -25,
+            "ahead": 10,
+            "behind": 11,
             "even": 0
           },
           "csDiff": {
-            "n": 69,
-            "avg": -1.09,
-            "median": -5,
-            "ahead": 26,
-            "behind": 43,
+            "n": 21,
+            "avg": -4.14,
+            "median": -9,
+            "ahead": 6,
+            "behind": 15,
             "even": 0
           },
           "levelDiff": {
-            "n": 69,
-            "avg": 0.57,
+            "n": 21,
+            "avg": 0.62,
             "median": 0,
-            "ahead": 34,
-            "behind": 10,
-            "even": 25
+            "ahead": 10,
+            "behind": 3,
+            "even": 8
           }
         },
         "20": {
           "goldDiff": {
-            "n": 63,
-            "avg": 148.35,
-            "median": 428,
-            "ahead": 39,
-            "behind": 24,
+            "n": 19,
+            "avg": 367.84,
+            "median": 24,
+            "ahead": 10,
+            "behind": 9,
             "even": 0
           },
           "csDiff": {
-            "n": 63,
-            "avg": -1.44,
-            "median": -4,
-            "ahead": 30,
-            "behind": 33,
+            "n": 19,
+            "avg": -5.11,
+            "median": -10,
+            "ahead": 8,
+            "behind": 11,
             "even": 0
           },
           "levelDiff": {
-            "n": 63,
+            "n": 19,
+            "avg": 0.63,
+            "median": 1,
+            "ahead": 10,
+            "behind": 3,
+            "even": 6
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 라일라이의 수정홀",
+      "games": 11,
+      "wins": 6,
+      "losses": 5,
+      "winRate": 0.5455,
+      "avgSecondCoreMinute": 12.19,
+      "topOpponents": [
+        {
+          "champion": "Sylas",
+          "games": 3
+        },
+        {
+          "champion": "Mel",
+          "games": 2
+        },
+        {
+          "champion": "Yone",
+          "games": 2
+        },
+        {
+          "champion": "Syndra",
+          "games": 1
+        },
+        {
+          "champion": "Azir",
+          "games": 1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1
+        },
+        {
+          "champion": "Lux",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -82.0,
+            "median": -149,
+            "ahead": 5,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -3.45,
+            "median": -4,
+            "ahead": 3,
+            "behind": 8,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": 0.27,
+            "median": 0,
+            "ahead": 5,
+            "behind": 3,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 10,
+            "avg": -402.4,
+            "median": -579.0,
+            "ahead": 4,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 10,
+            "avg": -4.7,
+            "median": -8.5,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 10,
+            "avg": 0.4,
+            "median": 0.0,
+            "ahead": 4,
+            "behind": 3,
+            "even": 3
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 9,
+            "avg": -867.44,
+            "median": 105,
+            "ahead": 5,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": 0.56,
+            "median": -12,
+            "ahead": 3,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 4,
+            "behind": 3,
+            "even": 2
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 영겁의 지팡이",
+      "games": 11,
+      "wins": 8,
+      "losses": 3,
+      "winRate": 0.7273,
+      "avgSecondCoreMinute": 13.49,
+      "topOpponents": [
+        {
+          "champion": "TwistedFate",
+          "games": 3
+        },
+        {
+          "champion": "Naafiri",
+          "games": 1
+        },
+        {
+          "champion": "Sylas",
+          "games": 1
+        },
+        {
+          "champion": "Mel",
+          "games": 1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1
+        },
+        {
+          "champion": "Ryze",
+          "games": 1
+        },
+        {
+          "champion": "Yone",
+          "games": 1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1
+        },
+        {
+          "champion": "Evelynn",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -112.18,
+            "median": -115,
+            "ahead": 4,
+            "behind": 7,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -6.18,
+            "median": -7,
+            "ahead": 5,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": 0.45,
+            "median": 1,
+            "ahead": 6,
+            "behind": 1,
+            "even": 4
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -295.82,
+            "median": -243,
+            "ahead": 5,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -4.09,
+            "median": -5,
+            "ahead": 5,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": 0.27,
+            "median": 0,
+            "ahead": 5,
+            "behind": 1,
+            "even": 5
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 11,
+            "avg": -645.27,
+            "median": 308,
+            "ahead": 6,
+            "behind": 5,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 11,
+            "avg": -4.55,
+            "median": -3,
+            "ahead": 3,
+            "behind": 7,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 11,
+            "avg": 0.18,
+            "median": 0,
+            "ahead": 5,
+            "behind": 4,
+            "even": 2
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 그림자불꽃",
+      "games": 10,
+      "wins": 5,
+      "losses": 5,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 20.85,
+      "topOpponents": [
+        {
+          "champion": "Zed",
+          "games": 1
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1
+        },
+        {
+          "champion": "Yone",
+          "games": 1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1
+        },
+        {
+          "champion": "Tristana",
+          "games": 1
+        },
+        {
+          "champion": "Heimerdinger",
+          "games": 1
+        },
+        {
+          "champion": "Akali",
+          "games": 1
+        },
+        {
+          "champion": "XinZhao",
+          "games": 1
+        },
+        {
+          "champion": "Azir",
+          "games": 1
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 10,
+            "avg": -236.9,
+            "median": -479.5,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 10,
+            "avg": -11.8,
+            "median": -14.5,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 10,
+            "avg": -0.1,
+            "median": 0.0,
+            "ahead": 3,
+            "behind": 4,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 10,
+            "avg": -104.1,
+            "median": -155.0,
+            "ahead": 4,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 10,
+            "avg": -9.9,
+            "median": -10.5,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 10,
+            "avg": 0.1,
+            "median": 0.0,
+            "ahead": 3,
+            "behind": 3,
+            "even": 4
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 9,
+            "avg": 305.0,
+            "median": -13,
+            "ahead": 4,
+            "behind": 5,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": -10.0,
+            "median": -3,
+            "ahead": 4,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": 0.11,
+            "median": 0,
+            "ahead": 3,
+            "behind": 4,
+            "even": 2
+          }
+        }
+      }
+    },
+    {
+      "combo": "영겁의 지팡이 → 루덴의 동반자",
+      "games": 10,
+      "wins": 5,
+      "losses": 5,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 13.97,
+      "topOpponents": [
+        {
+          "champion": "Ryze",
+          "games": 3
+        },
+        {
+          "champion": "Mel",
+          "games": 1
+        },
+        {
+          "champion": "Yone",
+          "games": 1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1
+        },
+        {
+          "champion": "Akshan",
+          "games": 1
+        },
+        {
+          "champion": "Zed",
+          "games": 1
+        },
+        {
+          "champion": "Quinn",
+          "games": 1
+        },
+        {
+          "champion": "Diana",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 10,
+            "avg": -352.8,
+            "median": -293.5,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 10,
+            "avg": -13.2,
+            "median": -14.0,
+            "ahead": 2,
+            "behind": 8,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 10,
+            "avg": 0.1,
+            "median": 0.0,
+            "ahead": 3,
+            "behind": 2,
+            "even": 5
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 10,
+            "avg": -396.3,
+            "median": -399.0,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 10,
+            "avg": -11.9,
+            "median": -6.0,
+            "ahead": 2,
+            "behind": 8,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 10,
+            "avg": 0.1,
+            "median": 0.0,
+            "ahead": 4,
+            "behind": 2,
+            "even": 4
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 9,
+            "avg": -611.33,
+            "median": -636,
+            "ahead": 3,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": -17.33,
+            "median": -13,
+            "ahead": 3,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": -0.11,
+            "median": 0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 5
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 검은불꽃 횃불",
+      "games": 9,
+      "wins": 4,
+      "losses": 5,
+      "winRate": 0.4444,
+      "avgSecondCoreMinute": 13.38,
+      "topOpponents": [
+        {
+          "champion": "Yasuo",
+          "games": 2
+        },
+        {
+          "champion": "Akali",
+          "games": 1
+        },
+        {
+          "champion": "Vex",
+          "games": 1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1
+        },
+        {
+          "champion": "Galio",
+          "games": 1
+        },
+        {
+          "champion": "Azir",
+          "games": 1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1
+        },
+        {
+          "champion": "Hwei",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 9,
+            "avg": 119.56,
+            "median": 17,
+            "ahead": 6,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": -1.89,
+            "median": -5,
+            "ahead": 3,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": 0.22,
+            "median": 0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 7
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 9,
+            "avg": 317.0,
+            "median": 520,
+            "ahead": 8,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": 2.11,
+            "median": -3,
+            "ahead": 4,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": 0.33,
+            "median": 0,
+            "ahead": 3,
+            "behind": 1,
+            "even": 5
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 7,
+            "avg": 517.0,
+            "median": 641,
+            "ahead": 5,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": 6.57,
+            "median": 6,
+            "ahead": 4,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 5
+          }
+        }
+      }
+    },
+    {
+      "combo": "검은불꽃 횃불 → 루덴의 동반자",
+      "games": 8,
+      "wins": 5,
+      "losses": 3,
+      "winRate": 0.625,
+      "avgSecondCoreMinute": 11.56,
+      "topOpponents": [
+        {
+          "champion": "Aurora",
+          "games": 2
+        },
+        {
+          "champion": "Zoe",
+          "games": 1
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 1
+        },
+        {
+          "champion": "Orianna",
+          "games": 1
+        },
+        {
+          "champion": "Ahri",
+          "games": 1
+        },
+        {
+          "champion": "Sylas",
+          "games": 1
+        },
+        {
+          "champion": "Mel",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 8,
+            "avg": -186.38,
+            "median": -256.5,
+            "ahead": 2,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 8,
+            "avg": -11.5,
+            "median": -13.5,
+            "ahead": 2,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 8,
+            "avg": 0.0,
+            "median": 0.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 6
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 7,
+            "avg": 67.86,
+            "median": 130,
+            "ahead": 4,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": -11.43,
+            "median": -18,
+            "ahead": 2,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.29,
+            "median": 0,
+            "ahead": 3,
+            "behind": 2,
+            "even": 2
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 6,
+            "avg": -117.5,
+            "median": 333.0,
+            "ahead": 4,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -7.0,
+            "median": -9.0,
+            "ahead": 3,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0.17,
+            "median": 1.0,
+            "ahead": 4,
+            "behind": 2,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 악의",
+      "games": 8,
+      "wins": 5,
+      "losses": 3,
+      "winRate": 0.625,
+      "avgSecondCoreMinute": 13.89,
+      "topOpponents": [
+        {
+          "champion": "Yasuo",
+          "games": 3
+        },
+        {
+          "champion": "Lissandra",
+          "games": 2
+        },
+        {
+          "champion": "Akali",
+          "games": 1
+        },
+        {
+          "champion": "Lux",
+          "games": 1
+        },
+        {
+          "champion": "Aurora",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 8,
+            "avg": -163.12,
+            "median": -218.5,
+            "ahead": 2,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 8,
+            "avg": -7.75,
+            "median": -3.0,
+            "ahead": 3,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 8,
+            "avg": 0.12,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 5
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 7,
+            "avg": 385.71,
+            "median": 692,
+            "ahead": 5,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": 2.57,
+            "median": 10,
+            "ahead": 4,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.71,
+            "median": 1,
+            "ahead": 4,
+            "behind": 1,
+            "even": 2
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 5,
+            "avg": 423.6,
+            "median": 1037,
+            "ahead": 3,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": 2.0,
+            "median": 13,
+            "ahead": 3,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
             "avg": 0.4,
             "median": 0,
-            "ahead": 30,
-            "behind": 14,
-            "even": 19
+            "ahead": 2,
+            "behind": 1,
+            "even": 2
+          }
+        }
+      }
+    },
+    {
+      "combo": "라일라이의 수정홀 → 루덴의 동반자",
+      "games": 7,
+      "wins": 4,
+      "losses": 3,
+      "winRate": 0.5714,
+      "avgSecondCoreMinute": 11.89,
+      "topOpponents": [
+        {
+          "champion": "Pantheon",
+          "games": 1
+        },
+        {
+          "champion": "Tryndamere",
+          "games": 1
+        },
+        {
+          "champion": "AurelionSol",
+          "games": 1
+        },
+        {
+          "champion": "Volibear",
+          "games": 1
+        },
+        {
+          "champion": "Morgana",
+          "games": 1
+        },
+        {
+          "champion": "Ekko",
+          "games": 1
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 7,
+            "avg": 75.71,
+            "median": -346,
+            "ahead": 3,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": -2.29,
+            "median": -4,
+            "ahead": 2,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.86,
+            "median": 1,
+            "ahead": 5,
+            "behind": 0,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 7,
+            "avg": 369.43,
+            "median": 228,
+            "ahead": 5,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 7,
+            "avg": 1.29,
+            "median": -1,
+            "ahead": 3,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 7,
+            "avg": 0.71,
+            "median": 1,
+            "ahead": 4,
+            "behind": 1,
+            "even": 2
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 4,
+            "avg": 192.25,
+            "median": -34.5,
+            "ahead": 2,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": 4.75,
+            "median": -6.5,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 0.75,
+            "median": 1.0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 균열 생성기",
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 16.3,
+      "topOpponents": [
+        {
+          "champion": "Talon",
+          "games": 1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1
+        },
+        {
+          "champion": "Fizz",
+          "games": 1
+        },
+        {
+          "champion": "Hecarim",
+          "games": 1
+        },
+        {
+          "champion": "Tryndamere",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 6,
+            "avg": -223.33,
+            "median": -435.5,
+            "ahead": 2,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -5.67,
+            "median": -7.0,
+            "ahead": 1,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0.17,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 6,
+            "avg": -131.17,
+            "median": -793.5,
+            "ahead": 2,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -2.5,
+            "median": -8.5,
+            "ahead": 2,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0.33,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 3
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -299.4,
+            "median": -1015,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": 0.4,
+            "median": -3,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": -0.2,
+            "median": 0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 리치베인",
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 13.48,
+      "topOpponents": [
+        {
+          "champion": "Locke",
+          "games": 1
+        },
+        {
+          "champion": "Azir",
+          "games": 1
+        },
+        {
+          "champion": "Lux",
+          "games": 1
+        },
+        {
+          "champion": "Yone",
+          "games": 1
+        },
+        {
+          "champion": "Varus",
+          "games": 1
+        },
+        {
+          "champion": "Fizz",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 6,
+            "avg": -110.17,
+            "median": -118.5,
+            "ahead": 3,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -12.67,
+            "median": -14.0,
+            "ahead": 1,
+            "behind": 5,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0.17,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 3
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 5,
+            "avg": 210.0,
+            "median": -359,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -7.0,
+            "median": -8,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.6,
+            "median": 0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 2
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1070.5,
+            "median": -1070.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -42.0,
+            "median": -42.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -1.0,
+            "median": -1.0,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
           }
         }
       }
     },
     {
       "combo": "루덴의 동반자 → 존야의 모래시계",
-      "games": 20,
-      "wins": 13,
-      "losses": 7,
-      "winRate": 0.65,
-      "avgSecondCoreMinute": 22.69,
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 20.59,
       "topOpponents": [
         {
-          "champion": "Yone",
-          "games": 6
-        },
-        {
           "champion": "Yasuo",
-          "games": 4
-        },
-        {
-          "champion": "Fizz",
           "games": 2
         },
         {
-          "champion": "Zoe",
-          "games": 2
+          "champion": "Kayle",
+          "games": 1
         },
         {
           "champion": "Azir",
@@ -175,145 +1359,101 @@
           "games": 1
         },
         {
-          "champion": "Malzahar",
-          "games": 1
-        },
-        {
-          "champion": "Akali",
-          "games": 1
-        },
-        {
-          "champion": "Heimerdinger",
-          "games": 1
-        },
-        {
-          "champion": "XinZhao",
+          "champion": "Yone",
           "games": 1
         }
       ],
       "checkpoints": {
         "10": {
           "goldDiff": {
-            "n": 20,
-            "avg": -386.6,
-            "median": -528.0,
-            "ahead": 5,
-            "behind": 15,
+            "n": 6,
+            "avg": -307.33,
+            "median": -220.5,
+            "ahead": 2,
+            "behind": 4,
             "even": 0
           },
           "csDiff": {
-            "n": 20,
-            "avg": -11.4,
-            "median": -11.5,
-            "ahead": 3,
-            "behind": 17,
+            "n": 6,
+            "avg": -13.5,
+            "median": -17.0,
+            "ahead": 1,
+            "behind": 5,
             "even": 0
           },
           "levelDiff": {
-            "n": 20,
-            "avg": -0.3,
-            "median": 0.0,
+            "n": 6,
+            "avg": 0.33,
+            "median": 0.5,
             "ahead": 3,
-            "behind": 9,
-            "even": 8
+            "behind": 1,
+            "even": 2
           }
         },
         "15": {
           "goldDiff": {
-            "n": 19,
-            "avg": -266.16,
-            "median": -111,
-            "ahead": 6,
-            "behind": 13,
+            "n": 6,
+            "avg": 451.0,
+            "median": 592.0,
+            "ahead": 3,
+            "behind": 3,
             "even": 0
           },
           "csDiff": {
-            "n": 19,
-            "avg": -11.79,
-            "median": -12,
-            "ahead": 4,
-            "behind": 15,
+            "n": 6,
+            "avg": -17.83,
+            "median": -11.5,
+            "ahead": 2,
+            "behind": 4,
             "even": 0
           },
           "levelDiff": {
-            "n": 19,
-            "avg": -0.05,
-            "median": 0,
-            "ahead": 5,
-            "behind": 5,
-            "even": 9
+            "n": 6,
+            "avg": 0.33,
+            "median": 0.5,
+            "ahead": 3,
+            "behind": 1,
+            "even": 2
           }
         },
         "20": {
           "goldDiff": {
-            "n": 19,
-            "avg": -538.68,
-            "median": -392,
-            "ahead": 7,
-            "behind": 12,
+            "n": 6,
+            "avg": 417.83,
+            "median": 353.5,
+            "ahead": 3,
+            "behind": 3,
             "even": 0
           },
           "csDiff": {
-            "n": 19,
-            "avg": -20.0,
-            "median": -21,
-            "ahead": 2,
-            "behind": 17,
+            "n": 6,
+            "avg": -24.17,
+            "median": -18.5,
+            "ahead": 1,
+            "behind": 5,
             "even": 0
           },
           "levelDiff": {
-            "n": 19,
-            "avg": -0.47,
-            "median": -1,
-            "ahead": 5,
-            "behind": 10,
-            "even": 4
+            "n": 6,
+            "avg": 0.33,
+            "median": 0.5,
+            "ahead": 3,
+            "behind": 1,
+            "even": 2
           }
         }
       }
     },
     {
-      "combo": "영겁의 지팡이 → 대천사의 지팡이",
-      "games": 18,
-      "wins": 13,
-      "losses": 5,
-      "winRate": 0.7222,
-      "avgSecondCoreMinute": 20.97,
+      "combo": "악의 → 영겁의 지팡이",
+      "games": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 0.6,
+      "avgSecondCoreMinute": 12.19,
       "topOpponents": [
         {
-          "champion": "Zed",
-          "games": 4
-        },
-        {
-          "champion": "Malzahar",
-          "games": 1
-        },
-        {
-          "champion": "Naafiri",
-          "games": 1
-        },
-        {
-          "champion": "Mel",
-          "games": 1
-        },
-        {
-          "champion": "Akali",
-          "games": 1
-        },
-        {
-          "champion": "Xerath",
-          "games": 1
-        },
-        {
-          "champion": "Anivia",
-          "games": 1
-        },
-        {
-          "champion": "Cassiopeia",
-          "games": 1
-        },
-        {
-          "champion": "Diana",
+          "champion": "Pyke",
           "games": 1
         },
         {
@@ -321,7 +1461,329 @@
           "games": 1
         },
         {
+          "champion": "Morgana",
+          "games": 1
+        },
+        {
           "champion": "Blitzcrank",
+          "games": 1
+        },
+        {
+          "champion": "Sylas",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 5,
+            "avg": -257.4,
+            "median": -65,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": -3.2,
+            "median": -3,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.4,
+            "median": 0,
+            "ahead": 2,
+            "behind": 1,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 5,
+            "avg": 32.8,
+            "median": -10,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 5,
+            "avg": 3.6,
+            "median": -6,
+            "ahead": 2,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 5,
+            "avg": 0.2,
+            "median": 0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 3
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 3,
+            "avg": 270.0,
+            "median": -238,
+            "ahead": 1,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": 15.33,
+            "median": 21,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 0.67,
+            "median": 1,
+            "ahead": 2,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "리치베인 → 루덴의 동반자",
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "winRate": 0.75,
+      "avgSecondCoreMinute": 11.14,
+      "topOpponents": [
+        {
+          "champion": "Ryze",
+          "games": 1
+        },
+        {
+          "champion": "Zoe",
+          "games": 1
+        },
+        {
+          "champion": "Yasuo",
+          "games": 1
+        },
+        {
+          "champion": "Akshan",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 4,
+            "avg": -532.75,
+            "median": -335.0,
+            "ahead": 0,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": -13.25,
+            "median": -10.0,
+            "ahead": 0,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 0.0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 4
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 4,
+            "avg": -296.75,
+            "median": 256.5,
+            "ahead": 3,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": -12.5,
+            "median": -9.0,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 0.0,
+            "median": 0.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 2
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -427.0,
+            "median": -427.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -18.5,
+            "median": -18.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.0,
+            "median": 0.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "악의 → 루덴의 동반자",
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 10.65,
+      "topOpponents": [
+        {
+          "champion": "Brand",
+          "games": 1
+        },
+        {
+          "champion": "Xerath",
+          "games": 1
+        },
+        {
+          "champion": "Ambessa",
+          "games": 1
+        },
+        {
+          "champion": "Malzahar",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 4,
+            "avg": 371.5,
+            "median": 288.0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": -7.25,
+            "median": -8.0,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 0.0,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 4,
+            "avg": -547.75,
+            "median": -1133.0,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 4,
+            "avg": -13.5,
+            "median": -22.0,
+            "ahead": 1,
+            "behind": 3,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 4,
+            "avg": 0.0,
+            "median": -0.5,
+            "ahead": 1,
+            "behind": 2,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 3,
+            "avg": -963.33,
+            "median": -1804,
+            "ahead": 1,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": -13.0,
+            "median": -20,
+            "ahead": 1,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 0.33,
+            "median": 0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "폭풍쇄도 → 루덴의 동반자",
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 11.23,
+      "topOpponents": [
+        {
+          "champion": "Yasuo",
+          "games": 1
+        },
+        {
+          "champion": "Zilean",
+          "games": 1
+        },
+        {
+          "champion": "Akali",
           "games": 1
         },
         {
@@ -332,418 +1794,300 @@
       "checkpoints": {
         "10": {
           "goldDiff": {
-            "n": 18,
-            "avg": -441.56,
-            "median": -267.0,
-            "ahead": 3,
-            "behind": 15,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 18,
-            "avg": -11.28,
-            "median": -10.5,
-            "ahead": 5,
-            "behind": 13,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 18,
-            "avg": -0.17,
-            "median": 0.0,
-            "ahead": 3,
-            "behind": 5,
-            "even": 10
-          }
-        },
-        "15": {
-          "goldDiff": {
-            "n": 18,
-            "avg": -400.78,
-            "median": -139.0,
-            "ahead": 7,
-            "behind": 11,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 18,
-            "avg": -10.11,
-            "median": -7.0,
-            "ahead": 6,
-            "behind": 12,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 18,
-            "avg": -0.06,
-            "median": 0.0,
-            "ahead": 7,
-            "behind": 4,
-            "even": 7
-          }
-        },
-        "20": {
-          "goldDiff": {
-            "n": 18,
-            "avg": -552.33,
-            "median": -251.0,
-            "ahead": 7,
-            "behind": 11,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 18,
-            "avg": -7.06,
-            "median": -4.0,
-            "ahead": 8,
-            "behind": 10,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 18,
-            "avg": -0.11,
-            "median": 0.0,
-            "ahead": 7,
+            "n": 4,
+            "avg": -534.5,
+            "median": -582.5,
+            "ahead": 1,
             "behind": 3,
-            "even": 8
-          }
-        }
-      }
-    },
-    {
-      "combo": "루덴의 동반자 → 그림자불꽃",
-      "games": 7,
-      "wins": 5,
-      "losses": 2,
-      "winRate": 0.7143,
-      "avgSecondCoreMinute": 25.21,
-      "topOpponents": [
-        {
-          "champion": "Yasuo",
-          "games": 1
-        },
-        {
-          "champion": "Zed",
-          "games": 1
-        },
-        {
-          "champion": "DrMundo",
-          "games": 1
-        },
-        {
-          "champion": "Ahri",
-          "games": 1
-        },
-        {
-          "champion": "Ryze",
-          "games": 1
-        },
-        {
-          "champion": "Orianna",
-          "games": 1
-        },
-        {
-          "champion": "Quinn",
-          "games": 1
-        }
-      ],
-      "checkpoints": {
-        "10": {
-          "goldDiff": {
-            "n": 7,
-            "avg": -0.86,
-            "median": -64,
-            "ahead": 3,
-            "behind": 4,
             "even": 0
           },
           "csDiff": {
-            "n": 7,
-            "avg": -12.14,
-            "median": -13,
-            "ahead": 2,
-            "behind": 5,
+            "n": 4,
+            "avg": -7.75,
+            "median": -4.0,
+            "ahead": 0,
+            "behind": 4,
             "even": 0
           },
           "levelDiff": {
-            "n": 7,
-            "avg": 0.57,
-            "median": 1,
-            "ahead": 4,
+            "n": 4,
+            "avg": 0.25,
+            "median": 0.0,
+            "ahead": 1,
             "behind": 0,
             "even": 3
           }
         },
         "15": {
           "goldDiff": {
-            "n": 7,
-            "avg": -94.43,
-            "median": -21,
-            "ahead": 3,
-            "behind": 4,
+            "n": 4,
+            "avg": -502.5,
+            "median": -697.0,
+            "ahead": 1,
+            "behind": 3,
             "even": 0
           },
           "csDiff": {
-            "n": 7,
-            "avg": -9.86,
-            "median": -6,
-            "ahead": 2,
-            "behind": 5,
+            "n": 4,
+            "avg": -4.25,
+            "median": -8.5,
+            "ahead": 1,
+            "behind": 3,
             "even": 0
           },
           "levelDiff": {
-            "n": 7,
-            "avg": 0.43,
-            "median": 0,
-            "ahead": 2,
-            "behind": 1,
-            "even": 4
+            "n": 4,
+            "avg": 0.25,
+            "median": 0.0,
+            "ahead": 1,
+            "behind": 0,
+            "even": 3
           }
         },
         "20": {
           "goldDiff": {
-            "n": 7,
-            "avg": -535.86,
-            "median": -790,
+            "n": 4,
+            "avg": -356.0,
+            "median": -214.5,
             "ahead": 2,
-            "behind": 5,
+            "behind": 2,
             "even": 0
           },
           "csDiff": {
-            "n": 7,
-            "avg": -19.29,
-            "median": -25,
-            "ahead": 2,
-            "behind": 5,
+            "n": 4,
+            "avg": -14.25,
+            "median": -12.0,
+            "ahead": 1,
+            "behind": 3,
             "even": 0
           },
           "levelDiff": {
-            "n": 7,
+            "n": 4,
             "avg": 0.0,
-            "median": 0,
+            "median": 0.0,
             "ahead": 2,
-            "behind": 3,
-            "even": 2
+            "behind": 2,
+            "even": 0
           }
         }
       }
     },
     {
-      "combo": "루덴의 동반자 → 밴시의 장막",
-      "games": 5,
-      "wins": 2,
-      "losses": 3,
-      "winRate": 0.4,
-      "avgSecondCoreMinute": 19.08,
+      "combo": "루덴의 동반자 → 우주의 추진력",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 13.52,
       "topOpponents": [
         {
-          "champion": "Sylas",
+          "champion": "Akali",
           "games": 1
         },
         {
-          "champion": "Xerath",
-          "games": 1
-        },
-        {
-          "champion": "Azir",
+          "champion": "Corki",
           "games": 1
         },
         {
           "champion": "Aurora",
           "games": 1
-        },
-        {
-          "champion": "Yasuo",
-          "games": 1
         }
       ],
       "checkpoints": {
         "10": {
           "goldDiff": {
-            "n": 5,
-            "avg": -535.6,
-            "median": -572,
-            "ahead": 0,
-            "behind": 5,
+            "n": 3,
+            "avg": 147.33,
+            "median": -187,
+            "ahead": 1,
+            "behind": 2,
             "even": 0
           },
           "csDiff": {
-            "n": 5,
-            "avg": -14.4,
-            "median": -16,
-            "ahead": 0,
-            "behind": 5,
+            "n": 3,
+            "avg": 9.0,
+            "median": 18,
+            "ahead": 2,
+            "behind": 1,
             "even": 0
           },
           "levelDiff": {
-            "n": 5,
+            "n": 3,
             "avg": 0.0,
             "median": 0,
-            "ahead": 0,
-            "behind": 0,
-            "even": 5
+            "ahead": 1,
+            "behind": 1,
+            "even": 1
           }
         },
         "15": {
           "goldDiff": {
-            "n": 5,
-            "avg": -1223.0,
-            "median": -1225,
-            "ahead": 1,
-            "behind": 4,
+            "n": 3,
+            "avg": 193.67,
+            "median": 425,
+            "ahead": 2,
+            "behind": 1,
             "even": 0
           },
           "csDiff": {
-            "n": 5,
-            "avg": -24.6,
-            "median": -29,
-            "ahead": 0,
-            "behind": 5,
+            "n": 3,
+            "avg": 28.33,
+            "median": 41,
+            "ahead": 2,
+            "behind": 1,
             "even": 0
           },
           "levelDiff": {
-            "n": 5,
-            "avg": -0.8,
-            "median": -1,
-            "ahead": 0,
-            "behind": 4,
+            "n": 3,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 2,
+            "behind": 0,
             "even": 1
           }
         },
         "20": {
           "goldDiff": {
-            "n": 5,
-            "avg": -1342.0,
-            "median": -1483,
-            "ahead": 0,
-            "behind": 5,
+            "n": 2,
+            "avg": 821.0,
+            "median": 821.0,
+            "ahead": 2,
+            "behind": 0,
             "even": 0
           },
           "csDiff": {
-            "n": 5,
-            "avg": -24.0,
-            "median": -17,
-            "ahead": 0,
-            "behind": 5,
+            "n": 2,
+            "avg": 38.0,
+            "median": 38.0,
+            "ahead": 2,
+            "behind": 0,
             "even": 0
           },
           "levelDiff": {
-            "n": 5,
-            "avg": -0.8,
-            "median": -1,
-            "ahead": 0,
-            "behind": 4,
+            "n": 2,
+            "avg": 1.0,
+            "median": 1.0,
+            "ahead": 1,
+            "behind": 0,
             "even": 1
           }
         }
       }
     },
     {
-      "combo": "검은불꽃 횃불 → 공허의 지팡이",
-      "games": 2,
-      "wins": 2,
-      "losses": 0,
-      "winRate": 1.0,
-      "avgSecondCoreMinute": 23.67,
+      "combo": "영겁의 지팡이 → 균열 생성기",
+      "games": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 0.3333,
+      "avgSecondCoreMinute": 19.49,
       "topOpponents": [
         {
-          "champion": "Malphite",
+          "champion": "Malzahar",
           "games": 1
         },
         {
-          "champion": "Galio",
+          "champion": "Sylas",
+          "games": 1
+        },
+        {
+          "champion": "Briar",
           "games": 1
         }
       ],
       "checkpoints": {
         "10": {
           "goldDiff": {
-            "n": 2,
-            "avg": 646.5,
-            "median": 646.5,
-            "ahead": 2,
-            "behind": 0,
+            "n": 3,
+            "avg": -83.67,
+            "median": -188,
+            "ahead": 1,
+            "behind": 2,
             "even": 0
           },
           "csDiff": {
-            "n": 2,
-            "avg": 3.0,
-            "median": 3.0,
+            "n": 3,
+            "avg": -6.0,
+            "median": -8,
             "ahead": 1,
-            "behind": 1,
+            "behind": 2,
             "even": 0
           },
           "levelDiff": {
-            "n": 2,
-            "avg": 1.0,
-            "median": 1.0,
-            "ahead": 2,
-            "behind": 0,
-            "even": 0
+            "n": 3,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 1
           }
         },
         "15": {
           "goldDiff": {
-            "n": 2,
-            "avg": 748.5,
-            "median": 748.5,
-            "ahead": 2,
-            "behind": 0,
+            "n": 3,
+            "avg": -100.0,
+            "median": -1093,
+            "ahead": 1,
+            "behind": 2,
             "even": 0
           },
           "csDiff": {
-            "n": 2,
-            "avg": 6.5,
-            "median": 6.5,
+            "n": 3,
+            "avg": -8.67,
+            "median": -22,
             "ahead": 1,
-            "behind": 1,
+            "behind": 2,
             "even": 0
           },
           "levelDiff": {
-            "n": 2,
-            "avg": 1.0,
-            "median": 1.0,
+            "n": 3,
+            "avg": 0.33,
+            "median": 0,
             "ahead": 1,
             "behind": 0,
-            "even": 1
+            "even": 2
           }
         },
         "20": {
           "goldDiff": {
-            "n": 2,
-            "avg": 1560.5,
-            "median": 1560.5,
-            "ahead": 2,
-            "behind": 0,
+            "n": 3,
+            "avg": -119.33,
+            "median": -1556,
+            "ahead": 1,
+            "behind": 2,
             "even": 0
           },
           "csDiff": {
-            "n": 2,
-            "avg": 26.0,
-            "median": 26.0,
-            "ahead": 2,
-            "behind": 0,
+            "n": 3,
+            "avg": 1.33,
+            "median": -5,
+            "ahead": 1,
+            "behind": 2,
             "even": 0
           },
           "levelDiff": {
-            "n": 2,
-            "avg": 2.0,
-            "median": 2.0,
-            "ahead": 2,
-            "behind": 0,
-            "even": 0
+            "n": 3,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 1
           }
         }
       }
     },
     {
-      "combo": "라바돈의 죽음모자 → 무덤꽃",
-      "games": 1,
-      "wins": 1,
+      "combo": "영겁의 지팡이 → 라일라이의 수정홀",
+      "games": 3,
+      "wins": 3,
       "losses": 0,
       "winRate": 1.0,
-      "avgSecondCoreMinute": 33.46,
+      "avgSecondCoreMinute": 14.4,
       "topOpponents": [
+        {
+          "champion": "Zed",
+          "games": 2
+        },
         {
           "champion": "Sylas",
           "games": 1
@@ -752,45 +2096,501 @@
       "checkpoints": {
         "10": {
           "goldDiff": {
-            "n": 1,
-            "avg": 595.0,
-            "median": 595,
+            "n": 3,
+            "avg": -364.67,
+            "median": -339,
             "ahead": 1,
-            "behind": 0,
+            "behind": 2,
             "even": 0
           },
           "csDiff": {
-            "n": 1,
-            "avg": 28.0,
-            "median": 28,
+            "n": 3,
+            "avg": -2.67,
+            "median": -6,
             "ahead": 1,
-            "behind": 0,
+            "behind": 2,
             "even": 0
           },
           "levelDiff": {
-            "n": 1,
-            "avg": -1.0,
-            "median": -1,
+            "n": 3,
+            "avg": -0.33,
+            "median": 0,
             "ahead": 0,
             "behind": 1,
-            "even": 0
+            "even": 2
           }
         },
         "15": {
           "goldDiff": {
+            "n": 3,
+            "avg": 374.0,
+            "median": 611,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 3,
+            "avg": 14.67,
+            "median": 5,
+            "ahead": 3,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 3,
+            "avg": 0.67,
+            "median": 1,
+            "ahead": 2,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -387.0,
+            "median": -387.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": 21.0,
+            "median": 21.0,
+            "ahead": 2,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.5,
+            "median": 0.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "라일라이의 수정홀 → 폭풍쇄도",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 12.89,
+      "topOpponents": [
+        {
+          "champion": "Zed",
+          "games": 2
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -776.5,
+            "median": -776.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -30.5,
+            "median": -30.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -0.5,
+            "median": -0.5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1796.5,
+            "median": -1796.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -53.5,
+            "median": -53.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -1.0,
+            "median": -1.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -2418.5,
+            "median": -2418.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -73.5,
+            "median": -73.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -2.5,
+            "median": -2.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "영겁의 지팡이 → 검은불꽃 횃불",
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 14.42,
+      "topOpponents": [
+        {
+          "champion": "Zed",
+          "games": 1
+        },
+        {
+          "champion": "Yone",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -526.5,
+            "median": -526.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -16.5,
+            "median": -16.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -541.0,
+            "median": -541.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -14.0,
+            "median": -14.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.5,
+            "median": 0.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
             "n": 1,
-            "avg": 1963.0,
-            "median": 1963,
+            "avg": -1629.0,
+            "median": -1629,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -9.0,
+            "median": -9,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "영겁의 지팡이 → 악의",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 12.75,
+      "topOpponents": [
+        {
+          "champion": "Anivia",
+          "games": 1
+        },
+        {
+          "champion": "Yone",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1349.5,
+            "median": -1349.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -27.5,
+            "median": -27.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -1.0,
+            "median": -1.0,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -1695.5,
+            "median": -1695.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -44.0,
+            "median": -44.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -1.5,
+            "median": -1.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -2830.0,
+            "median": -2830.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -69.5,
+            "median": -69.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -3.0,
+            "median": -3.0,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "우주의 추진력 → 루덴의 동반자",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5,
+      "avgSecondCoreMinute": 14.13,
+      "topOpponents": [
+        {
+          "champion": "Vex",
+          "games": 1
+        },
+        {
+          "champion": "DrMundo",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -78.0,
+            "median": -78.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -4.5,
+            "median": -4.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.5,
+            "median": 0.5,
+            "ahead": 1,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -339.5,
+            "median": -339.5,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -12.5,
+            "median": -12.5,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": 0.0,
+            "median": 0.0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 2
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 2,
+            "avg": -769.0,
+            "median": -769.0,
+            "ahead": 1,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 2,
+            "avg": -18.0,
+            "median": -18.0,
+            "ahead": 0,
+            "behind": 2,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 2,
+            "avg": -0.5,
+            "median": -0.5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "검은불꽃 횃불 → 균열 생성기",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 14.41,
+      "topOpponents": [
+        {
+          "champion": "Malphite",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 833.0,
+            "median": 833,
             "ahead": 1,
             "behind": 0,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": 49.0,
-            "median": 49,
-            "ahead": 1,
-            "behind": 0,
+            "avg": -7.0,
+            "median": -7,
+            "ahead": 0,
+            "behind": 1,
             "even": 0
           },
           "levelDiff": {
@@ -802,53 +2602,11 @@
             "even": 0
           }
         },
-        "20": {
+        "15": {
           "goldDiff": {
             "n": 1,
-            "avg": 3315.0,
-            "median": 3315,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": 60.0,
-            "median": 60,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": 2.0,
-            "median": 2,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          }
-        }
-      }
-    },
-    {
-      "combo": "루덴의 동반자 → 공허의 지팡이",
-      "games": 1,
-      "wins": 0,
-      "losses": 1,
-      "winRate": 0.0,
-      "avgSecondCoreMinute": 30.93,
-      "topOpponents": [
-        {
-          "champion": "Galio",
-          "games": 1
-        }
-      ],
-      "checkpoints": {
-        "10": {
-          "goldDiff": {
-            "n": 1,
-            "avg": 17.0,
-            "median": 17,
+            "avg": 881.0,
+            "median": 881,
             "ahead": 1,
             "behind": 0,
             "even": 0
@@ -870,11 +2628,267 @@
             "even": 1
           }
         },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1479.0,
+            "median": 1479,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 10.0,
+            "median": 10,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "검은불꽃 횃불 → 리치베인",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 11.77,
+      "topOpponents": [
+        {
+          "champion": "TwistedFate",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1093.0,
+            "median": -1093,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -30.0,
+            "median": -30,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
         "15": {
           "goldDiff": {
             "n": 1,
-            "avg": 392.0,
-            "median": 392,
+            "avg": 156.0,
+            "median": 156,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -47.0,
+            "median": -47,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -895.0,
+            "median": -895,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -52.0,
+            "median": -52,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "검은불꽃 횃불 → 영겁의 지팡이",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 21.04,
+      "topOpponents": [
+        {
+          "champion": "Galio",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -242.0,
+            "median": -242,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -189.0,
+            "median": -189,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 11.0,
+            "median": 11,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -455.0,
+            "median": -455,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 20.0,
+            "median": 20,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "검은불꽃 횃불 → 우주의 추진력",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 10.8,
+      "topOpponents": [
+        {
+          "champion": "Yone",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 743.0,
+            "median": 743,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1290.0,
+            "median": 1290,
             "ahead": 1,
             "behind": 0,
             "even": 0
@@ -883,6 +2897,100 @@
             "n": 1,
             "avg": -3.0,
             "median": -3,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "균열 생성기 → 루덴의 동반자",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 11.02,
+      "topOpponents": [
+        {
+          "champion": "Zoe",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -190.0,
+            "median": -190,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -8.0,
+            "median": -8,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -75.0,
+            "median": -75,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -5.0,
+            "median": -5,
             "ahead": 0,
             "behind": 1,
             "even": 0
@@ -899,16 +3007,110 @@
         "20": {
           "goldDiff": {
             "n": 1,
-            "avg": 1001.0,
-            "median": 1001,
+            "avg": -1140.0,
+            "median": -1140,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -30.0,
+            "median": -30,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -2.0,
+            "median": -2,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "균열 생성기 → 우주의 추진력",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 11.01,
+      "topOpponents": [
+        {
+          "champion": "Akali",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -183.0,
+            "median": -183,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -9.0,
+            "median": -9,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -128.0,
+            "median": -128,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -7.0,
+            "median": -7,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 780.0,
+            "median": 780,
             "ahead": 1,
             "behind": 0,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": 14.0,
-            "median": 14,
+            "avg": 7.0,
+            "median": 7,
             "ahead": 1,
             "behind": 0,
             "even": 0
@@ -925,15 +3127,15 @@
       }
     },
     {
-      "combo": "루덴의 동반자 → 대천사의 지팡이",
+      "combo": "대천사의 지팡이 → 루덴의 동반자",
       "games": 1,
-      "wins": 1,
-      "losses": 0,
-      "winRate": 1.0,
-      "avgSecondCoreMinute": 16.51,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgSecondCoreMinute": 12.19,
       "topOpponents": [
         {
-          "champion": "Sylas",
+          "champion": "Cassiopeia",
           "games": 1
         }
       ],
@@ -941,18 +3143,394 @@
         "10": {
           "goldDiff": {
             "n": 1,
-            "avg": 234.0,
-            "median": 234,
+            "avg": -648.0,
+            "median": -648,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -18.0,
+            "median": -18,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1439.0,
+            "median": -1439,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -18.0,
+            "median": -18,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1672.0,
+            "median": -1672,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -16.0,
+            "median": -16,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "대천사의 지팡이 → 악의",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 12.87,
+      "topOpponents": [
+        {
+          "champion": "Yone",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1139.0,
+            "median": -1139,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -22.0,
+            "median": -22,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -2767.0,
+            "median": -2767,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -33.0,
+            "median": -33,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -2.0,
+            "median": -2,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -2611.0,
+            "median": -2611,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -30.0,
+            "median": -30,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "라일라이의 수정홀 → 영겁의 지팡이",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 12.0,
+      "topOpponents": [
+        {
+          "champion": "Cassiopeia",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 431.0,
+            "median": 431,
             "ahead": 1,
             "behind": 0,
             "even": 0
           },
           "csDiff": {
             "n": 1,
+            "avg": 9.0,
+            "median": 9,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
             "avg": 1.0,
             "median": 1,
             "ahead": 1,
             "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 980.0,
+            "median": 980,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 22.0,
+            "median": 22,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1.0,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2132.0,
+            "median": 2132,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 42.0,
+            "median": 42,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 대천사의 지팡이",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 11.03,
+      "topOpponents": [
+        {
+          "champion": "Cassiopeia",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1520.0,
+            "median": 1520,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 23.0,
+            "median": 23,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1948.0,
+            "median": 1948,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 20.0,
+            "median": 20,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2327.0,
+            "median": 2327,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 25.0,
+            "median": 25,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "루덴의 동반자 → 라바돈의 죽음모자",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 16.74,
+      "topOpponents": [
+        {
+          "champion": "Aurora",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -148.0,
+            "median": -148,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -8.0,
+            "median": -8,
+            "ahead": 0,
+            "behind": 1,
             "even": 0
           },
           "levelDiff": {
@@ -967,18 +3545,18 @@
         "15": {
           "goldDiff": {
             "n": 1,
-            "avg": 1444.0,
-            "median": 1444,
+            "avg": 138.0,
+            "median": 138,
             "ahead": 1,
             "behind": 0,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": 19.0,
-            "median": 19,
-            "ahead": 1,
-            "behind": 0,
+            "avg": -16.0,
+            "median": -16,
+            "ahead": 0,
+            "behind": 1,
             "even": 0
           },
           "levelDiff": {
@@ -993,16 +3571,58 @@
         "20": {
           "goldDiff": {
             "n": 1,
-            "avg": 1620.0,
-            "median": 1620,
+            "avg": 42.0,
+            "median": 42,
             "ahead": 1,
             "behind": 0,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": 36.0,
-            "median": 36,
+            "avg": -26.0,
+            "median": -26,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      }
+    },
+    {
+      "combo": "악의 → 검은불꽃 횃불",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 10.52,
+      "topOpponents": [
+        {
+          "champion": "Galio",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 460.0,
+            "median": 460,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 13.0,
+            "median": 13,
             "ahead": 1,
             "behind": 0,
             "even": 0
@@ -1014,6 +3634,152 @@
             "ahead": 1,
             "behind": 0,
             "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 616.0,
+            "median": 616,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 19.0,
+            "median": 19,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 2.0,
+            "median": 2,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 1642.0,
+            "median": 1642,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 42.0,
+            "median": 42,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 3.0,
+            "median": 3,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "영겁의 지팡이 → 대천사의 지팡이",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 22.5,
+      "topOpponents": [
+        {
+          "champion": "Akali",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -157.0,
+            "median": -157,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -5.0,
+            "median": -5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -522.0,
+            "median": -522,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -7.0,
+            "median": -7,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1130.0,
+            "median": -1130,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -22.0,
+            "median": -22,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
           }
         }
       }
@@ -1113,15 +3879,15 @@
       }
     },
     {
-      "combo": "존야의 모래시계 → 그림자불꽃",
+      "combo": "폭풍쇄도 → 검은불꽃 횃불",
       "games": 1,
-      "wins": 0,
-      "losses": 1,
-      "winRate": 0.0,
-      "avgSecondCoreMinute": 18.33,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 10.75,
       "topOpponents": [
         {
-          "champion": "TwistedFate",
+          "champion": "Sylas",
           "games": 1
         }
       ],
@@ -1129,136 +3895,16 @@
         "10": {
           "goldDiff": {
             "n": 1,
-            "avg": -1093.0,
-            "median": -1093,
+            "avg": -969.0,
+            "median": -969,
             "ahead": 0,
             "behind": 1,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": -30.0,
-            "median": -30,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": -1.0,
-            "median": -1,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          }
-        },
-        "15": {
-          "goldDiff": {
-            "n": 1,
-            "avg": 156.0,
-            "median": 156,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": -47.0,
-            "median": -47,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": -1.0,
-            "median": -1,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          }
-        },
-        "20": {
-          "goldDiff": {
-            "n": 1,
-            "avg": -895.0,
-            "median": -895,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": -52.0,
-            "median": -52,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": -1.0,
-            "median": -1,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          }
-        }
-      }
-    },
-    {
-      "combo": "존야의 모래시계 → 루덴의 동반자",
-      "games": 1,
-      "wins": 0,
-      "losses": 1,
-      "winRate": 0.0,
-      "avgSecondCoreMinute": 18.42,
-      "topOpponents": [
-        {
-          "champion": "Kayle",
-          "games": 1
-        }
-      ],
-      "checkpoints": {
-        "10": {
-          "goldDiff": {
-            "n": 1,
-            "avg": -173.0,
-            "median": -173,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": -18.0,
-            "median": -18,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": 1.0,
-            "median": 1,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          }
-        },
-        "15": {
-          "goldDiff": {
-            "n": 1,
-            "avg": -428.0,
-            "median": -428,
-            "ahead": 0,
-            "behind": 1,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": -34.0,
-            "median": -34,
+            "avg": -20.0,
+            "median": -20,
             "ahead": 0,
             "behind": 1,
             "even": 0
@@ -1272,19 +3918,45 @@
             "even": 1
           }
         },
-        "20": {
+        "15": {
           "goldDiff": {
             "n": 1,
-            "avg": -578.0,
-            "median": -578,
+            "avg": -1910.0,
+            "median": -1910,
             "ahead": 0,
             "behind": 1,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": -55.0,
-            "median": -55,
+            "avg": -29.0,
+            "median": -29,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1.0,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -2077.0,
+            "median": -2077,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -17.0,
+            "median": -17,
             "ahead": 0,
             "behind": 1,
             "even": 0
@@ -1301,12 +3973,106 @@
       }
     },
     {
-      "combo": "존야의 모래시계 → 밴시의 장막",
+      "combo": "폭풍쇄도 → 라일라이의 수정홀",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgSecondCoreMinute": 9.31,
+      "topOpponents": [
+        {
+          "champion": "Cassiopeia",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 2513.0,
+            "median": 2513,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": 24.0,
+            "median": 24,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 3.0,
+            "median": 3,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      }
+    },
+    {
+      "combo": "폭풍쇄도 → 리치베인",
       "games": 1,
       "wins": 0,
       "losses": 1,
       "winRate": 0.0,
-      "avgSecondCoreMinute": 15.7,
+      "avgSecondCoreMinute": 6.61,
       "topOpponents": [
         {
           "champion": "Akali",
@@ -1395,15 +4161,15 @@
       }
     },
     {
-      "combo": "폭풍쇄도 → 그림자불꽃",
+      "combo": "폭풍쇄도 → 영겁의 지팡이",
       "games": 1,
       "wins": 1,
       "losses": 0,
       "winRate": 1.0,
-      "avgSecondCoreMinute": 14.69,
+      "avgSecondCoreMinute": 12.5,
       "topOpponents": [
         {
-          "champion": "Annie",
+          "champion": "Akali",
           "games": 1
         }
       ],
@@ -1411,138 +4177,18 @@
         "10": {
           "goldDiff": {
             "n": 1,
-            "avg": 668.0,
-            "median": 668,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": 0.0,
-            "median": 0,
+            "avg": -361.0,
+            "median": -361,
             "ahead": 0,
-            "behind": 0,
-            "even": 1
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": 2.0,
-            "median": 2,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          }
-        },
-        "15": {
-          "goldDiff": {
-            "n": 1,
-            "avg": 1287.0,
-            "median": 1287,
-            "ahead": 1,
-            "behind": 0,
+            "behind": 1,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": 12.0,
-            "median": 12,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": 3.0,
-            "median": 3,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          }
-        },
-        "20": {
-          "goldDiff": {
-            "n": 1,
-            "avg": 2123.0,
-            "median": 2123,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": 11.0,
-            "median": 11,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": 3.0,
-            "median": 3,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          }
-        }
-      }
-    },
-    {
-      "combo": "폭풍쇄도 → 루덴의 동반자",
-      "games": 1,
-      "wins": 0,
-      "losses": 1,
-      "winRate": 0.0,
-      "avgSecondCoreMinute": 25.65,
-      "topOpponents": [
-        {
-          "champion": "Pantheon",
-          "games": 1
-        }
-      ],
-      "checkpoints": {
-        "10": {
-          "goldDiff": {
-            "n": 1,
-            "avg": 1406.0,
-            "median": 1406,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": 32.0,
-            "median": 32,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "levelDiff": {
-            "n": 1,
-            "avg": 2.0,
-            "median": 2,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          }
-        },
-        "15": {
-          "goldDiff": {
-            "n": 1,
-            "avg": 1724.0,
-            "median": 1724,
-            "ahead": 1,
-            "behind": 0,
-            "even": 0
-          },
-          "csDiff": {
-            "n": 1,
-            "avg": 41.0,
-            "median": 41,
-            "ahead": 1,
-            "behind": 0,
+            "avg": -12.0,
+            "median": -12,
+            "ahead": 0,
+            "behind": 1,
             "even": 0
           },
           "levelDiff": {
@@ -1554,28 +4200,54 @@
             "even": 0
           }
         },
-        "20": {
+        "15": {
           "goldDiff": {
             "n": 1,
-            "avg": 2347.0,
-            "median": 2347,
-            "ahead": 1,
-            "behind": 0,
+            "avg": -866.0,
+            "median": -866,
+            "ahead": 0,
+            "behind": 1,
             "even": 0
           },
           "csDiff": {
             "n": 1,
-            "avg": 71.0,
-            "median": 71,
-            "ahead": 1,
-            "behind": 0,
+            "avg": -13.0,
+            "median": -13,
+            "ahead": 0,
+            "behind": 1,
             "even": 0
           },
           "levelDiff": {
             "n": 1,
-            "avg": 2.0,
-            "median": 2,
-            "ahead": 1,
+            "avg": 0.0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
+            "behind": 0,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 0,
+            "avg": null,
+            "median": null,
+            "ahead": 0,
             "behind": 0,
             "even": 0
           }
