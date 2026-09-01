@@ -3,6 +3,50 @@
   "position": "INVALID",
   "sampleCount": 7,
   "recognizedFirstCoreCount": 1,
+  "matchups": [
+    {
+      "champion": "Ivern",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Sylas",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Vladimir",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Garen",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Karma",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Kled",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ],
   "coreSlots": {
     "1": {
       "slot": 1,
@@ -55,6 +99,8 @@
   },
   "notes": [
     "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
+    "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+    "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -82,7 +128,10 @@
       "topOpponents": [
         {
           "champion": "Vladimir",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
         }
       ],
       "secondCores": [

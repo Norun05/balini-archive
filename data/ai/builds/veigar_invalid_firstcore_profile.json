@@ -3,6 +3,141 @@
   "position": "INVALID",
   "sampleCount": 21,
   "recognizedFirstCoreCount": 2,
+  "matchups": [
+    {
+      "champion": "Aurora",
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Blitzcrank",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Camille",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Illaoi",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Kayn",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Leblanc",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Maokai",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Mel",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Sion",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Swain",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Taric",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Veigar",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Xerath",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Akshan",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Anivia",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Jax",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Malphite",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Sona",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Warwick",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ],
   "coreSlots": {
     "1": {
       "slot": 1,
@@ -55,6 +190,8 @@
   },
   "notes": [
     "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
+    "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+    "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -82,11 +219,17 @@
       "topOpponents": [
         {
           "champion": "Aurora",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
         },
         {
           "champion": "Swain",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
         }
       ],
       "secondCores": [

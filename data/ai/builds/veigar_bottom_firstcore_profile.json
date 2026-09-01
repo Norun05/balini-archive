@@ -3,6 +3,120 @@
   "position": "BOTTOM",
   "sampleCount": 21,
   "recognizedFirstCoreCount": 18,
+  "matchups": [
+    {
+      "champion": "Ashe",
+      "games": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 0.3333
+    },
+    {
+      "champion": "Kaisa",
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Samira",
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Jinx",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5
+    },
+    {
+      "champion": "Caitlyn",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Nunu",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Seraphine",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Sivir",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Varus",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Xayah",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Zeri",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Aphelios",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Jhin",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Lux",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Morgana",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Yunara",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ],
   "coreSlots": {
     "1": {
       "slot": 1,
@@ -135,6 +249,8 @@
   },
   "notes": [
     "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
+    "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+    "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -162,59 +278,101 @@
       "topOpponents": [
         {
           "champion": "Ashe",
-          "games": 3
+          "games": 3,
+          "wins": 1,
+          "losses": 2,
+          "winRate": 0.3333
         },
         {
           "champion": "Samira",
-          "games": 2
+          "games": 2,
+          "wins": 2,
+          "losses": 0,
+          "winRate": 1.0
         },
         {
           "champion": "Jinx",
-          "games": 2
-        },
-        {
-          "champion": "Yunara",
-          "games": 1
-        },
-        {
-          "champion": "Nunu",
-          "games": 1
-        },
-        {
-          "champion": "Zeri",
-          "games": 1
-        },
-        {
-          "champion": "Aphelios",
-          "games": 1
-        },
-        {
-          "champion": "Xayah",
-          "games": 1
-        },
-        {
-          "champion": "Varus",
-          "games": 1
-        },
-        {
-          "champion": "Sivir",
-          "games": 1
-        },
-        {
-          "champion": "Morgana",
-          "games": 1
-        },
-        {
-          "champion": "Seraphine",
-          "games": 1
-        },
-        {
-          "champion": "Kaisa",
-          "games": 1
+          "games": 2,
+          "wins": 1,
+          "losses": 1,
+          "winRate": 0.5
         },
         {
           "champion": "Caitlyn",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Kaisa",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Nunu",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Seraphine",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Sivir",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Varus",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Xayah",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Zeri",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Aphelios",
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0
+        },
+        {
+          "champion": "Morgana",
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0
+        },
+        {
+          "champion": "Yunara",
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0
         }
       ],
       "secondCores": [

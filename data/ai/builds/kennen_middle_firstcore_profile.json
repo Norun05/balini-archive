@@ -3,6 +3,113 @@
   "position": "MIDDLE",
   "sampleCount": 26,
   "recognizedFirstCoreCount": 26,
+  "matchups": [
+    {
+      "champion": "Irelia",
+      "games": 5,
+      "wins": 4,
+      "losses": 1,
+      "winRate": 0.8
+    },
+    {
+      "champion": "Yone",
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 0.5
+    },
+    {
+      "champion": "Yasuo",
+      "games": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 0.6667
+    },
+    {
+      "champion": "Akali",
+      "games": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 0.3333
+    },
+    {
+      "champion": "Diana",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Fizz",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Katarina",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Leblanc",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Qiyana",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Ryze",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Udyr",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Xerath",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Zed",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Ezreal",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Mordekaiser",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ],
   "coreSlots": {
     "1": {
       "slot": 1,
@@ -115,6 +222,8 @@
   },
   "notes": [
     "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
+    "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+    "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -142,47 +251,80 @@
       "topOpponents": [
         {
           "champion": "Yone",
-          "games": 3
+          "games": 3,
+          "wins": 1,
+          "losses": 2,
+          "winRate": 0.3333
         },
         {
           "champion": "Irelia",
-          "games": 2
-        },
-        {
-          "champion": "Ryze",
-          "games": 1
-        },
-        {
-          "champion": "Fizz",
-          "games": 1
-        },
-        {
-          "champion": "Xerath",
-          "games": 1
-        },
-        {
-          "champion": "Leblanc",
-          "games": 1
-        },
-        {
-          "champion": "Katarina",
-          "games": 1
-        },
-        {
-          "champion": "Zed",
-          "games": 1
-        },
-        {
-          "champion": "Ezreal",
-          "games": 1
+          "games": 2,
+          "wins": 1,
+          "losses": 1,
+          "winRate": 0.5
         },
         {
           "champion": "Akali",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Fizz",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Katarina",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Leblanc",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Ryze",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Xerath",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Zed",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Ezreal",
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0
         },
         {
           "champion": "Mordekaiser",
-          "games": 1
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0
         }
       ],
       "secondCores": [
@@ -451,19 +593,31 @@
       "topOpponents": [
         {
           "champion": "Yasuo",
-          "games": 3
+          "games": 3,
+          "wins": 2,
+          "losses": 1,
+          "winRate": 0.6667
         },
         {
           "champion": "Akali",
-          "games": 2
-        },
-        {
-          "champion": "Qiyana",
-          "games": 1
+          "games": 2,
+          "wins": 0,
+          "losses": 2,
+          "winRate": 0.0
         },
         {
           "champion": "Diana",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Qiyana",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
         }
       ],
       "secondCores": [
@@ -724,15 +878,24 @@
       "topOpponents": [
         {
           "champion": "Irelia",
-          "games": 3
-        },
-        {
-          "champion": "Yone",
-          "games": 1
+          "games": 3,
+          "wins": 3,
+          "losses": 0,
+          "winRate": 1.0
         },
         {
           "champion": "Udyr",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Yone",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
         }
       ],
       "secondCores": [

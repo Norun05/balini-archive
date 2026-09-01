@@ -3,6 +3,64 @@
   "position": "BOTTOM",
   "sampleCount": 12,
   "recognizedFirstCoreCount": 11,
+  "matchups": [
+    {
+      "champion": "Kaisa",
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "winRate": 0.5
+    },
+    {
+      "champion": "Xerath",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5
+    },
+    {
+      "champion": "Jhin",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "MissFortune",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Senna",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Swain",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "champion": "Aphelios",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "champion": "Brand",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ],
   "coreSlots": {
     "1": {
       "slot": 1,
@@ -85,6 +143,8 @@
   },
   "notes": [
     "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
+    "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+    "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
     "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
     "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
     "Checkpoint rows after exact match end are absent in source data.",
@@ -112,31 +172,52 @@
       "topOpponents": [
         {
           "champion": "Kaisa",
-          "games": 3
+          "games": 3,
+          "wins": 2,
+          "losses": 1,
+          "winRate": 0.6667
         },
         {
           "champion": "Xerath",
-          "games": 2
-        },
-        {
-          "champion": "Aphelios",
-          "games": 1
-        },
-        {
-          "champion": "Swain",
-          "games": 1
+          "games": 2,
+          "wins": 1,
+          "losses": 1,
+          "winRate": 0.5
         },
         {
           "champion": "Jhin",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
         },
         {
           "champion": "MissFortune",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
         },
         {
           "champion": "Senna",
-          "games": 1
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Swain",
+          "games": 1,
+          "wins": 1,
+          "losses": 0,
+          "winRate": 1.0
+        },
+        {
+          "champion": "Aphelios",
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0
         }
       ],
       "secondCores": [
@@ -401,7 +482,10 @@
       "topOpponents": [
         {
           "champion": "Kaisa",
-          "games": 1
+          "games": 1,
+          "wins": 0,
+          "losses": 1,
+          "winRate": 0.0
         }
       ],
       "secondCores": [
