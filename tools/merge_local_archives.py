@@ -4,7 +4,7 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MERGED = ROOT / "data" / "_merged_archive"
+MERGED = ROOT.parent / "balini-lol-archive-v999"
 MERGED_MATCHES = MERGED / "data" / "raw" / "matches"
 MERGED_TIMELINES = MERGED / "data" / "raw" / "timelines"
 MERGED_META = MERGED / "data" / "meta"
@@ -19,12 +19,20 @@ def version_number(path: Path) -> int:
 def discover_archives():
     found = []
     seen = set()
+    merged_key = str(MERGED.resolve()) if MERGED.exists() else None
     for base in [ROOT, *ROOT.parents]:
         try:
             dirs = list(base.glob("balini-lol-archive-v*")) + list(base.glob("balini-lol-archive"))
         except OSError:
             continue
         for archive in dirs:
+            try:
+                if merged_key and str(archive.resolve()) == merged_key:
+                    continue
+            except OSError:
+                pass
+            if archive.name.lower() == "balini-lol-archive-v999":
+                continue
             matches = archive / "data" / "raw" / "matches"
             timelines = archive / "data" / "raw" / "timelines"
             if not matches.is_dir():
@@ -119,7 +127,6 @@ def main():
                 copied_timelines += 1
         source_counts[row["archive"].name] = source_counts.get(row["archive"].name, 0) + 1
 
-    # Use account metadata from the highest-version archive that has it.
     account_candidates = []
     for info in archives:
         account = info["archive"] / "data" / "meta" / "account.json"
@@ -144,7 +151,8 @@ def main():
             for info in sorted(archives, key=lambda x: (x["version"], x["archive"].name))
         ],
         "selectionRule": "Prefer duplicate source with timeline; then larger timeline JSON; then larger match JSON; then higher archive version.",
-        "generatedPath": "data/_merged_archive/data/raw",
+        "generatedPath": str(MERGED),
+        "note": "The v999 name is deliberate: existing generators automatically choose the archive with the largest match count, then highest version.",
     }
     INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -155,6 +163,7 @@ def main():
     print(f"Copied/updated timelines: {copied_timelines}")
     print(f"Removed stale files: {removed_matches + removed_timelines}")
     print(f"Merged archive: {MERGED}")
+    print("Existing generators will automatically prefer balini-lol-archive-v999.")
     return 0
 
 
