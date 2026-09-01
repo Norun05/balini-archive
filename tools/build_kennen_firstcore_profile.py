@@ -121,6 +121,31 @@ def snapshot_diffs(match):
     return out
 
 
+def matchup_stats(rows, limit=None):
+    groups = defaultdict(lambda: {"games": 0, "wins": 0})
+    for row in rows:
+        opponent = row.get("opponent")
+        if not opponent:
+            continue
+        groups[opponent]["games"] += 1
+        groups[opponent]["wins"] += int(bool(row.get("win")))
+
+    out = []
+    for champion, data in groups.items():
+        games = data["games"]
+        wins = data["wins"]
+        out.append({
+            "champion": champion,
+            "games": games,
+            "wins": wins,
+            "losses": games - wins,
+            "winRate": pct(wins, games),
+        })
+
+    out.sort(key=lambda r: (-r["games"], -r["winRate"], r["champion"]))
+    return out[:limit] if limit is not None else out
+
+
 def build_rows(matches, item_names):
     rows = []
     for match in matches:
@@ -202,7 +227,6 @@ def build_profile(champion_key, position_key, matches):
         ]
         second = Counter(r.get("secondCore") for r in core_rows if r.get("secondCore"))
         third = Counter(r.get("thirdCore") for r in core_rows if r.get("thirdCore"))
-        opponents = Counter(r.get("opponent") for r in core_rows if r.get("opponent"))
 
         checkpoints = {}
         for minute in (5, 10, 15, 20):
@@ -253,10 +277,7 @@ def build_profile(champion_key, position_key, matches):
                 "earliestGameCreation": earliest,
                 "latestGameCreation": latest,
             },
-            "topOpponents": [
-                {"champion": name, "games": count}
-                for name, count in opponents.most_common(30)
-            ],
+            "topOpponents": matchup_stats(core_rows, 30),
             "secondCores": [
                 {"item": name, "games": count}
                 for name, count in second.most_common()
@@ -276,6 +297,7 @@ def build_profile(champion_key, position_key, matches):
         "position": position_key.upper(),
         "sampleCount": len(matches),
         "recognizedFirstCoreCount": len(rows),
+        "matchups": matchup_stats(matches),
         "coreSlots": {
             "1": build_slot_stats(rows, 1),
             "2": build_slot_stats(rows, 2),
@@ -283,6 +305,8 @@ def build_profile(champion_key, position_key, matches):
         },
         "notes": [
             "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
+            "matchups groups matches by the archive's inferred lane opponent and includes games/wins/losses/winRate.",
+            "Each first-core group's topOpponents uses the same matchup stats inside that first-core subset.",
             "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
             "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
             "Checkpoint rows after exact match end are absent in source data.",
@@ -313,6 +337,7 @@ def main():
             generated += 1
             print(
                 f"{CHAMPION_NAMES[champion_key]} {position_key.upper()} core profile: "
+                f"matchups={len(payload['matchups'])}, "
                 f"1c={payload['coreSlots']['1']['recognizedCount']}, "
                 f"2c={payload['coreSlots']['2']['recognizedCount']}, "
                 f"3c={payload['coreSlots']['3']['recognizedCount']}"
