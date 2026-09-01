@@ -44,16 +44,16 @@
       "avgLevelDiff": 0.33
     },
     "20": {
-      "sampleCount": 6,
-      "avgGoldDiff": 1897.83,
-      "medianGoldDiff": 1187.5,
+      "sampleCount": 5,
+      "avgGoldDiff": 2327.4,
+      "medianGoldDiff": 2625,
       "goldAhead": 3,
-      "goldBehind": 3,
+      "goldBehind": 2,
       "avgCsDiff": 0.0,
-      "medianCsDiff": 0.0,
+      "medianCsDiff": 0,
       "csAhead": 0,
       "csBehind": 0,
-      "avgLevelDiff": 1.17
+      "avgLevelDiff": 1.6
     }
   },
   "winsStats": {
@@ -71,7 +71,7 @@
     "count": 2,
     "avg10GoldDiff": 0.0,
     "avg15GoldDiff": -250.0,
-    "avg20GoldDiff": -3000.0,
+    "avg20GoldDiff": -5750.0,
     "avg10CsDiff": 0.0,
     "avg15CsDiff": 0.0,
     "avg20CsDiff": 0.0,
@@ -161,8 +161,8 @@
       "cs10": 0,
       "g15": -250,
       "cs15": 0,
-      "g20": -250,
-      "cs20": 0,
+      "g20": null,
+      "cs20": null,
       "soloKills": 0,
       "teamDamagePercentage": 0.08655536259341122
     },
