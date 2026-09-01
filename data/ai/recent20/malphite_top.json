@@ -1,0 +1,1766 @@
+{
+  "champion": "malphite",
+  "position": "top",
+  "availableCount": 2,
+  "count": 2,
+  "matches": [
+    {
+      "matchId": "KR_8280357199",
+      "gameCreation": 1782838998757,
+      "gameDuration": 1444,
+      "queueId": 420,
+      "gameMode": "CLASSIC",
+      "championName": "Malphite",
+      "position": "TOP",
+      "opponent": "Brand",
+      "kills": 3,
+      "deaths": 3,
+      "assists": 1,
+      "cs": 166,
+      "gold": 9650,
+      "damage": 7215,
+      "win": true,
+      "items": [
+        1056,
+        2031,
+        3118,
+        2504,
+        3111,
+        0,
+        3340
+      ],
+      "meChallenges": {
+        "killParticipation": 0.13793103448275862,
+        "laneMinionsFirst10Minutes": 62,
+        "maxCsAdvantageOnLaneOpponent": 11,
+        "maxLevelLeadLaneOpponent": 2,
+        "soloKills": 0,
+        "turretPlatesTaken": 12,
+        "teamDamagePercentage": 0.09995159096927776,
+        "damagePerMinute": 299.81325558831406,
+        "goldPerMinute": 401.0001312036425,
+        "earlyLaningPhaseGoldExpAdvantage": 0,
+        "laningPhaseGoldExpAdvantage": 0,
+        "visionScorePerMinute": 0.5779766151980563
+      },
+      "laneOpponent": {
+        "championName": "Brand",
+        "kills": 2,
+        "deaths": 3,
+        "assists": 2,
+        "cs": 165,
+        "gold": 7353,
+        "damage": 16792,
+        "items": [
+          2003,
+          2508,
+          1056,
+          3020,
+          2503,
+          1052,
+          3340
+        ],
+        "challenges": {
+          "killParticipation": 0.23529411764705882,
+          "laneMinionsFirst10Minutes": 64,
+          "maxCsAdvantageOnLaneOpponent": 17.999999970197678,
+          "maxLevelLeadLaneOpponent": 3,
+          "soloKills": 1,
+          "turretPlatesTaken": 2,
+          "teamDamagePercentage": 0.28700326021149,
+          "damagePerMinute": 697.7491503749874,
+          "goldPerMinute": 305.5591071766463,
+          "earlyLaningPhaseGoldExpAdvantage": 0,
+          "laningPhaseGoldExpAdvantage": 1,
+          "visionScorePerMinute": 0.9062035791187145
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300060,
+            "me": {
+              "gold": 1480,
+              "currentGold": 280,
+              "cs": 28,
+              "laneCs": 28,
+              "jungleCs": 0,
+              "level": 5,
+              "xp": 2196,
+              "damageToChampions": 1024,
+              "position": {
+                "x": 1173,
+                "y": 12306
+              }
+            },
+            "opponent": {
+              "gold": 1471,
+              "currentGold": 471,
+              "cs": 26,
+              "laneCs": 26,
+              "jungleCs": 0,
+              "level": 5,
+              "xp": 2103,
+              "damageToChampions": 2569,
+              "position": {
+                "x": 2614,
+                "y": 12826
+              }
+            },
+            "goldDiff": 9,
+            "csDiff": 2,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600233,
+            "me": {
+              "gold": 2688,
+              "currentGold": 538,
+              "cs": 62,
+              "laneCs": 62,
+              "jungleCs": 0,
+              "level": 8,
+              "xp": 4562,
+              "damageToChampions": 2083,
+              "position": {
+                "x": 2998,
+                "y": 12724
+              }
+            },
+            "opponent": {
+              "gold": 3220,
+              "currentGold": 370,
+              "cs": 64,
+              "laneCs": 64,
+              "jungleCs": 0,
+              "level": 9,
+              "xp": 5204,
+              "damageToChampions": 4378,
+              "position": {
+                "x": 3753,
+                "y": 13587
+              }
+            },
+            "goldDiff": -532,
+            "csDiff": -2,
+            "levelDiff": -1
+          },
+          {
+            "minute": 15,
+            "timestamp": 900311,
+            "me": {
+              "gold": 4021,
+              "currentGold": 581,
+              "cs": 96,
+              "laneCs": 92,
+              "jungleCs": 4,
+              "level": 11,
+              "xp": 7567,
+              "damageToChampions": 2703,
+              "position": {
+                "x": 720,
+                "y": 8102
+              }
+            },
+            "opponent": {
+              "gold": 5003,
+              "currentGold": 648,
+              "cs": 108,
+              "laneCs": 108,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 9575,
+              "damageToChampions": 8950,
+              "position": {
+                "x": 1222,
+                "y": 12136
+              }
+            },
+            "goldDiff": -982,
+            "csDiff": -12,
+            "levelDiff": -1
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200372,
+            "me": {
+              "gold": 6162,
+              "currentGold": 622,
+              "cs": 125,
+              "laneCs": 121,
+              "jungleCs": 4,
+              "level": 13,
+              "xp": 10698,
+              "damageToChampions": 4534,
+              "position": {
+                "x": 4593,
+                "y": 13763
+              }
+            },
+            "opponent": {
+              "gold": 6272,
+              "currentGold": 237,
+              "cs": 139,
+              "laneCs": 139,
+              "jungleCs": 0,
+              "level": 14,
+              "xp": 12720,
+              "damageToChampions": 13466,
+              "position": {
+                "x": 7723,
+                "y": 8097
+              }
+            },
+            "goldDiff": -110,
+            "csDiff": -14,
+            "levelDiff": -1
+          }
+        ],
+        "firstKillTimestamp": 1015604,
+        "firstDeathTimestamp": 476630,
+        "firstAssistTimestamp": 1030031,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 476630,
+            "killerId": 6,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              7
+            ],
+            "bounty": 310,
+            "position": {
+              "x": 3035,
+              "y": 12530
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 744976,
+            "killerId": 6,
+            "victimId": 1,
+            "bounty": 320,
+            "position": {
+              "x": 844,
+              "y": 10145
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1015604,
+            "killerId": 1,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 370,
+            "position": {
+              "x": 2682,
+              "y": 13020
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1021648,
+            "killerId": 7,
+            "victimId": 1,
+            "bounty": 360,
+            "position": {
+              "x": 2209,
+              "y": 12329
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1030031,
+            "killerId": 2,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 350,
+            "position": {
+              "x": 3153,
+              "y": 13180
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1312147,
+            "killerId": 1,
+            "victimId": 7,
+            "assistingParticipantIds": [
+              5
+            ],
+            "bounty": 299,
+            "position": {
+              "x": 4824,
+              "y": 13620
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1416785,
+            "killerId": 1,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              3,
+              5
+            ],
+            "bounty": 400,
+            "position": {
+              "x": 11248,
+              "y": 13158
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 6343,
+            "participantId": 1,
+            "itemId": 1056
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 6343,
+            "participantId": 1,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 6343,
+            "participantId": 1,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 244565,
+            "participantId": 1,
+            "itemId": 1052
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 245033,
+            "participantId": 1,
+            "itemId": 1027
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 388542,
+            "participantId": 1,
+            "itemId": 3802
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 390312,
+            "participantId": 1,
+            "itemId": 2031
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 484587,
+            "participantId": 1,
+            "itemId": 1001
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 747625,
+            "participantId": 1,
+            "itemId": 1026
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 820038,
+            "participantId": 1,
+            "itemId": 1001
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 820672,
+            "participantId": 1,
+            "itemId": 3118
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 910247,
+            "participantId": 1,
+            "itemId": 1033
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1032837,
+            "participantId": 1,
+            "itemId": 1057
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1033438,
+            "participantId": 1,
+            "itemId": 1033
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1034173,
+            "participantId": 1,
+            "itemId": 1028
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1151076,
+            "participantId": 1,
+            "itemId": 3211
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1226144,
+            "participantId": 1,
+            "itemId": 2504
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1336914,
+            "participantId": 1,
+            "itemId": 3111
+          }
+        ],
+        "objectiveEvents": [
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 378682,
+            "killerId": 7,
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "AIR_DRAGON",
+            "position": {
+              "x": 10044,
+              "y": 4762
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 516712,
+            "killerId": 2,
+            "bounty": 0,
+            "monsterType": "HORDE",
+            "position": {
+              "x": 4790,
+              "y": 10182
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 521822,
+            "killerId": 2,
+            "bounty": 0,
+            "monsterType": "HORDE",
+            "position": {
+              "x": 5210,
+              "y": 10424
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 532485,
+            "killerId": 2,
+            "bounty": 0,
+            "monsterType": "HORDE",
+            "position": {
+              "x": 4841,
+              "y": 10638
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 874163,
+            "killerId": 3,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 8955,
+              "y": 8510
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 905754,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "EARTH_DRAGON",
+            "position": {
+              "x": 9843,
+              "y": 4403
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 961258,
+            "killerId": 0,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13866,
+              "y": 4505
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1076475,
+            "killerId": 2,
+            "bounty": 0,
+            "monsterType": "RIFTHERALD",
+            "position": {
+              "x": 4616,
+              "y": 10142
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1151076,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "INNER_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13327,
+              "y": 8226
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1165443,
+            "killerId": 4,
+            "assistingParticipantIds": [
+              5
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "INNER_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 9767,
+              "y": 10113
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1171600,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "BASE_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13624,
+              "y": 10572
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1197366,
+            "killerId": 1,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "TOP_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 4318,
+              "y": 13875
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1220486,
+            "killerId": 3,
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13599,
+              "y": 11319
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1282526,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3,
+              4,
+              5
+            ],
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "HEXTECH_DRAGON",
+            "position": {
+              "x": 9837,
+              "y": 4397
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1292826,
+            "killerId": 1,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "INNER_TURRET",
+            "laneType": "TOP_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 7943,
+              "y": 13411
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1320511,
+            "killerId": 4,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "BASE_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 11134,
+              "y": 11207
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1357548,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3,
+              4,
+              5
+            ],
+            "bounty": 0,
+            "monsterType": "BARON_NASHOR",
+            "position": {
+              "x": 5007,
+              "y": 10471
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1402684,
+            "killerId": 3,
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 11593,
+              "y": 11669
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1427656,
+            "killerId": 4,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "NEXUS_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13052,
+              "y": 12612
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1428290,
+            "killerId": 1,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "BASE_TURRET",
+            "laneType": "TOP_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 10481,
+              "y": 13650
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1433233,
+            "killerId": 4,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "NEXUS_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 12611,
+              "y": 13084
+            }
+          }
+        ]
+      }
+    },
+    {
+      "matchId": "KR_8221008042",
+      "gameCreation": 1779033929295,
+      "gameDuration": 2175,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Malphite",
+      "position": "TOP",
+      "opponent": "Rengar",
+      "kills": 5,
+      "deaths": 1,
+      "assists": 8,
+      "cs": 213,
+      "gold": 12177,
+      "damage": 22123,
+      "win": false,
+      "items": [
+        3075,
+        3110,
+        3068,
+        3047,
+        2504,
+        0,
+        3340
+      ],
+      "meChallenges": {
+        "killParticipation": 0.5909090909090909,
+        "laneMinionsFirst10Minutes": 67,
+        "maxCsAdvantageOnLaneOpponent": 90.99999997019768,
+        "maxLevelLeadLaneOpponent": 4,
+        "soloKills": 5,
+        "turretPlatesTaken": 7,
+        "teamDamagePercentage": 0.22330520434791676,
+        "damagePerMinute": 610.1535091168612,
+        "goldPerMinute": 335.8298698519598,
+        "earlyLaningPhaseGoldExpAdvantage": 1,
+        "laningPhaseGoldExpAdvantage": 1,
+        "visionScorePerMinute": 1.0285677102109227
+      },
+      "laneOpponent": {
+        "championName": "Rengar",
+        "kills": 6,
+        "deaths": 11,
+        "assists": 6,
+        "cs": 125,
+        "gold": 10109,
+        "damage": 13076,
+        "items": [
+          1086,
+          3153,
+          3073,
+          3144,
+          1036,
+          1038,
+          3340
+        ],
+        "challenges": {
+          "killParticipation": 0.26666666666666666,
+          "laneMinionsFirst10Minutes": 50,
+          "maxCsAdvantageOnLaneOpponent": 2,
+          "maxLevelLeadLaneOpponent": 1,
+          "soloKills": 1,
+          "turretPlatesTaken": 2,
+          "teamDamagePercentage": 0.09387270075323681,
+          "damagePerMinute": 360.633807457728,
+          "goldPerMinute": 278.8233022908821,
+          "earlyLaningPhaseGoldExpAdvantage": 0,
+          "laningPhaseGoldExpAdvantage": 0,
+          "visionScorePerMinute": 0.42243900402076984
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300130,
+            "me": {
+              "gold": 1612,
+              "currentGold": 312,
+              "cs": 25,
+              "laneCs": 25,
+              "jungleCs": 0,
+              "level": 5,
+              "xp": 2129,
+              "damageToChampions": 764,
+              "position": {
+                "x": 3155,
+                "y": 13175
+              }
+            },
+            "opponent": {
+              "gold": 1380,
+              "currentGold": 280,
+              "cs": 20,
+              "laneCs": 20,
+              "jungleCs": 0,
+              "level": 5,
+              "xp": 1873,
+              "damageToChampions": 125,
+              "position": {
+                "x": 2101,
+                "y": 12807
+              }
+            },
+            "goldDiff": 232,
+            "csDiff": 5,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 600230,
+            "me": {
+              "gold": 3424,
+              "currentGold": 824,
+              "cs": 67,
+              "laneCs": 67,
+              "jungleCs": 0,
+              "level": 9,
+              "xp": 5466,
+              "damageToChampions": 3901,
+              "position": {
+                "x": 3049,
+                "y": 11814
+              }
+            },
+            "opponent": {
+              "gold": 2581,
+              "currentGold": 931,
+              "cs": 50,
+              "laneCs": 50,
+              "jungleCs": 0,
+              "level": 8,
+              "xp": 4175,
+              "damageToChampions": 179,
+              "position": {
+                "x": 1912,
+                "y": 11870
+              }
+            },
+            "goldDiff": 843,
+            "csDiff": 17,
+            "levelDiff": 1
+          },
+          {
+            "minute": 15,
+            "timestamp": 900304,
+            "me": {
+              "gold": 5502,
+              "currentGold": 502,
+              "cs": 108,
+              "laneCs": 108,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 9542,
+              "damageToChampions": 7141,
+              "position": {
+                "x": 1952,
+                "y": 12186
+              }
+            },
+            "opponent": {
+              "gold": 3555,
+              "currentGold": 580,
+              "cs": 69,
+              "laneCs": 69,
+              "jungleCs": 0,
+              "level": 10,
+              "xp": 6691,
+              "damageToChampions": 256,
+              "position": {
+                "x": 1250,
+                "y": 11299
+              }
+            },
+            "goldDiff": 1947,
+            "csDiff": 39,
+            "levelDiff": 2
+          },
+          {
+            "minute": 20,
+            "timestamp": 1200404,
+            "me": {
+              "gold": 7796,
+              "currentGold": 146,
+              "cs": 143,
+              "laneCs": 143,
+              "jungleCs": 0,
+              "level": 15,
+              "xp": 13856,
+              "damageToChampions": 10766,
+              "position": {
+                "x": 12691,
+                "y": 12041
+              }
+            },
+            "opponent": {
+              "gold": 4872,
+              "currentGold": 222,
+              "cs": 98,
+              "laneCs": 98,
+              "jungleCs": 0,
+              "level": 12,
+              "xp": 9079,
+              "damageToChampions": 657,
+              "position": {
+                "x": 6847,
+                "y": 6725
+              }
+            },
+            "goldDiff": 2924,
+            "csDiff": 45,
+            "levelDiff": 3
+          }
+        ],
+        "firstKillTimestamp": 444437,
+        "firstDeathTimestamp": 2140908,
+        "firstAssistTimestamp": 1581782,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 444437,
+            "killerId": 6,
+            "victimId": 1,
+            "bounty": 310,
+            "position": {
+              "x": 1432,
+              "y": 10792
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 628092,
+            "killerId": 6,
+            "victimId": 1,
+            "bounty": 309,
+            "position": {
+              "x": 1630,
+              "y": 11002
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 768888,
+            "killerId": 6,
+            "victimId": 1,
+            "bounty": 255,
+            "position": {
+              "x": 1656,
+              "y": 11468
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 978962,
+            "killerId": 6,
+            "victimId": 1,
+            "bounty": 246,
+            "position": {
+              "x": 886,
+              "y": 10110
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1130181,
+            "killerId": 6,
+            "victimId": 1,
+            "bounty": 234,
+            "position": {
+              "x": 1038,
+              "y": 9442
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1581782,
+            "killerId": 7,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              6
+            ],
+            "bounty": 290,
+            "position": {
+              "x": 9973,
+              "y": 9391
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1724934,
+            "killerId": 7,
+            "victimId": 5,
+            "assistingParticipantIds": [
+              6,
+              10
+            ],
+            "bounty": 370,
+            "position": {
+              "x": 13935,
+              "y": 11459
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1729052,
+            "killerId": 7,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              6,
+              10
+            ],
+            "bounty": 390,
+            "position": {
+              "x": 13319,
+              "y": 10842
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1733969,
+            "killerId": 7,
+            "victimId": 3,
+            "assistingParticipantIds": [
+              6,
+              10
+            ],
+            "bounty": 400,
+            "position": {
+              "x": 12990,
+              "y": 9635
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 1928701,
+            "killerId": 7,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              6,
+              8,
+              10
+            ],
+            "bounty": 259,
+            "position": {
+              "x": 12093,
+              "y": 11485
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 2029623,
+            "killerId": 7,
+            "victimId": 1,
+            "assistingParticipantIds": [
+              6,
+              10
+            ],
+            "bounty": 177,
+            "position": {
+              "x": 11400,
+              "y": 12018
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 2041911,
+            "killerId": 7,
+            "victimId": 2,
+            "assistingParticipantIds": [
+              6,
+              10
+            ],
+            "bounty": 420,
+            "position": {
+              "x": 9408,
+              "y": 12767
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 2137421,
+            "killerId": 7,
+            "victimId": 4,
+            "assistingParticipantIds": [
+              6,
+              8,
+              9,
+              10
+            ],
+            "bounty": 400,
+            "position": {
+              "x": 13474,
+              "y": 7223
+            }
+          },
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 2140908,
+            "killerId": 5,
+            "victimId": 6,
+            "assistingParticipantIds": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "bounty": 420,
+            "position": {
+              "x": 13542,
+              "y": 7082
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 6482,
+            "participantId": 6,
+            "itemId": 1056
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 6482,
+            "participantId": 6,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 6482,
+            "participantId": 6,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 276040,
+            "participantId": 6,
+            "itemId": 1031
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 482291,
+            "participantId": 6,
+            "itemId": 6660
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 482926,
+            "participantId": 6,
+            "itemId": 1028
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 665650,
+            "participantId": 6,
+            "itemId": 3068
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 673309,
+            "participantId": 6,
+            "itemId": 1001
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 673911,
+            "participantId": 6,
+            "itemId": 1029
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 815174,
+            "participantId": 6,
+            "itemId": 3047
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 819917,
+            "participantId": 6,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 820351,
+            "participantId": 6,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_UNDO",
+            "timestamp": 821253,
+            "participantId": 6,
+            "beforeId": 0,
+            "afterId": 2003,
+            "goldGain": -20
+          },
+          {
+            "type": "ITEM_UNDO",
+            "timestamp": 821387,
+            "participantId": 6,
+            "beforeId": 0,
+            "afterId": 2003,
+            "goldGain": -20
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 822289,
+            "participantId": 6,
+            "itemId": 1029
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 822689,
+            "participantId": 6,
+            "itemId": 1029
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1018617,
+            "participantId": 6,
+            "itemId": 3076
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1020326,
+            "participantId": 6,
+            "itemId": 1028
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1022404,
+            "participantId": 6,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1022538,
+            "participantId": 6,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1023940,
+            "participantId": 6,
+            "itemId": 1031
+          },
+          {
+            "type": "ITEM_SOLD",
+            "timestamp": 1027715,
+            "participantId": 6,
+            "itemId": 1056
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1028282,
+            "participantId": 6,
+            "itemId": 3075
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1192766,
+            "participantId": 6,
+            "itemId": 3082
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1276407,
+            "participantId": 6,
+            "itemId": 2022
+          },
+          {
+            "type": "ITEM_UNDO",
+            "timestamp": 1277911,
+            "participantId": 6,
+            "beforeId": 2022,
+            "afterId": 0,
+            "goldGain": 250
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1278679,
+            "participantId": 6,
+            "itemId": 1029
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1364142,
+            "participantId": 6,
+            "itemId": 1027
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1483898,
+            "participantId": 6,
+            "itemId": 3024
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1561131,
+            "participantId": 6,
+            "itemId": 3110
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1672536,
+            "participantId": 6,
+            "itemId": 1033
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1747695,
+            "participantId": 6,
+            "itemId": 1057
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1836749,
+            "participantId": 6,
+            "itemId": 1028
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 1991215,
+            "participantId": 6,
+            "itemId": 3211
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 2144518,
+            "participantId": 6,
+            "itemId": 2504
+          }
+        ],
+        "objectiveEvents": [
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 512670,
+            "killerId": 2,
+            "bounty": 0,
+            "monsterType": "HORDE",
+            "position": {
+              "x": 4790,
+              "y": 10182
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 529915,
+            "killerId": 7,
+            "assistingParticipantIds": [
+              2
+            ],
+            "bounty": 0,
+            "monsterType": "HORDE",
+            "position": {
+              "x": 5175,
+              "y": 10408
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 541240,
+            "killerId": 7,
+            "bounty": 0,
+            "monsterType": "HORDE",
+            "position": {
+              "x": 4726,
+              "y": 10250
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 660406,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "AIR_DRAGON",
+            "position": {
+              "x": 9837,
+              "y": 4397
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 905415,
+            "killerId": 0,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 8955,
+              "y": 8510
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 932383,
+            "killerId": 4,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13866,
+              "y": 4505
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 979296,
+            "killerId": 7,
+            "assistingParticipantIds": [
+              10
+            ],
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "HEXTECH_DRAGON",
+            "position": {
+              "x": 9837,
+              "y": 4397
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1000448,
+            "killerId": 6,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "TOP_LANE",
+            "teamId": 100,
+            "position": {
+              "x": 981,
+              "y": 10441
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1061336,
+            "killerId": 7,
+            "assistingParticipantIds": [
+              6
+            ],
+            "bounty": 0,
+            "monsterType": "RIFTHERALD",
+            "position": {
+              "x": 4908,
+              "y": 9984
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1294314,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              4,
+              5
+            ],
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "FIRE_DRAGON",
+            "position": {
+              "x": 9859,
+              "y": 4420
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1364176,
+            "killerId": 3,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "INNER_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 9767,
+              "y": 10113
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1445670,
+            "killerId": 5,
+            "assistingParticipantIds": [
+              2,
+              4
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "INNER_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13327,
+              "y": 8226
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1554192,
+            "killerId": 7,
+            "assistingParticipantIds": [
+              6
+            ],
+            "bounty": 0,
+            "monsterType": "BARON_NASHOR",
+            "position": {
+              "x": 5007,
+              "y": 10471
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1606870,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              4,
+              5
+            ],
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "FIRE_DRAGON",
+            "position": {
+              "x": 9863,
+              "y": 4415
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1609580,
+            "killerId": 8,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 100,
+            "position": {
+              "x": 5846,
+              "y": 6396
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1692521,
+            "killerId": 4,
+            "assistingParticipantIds": [
+              1
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "BASE_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 11134,
+              "y": 11207
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1699777,
+            "killerId": 1,
+            "assistingParticipantIds": [
+              4
+            ],
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 11593,
+              "y": 11669
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1711683,
+            "killerId": 4,
+            "assistingParticipantIds": [
+              3,
+              5
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "BASE_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13624,
+              "y": 10572
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1725536,
+            "killerId": 4,
+            "assistingParticipantIds": [
+              3,
+              5
+            ],
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13599,
+              "y": 11319
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 1855886,
+            "killerId": 0,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "NEXUS_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13052,
+              "y": 12612
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1923768,
+            "killerId": 4,
+            "assistingParticipantIds": [
+              2,
+              5
+            ],
+            "bounty": 0,
+            "monsterType": "DRAGON",
+            "monsterSubType": "FIRE_DRAGON",
+            "position": {
+              "x": 9837,
+              "y": 4397
+            }
+          },
+          {
+            "type": "ELITE_MONSTER_KILL",
+            "timestamp": 1968058,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3,
+              4,
+              5,
+              7
+            ],
+            "bounty": 0,
+            "monsterType": "BARON_NASHOR",
+            "position": {
+              "x": 5007,
+              "y": 10471
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 2023124,
+            "killerId": 3,
+            "assistingParticipantIds": [
+              1,
+              2
+            ],
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 11593,
+              "y": 11669
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 2156454,
+            "killerId": 3,
+            "assistingParticipantIds": [
+              1,
+              2,
+              5
+            ],
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13599,
+              "y": 11319
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 2163228,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              1,
+              5
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "NEXUS_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13052,
+              "y": 12612
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 2167136,
+            "killerId": 3,
+            "assistingParticipantIds": [
+              1,
+              2,
+              5
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "NEXUS_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 12611,
+              "y": 13084
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
