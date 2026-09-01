@@ -4,6 +4,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "champions" / "kennen" / "top"
+MATCH_SRC = ROOT / "data" / "matches"
 OUT = ROOT / "data" / "ai" / "builds" / "kennen_top.json"
 DETAIL_OUT = ROOT / "data" / "ai" / "builds" / "kennen_top_matches.json"
 RYLAI_OUT = ROOT / "data" / "ai" / "builds" / "kennen_top_rylai.json"
@@ -55,7 +56,7 @@ def finish(bucket):
             "losses": games - wins,
             "winRate": round(wins / games, 4) if games else None,
         })
-    rows.sort(key=lambda r: (-r["games"], -r["winRate"], r["key"]))
+    rows.sort(key=lambda r: (-r["games"], -r["winRate"], str(r["key"])))
     return rows
 
 
@@ -111,6 +112,63 @@ def snapshot_diffs(match):
     return out
 
 
+def rune_info(match_id):
+    if not match_id:
+        return None
+    path = MATCH_SRC / f"{match_id}.json"
+    if not path.exists():
+        return None
+    try:
+        detail = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    styles = ((detail.get("me") or {}).get("perkStyles") or [])
+    if not styles:
+        return None
+    rows = []
+    for style in styles:
+        rows.append({
+            "style": style.get("style"),
+            "description": style.get("description"),
+            "perks": style.get("perks") or [],
+        })
+    primary = next((s for s in rows if s.get("description") == "primaryStyle"), rows[0] if rows else None)
+    secondary = next((s for s in rows if s.get("description") == "subStyle"), rows[1] if len(rows) > 1 else None)
+    return {
+        "styles": rows,
+        "primaryStyle": primary.get("style") if primary else None,
+        "keystone": (primary.get("perks") or [None])[0] if primary else None,
+        "primaryPerks": primary.get("perks") if primary else [],
+        "secondaryStyle": secondary.get("style") if secondary else None,
+        "secondaryPerks": secondary.get("perks") if secondary else [],
+    }
+
+
+def rune_summary(rows):
+    keystones = defaultdict(lambda: {"games": 0, "wins": 0})
+    style_pairs = defaultdict(lambda: {"games": 0, "wins": 0})
+    exact_pages = defaultdict(lambda: {"games": 0, "wins": 0})
+    for r in rows:
+        rune = r.get("runes") or {}
+        win = bool(r.get("win"))
+        key = rune.get("keystone")
+        if key is not None:
+            add(keystones, str(key), win)
+        p = rune.get("primaryStyle")
+        s = rune.get("secondaryStyle")
+        if p is not None and s is not None:
+            add(style_pairs, f"{p}+{s}", win)
+        pp = rune.get("primaryPerks") or []
+        sp = rune.get("secondaryPerks") or []
+        if pp or sp:
+            add(exact_pages, "/".join(map(str, pp)) + "+" + "/".join(map(str, sp)), win)
+    return {
+        "keystones": finish(keystones),
+        "stylePairs": finish(style_pairs),
+        "exactPages": finish(exact_pages),
+    }
+
+
 def main():
     matches = load_matches()
 
@@ -149,6 +207,7 @@ def main():
                 "secondCore": second_name,
                 "secondCoreTimestamp": purchase_time(m, majors[1]) if len(majors) >= 2 else None,
                 "boots": boot_name,
+                "runes": rune_info(m.get("matchId")),
                 "snapshots": snapshot_diffs(m),
             })
         if len(majors) >= 2:
@@ -178,6 +237,7 @@ def main():
         "twoCoreOrder": finish(two_core),
         "boots": finish(boots),
         "finalItemPresence": finish(final_presence),
+        "runes": rune_summary(match_rows),
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -197,6 +257,7 @@ def main():
         "sampleCount": len(rylai_rows),
         "wins": sum(1 for r in rylai_rows if r.get("win")),
         "losses": sum(1 for r in rylai_rows if not r.get("win")),
+        "runeSummary": rune_summary(rylai_rows),
         "matches": rylai_rows,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
