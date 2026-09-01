@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="발린이#극악무도의 League of Legends 전적 아카이브" />
   <title>발린이 아카이브</title>
-  <link rel="stylesheet" href="./style.css?v=frutiger-aero-20260901" />
+  <link rel="stylesheet" href="./style.css?v=stats-tabs-20260902" />
 </head>
 <body>
   <header class="site-header">
@@ -24,7 +24,7 @@
       <div>
         <p class="section-kicker">개인 LoL 기록 보관소</p>
         <h2>사라지지 않는 전적 + AI가 읽기 쉬운 데이터</h2>
-        <p class="muted">첫 화면은 가벼운 경기 목록만 읽습니다. 챔피언·포지션별 분석 데이터와 경기별 타임라인 요약은 별도 JSON으로 나뉘어 있어, 필요한 데이터만 빠르게 불러올 수 있습니다.</p>
+        <p class="muted">경기 목록은 가볍게, 통계와 상세 분석은 필요할 때만 별도 JSON을 불러옵니다.</p>
       </div>
       <div class="hero-stats">
         <div><strong id="matchCount">0</strong><span>불러온 경기</span></div>
@@ -33,49 +33,45 @@
       </div>
     </section>
 
-    <section class="toolbar card">
-      <div class="field grow">
-        <label for="searchInput">검색</label>
-        <input id="searchInput" type="search" placeholder="챔피언, 상대 챔피언, Match ID…" />
-      </div>
-      <div class="field">
-        <label for="championFilter">챔피언</label>
-        <select id="championFilter"><option value="">전체</option></select>
-      </div>
-      <div class="field">
-        <label for="positionFilter">포지션</label>
-        <select id="positionFilter">
-          <option value="">전체</option>
-          <option value="TOP">TOP</option>
-          <option value="JUNGLE">JUNGLE</option>
-          <option value="MIDDLE">MIDDLE</option>
-          <option value="BOTTOM">BOTTOM</option>
-          <option value="UTILITY">SUPPORT</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="resultFilter">결과</label>
-        <select id="resultFilter">
-          <option value="">전체</option>
-          <option value="win">승리</option>
-          <option value="loss">패배</option>
-        </select>
-      </div>
+    <nav class="archive-tabs card" aria-label="아카이브 메뉴">
+      <button class="tab-button active" data-tab="matches" type="button">전적</button>
+      <button class="tab-button" data-tab="stats" type="button">통계</button>
+      <button class="tab-button" data-tab="champions" type="button">챔피언</button>
+      <button class="tab-button" data-tab="teammates" type="button">함께한 플레이어</button>
+    </nav>
+
+    <section class="tab-panel active" data-panel="matches">
+      <section class="toolbar card">
+        <div class="field grow">
+          <label for="searchInput">검색</label>
+          <input id="searchInput" type="search" placeholder="챔피언, 상대 챔피언, Match ID…" />
+        </div>
+        <div class="field"><label for="championFilter">챔피언</label><select id="championFilter"><option value="">전체</option></select></div>
+        <div class="field"><label for="positionFilter">포지션</label><select id="positionFilter"><option value="">전체</option><option value="TOP">TOP</option><option value="JUNGLE">JUNGLE</option><option value="MIDDLE">MIDDLE</option><option value="BOTTOM">BOTTOM</option><option value="UTILITY">SUPPORT</option></select></div>
+        <div class="field"><label for="resultFilter">결과</label><select id="resultFilter"><option value="">전체</option><option value="win">승리</option><option value="loss">패배</option></select></div>
+      </section>
+      <section class="section-head"><div><p class="section-kicker">MATCHES</p><h2>경기 기록</h2></div><p id="resultCount" class="muted"></p></section>
+      <section id="matchList" class="match-list" aria-live="polite"></section>
+      <section id="emptyState" class="empty card" hidden><h3>아직 경기 데이터가 없습니다.</h3><p class="muted"><code>update_site_data.bat</code>을 실행하면 데이터가 생성됩니다.</p></section>
     </section>
 
-    <section class="section-head">
-      <div>
-        <p class="section-kicker">MATCHES</p>
-        <h2>경기 기록</h2>
-      </div>
-      <p id="resultCount" class="muted"></p>
+    <section class="tab-panel" data-panel="stats" hidden>
+      <section class="section-head"><div><p class="section-kicker">STATISTICS</p><h2>전체 통계</h2></div></section>
+      <section id="statsOverview" class="stats-grid"></section>
+      <section class="stats-card card"><h3>포지션별</h3><div id="positionStats" class="stats-table-wrap"></div></section>
+      <section class="stats-card card"><h3>소환사 주문 조합</h3><div id="summonerStats" class="stats-table-wrap"></div></section>
     </section>
 
-    <section id="matchList" class="match-list" aria-live="polite"></section>
+    <section class="tab-panel" data-panel="champions" hidden>
+      <section class="section-head"><div><p class="section-kicker">CHAMPIONS</p><h2>챔피언 통계</h2></div></section>
+      <section class="toolbar card compact-toolbar"><div class="field grow"><label for="championStatsSearch">챔피언 검색</label><input id="championStatsSearch" type="search" placeholder="Kennen, Veigar…" /></div></section>
+      <section id="championStats" class="stats-list"></section>
+    </section>
 
-    <section id="emptyState" class="empty card" hidden>
-      <h3>아직 새 구조의 경기 데이터가 없습니다.</h3>
-      <p class="muted"><code>update_site_data.bat</code>을 실행하면 <code>data/catalog.json</code>, 챔피언별 분석 파일, 경기별 상세 JSON이 자동 생성됩니다.</p>
+    <section class="tab-panel" data-panel="teammates" hidden>
+      <section class="section-head"><div><p class="section-kicker">PLAYERS</p><h2>함께한 플레이어</h2></div></section>
+      <section class="toolbar card compact-toolbar"><div class="field grow"><label for="teammateSearch">Riot ID 검색</label><input id="teammateSearch" type="search" placeholder="DTC Soul…" /></div></section>
+      <section id="teammateStats" class="stats-list"></section>
     </section>
   </main>
 
@@ -83,10 +79,9 @@
     <span>발린이 아카이브</span>
     <a href="./data/profile.json">profile.json</a>
     <a href="./data/catalog.json">catalog.json</a>
-    <a href="./data/champions/index.json">champions/index.json</a>
+    <a href="./data/stats/index.json">stats/index.json</a>
     <a href="./data/manifest.json">manifest.json</a>
   </footer>
-
-  <script src="./app.js" defer></script>
+  <script src="./app.js?v=stats-tabs-20260902" defer></script>
 </body>
 </html>
