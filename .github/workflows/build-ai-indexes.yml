@@ -29,6 +29,7 @@ jobs:
           python tools/find_senna_yasuo.py
           python tools/build_kennen_build_stats.py
           python tools/build_veigar_build_stats.py
+          python tools/build_veigar_two_core_analysis.py
 
       - name: Commit generated indexes
         run: |
