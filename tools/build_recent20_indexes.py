@@ -53,12 +53,16 @@ def compact_match(m):
 def summary_match(m):
     timeline = m.get("timeline") or {}
     lane = m.get("laneOpponent") or {}
+    duration = m.get("gameDuration") or 0
     snapshots = []
     for s in timeline.get("snapshots") or []:
+        minute = s.get("minute")
+        if isinstance(minute, (int, float)) and duration < minute * 60:
+            continue
         me = s.get("me") or {}
         opp = s.get("opponent") or {}
         snapshots.append({
-            "minute": s.get("minute"),
+            "minute": minute,
             "goldDiff": s.get("goldDiff"),
             "csDiff": s.get("csDiff"),
             "levelDiff": s.get("levelDiff"),
