@@ -85,7 +85,16 @@
       "goldPerMinute": 546.4394510562684,
       "earlyLaningPhaseGoldExpAdvantage": 0,
       "visionScorePerMinute": 0.4127586246393523
-    }
+    },
+    "itemNamesKo": [
+      "도란의 반지",
+      "체력 물약",
+      "헬리아의 메아리",
+      "월석 재생기",
+      null,
+      "명석함의 아이오니아 장화",
+      "예언자의 렌즈"
+    ]
   },
   "laneOpponent": {
     "participantId": 10,
@@ -143,7 +152,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "자자크의 세계가시",
+      "제어 와드",
+      "명석함의 아이오니아 장화",
+      "월석 재생기",
+      "점화석",
+      "금지된 우상",
+      "예언자의 렌즈"
+    ]
   },
   "teammates": [
     {
@@ -214,7 +232,16 @@
         "goldPerMinute": 631.1187683639324,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.16671004027085454
-      }
+      },
+      "itemNamesKo": [
+        "무라마나",
+        "콜필드의 전투 망치",
+        "삼위일체",
+        "명석함의 아이오니아 장화",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -284,7 +311,16 @@
         "goldPerMinute": 689.2199341977554,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.4416316833489747
-      }
+      },
+      "itemNamesKo": [
+        null,
+        "온기가 필요한 자의 도끼",
+        "꽁지깃",
+        null,
+        "무한의 대검",
+        "광전사의 군화",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -354,7 +390,16 @@
         "goldPerMinute": 784.624237488567,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.468749894479442
-      }
+      },
+      "itemNamesKo": [
+        "몰락한 왕의 검",
+        "오만",
+        null,
+        "도란의 검",
+        "롱소드",
+        "광전사의 군화",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -424,7 +469,16 @@
         "goldPerMinute": 633.9666190969112,
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.278874663101176
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "삼위일체",
+        "판금 장화",
+        "땅굴 채굴기",
+        "체력 물약",
+        "콜필드의 전투 망치",
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -484,7 +538,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "도란의 검",
+        "제어 와드",
+        "광전사의 군화",
+        "윤 탈 야생화살",
+        "곡괭이",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -542,7 +605,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "도란의 검",
+        "제어 와드",
+        "삼위일체",
+        "판금 장화",
+        "롱소드",
+        "곡괭이",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -600,7 +672,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "암흑의 인장",
+        "사라진 양피지",
+        "제어 와드",
+        "존야의 모래시계",
+        "운명의 재",
+        "장화",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -658,7 +739,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "새끼 바람돌이",
+        "제어 와드",
+        "명석함의 아이오니아 장화",
+        "롱소드",
+        "우주의 추진력",
+        "루비 수정",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -716,7 +806,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "자자크의 세계가시",
+        "제어 와드",
+        "명석함의 아이오니아 장화",
+        "월석 재생기",
+        "점화석",
+        "금지된 우상",
+        "예언자의 렌즈"
+      ]
     }
   ],
   "timeline": {
@@ -867,19 +966,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 12974,
         "participantId": 4,
-        "itemId": 1056
+        "itemId": 1056,
+        "itemNameKo": "도란의 반지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 12974,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 12974,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -971,13 +1073,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 324401,
         "participantId": 4,
-        "itemId": 4642
+        "itemId": 4642,
+        "itemNameKo": "밴들유리 거울"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 325269,
         "participantId": 4,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "BUILDING_KILL",
@@ -1172,31 +1276,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 569759,
         "participantId": 4,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 569759,
         "participantId": 4,
-        "itemId": 4642
+        "itemId": 4642,
+        "itemNameKo": "밴들유리 거울"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 569759,
         "participantId": 4,
-        "itemId": 326620
+        "itemId": 326620,
+        "itemNameKo": "헬리아의 메아리"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 572764,
         "participantId": 4,
-        "itemId": 4642
+        "itemId": 4642,
+        "itemNameKo": "밴들유리 거울"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 574334,
         "participantId": 4,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "BUILDING_KILL",
@@ -1347,7 +1456,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 748275,
         "participantId": 4,
-        "itemId": 3158
+        "itemId": 3158,
+        "itemNameKo": "명석함의 아이오니아 장화"
       },
       {
         "type": "BUILDING_KILL",
@@ -1383,32 +1493,39 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 752416,
         "participantId": 4,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 752416,
         "participantId": 4,
-        "itemId": 4642
+        "itemId": 4642,
+        "itemNameKo": "밴들유리 거울"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 752416,
         "participantId": 4,
-        "itemId": 326617
+        "itemId": 326617,
+        "itemNameKo": "월석 재생기"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 755789,
         "participantId": 4,
-        "itemId": 3340
+        "itemId": 3340,
+        "itemNameKo": "투명 와드"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 755789,
         "participantId": 4,
-        "itemId": 3364
+        "itemId": 3364,
+        "itemNameKo": "예언자의 렌즈"
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.18.1"
 }

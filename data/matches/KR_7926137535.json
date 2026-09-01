@@ -73,7 +73,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "강철심장",
+      "가시 갑옷",
+      "판금 장화",
+      "정령의 형상",
+      "해신 작쇼",
+      "마법무효화의 망토",
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 6,
@@ -131,7 +140,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "마법사의 신발",
+      "마법공학 로켓 벨트",
+      "균열 생성기",
+      "그림자불꽃",
+      "폭풍 쇄도",
+      "라바돈의 죽음모자",
+      "망원형 개조"
+    ]
   },
   "teammates": [
     {
@@ -190,7 +208,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "모렐로노미콘",
+        "그림자불꽃",
+        "마법사의 신발",
+        "라바돈의 죽음모자",
+        "사라진 양피지",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -248,7 +275,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "내셔의 이빨",
+        "광전사의 군화",
+        "구인수의 격노검",
+        "공허의 지팡이",
+        "폭풍 쇄도",
+        "모렐로노미콘",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -306,7 +342,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "헤르메스의 발걸음",
+        "발걸음 분쇄기",
+        "죽음의 무도",
+        "스테락의 도전",
+        "정령의 형상",
+        "해신 작쇼",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -364,7 +409,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "월식",
+        "땅굴 채굴기",
+        "징수의 총",
+        "판금 장화",
+        "칠흑의 양날 도끼",
+        "실험적 마공학판",
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -424,7 +478,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "마법사의 신발",
+        "마법공학 로켓 벨트",
+        "균열 생성기",
+        "그림자불꽃",
+        "폭풍 쇄도",
+        "라바돈의 죽음모자",
+        "망원형 개조"
+      ]
     },
     {
       "participantId": 7,
@@ -482,7 +545,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "무라마나",
+        "삼위일체",
+        "핏빛 명석함",
+        "세릴다의 원한",
+        "쇼진의 창",
+        "롱소드",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -540,7 +612,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "무한의 대검",
+        "불멸의 철갑궁",
+        "오만",
+        "징수의 총",
+        "도미닉 경의 인사",
+        "벼락폭풍검",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -598,7 +679,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "그림자불꽃",
+        "신속의 장화",
+        "리안드리의 고통",
+        "균열 생성기",
+        "모렐로노미콘",
+        "쓸데없이 큰 지팡이",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -656,7 +746,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "몰락한 왕의 검",
+        "건메탈 군화",
+        "경계",
+        "마법사의 최후",
+        "구인수의 격노검",
+        "루비 수정",
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -807,7 +906,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 15802,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "CHAMPION_KILL",
@@ -827,7 +927,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 138172,
         "participantId": 4,
-        "itemId": 1006
+        "itemId": 1006,
+        "itemNameKo": "원기 회복의 구슬"
       },
       {
         "type": "CHAMPION_KILL",
@@ -847,13 +948,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 203203,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 203203,
         "participantId": 4,
-        "itemId": 1011
+        "itemId": 1011,
+        "itemNameKo": "거인의 허리띠"
       },
       {
         "type": "CHAMPION_KILL",
@@ -903,19 +1006,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 298415,
         "participantId": 4,
-        "itemId": 1006
+        "itemId": 1006,
+        "itemNameKo": "원기 회복의 구슬"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 298415,
         "participantId": 4,
-        "itemId": 3801
+        "itemId": 3801,
+        "itemNameKo": "수정 팔 보호구"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 299016,
         "participantId": 4,
-        "itemId": 1011
+        "itemId": 1011,
+        "itemNameKo": "거인의 허리띠"
       },
       {
         "type": "CHAMPION_KILL",
@@ -935,49 +1041,57 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 393903,
         "participantId": 4,
-        "itemId": 1011
+        "itemId": 1011,
+        "itemNameKo": "거인의 허리띠"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 393903,
         "participantId": 4,
-        "itemId": 3801
+        "itemId": 3801,
+        "itemNameKo": "수정 팔 보호구"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 393903,
         "participantId": 4,
-        "itemId": 1011
+        "itemId": 1011,
+        "itemNameKo": "거인의 허리띠"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 393903,
         "participantId": 4,
-        "itemId": 3084
+        "itemId": 3084,
+        "itemNameKo": "강철심장"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 406644,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 469712,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 469712,
         "participantId": 4,
-        "itemId": 3076
+        "itemId": 3076,
+        "itemNameKo": "덤불 조끼"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 473964,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "CHAMPION_KILL",
@@ -997,19 +1111,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 513591,
         "participantId": 4,
-        "itemId": 2422
+        "itemId": 2422,
+        "itemNameKo": "약간 신비한 신발"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 513591,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 513591,
         "participantId": 4,
-        "itemId": 3047
+        "itemId": 3047,
+        "itemNameKo": "판금 장화"
       },
       {
         "type": "BUILDING_KILL",
@@ -1081,7 +1198,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 583873,
         "participantId": 4,
-        "itemId": 1031
+        "itemId": 1031,
+        "itemNameKo": "쇠사슬 조끼"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1101,7 +1219,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 624274,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "BUILDING_KILL",
@@ -1163,25 +1282,29 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 729625,
         "participantId": 4,
-        "itemId": 3076
+        "itemId": 3076,
+        "itemNameKo": "덤불 조끼"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 729625,
         "participantId": 4,
-        "itemId": 1031
+        "itemId": 1031,
+        "itemNameKo": "쇠사슬 조끼"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 729625,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 729625,
         "participantId": 4,
-        "itemId": 3075
+        "itemId": 3075,
+        "itemNameKo": "가시 갑옷"
       },
       {
         "type": "BUILDING_KILL",
@@ -1201,7 +1324,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 737700,
         "participantId": 4,
-        "itemId": 1033
+        "itemId": 1033,
+        "itemNameKo": "마법무효화의 망토"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1295,13 +1419,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 789541,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 798158,
         "participantId": 4,
-        "itemId": 1006
+        "itemId": 1006,
+        "itemNameKo": "원기 회복의 구슬"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1337,31 +1463,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 878112,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 878112,
         "participantId": 4,
-        "itemId": 1033
+        "itemId": 1033,
+        "itemNameKo": "마법무효화의 망토"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 878112,
         "participantId": 4,
-        "itemId": 1006
+        "itemId": 1006,
+        "itemNameKo": "원기 회복의 구슬"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 878112,
         "participantId": 4,
-        "itemId": 3211
+        "itemId": 3211,
+        "itemNameKo": "망령의 두건"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 879918,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "BUILDING_KILL",
@@ -1401,13 +1532,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 946871,
         "participantId": 4,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 946871,
         "participantId": 4,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "BUILDING_KILL",
@@ -1438,19 +1571,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1025041,
         "participantId": 4,
-        "itemId": 3211
+        "itemId": 3211,
+        "itemNameKo": "망령의 두건"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 1025041,
         "participantId": 4,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1025041,
         "participantId": 4,
-        "itemId": 3065
+        "itemId": 3065,
+        "itemNameKo": "정령의 형상"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1473,7 +1609,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 1042996,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_UNDO",
@@ -1481,13 +1618,16 @@
         "participantId": 4,
         "beforeId": 1029,
         "afterId": 0,
-        "goldGain": 300
+        "goldGain": 300,
+        "beforeItemNameKo": "천 갑옷",
+        "afterItemNameKo": null
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1054253,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "BUILDING_KILL",
@@ -1527,7 +1667,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 1071479,
         "participantId": 4,
-        "itemId": 1033
+        "itemId": 1033,
+        "itemNameKo": "마법무효화의 망토"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1595,13 +1736,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1134591,
         "participantId": 4,
-        "itemId": 1033
+        "itemId": 1033,
+        "itemNameKo": "마법무효화의 망토"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1134591,
         "participantId": 4,
-        "itemId": 1057
+        "itemId": 1057,
+        "itemNameKo": "음전자 망토"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1652,13 +1795,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1237598,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1237598,
         "participantId": 4,
-        "itemId": 1031
+        "itemId": 1031,
+        "itemNameKo": "쇠사슬 조끼"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1814,19 +1959,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1386429,
         "participantId": 4,
-        "itemId": 1031
+        "itemId": 1031,
+        "itemNameKo": "쇠사슬 조끼"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 1386429,
         "participantId": 4,
-        "itemId": 1057
+        "itemId": 1057,
+        "itemNameKo": "음전자 망토"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1386429,
         "participantId": 4,
-        "itemId": 6665
+        "itemId": 6665,
+        "itemNameKo": "해신 작쇼"
       },
       {
         "type": "BUILDING_KILL",
@@ -1861,7 +2009,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 1403515,
         "participantId": 4,
-        "itemId": 1033
+        "itemId": 1033,
+        "itemNameKo": "마법무효화의 망토"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1879,5 +2028,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.23.1"
 }

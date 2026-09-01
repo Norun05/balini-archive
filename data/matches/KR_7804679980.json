@@ -82,7 +82,16 @@
       "damagePerMinute": 601.8450418333181,
       "goldPerMinute": 689.7217397461401,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "충전형 물약",
+      "여신의 눈물",
+      "영겁의 지팡이",
+      "사라진 양피지",
+      "장화",
+      null,
+      "포로 간식"
+    ]
   },
   "laneOpponent": {
     "participantId": 6,
@@ -149,7 +158,16 @@
       "damagePerMinute": 1153.2930823320671,
       "goldPerMinute": 732.8566260939926,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "루덴의 동반자",
+      "충전형 물약",
+      "폭풍 쇄도",
+      null,
+      null,
+      null,
+      "포로 간식"
+    ]
   },
   "teammates": [
     {
@@ -217,7 +235,16 @@
         "damagePerMinute": 874.0071419212455,
         "goldPerMinute": 876.6163173073238,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "쇼진의 창",
+        "악마의 마법서",
+        "빛나는 티끌",
+        "증폭의 고서",
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 2,
@@ -284,7 +311,16 @@
         "damagePerMinute": 1123.6484015532574,
         "goldPerMinute": 858.4198935535929,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "망령의 두건",
+        "루비 수정",
+        null,
+        null,
+        "헤르메스의 발걸음",
+        "강철심장",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 3,
@@ -351,7 +387,16 @@
         "damagePerMinute": 713.081022839439,
         "goldPerMinute": 698.0558947403497,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "마법사의 신발",
+        "사라진 양피지",
+        null,
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 5,
@@ -418,7 +463,16 @@
         "damagePerMinute": 369.08154681487935,
         "goldPerMinute": 621.9134219714678,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "강철심장",
+        "마법무효화의 망토",
+        "체력 물약",
+        "음전자 망토",
+        "장화",
+        null,
+        "포로 간식"
+      ]
     }
   ],
   "enemies": [
@@ -487,7 +541,16 @@
         "damagePerMinute": 1153.2930823320671,
         "goldPerMinute": 732.8566260939926,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "충전형 물약",
+        "폭풍 쇄도",
+        null,
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 7,
@@ -554,7 +617,16 @@
         "damagePerMinute": 808.8175318032802,
         "goldPerMinute": 623.4722319177922,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "마법공학 로켓 벨트",
+        "마법공학 교류 발전기",
+        "쓸데없이 큰 지팡이",
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "participantId": 8,
@@ -621,7 +693,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 480.96387818330345,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 9,
@@ -688,7 +769,16 @@
         "damagePerMinute": 1404.6382920786668,
         "goldPerMinute": 827.178727663593,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "충전형 물약",
+        "폭풍 쇄도",
+        "쓸데없이 큰 지팡이",
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 10,
@@ -755,7 +845,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 480.96387818330345,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "포로 간식"
+      ]
     }
   ],
   "timeline": {
@@ -906,19 +1005,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 6360,
         "participantId": 4,
-        "itemId": 1026
+        "itemId": 1026,
+        "itemNameKo": "방출의 마법봉"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 6360,
         "participantId": 4,
-        "itemId": 3070
+        "itemId": 3070,
+        "itemNameKo": "여신의 눈물"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 6360,
         "participantId": 4,
-        "itemId": 2031
+        "itemId": 2031,
+        "itemNameKo": "충전형 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1085,19 +1187,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 269427,
         "participantId": 4,
-        "itemId": 1026
+        "itemId": 1026,
+        "itemNameKo": "방출의 마법봉"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 269427,
         "participantId": 4,
-        "itemId": 6657
+        "itemId": 6657,
+        "itemNameKo": "영겁의 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 277277,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1217,25 +1322,29 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 424653,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 424653,
         "participantId": 4,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 425889,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 426524,
         "participantId": 4,
-        "itemId": 2022
+        "itemId": 2022,
+        "itemNameKo": "빛나는 티끌"
       },
       {
         "type": "ITEM_UNDO",
@@ -1243,7 +1352,9 @@
         "participantId": 4,
         "beforeId": 2022,
         "afterId": 0,
-        "goldGain": 250
+        "goldGain": 250,
+        "beforeItemNameKo": "빛나는 티끌",
+        "afterItemNameKo": null
       },
       {
         "type": "ITEM_UNDO",
@@ -1251,13 +1362,16 @@
         "participantId": 4,
         "beforeId": 1052,
         "afterId": 0,
-        "goldGain": 400
+        "goldGain": 400,
+        "beforeItemNameKo": "증폭의 고서",
+        "afterItemNameKo": null
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 430699,
         "participantId": 4,
-        "itemId": 1001
+        "itemId": 1001,
+        "itemNameKo": "장화"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1310,5 +1424,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.18.1"
 }

@@ -82,7 +82,16 @@
       "damagePerMinute": 1612.491660112531,
       "goldPerMinute": 809.4528260761689,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "오만",
+      "무라마나",
+      "광전사의 군화",
+      "콜필드의 전투 망치",
+      "롱소드",
+      "롱소드",
+      "포로 간식"
+    ]
   },
   "laneOpponent": {
     "participantId": 6,
@@ -149,7 +158,16 @@
       "damagePerMinute": 1206.9165586076724,
       "goldPerMinute": 691.56898779561,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "악의",
+      "충전형 물약",
+      "마법사의 신발",
+      "폭풍 쇄도",
+      "마법공학 교류 발전기",
+      null,
+      "포로 간식"
+    ]
   },
   "teammates": [
     {
@@ -217,7 +235,16 @@
         "damagePerMinute": 1204.7486371830616,
         "goldPerMinute": 704.4675248020561,
         "visionScorePerMinute": 0.16821000483435442
-      }
+      },
+      "itemNamesKo": [
+        "윤 탈 야생화살",
+        "몰락한 왕의 검",
+        "정찰병의 새총",
+        "광전사의 군화",
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 2,
@@ -284,7 +311,16 @@
         "damagePerMinute": 2879.1872454626664,
         "goldPerMinute": 1124.7685580387315,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "갈라진 하늘",
+        "스테락의 도전",
+        "몰락한 왕의 검",
+        "콜필드의 전투 망치",
+        null,
+        "판금 장화",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 3,
@@ -351,7 +387,16 @@
         "damagePerMinute": 478.3339777072763,
         "goldPerMinute": 617.7785111729191,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "윤 탈 야생화살",
+        "광전사의 군화",
+        "루난의 허리케인",
+        null,
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 5,
@@ -418,7 +463,16 @@
         "damagePerMinute": 1198.2681167722021,
         "goldPerMinute": 764.8604195016146,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "악의",
+        "루덴의 동반자",
+        "마법사의 신발",
+        "증폭의 고서",
+        null,
+        null,
+        "포로 간식"
+      ]
     }
   ],
   "enemies": [
@@ -487,7 +541,16 @@
         "damagePerMinute": 1206.9165586076724,
         "goldPerMinute": 691.56898779561,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "악의",
+        "충전형 물약",
+        "마법사의 신발",
+        "폭풍 쇄도",
+        "마법공학 교류 발전기",
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 7,
@@ -554,7 +617,16 @@
         "damagePerMinute": 1571.7322733161063,
         "goldPerMinute": 721.9791883375677,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "월식",
+        "판금 장화",
+        "죽음의 무도",
+        "루비 수정",
+        "천 갑옷",
+        "천 갑옷",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 8,
@@ -621,7 +693,16 @@
         "damagePerMinute": 1282.6256805980051,
         "goldPerMinute": 861.4578894604425,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "크라켄 학살자",
+        "충전형 물약",
+        "광전사의 군화",
+        "구인수의 격노검",
+        "악마의 마법서",
+        "곡궁",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 9,
@@ -688,7 +769,16 @@
         "damagePerMinute": 399.88002654137745,
         "goldPerMinute": 582.7650401568666,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "강철심장",
+        "장화",
+        "마법무효화의 망토",
+        null,
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 10,
@@ -755,7 +845,16 @@
         "damagePerMinute": 688.9429240824417,
         "goldPerMinute": 625.2717822989201,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "충전형 물약",
+        "강철심장",
+        "종말의 겨울",
+        "바미의 불씨",
+        "쇠사슬 조끼",
+        null,
+        null
+      ]
     }
   ],
   "timeline": {
@@ -906,13 +1005,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 16637,
         "participantId": 4,
-        "itemId": 3134
+        "itemId": 3134,
+        "itemNameKo": "톱날 단검"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 16637,
         "participantId": 4,
-        "itemId": 3070
+        "itemId": 3070,
+        "itemNameKo": "여신의 눈물"
       },
       {
         "type": "CHAMPION_KILL",
@@ -994,7 +1095,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 97837,
         "participantId": 4,
-        "itemId": 3133
+        "itemId": 3133,
+        "itemNameKo": "콜필드의 전투 망치"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1206,31 +1308,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 296539,
         "participantId": 4,
-        "itemId": 3134
+        "itemId": 3134,
+        "itemNameKo": "톱날 단검"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 296539,
         "participantId": 4,
-        "itemId": 3133
+        "itemId": 3133,
+        "itemNameKo": "콜필드의 전투 망치"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 296539,
         "participantId": 4,
-        "itemId": 126697
+        "itemId": 126697,
+        "itemNameKo": "오만"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 298109,
         "participantId": 4,
-        "itemId": 3133
+        "itemId": 3133,
+        "itemNameKo": "콜필드의 전투 망치"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 299412,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1333,13 +1440,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 367756,
         "participantId": 4,
-        "itemId": 1042
+        "itemId": 1042,
+        "itemNameKo": "단검"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 368190,
         "participantId": 4,
-        "itemId": 1042
+        "itemId": 1042,
+        "itemNameKo": "단검"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1597,67 +1706,78 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 592218,
         "participantId": 4,
-        "itemId": 3070
+        "itemId": 3070,
+        "itemNameKo": "여신의 눈물"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 592218,
         "participantId": 4,
-        "itemId": 3133
+        "itemId": 3133,
+        "itemNameKo": "콜필드의 전투 망치"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 592218,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 592218,
         "participantId": 4,
-        "itemId": 3004
+        "itemId": 3004,
+        "itemNameKo": "마나무네"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 592285,
         "participantId": 4,
-        "itemId": 3004
+        "itemId": 3004,
+        "itemNameKo": "마나무네"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 594122,
         "participantId": 4,
-        "itemId": 1042
+        "itemId": 1042,
+        "itemNameKo": "단검"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 594122,
         "participantId": 4,
-        "itemId": 1042
+        "itemId": 1042,
+        "itemNameKo": "단검"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 594122,
         "participantId": 4,
-        "itemId": 3006
+        "itemId": 3006,
+        "itemNameKo": "광전사의 군화"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 596393,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 596560,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 597328,
         "participantId": 4,
-        "itemId": 2022
+        "itemId": 2022,
+        "itemNameKo": "빛나는 티끌"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1754,38 +1874,46 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 664158,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 664158,
         "participantId": 4,
-        "itemId": 2022
+        "itemId": 2022,
+        "itemNameKo": "빛나는 티끌"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 664158,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 664158,
         "participantId": 4,
-        "itemId": 3133
+        "itemId": 3133,
+        "itemNameKo": "콜필드의 전투 망치"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 664926,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 665461,
         "participantId": 4,
-        "itemId": 1036
+        "itemId": 1036,
+        "itemNameKo": "롱소드"
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.17.1"
 }

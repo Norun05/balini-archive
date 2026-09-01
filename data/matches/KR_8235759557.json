@@ -81,7 +81,16 @@
       "damagePerMinute": 146.97017345963042,
       "goldPerMinute": 354.9892123743936,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "도란의 검",
+      "체력 물약",
+      null,
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 1,
@@ -147,7 +156,16 @@
       "damagePerMinute": 0,
       "goldPerMinute": 386.2841186076994,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "도란의 방패",
+      "체력 물약",
+      null,
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -214,7 +232,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 378.7501596996813,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        null,
+        "체력 물약",
+        null,
+        null,
+        null,
+        "새끼 바람돌이",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -280,7 +307,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 441.9197196990754,
         "visionScorePerMinute": 0.21135672534097893
-      }
+      },
+      "itemNamesKo": [
+        "도란의 반지",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -346,7 +382,16 @@
         "damagePerMinute": 145.26746132281312,
         "goldPerMinute": 389.1819012268661,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 활",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -412,7 +457,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 350.67042928942624,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "세계 지도집",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -480,7 +534,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 386.2841186076994,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -546,7 +609,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 387.44318920893295,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "새끼 화염발톱",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -612,7 +684,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 335.2850121534233,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 4,
@@ -678,7 +759,16 @@
         "damagePerMinute": 115.11882985974734,
         "goldPerMinute": 378.17076588717504,
         "visionScorePerMinute": 0.2117598075581297
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        null,
+        null,
+        null,
+        null,
+        "체력 물약",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -744,7 +834,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 344.87500553920324,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "세계 지도집",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -895,14 +994,18 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 5299,
         "participantId": 6,
-        "itemId": 1055
+        "itemId": 1055,
+        "itemNameKo": "도란의 검"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 5299,
         "participantId": 6,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "16.11.1"
 }

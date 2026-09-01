@@ -81,7 +81,16 @@
       "damagePerMinute": 140.1557536284159,
       "goldPerMinute": 283.9476424358233,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "도란의 반지",
+      "체력 물약",
+      null,
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 9,
@@ -147,7 +156,16 @@
       "damagePerMinute": 187.43620116076022,
       "goldPerMinute": 283.9476424358233,
       "visionScorePerMinute": 0.19390555989413527
-    }
+    },
+    "itemNamesKo": [
+      "도란의 검",
+      "체력 물약",
+      null,
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -214,7 +232,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 295.4059774515737,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -280,7 +307,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 283.9476424358233,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "participantId": 3,
@@ -346,7 +382,16 @@
         "damagePerMinute": 114.48380802633082,
         "goldPerMinute": 309.7290211068394,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -412,7 +457,16 @@
         "damagePerMinute": 327.87203151154677,
         "goldPerMinute": 327.05248239611046,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "세계 지도집",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -480,7 +534,16 @@
         "damagePerMinute": 55.301556791640614,
         "goldPerMinute": 295.40594414875295,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -546,7 +609,16 @@
         "damagePerMinute": 0,
         "goldPerMinute": 283.9476424358233,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "새끼 바람돌이",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -612,7 +684,16 @@
         "damagePerMinute": 83.79654920450318,
         "goldPerMinute": 318.32274739153667,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 반지",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -678,7 +759,16 @@
         "damagePerMinute": 187.43620116076022,
         "goldPerMinute": 283.9476424358233,
         "visionScorePerMinute": 0.19390555989413527
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "체력 물약",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -744,7 +834,16 @@
         "damagePerMinute": 32.928809242626045,
         "goldPerMinute": 307.4096794596596,
         "visionScorePerMinute": 0.20332147714459486
-      }
+      },
+      "itemNamesKo": [
+        "세계 지도집",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -895,26 +994,32 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 3567,
         "participantId": 4,
-        "itemId": 1056
+        "itemId": 1056,
+        "itemNameKo": "도란의 반지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 3567,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 3567,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 4535,
         "participantId": 4,
-        "itemId": 3340
+        "itemId": 3340,
+        "itemNameKo": "투명 와드"
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.24.1"
 }

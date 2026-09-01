@@ -85,7 +85,16 @@
       "goldPerMinute": 237.91381317006793,
       "earlyLaningPhaseGoldExpAdvantage": 0,
       "visionScorePerMinute": 0.5792079352529755
-    }
+    },
+    "itemNamesKo": [
+      "도란의 반지",
+      "악마의 마법서",
+      "루비 수정",
+      "마법공학 교류 발전기",
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 6,
@@ -155,7 +164,16 @@
       "goldPerMinute": 422.37254435168495,
       "earlyLaningPhaseGoldExpAdvantage": 1,
       "visionScorePerMinute": 0.12238809788273201
-    }
+    },
+    "itemNamesKo": [
+      "도란의 검",
+      "정수 약탈자",
+      "충전형 물약",
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -226,7 +244,16 @@
         "goldPerMinute": 436.46108912233956,
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.8679580687184352
-      }
+      },
+      "itemNamesKo": [
+        "새끼 화염발톱",
+        "어둠불꽃 횃불",
+        "마법사의 신발",
+        "증폭의 고서",
+        "증폭의 고서",
+        null,
+        "예언자의 렌즈"
+      ]
     },
     {
       "participantId": 3,
@@ -296,7 +323,16 @@
         "goldPerMinute": 403.21801064490654,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.48374607403671904
-      }
+      },
+      "itemNamesKo": [
+        "도란의 반지",
+        "충전형 물약",
+        "폭풍 쇄도",
+        "헤르메스의 발걸음",
+        "증폭의 고서",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 4,
@@ -366,7 +402,16 @@
         "goldPerMinute": 227.21479162367984,
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.5677840315453894
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "톱날 단검",
+        "민첩성의 망토",
+        "힘의 영약",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -436,7 +481,16 @@
         "goldPerMinute": 176.85413531155447,
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.11661201561568724
-      }
+      },
+      "itemNamesKo": [
+        null,
+        null,
+        null,
+        "세계 지도집",
+        null,
+        "장화",
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -508,7 +562,16 @@
         "goldPerMinute": 422.37254435168495,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.12238809788273201
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "정수 약탈자",
+        "충전형 물약",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -578,7 +641,16 @@
         "goldPerMinute": 358.18964000511,
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.971990471971755
-      }
+      },
+      "itemNamesKo": [
+        "새끼 이끼쿵쿵이",
+        "발걸음 분쇄기",
+        null,
+        null,
+        "약간 신비한 신발",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -648,7 +720,16 @@
         "goldPerMinute": 359.12411557358973,
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.24282049761627716
-      }
+      },
+      "itemNamesKo": [
+        "도란의 반지",
+        "루덴의 메아리",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -718,7 +799,16 @@
         "goldPerMinute": 502.5086244841136,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.11929454013952259
-      }
+      },
+      "itemNamesKo": [
+        "여신의 눈물",
+        "증폭의 고서",
+        "굳건한 의지의 완전한 비스킷",
+        "사라진 양피지",
+        "루덴의 메아리",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -788,7 +878,16 @@
         "goldPerMinute": 425.8253185894178,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 1.854571500907683
-      }
+      },
+      "itemNamesKo": [
+        "피의 노래",
+        "그림자 검",
+        "신속의 장화",
+        null,
+        null,
+        null,
+        "예언자의 렌즈"
+      ]
     }
   ],
   "timeline": {
@@ -939,37 +1038,43 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 10698,
         "participantId": 1,
-        "itemId": 1056
+        "itemId": 1056,
+        "itemNameKo": "도란의 반지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 10698,
         "participantId": 1,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 10698,
         "participantId": 1,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 11500,
         "participantId": 1,
-        "itemId": 3340
+        "itemId": 3340,
+        "itemNameKo": "투명 와드"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 110647,
         "participantId": 1,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 124989,
         "participantId": 1,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -986,7 +1091,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 225964,
         "participantId": 1,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1003,13 +1109,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 376879,
         "participantId": 1,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 376879,
         "participantId": 1,
-        "itemId": 3108
+        "itemId": 3108,
+        "itemNameKo": "악마의 마법서"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1044,7 +1152,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 530603,
         "participantId": 1,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1104,13 +1213,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 621471,
         "participantId": 1,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 621905,
         "participantId": 1,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "BUILDING_KILL",
@@ -1141,20 +1252,25 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 777496,
         "participantId": 1,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 777496,
         "participantId": 1,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 777496,
         "participantId": 1,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "16.3.1"
 }

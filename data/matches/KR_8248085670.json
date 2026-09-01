@@ -86,7 +86,16 @@
       "earlyLaningPhaseGoldExpAdvantage": 0,
       "laningPhaseGoldExpAdvantage": 0,
       "visionScorePerMinute": 0.7158049641992336
-    }
+    },
+    "itemNamesKo": [
+      "도란의 반지",
+      "마법공학 교류 발전기",
+      "루덴의 메아리",
+      "마법사의 신발",
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 1,
@@ -157,7 +166,16 @@
       "earlyLaningPhaseGoldExpAdvantage": 0,
       "laningPhaseGoldExpAdvantage": 0,
       "visionScorePerMinute": 0.5912402237167312
-    }
+    },
+    "itemNamesKo": [
+      "도란의 방패",
+      "월식",
+      "헤르메스의 발걸음",
+      "충전형 물약",
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -229,7 +247,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.7203710727864536
-      }
+      },
+      "itemNamesKo": [
+        "새끼 화염발톱",
+        "월식",
+        "명석함의 아이오니아 장화",
+        "야수화",
+        "롱소드",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -300,7 +327,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.28270483447348377
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "충전형 물약",
+        "균열 생성기",
+        "불멸의 길",
+        "땅굴 채굴기",
+        "곡괭이",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -371,7 +407,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.26435379436990586
-      }
+      },
+      "itemNamesKo": [
+        "도란의 활",
+        "크라켄 학살자",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -442,7 +487,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 1.3349775866660205
-      }
+      },
+      "itemNamesKo": [
+        "피의 노래",
+        "징수의 총",
+        "신속의 장화",
+        "단검",
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -515,7 +569,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.5912402237167312
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "월식",
+        "헤르메스의 발걸음",
+        "충전형 물약",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -586,7 +649,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.4277945058205084
-      }
+      },
+      "itemNamesKo": [
+        "명석함의 아이오니아 장화",
+        "오만",
+        "원칙의 원형낫",
+        "최후의 속삭임",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -657,7 +729,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.4395400012907735
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "마법공학 로켓 벨트",
+        "충전형 물약",
+        "주문투척자의 신발",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 4,
@@ -728,7 +809,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.5024514285469613
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "몰락한 왕의 검",
+        "롱소드",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -799,7 +889,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.8308237364267127
-      }
+      },
+      "itemNamesKo": [
+        "꿈 생성기",
+        "미카엘의 축복",
+        "밴들유리 거울",
+        null,
+        null,
+        null,
+        "예언자의 렌즈"
+      ]
     }
   ],
   "timeline": {
@@ -950,25 +1049,29 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 12151,
         "participantId": 6,
-        "itemId": 1056
+        "itemId": 1056,
+        "itemNameKo": "도란의 반지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 12151,
         "participantId": 6,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 12151,
         "participantId": 6,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 353546,
         "participantId": 6,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "CHAMPION_KILL",
@@ -985,13 +1088,15 @@
         "type": "ITEM_SOLD",
         "timestamp": 569380,
         "participantId": 6,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_SOLD",
         "timestamp": 569647,
         "participantId": 6,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_UNDO",
@@ -999,19 +1104,23 @@
         "participantId": 6,
         "beforeId": 0,
         "afterId": 2003,
-        "goldGain": -20
+        "goldGain": -20,
+        "beforeItemNameKo": null,
+        "afterItemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 571017,
         "participantId": 6,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 574089,
         "participantId": 6,
-        "itemId": 1001
+        "itemId": 1001,
+        "itemNameKo": "장화"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1050,7 +1159,8 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 738239,
         "participantId": 6,
-        "itemId": 1222
+        "itemId": 1222,
+        "itemNameKo": "상단 공격로 퀘스트"
       },
       {
         "type": "BUILDING_KILL",
@@ -1070,31 +1180,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 833366,
         "participantId": 6,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 833366,
         "participantId": 6,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 833366,
         "participantId": 6,
-        "itemId": 6655
+        "itemId": 6655,
+        "itemNameKo": "루덴의 메아리"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 835269,
         "participantId": 6,
-        "itemId": 1001
+        "itemId": 1001,
+        "itemNameKo": "장화"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 835269,
         "participantId": 6,
-        "itemId": 3020
+        "itemId": 3020,
+        "itemNameKo": "마법사의 신발"
       },
       {
         "type": "BUILDING_KILL",
@@ -1128,7 +1243,8 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 932476,
         "participantId": 6,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1148,32 +1264,39 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 946510,
         "participantId": 6,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 946844,
         "participantId": 6,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 962515,
         "participantId": 6,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 962515,
         "participantId": 6,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 962515,
         "participantId": 6,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "16.11.1"
 }

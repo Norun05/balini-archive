@@ -73,7 +73,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "마법공학 로켓 벨트",
+      "존야의 모래시계",
+      "리치베인",
+      "헤르메스의 발걸음",
+      "망각의 구",
+      "쓸데없이 큰 지팡이",
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 6,
@@ -131,7 +140,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "강철심장",
+      "대자연의 힘",
+      "얼어붙은 건틀릿",
+      "망자의 갑옷",
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -190,7 +208,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "마법사의 신발",
+        "폭풍 쇄도",
+        "그림자불꽃",
+        "라바돈의 죽음모자",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -248,7 +275,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "폭풍 쇄도",
+        "그림자불꽃",
+        "주문투척자의 신발",
+        "악의",
+        "천 갑옷",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -306,7 +342,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "삼위일체",
+        "갈라진 하늘",
+        "사슬끈 분쇄자",
+        "지배자의 피갑옷",
+        "죽음의 무도",
+        "루비 수정",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -364,7 +409,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "몰락한 왕의 검",
+        "구인수의 격노검",
+        "건메탈 군화",
+        "밤의 끝자락",
+        "루난의 허리케인",
+        "땅굴 채굴기",
+        "예언자의 렌즈"
+      ]
     }
   ],
   "enemies": [
@@ -424,7 +478,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "강철심장",
+        "대자연의 힘",
+        "얼어붙은 건틀릿",
+        "망자의 갑옷",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -482,7 +545,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "광전사의 군화",
+        "몰락한 왕의 검",
+        "갈라진 하늘",
+        "수호 천사",
+        "곡궁",
+        "곡괭이",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -540,7 +612,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "무한의 대검",
+        "삼위일체",
+        "광전사의 군화",
+        "고속 연사포",
+        "스태틱의 단검",
+        "곡궁",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -598,7 +679,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "무한의 대검",
+        "피바라기",
+        "도미닉 경의 인사",
+        "톱날 단검",
+        "고속 연사포",
+        "헤르메스의 발걸음",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -656,7 +746,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "라바돈의 죽음모자",
+        "공허의 지팡이",
+        "존야의 모래시계",
+        "폭풍 쇄도",
+        "마법사의 신발",
+        "그림자불꽃",
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -807,19 +906,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 6649,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 7551,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 7885,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -885,7 +987,8 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 151547,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -902,13 +1005,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 159597,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 159597,
         "participantId": 4,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "CHAMPION_KILL",
@@ -956,13 +1061,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 215836,
         "participantId": 4,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 215836,
         "participantId": 4,
-        "itemId": 3152
+        "itemId": 3152,
+        "itemNameKo": "마법공학 로켓 벨트"
       },
       {
         "type": "CHAMPION_KILL",
@@ -982,7 +1089,8 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 266356,
         "participantId": 4,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -999,13 +1107,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 279527,
         "participantId": 4,
-        "itemId": 1001
+        "itemId": 1001,
+        "itemNameKo": "장화"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 284538,
         "participantId": 4,
-        "itemId": 1033
+        "itemId": 1033,
+        "itemNameKo": "마법무효화의 망토"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1025,19 +1135,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 338749,
         "participantId": 4,
-        "itemId": 1001
+        "itemId": 1001,
+        "itemNameKo": "장화"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 338749,
         "participantId": 4,
-        "itemId": 1033
+        "itemId": 1033,
+        "itemNameKo": "마법무효화의 망토"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 338749,
         "participantId": 4,
-        "itemId": 3111
+        "itemId": 3111,
+        "itemNameKo": "헤르메스의 발걸음"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1129,13 +1242,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 404948,
         "participantId": 4,
-        "itemId": 3113
+        "itemId": 3113,
+        "itemNameKo": "에테르 환영"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 406417,
         "participantId": 4,
-        "itemId": 2022
+        "itemId": 2022,
+        "itemNameKo": "빛나는 티끌"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1167,13 +1282,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 482027,
         "participantId": 4,
-        "itemId": 2022
+        "itemId": 2022,
+        "itemNameKo": "빛나는 티끌"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 482027,
         "participantId": 4,
-        "itemId": 3057
+        "itemId": 3057,
+        "itemNameKo": "광휘의 검"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1264,31 +1381,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 622506,
         "participantId": 4,
-        "itemId": 3057
+        "itemId": 3057,
+        "itemNameKo": "광휘의 검"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 622506,
         "participantId": 4,
-        "itemId": 3113
+        "itemId": 3113,
+        "itemNameKo": "에테르 환영"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 622506,
         "participantId": 4,
-        "itemId": 3100
+        "itemId": 3100,
+        "itemNameKo": "리치베인"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 642056,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 643070,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "BUILDING_KILL",
@@ -1308,7 +1430,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 703410,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "BUILDING_KILL",
@@ -1420,25 +1543,29 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 784562,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 784562,
         "participantId": 4,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 784562,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 784562,
         "participantId": 4,
-        "itemId": 2420
+        "itemId": 2420,
+        "itemNameKo": "추적자의 팔목 보호대"
       },
       {
         "type": "BUILDING_KILL",
@@ -1461,7 +1588,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 791475,
         "participantId": 4,
-        "itemId": 3916
+        "itemId": 3916,
+        "itemNameKo": "망각의 구"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1538,7 +1666,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 888601,
         "participantId": 4,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "BUILDING_KILL",
@@ -1645,25 +1774,29 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1002530,
         "participantId": 4,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 1002530,
         "participantId": 4,
-        "itemId": 2420
+        "itemId": 2420,
+        "itemNameKo": "추적자의 팔목 보호대"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1002530,
         "participantId": 4,
-        "itemId": 3157
+        "itemId": 3157,
+        "itemNameKo": "존야의 모래시계"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1010562,
         "participantId": 4,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1825,5 +1958,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.24.1"
 }

@@ -86,7 +86,16 @@
       "earlyLaningPhaseGoldExpAdvantage": 0,
       "laningPhaseGoldExpAdvantage": 0,
       "visionScorePerMinute": 0.5316512165982744
-    }
+    },
+    "itemNamesKo": [
+      "도란의 반지",
+      "사라진 양피지",
+      "여신의 눈물",
+      "영겁의 지팡이",
+      "증폭의 고서",
+      "주문투척자의 신발",
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 3,
@@ -157,7 +166,16 @@
       "earlyLaningPhaseGoldExpAdvantage": 0,
       "laningPhaseGoldExpAdvantage": 0,
       "visionScorePerMinute": 0.783643660901211
-    }
+    },
+    "itemNamesKo": [
+      "신속행진",
+      "무한의 대검",
+      null,
+      "스태틱의 단검",
+      null,
+      "도란의 검",
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -229,7 +247,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "laningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.4493606435410845
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "쇼진의 창",
+        "헤르메스의 발걸음",
+        "스테락의 도전",
+        "망자의 갑옷",
+        "음전자 망토",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -300,7 +327,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.8466633725865395
-      }
+      },
+      "itemNamesKo": [
+        "탐식의 망치",
+        "판금 장화",
+        "점화석",
+        null,
+        "월식",
+        "종말의 겨울",
+        "예언자의 렌즈"
+      ]
     },
     {
       "participantId": 9,
@@ -371,7 +407,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.6806456745907911
-      }
+      },
+      "itemNamesKo": [
+        "요우무의 유령검",
+        "도란의 검",
+        "징수의 총",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -442,7 +487,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 1.7979679366195427
-      }
+      },
+      "itemNamesKo": [
+        "마법공학 총검",
+        "암흑의 인장",
+        "천상의 이의",
+        "루덴의 메아리",
+        "롱소드",
+        "롱소드",
+        "예언자의 렌즈"
+      ]
     }
   ],
   "enemies": [
@@ -515,7 +569,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.5257562098219658
-      }
+      },
+      "itemNamesKo": [
+        "균열 생성기",
+        null,
+        "도란의 반지",
+        null,
+        null,
+        "판금 장화",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -586,7 +649,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.36025376430538514
-      }
+      },
+      "itemNamesKo": [
+        "판금 장화",
+        "새끼 이끼쿵쿵이",
+        "리안드리의 고통",
+        "바미의 불씨",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -657,7 +729,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.783643660901211
-      }
+      },
+      "itemNamesKo": [
+        "신속행진",
+        "무한의 대검",
+        null,
+        "스태틱의 단검",
+        null,
+        "도란의 검",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 4,
@@ -728,7 +809,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "laningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.19696647243703355
-      }
+      },
+      "itemNamesKo": [
+        "무한의 대검",
+        "나보리 명멸검",
+        "정수 약탈자",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -799,7 +889,16 @@
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "laningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 1.02449829644926
-      }
+      },
+      "itemNamesKo": [
+        "피의 노래",
+        "월식",
+        "여신의 눈물",
+        "칠흑의 양날 도끼",
+        "루비 수정",
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -950,37 +1049,43 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 5168,
         "participantId": 8,
-        "itemId": 1056
+        "itemId": 1056,
+        "itemNameKo": "도란의 반지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 5168,
         "participantId": 8,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 5168,
         "participantId": 8,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 5970,
         "participantId": 8,
-        "itemId": 3340
+        "itemId": 3340,
+        "itemNameKo": "투명 와드"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 419968,
         "participantId": 8,
-        "itemId": 3070
+        "itemId": 3070,
+        "itemNameKo": "여신의 눈물"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 421702,
         "participantId": 8,
-        "itemId": 3803
+        "itemId": 3803,
+        "itemNameKo": "억겁의 카탈리스트"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1001,7 +1106,8 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 469397,
         "participantId": 8,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1054,31 +1160,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 739937,
         "participantId": 8,
-        "itemId": 3803
+        "itemId": 3803,
+        "itemNameKo": "억겁의 카탈리스트"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 739937,
         "participantId": 8,
-        "itemId": 6657
+        "itemId": 6657,
+        "itemNameKo": "영겁의 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 741624,
         "participantId": 8,
-        "itemId": 1027
+        "itemId": 1027,
+        "itemNameKo": "사파이어 수정"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 790410,
         "participantId": 8,
-        "itemId": 2001
+        "itemId": 2001,
+        "itemNameKo": null
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 790410,
         "participantId": 8,
-        "itemId": 1201
+        "itemId": 1201,
+        "itemNameKo": "중단 공격로 퀘스트"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1113,31 +1224,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 937357,
         "participantId": 8,
-        "itemId": 2002
+        "itemId": 2002,
+        "itemNameKo": "상급 귀환"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 938960,
         "participantId": 8,
-        "itemId": 3020
+        "itemId": 3020,
+        "itemNameKo": "마법사의 신발"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 938960,
         "participantId": 8,
-        "itemId": 3020
+        "itemId": 3020,
+        "itemNameKo": "마법사의 신발"
       },
       {
         "type": "ITEM_SOLD",
         "timestamp": 941757,
         "participantId": 8,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 942893,
         "participantId": 8,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1218,37 +1334,43 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1073917,
         "participantId": 8,
-        "itemId": 2001
+        "itemId": 2001,
+        "itemNameKo": null
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 1075687,
         "participantId": 8,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 1075687,
         "participantId": 8,
-        "itemId": 1027
+        "itemId": 1027,
+        "itemNameKo": "사파이어 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1075687,
         "participantId": 8,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1076889,
         "participantId": 8,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 1117581,
         "participantId": 8,
-        "itemId": 2001
+        "itemId": 2001,
+        "itemNameKo": null
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1456,5 +1578,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "16.1.1"
 }

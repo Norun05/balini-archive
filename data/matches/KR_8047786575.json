@@ -73,7 +73,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "미카엘의 축복",
+      "악의",
+      "마법사의 신발",
+      "불타는 향로",
+      "월석 재생기",
+      "그림자불꽃",
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 1,
@@ -131,7 +140,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "내셔의 이빨",
+      "무한의 대검",
+      "윤 탈 야생화살",
+      "광전사의 군화",
+      "구인수의 격노검",
+      "크라켄 학살자",
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -190,7 +208,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "밴시의 장막",
+        "존야의 모래시계",
+        "라바돈의 죽음모자",
+        "마법사의 신발",
+        "루덴의 메아리",
+        "악의",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -248,7 +275,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "우주의 추진력",
+        "란두인의 예언",
+        "라바돈의 죽음모자",
+        "마법사의 신발",
+        "균열 생성기",
+        "정령의 형상",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -306,7 +342,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "황혼과 새벽",
+        "존야의 모래시계",
+        "폭풍 쇄도",
+        "그림자불꽃",
+        "라바돈의 죽음모자",
+        "헤르메스의 발걸음",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -364,7 +409,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "징수의 총",
+        "신속의 장화",
+        "무한의 대검",
+        "도미닉 경의 인사",
+        "고속 연사포",
+        "수호 천사",
+        "전령의 눈"
+      ]
     }
   ],
   "enemies": [
@@ -424,7 +478,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "내셔의 이빨",
+        "무한의 대검",
+        "윤 탈 야생화살",
+        "광전사의 군화",
+        "구인수의 격노검",
+        "크라켄 학살자",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -482,7 +545,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "루덴의 메아리",
+        "신속의 장화",
+        "균열 생성기",
+        "폭풍 쇄도",
+        "리안드리의 고통",
+        "라바돈의 죽음모자",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -540,7 +612,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "증폭의 고서",
+        "존야의 모래시계",
+        "명석함의 아이오니아 장화",
+        "라일라이의 수정홀",
+        "어둠불꽃 횃불",
+        "리안드리의 고통",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 4,
@@ -598,7 +679,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "마법사의 최후",
+        "몰락한 왕의 검",
+        "판금 장화",
+        "루난의 허리케인",
+        "해신 작쇼",
+        "B.F. 대검",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -656,7 +746,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "징수의 총",
+        "신속의 장화",
+        "무한의 대검",
+        null,
+        "루난의 허리케인",
+        "피바라기",
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -807,19 +906,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 14859,
         "participantId": 9,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 16228,
         "participantId": 9,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 18166,
         "participantId": 9,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -853,13 +955,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 180721,
         "participantId": 9,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 180721,
         "participantId": 9,
-        "itemId": 2508
+        "itemId": 2508,
+        "itemNameKo": "운명의 재"
       },
       {
         "type": "ITEM_UNDO",
@@ -867,19 +971,23 @@
         "participantId": 9,
         "beforeId": 2508,
         "afterId": 0,
-        "goldGain": 500
+        "goldGain": 500,
+        "beforeItemNameKo": "운명의 재",
+        "afterItemNameKo": null
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 186399,
         "participantId": 9,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 186399,
         "participantId": 9,
-        "itemId": 4642
+        "itemId": 4642,
+        "itemNameKo": "밴들유리 거울"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -913,19 +1021,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 439817,
         "participantId": 9,
-        "itemId": 4642
+        "itemId": 4642,
+        "itemNameKo": "밴들유리 거울"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 439817,
         "participantId": 9,
-        "itemId": 6617
+        "itemId": 6617,
+        "itemNameKo": "월석 재생기"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 441487,
         "participantId": 9,
-        "itemId": 3020
+        "itemId": 3020,
+        "itemNameKo": "마법사의 신발"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -962,19 +1073,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 541641,
         "participantId": 9,
-        "itemId": 3113
+        "itemId": 3113,
+        "itemNameKo": "에테르 환영"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 542409,
         "participantId": 9,
-        "itemId": 1004
+        "itemId": 1004,
+        "itemNameKo": "요정의 부적"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 588587,
         "participantId": 9,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "BUILDING_KILL",
@@ -1040,19 +1154,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 666640,
         "participantId": 9,
-        "itemId": 3113
+        "itemId": 3113,
+        "itemNameKo": "에테르 환영"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 666640,
         "participantId": 9,
-        "itemId": 1004
+        "itemId": 1004,
+        "itemNameKo": "요정의 부적"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 666640,
         "participantId": 9,
-        "itemId": 3504
+        "itemId": 3504,
+        "itemNameKo": "불타는 향로"
       },
       {
         "type": "BUILDING_KILL",
@@ -1119,7 +1236,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 760615,
         "participantId": 9,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "BUILDING_KILL",
@@ -1156,19 +1274,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 793050,
         "participantId": 9,
-        "itemId": 1004
+        "itemId": 1004,
+        "itemNameKo": "요정의 부적"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 829769,
         "participantId": 9,
-        "itemId": 1004
+        "itemId": 1004,
+        "itemNameKo": "요정의 부적"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 829769,
         "participantId": 9,
-        "itemId": 3114
+        "itemId": 3114,
+        "itemNameKo": "금지된 우상"
       },
       {
         "type": "BUILDING_KILL",
@@ -1239,25 +1360,29 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 901329,
         "participantId": 9,
-        "itemId": 3067
+        "itemId": 3067,
+        "itemNameKo": "점화석"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 901329,
         "participantId": 9,
-        "itemId": 3114
+        "itemId": 3114,
+        "itemNameKo": "금지된 우상"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 901329,
         "participantId": 9,
-        "itemId": 3222
+        "itemId": 3222,
+        "itemNameKo": "미카엘의 축복"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 931268,
         "participantId": 9,
-        "itemId": 1027
+        "itemId": 1027,
+        "itemNameKo": "사파이어 수정"
       },
       {
         "type": "BUILDING_KILL",
@@ -1320,13 +1445,15 @@
         "type": "ITEM_SOLD",
         "timestamp": 1001746,
         "participantId": 9,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1005921,
         "participantId": 9,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "BUILDING_KILL",
@@ -1438,19 +1565,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1110721,
         "participantId": 9,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 1110721,
         "participantId": 9,
-        "itemId": 1027
+        "itemId": 1027,
+        "itemNameKo": "사파이어 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1110721,
         "participantId": 9,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "BUILDING_KILL",
@@ -1562,19 +1692,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1251560,
         "participantId": 9,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1251560,
         "participantId": 9,
-        "itemId": 3118
+        "itemId": 3118,
+        "itemNameKo": "악의"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1264958,
         "participantId": 9,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1670,7 +1803,8 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1405965,
         "participantId": 9,
-        "itemId": 2001
+        "itemId": 2001,
+        "itemNameKo": "귀환"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1707,13 +1841,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 1462282,
         "participantId": 9,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 1462282,
         "participantId": 9,
-        "itemId": 4645
+        "itemId": 4645,
+        "itemNameKo": "그림자불꽃"
       },
       {
         "type": "BUILDING_KILL",
@@ -1762,5 +1898,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "16.2.1"
 }

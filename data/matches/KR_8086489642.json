@@ -82,7 +82,16 @@
       "damagePerMinute": 327.62687991902385,
       "goldPerMinute": 316.5771798958621,
       "visionScorePerMinute": 0.2807394379735054
-    }
+    },
+    "itemNamesKo": [
+      "도란의 반지",
+      "체력 물약",
+      "억겁의 카탈리스트",
+      "장화",
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 8,
@@ -149,7 +158,16 @@
       "damagePerMinute": 230.34998021494056,
       "goldPerMinute": 373.5061014576479,
       "visionScorePerMinute": 0.18286295076966208
-    }
+    },
+    "itemNamesKo": [
+      "콜필드의 전투 망치",
+      "충전형 물약",
+      "곡괭이",
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -217,7 +235,16 @@
         "damagePerMinute": 620.3581099494718,
         "goldPerMinute": 530.5892530926776,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "벼락폭풍검",
+        "장화",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -284,7 +311,16 @@
         "damagePerMinute": 82.7346998797528,
         "goldPerMinute": 353.8805462932955,
         "visionScorePerMinute": 0.46159921257969155
-      }
+      },
+      "itemNamesKo": [
+        "새끼 이끼쿵쿵이",
+        "거인의 허리띠",
+        "수정 팔 보호구",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 4,
@@ -351,7 +387,16 @@
         "damagePerMinute": 237.967500632143,
         "goldPerMinute": 267.55832365145085,
         "visionScorePerMinute": 0.22452982077235162
-      }
+      },
+      "itemNamesKo": [
+        "도란의 검",
+        "여신의 눈물",
+        "충전형 물약",
+        null,
+        "광휘의 검",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -418,7 +463,16 @@
         "damagePerMinute": 88.67594650446861,
         "goldPerMinute": 197.6437646832634,
         "visionScorePerMinute": 0.3810565205953625
-      }
+      },
+      "itemNamesKo": [
+        "세계 지도집",
+        "체력 물약",
+        "증폭의 고서",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -487,7 +541,16 @@
         "damagePerMinute": 217.02805369694886,
         "goldPerMinute": 192.8915632647955,
         "visionScorePerMinute": 0.49856256831577583
-      }
+      },
+      "itemNamesKo": [
+        "도란의 방패",
+        "충전형 물약",
+        "루비 수정",
+        "제어 와드",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -554,7 +617,16 @@
         "damagePerMinute": 173.2017962797362,
         "goldPerMinute": 382.015447841278,
         "visionScorePerMinute": 0.7029194263006177
-      }
+      },
+      "itemNamesKo": [
+        "새끼 이끼쿵쿵이",
+        "마법공학 로켓 벨트",
+        null,
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -621,7 +693,16 @@
         "damagePerMinute": 230.34998021494056,
         "goldPerMinute": 373.5061014576479,
         "visionScorePerMinute": 0.18286295076966208
-      }
+      },
+      "itemNamesKo": [
+        "콜필드의 전투 망치",
+        "충전형 물약",
+        "곡괭이",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -688,7 +769,16 @@
         "damagePerMinute": 223.52787293699365,
         "goldPerMinute": 297.9404194716091,
         "visionScorePerMinute": 0.5919386634617205
-      }
+      },
+      "itemNamesKo": [
+        "굳건한 의지의 완전한 비스킷",
+        "충전형 물약",
+        "광전사의 군화",
+        "빛나는 티끌",
+        "도란의 검",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -755,7 +845,16 @@
         "damagePerMinute": 278.17163493274757,
         "goldPerMinute": 283.3243811740256,
         "visionScorePerMinute": 0.9674720658919994
-      }
+      },
+      "itemNamesKo": [
+        "여신의 눈물",
+        "체력 물약",
+        "룬 나침반",
+        "장화",
+        "빛나는 티끌",
+        "증폭의 고서",
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -906,19 +1005,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 7768,
         "participantId": 3,
-        "itemId": 1056
+        "itemId": 1056,
+        "itemNameKo": "도란의 반지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 7768,
         "participantId": 3,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 7768,
         "participantId": 3,
-        "itemId": 2003
+        "itemId": 2003,
+        "itemNameKo": "체력 물약"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -968,14 +1070,18 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 407387,
         "participantId": 3,
-        "itemId": 3803
+        "itemId": 3803,
+        "itemNameKo": "억겁의 카탈리스트"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 416973,
         "participantId": 3,
-        "itemId": 1001
+        "itemId": 1001,
+        "itemNameKo": "장화"
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "16.3.1"
 }

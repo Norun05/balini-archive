@@ -82,7 +82,16 @@
       "damagePerMinute": 1799.7969512431453,
       "goldPerMinute": 725.6018565471668,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "존야의 모래시계",
+      "대천사의 포옹",
+      "충전형 물약",
+      "마법사의 신발",
+      "영겁의 지팡이",
+      "쓸데없이 큰 지팡이",
+      "포로 간식"
+    ]
   },
   "laneOpponent": {
     "participantId": 6,
@@ -149,7 +158,16 @@
       "damagePerMinute": 987.9581295753267,
       "goldPerMinute": 631.0084097237982,
       "visionScorePerMinute": 0
-    }
+    },
+    "itemNamesKo": [
+      "악의",
+      "헤르메스의 발걸음",
+      "리안드리의 고통",
+      "균열 생성기",
+      null,
+      null,
+      "포로 간식"
+    ]
   },
   "teammates": [
     {
@@ -217,7 +235,16 @@
         "damagePerMinute": 2743.868246058499,
         "goldPerMinute": 785.8275308139185,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "내셔의 이빨",
+        "광전사의 군화",
+        "리치베인",
+        "루난의 허리케인",
+        "균열 생성기",
+        "곡괭이",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 2,
@@ -284,7 +311,16 @@
         "damagePerMinute": 2947.636098808947,
         "goldPerMinute": 883.5208062128839,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "마법사의 신발",
+        "그림자불꽃",
+        "라바돈의 죽음모자",
+        "역병의 보석",
+        "방출의 마법봉",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 4,
@@ -351,7 +387,16 @@
         "damagePerMinute": 957.5034624460919,
         "goldPerMinute": 633.4893867377111,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "마법사의 신발",
+        "그림자불꽃",
+        "라바돈의 죽음모자",
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 5,
@@ -418,7 +463,16 @@
         "damagePerMinute": 1227.93519679312,
         "goldPerMinute": 682.828292724897,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "억겁의 카탈리스트",
+        "체력 물약",
+        "끝없는 절망",
+        "판금 장화",
+        "정령의 형상",
+        "강철심장",
+        "포로 간식"
+      ]
     }
   ],
   "enemies": [
@@ -487,7 +541,16 @@
         "damagePerMinute": 987.9581295753267,
         "goldPerMinute": 631.0084097237982,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "악의",
+        "헤르메스의 발걸음",
+        "리안드리의 고통",
+        "균열 생성기",
+        null,
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 7,
@@ -554,7 +617,16 @@
         "damagePerMinute": 1472.0021999290939,
         "goldPerMinute": 616.8442653483982,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "강철심장",
+        "헤르메스의 발걸음",
+        "끝없는 절망",
+        "워모그의 갑옷",
+        "천 갑옷",
+        "천 갑옷",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 8,
@@ -621,7 +693,16 @@
         "damagePerMinute": 1706.3816940997347,
         "goldPerMinute": 715.2182223091053,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "징수의 총",
+        "피바라기",
+        "신속의 장화",
+        "고속 연사포",
+        "민첩성의 망토",
+        "최후의 속삭임",
+        "포로 간식"
+      ]
     },
     {
       "participantId": 9,
@@ -688,7 +769,16 @@
         "damagePerMinute": 1256.8168116461316,
         "goldPerMinute": 679.8023181814832,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "헤르메스의 발걸음",
+        "징수의 총",
+        "무한의 대검",
+        "불멸의 철갑궁",
+        "민첩성의 망토",
+        null,
+        "포로 간식"
+      ]
     },
     {
       "participantId": 10,
@@ -755,7 +845,16 @@
         "damagePerMinute": 1956.5132219157683,
         "goldPerMinute": 804.2270026152172,
         "visionScorePerMinute": 0
-      }
+      },
+      "itemNamesKo": [
+        "광전사의 군화",
+        "윤 탈 야생화살",
+        "루난의 허리케인",
+        "필멸자의 운명",
+        "피바라기",
+        "민첩성의 망토",
+        "포로 간식"
+      ]
     }
   ],
   "timeline": {
@@ -906,19 +1005,22 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 12109,
         "participantId": 3,
-        "itemId": 1026
+        "itemId": 1026,
+        "itemNameKo": "방출의 마법봉"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 12109,
         "participantId": 3,
-        "itemId": 3070
+        "itemId": 3070,
+        "itemNameKo": "여신의 눈물"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 12109,
         "participantId": 3,
-        "itemId": 2031
+        "itemId": 2031,
+        "itemNameKo": "충전형 물약"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1021,13 +1123,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 149409,
         "participantId": 3,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 150110,
         "participantId": 3,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1211,37 +1315,43 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 341848,
         "participantId": 3,
-        "itemId": 1026
+        "itemId": 1026,
+        "itemNameKo": "방출의 마법봉"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 341848,
         "participantId": 3,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 341848,
         "participantId": 3,
-        "itemId": 1028
+        "itemId": 1028,
+        "itemNameKo": "루비 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 341848,
         "participantId": 3,
-        "itemId": 6657
+        "itemId": 6657,
+        "itemNameKo": "영겁의 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 348234,
         "participantId": 3,
-        "itemId": 3020
+        "itemId": 3020,
+        "itemNameKo": "마법사의 신발"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 351507,
         "participantId": 3,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1310,19 +1420,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 431685,
         "participantId": 3,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 431685,
         "participantId": 3,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 443544,
         "participantId": 3,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1424,43 +1537,50 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 576863,
         "participantId": 3,
-        "itemId": 3070
+        "itemId": 3070,
+        "itemNameKo": "여신의 눈물"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 576863,
         "participantId": 3,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 576863,
         "participantId": 3,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 576863,
         "participantId": 3,
-        "itemId": 3003
+        "itemId": 3003,
+        "itemNameKo": "대천사의 지팡이"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 577063,
         "participantId": 3,
-        "itemId": 3003
+        "itemId": 3003,
+        "itemNameKo": "대천사의 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 596570,
         "participantId": 3,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 597038,
         "participantId": 3,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1566,19 +1686,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 680999,
         "participantId": 3,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 680999,
         "participantId": 3,
-        "itemId": 1029
+        "itemId": 1029,
+        "itemNameKo": "천 갑옷"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 680999,
         "participantId": 3,
-        "itemId": 2420
+        "itemId": 2420,
+        "itemNameKo": "추적자의 팔목 보호대"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1728,7 +1851,8 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 912303,
         "participantId": 3,
-        "itemId": 2420
+        "itemId": 2420,
+        "itemNameKo": "추적자의 팔목 보호대"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1765,13 +1889,15 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 920787,
         "participantId": 3,
-        "itemId": 2421
+        "itemId": 2421,
+        "itemNameKo": "부서진 팔목 보호대"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 920787,
         "participantId": 3,
-        "itemId": 3157
+        "itemId": 3157,
+        "itemNameKo": "존야의 모래시계"
       },
       {
         "type": "BUILDING_KILL",
@@ -1795,7 +1921,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 951016,
         "participantId": 3,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "BUILDING_KILL",
@@ -1911,5 +2038,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.18.1"
 }

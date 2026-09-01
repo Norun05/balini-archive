@@ -73,7 +73,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "루덴의 동반자",
+      "쓸데없이 큰 지팡이",
+      "장화",
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 6,
@@ -131,7 +140,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "거인의 허리띠",
+      "수정 팔 보호구",
+      "약간 신비한 신발",
+      null,
+      null,
+      null,
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -190,7 +208,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "태양불꽃 방패",
+        "도란의 방패",
+        "판금 장화",
+        "군단의 방패",
+        "루비 수정",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 2,
@@ -248,7 +275,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "월식",
+        "도란의 검",
+        "판금 장화",
+        "탐식의 망치",
+        "루비 수정",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -306,7 +342,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "새끼 바람돌이",
+        "얼어붙은 건틀릿",
+        "정령의 형상",
+        "증폭의 고서",
+        "약간 신비한 신발",
+        "음전자 망토",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 5,
@@ -364,7 +409,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "마법사의 신발",
+        "쓸데없이 큰 지팡이",
+        "마법공학 교류 발전기",
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -424,7 +478,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "거인의 허리띠",
+        "수정 팔 보호구",
+        "약간 신비한 신발",
+        null,
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 7,
@@ -482,7 +545,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "루덴의 동반자",
+        "마법사의 신발",
+        "운명의 재",
+        "증폭의 고서",
+        "루비 수정",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 8,
@@ -540,7 +612,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "도란의 반지",
+        "헤르메스의 발걸음",
+        "리안드리의 고통",
+        "증폭의 고서",
+        "거인의 허리띠",
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -598,7 +679,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "어둠불꽃 횃불",
+        "장화",
+        "역병의 보석",
+        "방출의 마법봉",
+        null,
+        null,
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -656,7 +746,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "도란의 검",
+        "체력 물약",
+        "윤 탈 야생화살",
+        "민첩성의 망토",
+        null,
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "timeline": {
@@ -807,7 +906,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 24761,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "CHAMPION_KILL",
@@ -859,7 +959,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 111341,
         "participantId": 4,
-        "itemId": 1027
+        "itemId": 1027,
+        "itemNameKo": "사파이어 수정"
       },
       {
         "type": "CHAMPION_KILL",
@@ -890,25 +991,29 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 256352,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 256352,
         "participantId": 4,
-        "itemId": 1027
+        "itemId": 1027,
+        "itemNameKo": "사파이어 수정"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 256352,
         "participantId": 4,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 257354,
         "participantId": 4,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -929,31 +1034,36 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 473174,
         "participantId": 4,
-        "itemId": 3802
+        "itemId": 3802,
+        "itemNameKo": "사라진 양피지"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 473174,
         "participantId": 4,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 473174,
         "participantId": 4,
-        "itemId": 6655
+        "itemId": 6655,
+        "itemNameKo": "루덴의 동반자"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 475347,
         "participantId": 4,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 476082,
         "participantId": 4,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_UNDO",
@@ -961,7 +1071,9 @@
         "participantId": 4,
         "beforeId": 1052,
         "afterId": 0,
-        "goldGain": 400
+        "goldGain": 400,
+        "beforeItemNameKo": "증폭의 고서",
+        "afterItemNameKo": null
       },
       {
         "type": "ITEM_UNDO",
@@ -969,19 +1081,23 @@
         "participantId": 4,
         "beforeId": 1058,
         "afterId": 0,
-        "goldGain": 1200
+        "goldGain": 1200,
+        "beforeItemNameKo": "쓸데없이 큰 지팡이",
+        "afterItemNameKo": null
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 480835,
         "participantId": 4,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 481837,
         "participantId": 4,
-        "itemId": 1001
+        "itemId": 1001,
+        "itemNameKo": "장화"
       },
       {
         "type": "BUILDING_KILL",
@@ -1046,5 +1162,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "15.23.1"
 }

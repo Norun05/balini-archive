@@ -85,7 +85,16 @@
       "goldPerMinute": 805.9306587275689,
       "earlyLaningPhaseGoldExpAdvantage": 0,
       "visionScorePerMinute": 0.5120775742216004
-    }
+    },
+    "itemNamesKo": [
+      "마법사의 신발",
+      "그림자불꽃",
+      "폭풍 쇄도",
+      "에테르 환영",
+      "광휘의 검",
+      null,
+      "투명 와드"
+    ]
   },
   "laneOpponent": {
     "participantId": 9,
@@ -143,7 +152,16 @@
         ]
       }
     ],
-    "challenges": {}
+    "challenges": {},
+    "itemNamesKo": [
+      "덤불 조끼",
+      "혹한의 손길",
+      "충전형 물약",
+      "제어 와드",
+      "갈라진 하늘",
+      "판금 장화",
+      "투명 와드"
+    ]
   },
   "teammates": [
     {
@@ -214,7 +232,16 @@
         "goldPerMinute": 1248.1053673428444,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.12819630105794633
-      }
+      },
+      "itemNamesKo": [
+        "리안드리의 고통",
+        "메자이의 영혼약탈자",
+        "마법사의 신발",
+        "핏빛 저주",
+        "균열 생성기",
+        "증폭의 고서",
+        "망원형 개조"
+      ]
     },
     {
       "participantId": 2,
@@ -284,7 +311,16 @@
         "goldPerMinute": 810.7411603021163,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.2750189646506877
-      }
+      },
+      "itemNamesKo": [
+        "월석 재생기",
+        "룬 나침반",
+        "체력 물약",
+        "불타는 향로",
+        "금지된 우상",
+        "방출의 마법봉",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 3,
@@ -354,7 +390,16 @@
         "goldPerMinute": 862.8387464086309,
         "earlyLaningPhaseGoldExpAdvantage": 1,
         "visionScorePerMinute": 0.5779518050071721
-      }
+      },
+      "itemNamesKo": [
+        "충전형 물약",
+        "어둠불꽃 횃불",
+        "메자이의 영혼약탈자",
+        "라일라이의 수정홀",
+        "마법사의 신발",
+        "운명의 재",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 4,
@@ -424,7 +469,16 @@
         "goldPerMinute": 759.6819312084035,
         "earlyLaningPhaseGoldExpAdvantage": 0,
         "visionScorePerMinute": 0.2098235877219668
-      }
+      },
+      "itemNamesKo": [
+        "크라켄 학살자",
+        "몰락한 왕의 검",
+        "판금 장화",
+        "톱날 단검",
+        "민첩성의 망토",
+        null,
+        "투명 와드"
+      ]
     }
   ],
   "enemies": [
@@ -484,7 +538,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "정수 약탈자",
+        "광전사의 군화",
+        "제어 와드",
+        "나보리 명멸검",
+        "민첩성의 망토",
+        "B.F. 대검",
+        "망원형 개조"
+      ]
     },
     {
       "participantId": 7,
@@ -542,7 +605,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "영겁의 지팡이",
+        "마법사의 신발",
+        "제어 와드",
+        "여신의 눈물",
+        "사라진 양피지",
+        "리안드리의 고통",
+        "망원형 개조"
+      ]
     },
     {
       "participantId": 8,
@@ -600,7 +672,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "새끼 바람돌이",
+        "발걸음 분쇄기",
+        "판금 장화",
+        "실험적 마공학판",
+        "제어 와드",
+        "루비 수정",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 9,
@@ -658,7 +739,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "덤불 조끼",
+        "혹한의 손길",
+        "충전형 물약",
+        "제어 와드",
+        "갈라진 하늘",
+        "판금 장화",
+        "투명 와드"
+      ]
     },
     {
       "participantId": 10,
@@ -716,7 +806,16 @@
           ]
         }
       ],
-      "challenges": {}
+      "challenges": {},
+      "itemNamesKo": [
+        "세계의 결실",
+        "판금 장화",
+        "강철심장",
+        "거대한 히드라",
+        "제어 와드",
+        "빛나는 티끌",
+        "예언자의 렌즈"
+      ]
     }
   ],
   "timeline": {
@@ -867,7 +966,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 8471,
         "participantId": 5,
-        "itemId": 3020
+        "itemId": 3020,
+        "itemNameKo": "마법사의 신발"
       },
       {
         "type": "CHAMPION_KILL",
@@ -899,7 +999,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 145534,
         "participantId": 5,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "CHAMPION_KILL",
@@ -927,7 +1028,8 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 286863,
         "participantId": 5,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "ELITE_MONSTER_KILL",
@@ -1001,19 +1103,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 453754,
         "participantId": 5,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 453754,
         "participantId": 5,
-        "itemId": 1058
+        "itemId": 1058,
+        "itemNameKo": "쓸데없이 큰 지팡이"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 453754,
         "participantId": 5,
-        "itemId": 4645
+        "itemId": 4645,
+        "itemNameKo": "그림자불꽃"
       },
       {
         "type": "BUILDING_KILL",
@@ -1033,13 +1138,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 457027,
         "participantId": 5,
-        "itemId": 3113
+        "itemId": 3113,
+        "itemNameKo": "에테르 환영"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 457662,
         "participantId": 5,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "BUILDING_KILL",
@@ -1081,19 +1188,22 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 555888,
         "participantId": 5,
-        "itemId": 3145
+        "itemId": 3145,
+        "itemNameKo": "마법공학 교류 발전기"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 555888,
         "participantId": 5,
-        "itemId": 3113
+        "itemId": 3113,
+        "itemNameKo": "에테르 환영"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 555888,
         "participantId": 5,
-        "itemId": 4646
+        "itemId": 4646,
+        "itemNameKo": "폭풍 쇄도"
       },
       {
         "type": "BUILDING_KILL",
@@ -1116,13 +1226,15 @@
         "type": "ITEM_PURCHASED",
         "timestamp": 569516,
         "participantId": 5,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 572235,
         "participantId": 5,
-        "itemId": 2022
+        "itemId": 2022,
+        "itemNameKo": "빛나는 티끌"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1314,25 +1426,29 @@
         "type": "ITEM_DESTROYED",
         "timestamp": 688273,
         "participantId": 5,
-        "itemId": 2022
+        "itemId": 2022,
+        "itemNameKo": "빛나는 티끌"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 688273,
         "participantId": 5,
-        "itemId": 3057
+        "itemId": 3057,
+        "itemNameKo": "광휘의 검"
       },
       {
         "type": "ITEM_DESTROYED",
         "timestamp": 688907,
         "participantId": 5,
-        "itemId": 1052
+        "itemId": 1052,
+        "itemNameKo": "증폭의 고서"
       },
       {
         "type": "ITEM_PURCHASED",
         "timestamp": 688907,
         "participantId": 5,
-        "itemId": 3113
+        "itemId": 3113,
+        "itemNameKo": "에테르 환영"
       },
       {
         "type": "CHAMPION_KILL",
@@ -1394,5 +1510,7 @@
         }
       }
     ]
-  }
+  },
+  "itemNameLanguage": "ko_KR",
+  "itemDataVersion": "16.6.1"
 }
