@@ -1,0 +1,549 @@
+{
+  "champion": "Kennen",
+  "position": "BOTTOM",
+  "sampleCount": 12,
+  "recognizedFirstCoreCount": 11,
+  "notes": [
+    "Groups are based on first recognized completed core from ITEM_PURCHASED timestamps.",
+    "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
+    "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
+    "Checkpoint rows after exact match end are absent in source data.",
+    "This is descriptive selection-pattern analysis, not causal item-performance analysis."
+  ],
+  "groups": [
+    {
+      "firstCore": "마법공학 로켓 벨트",
+      "games": 10,
+      "wins": 7,
+      "losses": 3,
+      "winRate": 0.7,
+      "avgFirstCoreMinute": 11.15,
+      "medianFirstCoreMinute": 10.78,
+      "completion": {
+        "by10": 3,
+        "by12": 7,
+        "by15": 10,
+        "withTimestamp": 10
+      },
+      "dateRange": {
+        "earliestGameCreation": 1777383465077,
+        "latestGameCreation": 1788091718414
+      },
+      "topOpponents": [
+        {
+          "champion": "Kaisa",
+          "games": 3
+        },
+        {
+          "champion": "Xerath",
+          "games": 2
+        },
+        {
+          "champion": "Aphelios",
+          "games": 1
+        },
+        {
+          "champion": "Swain",
+          "games": 1
+        },
+        {
+          "champion": "Jhin",
+          "games": 1
+        },
+        {
+          "champion": "MissFortune",
+          "games": 1
+        },
+        {
+          "champion": "Senna",
+          "games": 1
+        }
+      ],
+      "secondCores": [
+        {
+          "item": "존야의 모래시계",
+          "games": 2
+        },
+        {
+          "item": "폭풍쇄도",
+          "games": 1
+        },
+        {
+          "item": "그림자불꽃",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "5": {
+          "goldDiff": {
+            "n": 10,
+            "avg": -233.4,
+            "median": -368.0,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 10,
+            "avg": -5.4,
+            "median": -7.5,
+            "ahead": 3,
+            "behind": 7,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 10,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 6
+          }
+        },
+        "10": {
+          "goldDiff": {
+            "n": 10,
+            "avg": -319.6,
+            "median": -146.5,
+            "ahead": 5,
+            "behind": 5,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 10,
+            "avg": -11.2,
+            "median": -12.0,
+            "ahead": 2,
+            "behind": 8,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 10,
+            "avg": -0.2,
+            "median": 0.0,
+            "ahead": 1,
+            "behind": 2,
+            "even": 7
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 9,
+            "avg": -711,
+            "median": -735,
+            "ahead": 3,
+            "behind": 6,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 9,
+            "avg": -20.11,
+            "median": -12,
+            "ahead": 3,
+            "behind": 6,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 9,
+            "avg": 0.11,
+            "median": 0,
+            "ahead": 3,
+            "behind": 3,
+            "even": 3
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 6,
+            "avg": -2384.67,
+            "median": -2755.5,
+            "ahead": 2,
+            "behind": 4,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 6,
+            "avg": -39,
+            "median": -50.0,
+            "ahead": 2,
+            "behind": 4,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 6,
+            "avg": 0,
+            "median": 0.0,
+            "ahead": 2,
+            "behind": 2,
+            "even": 2
+          }
+        }
+      },
+      "resultSplit": {
+        "wins": {
+          "10": {
+            "goldDiff": {
+              "n": 7,
+              "avg": -98.86,
+              "median": 113,
+              "ahead": 4,
+              "behind": 3,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 7,
+              "avg": -4.43,
+              "median": -4,
+              "ahead": 2,
+              "behind": 5,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 6,
+              "avg": 225,
+              "median": 122.0,
+              "ahead": 3,
+              "behind": 3,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 6,
+              "avg": -3.5,
+              "median": -2.5,
+              "ahead": 3,
+              "behind": 3,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 3,
+              "avg": 685,
+              "median": 1853,
+              "ahead": 2,
+              "behind": 1,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 3,
+              "avg": -2.33,
+              "median": 4,
+              "ahead": 2,
+              "behind": 1,
+              "even": 0
+            }
+          }
+        },
+        "losses": {
+          "10": {
+            "goldDiff": {
+              "n": 3,
+              "avg": -834.67,
+              "median": -1439,
+              "ahead": 1,
+              "behind": 2,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 3,
+              "avg": -27,
+              "median": -25,
+              "ahead": 0,
+              "behind": 3,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 3,
+              "avg": -2583,
+              "median": -1788,
+              "ahead": 0,
+              "behind": 3,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 3,
+              "avg": -53.33,
+              "median": -45,
+              "ahead": 0,
+              "behind": 3,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 3,
+              "avg": -5454.33,
+              "median": -4910,
+              "ahead": 0,
+              "behind": 3,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 3,
+              "avg": -75.67,
+              "median": -79,
+              "ahead": 0,
+              "behind": 3,
+              "even": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "firstCore": "마법공학 총검",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0,
+      "avgFirstCoreMinute": 8.7,
+      "medianFirstCoreMinute": 8.7,
+      "completion": {
+        "by10": 1,
+        "by12": 1,
+        "by15": 1,
+        "withTimestamp": 1
+      },
+      "dateRange": {
+        "earliestGameCreation": 1787921061615,
+        "latestGameCreation": 1787921061615
+      },
+      "topOpponents": [
+        {
+          "champion": "Kaisa",
+          "games": 1
+        }
+      ],
+      "secondCores": [
+        {
+          "item": "그림자불꽃",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "5": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -212,
+            "median": -212,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -5,
+            "median": -5,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": 277,
+            "median": 277,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -4,
+            "median": -4,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -584,
+            "median": -584,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -15,
+            "median": -15,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -330,
+            "median": -330,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -18,
+            "median": -18,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 1,
+            "median": 1,
+            "ahead": 1,
+            "behind": 0,
+            "even": 0
+          }
+        }
+      },
+      "resultSplit": {
+        "wins": {
+          "10": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          }
+        },
+        "losses": {
+          "10": {
+            "goldDiff": {
+              "n": 1,
+              "avg": 277,
+              "median": 277,
+              "ahead": 1,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 1,
+              "avg": -4,
+              "median": -4,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 1,
+              "avg": -584,
+              "median": -584,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 1,
+              "avg": -15,
+              "median": -15,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 1,
+              "avg": -330,
+              "median": -330,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 1,
+              "avg": -18,
+              "median": -18,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            }
+          }
+        }
+      }
+    }
+  ]
+}

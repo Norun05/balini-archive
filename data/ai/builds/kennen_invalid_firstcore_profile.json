@@ -1,0 +1,266 @@
+{
+  "champion": "Kennen",
+  "position": "INVALID",
+  "sampleCount": 7,
+  "recognizedFirstCoreCount": 1,
+  "notes": [
+    "Groups are based on first recognized completed core from ITEM_PURCHASED timestamps.",
+    "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
+    "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
+    "Checkpoint rows after exact match end are absent in source data.",
+    "This is descriptive selection-pattern analysis, not causal item-performance analysis."
+  ],
+  "groups": [
+    {
+      "firstCore": "마법공학 로켓 벨트",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0,
+      "avgFirstCoreMinute": 6.35,
+      "medianFirstCoreMinute": 6.35,
+      "completion": {
+        "by10": 1,
+        "by12": 1,
+        "by15": 1,
+        "withTimestamp": 1
+      },
+      "dateRange": {
+        "earliestGameCreation": 1769258523457,
+        "latestGameCreation": 1769258523457
+      },
+      "topOpponents": [
+        {
+          "champion": "Vladimir",
+          "games": 1
+        }
+      ],
+      "secondCores": [
+        {
+          "item": "존야의 모래시계",
+          "games": 1
+        }
+      ],
+      "checkpoints": {
+        "5": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -357,
+            "median": -357,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -12,
+            "median": -12,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "10": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -76,
+            "median": -76,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -24,
+            "median": -24,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": -1,
+            "median": -1,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          }
+        },
+        "15": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -356,
+            "median": -356,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -44,
+            "median": -44,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        },
+        "20": {
+          "goldDiff": {
+            "n": 1,
+            "avg": -1182,
+            "median": -1182,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "csDiff": {
+            "n": 1,
+            "avg": -66,
+            "median": -66,
+            "ahead": 0,
+            "behind": 1,
+            "even": 0
+          },
+          "levelDiff": {
+            "n": 1,
+            "avg": 0,
+            "median": 0,
+            "ahead": 0,
+            "behind": 0,
+            "even": 1
+          }
+        }
+      },
+      "resultSplit": {
+        "wins": {
+          "10": {
+            "goldDiff": {
+              "n": 1,
+              "avg": -76,
+              "median": -76,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 1,
+              "avg": -24,
+              "median": -24,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 1,
+              "avg": -356,
+              "median": -356,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 1,
+              "avg": -44,
+              "median": -44,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 1,
+              "avg": -1182,
+              "median": -1182,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 1,
+              "avg": -66,
+              "median": -66,
+              "ahead": 0,
+              "behind": 1,
+              "even": 0
+            }
+          }
+        },
+        "losses": {
+          "10": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "15": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          },
+          "20": {
+            "goldDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            },
+            "csDiff": {
+              "n": 0,
+              "avg": null,
+              "median": null,
+              "ahead": 0,
+              "behind": 0,
+              "even": 0
+            }
+          }
+        }
+      }
+    }
+  ]
+}
