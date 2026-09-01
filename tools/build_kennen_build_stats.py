@@ -6,6 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "champions" / "kennen" / "top"
 OUT = ROOT / "data" / "ai" / "builds" / "kennen_top.json"
 DETAIL_OUT = ROOT / "data" / "ai" / "builds" / "kennen_top_matches.json"
+RYLAI_OUT = ROOT / "data" / "ai" / "builds" / "kennen_top_rylai.json"
 
 MAJOR_ITEMS = {
     3152: "마법공학 로켓 벨트",
@@ -188,10 +189,22 @@ def main():
         "matches": match_rows,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    rylai_rows = [r for r in match_rows if r.get("firstCore") == "라일라이의 수정홀"]
+    RYLAI_OUT.write_text(json.dumps({
+        "champion": "Kennen",
+        "position": "TOP",
+        "firstCore": "라일라이의 수정홀",
+        "sampleCount": len(rylai_rows),
+        "wins": sum(1 for r in rylai_rows if r.get("win")),
+        "losses": sum(1 for r in rylai_rows if not r.get("win")),
+        "matches": rylai_rows,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
     print(f"Kennen TOP build stats: {len(matches)} matches")
     print(f"Recognized first core: {with_core}")
     print(f"Recognized two core: {with_two_core}")
     print(f"Build detail rows: {len(match_rows)}")
+    print(f"Rylai first-core rows: {len(rylai_rows)}")
 
 
 if __name__ == "__main__":
