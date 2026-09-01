@@ -20,6 +20,8 @@ if %errorlevel%==0 (
     if errorlevel 1 goto :failed
     py -3 tools\build_stats.py
     if errorlevel 1 goto :failed
+    py -3 tools\build_search_index.py
+    if errorlevel 1 goto :failed
     py -3 tools\build_kennen_skill_order.py
     if errorlevel 1 goto :failed
 ) else (
@@ -39,6 +41,8 @@ if %errorlevel%==0 (
         if errorlevel 1 goto :failed
         python tools\build_stats.py
         if errorlevel 1 goto :failed
+        python tools\build_search_index.py
+        if errorlevel 1 goto :failed
         python tools\build_kennen_skill_order.py
         if errorlevel 1 goto :failed
     ) else (
@@ -50,7 +54,7 @@ if %errorlevel%==0 (
 )
 
 echo.
-echo Split site data, full participant/event data, dense early-laning snapshots, all-position movement snapshots, Korean item names, cross-lane team context, generic precomputed stats, and Kennen skill-order stats are ready.
+echo Split site data, full participant/event data, dense early-laning snapshots, all-position movement snapshots, Korean item names, cross-lane team context, generic precomputed stats, tiny AI search routes, and Kennen skill-order stats are ready.
 echo Commit all changed files in GitHub Desktop and Push origin.
 goto :done
 
