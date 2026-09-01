@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "champions" / "kennen" / "top"
 OUT = ROOT / "data" / "ai" / "builds" / "kennen_top.json"
+DETAIL_OUT = ROOT / "data" / "ai" / "builds" / "kennen_top_matches.json"
 
 MAJOR_ITEMS = {
     3152: "마법공학 로켓 벨트",
@@ -85,6 +86,30 @@ def purchase_order(match, allowed):
     return bought
 
 
+def purchase_time(match, item_id):
+    events = ((match.get("timeline") or {}).get("itemEvents") or [])
+    times = [e.get("timestamp") for e in events if e.get("type") == "ITEM_PURCHASED" and e.get("itemId") == item_id]
+    times = [t for t in times if isinstance(t, (int, float))]
+    return min(times) if times else None
+
+
+def snapshot_diffs(match):
+    out = {}
+    duration = match.get("gameDuration") or 0
+    for s in ((match.get("timeline") or {}).get("snapshots") or []):
+        minute = s.get("minute")
+        if minute not in (5, 10, 15, 20):
+            continue
+        if isinstance(duration, (int, float)) and duration < minute * 60:
+            continue
+        out[str(minute)] = {
+            "goldDiff": s.get("goldDiff"),
+            "csDiff": s.get("csDiff"),
+            "levelDiff": s.get("levelDiff"),
+        }
+    return out
+
+
 def main():
     matches = load_matches()
 
@@ -92,6 +117,7 @@ def main():
     two_core = defaultdict(lambda: {"games": 0, "wins": 0})
     boots = defaultdict(lambda: {"games": 0, "wins": 0})
     final_presence = defaultdict(lambda: {"games": 0, "wins": 0})
+    match_rows = []
 
     with_core = 0
     with_two_core = 0
@@ -104,6 +130,26 @@ def main():
         if majors:
             with_core += 1
             add(first_core, MAJOR_ITEMS[majors[0]], win)
+            first_name = MAJOR_ITEMS[majors[0]]
+            second_name = MAJOR_ITEMS[majors[1]] if len(majors) >= 2 else None
+            boot_name = BOOTS[shoe_order[0]] if shoe_order else None
+            match_rows.append({
+                "matchId": m.get("matchId"),
+                "gameCreation": m.get("gameCreation"),
+                "gameDuration": m.get("gameDuration"),
+                "opponent": m.get("opponent"),
+                "win": win,
+                "kills": m.get("kills"),
+                "deaths": m.get("deaths"),
+                "assists": m.get("assists"),
+                "cs": m.get("cs"),
+                "firstCore": first_name,
+                "firstCoreTimestamp": purchase_time(m, majors[0]),
+                "secondCore": second_name,
+                "secondCoreTimestamp": purchase_time(m, majors[1]) if len(majors) >= 2 else None,
+                "boots": boot_name,
+                "snapshots": snapshot_diffs(m),
+            })
         if len(majors) >= 2:
             with_two_core += 1
             add(two_core, f"{MAJOR_ITEMS[majors[0]]} → {MAJOR_ITEMS[majors[1]]}", win)
@@ -133,9 +179,19 @@ def main():
         "finalItemPresence": finish(final_presence),
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    match_rows.sort(key=lambda r: r.get("gameCreation") or 0, reverse=True)
+    DETAIL_OUT.write_text(json.dumps({
+        "champion": "Kennen",
+        "position": "TOP",
+        "sampleCount": len(match_rows),
+        "matches": match_rows,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
     print(f"Kennen TOP build stats: {len(matches)} matches")
     print(f"Recognized first core: {with_core}")
     print(f"Recognized two core: {with_two_core}")
+    print(f"Build detail rows: {len(match_rows)}")
 
 
 if __name__ == "__main__":
