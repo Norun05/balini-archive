@@ -10,6 +10,8 @@ if %errorlevel%==0 (
     if errorlevel 1 goto :failed
     py -3 tools\add_movement_snapshots.py
     if errorlevel 1 goto :failed
+    py -3 tools\add_item_names_ko.py
+    if errorlevel 1 goto :failed
     py -3 tools\build_team_context.py
     if errorlevel 1 goto :failed
     py -3 tools\build_kennen_skill_order.py
@@ -20,6 +22,8 @@ if %errorlevel%==0 (
         python tools\build_site_data.py
         if errorlevel 1 goto :failed
         python tools\add_movement_snapshots.py
+        if errorlevel 1 goto :failed
+        python tools\add_item_names_ko.py
         if errorlevel 1 goto :failed
         python tools\build_team_context.py
         if errorlevel 1 goto :failed
@@ -34,7 +38,7 @@ if %errorlevel%==0 (
 )
 
 echo.
-echo Split site data, jungle movement snapshots, cross-lane team context, and Kennen skill-order stats are ready.
+echo Split site data, jungle movement snapshots, Korean item names, cross-lane team context, and Kennen skill-order stats are ready.
 echo Commit all changed files in GitHub Desktop and Push origin.
 goto :done
 
