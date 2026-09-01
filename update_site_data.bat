@@ -6,6 +6,8 @@ pushd "%~dp0"
 
 where py >nul 2>nul
 if %errorlevel%==0 (
+    py -3 tools\merge_local_archives.py
+    if errorlevel 1 goto :failed
     py -3 tools\build_site_data.py
     if errorlevel 1 goto :failed
     py -3 tools\enrich_full_events.py
@@ -33,6 +35,8 @@ if %errorlevel%==0 (
 ) else (
     where python >nul 2>nul
     if %errorlevel%==0 (
+        python tools\merge_local_archives.py
+        if errorlevel 1 goto :failed
         python tools\build_site_data.py
         if errorlevel 1 goto :failed
         python tools\enrich_full_events.py
@@ -66,7 +70,7 @@ if %errorlevel%==0 (
 )
 
 echo.
-echo Split site data, full participant/event data, dense early-laning snapshots, all-position movement snapshots, Korean item names, all-player item economy, team context, generic stats, item timing stats, detailed duo/player stats, tiny AI search routes, and Kennen skill-order stats are ready.
+echo Local archives were merged into balini-lol-archive-v999, then site data, full events, early-laning snapshots, all-position movement, Korean item names, item economy, team context, generic stats, item timing stats, duo/player stats, AI search routes, and Kennen skill-order stats were rebuilt.
 echo Commit all changed files in GitHub Desktop and Push origin.
 goto :done
 
