@@ -1,18 +1,33 @@
 import json
 import re
-import sys
+import shutil
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
 RIOT_GAME_NAME = "발린이"
 RIOT_TAG_LINE = "극악무도"
 SNAPSHOT_MINUTES = (5, 10, 15, 20)
+RECENT_LIMIT = 50
+PAGE_SIZE = 50
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
-OUTPUT_MATCHES = DATA_DIR / "matches.json"
 OUTPUT_PROFILE = DATA_DIR / "profile.json"
 OUTPUT_MANIFEST = DATA_DIR / "manifest.json"
+OUTPUT_CATALOG = DATA_DIR / "catalog.json"
+OUTPUT_CHAMPION_INDEX = DATA_DIR / "champions" / "index.json"
+LEGACY_MATCHES = DATA_DIR / "matches.json"
+MATCH_DETAILS_DIR = DATA_DIR / "matches"
+CHAMPIONS_DIR = DATA_DIR / "champions"
+
+POSITION_SLUGS = {
+    "TOP": "top",
+    "JUNGLE": "jungle",
+    "MIDDLE": "middle",
+    "BOTTOM": "bottom",
+    "UTILITY": "utility",
+}
 
 
 def version_number(path: Path) -> int:
@@ -50,6 +65,21 @@ def find_archive():
 def read_json(path: Path):
     with path.open("r", encoding="utf-8-sig") as f:
         return json.load(f)
+
+
+def write_json(path: Path, value, *, compact=False):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if compact:
+        text = json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+    else:
+        text = json.dumps(value, ensure_ascii=False, indent=2)
+    path.write_text(text + "\n", encoding="utf-8")
+
+
+def slugify(value: str) -> str:
+    value = (value or "unknown").strip().lower()
+    value = re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+    return value or "unknown"
 
 
 def compact_participant(p):
@@ -168,6 +198,21 @@ def frame_summary(frame):
     }
 
 
+def compact_event(e):
+    compact = {"type": e.get("type"), "timestamp": e.get("timestamp")}
+    for key in (
+        "killerId", "victimId", "assistingParticipantIds", "participantId",
+        "itemId", "beforeId", "afterId", "goldGain", "bounty",
+        "buildingType", "towerType", "laneType", "teamId",
+        "monsterType", "monsterSubType", "killType",
+    ):
+        if key in e:
+            compact[key] = e[key]
+    if e.get("position"):
+        compact["position"] = e["position"]
+    return compact
+
+
 def timeline_summary(timeline, me_id, opponent_id):
     info = timeline.get("info") or {}
     frames = info.get("frames") or []
@@ -210,26 +255,111 @@ def timeline_summary(timeline, me_id, opponent_id):
             elif et in ("BUILDING_KILL", "ELITE_MONSTER_KILL"):
                 keep = True
 
-            if not keep:
-                continue
+            if keep:
+                events.append(compact_event(e))
 
-            compact = {"type": et, "timestamp": e.get("timestamp")}
-            for key in (
-                "killerId", "victimId", "assistingParticipantIds", "participantId",
-                "itemId", "beforeId", "afterId", "goldGain", "bounty",
-                "buildingType", "towerType", "laneType", "teamId",
-                "monsterType", "monsterSubType",
-            ):
-                if key in e:
-                    compact[key] = e[key]
-            if e.get("position"):
-                compact["position"] = e["position"]
-            events.append(compact)
+    return {"snapshots": snapshots, "events": events}
+
+
+def analysis_timeline(timeline, me_id):
+    if not timeline:
+        return None
+    events = timeline.get("events") or []
+    champion_events = [e for e in events if e.get("type") == "CHAMPION_KILL"]
+    item_events = [e for e in events if e.get("type") in ("ITEM_PURCHASED", "ITEM_SOLD", "ITEM_UNDO")]
+    objective_events = [e for e in events if e.get("type") in ("BUILDING_KILL", "ELITE_MONSTER_KILL")]
+
+    first_kill = next((e.get("timestamp") for e in champion_events if e.get("killerId") == me_id), None)
+    first_death = next((e.get("timestamp") for e in champion_events if e.get("victimId") == me_id), None)
+    first_assist = next(
+        (e.get("timestamp") for e in champion_events if me_id in (e.get("assistingParticipantIds") or [])),
+        None,
+    )
 
     return {
-        "snapshots": snapshots,
-        "events": events,
+        "snapshots": timeline.get("snapshots") or [],
+        "firstKillTimestamp": first_kill,
+        "firstDeathTimestamp": first_death,
+        "firstAssistTimestamp": first_assist,
+        "championEvents": champion_events,
+        "itemEvents": item_events,
+        "objectiveEvents": objective_events,
     }
+
+
+def catalog_row(detail):
+    opp = detail.get("laneOpponent") or {}
+    return {
+        "matchId": detail.get("matchId"),
+        "gameCreation": detail.get("gameCreation"),
+        "gameDuration": detail.get("gameDuration"),
+        "queueId": detail.get("queueId"),
+        "gameMode": detail.get("gameMode"),
+        "championName": detail.get("championName"),
+        "position": detail.get("position"),
+        "opponent": opp.get("championName"),
+        "kills": detail.get("kills", 0),
+        "deaths": detail.get("deaths", 0),
+        "assists": detail.get("assists", 0),
+        "cs": detail.get("cs", 0),
+        "gold": detail.get("gold", 0),
+        "damage": detail.get("damage", 0),
+        "win": detail.get("win", False),
+        "detailPath": f"matches/{detail.get('matchId')}.json",
+    }
+
+
+def analysis_row(detail):
+    me = detail.get("me") or {}
+    opp = detail.get("laneOpponent") or {}
+    return {
+        **catalog_row(detail),
+        "items": me.get("items") or [],
+        "meChallenges": me.get("challenges") or {},
+        "laneOpponent": {
+            "championName": opp.get("championName"),
+            "kills": opp.get("kills"),
+            "deaths": opp.get("deaths"),
+            "assists": opp.get("assists"),
+            "cs": (opp.get("totalMinionsKilled", 0) or 0) + (opp.get("neutralMinionsKilled", 0) or 0),
+            "gold": opp.get("goldEarned"),
+            "damage": opp.get("totalDamageDealtToChampions"),
+            "items": opp.get("items") or [],
+            "challenges": opp.get("challenges") or {},
+        } if opp else None,
+        "timeline": analysis_timeline(detail.get("timeline"), me.get("participantId")),
+    }
+
+
+def reset_generated_dirs():
+    for directory in (MATCH_DETAILS_DIR, CHAMPIONS_DIR):
+        if directory.exists():
+            shutil.rmtree(directory)
+        directory.mkdir(parents=True, exist_ok=True)
+
+
+def write_pages(base_dir: Path, rows):
+    rows = sorted(rows, key=lambda x: x.get("gameCreation") or 0, reverse=True)
+    recent = rows[:RECENT_LIMIT]
+    write_json(base_dir / "recent.json", {
+        "count": len(rows),
+        "recentCount": len(recent),
+        "pageSize": PAGE_SIZE,
+        "matches": recent,
+    })
+
+    pages = []
+    for page_num, start in enumerate(range(0, len(rows), PAGE_SIZE), 1):
+        page_rows = rows[start:start + PAGE_SIZE]
+        name = f"page-{page_num:03d}.json"
+        write_json(base_dir / name, {
+            "count": len(rows),
+            "page": page_num,
+            "pageSize": PAGE_SIZE,
+            "matches": page_rows,
+        })
+        pages.append(name)
+    return pages
 
 
 def main():
@@ -251,7 +381,12 @@ def main():
         except Exception:
             pass
 
-    rows = []
+    reset_generated_dirs()
+    if LEGACY_MATCHES.exists():
+        LEGACY_MATCHES.unlink()
+
+    catalog = []
+    analysis_rows = []
     broken = []
     missing_me = []
     timeline_count = 0
@@ -276,7 +411,7 @@ def main():
         teammates = [p for p in participants if p.get("teamId") == me.get("teamId") and p is not me]
         enemies = [p for p in participants if p.get("teamId") != me.get("teamId")]
 
-        row = {
+        detail = {
             "matchId": (match.get("metadata") or {}).get("matchId") or path.stem,
             "gameCreation": info.get("gameCreation"),
             "gameStartTimestamp": info.get("gameStartTimestamp"),
@@ -305,25 +440,64 @@ def main():
         if timeline_file.exists():
             try:
                 timeline = read_json(timeline_file)
-                row["timeline"] = timeline_summary(
+                detail["timeline"] = timeline_summary(
                     timeline,
                     me.get("participantId"),
                     opponent.get("participantId") if opponent else None,
                 )
-                if row["timeline"]:
+                if detail["timeline"]:
                     timeline_count += 1
             except Exception:
-                row["timeline"] = None
+                detail["timeline"] = None
         else:
-            row["timeline"] = None
+            detail["timeline"] = None
 
-        rows.append(row)
+        write_json(MATCH_DETAILS_DIR / f"{detail['matchId']}.json", detail)
+        catalog.append(catalog_row(detail))
+        analysis_rows.append(analysis_row(detail))
+
         if idx % 50 == 0 or idx == total:
             print(f"Processed {idx}/{total}")
 
-    rows.sort(key=lambda x: x.get("gameCreation") or 0, reverse=True)
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT_MATCHES.write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    catalog.sort(key=lambda x: x.get("gameCreation") or 0, reverse=True)
+    analysis_rows.sort(key=lambda x: x.get("gameCreation") or 0, reverse=True)
+    write_json(OUTPUT_CATALOG, catalog)
+
+    groups = defaultdict(list)
+    for row in analysis_rows:
+        champ_slug = slugify(row.get("championName"))
+        pos_slug = POSITION_SLUGS.get(row.get("position"), slugify(row.get("position") or "unknown"))
+        groups[(champ_slug, "all")].append(row)
+        groups[(champ_slug, pos_slug)].append(row)
+
+    champion_index = {}
+    for (champ_slug, pos_slug), rows in sorted(groups.items()):
+        base = CHAMPIONS_DIR / champ_slug / pos_slug
+        pages = write_pages(base, rows)
+        champ_name = rows[0].get("championName") if rows else champ_slug
+        entry = champion_index.setdefault(champ_slug, {
+            "championName": champ_name,
+            "slug": champ_slug,
+            "count": 0,
+            "positions": {},
+        })
+        if pos_slug == "all":
+            entry["count"] = len(rows)
+            entry["all"] = {
+                "recent": f"champions/{champ_slug}/all/recent.json",
+                "pages": [f"champions/{champ_slug}/all/{p}" for p in pages],
+            }
+        else:
+            entry["positions"][pos_slug] = {
+                "count": len(rows),
+                "recent": f"champions/{champ_slug}/{pos_slug}/recent.json",
+                "pages": [f"champions/{champ_slug}/{pos_slug}/{p}" for p in pages],
+            }
+
+    write_json(OUTPUT_CHAMPION_INDEX, {
+        "generatedAt": int(datetime.now(timezone.utc).timestamp() * 1000),
+        "champions": sorted(champion_index.values(), key=lambda x: (-x["count"], x["championName"])),
+    })
 
     now_ms = int(datetime.now(timezone.utc).timestamp() * 1000)
     profile = {
@@ -331,30 +505,42 @@ def main():
         "region": "KR",
         "source": "Riot Match-V5 local archive",
         "updatedAt": now_ms,
-        "archivedMatches": len(rows),
+        "archivedMatches": len(catalog),
         "timelineSummaries": timeline_count,
         "note": "Generated locally from stored Riot Match-V5 JSON. Raw files are not published.",
     }
-    OUTPUT_PROFILE.write_text(json.dumps(profile, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json(OUTPUT_PROFILE, profile)
 
     manifest = {
+        "schemaVersion": 2,
         "generatedAt": now_ms,
-        "matchCount": len(rows),
+        "matchCount": len(catalog),
         "timelineSummaryCount": timeline_count,
         "brokenJsonCount": len(broken),
         "missingUserCount": len(missing_me),
+        "catalogPath": "catalog.json",
+        "championIndexPath": "champions/index.json",
+        "matchDetailPattern": "matches/{matchId}.json",
+        "recentLimit": RECENT_LIMIT,
+        "pageSize": PAGE_SIZE,
         "brokenFiles": broken[:50],
         "missingUserFiles": missing_me[:50],
     }
-    OUTPUT_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_json(OUTPUT_MANIFEST, manifest)
 
-    size_mb = OUTPUT_MATCHES.stat().st_size / (1024 * 1024)
+    catalog_mb = OUTPUT_CATALOG.stat().st_size / (1024 * 1024)
+    detail_count = sum(1 for _ in MATCH_DETAILS_DIR.glob("KR_*.json"))
+    champion_file_count = sum(1 for p in CHAMPIONS_DIR.rglob("*.json") if p != OUTPUT_CHAMPION_INDEX)
+
     print()
-    print(f"DONE: {len(rows)} matches written to data/matches.json")
+    print(f"DONE: {len(catalog)} matches indexed")
     print(f"Timeline summaries: {timeline_count}")
     print(f"Broken JSON skipped: {len(broken)}")
-    print(f"Output size: {size_mb:.2f} MB")
-    print("Open GitHub Desktop, commit the changed data files, then Push origin.")
+    print(f"Catalog size: {catalog_mb:.2f} MB")
+    print(f"Match detail files: {detail_count}")
+    print(f"Champion analysis files: {champion_file_count}")
+    print("Legacy data/matches.json removed.")
+    print("Open GitHub Desktop, commit all generated data changes, then Push origin.")
     return 0
 
 
