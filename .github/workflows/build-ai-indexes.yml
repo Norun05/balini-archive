@@ -27,6 +27,7 @@ jobs:
           python tools/build_metrics20.py
           python tools/build_role_matchup_index.py
           python tools/find_senna_yasuo.py
+          python tools/build_kennen_build_stats.py
 
       - name: Commit generated indexes
         run: |
