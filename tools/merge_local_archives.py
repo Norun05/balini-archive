@@ -1,3 +1,4 @@
+import hashlib
 import json
 import re
 import shutil
@@ -57,11 +58,39 @@ def candidate_score(match_path: Path, timeline_path: Path, version: int):
     return (1 if timeline_exists else 0, timeline_size, match_size, version)
 
 
+def same_content(a: Path, b: Path):
+    try:
+        if a.stat().st_size != b.stat().st_size:
+            return False
+    except OSError:
+        return False
+
+    def digest(path: Path):
+        h = hashlib.blake2b(digest_size=16)
+        with path.open("rb") as f:
+            for chunk in iter(lambda: f.read(1024 * 1024), b""):
+                h.update(chunk)
+        return h.digest()
+
+    try:
+        return digest(a) == digest(b)
+    except OSError:
+        return False
+
+
 def copy_if_needed(src: Path, dst: Path):
     if dst.exists():
         try:
-            if dst.stat().st_size == src.stat().st_size and dst.stat().st_mtime_ns == src.stat().st_mtime_ns:
-                return False
+            src_stat = src.stat()
+            dst_stat = dst.stat()
+            if dst_stat.st_size == src_stat.st_size:
+                if dst_stat.st_mtime_ns == src_stat.st_mtime_ns:
+                    return False
+                # Collectors sometimes rewrite every JSON without changing its contents.
+                # Hash only equal-sized files whose timestamps differ, so unchanged raw
+                # matches keep the old merged-file timestamp and downstream stages skip them.
+                if same_content(src, dst):
+                    return False
         except OSError:
             pass
     dst.parent.mkdir(parents=True, exist_ok=True)
@@ -137,7 +166,7 @@ def main():
         copy_if_needed(account_candidates[0][1], MERGED_META / "account.json")
 
     index = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "archiveCount": len(archives),
         "matchCount": len(best),
         "timelineCount": timeline_count,
@@ -151,6 +180,7 @@ def main():
             for info in sorted(archives, key=lambda x: (x["version"], x["archive"].name))
         ],
         "selectionRule": "Prefer duplicate source with timeline; then larger timeline JSON; then larger match JSON; then higher archive version.",
+        "copyRule": "Equal-size files with changed timestamps are content-hashed; identical contents are not recopied.",
         "generatedPath": str(MERGED),
         "note": "The v999 name is deliberate: existing generators automatically choose the archive with the largest match count, then highest version.",
     }
