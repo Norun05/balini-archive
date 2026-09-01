@@ -28,6 +28,7 @@ jobs:
           python tools/build_role_matchup_index.py
           python tools/find_senna_yasuo.py
           python tools/build_kennen_build_stats.py
+          python tools/build_kennen_firstcore_profile.py
           python tools/build_veigar_build_stats.py
           python tools/build_veigar_two_core_analysis.py
           python tools/compact_veigar_two_core.py
