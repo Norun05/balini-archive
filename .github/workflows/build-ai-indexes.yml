@@ -30,6 +30,7 @@ jobs:
           python tools/build_kennen_build_stats.py
           python tools/build_veigar_build_stats.py
           python tools/build_veigar_two_core_analysis.py
+          python tools/compact_veigar_two_core.py
 
       - name: Commit generated indexes
         run: |
