@@ -22,7 +22,9 @@ jobs:
           python-version: '3.12'
 
       - name: Build AI-friendly indexes
-        run: python tools/build_ai_indexes.py
+        run: |
+          python tools/build_ai_indexes.py
+          python tools/build_ai_compact.py
 
       - name: Commit generated indexes
         run: |
