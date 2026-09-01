@@ -21,10 +21,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Build AI-friendly indexes
-        run: |
-          python tools/build_ai_indexes.py
-          python tools/build_ai_compact.py
+      - name: Build recent-20 AI indexes
+        run: python tools/build_recent20_indexes.py
 
       - name: Commit generated indexes
         run: |
@@ -35,5 +33,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ai
-          git commit -m "[skip ai] Update AI indexes"
+          git commit -m "[skip ai] Update recent-20 indexes"
           git push
