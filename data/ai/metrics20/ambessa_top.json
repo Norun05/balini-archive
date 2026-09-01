@@ -1,0 +1,124 @@
+{
+  "champion": "ambessa",
+  "position": "top",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 175.0,
+      "medianGoldDiff": 175,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 12.0,
+      "medianCsDiff": 12,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 387.0,
+      "medianGoldDiff": 387,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 23.0,
+      "medianCsDiff": 23,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -417.0,
+      "medianGoldDiff": -417,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 10.0,
+      "medianCsDiff": 10,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1898.0,
+      "medianGoldDiff": -1898,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 1.0,
+      "medianCsDiff": 1,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 387.0,
+    "avg15GoldDiff": -417.0,
+    "avg20GoldDiff": -1898.0,
+    "avg10CsDiff": 23.0,
+    "avg15CsDiff": 10.0,
+    "avg20CsDiff": 1.0,
+    "avgFirstDeathMin": 14.33,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 14.33,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 1,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8026924020",
+      "opponent": "Trundle",
+      "win": false,
+      "kda": [
+        0,
+        4,
+        1
+      ],
+      "durationMin": 23.0,
+      "firstDeathMin": 14.33,
+      "firstKillMin": null,
+      "g5": 175,
+      "cs5": 12,
+      "g10": 387,
+      "cs10": 23,
+      "g15": -417,
+      "cs15": 10,
+      "g20": -1898,
+      "cs20": 1,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.16494540654643375
+    }
+  ]
+}

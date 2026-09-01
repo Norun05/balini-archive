@@ -1,0 +1,193 @@
+{
+  "champion": "galio",
+  "position": "invalid",
+  "availableCount": 4,
+  "sampleCount": 4,
+  "wins": 1,
+  "losses": 3,
+  "winRate": 0.25,
+  "snapshots": {
+    "5": {
+      "sampleCount": 4,
+      "avgGoldDiff": -1.25,
+      "medianGoldDiff": -125.0,
+      "goldAhead": 1,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 4,
+      "avgGoldDiff": -1421.0,
+      "medianGoldDiff": -417.0,
+      "goldAhead": 1,
+      "goldBehind": 3,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 4,
+      "avgGoldDiff": -2288.25,
+      "medianGoldDiff": -1226.5,
+      "goldAhead": 1,
+      "goldBehind": 3,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -0.5
+    },
+    "20": {
+      "sampleCount": 4,
+      "avgGoldDiff": -3188.25,
+      "medianGoldDiff": -3651.5,
+      "goldAhead": 1,
+      "goldBehind": 3,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 650.0,
+    "avg15GoldDiff": 300.0,
+    "avg20GoldDiff": 3550.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 2.1,
+    "avgFirstKillMin": 4.21
+  },
+  "lossesStats": {
+    "count": 3,
+    "avg10GoldDiff": -2111.33,
+    "avg15GoldDiff": -3151.0,
+    "avg20GoldDiff": -5434.33,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 2.34,
+    "avgFirstKillMin": 3.0
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.28,
+    "before5": 4,
+    "before8": 4,
+    "before10": 4,
+    "before15": 4
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 2,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 3
+  },
+  "matches": [
+    {
+      "matchId": "KR_8133829652",
+      "opponent": "Gwen",
+      "win": false,
+      "kda": [
+        2,
+        9,
+        5
+      ],
+      "durationMin": 23.3,
+      "firstDeathMin": 1.58,
+      "firstKillMin": 3.73,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -250,
+      "cs10": 0,
+      "g15": -753,
+      "cs15": 0,
+      "g20": -1253,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.10123059453895962
+    },
+    {
+      "matchId": "KR_7895507447",
+      "opponent": "Shaco",
+      "win": false,
+      "kda": [
+        2,
+        6,
+        0
+      ],
+      "durationMin": 27.2,
+      "firstDeathMin": 1.35,
+      "firstKillMin": 3.95,
+      "g5": 0,
+      "cs5": 0,
+      "g10": -584,
+      "cs10": 0,
+      "g15": -1700,
+      "cs15": 0,
+      "g20": -6050,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.028374166272496296
+    },
+    {
+      "matchId": "KR_7895461417",
+      "opponent": "Veigar",
+      "win": true,
+      "kda": [
+        5,
+        6,
+        12
+      ],
+      "durationMin": 26.1,
+      "firstDeathMin": 2.1,
+      "firstKillMin": 4.21,
+      "g5": 495,
+      "cs5": 0,
+      "g10": 650,
+      "cs10": 0,
+      "g15": 300,
+      "cs15": 0,
+      "g20": 3550,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.07535727494547836
+    },
+    {
+      "matchId": "KR_7895416626",
+      "opponent": "Jax",
+      "win": false,
+      "kda": [
+        3,
+        6,
+        5
+      ],
+      "durationMin": 24.2,
+      "firstDeathMin": 4.09,
+      "firstKillMin": 1.31,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -5500,
+      "cs10": 0,
+      "g15": -7000,
+      "cs15": 0,
+      "g20": -9000,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.12747771055132423
+    }
+  ]
+}

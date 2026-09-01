@@ -1,21 +1,21 @@
 {
   "champion": "caitlyn",
   "position": "bottom",
-  "availableCount": 2,
-  "sampleCount": 2,
+  "availableCount": 3,
+  "sampleCount": 3,
   "wins": 2,
-  "losses": 0,
-  "winRate": 1.0,
+  "losses": 1,
+  "winRate": 0.6667,
   "snapshots": {
     "5": {
-      "sampleCount": 2,
-      "avgGoldDiff": 73.5,
-      "medianGoldDiff": 73.5,
+      "sampleCount": 3,
+      "avgGoldDiff": -25.0,
+      "medianGoldDiff": -222,
       "goldAhead": 1,
-      "goldBehind": 1,
-      "avgCsDiff": -4.0,
-      "medianCsDiff": -4.0,
-      "csAhead": 1,
+      "goldBehind": 2,
+      "avgCsDiff": -1.33,
+      "medianCsDiff": 4,
+      "csAhead": 2,
       "csBehind": 1,
       "avgLevelDiff": 0.0
     },
@@ -68,23 +68,23 @@
     "avgFirstKillMin": 11.48
   },
   "lossesStats": {
-    "count": 0,
+    "count": 1,
     "avg10GoldDiff": null,
     "avg15GoldDiff": null,
     "avg20GoldDiff": null,
     "avg10CsDiff": null,
     "avg15CsDiff": null,
     "avg20CsDiff": null,
-    "avgFirstDeathMin": null,
+    "avgFirstDeathMin": 9.14,
     "avgFirstKillMin": null
   },
   "firstDeath": {
     "noDeath": 0,
-    "avgMinute": 15.73,
+    "avgMinute": 13.53,
     "before5": 0,
     "before8": 1,
-    "before10": 1,
-    "before15": 1
+    "before10": 2,
+    "before15": 2
   },
   "transitions": {
     "ahead10_to_behind15": 0,
@@ -142,6 +142,29 @@
       "cs20": 96,
       "soloKills": 0,
       "teamDamagePercentage": 0.17557227603148895
+    },
+    {
+      "matchId": "KR_8005742119",
+      "opponent": "Xerath",
+      "win": false,
+      "kda": [
+        0,
+        1,
+        0
+      ],
+      "durationMin": 9.3,
+      "firstDeathMin": 9.14,
+      "firstKillMin": null,
+      "g5": -222,
+      "cs5": 4,
+      "g10": null,
+      "cs10": null,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.22783022042741918
     }
   ]
 }

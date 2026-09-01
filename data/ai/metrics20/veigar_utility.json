@@ -1,0 +1,239 @@
+{
+  "champion": "veigar",
+  "position": "utility",
+  "availableCount": 6,
+  "sampleCount": 6,
+  "wins": 2,
+  "losses": 4,
+  "winRate": 0.3333,
+  "snapshots": {
+    "5": {
+      "sampleCount": 6,
+      "avgGoldDiff": 92.83,
+      "medianGoldDiff": 28.5,
+      "goldAhead": 5,
+      "goldBehind": 1,
+      "avgCsDiff": -3.17,
+      "medianCsDiff": -2.5,
+      "csAhead": 0,
+      "csBehind": 6,
+      "avgLevelDiff": -0.5
+    },
+    "10": {
+      "sampleCount": 6,
+      "avgGoldDiff": -180.83,
+      "medianGoldDiff": -267.0,
+      "goldAhead": 3,
+      "goldBehind": 3,
+      "avgCsDiff": -8.17,
+      "medianCsDiff": -8.0,
+      "csAhead": 1,
+      "csBehind": 5,
+      "avgLevelDiff": -0.5
+    },
+    "15": {
+      "sampleCount": 6,
+      "avgGoldDiff": -386.17,
+      "medianGoldDiff": -533.5,
+      "goldAhead": 2,
+      "goldBehind": 4,
+      "avgCsDiff": -10.67,
+      "medianCsDiff": -11.5,
+      "csAhead": 1,
+      "csBehind": 5,
+      "avgLevelDiff": -0.5
+    },
+    "20": {
+      "sampleCount": 4,
+      "avgGoldDiff": -1120.25,
+      "medianGoldDiff": -1120.5,
+      "goldAhead": 0,
+      "goldBehind": 4,
+      "avgCsDiff": -15.5,
+      "medianCsDiff": -11.0,
+      "csAhead": 0,
+      "csBehind": 4,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 2,
+    "avg10GoldDiff": -12.5,
+    "avg15GoldDiff": -252.0,
+    "avg20GoldDiff": -679.0,
+    "avg10CsDiff": -11.5,
+    "avg15CsDiff": -17.5,
+    "avg20CsDiff": -3.0,
+    "avgFirstDeathMin": 10.04,
+    "avgFirstKillMin": 7.01
+  },
+  "lossesStats": {
+    "count": 4,
+    "avg10GoldDiff": -265.0,
+    "avg15GoldDiff": -453.25,
+    "avg20GoldDiff": -1267.33,
+    "avg10CsDiff": -6.5,
+    "avg15CsDiff": -7.25,
+    "avg20CsDiff": -19.67,
+    "avgFirstDeathMin": 8.53,
+    "avgFirstKillMin": 14.91
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 9.03,
+    "before5": 0,
+    "before8": 2,
+    "before10": 4,
+    "before15": 6
+  },
+  "transitions": {
+    "ahead10_to_behind15": 1,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 3,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 4
+  },
+  "matches": [
+    {
+      "matchId": "KR_8104371847",
+      "opponent": "Seraphine",
+      "win": true,
+      "kda": [
+        1,
+        6,
+        11
+      ],
+      "durationMin": 32.2,
+      "firstDeathMin": 7.92,
+      "firstKillMin": 11.84,
+      "g5": 130,
+      "cs5": -1,
+      "g10": -698,
+      "cs10": -6,
+      "g15": -508,
+      "cs15": -3,
+      "g20": -679,
+      "cs20": -3,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.17226651180693947
+    },
+    {
+      "matchId": "KR_8102594314",
+      "opponent": "Sett",
+      "win": false,
+      "kda": [
+        2,
+        6,
+        9
+      ],
+      "durationMin": 32.5,
+      "firstDeathMin": 5.31,
+      "firstKillMin": 11.85,
+      "g5": -84,
+      "cs5": -7,
+      "g10": -582,
+      "cs10": -16,
+      "g15": -559,
+      "cs15": -16,
+      "g20": -1562,
+      "cs20": -37,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.1276777828947897
+    },
+    {
+      "matchId": "KR_8100592340",
+      "opponent": "Thresh",
+      "win": false,
+      "kda": [
+        4,
+        5,
+        4
+      ],
+      "durationMin": 29.4,
+      "firstDeathMin": 11.4,
+      "firstKillMin": 21.99,
+      "g5": 31,
+      "cs5": -3,
+      "g10": 48,
+      "cs10": -10,
+      "g15": -836,
+      "cs15": -12,
+      "g20": -1849,
+      "cs20": -13,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.162415960594175
+    },
+    {
+      "matchId": "KR_7851098088",
+      "opponent": "Nautilus",
+      "win": false,
+      "kda": [
+        2,
+        7,
+        11
+      ],
+      "durationMin": 34.7,
+      "firstDeathMin": 8.46,
+      "firstKillMin": 17.24,
+      "g5": 8,
+      "cs5": -2,
+      "g10": -698,
+      "cs10": -2,
+      "g15": -920,
+      "cs15": -11,
+      "g20": -391,
+      "cs20": -9,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.13129095223969353
+    },
+    {
+      "matchId": "KR_7851047192",
+      "opponent": "Aurora",
+      "win": true,
+      "kda": [
+        3,
+        1,
+        9
+      ],
+      "durationMin": 17.1,
+      "firstDeathMin": 12.15,
+      "firstKillMin": 2.18,
+      "g5": 446,
+      "cs5": -5,
+      "g10": 673,
+      "cs10": -17,
+      "g15": 4,
+      "cs15": -32,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.17183002862218613
+    },
+    {
+      "matchId": "KR_7849278935",
+      "opponent": "Sona",
+      "win": false,
+      "kda": [
+        3,
+        2,
+        1
+      ],
+      "durationMin": 15.5,
+      "firstDeathMin": 8.94,
+      "firstKillMin": 8.57,
+      "g5": 26,
+      "cs5": -1,
+      "g10": 172,
+      "cs10": 2,
+      "g15": 502,
+      "cs15": 10,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.2886171262339506
+    }
+  ]
+}

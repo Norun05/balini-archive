@@ -1,0 +1,147 @@
+{
+  "champion": "mordekaiser",
+  "position": "invalid",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 0.5,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": 0.0,
+      "medianGoldDiff": 0.0,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": -50.0,
+      "medianGoldDiff": -50.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": -230.0,
+      "medianGoldDiff": -230.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -1780.0,
+      "medianGoldDiff": -1780.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -1.5
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 150.0,
+    "avg15GoldDiff": 50.0,
+    "avg20GoldDiff": -300.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 1.72,
+    "avgFirstKillMin": 7.97
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -250.0,
+    "avg15GoldDiff": -510.0,
+    "avg20GoldDiff": -3260.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 4.19,
+    "avgFirstKillMin": 1.58
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.96,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8145255241",
+      "opponent": "Aatrox",
+      "win": false,
+      "kda": [
+        5,
+        7,
+        3
+      ],
+      "durationMin": 25.2,
+      "firstDeathMin": 4.19,
+      "firstKillMin": 1.58,
+      "g5": 0,
+      "cs5": 0,
+      "g10": -250,
+      "cs10": 0,
+      "g15": -510,
+      "cs15": 0,
+      "g20": -3260,
+      "cs20": 0,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.05499585011075578
+    },
+    {
+      "matchId": "KR_7864197114",
+      "opponent": "Volibear",
+      "win": true,
+      "kda": [
+        8,
+        7,
+        7
+      ],
+      "durationMin": 25.9,
+      "firstDeathMin": 1.72,
+      "firstKillMin": 7.97,
+      "g5": 0,
+      "cs5": 0,
+      "g10": 150,
+      "cs10": 0,
+      "g15": 50,
+      "cs15": 0,
+      "g20": -300,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.12716705092637687
+    }
+  ]
+}

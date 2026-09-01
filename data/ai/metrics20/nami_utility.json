@@ -1,0 +1,124 @@
+{
+  "champion": "nami",
+  "position": "utility",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 678.0,
+      "medianGoldDiff": 678,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 3.0,
+      "medianCsDiff": 3,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 483.0,
+      "medianGoldDiff": 483,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 1151.0,
+      "medianGoldDiff": 1151,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": -6.0,
+      "medianCsDiff": -6,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 2.0
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 483.0,
+    "avg15GoldDiff": 1151.0,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": -6.0,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": 2.77
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 1,
+    "avgMinute": null,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 0
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_7803079044",
+      "opponent": "Braum",
+      "win": true,
+      "kda": [
+        2,
+        0,
+        19
+      ],
+      "durationMin": 17.0,
+      "firstDeathMin": null,
+      "firstKillMin": 2.77,
+      "g5": 678,
+      "cs5": 3,
+      "g10": 483,
+      "cs10": 0,
+      "g15": 1151,
+      "cs15": -6,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.1441989416063898
+    }
+  ]
+}

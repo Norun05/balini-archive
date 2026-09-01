@@ -1,0 +1,147 @@
+{
+  "champion": "nami",
+  "position": "all",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 2,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": 336.5,
+      "medianGoldDiff": 336.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 1.5,
+      "medianCsDiff": 1.5,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.5
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": 366.5,
+      "medianGoldDiff": 366.5,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": 950.5,
+      "medianGoldDiff": 950.5,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": -3.0,
+      "medianCsDiff": -3.0,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 2000.0,
+      "medianGoldDiff": 2000,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 2.0
+    }
+  },
+  "winsStats": {
+    "count": 2,
+    "avg10GoldDiff": 366.5,
+    "avg15GoldDiff": 950.5,
+    "avg20GoldDiff": 2000.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": -3.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 1.47,
+    "avgFirstKillMin": 6.91
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 1,
+    "avgMinute": 1.47,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 2,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8126176644",
+      "opponent": "Graves",
+      "win": true,
+      "kda": [
+        6,
+        6,
+        13
+      ],
+      "durationMin": 26.5,
+      "firstDeathMin": 1.47,
+      "firstKillMin": 11.05,
+      "g5": -5,
+      "cs5": 0,
+      "g10": 250,
+      "cs10": 0,
+      "g15": 750,
+      "cs15": 0,
+      "g20": 2000,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.045383043006539406
+    },
+    {
+      "matchId": "KR_7803079044",
+      "opponent": "Braum",
+      "win": true,
+      "kda": [
+        2,
+        0,
+        19
+      ],
+      "durationMin": 17.0,
+      "firstDeathMin": null,
+      "firstKillMin": 2.77,
+      "g5": 678,
+      "cs5": 3,
+      "g10": 483,
+      "cs10": 0,
+      "g15": 1151,
+      "cs15": -6,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.1441989416063898
+    }
+  ]
+}

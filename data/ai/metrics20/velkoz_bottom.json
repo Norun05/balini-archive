@@ -1,0 +1,124 @@
+{
+  "champion": "velkoz",
+  "position": "bottom",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -637.0,
+      "medianGoldDiff": -637,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -15.0,
+      "medianCsDiff": -15,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -746.0,
+      "medianGoldDiff": -746,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -16.0,
+      "medianCsDiff": -16,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1632.0,
+      "medianGoldDiff": -1632,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -39.0,
+      "medianCsDiff": -39,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -285.0,
+      "medianGoldDiff": -285,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -51.0,
+      "medianCsDiff": -51,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -746.0,
+    "avg15GoldDiff": -1632.0,
+    "avg20GoldDiff": -285.0,
+    "avg10CsDiff": -16.0,
+    "avg15CsDiff": -39.0,
+    "avg20CsDiff": -51.0,
+    "avgFirstDeathMin": 3.18,
+    "avgFirstKillMin": 13.18
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 3.18,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_7844633239",
+      "opponent": "Samira",
+      "win": true,
+      "kda": [
+        5,
+        4,
+        10
+      ],
+      "durationMin": 20.4,
+      "firstDeathMin": 3.18,
+      "firstKillMin": 13.18,
+      "g5": -637,
+      "cs5": -15,
+      "g10": -746,
+      "cs10": -16,
+      "g15": -1632,
+      "cs15": -39,
+      "g20": -285,
+      "cs20": -51,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.21406212109861578
+    }
+  ]
+}

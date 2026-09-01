@@ -1,0 +1,124 @@
+{
+  "champion": "zoe",
+  "position": "middle",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 224.0,
+      "medianGoldDiff": 224,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 10.0,
+      "medianCsDiff": 10,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 530.0,
+      "medianGoldDiff": 530,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 21.0,
+      "medianCsDiff": 21,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 2.0
+    },
+    "15": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 530.0,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": 21.0,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": 12.73,
+    "avgFirstKillMin": 3.02
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 12.73,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_7884569779",
+      "opponent": "Lux",
+      "win": true,
+      "kda": [
+        3,
+        1,
+        6
+      ],
+      "durationMin": 13.1,
+      "firstDeathMin": 12.73,
+      "firstKillMin": 3.02,
+      "g5": 224,
+      "cs5": 10,
+      "g10": 530,
+      "cs10": 21,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 3,
+      "teamDamagePercentage": 0.09820043089022885
+    }
+  ]
+}

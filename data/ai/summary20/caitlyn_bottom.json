@@ -1,8 +1,8 @@
 {
   "champion": "caitlyn",
   "position": "bottom",
-  "availableCount": 2,
-  "count": 2,
+  "availableCount": 3,
+  "count": 3,
   "matches": [
     {
       "matchId": "KR_8255660100",
@@ -161,6 +161,50 @@
           "oppGold": 5276,
           "oppCs": 43,
           "oppLevel": 10
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8005742119",
+      "gameCreation": 1767429617582,
+      "gameDuration": 560,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "Xerath",
+      "win": false,
+      "kills": 0,
+      "deaths": 1,
+      "assists": 0,
+      "cs": 43,
+      "gold": 2292,
+      "damage": 2739,
+      "soloKills": 0,
+      "killParticipation": 0,
+      "teamDamagePercentage": 0.22783022042741918,
+      "laneMinionsFirst10Minutes": 38,
+      "opponentFinal": {
+        "kills": 2,
+        "deaths": 1,
+        "assists": 3,
+        "cs": 47,
+        "gold": 3121,
+        "damage": 4128
+      },
+      "firstKillTimestamp": null,
+      "firstDeathTimestamp": 548112,
+      "firstAssistTimestamp": null,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -222,
+          "csDiff": 4,
+          "levelDiff": 0,
+          "myGold": 1350,
+          "myCs": 22,
+          "myLevel": 4,
+          "oppGold": 1572,
+          "oppCs": 18,
+          "oppLevel": 4
         }
       ]
     }

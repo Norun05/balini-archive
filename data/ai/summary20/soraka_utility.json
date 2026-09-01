@@ -1,8 +1,8 @@
 {
   "champion": "soraka",
   "position": "utility",
-  "availableCount": 1,
-  "count": 1,
+  "availableCount": 2,
+  "count": 2,
   "matches": [
     {
       "matchId": "KR_8356119966",
@@ -80,6 +80,86 @@
           "myLevel": 10,
           "oppGold": 6534,
           "oppCs": 32,
+          "oppLevel": 10
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7829598341",
+      "gameCreation": 1758898251730,
+      "gameDuration": 1930,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "Lulu",
+      "win": false,
+      "kills": 1,
+      "deaths": 6,
+      "assists": 11,
+      "cs": 54,
+      "gold": 8071,
+      "damage": 7543,
+      "soloKills": 0,
+      "killParticipation": 0.4,
+      "teamDamagePercentage": 0.07003201181171233,
+      "laneMinionsFirst10Minutes": 32,
+      "opponentFinal": {
+        "kills": 0,
+        "deaths": 4,
+        "assists": 18,
+        "cs": 44,
+        "gold": 9508,
+        "damage": 7299
+      },
+      "firstKillTimestamp": 1584820,
+      "firstDeathTimestamp": 468099,
+      "firstAssistTimestamp": 925079,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 9,
+          "csDiff": 10,
+          "levelDiff": 1,
+          "myGold": 1183,
+          "myCs": 18,
+          "myLevel": 5,
+          "oppGold": 1174,
+          "oppCs": 8,
+          "oppLevel": 4
+        },
+        {
+          "minute": 10,
+          "goldDiff": -192,
+          "csDiff": 11,
+          "levelDiff": 1,
+          "myGold": 2244,
+          "myCs": 32,
+          "myLevel": 8,
+          "oppGold": 2436,
+          "oppCs": 21,
+          "oppLevel": 7
+        },
+        {
+          "minute": 15,
+          "goldDiff": -676,
+          "csDiff": 14,
+          "levelDiff": 1,
+          "myGold": 3305,
+          "myCs": 45,
+          "myLevel": 9,
+          "oppGold": 3981,
+          "oppCs": 31,
+          "oppLevel": 8
+        },
+        {
+          "minute": 20,
+          "goldDiff": -460,
+          "csDiff": 17,
+          "levelDiff": 1,
+          "myGold": 4989,
+          "myCs": 54,
+          "myLevel": 11,
+          "oppGold": 5449,
+          "oppCs": 37,
           "oppLevel": 10
         }
       ]

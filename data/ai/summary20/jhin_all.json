@@ -1,8 +1,8 @@
 {
   "champion": "jhin",
   "position": "all",
-  "availableCount": 8,
-  "count": 8,
+  "availableCount": 10,
+  "count": 10,
   "matches": [
     {
       "matchId": "KR_8351649121",
@@ -593,6 +593,166 @@
           "oppGold": 5381,
           "oppCs": 69,
           "oppLevel": 9
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7978951848",
+      "gameCreation": 1766299477165,
+      "gameDuration": 1975,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "MissFortune",
+      "win": false,
+      "kills": 4,
+      "deaths": 13,
+      "assists": 2,
+      "cs": 122,
+      "gold": 8992,
+      "damage": 14456,
+      "soloKills": 0,
+      "killParticipation": 0.24,
+      "teamDamagePercentage": 0.14479714788165612,
+      "laneMinionsFirst10Minutes": 36,
+      "opponentFinal": {
+        "kills": 23,
+        "deaths": 3,
+        "assists": 9,
+        "cs": 218,
+        "gold": 20420,
+        "damage": 50116
+      },
+      "firstKillTimestamp": 1561115,
+      "firstDeathTimestamp": 345428,
+      "firstAssistTimestamp": 1138543,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -743,
+          "csDiff": -6,
+          "levelDiff": -1,
+          "myGold": 1294,
+          "myCs": 19,
+          "myLevel": 3,
+          "oppGold": 2037,
+          "oppCs": 25,
+          "oppLevel": 4
+        },
+        {
+          "minute": 10,
+          "goldDiff": -1936,
+          "csDiff": -22,
+          "levelDiff": -1,
+          "myGold": 2668,
+          "myCs": 52,
+          "myLevel": 6,
+          "oppGold": 4604,
+          "oppCs": 74,
+          "oppLevel": 7
+        },
+        {
+          "minute": 15,
+          "goldDiff": -3204,
+          "csDiff": -38,
+          "levelDiff": -2,
+          "myGold": 3859,
+          "myCs": 79,
+          "myLevel": 8,
+          "oppGold": 7063,
+          "oppCs": 117,
+          "oppLevel": 10
+        },
+        {
+          "minute": 20,
+          "goldDiff": -3809,
+          "csDiff": -52,
+          "levelDiff": -1,
+          "myGold": 5262,
+          "myCs": 97,
+          "myLevel": 10,
+          "oppGold": 9071,
+          "oppCs": 149,
+          "oppLevel": 11
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7802995344",
+      "gameCreation": 1757463285997,
+      "gameDuration": 1212,
+      "queueId": 890,
+      "gameMode": "SWIFTPLAY",
+      "opponent": "MissFortune",
+      "win": true,
+      "kills": 6,
+      "deaths": 1,
+      "assists": 8,
+      "cs": 99,
+      "gold": 11823,
+      "damage": 15642,
+      "soloKills": 1,
+      "killParticipation": 0.3783783783783784,
+      "teamDamagePercentage": 0.19037835599345437,
+      "laneMinionsFirst10Minutes": 31,
+      "opponentFinal": {
+        "kills": 0,
+        "deaths": 6,
+        "assists": 2,
+        "cs": 101,
+        "gold": 9661,
+        "damage": 6966
+      },
+      "firstKillTimestamp": 144789,
+      "firstDeathTimestamp": 797023,
+      "firstAssistTimestamp": 381763,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -62,
+          "csDiff": -18,
+          "levelDiff": 1,
+          "myGold": 1553,
+          "myCs": 11,
+          "myLevel": 5,
+          "oppGold": 1615,
+          "oppCs": 29,
+          "oppLevel": 4
+        },
+        {
+          "minute": 10,
+          "goldDiff": 88,
+          "csDiff": -23,
+          "levelDiff": 1,
+          "myGold": 3624,
+          "myCs": 31,
+          "myLevel": 8,
+          "oppGold": 3536,
+          "oppCs": 54,
+          "oppLevel": 7
+        },
+        {
+          "minute": 15,
+          "goldDiff": -811,
+          "csDiff": -34,
+          "levelDiff": 0,
+          "myGold": 6524,
+          "myCs": 57,
+          "myLevel": 11,
+          "oppGold": 7335,
+          "oppCs": 91,
+          "oppLevel": 11
+        },
+        {
+          "minute": 20,
+          "goldDiff": 1954,
+          "csDiff": -3,
+          "levelDiff": 4,
+          "myGold": 11480,
+          "myCs": 98,
+          "myLevel": 16,
+          "oppGold": 9526,
+          "oppCs": 101,
+          "oppLevel": 12
         }
       ]
     }

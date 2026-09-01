@@ -1,8 +1,8 @@
 {
   "champion": "lux",
   "position": "all",
-  "availableCount": 4,
-  "count": 4,
+  "availableCount": 7,
+  "count": 7,
   "matches": [
     {
       "matchId": "KR_8282572899",
@@ -285,6 +285,198 @@
           "oppGold": 15363,
           "oppCs": 107,
           "oppLevel": 16
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8150275307",
+      "gameCreation": 1774598012123,
+      "gameDuration": 484,
+      "queueId": 890,
+      "gameMode": "SWIFTPLAY",
+      "opponent": "Soraka",
+      "win": true,
+      "kills": 2,
+      "deaths": 0,
+      "assists": 21,
+      "cs": 9,
+      "gold": 7749,
+      "damage": 13017,
+      "soloKills": 0,
+      "killParticipation": 0.696969696969697,
+      "teamDamagePercentage": 0.2341958148284162,
+      "laneMinionsFirst10Minutes": 9,
+      "opponentFinal": {
+        "kills": 0,
+        "deaths": 7,
+        "assists": 3,
+        "cs": 5,
+        "gold": 6177,
+        "damage": 2621
+      },
+      "firstKillTimestamp": 446717,
+      "firstDeathTimestamp": null,
+      "firstAssistTimestamp": 50130,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 1463,
+          "csDiff": 8,
+          "levelDiff": 3,
+          "myGold": 4581,
+          "myCs": 9,
+          "myLevel": 7,
+          "oppGold": 3118,
+          "oppCs": 1,
+          "oppLevel": 4
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7977281702",
+      "gameCreation": 1766231701710,
+      "gameDuration": 2239,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "opponent": "Evelynn",
+      "win": false,
+      "kills": 3,
+      "deaths": 7,
+      "assists": 9,
+      "cs": 1,
+      "gold": 10545,
+      "damage": 33222,
+      "soloKills": 0,
+      "killParticipation": 0.2857142857142857,
+      "teamDamagePercentage": 0.12192220789849716,
+      "laneMinionsFirst10Minutes": 0,
+      "opponentFinal": {
+        "kills": 3,
+        "deaths": 11,
+        "assists": 4,
+        "cs": 0,
+        "gold": 10540,
+        "damage": 27978
+      },
+      "firstKillTimestamp": 404312,
+      "firstDeathTimestamp": 81934,
+      "firstAssistTimestamp": 78474,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 260,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 1510,
+          "myCs": 0,
+          "myLevel": 7,
+          "oppGold": 1250,
+          "oppCs": 0,
+          "oppLevel": 7
+        },
+        {
+          "minute": 10,
+          "goldDiff": 260,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 4510,
+          "myCs": 0,
+          "myLevel": 11,
+          "oppGold": 4250,
+          "oppCs": 0,
+          "oppLevel": 11
+        },
+        {
+          "minute": 15,
+          "goldDiff": -270,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 7270,
+          "myCs": 0,
+          "myLevel": 14,
+          "oppGold": 7540,
+          "oppCs": 0,
+          "oppLevel": 14
+        },
+        {
+          "minute": 20,
+          "goldDiff": 5,
+          "csDiff": 1,
+          "levelDiff": 1,
+          "myGold": 10545,
+          "myCs": 1,
+          "myLevel": 17,
+          "oppGold": 10540,
+          "oppCs": 0,
+          "oppLevel": 16
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7762779891",
+      "gameCreation": 1755244371961,
+      "gameDuration": 939,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "Leona",
+      "win": false,
+      "kills": 1,
+      "deaths": 3,
+      "assists": 0,
+      "cs": 21,
+      "gold": 3712,
+      "damage": 3922,
+      "soloKills": 0,
+      "killParticipation": 0.3333333333333333,
+      "teamDamagePercentage": 0.1498842356812497,
+      "laneMinionsFirst10Minutes": 12,
+      "opponentFinal": {
+        "kills": 0,
+        "deaths": 1,
+        "assists": 12,
+        "cs": 22,
+        "gold": 5139,
+        "damage": 4746
+      },
+      "firstKillTimestamp": 441088,
+      "firstDeathTimestamp": 403427,
+      "firstAssistTimestamp": null,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -251,
+          "csDiff": -4,
+          "levelDiff": 0,
+          "myGold": 1147,
+          "myCs": 8,
+          "myLevel": 4,
+          "oppGold": 1398,
+          "oppCs": 12,
+          "oppLevel": 4
+        },
+        {
+          "minute": 10,
+          "goldDiff": -615,
+          "csDiff": -5,
+          "levelDiff": 0,
+          "myGold": 2548,
+          "myCs": 12,
+          "myLevel": 6,
+          "oppGold": 3163,
+          "oppCs": 17,
+          "oppLevel": 6
+        },
+        {
+          "minute": 15,
+          "goldDiff": -1387,
+          "csDiff": -3,
+          "levelDiff": 0,
+          "myGold": 3571,
+          "myCs": 18,
+          "myLevel": 8,
+          "oppGold": 4958,
+          "oppCs": 21,
+          "oppLevel": 8
         }
       ]
     }

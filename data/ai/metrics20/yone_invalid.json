@@ -1,0 +1,147 @@
+{
+  "champion": "yone",
+  "position": "invalid",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 0,
+  "losses": 2,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": -375.0,
+      "medianGoldDiff": -375.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": -680.0,
+      "medianGoldDiff": -680.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": -1255.0,
+      "medianGoldDiff": -1255.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -3806.0,
+      "medianGoldDiff": -3806.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -2.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 2,
+    "avg10GoldDiff": -680.0,
+    "avg15GoldDiff": -1255.0,
+    "avg20GoldDiff": -3806.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 1.55,
+    "avgFirstKillMin": 6.91
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.55,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 2,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 2
+  },
+  "matches": [
+    {
+      "matchId": "KR_8158676252",
+      "opponent": "Nautilus",
+      "win": false,
+      "kda": [
+        2,
+        10,
+        3
+      ],
+      "durationMin": 27.4,
+      "firstDeathMin": 1.64,
+      "firstKillMin": 10.17,
+      "g5": -500,
+      "cs5": 0,
+      "g10": -610,
+      "cs10": 0,
+      "g15": -960,
+      "cs15": 0,
+      "g20": -4310,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.08007972775488442
+    },
+    {
+      "matchId": "KR_7894612112",
+      "opponent": "Amumu",
+      "win": false,
+      "kda": [
+        3,
+        6,
+        6
+      ],
+      "durationMin": 22.3,
+      "firstDeathMin": 1.47,
+      "firstKillMin": 3.65,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -750,
+      "cs10": 0,
+      "g15": -1550,
+      "cs15": 0,
+      "g20": -3302,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.13879967641526075
+    }
+  ]
+}

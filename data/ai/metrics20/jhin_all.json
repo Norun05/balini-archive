@@ -1,100 +1,100 @@
 {
   "champion": "jhin",
   "position": "all",
-  "availableCount": 8,
-  "sampleCount": 8,
-  "wins": 4,
-  "losses": 4,
+  "availableCount": 10,
+  "sampleCount": 10,
+  "wins": 5,
+  "losses": 5,
   "winRate": 0.5,
   "snapshots": {
     "5": {
-      "sampleCount": 8,
-      "avgGoldDiff": -277.62,
+      "sampleCount": 10,
+      "avgGoldDiff": -302.6,
       "medianGoldDiff": -300.5,
       "goldAhead": 1,
-      "goldBehind": 7,
-      "avgCsDiff": -4.5,
-      "medianCsDiff": -6.5,
+      "goldBehind": 9,
+      "avgCsDiff": -6.0,
+      "medianCsDiff": -7.0,
       "csAhead": 2,
-      "csBehind": 5,
+      "csBehind": 7,
       "avgLevelDiff": 0.0
     },
     "10": {
-      "sampleCount": 8,
-      "avgGoldDiff": -404.38,
+      "sampleCount": 10,
+      "avgGoldDiff": -508.3,
       "medianGoldDiff": -671.5,
-      "goldAhead": 3,
-      "goldBehind": 5,
-      "avgCsDiff": -6.88,
-      "medianCsDiff": -7.5,
+      "goldAhead": 4,
+      "goldBehind": 6,
+      "avgCsDiff": -10.0,
+      "medianCsDiff": -10.5,
       "csAhead": 2,
-      "csBehind": 6,
-      "avgLevelDiff": -0.25
+      "csBehind": 8,
+      "avgLevelDiff": -0.2
     },
     "15": {
-      "sampleCount": 8,
-      "avgGoldDiff": -317.0,
-      "medianGoldDiff": 191.0,
+      "sampleCount": 10,
+      "avgGoldDiff": -655.1,
+      "medianGoldDiff": -506.5,
       "goldAhead": 4,
-      "goldBehind": 4,
-      "avgCsDiff": -0.38,
-      "medianCsDiff": -2.0,
+      "goldBehind": 6,
+      "avgCsDiff": -7.5,
+      "medianCsDiff": -10.0,
       "csAhead": 4,
-      "csBehind": 4,
-      "avgLevelDiff": -0.25
+      "csBehind": 6,
+      "avgLevelDiff": -0.4
     },
     "20": {
-      "sampleCount": 4,
-      "avgGoldDiff": 74.25,
+      "sampleCount": 6,
+      "avgGoldDiff": -259.67,
       "medianGoldDiff": 910.0,
-      "goldAhead": 3,
-      "goldBehind": 1,
-      "avgCsDiff": -3.5,
-      "medianCsDiff": 10.5,
+      "goldAhead": 4,
+      "goldBehind": 2,
+      "avgCsDiff": -11.5,
+      "medianCsDiff": -14.5,
       "csAhead": 2,
-      "csBehind": 2,
-      "avgLevelDiff": -0.5
+      "csBehind": 4,
+      "avgLevelDiff": 0.17
     }
   },
   "winsStats": {
-    "count": 4,
-    "avg10GoldDiff": -488.25,
-    "avg15GoldDiff": -438.25,
-    "avg20GoldDiff": -1624.0,
-    "avg10CsDiff": -13.75,
-    "avg15CsDiff": -14.75,
-    "avg20CsDiff": -55.0,
-    "avgFirstDeathMin": 10.43,
-    "avgFirstKillMin": 11.56
+    "count": 5,
+    "avg10GoldDiff": -373.0,
+    "avg15GoldDiff": -512.8,
+    "avg20GoldDiff": -431.33,
+    "avg10CsDiff": -15.6,
+    "avg15CsDiff": -18.6,
+    "avg20CsDiff": -37.67,
+    "avgFirstDeathMin": 11.14,
+    "avgFirstKillMin": 9.73
   },
   "lossesStats": {
-    "count": 4,
-    "avg10GoldDiff": -320.5,
-    "avg15GoldDiff": -195.75,
-    "avg20GoldDiff": 1772.5,
-    "avg10CsDiff": 0.0,
-    "avg15CsDiff": 14.0,
-    "avg20CsDiff": 48.0,
-    "avgFirstDeathMin": 6.11,
-    "avgFirstKillMin": 9.61
+    "count": 5,
+    "avg10GoldDiff": -643.6,
+    "avg15GoldDiff": -797.4,
+    "avg20GoldDiff": -88.0,
+    "avg10CsDiff": -4.4,
+    "avg15CsDiff": 3.6,
+    "avg20CsDiff": 14.67,
+    "avgFirstDeathMin": 6.04,
+    "avgFirstKillMin": 12.89
   },
   "firstDeath": {
     "noDeath": 1,
-    "avgMinute": 7.96,
+    "avgMinute": 8.31,
     "before5": 3,
-    "before8": 5,
-    "before10": 5,
-    "before15": 6
+    "before8": 6,
+    "before10": 6,
+    "before15": 8
   },
   "transitions": {
-    "ahead10_to_behind15": 0,
+    "ahead10_to_behind15": 1,
     "behind10_to_ahead15": 1,
     "ahead15_but_loss": 2,
-    "behind15_but_win": 2,
+    "behind15_but_win": 3,
     "ahead10_by300_plus": 2,
-    "behind10_by300_plus": 5,
+    "behind10_by300_plus": 6,
     "ahead15_by500_plus": 4,
-    "behind15_by500_plus": 3
+    "behind15_by500_plus": 5
   },
   "matches": [
     {
@@ -280,6 +280,52 @@
       "cs20": 47,
       "soloKills": 0,
       "teamDamagePercentage": 0.14175734751866464
+    },
+    {
+      "matchId": "KR_7978951848",
+      "opponent": "MissFortune",
+      "win": false,
+      "kda": [
+        4,
+        13,
+        2
+      ],
+      "durationMin": 32.9,
+      "firstDeathMin": 5.76,
+      "firstKillMin": 26.02,
+      "g5": -743,
+      "cs5": -6,
+      "g10": -1936,
+      "cs10": -22,
+      "g15": -3204,
+      "cs15": -38,
+      "g20": -3809,
+      "cs20": -52,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.14479714788165612
+    },
+    {
+      "matchId": "KR_7802995344",
+      "opponent": "MissFortune",
+      "win": true,
+      "kda": [
+        6,
+        1,
+        8
+      ],
+      "durationMin": 20.2,
+      "firstDeathMin": 13.28,
+      "firstKillMin": 2.41,
+      "g5": -62,
+      "cs5": -18,
+      "g10": 88,
+      "cs10": -23,
+      "g15": -811,
+      "cs15": -34,
+      "g20": 1954,
+      "cs20": -3,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.19037835599345437
     }
   ]
 }

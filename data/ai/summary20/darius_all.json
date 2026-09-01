@@ -1,8 +1,8 @@
 {
   "champion": "darius",
   "position": "all",
-  "availableCount": 2,
-  "count": 2,
+  "availableCount": 4,
+  "count": 4,
   "matches": [
     {
       "matchId": "KR_8280308021",
@@ -161,6 +161,142 @@
           "oppGold": 8762,
           "oppCs": 158,
           "oppLevel": 15
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8056446092",
+      "gameCreation": 1769676255876,
+      "gameDuration": 871,
+      "queueId": 900,
+      "gameMode": "URF",
+      "opponent": "MonkeyKing",
+      "win": false,
+      "kills": 3,
+      "deaths": 8,
+      "assists": 2,
+      "cs": 20,
+      "gold": 8389,
+      "damage": 6142,
+      "soloKills": null,
+      "killParticipation": null,
+      "teamDamagePercentage": null,
+      "laneMinionsFirst10Minutes": null,
+      "opponentFinal": {
+        "kills": 14,
+        "deaths": 1,
+        "assists": 8,
+        "cs": 53,
+        "gold": 14152,
+        "damage": 23492
+      },
+      "firstKillTimestamp": 111923,
+      "firstDeathTimestamp": 165475,
+      "firstAssistTimestamp": 489493,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -950,
+          "csDiff": -3,
+          "levelDiff": 0,
+          "myGold": 2628,
+          "myCs": 7,
+          "myLevel": 6,
+          "oppGold": 3578,
+          "oppCs": 10,
+          "oppLevel": 6
+        },
+        {
+          "minute": 10,
+          "goldDiff": -3751,
+          "csDiff": -14,
+          "levelDiff": -1,
+          "myGold": 5107,
+          "myCs": 16,
+          "myLevel": 9,
+          "oppGold": 8858,
+          "oppCs": 30,
+          "oppLevel": 10
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7864019868",
+      "gameCreation": 1760183124566,
+      "gameDuration": 1499,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "opponent": "DrMundo",
+      "win": true,
+      "kills": 3,
+      "deaths": 7,
+      "assists": 7,
+      "cs": 0,
+      "gold": 13000,
+      "damage": 19904,
+      "soloKills": 0,
+      "killParticipation": 0.13157894736842105,
+      "teamDamagePercentage": 0.043354355997483156,
+      "laneMinionsFirst10Minutes": 0,
+      "opponentFinal": {
+        "kills": 8,
+        "deaths": 7,
+        "assists": 5,
+        "cs": 0,
+        "gold": 14500,
+        "damage": 54053
+      },
+      "firstKillTimestamp": 106097,
+      "firstDeathTimestamp": 252490,
+      "firstAssistTimestamp": 597172,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 0,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 3500,
+          "myCs": 0,
+          "myLevel": 7,
+          "oppGold": 3500,
+          "oppCs": 0,
+          "oppLevel": 7
+        },
+        {
+          "minute": 10,
+          "goldDiff": 250,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 6250,
+          "myCs": 0,
+          "myLevel": 11,
+          "oppGold": 6000,
+          "oppCs": 0,
+          "oppLevel": 11
+        },
+        {
+          "minute": 15,
+          "goldDiff": -1000,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 9500,
+          "myCs": 0,
+          "myLevel": 14,
+          "oppGold": 10500,
+          "oppCs": 0,
+          "oppLevel": 14
+        },
+        {
+          "minute": 20,
+          "goldDiff": -1750,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 12750,
+          "myCs": 0,
+          "myLevel": 16,
+          "oppGold": 14500,
+          "oppCs": 0,
+          "oppLevel": 16
         }
       ]
     }

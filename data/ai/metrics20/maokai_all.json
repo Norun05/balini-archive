@@ -1,0 +1,124 @@
+{
+  "champion": "maokai",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 45.0,
+      "medianGoldDiff": 45,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -145.0,
+      "medianGoldDiff": -145,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 4.0,
+      "medianCsDiff": 4,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 869.0,
+      "medianGoldDiff": 869,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 24.0,
+      "medianCsDiff": 24,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 3.0
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -145.0,
+    "avg15GoldDiff": 869.0,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": 4.0,
+    "avg15CsDiff": 24.0,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": 1.4,
+    "avgFirstKillMin": 4.07
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.4,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 1,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_7924945233",
+      "opponent": "Anivia",
+      "win": false,
+      "kda": [
+        6,
+        14,
+        4
+      ],
+      "durationMin": 19.5,
+      "firstDeathMin": 1.4,
+      "firstKillMin": 4.07,
+      "g5": 45,
+      "cs5": 0,
+      "g10": -145,
+      "cs10": 4,
+      "g15": 869,
+      "cs15": 24,
+      "g20": null,
+      "cs20": null,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

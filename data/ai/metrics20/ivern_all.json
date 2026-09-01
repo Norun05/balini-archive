@@ -1,0 +1,124 @@
+{
+  "champion": "ivern",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -555.0,
+      "medianGoldDiff": -555,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -4.0,
+      "medianCsDiff": -4,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 183.0,
+      "medianGoldDiff": 183,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": -5.0,
+      "medianCsDiff": -5,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 183.0,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": -5.0,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": 4.83,
+    "avgFirstKillMin": 4.03
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 4.83,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8004581945",
+      "opponent": "Skarner",
+      "win": true,
+      "kda": [
+        1,
+        4,
+        11
+      ],
+      "durationMin": 10.3,
+      "firstDeathMin": 4.83,
+      "firstKillMin": 4.03,
+      "g5": -555,
+      "cs5": -4,
+      "g10": 183,
+      "cs10": -5,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

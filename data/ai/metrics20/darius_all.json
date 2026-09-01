@@ -1,100 +1,100 @@
 {
   "champion": "darius",
   "position": "all",
-  "availableCount": 2,
-  "sampleCount": 2,
-  "wins": 1,
-  "losses": 1,
+  "availableCount": 4,
+  "sampleCount": 4,
+  "wins": 2,
+  "losses": 2,
   "winRate": 0.5,
   "snapshots": {
     "5": {
-      "sampleCount": 2,
-      "avgGoldDiff": 527.0,
-      "medianGoldDiff": 527.0,
+      "sampleCount": 4,
+      "avgGoldDiff": 26.0,
+      "medianGoldDiff": 223.5,
       "goldAhead": 2,
-      "goldBehind": 0,
-      "avgCsDiff": 2.5,
-      "medianCsDiff": 2.5,
+      "goldBehind": 1,
+      "avgCsDiff": 0.5,
+      "medianCsDiff": -1.0,
       "csAhead": 1,
-      "csBehind": 1,
+      "csBehind": 2,
       "avgLevelDiff": 0.0
     },
     "10": {
-      "sampleCount": 2,
-      "avgGoldDiff": 545.5,
-      "medianGoldDiff": 545.5,
-      "goldAhead": 2,
-      "goldBehind": 0,
-      "avgCsDiff": 10.0,
-      "medianCsDiff": 10.0,
+      "sampleCount": 4,
+      "avgGoldDiff": -602.5,
+      "medianGoldDiff": 392.0,
+      "goldAhead": 3,
+      "goldBehind": 1,
+      "avgCsDiff": 1.5,
+      "medianCsDiff": -1.0,
       "csAhead": 1,
-      "csBehind": 1,
-      "avgLevelDiff": 0.5
+      "csBehind": 2,
+      "avgLevelDiff": 0.0
     },
     "15": {
-      "sampleCount": 2,
-      "avgGoldDiff": 467.0,
-      "medianGoldDiff": 467.0,
+      "sampleCount": 3,
+      "avgGoldDiff": -22.0,
+      "medianGoldDiff": -336,
       "goldAhead": 1,
-      "goldBehind": 1,
-      "avgCsDiff": 5.0,
-      "medianCsDiff": 5.0,
+      "goldBehind": 2,
+      "avgCsDiff": 3.33,
+      "medianCsDiff": 0,
       "csAhead": 1,
       "csBehind": 1,
-      "avgLevelDiff": -0.5
+      "avgLevelDiff": -0.33
     },
     "20": {
-      "sampleCount": 2,
-      "avgGoldDiff": 1010.5,
-      "medianGoldDiff": 1010.5,
+      "sampleCount": 3,
+      "avgGoldDiff": 90.33,
+      "medianGoldDiff": -814,
       "goldAhead": 1,
-      "goldBehind": 1,
-      "avgCsDiff": 14.5,
-      "medianCsDiff": 14.5,
+      "goldBehind": 2,
+      "avgCsDiff": 9.67,
+      "medianCsDiff": 0,
       "csAhead": 1,
       "csBehind": 1,
       "avgLevelDiff": 0.0
     }
   },
   "winsStats": {
-    "count": 1,
-    "avg10GoldDiff": 557.0,
-    "avg15GoldDiff": 1270.0,
-    "avg20GoldDiff": 2835.0,
-    "avg10CsDiff": 22.0,
-    "avg15CsDiff": 26.0,
-    "avg20CsDiff": 37.0,
-    "avgFirstDeathMin": 9.91,
-    "avgFirstKillMin": 1.04
+    "count": 2,
+    "avg10GoldDiff": 403.5,
+    "avg15GoldDiff": 135.0,
+    "avg20GoldDiff": 542.5,
+    "avg10CsDiff": 11.0,
+    "avg15CsDiff": 13.0,
+    "avg20CsDiff": 18.5,
+    "avgFirstDeathMin": 7.06,
+    "avgFirstKillMin": 1.41
   },
   "lossesStats": {
-    "count": 1,
-    "avg10GoldDiff": 534.0,
+    "count": 2,
+    "avg10GoldDiff": -1608.5,
     "avg15GoldDiff": -336.0,
     "avg20GoldDiff": -814.0,
-    "avg10CsDiff": -2.0,
+    "avg10CsDiff": -8.0,
     "avg15CsDiff": -16.0,
     "avg20CsDiff": -8.0,
-    "avgFirstDeathMin": 8.76,
-    "avgFirstKillMin": 3.21
+    "avgFirstDeathMin": 5.76,
+    "avgFirstKillMin": 2.54
   },
   "firstDeath": {
     "noDeath": 0,
-    "avgMinute": 9.34,
-    "before5": 0,
-    "before8": 0,
-    "before10": 2,
-    "before15": 2
+    "avgMinute": 6.41,
+    "before5": 2,
+    "before8": 2,
+    "before10": 4,
+    "before15": 4
   },
   "transitions": {
-    "ahead10_to_behind15": 1,
+    "ahead10_to_behind15": 2,
     "behind10_to_ahead15": 0,
     "ahead15_but_loss": 0,
-    "behind15_but_win": 0,
+    "behind15_but_win": 1,
     "ahead10_by300_plus": 2,
     "behind10_by300_plus": 0,
     "ahead15_by500_plus": 1,
-    "behind15_by500_plus": 0
+    "behind15_by500_plus": 1
   },
   "matches": [
     {
@@ -142,6 +142,52 @@
       "cs20": -8,
       "soloKills": 4,
       "teamDamagePercentage": 0.21354667761112917
+    },
+    {
+      "matchId": "KR_8056446092",
+      "opponent": "MonkeyKing",
+      "win": false,
+      "kda": [
+        3,
+        8,
+        2
+      ],
+      "durationMin": 14.5,
+      "firstDeathMin": 2.76,
+      "firstKillMin": 1.87,
+      "g5": -950,
+      "cs5": -3,
+      "g10": -3751,
+      "cs10": -14,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    },
+    {
+      "matchId": "KR_7864019868",
+      "opponent": "DrMundo",
+      "win": true,
+      "kda": [
+        3,
+        7,
+        7
+      ],
+      "durationMin": 25.0,
+      "firstDeathMin": 4.21,
+      "firstKillMin": 1.77,
+      "g5": 0,
+      "cs5": 0,
+      "g10": 250,
+      "cs10": 0,
+      "g15": -1000,
+      "cs15": 0,
+      "g20": -1750,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.043354355997483156
     }
   ]
 }

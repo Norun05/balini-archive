@@ -1,59 +1,59 @@
 {
   "champion": "swain",
   "position": "all",
-  "availableCount": 1,
-  "sampleCount": 1,
+  "availableCount": 2,
+  "sampleCount": 2,
   "wins": 1,
-  "losses": 0,
-  "winRate": 1.0,
+  "losses": 1,
+  "winRate": 0.5,
   "snapshots": {
     "5": {
-      "sampleCount": 1,
-      "avgGoldDiff": 250.0,
-      "medianGoldDiff": 250,
+      "sampleCount": 2,
+      "avgGoldDiff": 125.0,
+      "medianGoldDiff": 125.0,
       "goldAhead": 1,
       "goldBehind": 0,
       "avgCsDiff": 0.0,
-      "medianCsDiff": 0,
+      "medianCsDiff": 0.0,
       "csAhead": 0,
       "csBehind": 0,
       "avgLevelDiff": 0.0
     },
     "10": {
-      "sampleCount": 1,
-      "avgGoldDiff": 500.0,
-      "medianGoldDiff": 500,
+      "sampleCount": 2,
+      "avgGoldDiff": 0.0,
+      "medianGoldDiff": 0.0,
       "goldAhead": 1,
-      "goldBehind": 0,
-      "avgCsDiff": 0.0,
-      "medianCsDiff": 0,
-      "csAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.5,
+      "medianCsDiff": 0.5,
+      "csAhead": 1,
       "csBehind": 0,
       "avgLevelDiff": 0.0
     },
     "15": {
-      "sampleCount": 1,
-      "avgGoldDiff": 5750.0,
-      "medianGoldDiff": 5750,
+      "sampleCount": 2,
+      "avgGoldDiff": 2875.0,
+      "medianGoldDiff": 2875.0,
       "goldAhead": 1,
       "goldBehind": 0,
-      "avgCsDiff": 0.0,
-      "medianCsDiff": 0,
-      "csAhead": 0,
+      "avgCsDiff": 0.5,
+      "medianCsDiff": 0.5,
+      "csAhead": 1,
       "csBehind": 0,
-      "avgLevelDiff": 4.0
+      "avgLevelDiff": 2.0
     },
     "20": {
-      "sampleCount": 0,
-      "avgGoldDiff": null,
-      "medianGoldDiff": null,
+      "sampleCount": 1,
+      "avgGoldDiff": -2250.0,
+      "medianGoldDiff": -2250,
       "goldAhead": 0,
-      "goldBehind": 0,
-      "avgCsDiff": null,
-      "medianCsDiff": null,
-      "csAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 1.0,
+      "medianCsDiff": 1,
+      "csAhead": 1,
       "csBehind": 0,
-      "avgLevelDiff": null
+      "avgLevelDiff": -1.0
     }
   },
   "winsStats": {
@@ -68,23 +68,23 @@
     "avgFirstKillMin": 6.62
   },
   "lossesStats": {
-    "count": 0,
-    "avg10GoldDiff": null,
-    "avg15GoldDiff": null,
-    "avg20GoldDiff": null,
-    "avg10CsDiff": null,
-    "avg15CsDiff": null,
-    "avg20CsDiff": null,
-    "avgFirstDeathMin": null,
-    "avgFirstKillMin": null
+    "count": 1,
+    "avg10GoldDiff": -500.0,
+    "avg15GoldDiff": 0.0,
+    "avg20GoldDiff": -2250.0,
+    "avg10CsDiff": 1.0,
+    "avg15CsDiff": 1.0,
+    "avg20CsDiff": 1.0,
+    "avgFirstDeathMin": 1.55,
+    "avgFirstKillMin": 11.59
   },
   "firstDeath": {
     "noDeath": 0,
-    "avgMinute": 1.5,
-    "before5": 1,
-    "before8": 1,
-    "before10": 1,
-    "before15": 1
+    "avgMinute": 1.52,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
   },
   "transitions": {
     "ahead10_to_behind15": 0,
@@ -92,7 +92,7 @@
     "ahead15_but_loss": 0,
     "behind15_but_win": 0,
     "ahead10_by300_plus": 1,
-    "behind10_by300_plus": 0,
+    "behind10_by300_plus": 1,
     "ahead15_by500_plus": 1,
     "behind15_by500_plus": 0
   },
@@ -119,6 +119,29 @@
       "cs20": null,
       "soloKills": 0,
       "teamDamagePercentage": 0.08376820161352128
+    },
+    {
+      "matchId": "KR_8158573849",
+      "opponent": "Leona",
+      "win": false,
+      "kda": [
+        3,
+        6,
+        4
+      ],
+      "durationMin": 27.0,
+      "firstDeathMin": 1.55,
+      "firstKillMin": 11.59,
+      "g5": 0,
+      "cs5": 0,
+      "g10": -500,
+      "cs10": 1,
+      "g15": 0,
+      "cs15": 1,
+      "g20": -2250,
+      "cs20": 1,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.19316086790716733
     }
   ]
 }

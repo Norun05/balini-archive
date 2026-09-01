@@ -1,35 +1,35 @@
 {
   "champion": "seraphine",
   "position": "utility",
-  "availableCount": 7,
-  "sampleCount": 7,
-  "wins": 6,
+  "availableCount": 8,
+  "sampleCount": 8,
+  "wins": 7,
   "losses": 1,
-  "winRate": 0.8571,
+  "winRate": 0.875,
   "snapshots": {
     "5": {
-      "sampleCount": 7,
-      "avgGoldDiff": -247.57,
-      "medianGoldDiff": -110,
-      "goldAhead": 2,
+      "sampleCount": 8,
+      "avgGoldDiff": -176.75,
+      "medianGoldDiff": -59.0,
+      "goldAhead": 3,
       "goldBehind": 5,
-      "avgCsDiff": -0.29,
-      "medianCsDiff": 1,
+      "avgCsDiff": -0.38,
+      "medianCsDiff": 0.0,
       "csAhead": 4,
-      "csBehind": 3,
-      "avgLevelDiff": -0.29
+      "csBehind": 4,
+      "avgLevelDiff": -0.12
     },
     "10": {
-      "sampleCount": 7,
-      "avgGoldDiff": -204.43,
-      "medianGoldDiff": -233,
-      "goldAhead": 3,
+      "sampleCount": 8,
+      "avgGoldDiff": -105.38,
+      "medianGoldDiff": -69.5,
+      "goldAhead": 4,
       "goldBehind": 4,
-      "avgCsDiff": 0.29,
-      "medianCsDiff": -1,
+      "avgCsDiff": 0.12,
+      "medianCsDiff": -1.0,
       "csAhead": 3,
-      "csBehind": 4,
-      "avgLevelDiff": -0.14
+      "csBehind": 5,
+      "avgLevelDiff": 0.12
     },
     "15": {
       "sampleCount": 7,
@@ -57,15 +57,15 @@
     }
   },
   "winsStats": {
-    "count": 6,
-    "avg10GoldDiff": -254.17,
+    "count": 7,
+    "avg10GoldDiff": -133.86,
     "avg15GoldDiff": -584.33,
     "avg20GoldDiff": -373.8,
-    "avg10CsDiff": 0.5,
+    "avg10CsDiff": 0.29,
     "avg15CsDiff": 0.5,
     "avg20CsDiff": 0.8,
     "avgFirstDeathMin": 7.0,
-    "avgFirstKillMin": 15.47
+    "avgFirstKillMin": 13.75
   },
   "lossesStats": {
     "count": 1,
@@ -79,7 +79,7 @@
     "avgFirstKillMin": 16.51
   },
   "firstDeath": {
-    "noDeath": 1,
+    "noDeath": 2,
     "avgMinute": 8.25,
     "before5": 3,
     "before8": 3,
@@ -257,6 +257,29 @@
       "cs20": -6,
       "soloKills": 0,
       "teamDamagePercentage": 0.05948870356036393
+    },
+    {
+      "matchId": "KR_7803006514",
+      "opponent": "Karma",
+      "win": true,
+      "kda": [
+        2,
+        0,
+        14
+      ],
+      "durationMin": 12.9,
+      "firstDeathMin": null,
+      "firstKillMin": 5.15,
+      "g5": 319,
+      "cs5": -1,
+      "g10": 588,
+      "cs10": -1,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.12247502319529703
     }
   ]
 }

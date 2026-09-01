@@ -1,0 +1,124 @@
+{
+  "champion": "ambessa",
+  "position": "middle",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -58.0,
+      "medianGoldDiff": -58,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -141.0,
+      "medianGoldDiff": -141,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -6.0,
+      "medianCsDiff": -6,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -681.0,
+      "medianGoldDiff": -681,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -20.0,
+      "medianCsDiff": -20,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -846.0,
+      "medianGoldDiff": -846,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -48.0,
+      "medianCsDiff": -48,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -141.0,
+    "avg15GoldDiff": -681.0,
+    "avg20GoldDiff": -846.0,
+    "avg10CsDiff": -6.0,
+    "avg15CsDiff": -20.0,
+    "avg20CsDiff": -48.0,
+    "avgFirstDeathMin": 12.55,
+    "avgFirstKillMin": 15.56
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 12.55,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8026842483",
+      "opponent": "Veigar",
+      "win": false,
+      "kda": [
+        2,
+        10,
+        14
+      ],
+      "durationMin": 42.9,
+      "firstDeathMin": 12.55,
+      "firstKillMin": 15.56,
+      "g5": -58,
+      "cs5": -1,
+      "g10": -141,
+      "cs10": -6,
+      "g15": -681,
+      "cs15": -20,
+      "g20": -846,
+      "cs20": -48,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.1108863556423908
+    }
+  ]
+}

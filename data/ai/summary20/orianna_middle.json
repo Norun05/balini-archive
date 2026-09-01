@@ -1,8 +1,8 @@
 {
   "champion": "orianna",
   "position": "middle",
-  "availableCount": 4,
-  "count": 4,
+  "availableCount": 6,
+  "count": 6,
   "matches": [
     {
       "matchId": "KR_8294310427",
@@ -320,6 +320,166 @@
           "myLevel": 13,
           "oppGold": 7661,
           "oppCs": 150,
+          "oppLevel": 14
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8102509435",
+      "gameCreation": 1771767702328,
+      "gameDuration": 1436,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "Aurora",
+      "win": false,
+      "kills": 1,
+      "deaths": 2,
+      "assists": 1,
+      "cs": 112,
+      "gold": 6519,
+      "damage": 7483,
+      "soloKills": 0,
+      "killParticipation": 0.18181818181818182,
+      "teamDamagePercentage": 0.12263953098223479,
+      "laneMinionsFirst10Minutes": 41,
+      "opponentFinal": {
+        "kills": 2,
+        "deaths": 0,
+        "assists": 5,
+        "cs": 184,
+        "gold": 8949,
+        "damage": 13609
+      },
+      "firstKillTimestamp": 1157617,
+      "firstDeathTimestamp": 1045507,
+      "firstAssistTimestamp": 1271947,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -274,
+          "csDiff": -14,
+          "levelDiff": 0,
+          "myGold": 1297,
+          "myCs": 17,
+          "myLevel": 5,
+          "oppGold": 1571,
+          "oppCs": 31,
+          "oppLevel": 5
+        },
+        {
+          "minute": 10,
+          "goldDiff": -709,
+          "csDiff": -28,
+          "levelDiff": 0,
+          "myGold": 2311,
+          "myCs": 41,
+          "myLevel": 8,
+          "oppGold": 3020,
+          "oppCs": 69,
+          "oppLevel": 8
+        },
+        {
+          "minute": 15,
+          "goldDiff": -1399,
+          "csDiff": -38,
+          "levelDiff": -1,
+          "myGold": 3479,
+          "myCs": 72,
+          "myLevel": 10,
+          "oppGold": 4878,
+          "oppCs": 110,
+          "oppLevel": 11
+        },
+        {
+          "minute": 20,
+          "goldDiff": -1811,
+          "csDiff": -55,
+          "levelDiff": -1,
+          "myGold": 5702,
+          "myCs": 103,
+          "myLevel": 12,
+          "oppGold": 7513,
+          "oppCs": 158,
+          "oppLevel": 13
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7977858652",
+      "gameCreation": 1766243646398,
+      "gameDuration": 1350,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "Kassadin",
+      "win": false,
+      "kills": 1,
+      "deaths": 7,
+      "assists": 3,
+      "cs": 106,
+      "gold": 6815,
+      "damage": 7368,
+      "soloKills": 0,
+      "killParticipation": 0.23529411764705882,
+      "teamDamagePercentage": 0.11253537332230718,
+      "laneMinionsFirst10Minutes": 59,
+      "opponentFinal": {
+        "kills": 14,
+        "deaths": 1,
+        "assists": 3,
+        "cs": 177,
+        "gold": 13183,
+        "damage": 28876
+      },
+      "firstKillTimestamp": 1138951,
+      "firstDeathTimestamp": 368360,
+      "firstAssistTimestamp": 1013978,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -238,
+          "csDiff": -9,
+          "levelDiff": 0,
+          "myGold": 1507,
+          "myCs": 28,
+          "myLevel": 5,
+          "oppGold": 1745,
+          "oppCs": 37,
+          "oppLevel": 5
+        },
+        {
+          "minute": 10,
+          "goldDiff": -1613,
+          "csDiff": -24,
+          "levelDiff": -1,
+          "myGold": 2740,
+          "myCs": 59,
+          "myLevel": 8,
+          "oppGold": 4353,
+          "oppCs": 83,
+          "oppLevel": 9
+        },
+        {
+          "minute": 15,
+          "goldDiff": -3131,
+          "csDiff": -48,
+          "levelDiff": -2,
+          "myGold": 3960,
+          "myCs": 88,
+          "myLevel": 10,
+          "oppGold": 7091,
+          "oppCs": 136,
+          "oppLevel": 12
+        },
+        {
+          "minute": 20,
+          "goldDiff": -4458,
+          "csDiff": -61,
+          "levelDiff": -2,
+          "myGold": 6509,
+          "myCs": 106,
+          "myLevel": 12,
+          "oppGold": 10967,
+          "oppCs": 167,
           "oppLevel": 14
         }
       ]

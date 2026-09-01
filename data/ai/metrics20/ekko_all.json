@@ -1,0 +1,124 @@
+{
+  "champion": "ekko",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 1329.0,
+      "medianGoldDiff": 1329,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 13.0,
+      "medianCsDiff": 13,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 1377.0,
+      "medianGoldDiff": 1377,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 18.0,
+      "medianCsDiff": 18,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 1741.0,
+      "medianGoldDiff": 1741,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 14.0,
+      "medianCsDiff": 14,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 2088.0,
+      "medianGoldDiff": 2088,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 14.0,
+      "medianCsDiff": 14,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 1377.0,
+    "avg15GoldDiff": 1741.0,
+    "avg20GoldDiff": 2088.0,
+    "avg10CsDiff": 18.0,
+    "avg15CsDiff": 14.0,
+    "avg20CsDiff": 14.0,
+    "avgFirstDeathMin": 2.53,
+    "avgFirstKillMin": 1.52
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.53,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8007038550",
+      "opponent": "Leona",
+      "win": true,
+      "kda": [
+        5,
+        12,
+        12
+      ],
+      "durationMin": 21.0,
+      "firstDeathMin": 2.53,
+      "firstKillMin": 1.52,
+      "g5": 1329,
+      "cs5": 13,
+      "g10": 1377,
+      "cs10": 18,
+      "g15": 1741,
+      "cs15": 14,
+      "g20": 2088,
+      "cs20": 14,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "champion": "kogmaw",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 534.0,
+      "medianGoldDiff": 534,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 16.0,
+      "medianCsDiff": 16,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 1070.0,
+      "medianGoldDiff": 1070,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 25.0,
+      "medianCsDiff": 25,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 2.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 1178.0,
+      "medianGoldDiff": 1178,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 9.0,
+      "medianCsDiff": 9,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 1070.0,
+    "avg15GoldDiff": 1178.0,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": 25.0,
+    "avg15CsDiff": 9.0,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": 7.05
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 1,
+    "avgMinute": null,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 0
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_7803016283",
+      "opponent": "Corki",
+      "win": true,
+      "kda": [
+        10,
+        0,
+        13
+      ],
+      "durationMin": 19.4,
+      "firstDeathMin": null,
+      "firstKillMin": 7.05,
+      "g5": 534,
+      "cs5": 16,
+      "g10": 1070,
+      "cs10": 25,
+      "g15": 1178,
+      "cs15": 9,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.23657210044904828
+    }
+  ]
+}

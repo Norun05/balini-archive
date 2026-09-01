@@ -1,0 +1,147 @@
+{
+  "champion": "zilean",
+  "position": "all",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 0,
+  "losses": 2,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": 205.0,
+      "medianGoldDiff": 205.0,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": 242.0,
+      "medianGoldDiff": 242.0,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 2.0,
+      "medianCsDiff": 2.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": 312.5,
+      "medianGoldDiff": 312.5,
+      "goldAhead": 2,
+      "goldBehind": 0,
+      "avgCsDiff": 2.0,
+      "medianCsDiff": 2.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 3.0
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -1821.0,
+      "medianGoldDiff": -1821.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 2.0,
+      "medianCsDiff": 2.0,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.5
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 2,
+    "avg10GoldDiff": 242.0,
+    "avg15GoldDiff": 312.5,
+    "avg20GoldDiff": -1821.0,
+    "avg10CsDiff": 2.0,
+    "avg15CsDiff": 2.0,
+    "avg20CsDiff": 2.0,
+    "avgFirstDeathMin": 1.77,
+    "avgFirstKillMin": 4.31
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.77,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 2,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_7895354179",
+      "opponent": "Ekko",
+      "win": false,
+      "kda": [
+        1,
+        7,
+        1
+      ],
+      "durationMin": 24.1,
+      "firstDeathMin": 1.69,
+      "firstKillMin": 3.84,
+      "g5": 266,
+      "cs5": 0,
+      "g10": 16,
+      "cs10": 4,
+      "g15": 416,
+      "cs15": 4,
+      "g20": -4154,
+      "cs20": 4,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.05140222313224175
+    },
+    {
+      "matchId": "KR_7895311625",
+      "opponent": "Teemo",
+      "win": false,
+      "kda": [
+        6,
+        8,
+        7
+      ],
+      "durationMin": 22.6,
+      "firstDeathMin": 1.86,
+      "firstKillMin": 4.79,
+      "g5": 144,
+      "cs5": 0,
+      "g10": 468,
+      "cs10": 0,
+      "g15": 209,
+      "cs15": 0,
+      "g20": 512,
+      "cs20": 0,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.13338171999852524
+    }
+  ]
+}

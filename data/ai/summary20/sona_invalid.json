@@ -1,8 +1,8 @@
 {
   "champion": "sona",
   "position": "invalid",
-  "availableCount": 6,
-  "count": 6,
+  "availableCount": 7,
+  "count": 7,
   "matches": [
     {
       "matchId": "KR_8238224075",
@@ -469,6 +469,86 @@
           "oppGold": 8500,
           "oppCs": 0,
           "oppLevel": 12
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7926253545",
+      "gameCreation": 1763828709567,
+      "gameDuration": 1426,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "opponent": "Shaco",
+      "win": true,
+      "kills": 3,
+      "deaths": 7,
+      "assists": 8,
+      "cs": 1,
+      "gold": 11235,
+      "damage": 10935,
+      "soloKills": 0,
+      "killParticipation": 0.14864864864864866,
+      "teamDamagePercentage": 0.02895285561653096,
+      "laneMinionsFirst10Minutes": 1,
+      "opponentFinal": {
+        "kills": 4,
+        "deaths": 6,
+        "assists": 0,
+        "cs": 0,
+        "gold": 7258,
+        "damage": 25186
+      },
+      "firstKillTimestamp": 338551,
+      "firstDeathTimestamp": 79694,
+      "firstAssistTimestamp": 454560,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -250,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 1000,
+          "myCs": 0,
+          "myLevel": 7,
+          "oppGold": 1250,
+          "oppCs": 0,
+          "oppLevel": 7
+        },
+        {
+          "minute": 10,
+          "goldDiff": 435,
+          "csDiff": 1,
+          "levelDiff": 0,
+          "myGold": 6685,
+          "myCs": 1,
+          "myLevel": 12,
+          "oppGold": 6250,
+          "oppCs": 0,
+          "oppLevel": 12
+        },
+        {
+          "minute": 15,
+          "goldDiff": -73,
+          "csDiff": 1,
+          "levelDiff": 1,
+          "myGold": 7185,
+          "myCs": 1,
+          "myLevel": 14,
+          "oppGold": 7258,
+          "oppCs": 0,
+          "oppLevel": 13
+        },
+        {
+          "minute": 20,
+          "goldDiff": 3977,
+          "csDiff": 1,
+          "levelDiff": 3,
+          "myGold": 11235,
+          "myCs": 1,
+          "myLevel": 16,
+          "oppGold": 7258,
+          "oppCs": 0,
+          "oppLevel": 13
         }
       ]
     }

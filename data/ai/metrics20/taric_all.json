@@ -1,0 +1,147 @@
+{
+  "champion": "taric",
+  "position": "all",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 0,
+  "losses": 2,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": -336.5,
+      "medianGoldDiff": -336.5,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -8.0,
+      "medianCsDiff": -8.0,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.5
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": -837.0,
+      "medianGoldDiff": -837.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -17.5,
+      "medianCsDiff": -17.5,
+      "csAhead": 0,
+      "csBehind": 2,
+      "avgLevelDiff": -1.5
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": -2799.5,
+      "medianGoldDiff": -2799.5,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -36.5,
+      "medianCsDiff": -36.5,
+      "csAhead": 0,
+      "csBehind": 2,
+      "avgLevelDiff": -4.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -5050.0,
+      "medianGoldDiff": -5050,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -10.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 2,
+    "avg10GoldDiff": -837.0,
+    "avg15GoldDiff": -2799.5,
+    "avg20GoldDiff": -5050.0,
+    "avg10CsDiff": -17.5,
+    "avg15CsDiff": -36.5,
+    "avg20CsDiff": -1.0,
+    "avgFirstDeathMin": 2.77,
+    "avgFirstKillMin": 5.68
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.77,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 2,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 2
+  },
+  "matches": [
+    {
+      "matchId": "KR_8056293632",
+      "opponent": "Smolder",
+      "win": false,
+      "kda": [
+        1,
+        7,
+        8
+      ],
+      "durationMin": 18.8,
+      "firstDeathMin": 3.52,
+      "firstKillMin": 6.82,
+      "g5": -423,
+      "cs5": -16,
+      "g10": -874,
+      "cs10": -34,
+      "g15": -3799,
+      "cs15": -72,
+      "g20": null,
+      "cs20": null,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    },
+    {
+      "matchId": "KR_7977207747",
+      "opponent": "Shen",
+      "win": false,
+      "kda": [
+        2,
+        6,
+        2
+      ],
+      "durationMin": 25.2,
+      "firstDeathMin": 2.03,
+      "firstKillMin": 4.53,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -800,
+      "cs10": -1,
+      "g15": -1800,
+      "cs15": -1,
+      "g20": -5050,
+      "cs20": -1,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.040791633503583155
+    }
+  ]
+}

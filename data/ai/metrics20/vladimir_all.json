@@ -1,0 +1,124 @@
+{
+  "champion": "vladimir",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -402.0,
+      "medianGoldDiff": -402,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 2.0,
+      "medianCsDiff": 2,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1855.0,
+      "medianGoldDiff": -1855,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -11.0,
+      "medianCsDiff": -11,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -3224.0,
+      "medianGoldDiff": -3224,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -21.0,
+      "medianCsDiff": -21,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -3850.0,
+      "medianGoldDiff": -3850,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -34.0,
+      "medianCsDiff": -34,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -1855.0,
+    "avg15GoldDiff": -3224.0,
+    "avg20GoldDiff": -3850.0,
+    "avg10CsDiff": -11.0,
+    "avg15CsDiff": -21.0,
+    "avg20CsDiff": -34.0,
+    "avgFirstDeathMin": 1.35,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.35,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_7925810876",
+      "opponent": "KogMaw",
+      "win": true,
+      "kda": [
+        0,
+        6,
+        6
+      ],
+      "durationMin": 21.5,
+      "firstDeathMin": 1.35,
+      "firstKillMin": null,
+      "g5": -402,
+      "cs5": 2,
+      "g10": -1855,
+      "cs10": -11,
+      "g15": -3224,
+      "cs15": -21,
+      "g20": -3850,
+      "cs20": -34,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

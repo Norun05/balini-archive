@@ -1,9 +1,9 @@
 {
   "champion": "Kennen",
   "position": "TOP",
-  "sampleCount": 61,
-  "matchesWithRecognizedFirstCore": 58,
-  "matchesWithRecognizedTwoCore": 44,
+  "sampleCount": 185,
+  "matchesWithRecognizedFirstCore": 176,
+  "matchesWithRecognizedTwoCore": 133,
   "notes": [
     "firstCore/twoCore use ITEM_PURCHASED timestamps, not final inventory order.",
     "finalPresence is descriptive only and is strongly affected by game length and gold income.",
@@ -12,85 +12,113 @@
   "firstCore": [
     {
       "key": "마법공학 로켓 벨트",
-      "games": 30,
-      "wins": 19,
-      "losses": 11,
-      "winRate": 0.6333
+      "games": 69,
+      "wins": 41,
+      "losses": 28,
+      "winRate": 0.5942
     },
     {
       "key": "라일라이의 수정홀",
-      "games": 11,
-      "wins": 8,
-      "losses": 3,
-      "winRate": 0.7273
-    },
-    {
-      "key": "마법공학 총검",
-      "games": 8,
-      "wins": 4,
-      "losses": 4,
-      "winRate": 0.5
+      "games": 62,
+      "wins": 40,
+      "losses": 22,
+      "winRate": 0.6452
     },
     {
       "key": "리안드리의 고통",
-      "games": 8,
-      "wins": 2,
-      "losses": 6,
-      "winRate": 0.25
+      "games": 26,
+      "wins": 13,
+      "losses": 13,
+      "winRate": 0.5
+    },
+    {
+      "key": "마법공학 총검",
+      "games": 16,
+      "wins": 9,
+      "losses": 7,
+      "winRate": 0.5625
     },
     {
       "key": "그림자불꽃",
-      "games": 1,
-      "wins": 0,
+      "games": 3,
+      "wins": 2,
       "losses": 1,
-      "winRate": 0.0
+      "winRate": 0.6667
     }
   ],
   "twoCoreOrder": [
     {
       "key": "마법공학 로켓 벨트 → 그림자불꽃",
-      "games": 9,
-      "wins": 5,
-      "losses": 4,
-      "winRate": 0.5556
+      "games": 28,
+      "wins": 17,
+      "losses": 11,
+      "winRate": 0.6071
     },
     {
       "key": "라일라이의 수정홀 → 그림자불꽃",
-      "games": 8,
-      "wins": 6,
-      "losses": 2,
-      "winRate": 0.75
+      "games": 19,
+      "wins": 13,
+      "losses": 6,
+      "winRate": 0.6842
     },
     {
       "key": "마법공학 로켓 벨트 → 존야의 모래시계",
-      "games": 7,
+      "games": 17,
+      "wins": 10,
+      "losses": 7,
+      "winRate": 0.5882
+    },
+    {
+      "key": "라일라이의 수정홀 → 리안드리의 고통",
+      "games": 15,
+      "wins": 6,
+      "losses": 9,
+      "winRate": 0.4
+    },
+    {
+      "key": "라일라이의 수정홀 → 존야의 모래시계",
+      "games": 14,
+      "wins": 11,
+      "losses": 3,
+      "winRate": 0.7857
+    },
+    {
+      "key": "리안드리의 고통 → 그림자불꽃",
+      "games": 8,
       "wins": 5,
+      "losses": 3,
+      "winRate": 0.625
+    },
+    {
+      "key": "마법공학 총검 → 그림자불꽃",
+      "games": 5,
+      "wins": 3,
       "losses": 2,
-      "winRate": 0.7143
+      "winRate": 0.6
     },
     {
       "key": "리안드리의 고통 → 공허의 지팡이",
+      "games": 5,
+      "wins": 2,
+      "losses": 3,
+      "winRate": 0.4
+    },
+    {
+      "key": "리안드리의 고통 → 존야의 모래시계",
       "games": 4,
       "wins": 1,
       "losses": 3,
       "winRate": 0.25
     },
     {
-      "key": "마법공학 총검 → 그림자불꽃",
+      "key": "마법공학 총검 → 존야의 모래시계",
       "games": 3,
-      "wins": 1,
-      "losses": 2,
-      "winRate": 0.3333
+      "wins": 0,
+      "losses": 3,
+      "winRate": 0.0
     },
     {
-      "key": "라일라이의 수정홀 → 리안드리의 고통",
-      "games": 2,
-      "wins": 1,
-      "losses": 1,
-      "winRate": 0.5
-    },
-    {
-      "key": "리안드리의 고통 → 그림자불꽃",
+      "key": "마법공학 로켓 벨트 → 리안드리의 고통",
       "games": 2,
       "wins": 1,
       "losses": 1,
@@ -104,14 +132,28 @@
       "winRate": 0.5
     },
     {
-      "key": "마법공학 총검 → 존야의 모래시계",
+      "key": "마법공학 총검 → 리안드리의 고통",
       "games": 2,
-      "wins": 0,
-      "losses": 2,
-      "winRate": 0.0
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5
     },
     {
-      "key": "마법공학 로켓 벨트 → 리안드리의 고통",
+      "key": "그림자불꽃 → 폭풍쇄도",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "라일라이의 수정홀 → 마법공학 로켓 벨트",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "마법공학 로켓 벨트 → 라일라이의 수정홀",
       "games": 1,
       "wins": 1,
       "losses": 0,
@@ -132,7 +174,21 @@
       "winRate": 0.0
     },
     {
-      "key": "리안드리의 고통 → 존야의 모래시계",
+      "key": "리안드리의 고통 → 밴시의 장막",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "마법공학 로켓 벨트 → 공허의 지팡이",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "마법공학 로켓 벨트 → 균열 생성기",
       "games": 1,
       "wins": 0,
       "losses": 1,
@@ -149,110 +205,138 @@
   "boots": [
     {
       "key": "마법사의 신발",
-      "games": 46,
-      "wins": 27,
-      "losses": 19,
-      "winRate": 0.587
+      "games": 103,
+      "wins": 67,
+      "losses": 36,
+      "winRate": 0.6505
     },
     {
       "key": "헤르메스의 발걸음",
-      "games": 4,
-      "wins": 1,
-      "losses": 3,
-      "winRate": 0.25
+      "games": 21,
+      "wins": 7,
+      "losses": 14,
+      "winRate": 0.3333
     },
     {
       "key": "판금 장화",
-      "games": 3,
-      "wins": 2,
-      "losses": 1,
+      "games": 20,
+      "wins": 11,
+      "losses": 9,
+      "winRate": 0.55
+    },
+    {
+      "key": "신속의 장화",
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
       "winRate": 0.6667
     }
   ],
   "finalItemPresence": [
     {
       "key": "마법사의 신발",
-      "games": 46,
-      "wins": 27,
-      "losses": 19,
-      "winRate": 0.587
+      "games": 101,
+      "wins": 67,
+      "losses": 34,
+      "winRate": 0.6634
     },
     {
       "key": "그림자불꽃",
-      "games": 31,
-      "wins": 14,
-      "losses": 17,
-      "winRate": 0.4516
-    },
-    {
-      "key": "마법공학 로켓 벨트",
-      "games": 30,
-      "wins": 19,
-      "losses": 11,
-      "winRate": 0.6333
+      "games": 91,
+      "wins": 52,
+      "losses": 39,
+      "winRate": 0.5714
     },
     {
       "key": "존야의 모래시계",
-      "games": 25,
-      "wins": 13,
-      "losses": 12,
-      "winRate": 0.52
+      "games": 74,
+      "wins": 39,
+      "losses": 35,
+      "winRate": 0.527
+    },
+    {
+      "key": "마법공학 로켓 벨트",
+      "games": 70,
+      "wins": 42,
+      "losses": 28,
+      "winRate": 0.6
     },
     {
       "key": "라일라이의 수정홀",
-      "games": 11,
-      "wins": 8,
-      "losses": 3,
-      "winRate": 0.7273
+      "games": 62,
+      "wins": 41,
+      "losses": 21,
+      "winRate": 0.6613
     },
     {
       "key": "리안드리의 고통",
-      "games": 11,
-      "wins": 4,
-      "losses": 7,
-      "winRate": 0.3636
-    },
-    {
-      "key": "마법공학 총검",
-      "games": 9,
-      "wins": 4,
-      "losses": 5,
-      "winRate": 0.4444
-    },
-    {
-      "key": "공허의 지팡이",
-      "games": 9,
-      "wins": 3,
-      "losses": 6,
-      "winRate": 0.3333
-    },
-    {
-      "key": "폭풍쇄도",
-      "games": 6,
-      "wins": 4,
-      "losses": 2,
-      "winRate": 0.6667
-    },
-    {
-      "key": "라바돈의 죽음모자",
-      "games": 5,
-      "wins": 0,
-      "losses": 5,
-      "winRate": 0.0
+      "games": 46,
+      "wins": 22,
+      "losses": 24,
+      "winRate": 0.4783
     },
     {
       "key": "헤르메스의 발걸음",
-      "games": 4,
-      "wins": 1,
-      "losses": 3,
-      "winRate": 0.25
+      "games": 22,
+      "wins": 7,
+      "losses": 15,
+      "winRate": 0.3182
     },
     {
       "key": "판금 장화",
+      "games": 18,
+      "wins": 10,
+      "losses": 8,
+      "winRate": 0.5556
+    },
+    {
+      "key": "마법공학 총검",
+      "games": 17,
+      "wins": 9,
+      "losses": 8,
+      "winRate": 0.5294
+    },
+    {
+      "key": "공허의 지팡이",
+      "games": 13,
+      "wins": 6,
+      "losses": 7,
+      "winRate": 0.4615
+    },
+    {
+      "key": "폭풍쇄도",
+      "games": 11,
+      "wins": 6,
+      "losses": 5,
+      "winRate": 0.5455
+    },
+    {
+      "key": "라바돈의 죽음모자",
+      "games": 8,
+      "wins": 0,
+      "losses": 8,
+      "winRate": 0.0
+    },
+    {
+      "key": "신속의 장화",
+      "games": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 0.6
+    },
+    {
+      "key": "밴시의 장막",
       "games": 3,
       "wins": 2,
       "losses": 1,
       "winRate": 0.6667
+    },
+    {
+      "key": "균열 생성기",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
     },
     {
       "key": "내셔의 이빨",
@@ -267,25 +351,46 @@
       "wins": 0,
       "losses": 1,
       "winRate": 0.0
+    },
+    {
+      "key": "모렐로노미콘",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
     }
   ],
   "runes": {
     "keystones": [
       {
         "key": "8112",
-        "games": 58,
-        "wins": 33,
-        "losses": 25,
-        "winRate": 0.569
+        "games": 174,
+        "wins": 104,
+        "losses": 70,
+        "winRate": 0.5977
+      },
+      {
+        "key": "8369",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "winRate": 1.0
+      },
+      {
+        "key": "8437",
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "winRate": 0.0
       }
     ],
     "stylePairs": [
       {
         "key": "8100+8200",
-        "games": 28,
-        "wins": 16,
-        "losses": 12,
-        "winRate": 0.5714
+        "games": 142,
+        "wins": 86,
+        "losses": 56,
+        "winRate": 0.6056
       },
       {
         "key": "8100+8000",
@@ -296,13 +401,55 @@
       },
       {
         "key": "8100+8400",
-        "games": 2,
-        "wins": 2,
+        "games": 4,
+        "wins": 3,
+        "losses": 1,
+        "winRate": 0.75
+      },
+      {
+        "key": "8300+8100",
+        "games": 1,
+        "wins": 1,
         "losses": 0,
         "winRate": 1.0
+      },
+      {
+        "key": "8400+8000",
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "winRate": 0.0
       }
     ],
     "exactPages": [
+      {
+        "key": "8112/8139/8140/8106+8275/8237",
+        "games": 54,
+        "wins": 35,
+        "losses": 19,
+        "winRate": 0.6481
+      },
+      {
+        "key": "8112/8139/8140/8106+8236/8210",
+        "games": 21,
+        "wins": 12,
+        "losses": 9,
+        "winRate": 0.5714
+      },
+      {
+        "key": "8112/8139/8140/8106+8210/8236",
+        "games": 21,
+        "wins": 11,
+        "losses": 10,
+        "winRate": 0.5238
+      },
+      {
+        "key": "8112/8139/8140/8106+8224/8236",
+        "games": 19,
+        "wins": 13,
+        "losses": 6,
+        "winRate": 0.6842
+      },
       {
         "key": "8112/8139/8140/8106+9105/8017",
         "games": 18,
@@ -311,18 +458,18 @@
         "winRate": 0.6111
       },
       {
-        "key": "8112/8139/8140/8106+8224/8236",
-        "games": 13,
-        "wins": 8,
-        "losses": 5,
-        "winRate": 0.6154
+        "key": "8112/8139/8140/8106+8210/8237",
+        "games": 7,
+        "wins": 3,
+        "losses": 4,
+        "winRate": 0.4286
       },
       {
-        "key": "8112/8139/8140/8106+8210/8236",
-        "games": 10,
-        "wins": 5,
-        "losses": 5,
-        "winRate": 0.5
+        "key": "8112/8139/8140/8106+8237/8275",
+        "games": 5,
+        "wins": 4,
+        "losses": 1,
+        "winRate": 0.8
       },
       {
         "key": "8112/8139/8140/8106+8017/9105",
@@ -332,10 +479,38 @@
         "winRate": 0.4
       },
       {
+        "key": "8112/8139/8140/8106+8275/8236",
+        "games": 4,
+        "wins": 3,
+        "losses": 1,
+        "winRate": 0.75
+      },
+      {
         "key": "8112/8139/8140/8106+9105/8014",
         "games": 4,
         "wins": 2,
         "losses": 2,
+        "winRate": 0.5
+      },
+      {
+        "key": "8112/8139/8140/8135+8210/8236",
+        "games": 4,
+        "wins": 2,
+        "losses": 2,
+        "winRate": 0.5
+      },
+      {
+        "key": "8112/8139/8140/8106+8473/8242",
+        "games": 3,
+        "wins": 2,
+        "losses": 1,
+        "winRate": 0.6667
+      },
+      {
+        "key": "8112/8139/8140/8106+8237/8224",
+        "games": 2,
+        "wins": 1,
+        "losses": 1,
         "winRate": 0.5
       },
       {
@@ -353,13 +528,6 @@
         "winRate": 1.0
       },
       {
-        "key": "8112/8139/8140/8106+8237/8224",
-        "games": 1,
-        "wins": 1,
-        "losses": 0,
-        "winRate": 1.0
-      },
-      {
         "key": "8112/8139/8140/8106+8444/8242",
         "games": 1,
         "wins": 1,
@@ -367,7 +535,7 @@
         "winRate": 1.0
       },
       {
-        "key": "8112/8139/8140/8106+8473/8242",
+        "key": "8369/8304/8352/8347+8139/8106",
         "games": 1,
         "wins": 1,
         "losses": 0,
@@ -375,6 +543,13 @@
       },
       {
         "key": "8112/8126/8140/8106+8017/9105",
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "winRate": 0.0
+      },
+      {
+        "key": "8112/8139/8137/8106+8275/8237",
         "games": 1,
         "wins": 0,
         "losses": 1,
@@ -389,6 +564,13 @@
       },
       {
         "key": "8112/8139/8140/8106+8236/8224",
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "winRate": 0.0
+      },
+      {
+        "key": "8437/8446/8473/8451+8299/9105",
         "games": 1,
         "wins": 0,
         "losses": 1,

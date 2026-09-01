@@ -1,0 +1,124 @@
+{
+  "champion": "gnar",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -52.0,
+      "medianGoldDiff": -52,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -362.0,
+      "medianGoldDiff": -362,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 3.0,
+      "medianCsDiff": 3,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -629.0,
+      "medianGoldDiff": -629,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 3.0,
+      "medianCsDiff": 3,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 21.0,
+      "medianGoldDiff": 21,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 3.0,
+      "medianCsDiff": 3,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 1.0
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -362.0,
+    "avg15GoldDiff": -629.0,
+    "avg20GoldDiff": 21.0,
+    "avg10CsDiff": 3.0,
+    "avg15CsDiff": 3.0,
+    "avg20CsDiff": 3.0,
+    "avgFirstDeathMin": 6.87,
+    "avgFirstKillMin": 1.31
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 6.87,
+    "before5": 0,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_7977001840",
+      "opponent": "Hwei",
+      "win": true,
+      "kda": [
+        4,
+        10,
+        11
+      ],
+      "durationMin": 24.6,
+      "firstDeathMin": 6.87,
+      "firstKillMin": 1.31,
+      "g5": -52,
+      "cs5": 0,
+      "g10": -362,
+      "cs10": 3,
+      "g15": -629,
+      "cs15": 3,
+      "g20": 21,
+      "cs20": 3,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.05187800774220531
+    }
+  ]
+}

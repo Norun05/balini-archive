@@ -1,0 +1,147 @@
+{
+  "champion": "sivir",
+  "position": "all",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 0.5,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": -118.0,
+      "medianGoldDiff": -118.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 6.0,
+      "medianCsDiff": 6.0,
+      "csAhead": 2,
+      "csBehind": 0,
+      "avgLevelDiff": 0.5
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": -632.5,
+      "medianGoldDiff": -632.5,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -2.5,
+      "medianCsDiff": -2.5,
+      "csAhead": 0,
+      "csBehind": 2,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": -1224.0,
+      "medianGoldDiff": -1224.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -6.5,
+      "medianCsDiff": -6.5,
+      "csAhead": 0,
+      "csBehind": 2,
+      "avgLevelDiff": -0.5
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -2049.0,
+      "medianGoldDiff": -2049.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -9.0,
+      "medianCsDiff": -9.0,
+      "csAhead": 0,
+      "csBehind": 2,
+      "avgLevelDiff": -1.5
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -587.0,
+    "avg15GoldDiff": -1045.0,
+    "avg20GoldDiff": -1431.0,
+    "avg10CsDiff": -1.0,
+    "avg15CsDiff": -2.0,
+    "avg20CsDiff": -7.0,
+    "avgFirstDeathMin": 12.91,
+    "avgFirstKillMin": 21.67
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -678.0,
+    "avg15GoldDiff": -1403.0,
+    "avg20GoldDiff": -2667.0,
+    "avg10CsDiff": -4.0,
+    "avg15CsDiff": -11.0,
+    "avg20CsDiff": -11.0,
+    "avgFirstDeathMin": 9.73,
+    "avgFirstKillMin": 11.86
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 11.32,
+    "before5": 0,
+    "before8": 0,
+    "before10": 1,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 2,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 2
+  },
+  "matches": [
+    {
+      "matchId": "KR_7857848150",
+      "opponent": "Zed",
+      "win": true,
+      "kda": [
+        3,
+        6,
+        13
+      ],
+      "durationMin": 30.5,
+      "firstDeathMin": 12.91,
+      "firstKillMin": 21.67,
+      "g5": -13,
+      "cs5": 9,
+      "g10": -587,
+      "cs10": -1,
+      "g15": -1045,
+      "cs15": -2,
+      "g20": -1431,
+      "cs20": -7,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.15332997430745354
+    },
+    {
+      "matchId": "KR_7857784941",
+      "opponent": "Smolder",
+      "win": false,
+      "kda": [
+        1,
+        2,
+        1
+      ],
+      "durationMin": 20.0,
+      "firstDeathMin": 9.73,
+      "firstKillMin": 11.86,
+      "g5": -223,
+      "cs5": 3,
+      "g10": -678,
+      "cs10": -4,
+      "g15": -1403,
+      "cs15": -11,
+      "g20": -2667,
+      "cs20": -11,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.11719719922825982
+    }
+  ]
+}

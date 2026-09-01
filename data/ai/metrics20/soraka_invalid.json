@@ -1,30 +1,30 @@
 {
   "champion": "soraka",
   "position": "invalid",
-  "availableCount": 1,
-  "sampleCount": 1,
+  "availableCount": 4,
+  "sampleCount": 4,
   "wins": 0,
-  "losses": 1,
+  "losses": 4,
   "winRate": 0.0,
   "snapshots": {
     "5": {
-      "sampleCount": 1,
-      "avgGoldDiff": 0.0,
-      "medianGoldDiff": 0,
+      "sampleCount": 4,
+      "avgGoldDiff": -251.25,
+      "medianGoldDiff": -245.0,
       "goldAhead": 0,
-      "goldBehind": 0,
-      "avgCsDiff": 0.0,
-      "medianCsDiff": 0,
+      "goldBehind": 3,
+      "avgCsDiff": -0.5,
+      "medianCsDiff": 0.0,
       "csAhead": 0,
-      "csBehind": 0,
+      "csBehind": 1,
       "avgLevelDiff": 0.0
     },
     "10": {
-      "sampleCount": 1,
-      "avgGoldDiff": 0.0,
-      "medianGoldDiff": 0,
+      "sampleCount": 3,
+      "avgGoldDiff": -330.0,
+      "medianGoldDiff": -250,
       "goldAhead": 0,
-      "goldBehind": 0,
+      "goldBehind": 2,
       "avgCsDiff": 0.0,
       "medianCsDiff": 0,
       "csAhead": 0,
@@ -32,11 +32,11 @@
       "avgLevelDiff": 0.0
     },
     "15": {
-      "sampleCount": 1,
-      "avgGoldDiff": -250.0,
+      "sampleCount": 3,
+      "avgGoldDiff": -246.67,
       "medianGoldDiff": -250,
-      "goldAhead": 0,
-      "goldBehind": 1,
+      "goldAhead": 1,
+      "goldBehind": 2,
       "avgCsDiff": 0.0,
       "medianCsDiff": 0,
       "csAhead": 0,
@@ -44,16 +44,16 @@
       "avgLevelDiff": 0.0
     },
     "20": {
-      "sampleCount": 1,
-      "avgGoldDiff": -500.0,
-      "medianGoldDiff": -500,
+      "sampleCount": 3,
+      "avgGoldDiff": -3913.33,
+      "medianGoldDiff": -4990,
       "goldAhead": 0,
-      "goldBehind": 1,
+      "goldBehind": 3,
       "avgCsDiff": 0.0,
       "medianCsDiff": 0,
       "csAhead": 0,
       "csBehind": 0,
-      "avgLevelDiff": 0.0
+      "avgLevelDiff": -2.33
     }
   },
   "winsStats": {
@@ -68,33 +68,33 @@
     "avgFirstKillMin": null
   },
   "lossesStats": {
-    "count": 1,
-    "avg10GoldDiff": 0.0,
-    "avg15GoldDiff": -250.0,
-    "avg20GoldDiff": -500.0,
+    "count": 4,
+    "avg10GoldDiff": -330.0,
+    "avg15GoldDiff": -246.67,
+    "avg20GoldDiff": -3913.33,
     "avg10CsDiff": 0.0,
     "avg15CsDiff": 0.0,
     "avg20CsDiff": 0.0,
-    "avgFirstDeathMin": 2.2,
-    "avgFirstKillMin": 2.2
+    "avgFirstDeathMin": 2.52,
+    "avgFirstKillMin": 4.63
   },
   "firstDeath": {
     "noDeath": 0,
-    "avgMinute": 2.2,
-    "before5": 1,
-    "before8": 1,
-    "before10": 1,
-    "before15": 1
+    "avgMinute": 2.52,
+    "before5": 4,
+    "before8": 4,
+    "before10": 4,
+    "before15": 4
   },
   "transitions": {
     "ahead10_to_behind15": 0,
-    "behind10_to_ahead15": 0,
-    "ahead15_but_loss": 0,
+    "behind10_to_ahead15": 1,
+    "ahead15_but_loss": 1,
     "behind15_but_win": 0,
     "ahead10_by300_plus": 0,
-    "behind10_by300_plus": 0,
-    "ahead15_by500_plus": 0,
-    "behind15_by500_plus": 0
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 1
   },
   "matches": [
     {
@@ -119,6 +119,75 @@
       "cs20": 0,
       "soloKills": 0,
       "teamDamagePercentage": 0.05179501184172565
+    },
+    {
+      "matchId": "KR_8133789635",
+      "opponent": "Tristana",
+      "win": false,
+      "kda": [
+        0,
+        10,
+        4
+      ],
+      "durationMin": 22.4,
+      "firstDeathMin": 1.69,
+      "firstKillMin": null,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -250,
+      "cs10": 0,
+      "g15": 750,
+      "cs15": 0,
+      "g20": -6250,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.024512012132033845
+    },
+    {
+      "matchId": "KR_8004568280",
+      "opponent": "Jax",
+      "win": false,
+      "kda": [
+        1,
+        2,
+        6
+      ],
+      "durationMin": 8.7,
+      "firstDeathMin": 4.21,
+      "firstKillMin": 3.02,
+      "g5": -515,
+      "cs5": -2,
+      "g10": null,
+      "cs10": null,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    },
+    {
+      "matchId": "KR_7864080518",
+      "opponent": "Warwick",
+      "win": false,
+      "kda": [
+        1,
+        6,
+        3
+      ],
+      "durationMin": 26.1,
+      "firstDeathMin": 1.96,
+      "firstKillMin": 8.67,
+      "g5": -240,
+      "cs5": 0,
+      "g10": -740,
+      "cs10": 0,
+      "g15": -1240,
+      "cs15": 0,
+      "g20": -4990,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.02546117368482672
     }
   ]
 }

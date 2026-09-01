@@ -1,8 +1,8 @@
 {
   "champion": "caitlyn",
   "position": "all",
-  "availableCount": 2,
-  "count": 2,
+  "availableCount": 5,
+  "count": 5,
   "matches": [
     {
       "matchId": "KR_8255660100",
@@ -161,6 +161,210 @@
           "oppGold": 5276,
           "oppCs": 43,
           "oppLevel": 10
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8005742119",
+      "gameCreation": 1767429617582,
+      "gameDuration": 560,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "Xerath",
+      "win": false,
+      "kills": 0,
+      "deaths": 1,
+      "assists": 0,
+      "cs": 43,
+      "gold": 2292,
+      "damage": 2739,
+      "soloKills": 0,
+      "killParticipation": 0,
+      "teamDamagePercentage": 0.22783022042741918,
+      "laneMinionsFirst10Minutes": 38,
+      "opponentFinal": {
+        "kills": 2,
+        "deaths": 1,
+        "assists": 3,
+        "cs": 47,
+        "gold": 3121,
+        "damage": 4128
+      },
+      "firstKillTimestamp": null,
+      "firstDeathTimestamp": 548112,
+      "firstAssistTimestamp": null,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -222,
+          "csDiff": 4,
+          "levelDiff": 0,
+          "myGold": 1350,
+          "myCs": 22,
+          "myLevel": 4,
+          "oppGold": 1572,
+          "oppCs": 18,
+          "oppLevel": 4
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7993082445",
+      "gameCreation": 1766900106274,
+      "gameDuration": 1301,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "opponent": "Belveth",
+      "win": false,
+      "kills": 2,
+      "deaths": 6,
+      "assists": 3,
+      "cs": 0,
+      "gold": 7624,
+      "damage": 11050,
+      "soloKills": 1,
+      "killParticipation": 0.2631578947368421,
+      "teamDamagePercentage": 0.1089314535664818,
+      "laneMinionsFirst10Minutes": 0,
+      "opponentFinal": {
+        "kills": 9,
+        "deaths": 5,
+        "assists": 0,
+        "cs": 2,
+        "gold": 12600,
+        "damage": 28239
+      },
+      "firstKillTimestamp": 92638,
+      "firstDeathTimestamp": 221051,
+      "firstAssistTimestamp": 104128,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 250,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 1500,
+          "myCs": 0,
+          "myLevel": 7,
+          "oppGold": 1250,
+          "oppCs": 0,
+          "oppLevel": 7
+        },
+        {
+          "minute": 10,
+          "goldDiff": 125,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 7624,
+          "myCs": 0,
+          "myLevel": 12,
+          "oppGold": 7499,
+          "oppCs": 0,
+          "oppLevel": 12
+        },
+        {
+          "minute": 15,
+          "goldDiff": -1125,
+          "csDiff": 0,
+          "levelDiff": -2,
+          "myGold": 7624,
+          "myCs": 0,
+          "myLevel": 12,
+          "oppGold": 8749,
+          "oppCs": 0,
+          "oppLevel": 14
+        },
+        {
+          "minute": 20,
+          "goldDiff": -4976,
+          "csDiff": -2,
+          "levelDiff": -4,
+          "myGold": 7624,
+          "myCs": 0,
+          "myLevel": 12,
+          "oppGold": 12600,
+          "oppCs": 2,
+          "oppLevel": 16
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7924891025",
+      "gameCreation": 1763791162666,
+      "gameDuration": 1480,
+      "queueId": 900,
+      "gameMode": "URF",
+      "opponent": "Ahri",
+      "win": false,
+      "kills": 10,
+      "deaths": 10,
+      "assists": 7,
+      "cs": 51,
+      "gold": 16330,
+      "damage": 43876,
+      "soloKills": null,
+      "killParticipation": null,
+      "teamDamagePercentage": null,
+      "laneMinionsFirst10Minutes": null,
+      "opponentFinal": {
+        "kills": 2,
+        "deaths": 10,
+        "assists": 14,
+        "cs": 76,
+        "gold": 15198,
+        "damage": 26901
+      },
+      "firstKillTimestamp": 409347,
+      "firstDeathTimestamp": 202023,
+      "firstAssistTimestamp": 40932,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -316,
+          "csDiff": -4,
+          "levelDiff": 0,
+          "myGold": 2125,
+          "myCs": 3,
+          "myLevel": 5,
+          "oppGold": 2441,
+          "oppCs": 7,
+          "oppLevel": 5
+        },
+        {
+          "minute": 10,
+          "goldDiff": 145,
+          "csDiff": -11,
+          "levelDiff": 2,
+          "myGold": 5634,
+          "myCs": 22,
+          "myLevel": 11,
+          "oppGold": 5489,
+          "oppCs": 33,
+          "oppLevel": 9
+        },
+        {
+          "minute": 15,
+          "goldDiff": 1764,
+          "csDiff": 5,
+          "levelDiff": 0,
+          "myGold": 10013,
+          "myCs": 42,
+          "myLevel": 16,
+          "oppGold": 8249,
+          "oppCs": 37,
+          "oppLevel": 16
+        },
+        {
+          "minute": 20,
+          "goldDiff": 1739,
+          "csDiff": -19,
+          "levelDiff": -1,
+          "myGold": 13312,
+          "myCs": 44,
+          "myLevel": 20,
+          "oppGold": 11573,
+          "oppCs": 63,
+          "oppLevel": 21
         }
       ]
     }

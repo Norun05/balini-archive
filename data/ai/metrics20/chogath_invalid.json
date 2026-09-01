@@ -1,0 +1,147 @@
+{
+  "champion": "chogath",
+  "position": "invalid",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 0,
+  "losses": 2,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": -261.5,
+      "medianGoldDiff": -261.5,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0.0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": -307.5,
+      "medianGoldDiff": -307.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": -1.5,
+      "medianCsDiff": -1.5,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": -485.0,
+      "medianGoldDiff": -485.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": -1.5,
+      "medianCsDiff": -1.5,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -1425.0,
+      "medianGoldDiff": -1425.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -2.0,
+      "medianCsDiff": -2.0,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -0.5
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 2,
+    "avg10GoldDiff": -307.5,
+    "avg15GoldDiff": -485.0,
+    "avg20GoldDiff": -1425.0,
+    "avg10CsDiff": -1.5,
+    "avg15CsDiff": -1.5,
+    "avg20CsDiff": -2.0,
+    "avgFirstDeathMin": 2.96,
+    "avgFirstKillMin": 9.04
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.96,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 1,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8004153255",
+      "opponent": "Kayn",
+      "win": false,
+      "kda": [
+        1,
+        7,
+        4
+      ],
+      "durationMin": 26.4,
+      "firstDeathMin": 1.48,
+      "firstKillMin": 16.13,
+      "g5": -520,
+      "cs5": 0,
+      "g10": -1120,
+      "cs10": -3,
+      "g15": -1220,
+      "cs15": -3,
+      "g20": -2355,
+      "cs20": -4,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.14377948382538056
+    },
+    {
+      "matchId": "KR_7902798284",
+      "opponent": "Hecarim",
+      "win": false,
+      "kda": [
+        6,
+        6,
+        7
+      ],
+      "durationMin": 25.2,
+      "firstDeathMin": 4.45,
+      "firstKillMin": 1.96,
+      "g5": -3,
+      "cs5": 0,
+      "g10": 505,
+      "cs10": 0,
+      "g15": 250,
+      "cs15": 0,
+      "g20": -495,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.1317827356149066
+    }
+  ]
+}

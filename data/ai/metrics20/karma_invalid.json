@@ -1,0 +1,170 @@
+{
+  "champion": "karma",
+  "position": "invalid",
+  "availableCount": 3,
+  "sampleCount": 3,
+  "wins": 2,
+  "losses": 1,
+  "winRate": 0.6667,
+  "snapshots": {
+    "5": {
+      "sampleCount": 3,
+      "avgGoldDiff": -263.67,
+      "medianGoldDiff": -500,
+      "goldAhead": 1,
+      "goldBehind": 2,
+      "avgCsDiff": -10.67,
+      "medianCsDiff": 0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.33
+    },
+    "10": {
+      "sampleCount": 3,
+      "avgGoldDiff": -432.0,
+      "medianGoldDiff": -850,
+      "goldAhead": 1,
+      "goldBehind": 2,
+      "avgCsDiff": -16.67,
+      "medianCsDiff": 0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": -4385.0,
+      "medianGoldDiff": -4385.0,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -49.0,
+      "medianCsDiff": -49.0,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -6019.5,
+      "medianGoldDiff": -6019.5,
+      "goldAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -60.5,
+      "medianCsDiff": -60.5,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 2,
+    "avg10GoldDiff": -223.0,
+    "avg15GoldDiff": -6070.0,
+    "avg20GoldDiff": -5739.0,
+    "avg10CsDiff": -25.0,
+    "avg15CsDiff": -98.0,
+    "avg20CsDiff": -121.0,
+    "avgFirstDeathMin": 8.28,
+    "avgFirstKillMin": 10.46
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -850.0,
+    "avg15GoldDiff": -2700.0,
+    "avg20GoldDiff": -6300.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 1.45,
+    "avgFirstKillMin": 5.97
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 6.0,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 3
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 1,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 2,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 2
+  },
+  "matches": [
+    {
+      "matchId": "KR_8047786575",
+      "opponent": "Kaisa",
+      "win": true,
+      "kda": [
+        1,
+        2,
+        13
+      ],
+      "durationMin": 24.9,
+      "firstDeathMin": 12.37,
+      "firstKillMin": 19.67,
+      "g5": -709,
+      "cs5": -33,
+      "g10": -3344,
+      "cs10": -80,
+      "g15": -6070,
+      "cs15": -98,
+      "g20": -5739,
+      "cs20": -121,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    },
+    {
+      "matchId": "KR_7990964333",
+      "opponent": "Nocturne",
+      "win": false,
+      "kda": [
+        1,
+        9,
+        4
+      ],
+      "durationMin": 23.8,
+      "firstDeathMin": 1.45,
+      "firstKillMin": 5.97,
+      "g5": -500,
+      "cs5": 0,
+      "g10": -850,
+      "cs10": 0,
+      "g15": -2700,
+      "cs15": 0,
+      "g20": -6300,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.060990615961071463
+    },
+    {
+      "matchId": "KR_7925780265",
+      "opponent": "DrMundo",
+      "win": true,
+      "kda": [
+        1,
+        1,
+        3
+      ],
+      "durationMin": 10.2,
+      "firstDeathMin": 4.19,
+      "firstKillMin": 1.25,
+      "g5": 418,
+      "cs5": 1,
+      "g10": 2898,
+      "cs10": 30,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "champion": "janna",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -250.0,
+      "medianGoldDiff": -250,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -500.0,
+      "medianGoldDiff": -500,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1000.0,
+      "medianGoldDiff": -1000,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1500.0,
+      "medianGoldDiff": -1500,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -500.0,
+    "avg15GoldDiff": -1000.0,
+    "avg20GoldDiff": -1500.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 4.66,
+    "avgFirstKillMin": 1.88
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 4.66,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_7902742945",
+      "opponent": "Zac",
+      "win": false,
+      "kda": [
+        1,
+        7,
+        3
+      ],
+      "durationMin": 26.6,
+      "firstDeathMin": 4.66,
+      "firstKillMin": 1.88,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -500,
+      "cs10": 0,
+      "g15": -1000,
+      "cs15": 0,
+      "g20": -1500,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.07078617168266074
+    }
+  ]
+}

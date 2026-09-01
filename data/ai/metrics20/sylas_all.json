@@ -1,0 +1,124 @@
+{
+  "champion": "sylas",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 60.0,
+      "medianGoldDiff": 60,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": -4.0,
+      "medianCsDiff": -4,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -2732.0,
+      "medianGoldDiff": -2732,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -48.0,
+      "medianCsDiff": -48,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -4070.0,
+      "medianGoldDiff": -4070,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -73.0,
+      "medianCsDiff": -73,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -3682.0,
+      "medianGoldDiff": -3682,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -88.0,
+      "medianCsDiff": -88,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -2732.0,
+    "avg15GoldDiff": -4070.0,
+    "avg20GoldDiff": -3682.0,
+    "avg10CsDiff": -48.0,
+    "avg15CsDiff": -73.0,
+    "avg20CsDiff": -88.0,
+    "avgFirstDeathMin": 1.51,
+    "avgFirstKillMin": 1.9
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 1.51,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8056405219",
+      "opponent": "Warwick",
+      "win": false,
+      "kda": [
+        9,
+        17,
+        15
+      ],
+      "durationMin": 24.4,
+      "firstDeathMin": 1.51,
+      "firstKillMin": 1.9,
+      "g5": 60,
+      "cs5": -4,
+      "g10": -2732,
+      "cs10": -48,
+      "g15": -4070,
+      "cs15": -73,
+      "g20": -3682,
+      "cs20": -88,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

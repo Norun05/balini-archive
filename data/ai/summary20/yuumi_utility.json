@@ -1,8 +1,8 @@
 {
   "champion": "yuumi",
   "position": "utility",
-  "availableCount": 1,
-  "count": 1,
+  "availableCount": 4,
+  "count": 4,
   "matches": [
     {
       "matchId": "KR_8194622276",
@@ -81,6 +81,234 @@
           "oppGold": 7421,
           "oppCs": 38,
           "oppLevel": 10
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8028305915",
+      "gameCreation": 1768398475551,
+      "gameDuration": 954,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "opponent": "Amumu",
+      "win": true,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 7,
+      "cs": 20,
+      "gold": 4318,
+      "damage": 3496,
+      "soloKills": 0,
+      "killParticipation": 0.5,
+      "teamDamagePercentage": 0.0963881481232638,
+      "laneMinionsFirst10Minutes": 16,
+      "opponentFinal": {
+        "kills": 1,
+        "deaths": 4,
+        "assists": 1,
+        "cs": 23,
+        "gold": 4024,
+        "damage": 4690
+      },
+      "firstKillTimestamp": null,
+      "firstDeathTimestamp": null,
+      "firstAssistTimestamp": 191090,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -64,
+          "csDiff": 2,
+          "levelDiff": 1,
+          "myGold": 1636,
+          "myCs": 8,
+          "myLevel": 4,
+          "oppGold": 1700,
+          "oppCs": 6,
+          "oppLevel": 3
+        },
+        {
+          "minute": 10,
+          "goldDiff": 346,
+          "csDiff": 4,
+          "levelDiff": 1,
+          "myGold": 3022,
+          "myCs": 16,
+          "myLevel": 7,
+          "oppGold": 2676,
+          "oppCs": 12,
+          "oppLevel": 6
+        },
+        {
+          "minute": 15,
+          "goldDiff": 308,
+          "csDiff": -2,
+          "levelDiff": 1,
+          "myGold": 4160,
+          "myCs": 20,
+          "myLevel": 9,
+          "oppGold": 3852,
+          "oppCs": 22,
+          "oppLevel": 8
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7940996932",
+      "gameCreation": 1764662073018,
+      "gameDuration": 1647,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "opponent": "Braum",
+      "win": true,
+      "kills": 1,
+      "deaths": 0,
+      "assists": 26,
+      "cs": 6,
+      "gold": 15487,
+      "damage": 13046,
+      "soloKills": 0,
+      "killParticipation": 0.7941176470588235,
+      "teamDamagePercentage": 0.10341120936899248,
+      "laneMinionsFirst10Minutes": 3,
+      "opponentFinal": {
+        "kills": 2,
+        "deaths": 5,
+        "assists": 6,
+        "cs": 23,
+        "gold": 14991,
+        "damage": 7865
+      },
+      "firstKillTimestamp": 387806,
+      "firstDeathTimestamp": null,
+      "firstAssistTimestamp": 627759,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -96,
+          "csDiff": -4,
+          "levelDiff": 0,
+          "myGold": 1237,
+          "myCs": 2,
+          "myLevel": 4,
+          "oppGold": 1333,
+          "oppCs": 6,
+          "oppLevel": 4
+        },
+        {
+          "minute": 10,
+          "goldDiff": -456,
+          "csDiff": -14,
+          "levelDiff": -1,
+          "myGold": 3316,
+          "myCs": 3,
+          "myLevel": 7,
+          "oppGold": 3772,
+          "oppCs": 17,
+          "oppLevel": 8
+        },
+        {
+          "minute": 15,
+          "goldDiff": -76,
+          "csDiff": -16,
+          "levelDiff": 1,
+          "myGold": 6122,
+          "myCs": 4,
+          "myLevel": 11,
+          "oppGold": 6198,
+          "oppCs": 20,
+          "oppLevel": 10
+        },
+        {
+          "minute": 20,
+          "goldDiff": 345,
+          "csDiff": -17,
+          "levelDiff": 1,
+          "myGold": 8653,
+          "myCs": 4,
+          "myLevel": 13,
+          "oppGold": 8308,
+          "oppCs": 21,
+          "oppLevel": 12
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7940977025",
+      "gameCreation": 1764660350104,
+      "gameDuration": 1533,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "opponent": "Yuumi",
+      "win": false,
+      "kills": 0,
+      "deaths": 3,
+      "assists": 12,
+      "cs": 13,
+      "gold": 12439,
+      "damage": 6037,
+      "soloKills": 0,
+      "killParticipation": 0.35294117647058826,
+      "teamDamagePercentage": 0.06627095711751434,
+      "laneMinionsFirst10Minutes": 11,
+      "opponentFinal": {
+        "kills": 1,
+        "deaths": 3,
+        "assists": 15,
+        "cs": 3,
+        "gold": 14363,
+        "damage": 7567
+      },
+      "firstKillTimestamp": null,
+      "firstDeathTimestamp": 1171450,
+      "firstAssistTimestamp": 518920,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 20,
+          "csDiff": 7,
+          "levelDiff": 0,
+          "myGold": 1354,
+          "myCs": 7,
+          "myLevel": 4,
+          "oppGold": 1334,
+          "oppCs": 0,
+          "oppLevel": 4
+        },
+        {
+          "minute": 10,
+          "goldDiff": 193,
+          "csDiff": 11,
+          "levelDiff": 0,
+          "myGold": 3343,
+          "myCs": 11,
+          "myLevel": 7,
+          "oppGold": 3150,
+          "oppCs": 0,
+          "oppLevel": 7
+        },
+        {
+          "minute": 15,
+          "goldDiff": -137,
+          "csDiff": 11,
+          "levelDiff": 0,
+          "myGold": 5365,
+          "myCs": 12,
+          "myLevel": 10,
+          "oppGold": 5502,
+          "oppCs": 1,
+          "oppLevel": 10
+        },
+        {
+          "minute": 20,
+          "goldDiff": -204,
+          "csDiff": 10,
+          "levelDiff": 0,
+          "myGold": 8234,
+          "myCs": 13,
+          "myLevel": 13,
+          "oppGold": 8438,
+          "oppCs": 3,
+          "oppLevel": 13
         }
       ]
     }

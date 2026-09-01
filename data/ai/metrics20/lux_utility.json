@@ -1,0 +1,147 @@
+{
+  "champion": "lux",
+  "position": "utility",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 0.5,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": 606.0,
+      "medianGoldDiff": 606.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 2.0,
+      "medianCsDiff": 2.0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 1.5
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -615.0,
+      "medianGoldDiff": -615,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -5.0,
+      "medianCsDiff": -5,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1387.0,
+      "medianGoldDiff": -1387,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -3.0,
+      "medianCsDiff": -3,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": 7.45
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -615.0,
+    "avg15GoldDiff": -1387.0,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": -5.0,
+    "avg15CsDiff": -3.0,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": 6.72,
+    "avgFirstKillMin": 7.35
+  },
+  "firstDeath": {
+    "noDeath": 1,
+    "avgMinute": 6.72,
+    "before5": 0,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8150275307",
+      "opponent": "Soraka",
+      "win": true,
+      "kda": [
+        2,
+        0,
+        21
+      ],
+      "durationMin": 8.1,
+      "firstDeathMin": null,
+      "firstKillMin": 7.45,
+      "g5": 1463,
+      "cs5": 8,
+      "g10": null,
+      "cs10": null,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.2341958148284162
+    },
+    {
+      "matchId": "KR_7762779891",
+      "opponent": "Leona",
+      "win": false,
+      "kda": [
+        1,
+        3,
+        0
+      ],
+      "durationMin": 15.7,
+      "firstDeathMin": 6.72,
+      "firstKillMin": 7.35,
+      "g5": -251,
+      "cs5": -4,
+      "g10": -615,
+      "cs10": -5,
+      "g15": -1387,
+      "cs15": -3,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.1498842356812497
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "champion": "skarner",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 81.0,
+      "medianGoldDiff": 81,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": -12.0,
+      "medianCsDiff": -12,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -605.0,
+      "medianGoldDiff": -605,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -44.0,
+      "medianCsDiff": -44,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -3297.0,
+      "medianGoldDiff": -3297,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -75.0,
+      "medianCsDiff": -75,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -2.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -4412.0,
+      "medianGoldDiff": -4412,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -94.0,
+      "medianCsDiff": -94,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -605.0,
+    "avg15GoldDiff": -3297.0,
+    "avg20GoldDiff": -4412.0,
+    "avg10CsDiff": -44.0,
+    "avg15CsDiff": -75.0,
+    "avg20CsDiff": -94.0,
+    "avgFirstDeathMin": 2.14,
+    "avgFirstKillMin": 4.36
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.14,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_7926137535",
+      "opponent": "Sylas",
+      "win": false,
+      "kda": [
+        1,
+        6,
+        16
+      ],
+      "durationMin": 24.2,
+      "firstDeathMin": 2.14,
+      "firstKillMin": 4.36,
+      "g5": 81,
+      "cs5": -12,
+      "g10": -605,
+      "cs10": -44,
+      "g15": -3297,
+      "cs15": -75,
+      "g20": -4412,
+      "cs20": -94,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

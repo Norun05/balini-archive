@@ -1,59 +1,59 @@
 {
   "champion": "soraka",
   "position": "utility",
-  "availableCount": 1,
-  "sampleCount": 1,
+  "availableCount": 2,
+  "sampleCount": 2,
   "wins": 1,
-  "losses": 0,
-  "winRate": 1.0,
+  "losses": 1,
+  "winRate": 0.5,
   "snapshots": {
     "5": {
-      "sampleCount": 1,
-      "avgGoldDiff": -22.0,
-      "medianGoldDiff": -22,
-      "goldAhead": 0,
+      "sampleCount": 2,
+      "avgGoldDiff": -6.5,
+      "medianGoldDiff": -6.5,
+      "goldAhead": 1,
       "goldBehind": 1,
-      "avgCsDiff": -6.0,
-      "medianCsDiff": -6,
-      "csAhead": 0,
+      "avgCsDiff": 2.0,
+      "medianCsDiff": 2.0,
+      "csAhead": 1,
       "csBehind": 1,
-      "avgLevelDiff": 0.0
+      "avgLevelDiff": 0.5
     },
     "10": {
-      "sampleCount": 1,
-      "avgGoldDiff": -537.0,
-      "medianGoldDiff": -537,
+      "sampleCount": 2,
+      "avgGoldDiff": -364.5,
+      "medianGoldDiff": -364.5,
       "goldAhead": 0,
-      "goldBehind": 1,
-      "avgCsDiff": -5.0,
-      "medianCsDiff": -5,
-      "csAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 3.0,
+      "medianCsDiff": 3.0,
+      "csAhead": 1,
       "csBehind": 1,
       "avgLevelDiff": 1.0
     },
     "15": {
-      "sampleCount": 1,
-      "avgGoldDiff": -1299.0,
-      "medianGoldDiff": -1299,
+      "sampleCount": 2,
+      "avgGoldDiff": -987.5,
+      "medianGoldDiff": -987.5,
       "goldAhead": 0,
-      "goldBehind": 1,
-      "avgCsDiff": -12.0,
-      "medianCsDiff": -12,
-      "csAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": 1.0,
+      "medianCsDiff": 1.0,
+      "csAhead": 1,
       "csBehind": 1,
-      "avgLevelDiff": 0.0
+      "avgLevelDiff": 0.5
     },
     "20": {
-      "sampleCount": 1,
-      "avgGoldDiff": -1132.0,
-      "medianGoldDiff": -1132,
+      "sampleCount": 2,
+      "avgGoldDiff": -796.0,
+      "medianGoldDiff": -796.0,
       "goldAhead": 0,
-      "goldBehind": 1,
-      "avgCsDiff": -19.0,
-      "medianCsDiff": -19,
-      "csAhead": 0,
+      "goldBehind": 2,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1.0,
+      "csAhead": 1,
       "csBehind": 1,
-      "avgLevelDiff": 0.0
+      "avgLevelDiff": 0.5
     }
   },
   "winsStats": {
@@ -68,23 +68,23 @@
     "avgFirstKillMin": 21.49
   },
   "lossesStats": {
-    "count": 0,
-    "avg10GoldDiff": null,
-    "avg15GoldDiff": null,
-    "avg20GoldDiff": null,
-    "avg10CsDiff": null,
-    "avg15CsDiff": null,
-    "avg20CsDiff": null,
-    "avgFirstDeathMin": null,
-    "avgFirstKillMin": null
+    "count": 1,
+    "avg10GoldDiff": -192.0,
+    "avg15GoldDiff": -676.0,
+    "avg20GoldDiff": -460.0,
+    "avg10CsDiff": 11.0,
+    "avg15CsDiff": 14.0,
+    "avg20CsDiff": 17.0,
+    "avgFirstDeathMin": 7.8,
+    "avgFirstKillMin": 26.41
   },
   "firstDeath": {
     "noDeath": 0,
-    "avgMinute": 10.73,
+    "avgMinute": 9.27,
     "before5": 0,
-    "before8": 0,
-    "before10": 0,
-    "before15": 1
+    "before8": 1,
+    "before10": 1,
+    "before15": 2
   },
   "transitions": {
     "ahead10_to_behind15": 0,
@@ -94,7 +94,7 @@
     "ahead10_by300_plus": 0,
     "behind10_by300_plus": 1,
     "ahead15_by500_plus": 0,
-    "behind15_by500_plus": 1
+    "behind15_by500_plus": 2
   },
   "matches": [
     {
@@ -119,6 +119,29 @@
       "cs20": -19,
       "soloKills": 0,
       "teamDamagePercentage": 0.0361645577145694
+    },
+    {
+      "matchId": "KR_7829598341",
+      "opponent": "Lulu",
+      "win": false,
+      "kda": [
+        1,
+        6,
+        11
+      ],
+      "durationMin": 32.2,
+      "firstDeathMin": 7.8,
+      "firstKillMin": 26.41,
+      "g5": 9,
+      "cs5": 10,
+      "g10": -192,
+      "cs10": 11,
+      "g15": -676,
+      "cs15": 14,
+      "g20": -460,
+      "cs20": 17,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.07003201181171233
     }
   ]
 }

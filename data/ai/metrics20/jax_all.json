@@ -1,0 +1,124 @@
+{
+  "champion": "jax",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -1040.0,
+      "medianGoldDiff": -1040,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -17.0,
+      "medianCsDiff": -17,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -2946.0,
+      "medianGoldDiff": -2946,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -59.0,
+      "medianCsDiff": -59,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -2.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -2894.0,
+      "medianGoldDiff": -2894,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -86.0,
+      "medianCsDiff": -86,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -3568.0,
+      "medianGoldDiff": -3568,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -112.0,
+      "medianCsDiff": -112,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -2.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -2946.0,
+    "avg15GoldDiff": -2894.0,
+    "avg20GoldDiff": -3568.0,
+    "avg10CsDiff": -59.0,
+    "avg15CsDiff": -86.0,
+    "avg20CsDiff": -112.0,
+    "avgFirstDeathMin": 2.07,
+    "avgFirstKillMin": 11.24
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 2.07,
+    "before5": 1,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8047559984",
+      "opponent": "Sivir",
+      "win": false,
+      "kda": [
+        3,
+        11,
+        8
+      ],
+      "durationMin": 27.7,
+      "firstDeathMin": 2.07,
+      "firstKillMin": 11.24,
+      "g5": -1040,
+      "cs5": -17,
+      "g10": -2946,
+      "cs10": -59,
+      "g15": -2894,
+      "cs15": -86,
+      "g20": -3568,
+      "cs20": -112,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "champion": "orianna",
+  "position": "invalid",
+  "availableCount": 2,
+  "count": 2,
+  "matches": [
+    {
+      "matchId": "KR_8004617465",
+      "gameCreation": 1767371230135,
+      "gameDuration": 882,
+      "queueId": 900,
+      "gameMode": "URF",
+      "opponent": "Camille",
+      "win": true,
+      "kills": 2,
+      "deaths": 6,
+      "assists": 11,
+      "cs": 34,
+      "gold": 9900,
+      "damage": 8356,
+      "soloKills": null,
+      "killParticipation": null,
+      "teamDamagePercentage": null,
+      "laneMinionsFirst10Minutes": null,
+      "opponentFinal": {
+        "kills": 7,
+        "deaths": 7,
+        "assists": 3,
+        "cs": 42,
+        "gold": 9240,
+        "damage": 11639
+      },
+      "firstKillTimestamp": 531141,
+      "firstDeathTimestamp": 141109,
+      "firstAssistTimestamp": 382419,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -500,
+          "csDiff": 3,
+          "levelDiff": 0,
+          "myGold": 2316,
+          "myCs": 16,
+          "myLevel": 5,
+          "oppGold": 2816,
+          "oppCs": 13,
+          "oppLevel": 5
+        },
+        {
+          "minute": 10,
+          "goldDiff": -451,
+          "csDiff": 2,
+          "levelDiff": 0,
+          "myGold": 5945,
+          "myCs": 27,
+          "myLevel": 10,
+          "oppGold": 6396,
+          "oppCs": 25,
+          "oppLevel": 10
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7794340411",
+      "gameCreation": 1756960489937,
+      "gameDuration": 1003,
+      "queueId": 450,
+      "gameMode": "ARAM",
+      "opponent": "Volibear",
+      "win": false,
+      "kills": 3,
+      "deaths": 8,
+      "assists": 33,
+      "cs": 32,
+      "gold": 10364,
+      "damage": 26544,
+      "soloKills": 0,
+      "killParticipation": 0.9473684210526315,
+      "teamDamagePercentage": 0.20029766346252106,
+      "laneMinionsFirst10Minutes": 20,
+      "opponentFinal": {
+        "kills": 6,
+        "deaths": 9,
+        "assists": 20,
+        "cs": 15,
+        "gold": 10727,
+        "damage": 17236
+      },
+      "firstKillTimestamp": 334605,
+      "firstDeathTimestamp": 385177,
+      "firstAssistTimestamp": 72076,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 175,
+          "csDiff": 5,
+          "levelDiff": 0,
+          "myGold": 3679,
+          "myCs": 8,
+          "myLevel": 7,
+          "oppGold": 3504,
+          "oppCs": 3,
+          "oppLevel": 7
+        },
+        {
+          "minute": 10,
+          "goldDiff": 65,
+          "csDiff": 12,
+          "levelDiff": 0,
+          "myGold": 6562,
+          "myCs": 20,
+          "myLevel": 11,
+          "oppGold": 6497,
+          "oppCs": 8,
+          "oppLevel": 11
+        },
+        {
+          "minute": 15,
+          "goldDiff": -25,
+          "csDiff": 13,
+          "levelDiff": 0,
+          "myGold": 9598,
+          "myCs": 28,
+          "myLevel": 15,
+          "oppGold": 9623,
+          "oppCs": 15,
+          "oppLevel": 15
+        }
+      ]
+    }
+  ]
+}

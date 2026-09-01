@@ -1,0 +1,124 @@
+{
+  "champion": "malphite",
+  "position": "invalid",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 250.0,
+      "medianGoldDiff": 250,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 0.0,
+      "medianGoldDiff": 0,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": 0.0,
+      "medianCsDiff": 0,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -281.0,
+      "medianGoldDiff": -281,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": -5031.0,
+      "medianGoldDiff": -5031,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -1.0,
+      "medianCsDiff": -1,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 0.0,
+    "avg15GoldDiff": -281.0,
+    "avg20GoldDiff": -5031.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": -1.0,
+    "avg20CsDiff": -1.0,
+    "avgFirstDeathMin": 6.25,
+    "avgFirstKillMin": 4.08
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 6.25,
+    "before5": 0,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8126366385",
+      "opponent": "Jax",
+      "win": false,
+      "kda": [
+        5,
+        6,
+        6
+      ],
+      "durationMin": 22.3,
+      "firstDeathMin": 6.25,
+      "firstKillMin": 4.08,
+      "g5": 250,
+      "cs5": 0,
+      "g10": 0,
+      "cs10": 0,
+      "g15": -281,
+      "cs15": -1,
+      "g20": -5031,
+      "cs20": -1,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.14460067896266823
+    }
+  ]
+}

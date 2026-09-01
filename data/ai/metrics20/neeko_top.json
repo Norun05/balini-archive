@@ -1,0 +1,124 @@
+{
+  "champion": "neeko",
+  "position": "top",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "winRate": 1.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": 489.0,
+      "medianGoldDiff": 489,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 13.0,
+      "medianCsDiff": 13,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 2.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": 716.0,
+      "medianGoldDiff": 716,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 27.0,
+      "medianCsDiff": 27,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 2.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": 1224.0,
+      "medianGoldDiff": 1224,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": 35.0,
+      "medianCsDiff": 35,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 2.0
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": 716.0,
+    "avg15GoldDiff": 1224.0,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": 27.0,
+    "avg15CsDiff": 35.0,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": 16.2,
+    "avgFirstKillMin": 8.72
+  },
+  "lossesStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 16.2,
+    "before5": 0,
+    "before8": 0,
+    "before10": 0,
+    "before15": 0
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_7884596275",
+      "opponent": "Nasus",
+      "win": true,
+      "kda": [
+        2,
+        1,
+        4
+      ],
+      "durationMin": 16.9,
+      "firstDeathMin": 16.2,
+      "firstKillMin": 8.72,
+      "g5": 489,
+      "cs5": 13,
+      "g10": 716,
+      "cs10": 27,
+      "g15": 1224,
+      "cs15": 35,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.09829400245934786
+    }
+  ]
+}

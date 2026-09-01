@@ -1,8 +1,8 @@
 {
   "champion": "seraphine",
   "position": "invalid",
-  "availableCount": 6,
-  "count": 6,
+  "availableCount": 8,
+  "count": 8,
   "matches": [
     {
       "matchId": "KR_8250445039",
@@ -481,6 +481,154 @@
           "oppGold": 19655,
           "oppCs": 0,
           "oppLevel": 18
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8047664182",
+      "gameCreation": 1769261930733,
+      "gameDuration": 960,
+      "queueId": 900,
+      "gameMode": "URF",
+      "opponent": "Ezreal",
+      "win": true,
+      "kills": 3,
+      "deaths": 9,
+      "assists": 8,
+      "cs": 33,
+      "gold": 9765,
+      "damage": 12302,
+      "soloKills": null,
+      "killParticipation": null,
+      "teamDamagePercentage": null,
+      "laneMinionsFirst10Minutes": null,
+      "opponentFinal": {
+        "kills": 5,
+        "deaths": 5,
+        "assists": 2,
+        "cs": 105,
+        "gold": 13040,
+        "damage": 15212
+      },
+      "firstKillTimestamp": 398916,
+      "firstDeathTimestamp": 99606,
+      "firstAssistTimestamp": 278913,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": -680,
+          "csDiff": -33,
+          "levelDiff": 0,
+          "myGold": 2252,
+          "myCs": 4,
+          "myLevel": 6,
+          "oppGold": 2932,
+          "oppCs": 37,
+          "oppLevel": 6
+        },
+        {
+          "minute": 10,
+          "goldDiff": -1774,
+          "csDiff": -52,
+          "levelDiff": -1,
+          "myGold": 5387,
+          "myCs": 23,
+          "myLevel": 10,
+          "oppGold": 7161,
+          "oppCs": 75,
+          "oppLevel": 11
+        },
+        {
+          "minute": 15,
+          "goldDiff": -3214,
+          "csDiff": -72,
+          "levelDiff": -2,
+          "myGold": 9246,
+          "myCs": 33,
+          "myLevel": 15,
+          "oppGold": 12460,
+          "oppCs": 105,
+          "oppLevel": 17
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7895272888",
+      "gameCreation": 1762060840539,
+      "gameDuration": 1377,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "opponent": "Veigar",
+      "win": false,
+      "kills": 2,
+      "deaths": 7,
+      "assists": 6,
+      "cs": 0,
+      "gold": 12250,
+      "damage": 12380,
+      "soloKills": 0,
+      "killParticipation": 0.42105263157894735,
+      "teamDamagePercentage": 0.10433488230430664,
+      "laneMinionsFirst10Minutes": 0,
+      "opponentFinal": {
+        "kills": 4,
+        "deaths": 10,
+        "assists": 4,
+        "cs": 0,
+        "gold": 16900,
+        "damage": 35580
+      },
+      "firstKillTimestamp": 331271,
+      "firstDeathTimestamp": 85445,
+      "firstAssistTimestamp": 225243,
+      "snapshots": [
+        {
+          "minute": 5,
+          "goldDiff": 0,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 3250,
+          "myCs": 0,
+          "myLevel": 7,
+          "oppGold": 3250,
+          "oppCs": 0,
+          "oppLevel": 7
+        },
+        {
+          "minute": 10,
+          "goldDiff": 50,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 8750,
+          "myCs": 0,
+          "myLevel": 12,
+          "oppGold": 8700,
+          "oppCs": 0,
+          "oppLevel": 12
+        },
+        {
+          "minute": 15,
+          "goldDiff": -300,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 11500,
+          "myCs": 0,
+          "myLevel": 15,
+          "oppGold": 11800,
+          "oppCs": 0,
+          "oppLevel": 15
+        },
+        {
+          "minute": 20,
+          "goldDiff": -1800,
+          "csDiff": 0,
+          "levelDiff": 0,
+          "myGold": 12250,
+          "myCs": 0,
+          "myLevel": 17,
+          "oppGold": 14050,
+          "oppCs": 0,
+          "oppLevel": 17
         }
       ]
     }

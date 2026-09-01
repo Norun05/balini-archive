@@ -1,0 +1,170 @@
+{
+  "champion": "zoe",
+  "position": "all",
+  "availableCount": 3,
+  "sampleCount": 3,
+  "wins": 2,
+  "losses": 1,
+  "winRate": 0.6667,
+  "snapshots": {
+    "5": {
+      "sampleCount": 3,
+      "avgGoldDiff": 176.67,
+      "medianGoldDiff": 224,
+      "goldAhead": 3,
+      "goldBehind": 0,
+      "avgCsDiff": 2.67,
+      "medianCsDiff": 0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 0.67
+    },
+    "10": {
+      "sampleCount": 3,
+      "avgGoldDiff": 376.33,
+      "medianGoldDiff": 530,
+      "goldAhead": 2,
+      "goldBehind": 1,
+      "avgCsDiff": 6.67,
+      "medianCsDiff": 0,
+      "csAhead": 1,
+      "csBehind": 1,
+      "avgLevelDiff": 1.0
+    },
+    "15": {
+      "sampleCount": 2,
+      "avgGoldDiff": 1220.0,
+      "medianGoldDiff": 1220.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 2.5,
+      "medianCsDiff": 2.5,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.5
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgGoldDiff": -1666.5,
+      "medianGoldDiff": -1666.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": -5.5,
+      "medianCsDiff": -5.5,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.5
+    }
+  },
+  "winsStats": {
+    "count": 2,
+    "avg10GoldDiff": 694.0,
+    "avg15GoldDiff": 2958.0,
+    "avg20GoldDiff": 2691.0,
+    "avg10CsDiff": 10.0,
+    "avg15CsDiff": 5.0,
+    "avg20CsDiff": -11.0,
+    "avgFirstDeathMin": 7.54,
+    "avgFirstKillMin": 3.04
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -259.0,
+    "avg15GoldDiff": -518.0,
+    "avg20GoldDiff": -6024.0,
+    "avg10CsDiff": 0.0,
+    "avg15CsDiff": 0.0,
+    "avg20CsDiff": 0.0,
+    "avgFirstDeathMin": 1.75,
+    "avgFirstKillMin": 3.82
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 5.61,
+    "before5": 2,
+    "before8": 2,
+    "before10": 2,
+    "before15": 3
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 1,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 1,
+    "behind15_by500_plus": 1
+  },
+  "matches": [
+    {
+      "matchId": "KR_8056330111",
+      "opponent": "LeeSin",
+      "win": true,
+      "kda": [
+        4,
+        7,
+        15
+      ],
+      "durationMin": 23.3,
+      "firstDeathMin": 2.35,
+      "firstKillMin": 3.06,
+      "g5": 56,
+      "cs5": -2,
+      "g10": 858,
+      "cs10": -1,
+      "g15": 2958,
+      "cs15": 5,
+      "g20": 2691,
+      "cs20": -11,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    },
+    {
+      "matchId": "KR_7923898441",
+      "opponent": "Viego",
+      "win": false,
+      "kda": [
+        3,
+        6,
+        1
+      ],
+      "durationMin": 25.7,
+      "firstDeathMin": 1.75,
+      "firstKillMin": 3.82,
+      "g5": 250,
+      "cs5": 0,
+      "g10": -259,
+      "cs10": 0,
+      "g15": -518,
+      "cs15": 0,
+      "g20": -6024,
+      "cs20": 0,
+      "soloKills": 1,
+      "teamDamagePercentage": 0.10528657630564668
+    },
+    {
+      "matchId": "KR_7884569779",
+      "opponent": "Lux",
+      "win": true,
+      "kda": [
+        3,
+        1,
+        6
+      ],
+      "durationMin": 13.1,
+      "firstDeathMin": 12.73,
+      "firstKillMin": 3.02,
+      "g5": 224,
+      "cs5": 10,
+      "g10": 530,
+      "cs10": 21,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 3,
+      "teamDamagePercentage": 0.09820043089022885
+    }
+  ]
+}

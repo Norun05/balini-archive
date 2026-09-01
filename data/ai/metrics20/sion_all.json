@@ -1,0 +1,124 @@
+{
+  "champion": "sion",
+  "position": "all",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "winRate": 0.0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgGoldDiff": -221.0,
+      "medianGoldDiff": -221,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -15.0,
+      "medianCsDiff": -15,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgGoldDiff": -326.0,
+      "medianGoldDiff": -326,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -3.0,
+      "medianCsDiff": -3,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -277.0,
+      "medianGoldDiff": -277,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": -14.0,
+      "medianCsDiff": -14,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgGoldDiff": 186.0,
+      "medianGoldDiff": 186,
+      "goldAhead": 1,
+      "goldBehind": 0,
+      "avgCsDiff": -19.0,
+      "medianCsDiff": -19,
+      "csAhead": 0,
+      "csBehind": 1,
+      "avgLevelDiff": -1.0
+    }
+  },
+  "winsStats": {
+    "count": 0,
+    "avg10GoldDiff": null,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": null,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": null,
+    "avgFirstKillMin": null
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": -326.0,
+    "avg15GoldDiff": -277.0,
+    "avg20GoldDiff": 186.0,
+    "avg10CsDiff": -3.0,
+    "avg15CsDiff": -14.0,
+    "avg20CsDiff": -19.0,
+    "avgFirstDeathMin": 7.17,
+    "avgFirstKillMin": 6.29
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 7.17,
+    "before5": 0,
+    "before8": 1,
+    "before10": 1,
+    "before15": 1
+  },
+  "transitions": {
+    "ahead10_to_behind15": 0,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 1,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8056503470",
+      "opponent": "Evelynn",
+      "win": false,
+      "kda": [
+        4,
+        5,
+        14
+      ],
+      "durationMin": 22.8,
+      "firstDeathMin": 7.17,
+      "firstKillMin": 6.29,
+      "g5": -221,
+      "cs5": -15,
+      "g10": -326,
+      "cs10": -3,
+      "g15": -277,
+      "cs15": -14,
+      "g20": 186,
+      "cs20": -19,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    }
+  ]
+}

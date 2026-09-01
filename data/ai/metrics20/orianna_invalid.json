@@ -1,0 +1,147 @@
+{
+  "champion": "orianna",
+  "position": "invalid",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "winRate": 0.5,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgGoldDiff": -162.5,
+      "medianGoldDiff": -162.5,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 4.0,
+      "medianCsDiff": 4.0,
+      "csAhead": 2,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgGoldDiff": -193.0,
+      "medianGoldDiff": -193.0,
+      "goldAhead": 1,
+      "goldBehind": 1,
+      "avgCsDiff": 7.0,
+      "medianCsDiff": 7.0,
+      "csAhead": 2,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgGoldDiff": -25.0,
+      "medianGoldDiff": -25,
+      "goldAhead": 0,
+      "goldBehind": 1,
+      "avgCsDiff": 13.0,
+      "medianCsDiff": 13,
+      "csAhead": 1,
+      "csBehind": 0,
+      "avgLevelDiff": 0.0
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgGoldDiff": null,
+      "medianGoldDiff": null,
+      "goldAhead": 0,
+      "goldBehind": 0,
+      "avgCsDiff": null,
+      "medianCsDiff": null,
+      "csAhead": 0,
+      "csBehind": 0,
+      "avgLevelDiff": null
+    }
+  },
+  "winsStats": {
+    "count": 1,
+    "avg10GoldDiff": -451.0,
+    "avg15GoldDiff": null,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": 2.0,
+    "avg15CsDiff": null,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": 2.35,
+    "avgFirstKillMin": 8.85
+  },
+  "lossesStats": {
+    "count": 1,
+    "avg10GoldDiff": 65.0,
+    "avg15GoldDiff": -25.0,
+    "avg20GoldDiff": null,
+    "avg10CsDiff": 12.0,
+    "avg15CsDiff": 13.0,
+    "avg20CsDiff": null,
+    "avgFirstDeathMin": 6.42,
+    "avgFirstKillMin": 5.58
+  },
+  "firstDeath": {
+    "noDeath": 0,
+    "avgMinute": 4.38,
+    "before5": 1,
+    "before8": 2,
+    "before10": 2,
+    "before15": 2
+  },
+  "transitions": {
+    "ahead10_to_behind15": 1,
+    "behind10_to_ahead15": 0,
+    "ahead15_but_loss": 0,
+    "behind15_but_win": 0,
+    "ahead10_by300_plus": 0,
+    "behind10_by300_plus": 0,
+    "ahead15_by500_plus": 0,
+    "behind15_by500_plus": 0
+  },
+  "matches": [
+    {
+      "matchId": "KR_8004617465",
+      "opponent": "Camille",
+      "win": true,
+      "kda": [
+        2,
+        6,
+        11
+      ],
+      "durationMin": 14.7,
+      "firstDeathMin": 2.35,
+      "firstKillMin": 8.85,
+      "g5": -500,
+      "cs5": 3,
+      "g10": -451,
+      "cs10": 2,
+      "g15": null,
+      "cs15": null,
+      "g20": null,
+      "cs20": null,
+      "soloKills": null,
+      "teamDamagePercentage": null
+    },
+    {
+      "matchId": "KR_7794340411",
+      "opponent": "Volibear",
+      "win": false,
+      "kda": [
+        3,
+        8,
+        33
+      ],
+      "durationMin": 16.7,
+      "firstDeathMin": 6.42,
+      "firstKillMin": 5.58,
+      "g5": 175,
+      "cs5": 5,
+      "g10": 65,
+      "cs10": 12,
+      "g15": -25,
+      "cs15": 13,
+      "g20": null,
+      "cs20": null,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.20029766346252106
+    }
+  ]
+}

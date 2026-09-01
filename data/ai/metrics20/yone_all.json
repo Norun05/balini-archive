@@ -1,59 +1,59 @@
 {
   "champion": "yone",
   "position": "all",
-  "availableCount": 1,
-  "sampleCount": 1,
+  "availableCount": 3,
+  "sampleCount": 3,
   "wins": 0,
-  "losses": 1,
+  "losses": 3,
   "winRate": 0.0,
   "snapshots": {
     "5": {
-      "sampleCount": 1,
-      "avgGoldDiff": -753.0,
-      "medianGoldDiff": -753,
+      "sampleCount": 3,
+      "avgGoldDiff": -501.0,
+      "medianGoldDiff": -500,
       "goldAhead": 0,
-      "goldBehind": 1,
-      "avgCsDiff": -4.0,
-      "medianCsDiff": -4,
+      "goldBehind": 3,
+      "avgCsDiff": -1.33,
+      "medianCsDiff": 0,
       "csAhead": 0,
       "csBehind": 1,
-      "avgLevelDiff": -1.0
+      "avgLevelDiff": -0.33
     },
     "10": {
-      "sampleCount": 1,
-      "avgGoldDiff": -1386.0,
-      "medianGoldDiff": -1386,
+      "sampleCount": 3,
+      "avgGoldDiff": -915.33,
+      "medianGoldDiff": -750,
       "goldAhead": 0,
-      "goldBehind": 1,
-      "avgCsDiff": -14.0,
-      "medianCsDiff": -14,
+      "goldBehind": 3,
+      "avgCsDiff": -4.67,
+      "medianCsDiff": 0,
       "csAhead": 0,
       "csBehind": 1,
-      "avgLevelDiff": -2.0
+      "avgLevelDiff": -0.67
     },
     "15": {
-      "sampleCount": 1,
-      "avgGoldDiff": -2527.0,
-      "medianGoldDiff": -2527,
+      "sampleCount": 3,
+      "avgGoldDiff": -1679.0,
+      "medianGoldDiff": -1550,
       "goldAhead": 0,
-      "goldBehind": 1,
-      "avgCsDiff": -26.0,
-      "medianCsDiff": -26,
+      "goldBehind": 3,
+      "avgCsDiff": -8.67,
+      "medianCsDiff": 0,
       "csAhead": 0,
       "csBehind": 1,
-      "avgLevelDiff": -2.0
+      "avgLevelDiff": -0.67
     },
     "20": {
-      "sampleCount": 1,
-      "avgGoldDiff": -4527.0,
-      "medianGoldDiff": -4527,
+      "sampleCount": 3,
+      "avgGoldDiff": -4046.33,
+      "medianGoldDiff": -4310,
       "goldAhead": 0,
-      "goldBehind": 1,
-      "avgCsDiff": -53.0,
-      "medianCsDiff": -53,
+      "goldBehind": 3,
+      "avgCsDiff": -17.67,
+      "medianCsDiff": 0,
       "csAhead": 0,
       "csBehind": 1,
-      "avgLevelDiff": -3.0
+      "avgLevelDiff": -2.33
     }
   },
   "winsStats": {
@@ -68,23 +68,23 @@
     "avgFirstKillMin": null
   },
   "lossesStats": {
-    "count": 1,
-    "avg10GoldDiff": -1386.0,
-    "avg15GoldDiff": -2527.0,
-    "avg20GoldDiff": -4527.0,
-    "avg10CsDiff": -14.0,
-    "avg15CsDiff": -26.0,
-    "avg20CsDiff": -53.0,
-    "avgFirstDeathMin": 1.22,
-    "avgFirstKillMin": 14.49
+    "count": 3,
+    "avg10GoldDiff": -915.33,
+    "avg15GoldDiff": -1679.0,
+    "avg20GoldDiff": -4046.33,
+    "avg10CsDiff": -4.67,
+    "avg15CsDiff": -8.67,
+    "avg20CsDiff": -17.67,
+    "avgFirstDeathMin": 1.44,
+    "avgFirstKillMin": 9.44
   },
   "firstDeath": {
     "noDeath": 0,
-    "avgMinute": 1.22,
-    "before5": 1,
-    "before8": 1,
-    "before10": 1,
-    "before15": 1
+    "avgMinute": 1.44,
+    "before5": 3,
+    "before8": 3,
+    "before10": 3,
+    "before15": 3
   },
   "transitions": {
     "ahead10_to_behind15": 0,
@@ -92,9 +92,9 @@
     "ahead15_but_loss": 0,
     "behind15_but_win": 0,
     "ahead10_by300_plus": 0,
-    "behind10_by300_plus": 1,
+    "behind10_by300_plus": 3,
     "ahead15_by500_plus": 0,
-    "behind15_by500_plus": 1
+    "behind15_by500_plus": 3
   },
   "matches": [
     {
@@ -119,6 +119,52 @@
       "cs20": -53,
       "soloKills": 1,
       "teamDamagePercentage": 0.10796334278926072
+    },
+    {
+      "matchId": "KR_8158676252",
+      "opponent": "Nautilus",
+      "win": false,
+      "kda": [
+        2,
+        10,
+        3
+      ],
+      "durationMin": 27.4,
+      "firstDeathMin": 1.64,
+      "firstKillMin": 10.17,
+      "g5": -500,
+      "cs5": 0,
+      "g10": -610,
+      "cs10": 0,
+      "g15": -960,
+      "cs15": 0,
+      "g20": -4310,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.08007972775488442
+    },
+    {
+      "matchId": "KR_7894612112",
+      "opponent": "Amumu",
+      "win": false,
+      "kda": [
+        3,
+        6,
+        6
+      ],
+      "durationMin": 22.3,
+      "firstDeathMin": 1.47,
+      "firstKillMin": 3.65,
+      "g5": -250,
+      "cs5": 0,
+      "g10": -750,
+      "cs10": 0,
+      "g15": -1550,
+      "cs15": 0,
+      "g20": -3302,
+      "cs20": 0,
+      "soloKills": 0,
+      "teamDamagePercentage": 0.13879967641526075
     }
   ]
 }
