@@ -8,7 +8,7 @@ CHAMPION_ROOT = ROOT / "data" / "champions"
 OUT_ROOT = ROOT / "data" / "ai" / "builds"
 
 # Completed core items recognized from ITEM_PURCHASED events.
-# Keep these champion-specific so first-core detection does not mistake boots,
+# Keep these champion-specific so core detection does not mistake boots,
 # components, starting items, or unrelated completed items for a core.
 CORE_ITEMS = {
     "kennen": {
@@ -129,6 +129,7 @@ def build_rows(matches, item_names):
             continue
         first_id, first_ts = order[0]
         second_id, second_ts = order[1] if len(order) >= 2 else (None, None)
+        third_id, third_ts = order[2] if len(order) >= 3 else (None, None)
         rows.append({
             "matchId": match.get("matchId"),
             "gameCreation": match.get("gameCreation"),
@@ -139,9 +140,48 @@ def build_rows(matches, item_names):
             "firstCoreTimestamp": first_ts,
             "secondCore": item_names.get(second_id),
             "secondCoreTimestamp": second_ts,
+            "thirdCore": item_names.get(third_id),
+            "thirdCoreTimestamp": third_ts,
             "snapshots": snapshot_diffs(match),
         })
     return rows
+
+
+def build_slot_stats(rows, slot):
+    core_key = {1: "firstCore", 2: "secondCore", 3: "thirdCore"}[slot]
+    ts_key = {1: "firstCoreTimestamp", 2: "secondCoreTimestamp", 3: "thirdCoreTimestamp"}[slot]
+    groups = defaultdict(list)
+    for row in rows:
+        core = row.get(core_key)
+        if core:
+            groups[core].append(row)
+
+    items = []
+    for core, core_rows in groups.items():
+        games = len(core_rows)
+        wins = sum(bool(r.get("win")) for r in core_rows)
+        purchase_minutes = [
+            r[ts_key] / 60000
+            for r in core_rows
+            if isinstance(r.get(ts_key), (int, float))
+        ]
+        items.append({
+            "item": core,
+            "games": games,
+            "wins": wins,
+            "losses": games - wins,
+            "winRate": pct(wins, games),
+            "avgCompletionMinute": round(mean(purchase_minutes), 2) if purchase_minutes else None,
+            "medianCompletionMinute": round(median(purchase_minutes), 2) if purchase_minutes else None,
+            "withTimestamp": len(purchase_minutes),
+        })
+
+    items.sort(key=lambda r: (-r["games"], r["item"]))
+    return {
+        "slot": slot,
+        "recognizedCount": sum(r["games"] for r in items),
+        "items": items,
+    }
 
 
 def build_profile(champion_key, position_key, matches):
@@ -161,6 +201,7 @@ def build_profile(champion_key, position_key, matches):
             if isinstance(r.get("firstCoreTimestamp"), (int, float))
         ]
         second = Counter(r.get("secondCore") for r in core_rows if r.get("secondCore"))
+        third = Counter(r.get("thirdCore") for r in core_rows if r.get("thirdCore"))
         opponents = Counter(r.get("opponent") for r in core_rows if r.get("opponent"))
 
         checkpoints = {}
@@ -220,6 +261,10 @@ def build_profile(champion_key, position_key, matches):
                 {"item": name, "games": count}
                 for name, count in second.most_common()
             ],
+            "thirdCores": [
+                {"item": name, "games": count}
+                for name, count in third.most_common()
+            ],
             "checkpoints": checkpoints,
             "resultSplit": result_split,
         })
@@ -231,8 +276,13 @@ def build_profile(champion_key, position_key, matches):
         "position": position_key.upper(),
         "sampleCount": len(matches),
         "recognizedFirstCoreCount": len(rows),
+        "coreSlots": {
+            "1": build_slot_stats(rows, 1),
+            "2": build_slot_stats(rows, 2),
+            "3": build_slot_stats(rows, 3),
+        },
         "notes": [
-            "Groups are based on first recognized completed core from ITEM_PURCHASED timestamps.",
+            "Groups and coreSlots are based on recognized completed cores from ITEM_PURCHASED timestamps.",
             "ALL combines every recorded position for this champion; INVALID keeps matches without a reliable role classification.",
             "Checkpoint diffs use the lane-opponent snapshot stored by the archive when available.",
             "Checkpoint rows after exact match end are absent in source data.",
@@ -262,12 +312,13 @@ def main():
             out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
             generated += 1
             print(
-                f"{CHAMPION_NAMES[champion_key]} {position_key.upper()} first-core profile: "
-                f"{payload['recognizedFirstCoreCount']}/{payload['sampleCount']} matches, "
-                f"{len(payload['groups'])} cores"
+                f"{CHAMPION_NAMES[champion_key]} {position_key.upper()} core profile: "
+                f"1c={payload['coreSlots']['1']['recognizedCount']}, "
+                f"2c={payload['coreSlots']['2']['recognizedCount']}, "
+                f"3c={payload['coreSlots']['3']['recognizedCount']}"
             )
 
-    print(f"Generated {generated} first-core profile files")
+    print(f"Generated {generated} core profile files")
 
 
 if __name__ == "__main__":
