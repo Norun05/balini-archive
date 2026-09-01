@@ -124,10 +124,17 @@ def main():
     count = 0
     for src in sorted(SUMMARY.glob("*_recent20.json")):
         rows = json.loads(src.read_text(encoding="utf-8"))
-        out = OUT / src.name
-        out.write_text(json.dumps([compact(r) for r in rows], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        compact_rows = [compact(r) for r in rows]
+
+        out_json = OUT / src.name
+        out_json.write_text(json.dumps(compact_rows, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+        out_jsonl = OUT / src.name.replace(".json", ".jsonl")
+        with out_jsonl.open("w", encoding="utf-8") as f:
+            for row in compact_rows:
+                f.write(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n")
         count += 1
-    print(f"Compact AI comparison files: {count}")
+    print(f"Compact AI comparison files: {count} JSON + JSONL pairs")
 
 
 if __name__ == "__main__":
