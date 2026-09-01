@@ -1,6 +1,5 @@
 import json
 import re
-import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -13,7 +12,7 @@ DDRAGON_BASE = "https://ddragon.leagueoflegends.com/cdn"
 ITEM_EVENT_TYPES = {"ITEM_PURCHASED", "ITEM_SOLD", "ITEM_DESTROYED", "ITEM_UNDO"}
 
 
-def version_number(path: Path) -> int:
+def version_number(path):
     m = re.search(r"-v(\d+)$", path.name, flags=re.I)
     return int(m.group(1)) if m else 0
 
@@ -49,17 +48,17 @@ def find_archive():
     return candidates[0][2]
 
 
-def read_json(path: Path):
+def read_json(path):
     with path.open("r", encoding="utf-8-sig") as f:
         return json.load(f)
 
 
-def write_json(path: Path, value):
+def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def ddragon_version(game_version: str | None) -> str | None:
+def ddragon_version(game_version):
     if not game_version:
         return None
     parts = str(game_version).split(".")
@@ -68,7 +67,7 @@ def ddragon_version(game_version: str | None) -> str | None:
     return f"{parts[0]}.{parts[1]}.1"
 
 
-def fetch_json(url: str):
+def fetch_json(url):
     request = urllib.request.Request(
         url,
         headers={"User-Agent": "balini-archive-item-name-builder/1.0"},
@@ -77,7 +76,7 @@ def fetch_json(url: str):
         return json.loads(response.read().decode("utf-8"))
 
 
-def load_item_map(version: str, cache_dir: Path | None):
+def load_item_map(version, cache_dir):
     cache_path = cache_dir / f"{version}.json" if cache_dir else None
     if cache_path and cache_path.exists():
         try:
@@ -102,7 +101,7 @@ def load_item_map(version: str, cache_dir: Path | None):
     return item_map
 
 
-def latest_ddragon_version() -> str:
+def latest_ddragon_version():
     versions = fetch_json("https://ddragon.leagueoflegends.com/api/versions.json")
     if not versions:
         raise RuntimeError("Data Dragon returned no versions")
@@ -115,7 +114,7 @@ def item_name(item_id, item_map):
     return item_map.get(str(item_id))
 
 
-def enrich_participant(participant: dict | None, item_map: dict) -> int:
+def enrich_participant(participant, item_map):
     if not isinstance(participant, dict):
         return 0
 
@@ -125,7 +124,7 @@ def enrich_participant(participant: dict | None, item_map: dict) -> int:
     return sum(1 for item_id, name in zip(items, names) if item_id not in (None, 0, "0") and not name)
 
 
-def enrich_event(event: dict, item_map: dict) -> int:
+def enrich_event(event, item_map):
     if event.get("type") not in ITEM_EVENT_TYPES:
         return 0
 
@@ -146,7 +145,7 @@ def enrich_event(event: dict, item_map: dict) -> int:
     return unknown
 
 
-def update_manifest(enriched_matches: int, enriched_events: int, unknown_ids: int, versions: list[str]):
+def update_manifest(enriched_matches, enriched_events, unknown_ids, versions):
     if not MANIFEST_PATH.exists():
         return
     try:
