@@ -1,4 +1,5 @@
 import json
+import math
 import re
 from pathlib import Path
 
@@ -6,7 +7,12 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
 MATCH_DETAILS_DIR = DATA_DIR / "matches"
 MANIFEST_PATH = DATA_DIR / "manifest.json"
-SMITE_ID = 11
+
+# Riot Match-V5 participantFrames are usually spaced about one minute apart.
+# This threshold is only a heuristic for unusually large observed displacement
+# between adjacent frames. It must not be interpreted as proof of Teleport,
+# Shen R, recall, death/respawn, or any other specific cause.
+LARGE_DISPLACEMENT_THRESHOLD = 6000
 
 
 def version_number(path: Path) -> int:
@@ -58,12 +64,6 @@ def write_json(path: Path, value):
     )
 
 
-def is_jungle_candidate(detail: dict) -> bool:
-    me = detail.get("me") or {}
-    spells = {me.get("summoner1Id"), me.get("summoner2Id")}
-    return detail.get("position") == "JUNGLE" or SMITE_ID in spells
-
-
 def movement_snapshots(timeline: dict, participant_id: int) -> list[dict]:
     frames = ((timeline.get("info") or {}).get("frames") or [])
     rows = []
@@ -84,7 +84,7 @@ def movement_snapshots(timeline: dict, participant_id: int) -> list[dict]:
         lane_cs = p.get("minionsKilled", 0) or 0
         jungle_cs = p.get("jungleMinionsKilled", 0) or 0
 
-        rows.append({
+        row = {
             "timestamp": timestamp,
             "minute": round((timestamp or 0) / 60000, 2),
             "x": x,
@@ -93,12 +93,46 @@ def movement_snapshots(timeline: dict, participant_id: int) -> list[dict]:
             "laneCs": lane_cs,
             "level": p.get("level"),
             "xp": p.get("xp"),
-        })
+        }
+
+        if rows:
+            prev = rows[-1]
+            dx = x - prev["x"]
+            dy = y - prev["y"]
+            distance = round(math.hypot(dx, dy), 1)
+            elapsed_ms = (timestamp or 0) - (prev.get("timestamp") or 0)
+            row["fromPrevious"] = {
+                "distance": distance,
+                "elapsedMs": elapsed_ms,
+                "largeDisplacement": distance >= LARGE_DISPLACEMENT_THRESHOLD,
+            }
+
+        rows.append(row)
 
     return rows
 
 
-def update_manifest(updated_matches: int, snapshot_count: int):
+def displacement_events(rows: list[dict]) -> list[dict]:
+    events = []
+    for idx, row in enumerate(rows):
+        movement = row.get("fromPrevious") or {}
+        if not movement.get("largeDisplacement") or idx == 0:
+            continue
+        prev = rows[idx - 1]
+        events.append({
+            "fromTimestamp": prev.get("timestamp"),
+            "toTimestamp": row.get("timestamp"),
+            "fromMinute": prev.get("minute"),
+            "toMinute": row.get("minute"),
+            "from": {"x": prev.get("x"), "y": prev.get("y")},
+            "to": {"x": row.get("x"), "y": row.get("y")},
+            "distance": movement.get("distance"),
+            "note": "Large displacement between Riot timeline frames; cause is not identifiable from Match-V5 alone.",
+        })
+    return events
+
+
+def update_manifest(updated_matches: int, snapshot_count: int, displacement_count: int):
     if not MANIFEST_PATH.exists():
         return
 
@@ -107,11 +141,19 @@ def update_manifest(updated_matches: int, snapshot_count: int):
     except Exception:
         return
 
-    manifest["schemaVersion"] = max(int(manifest.get("schemaVersion") or 0), 3)
+    manifest["schemaVersion"] = max(int(manifest.get("schemaVersion") or 0), 7)
     manifest["movementSummaryCount"] = updated_matches
     manifest["movementSnapshotCount"] = snapshot_count
     manifest["movementSnapshotField"] = "timeline.movementSnapshots"
-    manifest["movementScope"] = "JUNGLE position or Smite spell"
+    manifest["movementScope"] = "all archived user matches, regardless of position"
+    manifest["movementFrameCadence"] = "about 1 minute (Riot Match-V5 participantFrames)"
+    manifest["movementDisplacementField"] = "timeline.largeDisplacements"
+    manifest["movementLargeDisplacementCount"] = displacement_count
+    manifest["movementLargeDisplacementThreshold"] = LARGE_DISPLACEMENT_THRESHOLD
+    manifest["movementLargeDisplacementMeaning"] = (
+        "Heuristic only: unusually large coordinate difference between adjacent timeline frames. "
+        "Does not identify Teleport, champion abilities, recall, death/respawn, or another cause."
+    )
     write_json(MANIFEST_PATH, manifest)
 
 
@@ -124,19 +166,17 @@ def main():
 
     _, _, archive, timelines_dir = found
     print(f"Archive found: {archive}")
-    print("Adding 1-minute movement snapshots to jungle/Smite match details...")
+    print("Adding ~1-minute movement snapshots to every archived user match...")
 
     updated_matches = 0
     snapshot_count = 0
+    displacement_count = 0
     missing_timelines = 0
 
     for detail_path in sorted(MATCH_DETAILS_DIR.glob("KR_*.json")):
         try:
             detail = read_json(detail_path)
         except Exception:
-            continue
-
-        if not is_jungle_candidate(detail):
             continue
 
         me = detail.get("me") or {}
@@ -159,25 +199,35 @@ def main():
         if not rows:
             continue
 
+        jumps = displacement_events(rows)
+
         summary = detail.get("timeline")
         if not isinstance(summary, dict):
             summary = {}
             detail["timeline"] = summary
 
         summary["movementSnapshots"] = rows
+        summary["largeDisplacements"] = jumps
         summary["movementSource"] = "Riot Match-V5 timeline participantFrames"
         summary["movementFrameCadence"] = "about 1 minute"
+        summary["movementScope"] = "user participant for this match"
+        summary["movementCaveat"] = (
+            "Adjacent frame positions do not reveal the path or cause of movement. "
+            "Large displacement is a heuristic and must not be treated as proof of Teleport or a champion ability."
+        )
 
         write_json(detail_path, detail)
         updated_matches += 1
         snapshot_count += len(rows)
+        displacement_count += len(jumps)
 
-    update_manifest(updated_matches, snapshot_count)
+    update_manifest(updated_matches, snapshot_count, displacement_count)
 
     print(f"Movement-enabled matches: {updated_matches}")
     print(f"Movement snapshots: {snapshot_count}")
+    print(f"Large displacement flags: {displacement_count}")
     print(f"Missing/unreadable raw timelines: {missing_timelines}")
-    print("Done. Commit the regenerated data files and Push origin.")
+    print("Done. Movement is now generated for every position, not just jungle/Smite matches.")
     return 0
 
 
