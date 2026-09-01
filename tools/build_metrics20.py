@@ -7,13 +7,17 @@ SRC = ROOT / "data" / "ai" / "summary20"
 OUT = ROOT / "data" / "ai" / "metrics20"
 
 
+def numbers(values):
+    return [v for v in values if isinstance(v, (int, float))]
+
+
 def avg(values):
-    values = [v for v in values if isinstance(v, (int, float))]
+    values = numbers(values)
     return round(sum(values) / len(values), 2) if values else None
 
 
 def med(values):
-    values = [v for v in values if isinstance(v, (int, float))]
+    values = numbers(values)
     return round(statistics.median(values), 2) if values else None
 
 
@@ -44,9 +48,9 @@ def build_metrics(payload):
     }
     for minute in (5, 10, 15, 20):
         rows = [snap(m, minute) for m in matches]
-        gold = [r.get("goldDiff") for r in rows if r]
-        cs = [r.get("csDiff") for r in rows if r]
-        lvl = [r.get("levelDiff") for r in rows if r]
+        gold = numbers([r.get("goldDiff") for r in rows if r])
+        cs = numbers([r.get("csDiff") for r in rows if r])
+        lvl = numbers([r.get("levelDiff") for r in rows if r])
         out["snapshots"][str(minute)] = {
             "sampleCount": len(gold),
             "avgGoldDiff": avg(gold),
@@ -75,8 +79,7 @@ def build_metrics(payload):
     out["winsStats"] = split_stats(wins)
     out["lossesStats"] = split_stats(losses)
 
-    death_minutes = [mins(m.get("firstDeathTimestamp")) for m in matches]
-    death_minutes = [v for v in death_minutes if v is not None]
+    death_minutes = numbers([mins(m.get("firstDeathTimestamp")) for m in matches])
     out["firstDeath"] = {
         "noDeath": sum(1 for m in matches if m.get("firstDeathTimestamp") is None),
         "avgMinute": avg(death_minutes),
@@ -98,47 +101,27 @@ def build_metrics(payload):
     }
     rows = []
     for m in matches:
-        s10 = snap(m, 10)
-        s15 = snap(m, 15)
-        s20 = snap(m, 20)
-        g10 = s10.get("goldDiff")
-        g15 = s15.get("goldDiff")
+        s10, s15, s20 = snap(m, 10), snap(m, 15), snap(m, 20)
+        g10, g15 = s10.get("goldDiff"), s15.get("goldDiff")
         if isinstance(g10, (int, float)) and isinstance(g15, (int, float)):
-            if g10 > 0 and g15 < 0:
-                transitions["ahead10_to_behind15"] += 1
-            if g10 < 0 and g15 > 0:
-                transitions["behind10_to_ahead15"] += 1
-            if g10 >= 300:
-                transitions["ahead10_by300_plus"] += 1
-            if g10 <= -300:
-                transitions["behind10_by300_plus"] += 1
-            if g15 >= 500:
-                transitions["ahead15_by500_plus"] += 1
-            if g15 <= -500:
-                transitions["behind15_by500_plus"] += 1
+            if g10 > 0 and g15 < 0: transitions["ahead10_to_behind15"] += 1
+            if g10 < 0 and g15 > 0: transitions["behind10_to_ahead15"] += 1
+            if g10 >= 300: transitions["ahead10_by300_plus"] += 1
+            if g10 <= -300: transitions["behind10_by300_plus"] += 1
+            if g15 >= 500: transitions["ahead15_by500_plus"] += 1
+            if g15 <= -500: transitions["behind15_by500_plus"] += 1
         if isinstance(g15, (int, float)):
-            if g15 > 0 and not m.get("win"):
-                transitions["ahead15_but_loss"] += 1
-            if g15 < 0 and m.get("win"):
-                transitions["behind15_but_win"] += 1
+            if g15 > 0 and not m.get("win"): transitions["ahead15_but_loss"] += 1
+            if g15 < 0 and m.get("win"): transitions["behind15_but_win"] += 1
         rows.append({
-            "matchId": m.get("matchId"),
-            "opponent": m.get("opponent"),
-            "win": m.get("win"),
+            "matchId": m.get("matchId"), "opponent": m.get("opponent"), "win": m.get("win"),
             "kda": [m.get("kills"), m.get("deaths"), m.get("assists")],
             "durationMin": round((m.get("gameDuration") or 0) / 60, 1),
-            "firstDeathMin": mins(m.get("firstDeathTimestamp")),
-            "firstKillMin": mins(m.get("firstKillTimestamp")),
-            "g5": snap(m, 5).get("goldDiff"),
-            "cs5": snap(m, 5).get("csDiff"),
-            "g10": g10,
-            "cs10": s10.get("csDiff"),
-            "g15": g15,
-            "cs15": s15.get("csDiff"),
-            "g20": s20.get("goldDiff"),
-            "cs20": s20.get("csDiff"),
-            "soloKills": m.get("soloKills"),
-            "teamDamagePercentage": m.get("teamDamagePercentage"),
+            "firstDeathMin": mins(m.get("firstDeathTimestamp")), "firstKillMin": mins(m.get("firstKillTimestamp")),
+            "g5": snap(m, 5).get("goldDiff"), "cs5": snap(m, 5).get("csDiff"),
+            "g10": g10, "cs10": s10.get("csDiff"), "g15": g15, "cs15": s15.get("csDiff"),
+            "g20": s20.get("goldDiff"), "cs20": s20.get("csDiff"),
+            "soloKills": m.get("soloKills"), "teamDamagePercentage": m.get("teamDamagePercentage"),
         })
     out["transitions"] = transitions
     out["matches"] = rows
@@ -154,8 +137,7 @@ def main():
         if path.name == "index.json":
             continue
         payload = json.loads(path.read_text(encoding="utf-8"))
-        metrics = build_metrics(payload)
-        (OUT / path.name).write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8")
+        (OUT / path.name).write_text(json.dumps(build_metrics(payload), ensure_ascii=False, indent=2), encoding="utf-8")
         built += 1
     print(f"Metrics-20 indexes ready: {built} files")
     return 0
