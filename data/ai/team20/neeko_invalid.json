@@ -1,8 +1,8 @@
 {
   "champion": "neeko",
   "position": "invalid",
-  "availableCount": 1,
-  "sampleCount": 1,
+  "availableCount": 6,
+  "sampleCount": 6,
   "matches": [
     {
       "matchId": "KR_8215664175",
@@ -92,6 +92,491 @@
         "myTeamKills": 15,
         "enemyTeamKills": 66,
         "killDiff": -51,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_8056470367",
+      "gameCreation": 1769677277216,
+      "gameDuration": 1200,
+      "queueId": 900,
+      "gameMode": "URF",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Zoe",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300192,
+          "teamGoldDiff": 1193,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 3,
+          "enemyTeamKills": 4,
+          "killDiff": -1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600285,
+          "teamGoldDiff": 3571,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 11,
+          "enemyTeamKills": 13,
+          "killDiff": -2,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900349,
+          "teamGoldDiff": -841,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 17,
+          "enemyTeamKills": 29,
+          "killDiff": -12,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200423,
+          "teamGoldDiff": -7734,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 19,
+          "enemyTeamKills": 42,
+          "killDiff": -23,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 19,
+        "enemyTeamKills": 42,
+        "killDiff": -23,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_8004646924",
+      "gameCreation": 1767372308900,
+      "gameDuration": 1674,
+      "queueId": 900,
+      "gameMode": "URF",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Diana",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300163,
+          "teamGoldDiff": 56,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 1,
+          "enemyTeamKills": 7,
+          "killDiff": -6,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600276,
+          "teamGoldDiff": 5452,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 15,
+          "enemyTeamKills": 12,
+          "killDiff": 3,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900372,
+          "teamGoldDiff": 8987,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 29,
+          "enemyTeamKills": 17,
+          "killDiff": 12,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200426,
+          "teamGoldDiff": 6105,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 41,
+          "enemyTeamKills": 26,
+          "killDiff": 15,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 59,
+        "enemyTeamKills": 41,
+        "killDiff": 18,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_7993167074",
+      "gameCreation": 1766902455688,
+      "gameDuration": 1610,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Fizz",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300082,
+          "teamGoldDiff": 1692,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 12,
+          "enemyTeamKills": 7,
+          "killDiff": 5,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600199,
+          "teamGoldDiff": 279,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 20,
+          "enemyTeamKills": 21,
+          "killDiff": -1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900302,
+          "teamGoldDiff": -2990,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 29,
+          "enemyTeamKills": 39,
+          "killDiff": -10,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200392,
+          "teamGoldDiff": -12849,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 39,
+          "enemyTeamKills": 55,
+          "killDiff": -16,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 37,
+        "enemyTeamKills": 69,
+        "killDiff": -32,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_7895382430",
+      "gameCreation": 1762064929017,
+      "gameDuration": 1512,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Yone",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300074,
+          "teamGoldDiff": 500,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 10,
+          "enemyTeamKills": 9,
+          "killDiff": 1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600147,
+          "teamGoldDiff": -300,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 23,
+          "enemyTeamKills": 26,
+          "killDiff": -3,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900199,
+          "teamGoldDiff": -1200,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 31,
+          "enemyTeamKills": 43,
+          "killDiff": -12,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200306,
+          "teamGoldDiff": -10475,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 41,
+          "enemyTeamKills": 61,
+          "killDiff": -20,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 41,
+        "enemyTeamKills": 76,
+        "killDiff": -35,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_7804707219",
+      "gameCreation": 1757581955303,
+      "gameDuration": 1471,
+      "queueId": 450,
+      "gameMode": "ARAM",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Swain",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300141,
+          "teamGoldDiff": 2023,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 9,
+          "enemyTeamKills": 4,
+          "killDiff": 5,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600245,
+          "teamGoldDiff": 770,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 18,
+          "enemyTeamKills": 16,
+          "killDiff": 2,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900342,
+          "teamGoldDiff": 1605,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 31,
+          "enemyTeamKills": 29,
+          "killDiff": 2,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200420,
+          "teamGoldDiff": 2217,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 46,
+          "enemyTeamKills": 45,
+          "killDiff": 1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 58,
+        "enemyTeamKills": 55,
+        "killDiff": 3,
         "roles": {
           "TOP": null,
           "JUNGLE": null,

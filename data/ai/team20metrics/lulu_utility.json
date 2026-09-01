@@ -1,61 +1,61 @@
 {
   "champion": "lulu",
   "position": "utility",
-  "availableCount": 5,
-  "sampleCount": 5,
-  "wins": 2,
-  "losses": 3,
+  "availableCount": 20,
+  "sampleCount": 20,
+  "wins": 9,
+  "losses": 11,
   "snapshots": {
     "5": {
-      "sampleCount": 5,
-      "avgTeamGoldDiff": -638.8,
-      "avgMyLaneGoldDiff": -85.0,
-      "avgOtherLanesGoldDiff": -553.8,
-      "avgKillDiff": -0.6,
-      "avgTopGoldDiff": -167.2,
-      "avgJungleGoldDiff": -160.8,
-      "avgMidGoldDiff": -56.2,
-      "avgBotDuoGoldDiff": -254.6,
-      "myLaneBehindTeamAhead": 1,
-      "myLaneAheadTeamBehind": 0
+      "sampleCount": 19,
+      "avgTeamGoldDiff": 58.89,
+      "avgMyLaneGoldDiff": 28.11,
+      "avgOtherLanesGoldDiff": 30.79,
+      "avgKillDiff": 0.42,
+      "avgTopGoldDiff": 20.63,
+      "avgJungleGoldDiff": -57.79,
+      "avgMidGoldDiff": 27.95,
+      "avgBotDuoGoldDiff": 68.11,
+      "myLaneBehindTeamAhead": 3,
+      "myLaneAheadTeamBehind": 3
     },
     "10": {
-      "sampleCount": 5,
-      "avgTeamGoldDiff": -1359.0,
-      "avgMyLaneGoldDiff": -492.2,
-      "avgOtherLanesGoldDiff": -866.8,
-      "avgKillDiff": -1.6,
-      "avgTopGoldDiff": -350.6,
-      "avgJungleGoldDiff": 115.6,
-      "avgMidGoldDiff": 57.8,
-      "avgBotDuoGoldDiff": -1181.8,
-      "myLaneBehindTeamAhead": 1,
+      "sampleCount": 19,
+      "avgTeamGoldDiff": 156.47,
+      "avgMyLaneGoldDiff": -145.89,
+      "avgOtherLanesGoldDiff": 302.37,
+      "avgKillDiff": 1.16,
+      "avgTopGoldDiff": 157.11,
+      "avgJungleGoldDiff": 91.58,
+      "avgMidGoldDiff": 207.47,
+      "avgBotDuoGoldDiff": -299.68,
+      "myLaneBehindTeamAhead": 3,
       "myLaneAheadTeamBehind": 0
     },
     "15": {
-      "sampleCount": 5,
-      "avgTeamGoldDiff": -2648.4,
-      "avgMyLaneGoldDiff": -765.8,
-      "avgOtherLanesGoldDiff": -1882.6,
-      "avgKillDiff": -4.6,
-      "avgTopGoldDiff": -760.2,
-      "avgJungleGoldDiff": 77.4,
-      "avgMidGoldDiff": 240.0,
-      "avgBotDuoGoldDiff": -2205.6,
-      "myLaneBehindTeamAhead": 2,
+      "sampleCount": 18,
+      "avgTeamGoldDiff": -614.28,
+      "avgMyLaneGoldDiff": -350.83,
+      "avgOtherLanesGoldDiff": -263.44,
+      "avgKillDiff": -0.06,
+      "avgTopGoldDiff": 152.61,
+      "avgJungleGoldDiff": 170.94,
+      "avgMidGoldDiff": -63.61,
+      "avgBotDuoGoldDiff": -874.22,
+      "myLaneBehindTeamAhead": 4,
       "myLaneAheadTeamBehind": 0
     },
     "20": {
-      "sampleCount": 3,
-      "avgTeamGoldDiff": -3819.33,
-      "avgMyLaneGoldDiff": -856.67,
-      "avgOtherLanesGoldDiff": -2962.67,
-      "avgKillDiff": -7.33,
-      "avgTopGoldDiff": -2086.67,
-      "avgJungleGoldDiff": -359.0,
-      "avgMidGoldDiff": 850.67,
-      "avgBotDuoGoldDiff": -2224.33,
-      "myLaneBehindTeamAhead": 1,
+      "sampleCount": 11,
+      "avgTeamGoldDiff": -797.18,
+      "avgMyLaneGoldDiff": -380.64,
+      "avgOtherLanesGoldDiff": -416.55,
+      "avgKillDiff": 0.09,
+      "avgTopGoldDiff": 346.36,
+      "avgJungleGoldDiff": -470.27,
+      "avgMidGoldDiff": 165.64,
+      "avgBotDuoGoldDiff": -838.91,
+      "myLaneBehindTeamAhead": 2,
       "myLaneAheadTeamBehind": 0
     }
   },
@@ -295,6 +295,664 @@
           "jungleGoldDiff": 446,
           "midGoldDiff": -3246,
           "botDuoGoldDiff": -4498
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8151353054",
+      "opponent": "Morgana",
+      "win": true,
+      "durationMin": 11.7,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 4866,
+          "myLaneGoldDiff": 790,
+          "otherLanesGoldDiff": 4076,
+          "killDiff": 11,
+          "topGoldDiff": 859,
+          "jungleGoldDiff": -389,
+          "midGoldDiff": 2130,
+          "botDuoGoldDiff": 2266
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 10285,
+          "myLaneGoldDiff": 1116,
+          "otherLanesGoldDiff": 9169,
+          "killDiff": 24,
+          "topGoldDiff": 2681,
+          "jungleGoldDiff": 444,
+          "midGoldDiff": 3315,
+          "botDuoGoldDiff": 3845
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8109025617",
+      "opponent": "Nautilus",
+      "win": true,
+      "durationMin": 34.3,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 586,
+          "myLaneGoldDiff": 153,
+          "otherLanesGoldDiff": 433,
+          "killDiff": 1,
+          "topGoldDiff": 625,
+          "jungleGoldDiff": -354,
+          "midGoldDiff": 356,
+          "botDuoGoldDiff": -41
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -1767,
+          "myLaneGoldDiff": -118,
+          "otherLanesGoldDiff": -1649,
+          "killDiff": -4,
+          "topGoldDiff": -47,
+          "jungleGoldDiff": -775,
+          "midGoldDiff": 358,
+          "botDuoGoldDiff": -1303
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 649,
+          "myLaneGoldDiff": 22,
+          "otherLanesGoldDiff": 627,
+          "killDiff": -1,
+          "topGoldDiff": 213,
+          "jungleGoldDiff": -398,
+          "midGoldDiff": 2328,
+          "botDuoGoldDiff": -1494
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": 7059,
+          "myLaneGoldDiff": 291,
+          "otherLanesGoldDiff": 6768,
+          "killDiff": 9,
+          "topGoldDiff": 1772,
+          "jungleGoldDiff": 1938,
+          "midGoldDiff": 3556,
+          "botDuoGoldDiff": -207
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8108942912",
+      "opponent": "Aatrox",
+      "win": true,
+      "durationMin": 25.1,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 130,
+          "myLaneGoldDiff": 260,
+          "otherLanesGoldDiff": -130,
+          "killDiff": -1,
+          "topGoldDiff": 453,
+          "jungleGoldDiff": -37,
+          "midGoldDiff": -894,
+          "botDuoGoldDiff": 608
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 1456,
+          "myLaneGoldDiff": 793,
+          "otherLanesGoldDiff": 663,
+          "killDiff": 0,
+          "topGoldDiff": 1674,
+          "jungleGoldDiff": -1,
+          "midGoldDiff": -2238,
+          "botDuoGoldDiff": 2021
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 4898,
+          "myLaneGoldDiff": 1564,
+          "otherLanesGoldDiff": 3334,
+          "killDiff": 5,
+          "topGoldDiff": 3325,
+          "jungleGoldDiff": 270,
+          "midGoldDiff": -2759,
+          "botDuoGoldDiff": 4062
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": 7130,
+          "myLaneGoldDiff": 2285,
+          "otherLanesGoldDiff": 4845,
+          "killDiff": 11,
+          "topGoldDiff": 4410,
+          "jungleGoldDiff": -775,
+          "midGoldDiff": -2768,
+          "botDuoGoldDiff": 6263
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8032905055",
+      "opponent": "Brand",
+      "win": false,
+      "durationMin": 30.0,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 124,
+          "myLaneGoldDiff": -70,
+          "otherLanesGoldDiff": 194,
+          "killDiff": 1,
+          "topGoldDiff": -1117,
+          "jungleGoldDiff": 735,
+          "midGoldDiff": 668,
+          "botDuoGoldDiff": -162
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -652,
+          "myLaneGoldDiff": -980,
+          "otherLanesGoldDiff": 328,
+          "killDiff": 1,
+          "topGoldDiff": -1093,
+          "jungleGoldDiff": 313,
+          "midGoldDiff": 1655,
+          "botDuoGoldDiff": -1527
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -678,
+          "myLaneGoldDiff": -692,
+          "otherLanesGoldDiff": 14,
+          "killDiff": 4,
+          "topGoldDiff": -2263,
+          "jungleGoldDiff": 725,
+          "midGoldDiff": 1778,
+          "botDuoGoldDiff": -918
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": -1865,
+          "myLaneGoldDiff": -933,
+          "otherLanesGoldDiff": -932,
+          "killDiff": 2,
+          "topGoldDiff": -1948,
+          "jungleGoldDiff": -491,
+          "midGoldDiff": 2796,
+          "botDuoGoldDiff": -2222
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8029874911",
+      "opponent": "Caitlyn",
+      "win": false,
+      "durationMin": 18.4,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -586,
+          "myLaneGoldDiff": 5,
+          "otherLanesGoldDiff": -591,
+          "killDiff": 0,
+          "topGoldDiff": -180,
+          "jungleGoldDiff": -643,
+          "midGoldDiff": 179,
+          "botDuoGoldDiff": 58
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -1684,
+          "myLaneGoldDiff": -289,
+          "otherLanesGoldDiff": -1395,
+          "killDiff": 0,
+          "topGoldDiff": -37,
+          "jungleGoldDiff": -1275,
+          "midGoldDiff": 48,
+          "botDuoGoldDiff": -420
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -4750,
+          "myLaneGoldDiff": -1032,
+          "otherLanesGoldDiff": -3718,
+          "killDiff": -1,
+          "topGoldDiff": -2013,
+          "jungleGoldDiff": -1232,
+          "midGoldDiff": -247,
+          "botDuoGoldDiff": -1258
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8029813832",
+      "opponent": "Bard",
+      "win": true,
+      "durationMin": 18.9,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -292,
+          "myLaneGoldDiff": 65,
+          "otherLanesGoldDiff": -357,
+          "killDiff": -2,
+          "topGoldDiff": 81,
+          "jungleGoldDiff": -102,
+          "midGoldDiff": -278,
+          "botDuoGoldDiff": 7
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 3179,
+          "myLaneGoldDiff": 518,
+          "otherLanesGoldDiff": 2661,
+          "killDiff": 4,
+          "topGoldDiff": 700,
+          "jungleGoldDiff": 395,
+          "midGoldDiff": 1058,
+          "botDuoGoldDiff": 1026
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 5873,
+          "myLaneGoldDiff": 88,
+          "otherLanesGoldDiff": 5785,
+          "killDiff": 6,
+          "topGoldDiff": 2790,
+          "jungleGoldDiff": 929,
+          "midGoldDiff": 1420,
+          "botDuoGoldDiff": 734
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8029077567",
+      "opponent": "Leona",
+      "win": false,
+      "durationMin": 35.0,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 463,
+          "myLaneGoldDiff": -373,
+          "otherLanesGoldDiff": 836,
+          "killDiff": 2,
+          "topGoldDiff": 324,
+          "jungleGoldDiff": 707,
+          "midGoldDiff": 51,
+          "botDuoGoldDiff": -619
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 336,
+          "myLaneGoldDiff": -915,
+          "otherLanesGoldDiff": 1251,
+          "killDiff": 1,
+          "topGoldDiff": 1096,
+          "jungleGoldDiff": 665,
+          "midGoldDiff": 1033,
+          "botDuoGoldDiff": -2458
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -102,
+          "myLaneGoldDiff": -998,
+          "otherLanesGoldDiff": 896,
+          "killDiff": 3,
+          "topGoldDiff": 2297,
+          "jungleGoldDiff": 695,
+          "midGoldDiff": -99,
+          "botDuoGoldDiff": -2995
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": -402,
+          "myLaneGoldDiff": -1084,
+          "otherLanesGoldDiff": 682,
+          "killDiff": 4,
+          "topGoldDiff": 3146,
+          "jungleGoldDiff": 1238,
+          "midGoldDiff": -845,
+          "botDuoGoldDiff": -3941
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7851193003",
+      "opponent": "Swain",
+      "win": true,
+      "durationMin": 18.2,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -250,
+          "myLaneGoldDiff": -87,
+          "otherLanesGoldDiff": -163,
+          "killDiff": 0,
+          "topGoldDiff": 248,
+          "jungleGoldDiff": 260,
+          "midGoldDiff": -605,
+          "botDuoGoldDiff": -153
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 820,
+          "myLaneGoldDiff": 34,
+          "otherLanesGoldDiff": 786,
+          "killDiff": 2,
+          "topGoldDiff": 1395,
+          "jungleGoldDiff": -82,
+          "midGoldDiff": -707,
+          "botDuoGoldDiff": 214
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 4031,
+          "myLaneGoldDiff": -5,
+          "otherLanesGoldDiff": 4036,
+          "killDiff": 5,
+          "topGoldDiff": 3908,
+          "jungleGoldDiff": -419,
+          "midGoldDiff": 56,
+          "botDuoGoldDiff": 486
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7848633300",
+      "opponent": "Seraphine",
+      "win": false,
+      "durationMin": 19.3,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -1534,
+          "myLaneGoldDiff": -18,
+          "otherLanesGoldDiff": -1516,
+          "killDiff": -3,
+          "topGoldDiff": -306,
+          "jungleGoldDiff": -370,
+          "midGoldDiff": -700,
+          "botDuoGoldDiff": -158
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -3441,
+          "myLaneGoldDiff": -464,
+          "otherLanesGoldDiff": -2977,
+          "killDiff": -6,
+          "topGoldDiff": -1257,
+          "jungleGoldDiff": 541,
+          "midGoldDiff": -1348,
+          "botDuoGoldDiff": -1377
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -6864,
+          "myLaneGoldDiff": -1057,
+          "otherLanesGoldDiff": -5807,
+          "killDiff": -13,
+          "topGoldDiff": -1402,
+          "jungleGoldDiff": 176,
+          "midGoldDiff": -2487,
+          "botDuoGoldDiff": -3151
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7846151849",
+      "opponent": "TahmKench",
+      "win": true,
+      "durationMin": 1.7,
+      "snapshots": []
+    },
+    {
+      "matchId": "KR_7844411877",
+      "opponent": "Pyke",
+      "win": false,
+      "durationMin": 30.4,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -962,
+          "myLaneGoldDiff": 53,
+          "otherLanesGoldDiff": -1015,
+          "killDiff": -2,
+          "topGoldDiff": -74,
+          "jungleGoldDiff": -394,
+          "midGoldDiff": -234,
+          "botDuoGoldDiff": -260
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -1811,
+          "myLaneGoldDiff": -559,
+          "otherLanesGoldDiff": -1252,
+          "killDiff": -3,
+          "topGoldDiff": -386,
+          "jungleGoldDiff": 688,
+          "midGoldDiff": -15,
+          "botDuoGoldDiff": -2098
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -994,
+          "myLaneGoldDiff": -449,
+          "otherLanesGoldDiff": -545,
+          "killDiff": -2,
+          "topGoldDiff": 298,
+          "jungleGoldDiff": 1462,
+          "midGoldDiff": 203,
+          "botDuoGoldDiff": -2957
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": -2365,
+          "myLaneGoldDiff": -593,
+          "otherLanesGoldDiff": -1772,
+          "killDiff": -3,
+          "topGoldDiff": -25,
+          "jungleGoldDiff": 1163,
+          "midGoldDiff": -16,
+          "botDuoGoldDiff": -3487
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7808010280",
+      "opponent": "Blitzcrank",
+      "win": false,
+      "durationMin": 29.9,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -1290,
+          "myLaneGoldDiff": -313,
+          "otherLanesGoldDiff": -977,
+          "killDiff": -2,
+          "topGoldDiff": -227,
+          "jungleGoldDiff": -539,
+          "midGoldDiff": 228,
+          "botDuoGoldDiff": -752
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -2209,
+          "myLaneGoldDiff": -666,
+          "otherLanesGoldDiff": -1543,
+          "killDiff": -5,
+          "topGoldDiff": 928,
+          "jungleGoldDiff": -875,
+          "midGoldDiff": -122,
+          "botDuoGoldDiff": -2140
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -2858,
+          "myLaneGoldDiff": -503,
+          "otherLanesGoldDiff": -2355,
+          "killDiff": -6,
+          "topGoldDiff": 2093,
+          "jungleGoldDiff": -2285,
+          "midGoldDiff": -1334,
+          "botDuoGoldDiff": -1332
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": -1896,
+          "myLaneGoldDiff": -142,
+          "otherLanesGoldDiff": -1754,
+          "killDiff": -7,
+          "topGoldDiff": 3075,
+          "jungleGoldDiff": -3632,
+          "midGoldDiff": -1076,
+          "botDuoGoldDiff": -263
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7806582034",
+      "opponent": "Lux",
+      "win": true,
+      "durationMin": 18.9,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 1674,
+          "myLaneGoldDiff": 171,
+          "otherLanesGoldDiff": 1503,
+          "killDiff": 3,
+          "topGoldDiff": 286,
+          "jungleGoldDiff": 647,
+          "midGoldDiff": 425,
+          "botDuoGoldDiff": 316
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 905,
+          "myLaneGoldDiff": -58,
+          "otherLanesGoldDiff": 963,
+          "killDiff": 2,
+          "topGoldDiff": -1143,
+          "jungleGoldDiff": 1393,
+          "midGoldDiff": 608,
+          "botDuoGoldDiff": 47
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 913,
+          "myLaneGoldDiff": -404,
+          "otherLanesGoldDiff": 1317,
+          "killDiff": 5,
+          "topGoldDiff": -3807,
+          "jungleGoldDiff": 3631,
+          "midGoldDiff": 1162,
+          "botDuoGoldDiff": -73
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7806496319",
+      "opponent": "Hwei",
+      "win": false,
+      "durationMin": 29.9,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 732,
+          "myLaneGoldDiff": 94,
+          "otherLanesGoldDiff": 638,
+          "killDiff": 1,
+          "topGoldDiff": 136,
+          "jungleGoldDiff": 166,
+          "midGoldDiff": -59,
+          "botDuoGoldDiff": 489
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 3382,
+          "myLaneGoldDiff": 717,
+          "otherLanesGoldDiff": 2665,
+          "killDiff": 7,
+          "topGoldDiff": 383,
+          "jungleGoldDiff": -439,
+          "midGoldDiff": 1083,
+          "botDuoGoldDiff": 2355
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 5961,
+          "myLaneGoldDiff": 981,
+          "otherLanesGoldDiff": 4980,
+          "killDiff": 13,
+          "topGoldDiff": 1332,
+          "jungleGoldDiff": -315,
+          "midGoldDiff": 1604,
+          "botDuoGoldDiff": 3340
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": 2148,
+          "myLaneGoldDiff": -654,
+          "otherLanesGoldDiff": 2802,
+          "killDiff": 9,
+          "topGoldDiff": 302,
+          "jungleGoldDiff": -2043,
+          "midGoldDiff": 2420,
+          "botDuoGoldDiff": 1469
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7797998499",
+      "opponent": "Seraphine",
+      "win": false,
+      "durationMin": 22.6,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 652,
+          "myLaneGoldDiff": 229,
+          "otherLanesGoldDiff": 423,
+          "killDiff": 2,
+          "topGoldDiff": 120,
+          "jungleGoldDiff": 19,
+          "midGoldDiff": -455,
+          "botDuoGoldDiff": 968
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 969,
+          "myLaneGoldDiff": 560,
+          "otherLanesGoldDiff": 409,
+          "killDiff": 7,
+          "topGoldDiff": -156,
+          "jungleGoldDiff": 170,
+          "midGoldDiff": -1075,
+          "botDuoGoldDiff": 2030
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -3894,
+          "myLaneGoldDiff": -1,
+          "otherLanesGoldDiff": -3893,
+          "killDiff": 4,
+          "topGoldDiff": -223,
+          "jungleGoldDiff": -549,
+          "midGoldDiff": -3970,
+          "botDuoGoldDiff": 848
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": -7120,
+          "myLaneGoldDiff": -787,
+          "otherLanesGoldDiff": -6333,
+          "killDiff": -2,
+          "topGoldDiff": -662,
+          "jungleGoldDiff": -1494,
+          "midGoldDiff": -4797,
+          "botDuoGoldDiff": -167
         }
       ]
     }

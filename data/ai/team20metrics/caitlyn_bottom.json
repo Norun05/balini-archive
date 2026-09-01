@@ -1,21 +1,21 @@
 {
   "champion": "caitlyn",
   "position": "bottom",
-  "availableCount": 2,
-  "sampleCount": 2,
+  "availableCount": 3,
+  "sampleCount": 3,
   "wins": 2,
-  "losses": 0,
+  "losses": 1,
   "snapshots": {
     "5": {
-      "sampleCount": 2,
-      "avgTeamGoldDiff": -246.0,
-      "avgMyLaneGoldDiff": 73.5,
-      "avgOtherLanesGoldDiff": -319.5,
-      "avgKillDiff": 0.5,
-      "avgTopGoldDiff": -158.5,
-      "avgJungleGoldDiff": -252.0,
-      "avgMidGoldDiff": 79.0,
-      "avgBotDuoGoldDiff": 85.5,
+      "sampleCount": 3,
+      "avgTeamGoldDiff": -318.33,
+      "avgMyLaneGoldDiff": -25.0,
+      "avgOtherLanesGoldDiff": -293.33,
+      "avgKillDiff": -0.33,
+      "avgTopGoldDiff": -334.67,
+      "avgJungleGoldDiff": -108.33,
+      "avgMidGoldDiff": 109.67,
+      "avgBotDuoGoldDiff": 15.0,
       "myLaneBehindTeamAhead": 0,
       "myLaneAheadTeamBehind": 0
     },
@@ -161,6 +161,25 @@
           "jungleGoldDiff": 2585,
           "midGoldDiff": 1331,
           "botDuoGoldDiff": 3752
+        }
+      ]
+    },
+    {
+      "matchId": "KR_8005742119",
+      "opponent": "Xerath",
+      "win": false,
+      "durationMin": 9.3,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -463,
+          "myLaneGoldDiff": -222,
+          "otherLanesGoldDiff": -241,
+          "killDiff": -2,
+          "topGoldDiff": -687,
+          "jungleGoldDiff": 179,
+          "midGoldDiff": 171,
+          "botDuoGoldDiff": -126
         }
       ]
     }

@@ -1,0 +1,146 @@
+{
+  "champion": "darius",
+  "position": "invalid",
+  "availableCount": 2,
+  "sampleCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "snapshots": {
+    "5": {
+      "sampleCount": 2,
+      "avgTeamGoldDiff": -553.5,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": -2.0,
+      "avgTopGoldDiff": null,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": null,
+      "avgBotDuoGoldDiff": null,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "10": {
+      "sampleCount": 2,
+      "avgTeamGoldDiff": -3354.5,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": -0.5,
+      "avgTopGoldDiff": null,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": null,
+      "avgBotDuoGoldDiff": null,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": 6160.0,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": 19.0,
+      "avgTopGoldDiff": null,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": null,
+      "avgBotDuoGoldDiff": null,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": 22570.0,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": 30.0,
+      "avgTopGoldDiff": null,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": null,
+      "avgBotDuoGoldDiff": null,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    }
+  },
+  "matches": [
+    {
+      "matchId": "KR_8056446092",
+      "opponent": "MonkeyKing",
+      "win": false,
+      "durationMin": 14.5,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -1107,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": -2,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -9009,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": -12,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7864019868",
+      "opponent": "DrMundo",
+      "win": true,
+      "durationMin": 25.0,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 0,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": -2,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 2300,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": 11,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 6160,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": 19,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": 22570,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": 30,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        }
+      ]
+    }
+  ]
+}

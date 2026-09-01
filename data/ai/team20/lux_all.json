@@ -1,8 +1,8 @@
 {
   "champion": "lux",
   "position": "all",
-  "availableCount": 4,
-  "sampleCount": 4,
+  "availableCount": 7,
+  "sampleCount": 7,
   "matches": [
     {
       "matchId": "KR_8282572899",
@@ -1534,6 +1534,675 @@
             "csDiff": -2,
             "allyDamage": 14782,
             "enemyDamage": 4854
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_8150275307",
+      "gameCreation": 1774598012123,
+      "gameDuration": 484,
+      "queueId": 890,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Lux",
+      "position": "UTILITY",
+      "opponent": "Soraka",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300191,
+          "teamGoldDiff": 8857,
+          "myLaneGoldDiff": 1463,
+          "otherLanesGoldDiff": 7394,
+          "myTeamKills": 16,
+          "enemyTeamKills": 2,
+          "killDiff": 14,
+          "botDuoGoldDiff": 3989,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Garen",
+              "enemyChampion": "Malphite",
+              "allyGold": 5018,
+              "enemyGold": 3327,
+              "goldDiff": 1691,
+              "allyCs": 36,
+              "enemyCs": 22,
+              "csDiff": 14,
+              "allyLevel": 7,
+              "enemyLevel": 6,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Rengar",
+              "enemyChampion": "Chogath",
+              "allyGold": 4204,
+              "enemyGold": 3053,
+              "goldDiff": 1151,
+              "allyCs": 32,
+              "enemyCs": 8,
+              "csDiff": 24,
+              "allyLevel": 7,
+              "enemyLevel": 5,
+              "levelDiff": 2
+            },
+            "MIDDLE": {
+              "allyChampion": "Caitlyn",
+              "enemyChampion": "Veigar",
+              "allyGold": 5664,
+              "enemyGold": 3638,
+              "goldDiff": 2026,
+              "allyCs": 32,
+              "enemyCs": 21,
+              "csDiff": 11,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Jinx",
+              "enemyChampion": "Twitch",
+              "allyGold": 5775,
+              "enemyGold": 3249,
+              "goldDiff": 2526,
+              "allyCs": 32,
+              "enemyCs": 9,
+              "csDiff": 23,
+              "allyLevel": 7,
+              "enemyLevel": 5,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Soraka",
+              "allyGold": 4581,
+              "enemyGold": 3118,
+              "goldDiff": 1463,
+              "allyCs": 9,
+              "enemyCs": 1,
+              "csDiff": 8,
+              "allyLevel": 7,
+              "enemyLevel": 4,
+              "levelDiff": 3
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 33,
+        "enemyTeamKills": 4,
+        "killDiff": 29,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Garen",
+            "enemyChampion": "Malphite",
+            "allyKda": [
+              5,
+              2,
+              5
+            ],
+            "enemyKda": [
+              2,
+              7,
+              1
+            ],
+            "allyGold": 8914,
+            "enemyGold": 6151,
+            "goldDiff": 2763,
+            "allyCs": 71,
+            "enemyCs": 30,
+            "csDiff": 41,
+            "allyDamage": 8774,
+            "enemyDamage": 4826
+          },
+          "JUNGLE": {
+            "allyChampion": "Rengar",
+            "enemyChampion": "Chogath",
+            "allyKda": [
+              3,
+              1,
+              10
+            ],
+            "enemyKda": [
+              0,
+              6,
+              2
+            ],
+            "allyGold": 7331,
+            "enemyGold": 5911,
+            "goldDiff": 1420,
+            "allyCs": 51,
+            "enemyCs": 14,
+            "csDiff": 37,
+            "allyDamage": 6759,
+            "enemyDamage": 1644
+          },
+          "MIDDLE": {
+            "allyChampion": "Caitlyn",
+            "enemyChampion": "Veigar",
+            "allyKda": [
+              7,
+              0,
+              5
+            ],
+            "enemyKda": [
+              0,
+              6,
+              2
+            ],
+            "allyGold": 9222,
+            "enemyGold": 6181,
+            "goldDiff": 3041,
+            "allyCs": 44,
+            "enemyCs": 36,
+            "csDiff": 8,
+            "allyDamage": 6235,
+            "enemyDamage": 3357
+          },
+          "BOTTOM": {
+            "allyChampion": "Jinx",
+            "enemyChampion": "Twitch",
+            "allyKda": [
+              16,
+              1,
+              8
+            ],
+            "enemyKda": [
+              2,
+              7,
+              1
+            ],
+            "allyGold": 9591,
+            "enemyGold": 6567,
+            "goldDiff": 3024,
+            "allyCs": 52,
+            "enemyCs": 22,
+            "csDiff": 30,
+            "allyDamage": 20795,
+            "enemyDamage": 2959
+          },
+          "UTILITY": {
+            "allyChampion": "Lux",
+            "enemyChampion": "Soraka",
+            "allyKda": [
+              2,
+              0,
+              21
+            ],
+            "enemyKda": [
+              0,
+              7,
+              3
+            ],
+            "allyGold": 7749,
+            "enemyGold": 6177,
+            "goldDiff": 1572,
+            "allyCs": 9,
+            "enemyCs": 5,
+            "csDiff": 4,
+            "allyDamage": 13017,
+            "enemyDamage": 2621
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7977281702",
+      "gameCreation": 1766231701710,
+      "gameDuration": 2239,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Lux",
+      "position": "Invalid",
+      "opponent": "Evelynn",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300086,
+          "teamGoldDiff": 460,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 10,
+          "enemyTeamKills": 10,
+          "killDiff": 0,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600155,
+          "teamGoldDiff": 220,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 21,
+          "enemyTeamKills": 20,
+          "killDiff": 1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900204,
+          "teamGoldDiff": -2602,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 37,
+          "enemyTeamKills": 38,
+          "killDiff": -1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200301,
+          "teamGoldDiff": -13512,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 42,
+          "enemyTeamKills": 50,
+          "killDiff": -8,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 42,
+        "enemyTeamKills": 88,
+        "killDiff": -46,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_7762779891",
+      "gameCreation": 1755244371961,
+      "gameDuration": 939,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Lux",
+      "position": "UTILITY",
+      "opponent": "Leona",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300171,
+          "teamGoldDiff": -2809,
+          "myLaneGoldDiff": -251,
+          "otherLanesGoldDiff": -2558,
+          "myTeamKills": 0,
+          "enemyTeamKills": 6,
+          "killDiff": -6,
+          "botDuoGoldDiff": -999,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Sion",
+              "enemyChampion": "KSante",
+              "allyGold": 1602,
+              "enemyGold": 1862,
+              "goldDiff": -260,
+              "allyCs": 29,
+              "enemyCs": 31,
+              "csDiff": -2,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Viego",
+              "enemyChampion": "Kindred",
+              "allyGold": 1535,
+              "enemyGold": 2444,
+              "goldDiff": -909,
+              "allyCs": 28,
+              "enemyCs": 28,
+              "csDiff": 0,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Malzahar",
+              "enemyChampion": "Viktor",
+              "allyGold": 1224,
+              "enemyGold": 1865,
+              "goldDiff": -641,
+              "allyCs": 16,
+              "enemyCs": 30,
+              "csDiff": -14,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "Kaisa",
+              "allyGold": 1392,
+              "enemyGold": 2140,
+              "goldDiff": -748,
+              "allyCs": 26,
+              "enemyCs": 29,
+              "csDiff": -3,
+              "allyLevel": 3,
+              "enemyLevel": 4,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Leona",
+              "allyGold": 1147,
+              "enemyGold": 1398,
+              "goldDiff": -251,
+              "allyCs": 8,
+              "enemyCs": 12,
+              "csDiff": -4,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600257,
+          "teamGoldDiff": -4591,
+          "myLaneGoldDiff": -615,
+          "otherLanesGoldDiff": -3976,
+          "myTeamKills": 2,
+          "enemyTeamKills": 12,
+          "killDiff": -10,
+          "botDuoGoldDiff": -2060,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Sion",
+              "enemyChampion": "KSante",
+              "allyGold": 3579,
+              "enemyGold": 3675,
+              "goldDiff": -96,
+              "allyCs": 95,
+              "enemyCs": 82,
+              "csDiff": 13,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Viego",
+              "enemyChampion": "Kindred",
+              "allyGold": 2712,
+              "enemyGold": 4149,
+              "goldDiff": -1437,
+              "allyCs": 45,
+              "enemyCs": 58,
+              "csDiff": -13,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Malzahar",
+              "enemyChampion": "Viktor",
+              "allyGold": 2892,
+              "enemyGold": 3890,
+              "goldDiff": -998,
+              "allyCs": 42,
+              "enemyCs": 62,
+              "csDiff": -20,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "Kaisa",
+              "allyGold": 2930,
+              "enemyGold": 4375,
+              "goldDiff": -1445,
+              "allyCs": 63,
+              "enemyCs": 63,
+              "csDiff": 0,
+              "allyLevel": 7,
+              "enemyLevel": 6,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Leona",
+              "allyGold": 2548,
+              "enemyGold": 3163,
+              "goldDiff": -615,
+              "allyCs": 12,
+              "enemyCs": 17,
+              "csDiff": -5,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900335,
+          "teamGoldDiff": -8470,
+          "myLaneGoldDiff": -1387,
+          "otherLanesGoldDiff": -7083,
+          "myTeamKills": 3,
+          "enemyTeamKills": 22,
+          "killDiff": -19,
+          "botDuoGoldDiff": -4508,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Sion",
+              "enemyChampion": "KSante",
+              "allyGold": 5636,
+              "enemyGold": 6297,
+              "goldDiff": -661,
+              "allyCs": 123,
+              "enemyCs": 109,
+              "csDiff": 14,
+              "allyLevel": 10,
+              "enemyLevel": 12,
+              "levelDiff": -2
+            },
+            "JUNGLE": {
+              "allyChampion": "Viego",
+              "enemyChampion": "Kindred",
+              "allyGold": 4705,
+              "enemyGold": 5911,
+              "goldDiff": -1206,
+              "allyCs": 72,
+              "enemyCs": 74,
+              "csDiff": -2,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Malzahar",
+              "enemyChampion": "Viktor",
+              "allyGold": 4402,
+              "enemyGold": 6497,
+              "goldDiff": -2095,
+              "allyCs": 60,
+              "enemyCs": 105,
+              "csDiff": -45,
+              "allyLevel": 9,
+              "enemyLevel": 11,
+              "levelDiff": -2
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "Kaisa",
+              "allyGold": 4203,
+              "enemyGold": 7324,
+              "goldDiff": -3121,
+              "allyCs": 95,
+              "enemyCs": 113,
+              "csDiff": -18,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Leona",
+              "allyGold": 3571,
+              "enemyGold": 4958,
+              "goldDiff": -1387,
+              "allyCs": 18,
+              "enemyCs": 21,
+              "csDiff": -3,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 3,
+        "enemyTeamKills": 23,
+        "killDiff": -20,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Sion",
+            "enemyChampion": "KSante",
+            "allyKda": [
+              0,
+              6,
+              0
+            ],
+            "enemyKda": [
+              5,
+              0,
+              0
+            ],
+            "allyGold": 5743,
+            "enemyGold": 6377,
+            "goldDiff": -634,
+            "allyCs": 125,
+            "enemyCs": 109,
+            "csDiff": 16,
+            "allyDamage": 5293,
+            "enemyDamage": 13381
+          },
+          "JUNGLE": {
+            "allyChampion": "Viego",
+            "enemyChampion": "Kindred",
+            "allyKda": [
+              1,
+              5,
+              1
+            ],
+            "enemyKda": [
+              4,
+              1,
+              5
+            ],
+            "allyGold": 4785,
+            "enemyGold": 6107,
+            "goldDiff": -1322,
+            "allyCs": 72,
+            "enemyCs": 76,
+            "csDiff": -4,
+            "allyDamage": 3026,
+            "enemyDamage": 7818
+          },
+          "MIDDLE": {
+            "allyChampion": "Malzahar",
+            "enemyChampion": "Viktor",
+            "allyKda": [
+              1,
+              6,
+              1
+            ],
+            "enemyKda": [
+              4,
+              1,
+              3
+            ],
+            "allyGold": 4481,
+            "enemyGold": 6713,
+            "goldDiff": -2232,
+            "allyCs": 60,
+            "enemyCs": 109,
+            "csDiff": -49,
+            "allyDamage": 7691,
+            "enemyDamage": 6534
+          },
+          "BOTTOM": {
+            "allyChampion": "Jhin",
+            "enemyChampion": "Kaisa",
+            "allyKda": [
+              0,
+              4,
+              1
+            ],
+            "enemyKda": [
+              10,
+              0,
+              2
+            ],
+            "allyGold": 4439,
+            "enemyGold": 7722,
+            "goldDiff": -3283,
+            "allyCs": 100,
+            "enemyCs": 117,
+            "csDiff": -17,
+            "allyDamage": 6234,
+            "enemyDamage": 12757
+          },
+          "UTILITY": {
+            "allyChampion": "Lux",
+            "enemyChampion": "Leona",
+            "allyKda": [
+              1,
+              3,
+              0
+            ],
+            "enemyKda": [
+              0,
+              1,
+              12
+            ],
+            "allyGold": 3712,
+            "enemyGold": 5139,
+            "goldDiff": -1427,
+            "allyCs": 21,
+            "enemyCs": 22,
+            "csDiff": -1,
+            "allyDamage": 3922,
+            "enemyDamage": 4746
           }
         }
       }

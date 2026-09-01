@@ -1,8 +1,8 @@
 {
   "champion": "neeko",
   "position": "all",
-  "availableCount": 1,
-  "sampleCount": 1,
+  "availableCount": 20,
+  "sampleCount": 20,
   "matches": [
     {
       "matchId": "KR_8215664175",
@@ -92,6 +92,6289 @@
         "myTeamKills": 15,
         "enemyTeamKills": 66,
         "killDiff": -51,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_8056470367",
+      "gameCreation": 1769677277216,
+      "gameDuration": 1200,
+      "queueId": 900,
+      "gameMode": "URF",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Zoe",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300192,
+          "teamGoldDiff": 1193,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 3,
+          "enemyTeamKills": 4,
+          "killDiff": -1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600285,
+          "teamGoldDiff": 3571,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 11,
+          "enemyTeamKills": 13,
+          "killDiff": -2,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900349,
+          "teamGoldDiff": -841,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 17,
+          "enemyTeamKills": 29,
+          "killDiff": -12,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200423,
+          "teamGoldDiff": -7734,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 19,
+          "enemyTeamKills": 42,
+          "killDiff": -23,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 19,
+        "enemyTeamKills": 42,
+        "killDiff": -23,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_8032952591",
+      "gameCreation": 1768626875396,
+      "gameDuration": 1845,
+      "queueId": 420,
+      "gameMode": "CLASSIC",
+      "championName": "Neeko",
+      "position": "UTILITY",
+      "opponent": "Nautilus",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300128,
+          "teamGoldDiff": 213,
+          "myLaneGoldDiff": -175,
+          "otherLanesGoldDiff": 388,
+          "myTeamKills": 2,
+          "enemyTeamKills": 1,
+          "killDiff": 1,
+          "botDuoGoldDiff": -689,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Kennen",
+              "allyGold": 1835,
+              "enemyGold": 1438,
+              "goldDiff": 397,
+              "allyCs": 30,
+              "enemyCs": 25,
+              "csDiff": 5,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "MonkeyKing",
+              "enemyChampion": "Briar",
+              "allyGold": 2054,
+              "enemyGold": 1653,
+              "goldDiff": 401,
+              "allyCs": 32,
+              "enemyCs": 31,
+              "csDiff": 1,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Vex",
+              "enemyChampion": "Yone",
+              "allyGold": 1766,
+              "enemyGold": 1662,
+              "goldDiff": 104,
+              "allyCs": 36,
+              "enemyCs": 38,
+              "csDiff": -2,
+              "allyLevel": 5,
+              "enemyLevel": 6,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Aphelios",
+              "enemyChampion": "Ashe",
+              "allyGold": 1555,
+              "enemyGold": 2069,
+              "goldDiff": -514,
+              "allyCs": 32,
+              "enemyCs": 38,
+              "csDiff": -6,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Nautilus",
+              "allyGold": 1266,
+              "enemyGold": 1441,
+              "goldDiff": -175,
+              "allyCs": 6,
+              "enemyCs": 7,
+              "csDiff": -1,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600242,
+          "teamGoldDiff": 1279,
+          "myLaneGoldDiff": -458,
+          "otherLanesGoldDiff": 1737,
+          "myTeamKills": 7,
+          "enemyTeamKills": 3,
+          "killDiff": 4,
+          "botDuoGoldDiff": -1331,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Kennen",
+              "allyGold": 3461,
+              "enemyGold": 2838,
+              "goldDiff": 623,
+              "allyCs": 56,
+              "enemyCs": 55,
+              "csDiff": 1,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "MonkeyKing",
+              "enemyChampion": "Briar",
+              "allyGold": 4523,
+              "enemyGold": 2756,
+              "goldDiff": 1767,
+              "allyCs": 66,
+              "enemyCs": 51,
+              "csDiff": 15,
+              "allyLevel": 8,
+              "enemyLevel": 6,
+              "levelDiff": 2
+            },
+            "MIDDLE": {
+              "allyChampion": "Vex",
+              "enemyChampion": "Yone",
+              "allyGold": 3418,
+              "enemyGold": 3198,
+              "goldDiff": 220,
+              "allyCs": 83,
+              "enemyCs": 85,
+              "csDiff": -2,
+              "allyLevel": 9,
+              "enemyLevel": 9,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Aphelios",
+              "enemyChampion": "Ashe",
+              "allyGold": 2976,
+              "enemyGold": 3849,
+              "goldDiff": -873,
+              "allyCs": 69,
+              "enemyCs": 79,
+              "csDiff": -10,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Nautilus",
+              "allyGold": 2427,
+              "enemyGold": 2885,
+              "goldDiff": -458,
+              "allyCs": 12,
+              "enemyCs": 12,
+              "csDiff": 0,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900288,
+          "teamGoldDiff": 408,
+          "myLaneGoldDiff": -551,
+          "otherLanesGoldDiff": 959,
+          "myTeamKills": 9,
+          "enemyTeamKills": 7,
+          "killDiff": 2,
+          "botDuoGoldDiff": -2198,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Kennen",
+              "allyGold": 4747,
+              "enemyGold": 4627,
+              "goldDiff": 120,
+              "allyCs": 90,
+              "enemyCs": 89,
+              "csDiff": 1,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "MonkeyKing",
+              "enemyChampion": "Briar",
+              "allyGold": 6734,
+              "enemyGold": 4157,
+              "goldDiff": 2577,
+              "allyCs": 106,
+              "enemyCs": 83,
+              "csDiff": 23,
+              "allyLevel": 10,
+              "enemyLevel": 9,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Vex",
+              "enemyChampion": "Yone",
+              "allyGold": 5026,
+              "enemyGold": 5117,
+              "goldDiff": -91,
+              "allyCs": 119,
+              "enemyCs": 128,
+              "csDiff": -9,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Aphelios",
+              "enemyChampion": "Ashe",
+              "allyGold": 4477,
+              "enemyGold": 6124,
+              "goldDiff": -1647,
+              "allyCs": 97,
+              "enemyCs": 126,
+              "csDiff": -29,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Nautilus",
+              "allyGold": 3481,
+              "enemyGold": 4032,
+              "goldDiff": -551,
+              "allyCs": 17,
+              "enemyCs": 17,
+              "csDiff": 0,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200317,
+          "teamGoldDiff": 38,
+          "myLaneGoldDiff": -725,
+          "otherLanesGoldDiff": 763,
+          "myTeamKills": 14,
+          "enemyTeamKills": 12,
+          "killDiff": 2,
+          "botDuoGoldDiff": -3454,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Kennen",
+              "allyGold": 7618,
+              "enemyGold": 6409,
+              "goldDiff": 1209,
+              "allyCs": 130,
+              "enemyCs": 119,
+              "csDiff": 11,
+              "allyLevel": 13,
+              "enemyLevel": 13,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "MonkeyKing",
+              "enemyChampion": "Briar",
+              "allyGold": 8168,
+              "enemyGold": 5389,
+              "goldDiff": 2779,
+              "allyCs": 129,
+              "enemyCs": 99,
+              "csDiff": 30,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Vex",
+              "enemyChampion": "Yone",
+              "allyGold": 6652,
+              "enemyGold": 7148,
+              "goldDiff": -496,
+              "allyCs": 151,
+              "enemyCs": 166,
+              "csDiff": -15,
+              "allyLevel": 13,
+              "enemyLevel": 13,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Aphelios",
+              "enemyChampion": "Ashe",
+              "allyGold": 6300,
+              "enemyGold": 9029,
+              "goldDiff": -2729,
+              "allyCs": 129,
+              "enemyCs": 180,
+              "csDiff": -51,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Nautilus",
+              "allyGold": 4731,
+              "enemyGold": 5456,
+              "goldDiff": -725,
+              "allyCs": 24,
+              "enemyCs": 17,
+              "csDiff": 7,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 26,
+        "enemyTeamKills": 21,
+        "killDiff": 5,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Darius",
+            "enemyChampion": "Kennen",
+            "allyKda": [
+              13,
+              6,
+              4
+            ],
+            "enemyKda": [
+              4,
+              6,
+              6
+            ],
+            "allyGold": 13986,
+            "enemyGold": 9914,
+            "goldDiff": 4072,
+            "allyCs": 188,
+            "enemyCs": 159,
+            "csDiff": 29,
+            "allyDamage": 34850,
+            "enemyDamage": 29899
+          },
+          "JUNGLE": {
+            "allyChampion": "MonkeyKing",
+            "enemyChampion": "Briar",
+            "allyKda": [
+              9,
+              4,
+              5
+            ],
+            "enemyKda": [
+              3,
+              9,
+              3
+            ],
+            "allyGold": 13994,
+            "enemyGold": 10317,
+            "goldDiff": 3677,
+            "allyCs": 211,
+            "enemyCs": 153,
+            "csDiff": 58,
+            "allyDamage": 17233,
+            "enemyDamage": 8560
+          },
+          "MIDDLE": {
+            "allyChampion": "Vex",
+            "enemyChampion": "Yone",
+            "allyKda": [
+              2,
+              3,
+              10
+            ],
+            "enemyKda": [
+              5,
+              3,
+              5
+            ],
+            "allyGold": 11278,
+            "enemyGold": 11169,
+            "goldDiff": 109,
+            "allyCs": 229,
+            "enemyCs": 229,
+            "csDiff": 0,
+            "allyDamage": 27717,
+            "enemyDamage": 21946
+          },
+          "BOTTOM": {
+            "allyChampion": "Aphelios",
+            "enemyChampion": "Ashe",
+            "allyKda": [
+              1,
+              4,
+              7
+            ],
+            "enemyKda": [
+              8,
+              4,
+              7
+            ],
+            "allyGold": 11123,
+            "enemyGold": 14228,
+            "goldDiff": -3105,
+            "allyCs": 209,
+            "enemyCs": 258,
+            "csDiff": -49,
+            "allyDamage": 9120,
+            "enemyDamage": 23253
+          },
+          "UTILITY": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Nautilus",
+            "allyKda": [
+              1,
+              4,
+              8
+            ],
+            "enemyKda": [
+              1,
+              4,
+              9
+            ],
+            "allyGold": 7962,
+            "enemyGold": 8309,
+            "goldDiff": -347,
+            "allyCs": 30,
+            "enemyCs": 33,
+            "csDiff": -3,
+            "allyDamage": 9760,
+            "enemyDamage": 11495
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_8017615115",
+      "gameCreation": 1767959881844,
+      "gameDuration": 1956,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Orianna",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300191,
+          "teamGoldDiff": 984,
+          "myLaneGoldDiff": 143,
+          "otherLanesGoldDiff": 841,
+          "myTeamKills": 4,
+          "enemyTeamKills": 1,
+          "killDiff": 3,
+          "botDuoGoldDiff": 425,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Illaoi",
+              "allyGold": 1953,
+              "enemyGold": 1853,
+              "goldDiff": 100,
+              "allyCs": 19,
+              "enemyCs": 31,
+              "csDiff": -12,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Amumu",
+              "allyGold": 1975,
+              "enemyGold": 1659,
+              "goldDiff": 316,
+              "allyCs": 36,
+              "enemyCs": 30,
+              "csDiff": 6,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Orianna",
+              "allyGold": 1756,
+              "enemyGold": 1613,
+              "goldDiff": 143,
+              "allyCs": 28,
+              "enemyCs": 34,
+              "csDiff": -6,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Nilah",
+              "allyGold": 2017,
+              "enemyGold": 1648,
+              "goldDiff": 369,
+              "allyCs": 32,
+              "enemyCs": 37,
+              "csDiff": -5,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Thresh",
+              "enemyChampion": "Soraka",
+              "allyGold": 1331,
+              "enemyGold": 1275,
+              "goldDiff": 56,
+              "allyCs": 6,
+              "enemyCs": 3,
+              "csDiff": 3,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600274,
+          "teamGoldDiff": -1136,
+          "myLaneGoldDiff": 80,
+          "otherLanesGoldDiff": -1216,
+          "myTeamKills": 5,
+          "enemyTeamKills": 6,
+          "killDiff": -1,
+          "botDuoGoldDiff": -1026,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Illaoi",
+              "allyGold": 3317,
+              "enemyGold": 3442,
+              "goldDiff": -125,
+              "allyCs": 47,
+              "enemyCs": 70,
+              "csDiff": -23,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Amumu",
+              "allyGold": 3347,
+              "enemyGold": 3412,
+              "goldDiff": -65,
+              "allyCs": 57,
+              "enemyCs": 56,
+              "csDiff": 1,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Orianna",
+              "allyGold": 3270,
+              "enemyGold": 3190,
+              "goldDiff": 80,
+              "allyCs": 64,
+              "enemyCs": 63,
+              "csDiff": 1,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Nilah",
+              "allyGold": 3458,
+              "enemyGold": 4154,
+              "goldDiff": -696,
+              "allyCs": 73,
+              "enemyCs": 79,
+              "csDiff": -6,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Thresh",
+              "enemyChampion": "Soraka",
+              "allyGold": 2379,
+              "enemyGold": 2709,
+              "goldDiff": -330,
+              "allyCs": 9,
+              "enemyCs": 4,
+              "csDiff": 5,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900362,
+          "teamGoldDiff": 508,
+          "myLaneGoldDiff": 360,
+          "otherLanesGoldDiff": 148,
+          "myTeamKills": 10,
+          "enemyTeamKills": 8,
+          "killDiff": 2,
+          "botDuoGoldDiff": -1536,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Illaoi",
+              "allyGold": 5729,
+              "enemyGold": 4540,
+              "goldDiff": 1189,
+              "allyCs": 94,
+              "enemyCs": 95,
+              "csDiff": -1,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Amumu",
+              "allyGold": 5223,
+              "enemyGold": 4728,
+              "goldDiff": 495,
+              "allyCs": 85,
+              "enemyCs": 84,
+              "csDiff": 1,
+              "allyLevel": 9,
+              "enemyLevel": 9,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Orianna",
+              "allyGold": 4830,
+              "enemyGold": 4470,
+              "goldDiff": 360,
+              "allyCs": 98,
+              "enemyCs": 94,
+              "csDiff": 4,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Nilah",
+              "allyGold": 5905,
+              "enemyGold": 6801,
+              "goldDiff": -896,
+              "allyCs": 119,
+              "enemyCs": 120,
+              "csDiff": -1,
+              "allyLevel": 9,
+              "enemyLevel": 10,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Thresh",
+              "enemyChampion": "Soraka",
+              "allyGold": 3586,
+              "enemyGold": 4226,
+              "goldDiff": -640,
+              "allyCs": 15,
+              "enemyCs": 5,
+              "csDiff": 10,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200458,
+          "teamGoldDiff": 43,
+          "myLaneGoldDiff": 145,
+          "otherLanesGoldDiff": -102,
+          "myTeamKills": 13,
+          "enemyTeamKills": 12,
+          "killDiff": 1,
+          "botDuoGoldDiff": -2335,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Illaoi",
+              "allyGold": 7141,
+              "enemyGold": 6124,
+              "goldDiff": 1017,
+              "allyCs": 128,
+              "enemyCs": 129,
+              "csDiff": -1,
+              "allyLevel": 14,
+              "enemyLevel": 14,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Amumu",
+              "allyGold": 7717,
+              "enemyGold": 6501,
+              "goldDiff": 1216,
+              "allyCs": 110,
+              "enemyCs": 124,
+              "csDiff": -14,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Orianna",
+              "allyGold": 6154,
+              "enemyGold": 6009,
+              "goldDiff": 145,
+              "allyCs": 132,
+              "enemyCs": 127,
+              "csDiff": 5,
+              "allyLevel": 12,
+              "enemyLevel": 12,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Nilah",
+              "allyGold": 7942,
+              "enemyGold": 9850,
+              "goldDiff": -1908,
+              "allyCs": 167,
+              "enemyCs": 157,
+              "csDiff": 10,
+              "allyLevel": 11,
+              "enemyLevel": 12,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Thresh",
+              "enemyChampion": "Soraka",
+              "allyGold": 5040,
+              "enemyGold": 5467,
+              "goldDiff": -427,
+              "allyCs": 17,
+              "enemyCs": 6,
+              "csDiff": 11,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 19,
+        "enemyTeamKills": 34,
+        "killDiff": -15,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Jax",
+            "enemyChampion": "Illaoi",
+            "allyKda": [
+              6,
+              5,
+              0
+            ],
+            "enemyKda": [
+              5,
+              5,
+              3
+            ],
+            "allyGold": 13779,
+            "enemyGold": 12637,
+            "goldDiff": 1142,
+            "allyCs": 225,
+            "enemyCs": 211,
+            "csDiff": 14,
+            "allyDamage": 29445,
+            "enemyDamage": 25884
+          },
+          "JUNGLE": {
+            "allyChampion": "Ekko",
+            "enemyChampion": "Amumu",
+            "allyKda": [
+              5,
+              7,
+              3
+            ],
+            "enemyKda": [
+              4,
+              2,
+              9
+            ],
+            "allyGold": 12627,
+            "enemyGold": 11876,
+            "goldDiff": 751,
+            "allyCs": 185,
+            "enemyCs": 193,
+            "csDiff": -8,
+            "allyDamage": 22586,
+            "enemyDamage": 10635
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Orianna",
+            "allyKda": [
+              3,
+              5,
+              2
+            ],
+            "enemyKda": [
+              2,
+              5,
+              14
+            ],
+            "allyGold": 8734,
+            "enemyGold": 10106,
+            "goldDiff": -1372,
+            "allyCs": 171,
+            "enemyCs": 163,
+            "csDiff": 8,
+            "allyDamage": 12988,
+            "enemyDamage": 31862
+          },
+          "BOTTOM": {
+            "allyChampion": "Yunara",
+            "enemyChampion": "Nilah",
+            "allyKda": [
+              2,
+              9,
+              6
+            ],
+            "enemyKda": [
+              21,
+              2,
+              3
+            ],
+            "allyGold": 12555,
+            "enemyGold": 21754,
+            "goldDiff": -9199,
+            "allyCs": 254,
+            "enemyCs": 286,
+            "csDiff": -32,
+            "allyDamage": 27443,
+            "enemyDamage": 44242
+          },
+          "UTILITY": {
+            "allyChampion": "Thresh",
+            "enemyChampion": "Soraka",
+            "allyKda": [
+              3,
+              8,
+              4
+            ],
+            "enemyKda": [
+              2,
+              5,
+              23
+            ],
+            "allyGold": 8442,
+            "enemyGold": 10502,
+            "goldDiff": -2060,
+            "allyCs": 20,
+            "enemyCs": 11,
+            "csDiff": 9,
+            "allyDamage": 11849,
+            "enemyDamage": 14339
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_8004646924",
+      "gameCreation": 1767372308900,
+      "gameDuration": 1674,
+      "queueId": 900,
+      "gameMode": "URF",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Diana",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300163,
+          "teamGoldDiff": 56,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 1,
+          "enemyTeamKills": 7,
+          "killDiff": -6,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600276,
+          "teamGoldDiff": 5452,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 15,
+          "enemyTeamKills": 12,
+          "killDiff": 3,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900372,
+          "teamGoldDiff": 8987,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 29,
+          "enemyTeamKills": 17,
+          "killDiff": 12,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200426,
+          "teamGoldDiff": 6105,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 41,
+          "enemyTeamKills": 26,
+          "killDiff": 15,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 59,
+        "enemyTeamKills": 41,
+        "killDiff": 18,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_7993167074",
+      "gameCreation": 1766902455688,
+      "gameDuration": 1610,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Fizz",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300082,
+          "teamGoldDiff": 1692,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 12,
+          "enemyTeamKills": 7,
+          "killDiff": 5,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600199,
+          "teamGoldDiff": 279,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 20,
+          "enemyTeamKills": 21,
+          "killDiff": -1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900302,
+          "teamGoldDiff": -2990,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 29,
+          "enemyTeamKills": 39,
+          "killDiff": -10,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200392,
+          "teamGoldDiff": -12849,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 39,
+          "enemyTeamKills": 55,
+          "killDiff": -16,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 37,
+        "enemyTeamKills": 69,
+        "killDiff": -32,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_7923992261",
+      "gameCreation": 1763736238733,
+      "gameDuration": 2538,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Zed",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300060,
+          "teamGoldDiff": 230,
+          "myLaneGoldDiff": -348,
+          "otherLanesGoldDiff": 578,
+          "myTeamKills": 1,
+          "enemyTeamKills": 1,
+          "killDiff": 0,
+          "botDuoGoldDiff": -242,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Zaahen",
+              "enemyChampion": "Aatrox",
+              "allyGold": 1722,
+              "enemyGold": 1161,
+              "goldDiff": 561,
+              "allyCs": 23,
+              "enemyCs": 15,
+              "csDiff": 8,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Nocturne",
+              "enemyChampion": "Sion",
+              "allyGold": 1618,
+              "enemyGold": 1359,
+              "goldDiff": 259,
+              "allyCs": 32,
+              "enemyCs": 16,
+              "csDiff": 16,
+              "allyLevel": 4,
+              "enemyLevel": 3,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Zed",
+              "allyGold": 1187,
+              "enemyGold": 1535,
+              "goldDiff": -348,
+              "allyCs": 15,
+              "enemyCs": 31,
+              "csDiff": -16,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Aphelios",
+              "allyGold": 1500,
+              "enemyGold": 1629,
+              "goldDiff": -129,
+              "allyCs": 29,
+              "enemyCs": 24,
+              "csDiff": 5,
+              "allyLevel": 4,
+              "enemyLevel": 3,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Senna",
+              "allyGold": 1109,
+              "enemyGold": 1222,
+              "goldDiff": -113,
+              "allyCs": 4,
+              "enemyCs": 4,
+              "csDiff": 0,
+              "allyLevel": 3,
+              "enemyLevel": 3,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600217,
+          "teamGoldDiff": -459,
+          "myLaneGoldDiff": -1270,
+          "otherLanesGoldDiff": 811,
+          "myTeamKills": 4,
+          "enemyTeamKills": 4,
+          "killDiff": 0,
+          "botDuoGoldDiff": -95,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Zaahen",
+              "enemyChampion": "Aatrox",
+              "allyGold": 4042,
+              "enemyGold": 2772,
+              "goldDiff": 1270,
+              "allyCs": 61,
+              "enemyCs": 42,
+              "csDiff": 19,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Nocturne",
+              "enemyChampion": "Sion",
+              "allyGold": 2874,
+              "enemyGold": 3238,
+              "goldDiff": -364,
+              "allyCs": 60,
+              "enemyCs": 50,
+              "csDiff": 10,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Zed",
+              "allyGold": 2419,
+              "enemyGold": 3689,
+              "goldDiff": -1270,
+              "allyCs": 45,
+              "enemyCs": 84,
+              "csDiff": -39,
+              "allyLevel": 7,
+              "enemyLevel": 9,
+              "levelDiff": -2
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Aphelios",
+              "allyGold": 2935,
+              "enemyGold": 3146,
+              "goldDiff": -211,
+              "allyCs": 63,
+              "enemyCs": 67,
+              "csDiff": -4,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Senna",
+              "allyGold": 2465,
+              "enemyGold": 2349,
+              "goldDiff": 116,
+              "allyCs": 12,
+              "enemyCs": 15,
+              "csDiff": -3,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900326,
+          "teamGoldDiff": -183,
+          "myLaneGoldDiff": -1169,
+          "otherLanesGoldDiff": 986,
+          "myTeamKills": 9,
+          "enemyTeamKills": 10,
+          "killDiff": -1,
+          "botDuoGoldDiff": -1096,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Zaahen",
+              "enemyChampion": "Aatrox",
+              "allyGold": 7059,
+              "enemyGold": 4445,
+              "goldDiff": 2614,
+              "allyCs": 95,
+              "enemyCs": 58,
+              "csDiff": 37,
+              "allyLevel": 11,
+              "enemyLevel": 9,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Nocturne",
+              "enemyChampion": "Sion",
+              "allyGold": 4369,
+              "enemyGold": 4901,
+              "goldDiff": -532,
+              "allyCs": 84,
+              "enemyCs": 75,
+              "csDiff": 9,
+              "allyLevel": 9,
+              "enemyLevel": 9,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Zed",
+              "allyGold": 4258,
+              "enemyGold": 5427,
+              "goldDiff": -1169,
+              "allyCs": 70,
+              "enemyCs": 117,
+              "csDiff": -47,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Aphelios",
+              "allyGold": 4040,
+              "enemyGold": 5133,
+              "goldDiff": -1093,
+              "allyCs": 80,
+              "enemyCs": 104,
+              "csDiff": -24,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Senna",
+              "allyGold": 3740,
+              "enemyGold": 3743,
+              "goldDiff": -3,
+              "allyCs": 27,
+              "enemyCs": 21,
+              "csDiff": 6,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200422,
+          "teamGoldDiff": -278,
+          "myLaneGoldDiff": -2090,
+          "otherLanesGoldDiff": 1812,
+          "myTeamKills": 14,
+          "enemyTeamKills": 18,
+          "killDiff": -4,
+          "botDuoGoldDiff": -2221,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Zaahen",
+              "enemyChampion": "Aatrox",
+              "allyGold": 10011,
+              "enemyGold": 6028,
+              "goldDiff": 3983,
+              "allyCs": 136,
+              "enemyCs": 86,
+              "csDiff": 50,
+              "allyLevel": 14,
+              "enemyLevel": 12,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Nocturne",
+              "enemyChampion": "Sion",
+              "allyGold": 6328,
+              "enemyGold": 6278,
+              "goldDiff": 50,
+              "allyCs": 108,
+              "enemyCs": 87,
+              "csDiff": 21,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Zed",
+              "allyGold": 5799,
+              "enemyGold": 7889,
+              "goldDiff": -2090,
+              "allyCs": 98,
+              "enemyCs": 158,
+              "csDiff": -60,
+              "allyLevel": 12,
+              "enemyLevel": 13,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Aphelios",
+              "allyGold": 5312,
+              "enemyGold": 7415,
+              "goldDiff": -2103,
+              "allyCs": 94,
+              "enemyCs": 131,
+              "csDiff": -37,
+              "allyLevel": 9,
+              "enemyLevel": 11,
+              "levelDiff": -2
+            },
+            "UTILITY": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Senna",
+              "allyGold": 5039,
+              "enemyGold": 5157,
+              "goldDiff": -118,
+              "allyCs": 39,
+              "enemyCs": 27,
+              "csDiff": 12,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 55,
+        "enemyTeamKills": 46,
+        "killDiff": 9,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Zaahen",
+            "enemyChampion": "Aatrox",
+            "allyKda": [
+              35,
+              8,
+              8
+            ],
+            "enemyKda": [
+              5,
+              16,
+              5
+            ],
+            "allyGold": 26557,
+            "enemyGold": 10952,
+            "goldDiff": 15605,
+            "allyCs": 248,
+            "enemyCs": 139,
+            "csDiff": 109,
+            "allyDamage": 146924,
+            "enemyDamage": 34745
+          },
+          "JUNGLE": {
+            "allyChampion": "Nocturne",
+            "enemyChampion": "Sion",
+            "allyKda": [
+              3,
+              9,
+              10
+            ],
+            "enemyKda": [
+              8,
+              13,
+              18
+            ],
+            "allyGold": 13042,
+            "enemyGold": 13432,
+            "goldDiff": -390,
+            "allyCs": 199,
+            "enemyCs": 134,
+            "csDiff": 65,
+            "allyDamage": 14339,
+            "enemyDamage": 40325
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Zed",
+            "allyKda": [
+              5,
+              5,
+              14
+            ],
+            "enemyKda": [
+              23,
+              7,
+              6
+            ],
+            "allyGold": 12851,
+            "enemyGold": 20273,
+            "goldDiff": -7422,
+            "allyCs": 132,
+            "enemyCs": 221,
+            "csDiff": -89,
+            "allyDamage": 27375,
+            "enemyDamage": 77037
+          },
+          "BOTTOM": {
+            "allyChampion": "Varus",
+            "enemyChampion": "Aphelios",
+            "allyKda": [
+              6,
+              13,
+              14
+            ],
+            "enemyKda": [
+              9,
+              10,
+              9
+            ],
+            "allyGold": 13029,
+            "enemyGold": 13974,
+            "goldDiff": -945,
+            "allyCs": 138,
+            "enemyCs": 210,
+            "csDiff": -72,
+            "allyDamage": 38736,
+            "enemyDamage": 35932
+          },
+          "UTILITY": {
+            "allyChampion": "Hwei",
+            "enemyChampion": "Senna",
+            "allyKda": [
+              6,
+              11,
+              12
+            ],
+            "enemyKda": [
+              1,
+              9,
+              23
+            ],
+            "allyGold": 12163,
+            "enemyGold": 10857,
+            "goldDiff": 1306,
+            "allyCs": 65,
+            "enemyCs": 43,
+            "csDiff": 22,
+            "allyDamage": 44344,
+            "enemyDamage": 22316
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7916004471",
+      "gameCreation": 1763276572540,
+      "gameDuration": 1954,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Mel",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300172,
+          "teamGoldDiff": -23,
+          "myLaneGoldDiff": -346,
+          "otherLanesGoldDiff": 323,
+          "myTeamKills": 3,
+          "enemyTeamKills": 2,
+          "killDiff": 1,
+          "botDuoGoldDiff": -146,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Gnar",
+              "allyGold": 2004,
+              "enemyGold": 1241,
+              "goldDiff": 763,
+              "allyCs": 25,
+              "enemyCs": 14,
+              "csDiff": 11,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Viego",
+              "enemyChampion": "Kindred",
+              "allyGold": 1687,
+              "enemyGold": 1981,
+              "goldDiff": -294,
+              "allyCs": 32,
+              "enemyCs": 21,
+              "csDiff": 11,
+              "allyLevel": 4,
+              "enemyLevel": 3,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 1294,
+              "enemyGold": 1640,
+              "goldDiff": -346,
+              "allyCs": 22,
+              "enemyCs": 37,
+              "csDiff": -15,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "MissFortune",
+              "enemyChampion": "KogMaw",
+              "allyGold": 1667,
+              "enemyGold": 1421,
+              "goldDiff": 246,
+              "allyCs": 21,
+              "enemyCs": 26,
+              "csDiff": -5,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Sion",
+              "allyGold": 1019,
+              "enemyGold": 1411,
+              "goldDiff": -392,
+              "allyCs": 3,
+              "enemyCs": 6,
+              "csDiff": -3,
+              "allyLevel": 2,
+              "enemyLevel": 3,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600249,
+          "teamGoldDiff": -650,
+          "myLaneGoldDiff": -954,
+          "otherLanesGoldDiff": 304,
+          "myTeamKills": 5,
+          "enemyTeamKills": 8,
+          "killDiff": -3,
+          "botDuoGoldDiff": -118,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Gnar",
+              "allyGold": 3936,
+              "enemyGold": 2049,
+              "goldDiff": 1887,
+              "allyCs": 74,
+              "enemyCs": 26,
+              "csDiff": 48,
+              "allyLevel": 8,
+              "enemyLevel": 7,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Viego",
+              "enemyChampion": "Kindred",
+              "allyGold": 2946,
+              "enemyGold": 4411,
+              "goldDiff": -1465,
+              "allyCs": 52,
+              "enemyCs": 54,
+              "csDiff": -2,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 2510,
+              "enemyGold": 3464,
+              "goldDiff": -954,
+              "allyCs": 54,
+              "enemyCs": 80,
+              "csDiff": -26,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "MissFortune",
+              "enemyChampion": "KogMaw",
+              "allyGold": 3518,
+              "enemyGold": 3235,
+              "goldDiff": 283,
+              "allyCs": 70,
+              "enemyCs": 50,
+              "csDiff": 20,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Sion",
+              "allyGold": 2253,
+              "enemyGold": 2654,
+              "goldDiff": -401,
+              "allyCs": 15,
+              "enemyCs": 16,
+              "csDiff": -1,
+              "allyLevel": 5,
+              "enemyLevel": 6,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900322,
+          "teamGoldDiff": 1682,
+          "myLaneGoldDiff": -1314,
+          "otherLanesGoldDiff": 2996,
+          "myTeamKills": 14,
+          "enemyTeamKills": 13,
+          "killDiff": 1,
+          "botDuoGoldDiff": 1071,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Gnar",
+              "allyGold": 6629,
+              "enemyGold": 2960,
+              "goldDiff": 3669,
+              "allyCs": 120,
+              "enemyCs": 43,
+              "csDiff": 77,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Viego",
+              "enemyChampion": "Kindred",
+              "allyGold": 4652,
+              "enemyGold": 6396,
+              "goldDiff": -1744,
+              "allyCs": 76,
+              "enemyCs": 77,
+              "csDiff": -1,
+              "allyLevel": 9,
+              "enemyLevel": 9,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 4344,
+              "enemyGold": 5658,
+              "goldDiff": -1314,
+              "allyCs": 78,
+              "enemyCs": 113,
+              "csDiff": -35,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "MissFortune",
+              "enemyChampion": "KogMaw",
+              "allyGold": 5727,
+              "enemyGold": 4628,
+              "goldDiff": 1099,
+              "allyCs": 114,
+              "enemyCs": 84,
+              "csDiff": 30,
+              "allyLevel": 10,
+              "enemyLevel": 8,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Sion",
+              "allyGold": 4062,
+              "enemyGold": 4090,
+              "goldDiff": -28,
+              "allyCs": 19,
+              "enemyCs": 28,
+              "csDiff": -9,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200430,
+          "teamGoldDiff": 4576,
+          "myLaneGoldDiff": -2331,
+          "otherLanesGoldDiff": 6907,
+          "myTeamKills": 22,
+          "enemyTeamKills": 17,
+          "killDiff": 5,
+          "botDuoGoldDiff": 3048,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Gnar",
+              "allyGold": 9660,
+              "enemyGold": 4111,
+              "goldDiff": 5549,
+              "allyCs": 161,
+              "enemyCs": 71,
+              "csDiff": 90,
+              "allyLevel": 14,
+              "enemyLevel": 12,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Viego",
+              "enemyChampion": "Kindred",
+              "allyGold": 6573,
+              "enemyGold": 8263,
+              "goldDiff": -1690,
+              "allyCs": 113,
+              "enemyCs": 104,
+              "csDiff": 9,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 6090,
+              "enemyGold": 8421,
+              "goldDiff": -2331,
+              "allyCs": 101,
+              "enemyCs": 141,
+              "csDiff": -40,
+              "allyLevel": 12,
+              "enemyLevel": 13,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "MissFortune",
+              "enemyChampion": "KogMaw",
+              "allyGold": 8407,
+              "enemyGold": 5798,
+              "goldDiff": 2609,
+              "allyCs": 137,
+              "enemyCs": 101,
+              "csDiff": 36,
+              "allyLevel": 12,
+              "enemyLevel": 10,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Sion",
+              "allyGold": 5490,
+              "enemyGold": 5051,
+              "goldDiff": 439,
+              "allyCs": 24,
+              "enemyCs": 36,
+              "csDiff": -12,
+              "allyLevel": 9,
+              "enemyLevel": 10,
+              "levelDiff": -1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 53,
+        "enemyTeamKills": 29,
+        "killDiff": 24,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Darius",
+            "enemyChampion": "Gnar",
+            "allyKda": [
+              25,
+              4,
+              3
+            ],
+            "enemyKda": [
+              2,
+              10,
+              5
+            ],
+            "allyGold": 19016,
+            "enemyGold": 9342,
+            "goldDiff": 9674,
+            "allyCs": 227,
+            "enemyCs": 114,
+            "csDiff": 113,
+            "allyDamage": 63760,
+            "enemyDamage": 12710
+          },
+          "JUNGLE": {
+            "allyChampion": "Viego",
+            "enemyChampion": "Kindred",
+            "allyKda": [
+              10,
+              4,
+              7
+            ],
+            "enemyKda": [
+              13,
+              14,
+              8
+            ],
+            "allyGold": 14247,
+            "enemyGold": 13518,
+            "goldDiff": 729,
+            "allyCs": 218,
+            "enemyCs": 143,
+            "csDiff": 75,
+            "allyDamage": 21895,
+            "enemyDamage": 33847
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Mel",
+            "allyKda": [
+              3,
+              6,
+              9
+            ],
+            "enemyKda": [
+              8,
+              8,
+              5
+            ],
+            "allyGold": 11773,
+            "enemyGold": 13861,
+            "goldDiff": -2088,
+            "allyCs": 133,
+            "enemyCs": 230,
+            "csDiff": -97,
+            "allyDamage": 19411,
+            "enemyDamage": 30624
+          },
+          "BOTTOM": {
+            "allyChampion": "MissFortune",
+            "enemyChampion": "KogMaw",
+            "allyKda": [
+              11,
+              5,
+              9
+            ],
+            "enemyKda": [
+              6,
+              11,
+              9
+            ],
+            "allyGold": 14847,
+            "enemyGold": 11748,
+            "goldDiff": 3099,
+            "allyCs": 209,
+            "enemyCs": 141,
+            "csDiff": 68,
+            "allyDamage": 31590,
+            "enemyDamage": 24341
+          },
+          "UTILITY": {
+            "allyChampion": "Shaco",
+            "enemyChampion": "Sion",
+            "allyKda": [
+              4,
+              11,
+              14
+            ],
+            "enemyKda": [
+              0,
+              10,
+              15
+            ],
+            "allyGold": 10265,
+            "enemyGold": 8112,
+            "goldDiff": 2153,
+            "allyCs": 34,
+            "enemyCs": 52,
+            "csDiff": -18,
+            "allyDamage": 16316,
+            "enemyDamage": 20187
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7914161128",
+      "gameCreation": 1763194646030,
+      "gameDuration": 1959,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Neeko",
+      "position": "UTILITY",
+      "opponent": "Lux",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300192,
+          "teamGoldDiff": -364,
+          "myLaneGoldDiff": -66,
+          "otherLanesGoldDiff": -298,
+          "myTeamKills": 3,
+          "enemyTeamKills": 3,
+          "killDiff": 0,
+          "botDuoGoldDiff": 81,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Illaoi",
+              "enemyChampion": "Darius",
+              "allyGold": 1701,
+              "enemyGold": 1925,
+              "goldDiff": -224,
+              "allyCs": 22,
+              "enemyCs": 18,
+              "csDiff": 4,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Talon",
+              "enemyChampion": "XinZhao",
+              "allyGold": 1847,
+              "enemyGold": 1855,
+              "goldDiff": -8,
+              "allyCs": 25,
+              "enemyCs": 33,
+              "csDiff": -8,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Galio",
+              "enemyChampion": "Sylas",
+              "allyGold": 1287,
+              "enemyGold": 1500,
+              "goldDiff": -213,
+              "allyCs": 18,
+              "enemyCs": 31,
+              "csDiff": -13,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Mel",
+              "enemyChampion": "Corki",
+              "allyGold": 1566,
+              "enemyGold": 1419,
+              "goldDiff": 147,
+              "allyCs": 18,
+              "enemyCs": 17,
+              "csDiff": 1,
+              "allyLevel": 3,
+              "enemyLevel": 4,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Lux",
+              "allyGold": 1411,
+              "enemyGold": 1477,
+              "goldDiff": -66,
+              "allyCs": 2,
+              "enemyCs": 6,
+              "csDiff": -4,
+              "allyLevel": 3,
+              "enemyLevel": 3,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600311,
+          "teamGoldDiff": -1654,
+          "myLaneGoldDiff": -51,
+          "otherLanesGoldDiff": -1603,
+          "myTeamKills": 6,
+          "enemyTeamKills": 10,
+          "killDiff": -4,
+          "botDuoGoldDiff": 770,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Illaoi",
+              "enemyChampion": "Darius",
+              "allyGold": 2760,
+              "enemyGold": 4738,
+              "goldDiff": -1978,
+              "allyCs": 46,
+              "enemyCs": 64,
+              "csDiff": -18,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Talon",
+              "enemyChampion": "XinZhao",
+              "allyGold": 3473,
+              "enemyGold": 3166,
+              "goldDiff": 307,
+              "allyCs": 54,
+              "enemyCs": 63,
+              "csDiff": -9,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Galio",
+              "enemyChampion": "Sylas",
+              "allyGold": 2471,
+              "enemyGold": 3224,
+              "goldDiff": -753,
+              "allyCs": 49,
+              "enemyCs": 72,
+              "csDiff": -23,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Mel",
+              "enemyChampion": "Corki",
+              "allyGold": 3626,
+              "enemyGold": 2805,
+              "goldDiff": 821,
+              "allyCs": 63,
+              "enemyCs": 32,
+              "csDiff": 31,
+              "allyLevel": 7,
+              "enemyLevel": 6,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Lux",
+              "allyGold": 2801,
+              "enemyGold": 2852,
+              "goldDiff": -51,
+              "allyCs": 9,
+              "enemyCs": 12,
+              "csDiff": -3,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900404,
+          "teamGoldDiff": 2492,
+          "myLaneGoldDiff": 571,
+          "otherLanesGoldDiff": 1921,
+          "myTeamKills": 16,
+          "enemyTeamKills": 13,
+          "killDiff": 3,
+          "botDuoGoldDiff": 3349,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Illaoi",
+              "enemyChampion": "Darius",
+              "allyGold": 5226,
+              "enemyGold": 6171,
+              "goldDiff": -945,
+              "allyCs": 85,
+              "enemyCs": 97,
+              "csDiff": -12,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Talon",
+              "enemyChampion": "XinZhao",
+              "allyGold": 5763,
+              "enemyGold": 4340,
+              "goldDiff": 1423,
+              "allyCs": 86,
+              "enemyCs": 89,
+              "csDiff": -3,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Galio",
+              "enemyChampion": "Sylas",
+              "allyGold": 4060,
+              "enemyGold": 5395,
+              "goldDiff": -1335,
+              "allyCs": 82,
+              "enemyCs": 110,
+              "csDiff": -28,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Mel",
+              "enemyChampion": "Corki",
+              "allyGold": 7084,
+              "enemyGold": 4306,
+              "goldDiff": 2778,
+              "allyCs": 100,
+              "enemyCs": 58,
+              "csDiff": 42,
+              "allyLevel": 9,
+              "enemyLevel": 7,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Lux",
+              "allyGold": 4800,
+              "enemyGold": 4229,
+              "goldDiff": 571,
+              "allyCs": 19,
+              "enemyCs": 17,
+              "csDiff": 2,
+              "allyLevel": 9,
+              "enemyLevel": 7,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200451,
+          "teamGoldDiff": 4494,
+          "myLaneGoldDiff": 1283,
+          "otherLanesGoldDiff": 3211,
+          "myTeamKills": 25,
+          "enemyTeamKills": 16,
+          "killDiff": 9,
+          "botDuoGoldDiff": 5878,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Illaoi",
+              "enemyChampion": "Darius",
+              "allyGold": 7124,
+              "enemyGold": 8660,
+              "goldDiff": -1536,
+              "allyCs": 125,
+              "enemyCs": 147,
+              "csDiff": -22,
+              "allyLevel": 13,
+              "enemyLevel": 13,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Talon",
+              "enemyChampion": "XinZhao",
+              "allyGold": 7699,
+              "enemyGold": 6137,
+              "goldDiff": 1562,
+              "allyCs": 119,
+              "enemyCs": 123,
+              "csDiff": -4,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Galio",
+              "enemyChampion": "Sylas",
+              "allyGold": 5897,
+              "enemyGold": 7307,
+              "goldDiff": -1410,
+              "allyCs": 105,
+              "enemyCs": 142,
+              "csDiff": -37,
+              "allyLevel": 13,
+              "enemyLevel": 13,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Mel",
+              "enemyChampion": "Corki",
+              "allyGold": 10450,
+              "enemyGold": 5855,
+              "goldDiff": 4595,
+              "allyCs": 134,
+              "enemyCs": 75,
+              "csDiff": 59,
+              "allyLevel": 13,
+              "enemyLevel": 9,
+              "levelDiff": 4
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Lux",
+              "allyGold": 6464,
+              "enemyGold": 5181,
+              "goldDiff": 1283,
+              "allyCs": 26,
+              "enemyCs": 26,
+              "csDiff": 0,
+              "allyLevel": 11,
+              "enemyLevel": 9,
+              "levelDiff": 2
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 47,
+        "enemyTeamKills": 23,
+        "killDiff": 24,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Illaoi",
+            "enemyChampion": "Darius",
+            "allyKda": [
+              10,
+              8,
+              5
+            ],
+            "enemyKda": [
+              10,
+              7,
+              1
+            ],
+            "allyGold": 14438,
+            "enemyGold": 14872,
+            "goldDiff": -434,
+            "allyCs": 186,
+            "enemyCs": 216,
+            "csDiff": -30,
+            "allyDamage": 39842,
+            "enemyDamage": 24613
+          },
+          "JUNGLE": {
+            "allyChampion": "Talon",
+            "enemyChampion": "XinZhao",
+            "allyKda": [
+              7,
+              1,
+              4
+            ],
+            "enemyKda": [
+              2,
+              6,
+              7
+            ],
+            "allyGold": 13280,
+            "enemyGold": 10799,
+            "goldDiff": 2481,
+            "allyCs": 230,
+            "enemyCs": 172,
+            "csDiff": 58,
+            "allyDamage": 19471,
+            "enemyDamage": 16665
+          },
+          "MIDDLE": {
+            "allyChampion": "Galio",
+            "enemyChampion": "Sylas",
+            "allyKda": [
+              2,
+              2,
+              11
+            ],
+            "enemyKda": [
+              6,
+              7,
+              2
+            ],
+            "allyGold": 9525,
+            "enemyGold": 10105,
+            "goldDiff": -580,
+            "allyCs": 134,
+            "enemyCs": 161,
+            "csDiff": -27,
+            "allyDamage": 15806,
+            "enemyDamage": 17680
+          },
+          "BOTTOM": {
+            "allyChampion": "Mel",
+            "enemyChampion": "Corki",
+            "allyKda": [
+              27,
+              7,
+              5
+            ],
+            "enemyKda": [
+              3,
+              13,
+              8
+            ],
+            "allyGold": 17936,
+            "enemyGold": 9332,
+            "goldDiff": 8604,
+            "allyCs": 197,
+            "enemyCs": 125,
+            "csDiff": 72,
+            "allyDamage": 65331,
+            "enemyDamage": 17057
+          },
+          "UTILITY": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Lux",
+            "allyKda": [
+              1,
+              5,
+              22
+            ],
+            "enemyKda": [
+              2,
+              14,
+              7
+            ],
+            "allyGold": 9742,
+            "enemyGold": 8482,
+            "goldDiff": 1260,
+            "allyCs": 35,
+            "enemyCs": 61,
+            "csDiff": -26,
+            "allyDamage": 16599,
+            "enemyDamage": 19175
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7914100971",
+      "gameCreation": 1763193082428,
+      "gameDuration": 1132,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Neeko",
+      "position": "UTILITY",
+      "opponent": "JarvanIV",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300201,
+          "teamGoldDiff": -1628,
+          "myLaneGoldDiff": -290,
+          "otherLanesGoldDiff": -1338,
+          "myTeamKills": 0,
+          "enemyTeamKills": 3,
+          "killDiff": -3,
+          "botDuoGoldDiff": -1115,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Gragas",
+              "enemyChampion": "Jayce",
+              "allyGold": 1549,
+              "enemyGold": 1518,
+              "goldDiff": 31,
+              "allyCs": 30,
+              "enemyCs": 32,
+              "csDiff": -2,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Sylas",
+              "allyGold": 1538,
+              "enemyGold": 1838,
+              "goldDiff": -300,
+              "allyCs": 28,
+              "enemyCs": 28,
+              "csDiff": 0,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Ryze",
+              "enemyChampion": "Galio",
+              "allyGold": 1350,
+              "enemyGold": 1594,
+              "goldDiff": -244,
+              "allyCs": 23,
+              "enemyCs": 24,
+              "csDiff": -1,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Samira",
+              "enemyChampion": "Kalista",
+              "allyGold": 1311,
+              "enemyGold": 2136,
+              "goldDiff": -825,
+              "allyCs": 20,
+              "enemyCs": 30,
+              "csDiff": -10,
+              "allyLevel": 3,
+              "enemyLevel": 4,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "JarvanIV",
+              "allyGold": 1149,
+              "enemyGold": 1439,
+              "goldDiff": -290,
+              "allyCs": 5,
+              "enemyCs": 6,
+              "csDiff": -1,
+              "allyLevel": 3,
+              "enemyLevel": 4,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600301,
+          "teamGoldDiff": -3725,
+          "myLaneGoldDiff": -1017,
+          "otherLanesGoldDiff": -2708,
+          "myTeamKills": 1,
+          "enemyTeamKills": 10,
+          "killDiff": -9,
+          "botDuoGoldDiff": -2861,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Gragas",
+              "enemyChampion": "Jayce",
+              "allyGold": 3035,
+              "enemyGold": 2957,
+              "goldDiff": 78,
+              "allyCs": 71,
+              "enemyCs": 72,
+              "csDiff": -1,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Sylas",
+              "allyGold": 3272,
+              "enemyGold": 3804,
+              "goldDiff": -532,
+              "allyCs": 55,
+              "enemyCs": 58,
+              "csDiff": -3,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Ryze",
+              "enemyChampion": "Galio",
+              "allyGold": 2678,
+              "enemyGold": 3088,
+              "goldDiff": -410,
+              "allyCs": 60,
+              "enemyCs": 55,
+              "csDiff": 5,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Samira",
+              "enemyChampion": "Kalista",
+              "allyGold": 2665,
+              "enemyGold": 4509,
+              "goldDiff": -1844,
+              "allyCs": 52,
+              "enemyCs": 62,
+              "csDiff": -10,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "JarvanIV",
+              "allyGold": 2320,
+              "enemyGold": 3337,
+              "goldDiff": -1017,
+              "allyCs": 13,
+              "enemyCs": 16,
+              "csDiff": -3,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900361,
+          "teamGoldDiff": -5357,
+          "myLaneGoldDiff": -1161,
+          "otherLanesGoldDiff": -4196,
+          "myTeamKills": 4,
+          "enemyTeamKills": 19,
+          "killDiff": -15,
+          "botDuoGoldDiff": -4826,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Gragas",
+              "enemyChampion": "Jayce",
+              "allyGold": 4915,
+              "enemyGold": 4270,
+              "goldDiff": 645,
+              "allyCs": 109,
+              "enemyCs": 107,
+              "csDiff": 2,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Darius",
+              "enemyChampion": "Sylas",
+              "allyGold": 5441,
+              "enemyGold": 5486,
+              "goldDiff": -45,
+              "allyCs": 82,
+              "enemyCs": 84,
+              "csDiff": -2,
+              "allyLevel": 9,
+              "enemyLevel": 9,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Ryze",
+              "enemyChampion": "Galio",
+              "allyGold": 3941,
+              "enemyGold": 5072,
+              "goldDiff": -1131,
+              "allyCs": 89,
+              "enemyCs": 85,
+              "csDiff": 4,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Samira",
+              "enemyChampion": "Kalista",
+              "allyGold": 4081,
+              "enemyGold": 7746,
+              "goldDiff": -3665,
+              "allyCs": 87,
+              "enemyCs": 111,
+              "csDiff": -24,
+              "allyLevel": 8,
+              "enemyLevel": 10,
+              "levelDiff": -2
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "JarvanIV",
+              "allyGold": 3817,
+              "enemyGold": 4978,
+              "goldDiff": -1161,
+              "allyCs": 17,
+              "enemyCs": 24,
+              "csDiff": -7,
+              "allyLevel": 7,
+              "enemyLevel": 9,
+              "levelDiff": -2
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 4,
+        "enemyTeamKills": 29,
+        "killDiff": -25,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Gragas",
+            "enemyChampion": "Jayce",
+            "allyKda": [
+              1,
+              0,
+              1
+            ],
+            "enemyKda": [
+              0,
+              1,
+              0
+            ],
+            "allyGold": 6352,
+            "enemyGold": 5442,
+            "goldDiff": 910,
+            "allyCs": 145,
+            "enemyCs": 133,
+            "csDiff": 12,
+            "allyDamage": 5489,
+            "enemyDamage": 8893
+          },
+          "JUNGLE": {
+            "allyChampion": "Darius",
+            "enemyChampion": "Sylas",
+            "allyKda": [
+              2,
+              7,
+              1
+            ],
+            "enemyKda": [
+              5,
+              1,
+              5
+            ],
+            "allyGold": 6418,
+            "enemyGold": 7184,
+            "goldDiff": -766,
+            "allyCs": 95,
+            "enemyCs": 112,
+            "csDiff": -17,
+            "allyDamage": 5325,
+            "enemyDamage": 5730
+          },
+          "MIDDLE": {
+            "allyChampion": "Ryze",
+            "enemyChampion": "Galio",
+            "allyKda": [
+              0,
+              3,
+              0
+            ],
+            "enemyKda": [
+              5,
+              0,
+              1
+            ],
+            "allyGold": 5345,
+            "enemyGold": 6543,
+            "goldDiff": -1198,
+            "allyCs": 117,
+            "enemyCs": 115,
+            "csDiff": 2,
+            "allyDamage": 7669,
+            "enemyDamage": 9006
+          },
+          "BOTTOM": {
+            "allyChampion": "Samira",
+            "enemyChampion": "Kalista",
+            "allyKda": [
+              0,
+              11,
+              1
+            ],
+            "enemyKda": [
+              18,
+              2,
+              4
+            ],
+            "allyGold": 5300,
+            "enemyGold": 11461,
+            "goldDiff": -6161,
+            "allyCs": 107,
+            "enemyCs": 140,
+            "csDiff": -33,
+            "allyDamage": 3629,
+            "enemyDamage": 27501
+          },
+          "UTILITY": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "JarvanIV",
+            "allyKda": [
+              1,
+              8,
+              1
+            ],
+            "enemyKda": [
+              1,
+              1,
+              19
+            ],
+            "allyGold": 4605,
+            "enemyGold": 6574,
+            "goldDiff": -1969,
+            "allyCs": 17,
+            "enemyCs": 29,
+            "csDiff": -12,
+            "allyDamage": 6125,
+            "enemyDamage": 8491
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7914036028",
+      "gameCreation": 1763190274124,
+      "gameDuration": 1755,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Mel",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300186,
+          "teamGoldDiff": 434,
+          "myLaneGoldDiff": 145,
+          "otherLanesGoldDiff": 289,
+          "myTeamKills": 1,
+          "enemyTeamKills": 1,
+          "killDiff": 0,
+          "botDuoGoldDiff": 1,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Sett",
+              "enemyChampion": "Ambessa",
+              "allyGold": 1922,
+              "enemyGold": 1464,
+              "goldDiff": 458,
+              "allyCs": 29,
+              "enemyCs": 17,
+              "csDiff": 12,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Volibear",
+              "allyGold": 1615,
+              "enemyGold": 1785,
+              "goldDiff": -170,
+              "allyCs": 30,
+              "enemyCs": 24,
+              "csDiff": 6,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 1637,
+              "enemyGold": 1492,
+              "goldDiff": 145,
+              "allyCs": 32,
+              "enemyCs": 25,
+              "csDiff": 7,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Jinx",
+              "allyGold": 1508,
+              "enemyGold": 1382,
+              "goldDiff": 126,
+              "allyCs": 21,
+              "enemyCs": 12,
+              "csDiff": 9,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Blitzcrank",
+              "enemyChampion": "Lux",
+              "allyGold": 1316,
+              "enemyGold": 1441,
+              "goldDiff": -125,
+              "allyCs": 8,
+              "enemyCs": 8,
+              "csDiff": 0,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600300,
+          "teamGoldDiff": -1244,
+          "myLaneGoldDiff": -649,
+          "otherLanesGoldDiff": -595,
+          "myTeamKills": 5,
+          "enemyTeamKills": 8,
+          "killDiff": -3,
+          "botDuoGoldDiff": -604,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Sett",
+              "enemyChampion": "Ambessa",
+              "allyGold": 4241,
+              "enemyGold": 3352,
+              "goldDiff": 889,
+              "allyCs": 68,
+              "enemyCs": 35,
+              "csDiff": 33,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Volibear",
+              "allyGold": 3635,
+              "enemyGold": 4515,
+              "goldDiff": -880,
+              "allyCs": 38,
+              "enemyCs": 57,
+              "csDiff": -19,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 3332,
+              "enemyGold": 3981,
+              "goldDiff": -649,
+              "allyCs": 56,
+              "enemyCs": 51,
+              "csDiff": 5,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Jinx",
+              "allyGold": 3730,
+              "enemyGold": 3725,
+              "goldDiff": 5,
+              "allyCs": 44,
+              "enemyCs": 38,
+              "csDiff": 6,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Blitzcrank",
+              "enemyChampion": "Lux",
+              "allyGold": 3414,
+              "enemyGold": 4023,
+              "goldDiff": -609,
+              "allyCs": 15,
+              "enemyCs": 30,
+              "csDiff": -15,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900342,
+          "teamGoldDiff": -3475,
+          "myLaneGoldDiff": -983,
+          "otherLanesGoldDiff": -2492,
+          "myTeamKills": 10,
+          "enemyTeamKills": 15,
+          "killDiff": -5,
+          "botDuoGoldDiff": -860,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Sett",
+              "enemyChampion": "Ambessa",
+              "allyGold": 6328,
+              "enemyGold": 6022,
+              "goldDiff": 306,
+              "allyCs": 104,
+              "enemyCs": 57,
+              "csDiff": 47,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Volibear",
+              "allyGold": 6450,
+              "enemyGold": 8388,
+              "goldDiff": -1938,
+              "allyCs": 55,
+              "enemyCs": 83,
+              "csDiff": -28,
+              "allyLevel": 10,
+              "enemyLevel": 12,
+              "levelDiff": -2
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 5728,
+              "enemyGold": 6711,
+              "goldDiff": -983,
+              "allyCs": 85,
+              "enemyCs": 80,
+              "csDiff": 5,
+              "allyLevel": 11,
+              "enemyLevel": 12,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Jinx",
+              "allyGold": 6413,
+              "enemyGold": 6409,
+              "goldDiff": 4,
+              "allyCs": 72,
+              "enemyCs": 51,
+              "csDiff": 21,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Blitzcrank",
+              "enemyChampion": "Lux",
+              "allyGold": 5541,
+              "enemyGold": 6405,
+              "goldDiff": -864,
+              "allyCs": 17,
+              "enemyCs": 50,
+              "csDiff": -33,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200424,
+          "teamGoldDiff": 1581,
+          "myLaneGoldDiff": 582,
+          "otherLanesGoldDiff": 999,
+          "myTeamKills": 18,
+          "enemyTeamKills": 21,
+          "killDiff": -3,
+          "botDuoGoldDiff": 299,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Sett",
+              "enemyChampion": "Ambessa",
+              "allyGold": 10910,
+              "enemyGold": 9395,
+              "goldDiff": 1515,
+              "allyCs": 159,
+              "enemyCs": 94,
+              "csDiff": 65,
+              "allyLevel": 16,
+              "enemyLevel": 14,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Volibear",
+              "allyGold": 11833,
+              "enemyGold": 12648,
+              "goldDiff": -815,
+              "allyCs": 69,
+              "enemyCs": 103,
+              "csDiff": -34,
+              "allyLevel": 15,
+              "enemyLevel": 14,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Mel",
+              "allyGold": 9941,
+              "enemyGold": 9359,
+              "goldDiff": 582,
+              "allyCs": 112,
+              "enemyCs": 87,
+              "csDiff": 25,
+              "allyLevel": 15,
+              "enemyLevel": 13,
+              "levelDiff": 2
+            },
+            "BOTTOM": {
+              "allyChampion": "Varus",
+              "enemyChampion": "Jinx",
+              "allyGold": 9691,
+              "enemyGold": 9329,
+              "goldDiff": 362,
+              "allyCs": 96,
+              "enemyCs": 66,
+              "csDiff": 30,
+              "allyLevel": 14,
+              "enemyLevel": 12,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Blitzcrank",
+              "enemyChampion": "Lux",
+              "allyGold": 10053,
+              "enemyGold": 10116,
+              "goldDiff": -63,
+              "allyCs": 17,
+              "enemyCs": 83,
+              "csDiff": -66,
+              "allyLevel": 14,
+              "enemyLevel": 14,
+              "levelDiff": 0
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 26,
+        "enemyTeamKills": 43,
+        "killDiff": -17,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Sett",
+            "enemyChampion": "Ambessa",
+            "allyKda": [
+              6,
+              11,
+              1
+            ],
+            "enemyKda": [
+              4,
+              7,
+              11
+            ],
+            "allyGold": 17707,
+            "enemyGold": 16641,
+            "goldDiff": 1066,
+            "allyCs": 209,
+            "enemyCs": 116,
+            "csDiff": 93,
+            "allyDamage": 29115,
+            "enemyDamage": 19738
+          },
+          "JUNGLE": {
+            "allyChampion": "Shaco",
+            "enemyChampion": "Volibear",
+            "allyKda": [
+              11,
+              7,
+              2
+            ],
+            "enemyKda": [
+              18,
+              3,
+              14
+            ],
+            "allyGold": 17205,
+            "enemyGold": 21172,
+            "goldDiff": -3967,
+            "allyCs": 90,
+            "enemyCs": 138,
+            "csDiff": -48,
+            "allyDamage": 22496,
+            "enemyDamage": 39506
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Mel",
+            "allyKda": [
+              2,
+              8,
+              7
+            ],
+            "enemyKda": [
+              10,
+              5,
+              6
+            ],
+            "allyGold": 15859,
+            "enemyGold": 18907,
+            "goldDiff": -3048,
+            "allyCs": 134,
+            "enemyCs": 129,
+            "csDiff": 5,
+            "allyDamage": 19504,
+            "enemyDamage": 30336
+          },
+          "BOTTOM": {
+            "allyChampion": "Varus",
+            "enemyChampion": "Jinx",
+            "allyKda": [
+              4,
+              9,
+              2
+            ],
+            "enemyKda": [
+              9,
+              6,
+              6
+            ],
+            "allyGold": 16305,
+            "enemyGold": 18785,
+            "goldDiff": -2480,
+            "allyCs": 130,
+            "enemyCs": 121,
+            "csDiff": 9,
+            "allyDamage": 12774,
+            "enemyDamage": 23220
+          },
+          "UTILITY": {
+            "allyChampion": "Blitzcrank",
+            "enemyChampion": "Lux",
+            "allyKda": [
+              3,
+              8,
+              12
+            ],
+            "enemyKda": [
+              2,
+              5,
+              20
+            ],
+            "allyGold": 16169,
+            "enemyGold": 16938,
+            "goldDiff": -769,
+            "allyCs": 26,
+            "enemyCs": 115,
+            "csDiff": -89,
+            "allyDamage": 19554,
+            "enemyDamage": 34882
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7913975293",
+      "gameCreation": 1763188321237,
+      "gameDuration": 1797,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Yasuo",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300172,
+          "teamGoldDiff": 111,
+          "myLaneGoldDiff": 149,
+          "otherLanesGoldDiff": -38,
+          "myTeamKills": 1,
+          "enemyTeamKills": 1,
+          "killDiff": 0,
+          "botDuoGoldDiff": 39,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Mordekaiser",
+              "allyGold": 1780,
+              "enemyGold": 1598,
+              "goldDiff": 182,
+              "allyCs": 19,
+              "enemyCs": 20,
+              "csDiff": -1,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Viego",
+              "allyGold": 1543,
+              "enemyGold": 1802,
+              "goldDiff": -259,
+              "allyCs": 28,
+              "enemyCs": 23,
+              "csDiff": 5,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 1582,
+              "enemyGold": 1433,
+              "goldDiff": 149,
+              "allyCs": 27,
+              "enemyCs": 20,
+              "csDiff": 7,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Zeri",
+              "enemyChampion": "Ashe",
+              "allyGold": 1577,
+              "enemyGold": 1488,
+              "goldDiff": 89,
+              "allyCs": 29,
+              "enemyCs": 21,
+              "csDiff": 8,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Seraphine",
+              "enemyChampion": "Lux",
+              "allyGold": 1367,
+              "enemyGold": 1417,
+              "goldDiff": -50,
+              "allyCs": 3,
+              "enemyCs": 5,
+              "csDiff": -2,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600234,
+          "teamGoldDiff": 561,
+          "myLaneGoldDiff": 236,
+          "otherLanesGoldDiff": 325,
+          "myTeamKills": 3,
+          "enemyTeamKills": 1,
+          "killDiff": 2,
+          "botDuoGoldDiff": -185,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Mordekaiser",
+              "allyGold": 4168,
+              "enemyGold": 3151,
+              "goldDiff": 1017,
+              "allyCs": 41,
+              "enemyCs": 55,
+              "csDiff": -14,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Viego",
+              "allyGold": 2871,
+              "enemyGold": 3378,
+              "goldDiff": -507,
+              "allyCs": 52,
+              "enemyCs": 63,
+              "csDiff": -11,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 3175,
+              "enemyGold": 2939,
+              "goldDiff": 236,
+              "allyCs": 65,
+              "enemyCs": 42,
+              "csDiff": 23,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Zeri",
+              "enemyChampion": "Ashe",
+              "allyGold": 2862,
+              "enemyGold": 2943,
+              "goldDiff": -81,
+              "allyCs": 49,
+              "enemyCs": 50,
+              "csDiff": -1,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Seraphine",
+              "enemyChampion": "Lux",
+              "allyGold": 2847,
+              "enemyGold": 2951,
+              "goldDiff": -104,
+              "allyCs": 13,
+              "enemyCs": 15,
+              "csDiff": -2,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900294,
+          "teamGoldDiff": 2357,
+          "myLaneGoldDiff": 956,
+          "otherLanesGoldDiff": 1401,
+          "myTeamKills": 11,
+          "enemyTeamKills": 4,
+          "killDiff": 7,
+          "botDuoGoldDiff": 248,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Mordekaiser",
+              "allyGold": 7194,
+              "enemyGold": 5207,
+              "goldDiff": 1987,
+              "allyCs": 71,
+              "enemyCs": 77,
+              "csDiff": -6,
+              "allyLevel": 13,
+              "enemyLevel": 11,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Viego",
+              "allyGold": 5744,
+              "enemyGold": 6578,
+              "goldDiff": -834,
+              "allyCs": 73,
+              "enemyCs": 93,
+              "csDiff": -20,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 6493,
+              "enemyGold": 5537,
+              "goldDiff": 956,
+              "allyCs": 105,
+              "enemyCs": 74,
+              "csDiff": 31,
+              "allyLevel": 13,
+              "enemyLevel": 12,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Zeri",
+              "enemyChampion": "Ashe",
+              "allyGold": 5291,
+              "enemyGold": 5389,
+              "goldDiff": -98,
+              "allyCs": 84,
+              "enemyCs": 65,
+              "csDiff": 19,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Seraphine",
+              "enemyChampion": "Lux",
+              "allyGold": 5396,
+              "enemyGold": 5050,
+              "goldDiff": 346,
+              "allyCs": 18,
+              "enemyCs": 25,
+              "csDiff": -7,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200388,
+          "teamGoldDiff": 3217,
+          "myLaneGoldDiff": 723,
+          "otherLanesGoldDiff": 2494,
+          "myTeamKills": 18,
+          "enemyTeamKills": 8,
+          "killDiff": 10,
+          "botDuoGoldDiff": 1420,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Jax",
+              "enemyChampion": "Mordekaiser",
+              "allyGold": 11241,
+              "enemyGold": 8548,
+              "goldDiff": 2693,
+              "allyCs": 109,
+              "enemyCs": 115,
+              "csDiff": -6,
+              "allyLevel": 16,
+              "enemyLevel": 14,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Viego",
+              "allyGold": 8194,
+              "enemyGold": 9813,
+              "goldDiff": -1619,
+              "allyCs": 88,
+              "enemyCs": 127,
+              "csDiff": -39,
+              "allyLevel": 13,
+              "enemyLevel": 15,
+              "levelDiff": -2
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 9170,
+              "enemyGold": 8447,
+              "goldDiff": 723,
+              "allyCs": 142,
+              "enemyCs": 104,
+              "csDiff": 38,
+              "allyLevel": 16,
+              "enemyLevel": 14,
+              "levelDiff": 2
+            },
+            "BOTTOM": {
+              "allyChampion": "Zeri",
+              "enemyChampion": "Ashe",
+              "allyGold": 8723,
+              "enemyGold": 8518,
+              "goldDiff": 205,
+              "allyCs": 100,
+              "enemyCs": 78,
+              "csDiff": 22,
+              "allyLevel": 14,
+              "enemyLevel": 14,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Seraphine",
+              "enemyChampion": "Lux",
+              "allyGold": 9363,
+              "enemyGold": 8148,
+              "goldDiff": 1215,
+              "allyCs": 34,
+              "enemyCs": 34,
+              "csDiff": 0,
+              "allyLevel": 14,
+              "enemyLevel": 14,
+              "levelDiff": 0
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 41,
+        "enemyTeamKills": 19,
+        "killDiff": 22,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Jax",
+            "enemyChampion": "Mordekaiser",
+            "allyKda": [
+              15,
+              5,
+              6
+            ],
+            "enemyKda": [
+              3,
+              12,
+              4
+            ],
+            "allyGold": 19732,
+            "enemyGold": 17260,
+            "goldDiff": 2472,
+            "allyCs": 146,
+            "enemyCs": 163,
+            "csDiff": -17,
+            "allyDamage": 40335,
+            "enemyDamage": 20819
+          },
+          "JUNGLE": {
+            "allyChampion": "Sylas",
+            "enemyChampion": "Viego",
+            "allyKda": [
+              10,
+              6,
+              10
+            ],
+            "enemyKda": [
+              9,
+              7,
+              3
+            ],
+            "allyGold": 18470,
+            "enemyGold": 16548,
+            "goldDiff": 1922,
+            "allyCs": 142,
+            "enemyCs": 156,
+            "csDiff": -14,
+            "allyDamage": 39133,
+            "enemyDamage": 18365
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Yasuo",
+            "allyKda": [
+              7,
+              4,
+              5
+            ],
+            "enemyKda": [
+              0,
+              7,
+              2
+            ],
+            "allyGold": 16567,
+            "enemyGold": 14748,
+            "goldDiff": 1819,
+            "allyCs": 174,
+            "enemyCs": 166,
+            "csDiff": 8,
+            "allyDamage": 21327,
+            "enemyDamage": 9602
+          },
+          "BOTTOM": {
+            "allyChampion": "Zeri",
+            "enemyChampion": "Ashe",
+            "allyKda": [
+              3,
+              3,
+              12
+            ],
+            "enemyKda": [
+              5,
+              9,
+              4
+            ],
+            "allyGold": 17512,
+            "enemyGold": 16766,
+            "goldDiff": 746,
+            "allyCs": 152,
+            "enemyCs": 113,
+            "csDiff": 39,
+            "allyDamage": 15332,
+            "enemyDamage": 15767
+          },
+          "UTILITY": {
+            "allyChampion": "Seraphine",
+            "enemyChampion": "Lux",
+            "allyKda": [
+              6,
+              1,
+              13
+            ],
+            "enemyKda": [
+              2,
+              6,
+              4
+            ],
+            "allyGold": 16110,
+            "enemyGold": 15203,
+            "goldDiff": 907,
+            "allyCs": 51,
+            "enemyCs": 61,
+            "csDiff": -10,
+            "allyDamage": 18355,
+            "enemyDamage": 31195
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7912606400",
+      "gameCreation": 1763118078960,
+      "gameDuration": 1020,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Neeko",
+      "position": "UTILITY",
+      "opponent": "Xerath",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300164,
+          "teamGoldDiff": 771,
+          "myLaneGoldDiff": 227,
+          "otherLanesGoldDiff": 544,
+          "myTeamKills": 4,
+          "enemyTeamKills": 2,
+          "killDiff": 2,
+          "botDuoGoldDiff": 491,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Gwen",
+              "enemyChampion": "Yone",
+              "allyGold": 1262,
+              "enemyGold": 1912,
+              "goldDiff": -650,
+              "allyCs": 17,
+              "enemyCs": 23,
+              "csDiff": -6,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Talon",
+              "enemyChampion": "Warwick",
+              "allyGold": 1536,
+              "enemyGold": 1558,
+              "goldDiff": -22,
+              "allyCs": 25,
+              "enemyCs": 28,
+              "csDiff": -3,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Zed",
+              "enemyChampion": "Akali",
+              "allyGold": 2265,
+              "enemyGold": 1313,
+              "goldDiff": 952,
+              "allyCs": 25,
+              "enemyCs": 23,
+              "csDiff": 2,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "DrMundo",
+              "enemyChampion": "MissFortune",
+              "allyGold": 1551,
+              "enemyGold": 1287,
+              "goldDiff": 264,
+              "allyCs": 32,
+              "enemyCs": 20,
+              "csDiff": 12,
+              "allyLevel": 4,
+              "enemyLevel": 3,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Xerath",
+              "allyGold": 1448,
+              "enemyGold": 1221,
+              "goldDiff": 227,
+              "allyCs": 8,
+              "enemyCs": 7,
+              "csDiff": 1,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600269,
+          "teamGoldDiff": -1478,
+          "myLaneGoldDiff": -581,
+          "otherLanesGoldDiff": -897,
+          "myTeamKills": 7,
+          "enemyTeamKills": 7,
+          "killDiff": 0,
+          "botDuoGoldDiff": -1001,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Gwen",
+              "enemyChampion": "Yone",
+              "allyGold": 2677,
+              "enemyGold": 3929,
+              "goldDiff": -1252,
+              "allyCs": 37,
+              "enemyCs": 66,
+              "csDiff": -29,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Talon",
+              "enemyChampion": "Warwick",
+              "allyGold": 3219,
+              "enemyGold": 3788,
+              "goldDiff": -569,
+              "allyCs": 45,
+              "enemyCs": 50,
+              "csDiff": -5,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Zed",
+              "enemyChampion": "Akali",
+              "allyGold": 4015,
+              "enemyGold": 2671,
+              "goldDiff": 1344,
+              "allyCs": 61,
+              "enemyCs": 51,
+              "csDiff": 10,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "DrMundo",
+              "enemyChampion": "MissFortune",
+              "allyGold": 2691,
+              "enemyGold": 3111,
+              "goldDiff": -420,
+              "allyCs": 54,
+              "enemyCs": 52,
+              "csDiff": 2,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Xerath",
+              "allyGold": 2503,
+              "enemyGold": 3084,
+              "goldDiff": -581,
+              "allyCs": 16,
+              "enemyCs": 20,
+              "csDiff": -4,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900379,
+          "teamGoldDiff": -4695,
+          "myLaneGoldDiff": -1237,
+          "otherLanesGoldDiff": -3458,
+          "myTeamKills": 12,
+          "enemyTeamKills": 17,
+          "killDiff": -5,
+          "botDuoGoldDiff": -2446,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Gwen",
+              "enemyChampion": "Yone",
+              "allyGold": 3606,
+              "enemyGold": 7241,
+              "goldDiff": -3635,
+              "allyCs": 46,
+              "enemyCs": 108,
+              "csDiff": -62,
+              "allyLevel": 9,
+              "enemyLevel": 12,
+              "levelDiff": -3
+            },
+            "JUNGLE": {
+              "allyChampion": "Talon",
+              "enemyChampion": "Warwick",
+              "allyGold": 5779,
+              "enemyGold": 5875,
+              "goldDiff": -96,
+              "allyCs": 74,
+              "enemyCs": 98,
+              "csDiff": -24,
+              "allyLevel": 9,
+              "enemyLevel": 10,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Zed",
+              "enemyChampion": "Akali",
+              "allyGold": 5876,
+              "enemyGold": 4394,
+              "goldDiff": 1482,
+              "allyCs": 91,
+              "enemyCs": 77,
+              "csDiff": 14,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "DrMundo",
+              "enemyChampion": "MissFortune",
+              "allyGold": 3984,
+              "enemyGold": 5193,
+              "goldDiff": -1209,
+              "allyCs": 76,
+              "enemyCs": 86,
+              "csDiff": -10,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Xerath",
+              "allyGold": 3539,
+              "enemyGold": 4776,
+              "goldDiff": -1237,
+              "allyCs": 24,
+              "enemyCs": 28,
+              "csDiff": -4,
+              "allyLevel": 8,
+              "enemyLevel": 9,
+              "levelDiff": -1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 13,
+        "enemyTeamKills": 22,
+        "killDiff": -9,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Gwen",
+            "enemyChampion": "Yone",
+            "allyKda": [
+              2,
+              8,
+              1
+            ],
+            "enemyKda": [
+              7,
+              3,
+              2
+            ],
+            "allyGold": 4647,
+            "enemyGold": 8649,
+            "goldDiff": -4002,
+            "allyCs": 56,
+            "enemyCs": 123,
+            "csDiff": -67,
+            "allyDamage": 7623,
+            "enemyDamage": 15286
+          },
+          "JUNGLE": {
+            "allyChampion": "Talon",
+            "enemyChampion": "Warwick",
+            "allyKda": [
+              4,
+              5,
+              3
+            ],
+            "enemyKda": [
+              8,
+              1,
+              1
+            ],
+            "allyGold": 6210,
+            "enemyGold": 8414,
+            "goldDiff": -2204,
+            "allyCs": 82,
+            "enemyCs": 104,
+            "csDiff": -22,
+            "allyDamage": 10104,
+            "enemyDamage": 9198
+          },
+          "MIDDLE": {
+            "allyChampion": "Zed",
+            "enemyChampion": "Akali",
+            "allyKda": [
+              6,
+              4,
+              0
+            ],
+            "enemyKda": [
+              2,
+              5,
+              3
+            ],
+            "allyGold": 6299,
+            "enemyGold": 5273,
+            "goldDiff": 1026,
+            "allyCs": 98,
+            "enemyCs": 82,
+            "csDiff": 16,
+            "allyDamage": 11213,
+            "enemyDamage": 8632
+          },
+          "BOTTOM": {
+            "allyChampion": "DrMundo",
+            "enemyChampion": "MissFortune",
+            "allyKda": [
+              0,
+              2,
+              2
+            ],
+            "enemyKda": [
+              2,
+              2,
+              2
+            ],
+            "allyGold": 4484,
+            "enemyGold": 5995,
+            "goldDiff": -1511,
+            "allyCs": 87,
+            "enemyCs": 101,
+            "csDiff": -14,
+            "allyDamage": 5682,
+            "enemyDamage": 7545
+          },
+          "UTILITY": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Xerath",
+            "allyKda": [
+              1,
+              3,
+              1
+            ],
+            "enemyKda": [
+              3,
+              2,
+              2
+            ],
+            "allyGold": 3844,
+            "enemyGold": 5355,
+            "goldDiff": -1511,
+            "allyCs": 24,
+            "enemyCs": 31,
+            "csDiff": -7,
+            "allyDamage": 7145,
+            "enemyDamage": 15900
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7912339998",
+      "gameCreation": 1763107113642,
+      "gameDuration": 1172,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "JarvanIV",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300184,
+          "teamGoldDiff": -247,
+          "myLaneGoldDiff": -56,
+          "otherLanesGoldDiff": -191,
+          "myTeamKills": 1,
+          "enemyTeamKills": 1,
+          "killDiff": 0,
+          "botDuoGoldDiff": -548,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Yone",
+              "allyGold": 1676,
+              "enemyGold": 1451,
+              "goldDiff": 225,
+              "allyCs": 18,
+              "enemyCs": 21,
+              "csDiff": -3,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Graves",
+              "enemyChampion": "Trundle",
+              "allyGold": 1633,
+              "enemyGold": 1501,
+              "goldDiff": 132,
+              "allyCs": 32,
+              "enemyCs": 24,
+              "csDiff": 8,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "JarvanIV",
+              "allyGold": 1410,
+              "enemyGold": 1466,
+              "goldDiff": -56,
+              "allyCs": 21,
+              "enemyCs": 21,
+              "csDiff": 0,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Ezreal",
+              "allyGold": 1306,
+              "enemyGold": 1573,
+              "goldDiff": -267,
+              "allyCs": 16,
+              "enemyCs": 23,
+              "csDiff": -7,
+              "allyLevel": 3,
+              "enemyLevel": 4,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "TahmKench",
+              "enemyChampion": "Caitlyn",
+              "allyGold": 1371,
+              "enemyGold": 1652,
+              "goldDiff": -281,
+              "allyCs": 9,
+              "enemyCs": 3,
+              "csDiff": 6,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600280,
+          "teamGoldDiff": 2023,
+          "myLaneGoldDiff": 641,
+          "otherLanesGoldDiff": 1382,
+          "myTeamKills": 6,
+          "enemyTeamKills": 2,
+          "killDiff": 4,
+          "botDuoGoldDiff": 766,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Yone",
+              "allyGold": 3504,
+              "enemyGold": 3049,
+              "goldDiff": 455,
+              "allyCs": 49,
+              "enemyCs": 54,
+              "csDiff": -5,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Graves",
+              "enemyChampion": "Trundle",
+              "allyGold": 3317,
+              "enemyGold": 3156,
+              "goldDiff": 161,
+              "allyCs": 69,
+              "enemyCs": 54,
+              "csDiff": 15,
+              "allyLevel": 8,
+              "enemyLevel": 7,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "JarvanIV",
+              "allyGold": 3596,
+              "enemyGold": 2955,
+              "goldDiff": 641,
+              "allyCs": 56,
+              "enemyCs": 49,
+              "csDiff": 7,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Ezreal",
+              "allyGold": 3332,
+              "enemyGold": 3006,
+              "goldDiff": 326,
+              "allyCs": 42,
+              "enemyCs": 38,
+              "csDiff": 4,
+              "allyLevel": 8,
+              "enemyLevel": 7,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "TahmKench",
+              "enemyChampion": "Caitlyn",
+              "allyGold": 3982,
+              "enemyGold": 3542,
+              "goldDiff": 440,
+              "allyCs": 18,
+              "enemyCs": 13,
+              "csDiff": 5,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900359,
+          "teamGoldDiff": 3039,
+          "myLaneGoldDiff": 525,
+          "otherLanesGoldDiff": 2514,
+          "myTeamKills": 11,
+          "enemyTeamKills": 3,
+          "killDiff": 8,
+          "botDuoGoldDiff": 2612,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Yone",
+              "allyGold": 5439,
+              "enemyGold": 5410,
+              "goldDiff": 29,
+              "allyCs": 78,
+              "enemyCs": 95,
+              "csDiff": -17,
+              "allyLevel": 12,
+              "enemyLevel": 12,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Graves",
+              "enemyChampion": "Trundle",
+              "allyGold": 5522,
+              "enemyGold": 5649,
+              "goldDiff": -127,
+              "allyCs": 102,
+              "enemyCs": 87,
+              "csDiff": 15,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "JarvanIV",
+              "allyGold": 5330,
+              "enemyGold": 4805,
+              "goldDiff": 525,
+              "allyCs": 78,
+              "enemyCs": 65,
+              "csDiff": 13,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Ezreal",
+              "allyGold": 6544,
+              "enemyGold": 4830,
+              "goldDiff": 1714,
+              "allyCs": 72,
+              "enemyCs": 52,
+              "csDiff": 20,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "TahmKench",
+              "enemyChampion": "Caitlyn",
+              "allyGold": 6396,
+              "enemyGold": 5498,
+              "goldDiff": 898,
+              "allyCs": 22,
+              "enemyCs": 35,
+              "csDiff": -13,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 22,
+        "enemyTeamKills": 6,
+        "killDiff": 16,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Yone",
+            "enemyChampion": "Yone",
+            "allyKda": [
+              7,
+              0,
+              5
+            ],
+            "enemyKda": [
+              0,
+              3,
+              1
+            ],
+            "allyGold": 9623,
+            "enemyGold": 7780,
+            "goldDiff": 1843,
+            "allyCs": 95,
+            "enemyCs": 125,
+            "csDiff": -30,
+            "allyDamage": 16444,
+            "enemyDamage": 9947
+          },
+          "JUNGLE": {
+            "allyChampion": "Graves",
+            "enemyChampion": "Trundle",
+            "allyKda": [
+              5,
+              2,
+              5
+            ],
+            "enemyKda": [
+              1,
+              3,
+              1
+            ],
+            "allyGold": 10590,
+            "enemyGold": 7177,
+            "goldDiff": 3413,
+            "allyCs": 140,
+            "enemyCs": 94,
+            "csDiff": 46,
+            "allyDamage": 14180,
+            "enemyDamage": 6225
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "JarvanIV",
+            "allyKda": [
+              4,
+              1,
+              7
+            ],
+            "enemyKda": [
+              2,
+              8,
+              1
+            ],
+            "allyGold": 8467,
+            "enemyGold": 7524,
+            "goldDiff": 943,
+            "allyCs": 90,
+            "enemyCs": 68,
+            "csDiff": 22,
+            "allyDamage": 10282,
+            "enemyDamage": 9967
+          },
+          "BOTTOM": {
+            "allyChampion": "Ashe",
+            "enemyChampion": "Ezreal",
+            "allyKda": [
+              3,
+              1,
+              10
+            ],
+            "enemyKda": [
+              0,
+              3,
+              3
+            ],
+            "allyGold": 9531,
+            "enemyGold": 7049,
+            "goldDiff": 2482,
+            "allyCs": 88,
+            "enemyCs": 66,
+            "csDiff": 22,
+            "allyDamage": 9819,
+            "enemyDamage": 9643
+          },
+          "UTILITY": {
+            "allyChampion": "TahmKench",
+            "enemyChampion": "Caitlyn",
+            "allyKda": [
+              3,
+              2,
+              9
+            ],
+            "enemyKda": [
+              3,
+              5,
+              1
+            ],
+            "allyGold": 8834,
+            "enemyGold": 7398,
+            "goldDiff": 1436,
+            "allyCs": 25,
+            "enemyCs": 38,
+            "csDiff": -13,
+            "allyDamage": 13373,
+            "enemyDamage": 9526
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7910878310",
+      "gameCreation": 1763016910492,
+      "gameDuration": 1272,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Irelia",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300146,
+          "teamGoldDiff": 1131,
+          "myLaneGoldDiff": 144,
+          "otherLanesGoldDiff": 987,
+          "myTeamKills": 3,
+          "enemyTeamKills": 1,
+          "killDiff": 2,
+          "botDuoGoldDiff": 746,
+          "roles": {
+            "TOP": {
+              "allyChampion": "DrMundo",
+              "enemyChampion": "Darius",
+              "allyGold": 1526,
+              "enemyGold": 1489,
+              "goldDiff": 37,
+              "allyCs": 27,
+              "enemyCs": 24,
+              "csDiff": 3,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Amumu",
+              "enemyChampion": "Sylas",
+              "allyGold": 1650,
+              "enemyGold": 1446,
+              "goldDiff": 204,
+              "allyCs": 24,
+              "enemyCs": 24,
+              "csDiff": 0,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Irelia",
+              "allyGold": 1633,
+              "enemyGold": 1489,
+              "goldDiff": 144,
+              "allyCs": 16,
+              "enemyCs": 27,
+              "csDiff": -11,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Jinx",
+              "allyGold": 1647,
+              "enemyGold": 1220,
+              "goldDiff": 427,
+              "allyCs": 25,
+              "enemyCs": 10,
+              "csDiff": 15,
+              "allyLevel": 4,
+              "enemyLevel": 3,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Blitzcrank",
+              "allyGold": 1911,
+              "enemyGold": 1592,
+              "goldDiff": 319,
+              "allyCs": 1,
+              "enemyCs": 5,
+              "csDiff": -4,
+              "allyLevel": 4,
+              "enemyLevel": 3,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600251,
+          "teamGoldDiff": 3070,
+          "myLaneGoldDiff": 709,
+          "otherLanesGoldDiff": 2361,
+          "myTeamKills": 10,
+          "enemyTeamKills": 1,
+          "killDiff": 9,
+          "botDuoGoldDiff": 973,
+          "roles": {
+            "TOP": {
+              "allyChampion": "DrMundo",
+              "enemyChampion": "Darius",
+              "allyGold": 3946,
+              "enemyGold": 2827,
+              "goldDiff": 1119,
+              "allyCs": 58,
+              "enemyCs": 37,
+              "csDiff": 21,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Amumu",
+              "enemyChampion": "Sylas",
+              "allyGold": 3208,
+              "enemyGold": 2939,
+              "goldDiff": 269,
+              "allyCs": 48,
+              "enemyCs": 47,
+              "csDiff": 1,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Irelia",
+              "allyGold": 4017,
+              "enemyGold": 3308,
+              "goldDiff": 709,
+              "allyCs": 53,
+              "enemyCs": 76,
+              "csDiff": -23,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Jinx",
+              "allyGold": 3390,
+              "enemyGold": 2896,
+              "goldDiff": 494,
+              "allyCs": 44,
+              "enemyCs": 32,
+              "csDiff": 12,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Blitzcrank",
+              "allyGold": 3587,
+              "enemyGold": 3108,
+              "goldDiff": 479,
+              "allyCs": 5,
+              "enemyCs": 17,
+              "csDiff": -12,
+              "allyLevel": 8,
+              "enemyLevel": 7,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900348,
+          "teamGoldDiff": 3170,
+          "myLaneGoldDiff": 640,
+          "otherLanesGoldDiff": 2530,
+          "myTeamKills": 19,
+          "enemyTeamKills": 5,
+          "killDiff": 14,
+          "botDuoGoldDiff": 2034,
+          "roles": {
+            "TOP": {
+              "allyChampion": "DrMundo",
+              "enemyChampion": "Darius",
+              "allyGold": 5937,
+              "enemyGold": 5286,
+              "goldDiff": 651,
+              "allyCs": 83,
+              "enemyCs": 54,
+              "csDiff": 29,
+              "allyLevel": 12,
+              "enemyLevel": 12,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Amumu",
+              "enemyChampion": "Sylas",
+              "allyGold": 5068,
+              "enemyGold": 5223,
+              "goldDiff": -155,
+              "allyCs": 53,
+              "enemyCs": 69,
+              "csDiff": -16,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Irelia",
+              "allyGold": 6084,
+              "enemyGold": 5444,
+              "goldDiff": 640,
+              "allyCs": 68,
+              "enemyCs": 101,
+              "csDiff": -33,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Jinx",
+              "allyGold": 7278,
+              "enemyGold": 6065,
+              "goldDiff": 1213,
+              "allyCs": 59,
+              "enemyCs": 44,
+              "csDiff": 15,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Blitzcrank",
+              "allyGold": 5918,
+              "enemyGold": 5097,
+              "goldDiff": 821,
+              "allyCs": 7,
+              "enemyCs": 22,
+              "csDiff": -15,
+              "allyLevel": 11,
+              "enemyLevel": 10,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200418,
+          "teamGoldDiff": 4064,
+          "myLaneGoldDiff": 1502,
+          "otherLanesGoldDiff": 2562,
+          "myTeamKills": 28,
+          "enemyTeamKills": 9,
+          "killDiff": 19,
+          "botDuoGoldDiff": 1812,
+          "roles": {
+            "TOP": {
+              "allyChampion": "DrMundo",
+              "enemyChampion": "Darius",
+              "allyGold": 8569,
+              "enemyGold": 7847,
+              "goldDiff": 722,
+              "allyCs": 89,
+              "enemyCs": 64,
+              "csDiff": 25,
+              "allyLevel": 14,
+              "enemyLevel": 13,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Amumu",
+              "enemyChampion": "Sylas",
+              "allyGold": 8500,
+              "enemyGold": 8472,
+              "goldDiff": 28,
+              "allyCs": 69,
+              "enemyCs": 107,
+              "csDiff": -38,
+              "allyLevel": 14,
+              "enemyLevel": 13,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Irelia",
+              "allyGold": 9784,
+              "enemyGold": 8282,
+              "goldDiff": 1502,
+              "allyCs": 82,
+              "enemyCs": 131,
+              "csDiff": -49,
+              "allyLevel": 15,
+              "enemyLevel": 13,
+              "levelDiff": 2
+            },
+            "BOTTOM": {
+              "allyChampion": "Yunara",
+              "enemyChampion": "Jinx",
+              "allyGold": 10394,
+              "enemyGold": 9380,
+              "goldDiff": 1014,
+              "allyCs": 80,
+              "enemyCs": 63,
+              "csDiff": 17,
+              "allyLevel": 15,
+              "enemyLevel": 13,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Shaco",
+              "enemyChampion": "Blitzcrank",
+              "allyGold": 9476,
+              "enemyGold": 8678,
+              "goldDiff": 798,
+              "allyCs": 14,
+              "enemyCs": 25,
+              "csDiff": -11,
+              "allyLevel": 14,
+              "enemyLevel": 13,
+              "levelDiff": 1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 33,
+        "enemyTeamKills": 11,
+        "killDiff": 22,
+        "roles": {
+          "TOP": {
+            "allyChampion": "DrMundo",
+            "enemyChampion": "Darius",
+            "allyKda": [
+              3,
+              2,
+              4
+            ],
+            "enemyKda": [
+              1,
+              6,
+              3
+            ],
+            "allyGold": 9720,
+            "enemyGold": 9122,
+            "goldDiff": 598,
+            "allyCs": 89,
+            "enemyCs": 68,
+            "csDiff": 21,
+            "allyDamage": 11224,
+            "enemyDamage": 6130
+          },
+          "JUNGLE": {
+            "allyChampion": "Amumu",
+            "enemyChampion": "Sylas",
+            "allyKda": [
+              2,
+              3,
+              12
+            ],
+            "enemyKda": [
+              2,
+              7,
+              3
+            ],
+            "allyGold": 9816,
+            "enemyGold": 9470,
+            "goldDiff": 346,
+            "allyCs": 69,
+            "enemyCs": 110,
+            "csDiff": -41,
+            "allyDamage": 12590,
+            "enemyDamage": 11284
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Irelia",
+            "allyKda": [
+              10,
+              0,
+              9
+            ],
+            "enemyKda": [
+              0,
+              7,
+              1
+            ],
+            "allyGold": 10932,
+            "enemyGold": 8858,
+            "goldDiff": 2074,
+            "allyCs": 86,
+            "enemyCs": 135,
+            "csDiff": -49,
+            "allyDamage": 16010,
+            "enemyDamage": 5607
+          },
+          "BOTTOM": {
+            "allyChampion": "Yunara",
+            "enemyChampion": "Jinx",
+            "allyKda": [
+              11,
+              4,
+              8
+            ],
+            "enemyKda": [
+              5,
+              11,
+              2
+            ],
+            "allyGold": 12233,
+            "enemyGold": 9822,
+            "goldDiff": 2411,
+            "allyCs": 94,
+            "enemyCs": 66,
+            "csDiff": 28,
+            "allyDamage": 21484,
+            "enemyDamage": 8561
+          },
+          "UTILITY": {
+            "allyChampion": "Shaco",
+            "enemyChampion": "Blitzcrank",
+            "allyKda": [
+              7,
+              2,
+              7
+            ],
+            "enemyKda": [
+              3,
+              2,
+              5
+            ],
+            "allyGold": 10062,
+            "enemyGold": 8994,
+            "goldDiff": 1068,
+            "allyCs": 17,
+            "enemyCs": 26,
+            "csDiff": -9,
+            "allyDamage": 16642,
+            "enemyDamage": 11051
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7910840663",
+      "gameCreation": 1763015140180,
+      "gameDuration": 1419,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Yasuo",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300084,
+          "teamGoldDiff": -1451,
+          "myLaneGoldDiff": -115,
+          "otherLanesGoldDiff": -1336,
+          "myTeamKills": 1,
+          "enemyTeamKills": 5,
+          "killDiff": -4,
+          "botDuoGoldDiff": -709,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Volibear",
+              "allyGold": 1672,
+              "enemyGold": 1906,
+              "goldDiff": -234,
+              "allyCs": 20,
+              "enemyCs": 15,
+              "csDiff": 5,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Kayn",
+              "enemyChampion": "XinZhao",
+              "allyGold": 1453,
+              "enemyGold": 1846,
+              "goldDiff": -393,
+              "allyCs": 22,
+              "enemyCs": 24,
+              "csDiff": -2,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 1489,
+              "enemyGold": 1604,
+              "goldDiff": -115,
+              "allyCs": 16,
+              "enemyCs": 29,
+              "csDiff": -13,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Ziggs",
+              "allyGold": 1479,
+              "enemyGold": 1741,
+              "goldDiff": -262,
+              "allyCs": 15,
+              "enemyCs": 11,
+              "csDiff": 4,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Mel",
+              "enemyChampion": "MissFortune",
+              "allyGold": 1486,
+              "enemyGold": 1933,
+              "goldDiff": -447,
+              "allyCs": 16,
+              "enemyCs": 2,
+              "csDiff": 14,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600260,
+          "teamGoldDiff": 331,
+          "myLaneGoldDiff": -218,
+          "otherLanesGoldDiff": 549,
+          "myTeamKills": 8,
+          "enemyTeamKills": 8,
+          "killDiff": 0,
+          "botDuoGoldDiff": -726,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Volibear",
+              "allyGold": 4237,
+              "enemyGold": 3500,
+              "goldDiff": 737,
+              "allyCs": 71,
+              "enemyCs": 44,
+              "csDiff": 27,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Kayn",
+              "enemyChampion": "XinZhao",
+              "allyGold": 4147,
+              "enemyGold": 3609,
+              "goldDiff": 538,
+              "allyCs": 46,
+              "enemyCs": 57,
+              "csDiff": -11,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 3531,
+              "enemyGold": 3749,
+              "goldDiff": -218,
+              "allyCs": 43,
+              "enemyCs": 57,
+              "csDiff": -14,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Ziggs",
+              "allyGold": 3297,
+              "enemyGold": 3903,
+              "goldDiff": -606,
+              "allyCs": 26,
+              "enemyCs": 33,
+              "csDiff": -7,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Mel",
+              "enemyChampion": "MissFortune",
+              "allyGold": 3790,
+              "enemyGold": 3910,
+              "goldDiff": -120,
+              "allyCs": 31,
+              "enemyCs": 10,
+              "csDiff": 21,
+              "allyLevel": 8,
+              "enemyLevel": 7,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900347,
+          "teamGoldDiff": -461,
+          "myLaneGoldDiff": 246,
+          "otherLanesGoldDiff": -707,
+          "myTeamKills": 15,
+          "enemyTeamKills": 14,
+          "killDiff": 1,
+          "botDuoGoldDiff": -1674,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Volibear",
+              "allyGold": 7297,
+              "enemyGold": 7206,
+              "goldDiff": 91,
+              "allyCs": 106,
+              "enemyCs": 67,
+              "csDiff": 39,
+              "allyLevel": 13,
+              "enemyLevel": 12,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Kayn",
+              "enemyChampion": "XinZhao",
+              "allyGold": 7492,
+              "enemyGold": 6616,
+              "goldDiff": 876,
+              "allyCs": 77,
+              "enemyCs": 74,
+              "csDiff": 3,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 6120,
+              "enemyGold": 5874,
+              "goldDiff": 246,
+              "allyCs": 90,
+              "enemyCs": 77,
+              "csDiff": 13,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Ziggs",
+              "allyGold": 6277,
+              "enemyGold": 6842,
+              "goldDiff": -565,
+              "allyCs": 31,
+              "enemyCs": 52,
+              "csDiff": -21,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Mel",
+              "enemyChampion": "MissFortune",
+              "allyGold": 6089,
+              "enemyGold": 7198,
+              "goldDiff": -1109,
+              "allyCs": 51,
+              "enemyCs": 37,
+              "csDiff": 14,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200459,
+          "teamGoldDiff": 2446,
+          "myLaneGoldDiff": 1121,
+          "otherLanesGoldDiff": 1325,
+          "myTeamKills": 22,
+          "enemyTeamKills": 16,
+          "killDiff": 6,
+          "botDuoGoldDiff": 257,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Volibear",
+              "allyGold": 9370,
+              "enemyGold": 10194,
+              "goldDiff": -824,
+              "allyCs": 133,
+              "enemyCs": 106,
+              "csDiff": 27,
+              "allyLevel": 15,
+              "enemyLevel": 16,
+              "levelDiff": -1
+            },
+            "JUNGLE": {
+              "allyChampion": "Kayn",
+              "enemyChampion": "XinZhao",
+              "allyGold": 10683,
+              "enemyGold": 8791,
+              "goldDiff": 1892,
+              "allyCs": 108,
+              "enemyCs": 108,
+              "csDiff": 0,
+              "allyLevel": 15,
+              "enemyLevel": 14,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Yasuo",
+              "allyGold": 9228,
+              "enemyGold": 8107,
+              "goldDiff": 1121,
+              "allyCs": 115,
+              "enemyCs": 90,
+              "csDiff": 25,
+              "allyLevel": 16,
+              "enemyLevel": 12,
+              "levelDiff": 4
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Ziggs",
+              "allyGold": 9534,
+              "enemyGold": 8845,
+              "goldDiff": 689,
+              "allyCs": 49,
+              "enemyCs": 74,
+              "csDiff": -25,
+              "allyLevel": 15,
+              "enemyLevel": 13,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Mel",
+              "enemyChampion": "MissFortune",
+              "allyGold": 8827,
+              "enemyGold": 9259,
+              "goldDiff": -432,
+              "allyCs": 64,
+              "enemyCs": 70,
+              "csDiff": -6,
+              "allyLevel": 14,
+              "enemyLevel": 13,
+              "levelDiff": 1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 35,
+        "enemyTeamKills": 17,
+        "killDiff": 18,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Yone",
+            "enemyChampion": "Volibear",
+            "allyKda": [
+              12,
+              6,
+              3
+            ],
+            "enemyKda": [
+              7,
+              9,
+              0
+            ],
+            "allyGold": 15271,
+            "enemyGold": 11001,
+            "goldDiff": 4270,
+            "allyCs": 154,
+            "enemyCs": 106,
+            "csDiff": 48,
+            "allyDamage": 27498,
+            "enemyDamage": 15532
+          },
+          "JUNGLE": {
+            "allyChampion": "Kayn",
+            "enemyChampion": "XinZhao",
+            "allyKda": [
+              7,
+              2,
+              6
+            ],
+            "enemyKda": [
+              3,
+              6,
+              2
+            ],
+            "allyGold": 12432,
+            "enemyGold": 10282,
+            "goldDiff": 2150,
+            "allyCs": 121,
+            "enemyCs": 112,
+            "csDiff": 9,
+            "allyDamage": 14621,
+            "enemyDamage": 9994
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Yasuo",
+            "allyKda": [
+              5,
+              0,
+              5
+            ],
+            "enemyKda": [
+              2,
+              8,
+              2
+            ],
+            "allyGold": 11997,
+            "enemyGold": 10267,
+            "goldDiff": 1730,
+            "allyCs": 128,
+            "enemyCs": 94,
+            "csDiff": 34,
+            "allyDamage": 10541,
+            "enemyDamage": 10802
+          },
+          "BOTTOM": {
+            "allyChampion": "Ashe",
+            "enemyChampion": "Ziggs",
+            "allyKda": [
+              7,
+              5,
+              12
+            ],
+            "enemyKda": [
+              2,
+              7,
+              3
+            ],
+            "allyGold": 12354,
+            "enemyGold": 10313,
+            "goldDiff": 2041,
+            "allyCs": 55,
+            "enemyCs": 79,
+            "csDiff": -24,
+            "allyDamage": 18316,
+            "enemyDamage": 14566
+          },
+          "UTILITY": {
+            "allyChampion": "Mel",
+            "enemyChampion": "MissFortune",
+            "allyKda": [
+              4,
+              4,
+              9
+            ],
+            "enemyKda": [
+              3,
+              5,
+              3
+            ],
+            "allyGold": 12698,
+            "enemyGold": 11487,
+            "goldDiff": 1211,
+            "allyCs": 78,
+            "enemyCs": 90,
+            "csDiff": -12,
+            "allyDamage": 17249,
+            "enemyDamage": 7034
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7910816790",
+      "gameCreation": 1763013827918,
+      "gameDuration": 1176,
+      "queueId": 480,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Neeko",
+      "position": "MIDDLE",
+      "opponent": "Irelia",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300060,
+          "teamGoldDiff": -18,
+          "myLaneGoldDiff": -62,
+          "otherLanesGoldDiff": 44,
+          "myTeamKills": 2,
+          "enemyTeamKills": 1,
+          "killDiff": 1,
+          "botDuoGoldDiff": -548,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Aatrox",
+              "allyGold": 2020,
+              "enemyGold": 1250,
+              "goldDiff": 770,
+              "allyCs": 25,
+              "enemyCs": 10,
+              "csDiff": 15,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Nautilus",
+              "enemyChampion": "Sylas",
+              "allyGold": 1539,
+              "enemyGold": 1717,
+              "goldDiff": -178,
+              "allyCs": 25,
+              "enemyCs": 36,
+              "csDiff": -11,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Irelia",
+              "allyGold": 1538,
+              "enemyGold": 1600,
+              "goldDiff": -62,
+              "allyCs": 24,
+              "enemyCs": 32,
+              "csDiff": -8,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Ezreal",
+              "allyGold": 1397,
+              "enemyGold": 1656,
+              "goldDiff": -259,
+              "allyCs": 14,
+              "enemyCs": 29,
+              "csDiff": -15,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Soraka",
+              "enemyChampion": "Leona",
+              "allyGold": 1370,
+              "enemyGold": 1659,
+              "goldDiff": -289,
+              "allyCs": 9,
+              "enemyCs": 3,
+              "csDiff": 6,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600132,
+          "teamGoldDiff": -1562,
+          "myLaneGoldDiff": -295,
+          "otherLanesGoldDiff": -1267,
+          "myTeamKills": 5,
+          "enemyTeamKills": 6,
+          "killDiff": -1,
+          "botDuoGoldDiff": -1417,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Aatrox",
+              "allyGold": 3921,
+              "enemyGold": 3448,
+              "goldDiff": 473,
+              "allyCs": 56,
+              "enemyCs": 35,
+              "csDiff": 21,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "JUNGLE": {
+              "allyChampion": "Nautilus",
+              "enemyChampion": "Sylas",
+              "allyGold": 2923,
+              "enemyGold": 3246,
+              "goldDiff": -323,
+              "allyCs": 35,
+              "enemyCs": 56,
+              "csDiff": -21,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Irelia",
+              "allyGold": 3235,
+              "enemyGold": 3530,
+              "goldDiff": -295,
+              "allyCs": 56,
+              "enemyCs": 60,
+              "csDiff": -4,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Ezreal",
+              "allyGold": 3364,
+              "enemyGold": 4358,
+              "goldDiff": -994,
+              "allyCs": 18,
+              "enemyCs": 68,
+              "csDiff": -50,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Soraka",
+              "enemyChampion": "Leona",
+              "allyGold": 2991,
+              "enemyGold": 3414,
+              "goldDiff": -423,
+              "allyCs": 20,
+              "enemyCs": 6,
+              "csDiff": 14,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900344,
+          "teamGoldDiff": -1953,
+          "myLaneGoldDiff": 580,
+          "otherLanesGoldDiff": -2533,
+          "myTeamKills": 9,
+          "enemyTeamKills": 13,
+          "killDiff": -4,
+          "botDuoGoldDiff": -3309,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Yone",
+              "enemyChampion": "Aatrox",
+              "allyGold": 7481,
+              "enemyGold": 6039,
+              "goldDiff": 1442,
+              "allyCs": 87,
+              "enemyCs": 70,
+              "csDiff": 17,
+              "allyLevel": 12,
+              "enemyLevel": 12,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Nautilus",
+              "enemyChampion": "Sylas",
+              "allyGold": 5501,
+              "enemyGold": 6167,
+              "goldDiff": -666,
+              "allyCs": 51,
+              "enemyCs": 72,
+              "csDiff": -21,
+              "allyLevel": 9,
+              "enemyLevel": 10,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Irelia",
+              "allyGold": 6340,
+              "enemyGold": 5760,
+              "goldDiff": 580,
+              "allyCs": 91,
+              "enemyCs": 87,
+              "csDiff": 4,
+              "allyLevel": 12,
+              "enemyLevel": 10,
+              "levelDiff": 2
+            },
+            "BOTTOM": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Ezreal",
+              "allyGold": 5833,
+              "enemyGold": 8730,
+              "goldDiff": -2897,
+              "allyCs": 31,
+              "enemyCs": 104,
+              "csDiff": -73,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Soraka",
+              "enemyChampion": "Leona",
+              "allyGold": 5613,
+              "enemyGold": 6025,
+              "goldDiff": -412,
+              "allyCs": 23,
+              "enemyCs": 6,
+              "csDiff": 17,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 18,
+        "enemyTeamKills": 19,
+        "killDiff": -1,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Yone",
+            "enemyChampion": "Aatrox",
+            "allyKda": [
+              12,
+              2,
+              3
+            ],
+            "enemyKda": [
+              1,
+              6,
+              2
+            ],
+            "allyGold": 14190,
+            "enemyGold": 8859,
+            "goldDiff": 5331,
+            "allyCs": 129,
+            "enemyCs": 90,
+            "csDiff": 39,
+            "allyDamage": 33697,
+            "enemyDamage": 13016
+          },
+          "JUNGLE": {
+            "allyChampion": "Nautilus",
+            "enemyChampion": "Sylas",
+            "allyKda": [
+              1,
+              6,
+              4
+            ],
+            "enemyKda": [
+              8,
+              5,
+              3
+            ],
+            "allyGold": 9021,
+            "enemyGold": 9807,
+            "goldDiff": -786,
+            "allyCs": 58,
+            "enemyCs": 90,
+            "csDiff": -32,
+            "allyDamage": 5139,
+            "enemyDamage": 18076
+          },
+          "MIDDLE": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Irelia",
+            "allyKda": [
+              1,
+              1,
+              7
+            ],
+            "enemyKda": [
+              1,
+              3,
+              5
+            ],
+            "allyGold": 9844,
+            "enemyGold": 9181,
+            "goldDiff": 663,
+            "allyCs": 120,
+            "enemyCs": 125,
+            "csDiff": -5,
+            "allyDamage": 14370,
+            "enemyDamage": 6708
+          },
+          "BOTTOM": {
+            "allyChampion": "Lux",
+            "enemyChampion": "Ezreal",
+            "allyKda": [
+              4,
+              6,
+              5
+            ],
+            "enemyKda": [
+              7,
+              2,
+              3
+            ],
+            "allyGold": 10417,
+            "enemyGold": 10575,
+            "goldDiff": -158,
+            "allyCs": 63,
+            "enemyCs": 138,
+            "csDiff": -75,
+            "allyDamage": 9921,
+            "enemyDamage": 24036
+          },
+          "UTILITY": {
+            "allyChampion": "Soraka",
+            "enemyChampion": "Leona",
+            "allyKda": [
+              0,
+              4,
+              7
+            ],
+            "enemyKda": [
+              2,
+              2,
+              5
+            ],
+            "allyGold": 9291,
+            "enemyGold": 8823,
+            "goldDiff": 468,
+            "allyCs": 23,
+            "enemyCs": 7,
+            "csDiff": 16,
+            "allyDamage": 4999,
+            "enemyDamage": 6895
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7895382430",
+      "gameCreation": 1762064929017,
+      "gameDuration": 1512,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Yone",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300074,
+          "teamGoldDiff": 500,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 10,
+          "enemyTeamKills": 9,
+          "killDiff": 1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600147,
+          "teamGoldDiff": -300,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 23,
+          "enemyTeamKills": 26,
+          "killDiff": -3,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900199,
+          "teamGoldDiff": -1200,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 31,
+          "enemyTeamKills": 43,
+          "killDiff": -12,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200306,
+          "teamGoldDiff": -10475,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 41,
+          "enemyTeamKills": 61,
+          "killDiff": -20,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 41,
+        "enemyTeamKills": 76,
+        "killDiff": -35,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_7884596275",
+      "gameCreation": 1761389158341,
+      "gameDuration": 1017,
+      "queueId": 890,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Neeko",
+      "position": "TOP",
+      "opponent": "Nasus",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300154,
+          "teamGoldDiff": 2538,
+          "myLaneGoldDiff": 489,
+          "otherLanesGoldDiff": 2049,
+          "myTeamKills": 8,
+          "enemyTeamKills": 1,
+          "killDiff": 7,
+          "botDuoGoldDiff": 1647,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Nasus",
+              "allyGold": 2009,
+              "enemyGold": 1520,
+              "goldDiff": 489,
+              "allyCs": 22,
+              "enemyCs": 9,
+              "csDiff": 13,
+              "allyLevel": 5,
+              "enemyLevel": 3,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Vi",
+              "enemyChampion": "DrMundo",
+              "allyGold": 2354,
+              "enemyGold": 1690,
+              "goldDiff": 664,
+              "allyCs": 31,
+              "enemyCs": 14,
+              "csDiff": 17,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Syndra",
+              "enemyChampion": "Xerath",
+              "allyGold": 1853,
+              "enemyGold": 2115,
+              "goldDiff": -262,
+              "allyCs": 18,
+              "enemyCs": 10,
+              "csDiff": 8,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ezreal",
+              "enemyChampion": "Jhin",
+              "allyGold": 3301,
+              "enemyGold": 1602,
+              "goldDiff": 1699,
+              "allyCs": 30,
+              "enemyCs": 8,
+              "csDiff": 22,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Leona",
+              "enemyChampion": "Sona",
+              "allyGold": 1775,
+              "enemyGold": 1827,
+              "goldDiff": -52,
+              "allyCs": 5,
+              "enemyCs": 3,
+              "csDiff": 2,
+              "allyLevel": 3,
+              "enemyLevel": 3,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600254,
+          "teamGoldDiff": 4862,
+          "myLaneGoldDiff": 716,
+          "otherLanesGoldDiff": 4146,
+          "myTeamKills": 20,
+          "enemyTeamKills": 3,
+          "killDiff": 17,
+          "botDuoGoldDiff": 3073,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Nasus",
+              "allyGold": 4713,
+              "enemyGold": 3997,
+              "goldDiff": 716,
+              "allyCs": 56,
+              "enemyCs": 29,
+              "csDiff": 27,
+              "allyLevel": 9,
+              "enemyLevel": 7,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Vi",
+              "enemyChampion": "DrMundo",
+              "allyGold": 5450,
+              "enemyGold": 3767,
+              "goldDiff": 1683,
+              "allyCs": 69,
+              "enemyCs": 28,
+              "csDiff": 41,
+              "allyLevel": 9,
+              "enemyLevel": 6,
+              "levelDiff": 3
+            },
+            "MIDDLE": {
+              "allyChampion": "Syndra",
+              "enemyChampion": "Xerath",
+              "allyGold": 4023,
+              "enemyGold": 4633,
+              "goldDiff": -610,
+              "allyCs": 24,
+              "enemyCs": 34,
+              "csDiff": -10,
+              "allyLevel": 7,
+              "enemyLevel": 8,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ezreal",
+              "enemyChampion": "Jhin",
+              "allyGold": 6425,
+              "enemyGold": 4019,
+              "goldDiff": 2406,
+              "allyCs": 87,
+              "enemyCs": 28,
+              "csDiff": 59,
+              "allyLevel": 9,
+              "enemyLevel": 7,
+              "levelDiff": 2
+            },
+            "UTILITY": {
+              "allyChampion": "Leona",
+              "enemyChampion": "Sona",
+              "allyGold": 4672,
+              "enemyGold": 4005,
+              "goldDiff": 667,
+              "allyCs": 12,
+              "enemyCs": 3,
+              "csDiff": 9,
+              "allyLevel": 8,
+              "enemyLevel": 6,
+              "levelDiff": 2
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900335,
+          "teamGoldDiff": 9085,
+          "myLaneGoldDiff": 1224,
+          "otherLanesGoldDiff": 7861,
+          "myTeamKills": 38,
+          "enemyTeamKills": 4,
+          "killDiff": 34,
+          "botDuoGoldDiff": 4382,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Neeko",
+              "enemyChampion": "Nasus",
+              "allyGold": 8128,
+              "enemyGold": 6904,
+              "goldDiff": 1224,
+              "allyCs": 79,
+              "enemyCs": 44,
+              "csDiff": 35,
+              "allyLevel": 12,
+              "enemyLevel": 10,
+              "levelDiff": 2
+            },
+            "JUNGLE": {
+              "allyChampion": "Vi",
+              "enemyChampion": "DrMundo",
+              "allyGold": 9692,
+              "enemyGold": 7096,
+              "goldDiff": 2596,
+              "allyCs": 128,
+              "enemyCs": 38,
+              "csDiff": 90,
+              "allyLevel": 13,
+              "enemyLevel": 10,
+              "levelDiff": 3
+            },
+            "MIDDLE": {
+              "allyChampion": "Syndra",
+              "enemyChampion": "Xerath",
+              "allyGold": 8095,
+              "enemyGold": 7212,
+              "goldDiff": 883,
+              "allyCs": 53,
+              "enemyCs": 58,
+              "csDiff": -5,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ezreal",
+              "enemyChampion": "Jhin",
+              "allyGold": 10325,
+              "enemyGold": 7052,
+              "goldDiff": 3273,
+              "allyCs": 122,
+              "enemyCs": 48,
+              "csDiff": 74,
+              "allyLevel": 14,
+              "enemyLevel": 10,
+              "levelDiff": 4
+            },
+            "UTILITY": {
+              "allyChampion": "Leona",
+              "enemyChampion": "Sona",
+              "allyGold": 7912,
+              "enemyGold": 6803,
+              "goldDiff": 1109,
+              "allyCs": 15,
+              "enemyCs": 6,
+              "csDiff": 9,
+              "allyLevel": 12,
+              "enemyLevel": 9,
+              "levelDiff": 3
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 42,
+        "enemyTeamKills": 6,
+        "killDiff": 36,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Neeko",
+            "enemyChampion": "Nasus",
+            "allyKda": [
+              2,
+              1,
+              4
+            ],
+            "enemyKda": [
+              0,
+              7,
+              0
+            ],
+            "allyGold": 9249,
+            "enemyGold": 8153,
+            "goldDiff": 1096,
+            "allyCs": 88,
+            "enemyCs": 53,
+            "csDiff": 35,
+            "allyDamage": 8843,
+            "enemyDamage": 1440
+          },
+          "JUNGLE": {
+            "allyChampion": "Vi",
+            "enemyChampion": "DrMundo",
+            "allyKda": [
+              13,
+              0,
+              6
+            ],
+            "enemyKda": [
+              2,
+              8,
+              1
+            ],
+            "allyGold": 11403,
+            "enemyGold": 8698,
+            "goldDiff": 2705,
+            "allyCs": 135,
+            "enemyCs": 38,
+            "csDiff": 97,
+            "allyDamage": 18382,
+            "enemyDamage": 4724
+          },
+          "MIDDLE": {
+            "allyChampion": "Syndra",
+            "enemyChampion": "Xerath",
+            "allyKda": [
+              0,
+              2,
+              4
+            ],
+            "enemyKda": [
+              3,
+              5,
+              1
+            ],
+            "allyGold": 9301,
+            "enemyGold": 8537,
+            "goldDiff": 764,
+            "allyCs": 58,
+            "enemyCs": 68,
+            "csDiff": -10,
+            "allyDamage": 5772,
+            "enemyDamage": 12999
+          },
+          "BOTTOM": {
+            "allyChampion": "Ezreal",
+            "enemyChampion": "Jhin",
+            "allyKda": [
+              26,
+              1,
+              6
+            ],
+            "enemyKda": [
+              1,
+              10,
+              1
+            ],
+            "allyGold": 11514,
+            "enemyGold": 9089,
+            "goldDiff": 2425,
+            "allyCs": 127,
+            "enemyCs": 55,
+            "csDiff": 72,
+            "allyDamage": 48761,
+            "enemyDamage": 8138
+          },
+          "UTILITY": {
+            "allyChampion": "Leona",
+            "enemyChampion": "Sona",
+            "allyKda": [
+              1,
+              3,
+              16
+            ],
+            "enemyKda": [
+              0,
+              12,
+              1
+            ],
+            "allyGold": 9228,
+            "enemyGold": 7889,
+            "goldDiff": 1339,
+            "allyCs": 15,
+            "enemyCs": 8,
+            "csDiff": 7,
+            "allyDamage": 8206,
+            "enemyDamage": 6349
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7804707219",
+      "gameCreation": 1757581955303,
+      "gameDuration": 1471,
+      "queueId": 450,
+      "gameMode": "ARAM",
+      "championName": "Neeko",
+      "position": "Invalid",
+      "opponent": "Swain",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300141,
+          "teamGoldDiff": 2023,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 9,
+          "enemyTeamKills": 4,
+          "killDiff": 5,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600245,
+          "teamGoldDiff": 770,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 18,
+          "enemyTeamKills": 16,
+          "killDiff": 2,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900342,
+          "teamGoldDiff": 1605,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 31,
+          "enemyTeamKills": 29,
+          "killDiff": 2,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200420,
+          "teamGoldDiff": 2217,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 46,
+          "enemyTeamKills": 45,
+          "killDiff": 1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 58,
+        "enemyTeamKills": 55,
+        "killDiff": 3,
         "roles": {
           "TOP": null,
           "JUNGLE": null,

@@ -1,6 +1,6 @@
 {
-  "count": 2,
-  "recentCount": 2,
+  "count": 3,
+  "recentCount": 3,
   "pageSize": 50,
   "matches": [
     {
@@ -2097,6 +2097,282 @@
             }
           }
         ]
+      }
+    },
+    {
+      "matchId": "KR_8005742119",
+      "gameCreation": 1767429617582,
+      "gameDuration": 560,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Caitlyn",
+      "position": "BOTTOM",
+      "opponent": "Xerath",
+      "kills": 0,
+      "deaths": 1,
+      "assists": 0,
+      "cs": 43,
+      "gold": 2292,
+      "damage": 2739,
+      "win": false,
+      "detailPath": "matches/KR_8005742119.json",
+      "items": [
+        1055,
+        0,
+        3134,
+        1042,
+        0,
+        0,
+        3340
+      ],
+      "meChallenges": {
+        "killParticipation": 0,
+        "laneMinionsFirst10Minutes": 38,
+        "maxCsAdvantageOnLaneOpponent": 10,
+        "maxLevelLeadLaneOpponent": 1,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0.22783022042741918,
+        "damagePerMinute": 293.27946718055495,
+        "goldPerMinute": 245.37672154567184,
+        "earlyLaningPhaseGoldExpAdvantage": 0,
+        "visionScorePerMinute": 0.3305538546615999
+      },
+      "laneOpponent": {
+        "championName": "Xerath",
+        "kills": 2,
+        "deaths": 1,
+        "assists": 3,
+        "cs": 47,
+        "gold": 3121,
+        "damage": 4128,
+        "items": [
+          1056,
+          3802,
+          1052,
+          0,
+          0,
+          0,
+          3340
+        ],
+        "challenges": {
+          "killParticipation": 0.625,
+          "laneMinionsFirst10Minutes": 43,
+          "maxCsAdvantageOnLaneOpponent": 5,
+          "maxLevelLeadLaneOpponent": 1,
+          "soloKills": 1,
+          "turretPlatesTaken": 0,
+          "teamDamagePercentage": 0.2723378045978806,
+          "damagePerMinute": 441.94539978905954,
+          "goldPerMinute": 334.11470813212657,
+          "earlyLaningPhaseGoldExpAdvantage": 0,
+          "visionScorePerMinute": 0.1732320118484398
+        }
+      },
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300142,
+            "me": {
+              "gold": 1350,
+              "currentGold": 150,
+              "cs": 22,
+              "laneCs": 22,
+              "jungleCs": 0,
+              "level": 4,
+              "xp": 1307,
+              "damageToChampions": 1193,
+              "position": {
+                "x": 13825,
+                "y": 10701
+              }
+            },
+            "opponent": {
+              "gold": 1572,
+              "currentGold": 1072,
+              "cs": 18,
+              "laneCs": 18,
+              "jungleCs": 0,
+              "level": 4,
+              "xp": 1567,
+              "damageToChampions": 1534,
+              "position": {
+                "x": 11813,
+                "y": 2158
+              }
+            },
+            "goldDiff": -222,
+            "csDiff": 4,
+            "levelDiff": 0
+          },
+          {
+            "minute": 10,
+            "timestamp": 560551,
+            "me": {
+              "gold": 2292,
+              "currentGold": 542,
+              "cs": 43,
+              "laneCs": 43,
+              "jungleCs": 0,
+              "level": 6,
+              "xp": 2769,
+              "damageToChampions": 2739,
+              "position": {
+                "x": 14022,
+                "y": 4308
+              }
+            },
+            "opponent": {
+              "gold": 3121,
+              "currentGold": 1021,
+              "cs": 47,
+              "laneCs": 47,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 3367,
+              "damageToChampions": 4128,
+              "position": {
+                "x": 12878,
+                "y": 2519
+              }
+            },
+            "goldDiff": -829,
+            "csDiff": -4,
+            "levelDiff": -1
+          },
+          {
+            "minute": 15,
+            "timestamp": 560551,
+            "me": {
+              "gold": 2292,
+              "currentGold": 542,
+              "cs": 43,
+              "laneCs": 43,
+              "jungleCs": 0,
+              "level": 6,
+              "xp": 2769,
+              "damageToChampions": 2739,
+              "position": {
+                "x": 14022,
+                "y": 4308
+              }
+            },
+            "opponent": {
+              "gold": 3121,
+              "currentGold": 1021,
+              "cs": 47,
+              "laneCs": 47,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 3367,
+              "damageToChampions": 4128,
+              "position": {
+                "x": 12878,
+                "y": 2519
+              }
+            },
+            "goldDiff": -829,
+            "csDiff": -4,
+            "levelDiff": -1
+          },
+          {
+            "minute": 20,
+            "timestamp": 560551,
+            "me": {
+              "gold": 2292,
+              "currentGold": 542,
+              "cs": 43,
+              "laneCs": 43,
+              "jungleCs": 0,
+              "level": 6,
+              "xp": 2769,
+              "damageToChampions": 2739,
+              "position": {
+                "x": 14022,
+                "y": 4308
+              }
+            },
+            "opponent": {
+              "gold": 3121,
+              "currentGold": 1021,
+              "cs": 47,
+              "laneCs": 47,
+              "jungleCs": 0,
+              "level": 7,
+              "xp": 3367,
+              "damageToChampions": 4128,
+              "position": {
+                "x": 12878,
+                "y": 2519
+              }
+            },
+            "goldDiff": -829,
+            "csDiff": -4,
+            "levelDiff": -1
+          }
+        ],
+        "firstKillTimestamp": null,
+        "firstDeathTimestamp": 548112,
+        "firstAssistTimestamp": null,
+        "championEvents": [
+          {
+            "type": "CHAMPION_KILL",
+            "timestamp": 548112,
+            "killerId": 4,
+            "victimId": 9,
+            "bounty": 300,
+            "position": {
+              "x": 14022,
+              "y": 4308
+            }
+          }
+        ],
+        "itemEvents": [
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 7075,
+            "participantId": 9,
+            "itemId": 1055
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 7075,
+            "participantId": 9,
+            "itemId": 2003
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 7776,
+            "participantId": 9,
+            "itemId": 3340
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 288438,
+            "participantId": 9,
+            "itemId": 1036
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 289011,
+            "participantId": 9,
+            "itemId": 1036
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 447874,
+            "participantId": 9,
+            "itemId": 3134
+          },
+          {
+            "type": "ITEM_PURCHASED",
+            "timestamp": 450952,
+            "participantId": 9,
+            "itemId": 1042
+          }
+        ],
+        "objectiveEvents": []
       }
     }
   ]

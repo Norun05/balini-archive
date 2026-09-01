@@ -1,8 +1,8 @@
 {
   "champion": "jhin",
   "position": "bottom",
-  "availableCount": 8,
-  "sampleCount": 8,
+  "availableCount": 10,
+  "sampleCount": 10,
   "matches": [
     {
       "matchId": "KR_8351649121",
@@ -3224,6 +3224,821 @@
             "csDiff": -11,
             "allyDamage": 11790,
             "enemyDamage": 12401
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7978951848",
+      "gameCreation": 1766299477165,
+      "gameDuration": 1975,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Jhin",
+      "position": "BOTTOM",
+      "opponent": "MissFortune",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300175,
+          "teamGoldDiff": -221,
+          "myLaneGoldDiff": -743,
+          "otherLanesGoldDiff": 522,
+          "myTeamKills": 2,
+          "enemyTeamKills": 2,
+          "killDiff": 0,
+          "botDuoGoldDiff": -834,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Volibear",
+              "allyGold": 1416,
+              "enemyGold": 1406,
+              "goldDiff": 10,
+              "allyCs": 18,
+              "enemyCs": 25,
+              "csDiff": -7,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Khazix",
+              "enemyChampion": "Pantheon",
+              "allyGold": 1564,
+              "enemyGold": 1610,
+              "goldDiff": -46,
+              "allyCs": 16,
+              "enemyCs": 28,
+              "csDiff": -12,
+              "allyLevel": 3,
+              "enemyLevel": 4,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Sylas",
+              "allyGold": 1756,
+              "enemyGold": 1107,
+              "goldDiff": 649,
+              "allyCs": 25,
+              "enemyCs": 9,
+              "csDiff": 16,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 1294,
+              "enemyGold": 2037,
+              "goldDiff": -743,
+              "allyCs": 19,
+              "enemyCs": 25,
+              "csDiff": -6,
+              "allyLevel": 3,
+              "enemyLevel": 4,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "KSante",
+              "enemyChampion": "Leona",
+              "allyGold": 1238,
+              "enemyGold": 1329,
+              "goldDiff": -91,
+              "allyCs": 11,
+              "enemyCs": 5,
+              "csDiff": 6,
+              "allyLevel": 4,
+              "enemyLevel": 3,
+              "levelDiff": 1
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600248,
+          "teamGoldDiff": -1766,
+          "myLaneGoldDiff": -1936,
+          "otherLanesGoldDiff": 170,
+          "myTeamKills": 4,
+          "enemyTeamKills": 8,
+          "killDiff": -4,
+          "botDuoGoldDiff": -1875,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Volibear",
+              "allyGold": 2621,
+              "enemyGold": 3151,
+              "goldDiff": -530,
+              "allyCs": 46,
+              "enemyCs": 58,
+              "csDiff": -12,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Khazix",
+              "enemyChampion": "Pantheon",
+              "allyGold": 2866,
+              "enemyGold": 3791,
+              "goldDiff": -925,
+              "allyCs": 42,
+              "enemyCs": 61,
+              "csDiff": -19,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Sylas",
+              "allyGold": 3672,
+              "enemyGold": 2108,
+              "goldDiff": 1564,
+              "allyCs": 73,
+              "enemyCs": 25,
+              "csDiff": 48,
+              "allyLevel": 8,
+              "enemyLevel": 7,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 2668,
+              "enemyGold": 4604,
+              "goldDiff": -1936,
+              "allyCs": 52,
+              "enemyCs": 74,
+              "csDiff": -22,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "KSante",
+              "enemyChampion": "Leona",
+              "allyGold": 2603,
+              "enemyGold": 2542,
+              "goldDiff": 61,
+              "allyCs": 24,
+              "enemyCs": 13,
+              "csDiff": 11,
+              "allyLevel": 6,
+              "enemyLevel": 6,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900336,
+          "teamGoldDiff": -2285,
+          "myLaneGoldDiff": -3204,
+          "otherLanesGoldDiff": 919,
+          "myTeamKills": 7,
+          "enemyTeamKills": 15,
+          "killDiff": -8,
+          "botDuoGoldDiff": -3345,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Volibear",
+              "allyGold": 4718,
+              "enemyGold": 5051,
+              "goldDiff": -333,
+              "allyCs": 87,
+              "enemyCs": 92,
+              "csDiff": -5,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Khazix",
+              "enemyChampion": "Pantheon",
+              "allyGold": 4377,
+              "enemyGold": 5325,
+              "goldDiff": -948,
+              "allyCs": 70,
+              "enemyCs": 94,
+              "csDiff": -24,
+              "allyLevel": 9,
+              "enemyLevel": 9,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Sylas",
+              "allyGold": 5734,
+              "enemyGold": 3393,
+              "goldDiff": 2341,
+              "allyCs": 101,
+              "enemyCs": 45,
+              "csDiff": 56,
+              "allyLevel": 10,
+              "enemyLevel": 10,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 3859,
+              "enemyGold": 7063,
+              "goldDiff": -3204,
+              "allyCs": 79,
+              "enemyCs": 117,
+              "csDiff": -38,
+              "allyLevel": 8,
+              "enemyLevel": 10,
+              "levelDiff": -2
+            },
+            "UTILITY": {
+              "allyChampion": "KSante",
+              "enemyChampion": "Leona",
+              "allyGold": 3804,
+              "enemyGold": 3945,
+              "goldDiff": -141,
+              "allyCs": 34,
+              "enemyCs": 16,
+              "csDiff": 18,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200406,
+          "teamGoldDiff": -1354,
+          "myLaneGoldDiff": -3809,
+          "otherLanesGoldDiff": 2455,
+          "myTeamKills": 10,
+          "enemyTeamKills": 22,
+          "killDiff": -12,
+          "botDuoGoldDiff": -3397,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Volibear",
+              "allyGold": 6588,
+              "enemyGold": 6683,
+              "goldDiff": -95,
+              "allyCs": 124,
+              "enemyCs": 123,
+              "csDiff": 1,
+              "allyLevel": 13,
+              "enemyLevel": 13,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Khazix",
+              "enemyChampion": "Pantheon",
+              "allyGold": 5836,
+              "enemyGold": 6774,
+              "goldDiff": -938,
+              "allyCs": 93,
+              "enemyCs": 117,
+              "csDiff": -24,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Ekko",
+              "enemyChampion": "Sylas",
+              "allyGold": 8047,
+              "enemyGold": 4971,
+              "goldDiff": 3076,
+              "allyCs": 139,
+              "enemyCs": 67,
+              "csDiff": 72,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 5262,
+              "enemyGold": 9071,
+              "goldDiff": -3809,
+              "allyCs": 97,
+              "enemyCs": 149,
+              "csDiff": -52,
+              "allyLevel": 10,
+              "enemyLevel": 11,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "KSante",
+              "enemyChampion": "Leona",
+              "allyGold": 5281,
+              "enemyGold": 4869,
+              "goldDiff": 412,
+              "allyCs": 42,
+              "enemyCs": 17,
+              "csDiff": 25,
+              "allyLevel": 10,
+              "enemyLevel": 9,
+              "levelDiff": 1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 25,
+        "enemyTeamKills": 45,
+        "killDiff": -20,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Malphite",
+            "enemyChampion": "Volibear",
+            "allyKda": [
+              4,
+              6,
+              8
+            ],
+            "enemyKda": [
+              6,
+              9,
+              8
+            ],
+            "allyGold": 10768,
+            "enemyGold": 11578,
+            "goldDiff": -810,
+            "allyCs": 163,
+            "enemyCs": 152,
+            "csDiff": 11,
+            "allyDamage": 27588,
+            "enemyDamage": 33890
+          },
+          "JUNGLE": {
+            "allyChampion": "Khazix",
+            "enemyChampion": "Pantheon",
+            "allyKda": [
+              3,
+              7,
+              4
+            ],
+            "enemyKda": [
+              12,
+              6,
+              8
+            ],
+            "allyGold": 10155,
+            "enemyGold": 13403,
+            "goldDiff": -3248,
+            "allyCs": 156,
+            "enemyCs": 172,
+            "csDiff": -16,
+            "allyDamage": 11085,
+            "enemyDamage": 26330
+          },
+          "MIDDLE": {
+            "allyChampion": "Ekko",
+            "enemyChampion": "Sylas",
+            "allyKda": [
+              9,
+              6,
+              3
+            ],
+            "enemyKda": [
+              4,
+              5,
+              12
+            ],
+            "allyGold": 13544,
+            "enemyGold": 8358,
+            "goldDiff": 5186,
+            "allyCs": 194,
+            "enemyCs": 92,
+            "csDiff": 102,
+            "allyDamage": 24537,
+            "enemyDamage": 17947
+          },
+          "BOTTOM": {
+            "allyChampion": "Jhin",
+            "enemyChampion": "MissFortune",
+            "allyKda": [
+              4,
+              13,
+              2
+            ],
+            "enemyKda": [
+              23,
+              3,
+              9
+            ],
+            "allyGold": 8992,
+            "enemyGold": 20420,
+            "goldDiff": -11428,
+            "allyCs": 122,
+            "enemyCs": 218,
+            "csDiff": -96,
+            "allyDamage": 14456,
+            "enemyDamage": 50116
+          },
+          "UTILITY": {
+            "allyChampion": "KSante",
+            "enemyChampion": "Leona",
+            "allyKda": [
+              5,
+              13,
+              10
+            ],
+            "enemyKda": [
+              0,
+              2,
+              27
+            ],
+            "allyGold": 10143,
+            "enemyGold": 8844,
+            "goldDiff": 1299,
+            "allyCs": 67,
+            "enemyCs": 19,
+            "csDiff": 48,
+            "allyDamage": 22169,
+            "enemyDamage": 13173
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7802995344",
+      "gameCreation": 1757463285997,
+      "gameDuration": 1212,
+      "queueId": 890,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Jhin",
+      "position": "BOTTOM",
+      "opponent": "MissFortune",
+      "win": true,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300169,
+          "teamGoldDiff": -317,
+          "myLaneGoldDiff": -62,
+          "otherLanesGoldDiff": -255,
+          "myTeamKills": 2,
+          "enemyTeamKills": 0,
+          "killDiff": 2,
+          "botDuoGoldDiff": -468,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": {
+              "allyChampion": "Volibear",
+              "enemyChampion": "Sejuani",
+              "allyGold": 1713,
+              "enemyGold": 1581,
+              "goldDiff": 132,
+              "allyCs": 28,
+              "enemyCs": 28,
+              "csDiff": 0,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Veigar",
+              "allyGold": 2027,
+              "enemyGold": 1398,
+              "goldDiff": 629,
+              "allyCs": 33,
+              "enemyCs": 13,
+              "csDiff": 20,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 1553,
+              "enemyGold": 1615,
+              "goldDiff": -62,
+              "allyCs": 11,
+              "enemyCs": 29,
+              "csDiff": -18,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Yuumi",
+              "enemyChampion": "Zyra",
+              "allyGold": 1065,
+              "enemyGold": 1471,
+              "goldDiff": -406,
+              "allyCs": 0,
+              "enemyCs": 5,
+              "csDiff": -5,
+              "allyLevel": 1,
+              "enemyLevel": 4,
+              "levelDiff": -3
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600236,
+          "teamGoldDiff": 2714,
+          "myLaneGoldDiff": 88,
+          "otherLanesGoldDiff": 2626,
+          "myTeamKills": 12,
+          "enemyTeamKills": 0,
+          "killDiff": 12,
+          "botDuoGoldDiff": -335,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": {
+              "allyChampion": "Volibear",
+              "enemyChampion": "Sejuani",
+              "allyGold": 4694,
+              "enemyGold": 3284,
+              "goldDiff": 1410,
+              "allyCs": 61,
+              "enemyCs": 36,
+              "csDiff": 25,
+              "allyLevel": 8,
+              "enemyLevel": 6,
+              "levelDiff": 2
+            },
+            "MIDDLE": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Veigar",
+              "allyGold": 5455,
+              "enemyGold": 3151,
+              "goldDiff": 2304,
+              "allyCs": 80,
+              "enemyCs": 17,
+              "csDiff": 63,
+              "allyLevel": 9,
+              "enemyLevel": 6,
+              "levelDiff": 3
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 3624,
+              "enemyGold": 3536,
+              "goldDiff": 88,
+              "allyCs": 31,
+              "enemyCs": 54,
+              "csDiff": -23,
+              "allyLevel": 8,
+              "enemyLevel": 7,
+              "levelDiff": 1
+            },
+            "UTILITY": {
+              "allyChampion": "Yuumi",
+              "enemyChampion": "Zyra",
+              "allyGold": 3115,
+              "enemyGold": 3538,
+              "goldDiff": -423,
+              "allyCs": 0,
+              "enemyCs": 12,
+              "csDiff": -12,
+              "allyLevel": 1,
+              "enemyLevel": 7,
+              "levelDiff": -6
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900328,
+          "teamGoldDiff": -1772,
+          "myLaneGoldDiff": -811,
+          "otherLanesGoldDiff": -961,
+          "myTeamKills": 18,
+          "enemyTeamKills": 3,
+          "killDiff": 15,
+          "botDuoGoldDiff": -1244,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": {
+              "allyChampion": "Volibear",
+              "enemyChampion": "Sejuani",
+              "allyGold": 7689,
+              "enemyGold": 6554,
+              "goldDiff": 1135,
+              "allyCs": 104,
+              "enemyCs": 59,
+              "csDiff": 45,
+              "allyLevel": 12,
+              "enemyLevel": 11,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Veigar",
+              "allyGold": 8395,
+              "enemyGold": 8855,
+              "goldDiff": -460,
+              "allyCs": 139,
+              "enemyCs": 29,
+              "csDiff": 110,
+              "allyLevel": 13,
+              "enemyLevel": 11,
+              "levelDiff": 2
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 6524,
+              "enemyGold": 7335,
+              "goldDiff": -811,
+              "allyCs": 57,
+              "enemyCs": 91,
+              "csDiff": -34,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Yuumi",
+              "enemyChampion": "Zyra",
+              "allyGold": 5747,
+              "enemyGold": 6180,
+              "goldDiff": -433,
+              "allyCs": 0,
+              "enemyCs": 14,
+              "csDiff": -14,
+              "allyLevel": 2,
+              "enemyLevel": 10,
+              "levelDiff": -8
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200452,
+          "teamGoldDiff": 8973,
+          "myLaneGoldDiff": 1954,
+          "otherLanesGoldDiff": 7019,
+          "myTeamKills": 36,
+          "enemyTeamKills": 4,
+          "killDiff": 32,
+          "botDuoGoldDiff": 1745,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": {
+              "allyChampion": "Volibear",
+              "enemyChampion": "Sejuani",
+              "allyGold": 13305,
+              "enemyGold": 9135,
+              "goldDiff": 4170,
+              "allyCs": 140,
+              "enemyCs": 63,
+              "csDiff": 77,
+              "allyLevel": 16,
+              "enemyLevel": 12,
+              "levelDiff": 4
+            },
+            "MIDDLE": {
+              "allyChampion": "Hwei",
+              "enemyChampion": "Veigar",
+              "allyGold": 14128,
+              "enemyGold": 10777,
+              "goldDiff": 3351,
+              "allyCs": 194,
+              "enemyCs": 41,
+              "csDiff": 153,
+              "allyLevel": 18,
+              "enemyLevel": 13,
+              "levelDiff": 5
+            },
+            "BOTTOM": {
+              "allyChampion": "Jhin",
+              "enemyChampion": "MissFortune",
+              "allyGold": 11480,
+              "enemyGold": 9526,
+              "goldDiff": 1954,
+              "allyCs": 98,
+              "enemyCs": 101,
+              "csDiff": -3,
+              "allyLevel": 16,
+              "enemyLevel": 12,
+              "levelDiff": 4
+            },
+            "UTILITY": {
+              "allyChampion": "Yuumi",
+              "enemyChampion": "Zyra",
+              "allyGold": 9075,
+              "enemyGold": 9284,
+              "goldDiff": -209,
+              "allyCs": 0,
+              "enemyCs": 21,
+              "csDiff": -21,
+              "allyLevel": 3,
+              "enemyLevel": 12,
+              "levelDiff": -9
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 37,
+        "enemyTeamKills": 4,
+        "killDiff": 33,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": {
+            "allyChampion": "Volibear",
+            "enemyChampion": "Sejuani",
+            "allyKda": [
+              14,
+              1,
+              8
+            ],
+            "enemyKda": [
+              0,
+              9,
+              1
+            ],
+            "allyGold": 13722,
+            "enemyGold": 9305,
+            "goldDiff": 4417,
+            "allyCs": 142,
+            "enemyCs": 63,
+            "csDiff": 79,
+            "allyDamage": 26339,
+            "enemyDamage": 7193
+          },
+          "MIDDLE": {
+            "allyChampion": "Hwei",
+            "enemyChampion": "Veigar",
+            "allyKda": [
+              15,
+              2,
+              8
+            ],
+            "enemyKda": [
+              4,
+              12,
+              0
+            ],
+            "allyGold": 14522,
+            "enemyGold": 10838,
+            "goldDiff": 3684,
+            "allyCs": 197,
+            "enemyCs": 41,
+            "csDiff": 156,
+            "allyDamage": 35267,
+            "enemyDamage": 10327
+          },
+          "BOTTOM": {
+            "allyChampion": "Jhin",
+            "enemyChampion": "MissFortune",
+            "allyKda": [
+              6,
+              1,
+              8
+            ],
+            "enemyKda": [
+              0,
+              6,
+              2
+            ],
+            "allyGold": 11823,
+            "enemyGold": 9661,
+            "goldDiff": 2162,
+            "allyCs": 99,
+            "enemyCs": 101,
+            "csDiff": -2,
+            "allyDamage": 15642,
+            "enemyDamage": 6966
+          },
+          "UTILITY": {
+            "allyChampion": "Yuumi",
+            "enemyChampion": "Zyra",
+            "allyKda": [
+              0,
+              0,
+              0
+            ],
+            "enemyKda": [
+              0,
+              6,
+              2
+            ],
+            "allyGold": 9251,
+            "enemyGold": 9445,
+            "goldDiff": -194,
+            "allyCs": 0,
+            "enemyCs": 21,
+            "csDiff": -21,
+            "allyDamage": 0,
+            "enemyDamage": 10886
           }
         }
       }

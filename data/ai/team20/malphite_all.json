@@ -1,8 +1,8 @@
 {
   "champion": "malphite",
   "position": "all",
-  "availableCount": 2,
-  "sampleCount": 2,
+  "availableCount": 6,
+  "sampleCount": 6,
   "matches": [
     {
       "matchId": "KR_8280357199",
@@ -884,6 +884,882 @@
             "csDiff": -4,
             "allyDamage": 13706,
             "enemyDamage": 19181
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_8126366385",
+      "gameCreation": 1773059212383,
+      "gameDuration": 1337,
+      "queueId": 1700,
+      "gameMode": "CHERRY",
+      "championName": "Malphite",
+      "position": "Invalid",
+      "opponent": "Jax",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300078,
+          "teamGoldDiff": -1034,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 10,
+          "enemyTeamKills": 7,
+          "killDiff": 3,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600157,
+          "teamGoldDiff": -4002,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 25,
+          "enemyTeamKills": 24,
+          "killDiff": 1,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900214,
+          "teamGoldDiff": -18342,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 30,
+          "enemyTeamKills": 38,
+          "killDiff": -8,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200300,
+          "teamGoldDiff": -58448,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "myTeamKills": 34,
+          "enemyTeamKills": 54,
+          "killDiff": -20,
+          "botDuoGoldDiff": null,
+          "roles": {
+            "TOP": null,
+            "JUNGLE": null,
+            "MIDDLE": null,
+            "BOTTOM": null,
+            "UTILITY": null
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 32,
+        "enemyTeamKills": 60,
+        "killDiff": -28,
+        "roles": {
+          "TOP": null,
+          "JUNGLE": null,
+          "MIDDLE": null,
+          "BOTTOM": null,
+          "UTILITY": null
+        }
+      }
+    },
+    {
+      "matchId": "KR_8081714692",
+      "gameCreation": 1770821707331,
+      "gameDuration": 369,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Malphite",
+      "position": "TOP",
+      "opponent": "Sion",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300071,
+          "teamGoldDiff": -1451,
+          "myLaneGoldDiff": -721,
+          "otherLanesGoldDiff": -730,
+          "myTeamKills": 0,
+          "enemyTeamKills": 2,
+          "killDiff": -2,
+          "botDuoGoldDiff": -64,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Sion",
+              "allyGold": 1286,
+              "enemyGold": 2007,
+              "goldDiff": -721,
+              "allyCs": 18,
+              "enemyCs": 25,
+              "csDiff": -7,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "Nocturne",
+              "enemyChampion": "RekSai",
+              "allyGold": 1850,
+              "enemyGold": 1707,
+              "goldDiff": 143,
+              "allyCs": 38,
+              "enemyCs": 32,
+              "csDiff": 6,
+              "allyLevel": 5,
+              "enemyLevel": 4,
+              "levelDiff": 1
+            },
+            "MIDDLE": {
+              "allyChampion": "Ryze",
+              "enemyChampion": "Irelia",
+              "allyGold": 1282,
+              "enemyGold": 2091,
+              "goldDiff": -809,
+              "allyCs": 16,
+              "enemyCs": 35,
+              "csDiff": -19,
+              "allyLevel": 4,
+              "enemyLevel": 6,
+              "levelDiff": -2
+            },
+            "BOTTOM": {
+              "allyChampion": "Caitlyn",
+              "enemyChampion": "Varus",
+              "allyGold": 1526,
+              "enemyGold": 1570,
+              "goldDiff": -44,
+              "allyCs": 30,
+              "enemyCs": 31,
+              "csDiff": -1,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Xerath",
+              "enemyChampion": "Lux",
+              "allyGold": 1186,
+              "enemyGold": 1206,
+              "goldDiff": -20,
+              "allyCs": 5,
+              "enemyCs": 5,
+              "csDiff": 0,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 1,
+        "enemyTeamKills": 3,
+        "killDiff": -2,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Malphite",
+            "enemyChampion": "Sion",
+            "allyKda": [
+              0,
+              1,
+              0
+            ],
+            "enemyKda": [
+              1,
+              0,
+              0
+            ],
+            "allyGold": 1562,
+            "enemyGold": 2431,
+            "goldDiff": -869,
+            "allyCs": 24,
+            "enemyCs": 33,
+            "csDiff": -9,
+            "allyDamage": 2064,
+            "enemyDamage": 1590
+          },
+          "JUNGLE": {
+            "allyChampion": "Nocturne",
+            "enemyChampion": "RekSai",
+            "allyKda": [
+              1,
+              1,
+              0
+            ],
+            "enemyKda": [
+              0,
+              0,
+              0
+            ],
+            "allyGold": 2518,
+            "enemyGold": 2063,
+            "goldDiff": 455,
+            "allyCs": 47,
+            "enemyCs": 40,
+            "csDiff": 7,
+            "allyDamage": 529,
+            "enemyDamage": 0
+          },
+          "MIDDLE": {
+            "allyChampion": "Ryze",
+            "enemyChampion": "Irelia",
+            "allyKda": [
+              0,
+              1,
+              0
+            ],
+            "enemyKda": [
+              2,
+              1,
+              0
+            ],
+            "allyGold": 1424,
+            "enemyGold": 2769,
+            "goldDiff": -1345,
+            "allyCs": 16,
+            "enemyCs": 46,
+            "csDiff": -30,
+            "allyDamage": 1010,
+            "enemyDamage": 1941
+          },
+          "BOTTOM": {
+            "allyChampion": "Caitlyn",
+            "enemyChampion": "Varus",
+            "allyKda": [
+              0,
+              0,
+              0
+            ],
+            "enemyKda": [
+              0,
+              0,
+              0
+            ],
+            "allyGold": 1910,
+            "enemyGold": 1971,
+            "goldDiff": -61,
+            "allyCs": 42,
+            "enemyCs": 40,
+            "csDiff": 2,
+            "allyDamage": 517,
+            "enemyDamage": 966
+          },
+          "UTILITY": {
+            "allyChampion": "Xerath",
+            "enemyChampion": "Lux",
+            "allyKda": [
+              0,
+              0,
+              0
+            ],
+            "enemyKda": [
+              0,
+              0,
+              0
+            ],
+            "allyGold": 1408,
+            "enemyGold": 1447,
+            "goldDiff": -39,
+            "allyCs": 5,
+            "enemyCs": 9,
+            "csDiff": -4,
+            "allyDamage": 959,
+            "enemyDamage": 1050
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_8028084219",
+      "gameCreation": 1768393209564,
+      "gameDuration": 1918,
+      "queueId": 400,
+      "gameMode": "CLASSIC",
+      "championName": "Malphite",
+      "position": "TOP",
+      "opponent": "Irelia",
+      "win": false,
+      "snapshots": [
+        {
+          "minute": 5,
+          "timestamp": 300194,
+          "teamGoldDiff": -1359,
+          "myLaneGoldDiff": -83,
+          "otherLanesGoldDiff": -1276,
+          "myTeamKills": 2,
+          "enemyTeamKills": 4,
+          "killDiff": -2,
+          "botDuoGoldDiff": -1371,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Irelia",
+              "allyGold": 1467,
+              "enemyGold": 1550,
+              "goldDiff": -83,
+              "allyCs": 24,
+              "enemyCs": 33,
+              "csDiff": -9,
+              "allyLevel": 5,
+              "enemyLevel": 5,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "LeeSin",
+              "enemyChampion": "Gragas",
+              "allyGold": 1952,
+              "enemyGold": 1842,
+              "goldDiff": 110,
+              "allyCs": 29,
+              "enemyCs": 38,
+              "csDiff": -9,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Yone",
+              "allyGold": 1566,
+              "enemyGold": 1581,
+              "goldDiff": -15,
+              "allyCs": 23,
+              "enemyCs": 33,
+              "csDiff": -10,
+              "allyLevel": 5,
+              "enemyLevel": 6,
+              "levelDiff": -1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Jhin",
+              "allyGold": 1651,
+              "enemyGold": 1934,
+              "goldDiff": -283,
+              "allyCs": 20,
+              "enemyCs": 25,
+              "csDiff": -5,
+              "allyLevel": 4,
+              "enemyLevel": 4,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Pyke",
+              "allyGold": 1349,
+              "enemyGold": 2437,
+              "goldDiff": -1088,
+              "allyCs": 7,
+              "enemyCs": 12,
+              "csDiff": -5,
+              "allyLevel": 4,
+              "enemyLevel": 5,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 10,
+          "timestamp": 600266,
+          "teamGoldDiff": -2319,
+          "myLaneGoldDiff": -266,
+          "otherLanesGoldDiff": -2053,
+          "myTeamKills": 8,
+          "enemyTeamKills": 12,
+          "killDiff": -4,
+          "botDuoGoldDiff": -1557,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Irelia",
+              "allyGold": 2868,
+              "enemyGold": 3134,
+              "goldDiff": -266,
+              "allyCs": 48,
+              "enemyCs": 67,
+              "csDiff": -19,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "LeeSin",
+              "enemyChampion": "Gragas",
+              "allyGold": 3715,
+              "enemyGold": 4027,
+              "goldDiff": -312,
+              "allyCs": 60,
+              "enemyCs": 50,
+              "csDiff": 10,
+              "allyLevel": 7,
+              "enemyLevel": 7,
+              "levelDiff": 0
+            },
+            "MIDDLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Yone",
+              "allyGold": 3233,
+              "enemyGold": 3417,
+              "goldDiff": -184,
+              "allyCs": 54,
+              "enemyCs": 66,
+              "csDiff": -12,
+              "allyLevel": 9,
+              "enemyLevel": 8,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Jhin",
+              "allyGold": 3493,
+              "enemyGold": 3767,
+              "goldDiff": -274,
+              "allyCs": 48,
+              "enemyCs": 50,
+              "csDiff": -2,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Pyke",
+              "allyGold": 3227,
+              "enemyGold": 4510,
+              "goldDiff": -1283,
+              "allyCs": 18,
+              "enemyCs": 18,
+              "csDiff": 0,
+              "allyLevel": 6,
+              "enemyLevel": 7,
+              "levelDiff": -1
+            }
+          }
+        },
+        {
+          "minute": 15,
+          "timestamp": 900316,
+          "teamGoldDiff": -2049,
+          "myLaneGoldDiff": -432,
+          "otherLanesGoldDiff": -1617,
+          "myTeamKills": 12,
+          "enemyTeamKills": 14,
+          "killDiff": -2,
+          "botDuoGoldDiff": -663,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Irelia",
+              "allyGold": 4257,
+              "enemyGold": 4689,
+              "goldDiff": -432,
+              "allyCs": 91,
+              "enemyCs": 117,
+              "csDiff": -26,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "LeeSin",
+              "enemyChampion": "Gragas",
+              "allyGold": 5382,
+              "enemyGold": 6181,
+              "goldDiff": -799,
+              "allyCs": 92,
+              "enemyCs": 94,
+              "csDiff": -2,
+              "allyLevel": 9,
+              "enemyLevel": 10,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Yone",
+              "allyGold": 4802,
+              "enemyGold": 4957,
+              "goldDiff": -155,
+              "allyCs": 87,
+              "enemyCs": 106,
+              "csDiff": -19,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Jhin",
+              "allyGold": 6310,
+              "enemyGold": 5684,
+              "goldDiff": 626,
+              "allyCs": 75,
+              "enemyCs": 77,
+              "csDiff": -2,
+              "allyLevel": 9,
+              "enemyLevel": 9,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Pyke",
+              "allyGold": 4589,
+              "enemyGold": 5878,
+              "goldDiff": -1289,
+              "allyCs": 23,
+              "enemyCs": 23,
+              "csDiff": 0,
+              "allyLevel": 8,
+              "enemyLevel": 8,
+              "levelDiff": 0
+            }
+          }
+        },
+        {
+          "minute": 20,
+          "timestamp": 1200412,
+          "teamGoldDiff": -2152,
+          "myLaneGoldDiff": -683,
+          "otherLanesGoldDiff": -1469,
+          "myTeamKills": 17,
+          "enemyTeamKills": 18,
+          "killDiff": -1,
+          "botDuoGoldDiff": -416,
+          "roles": {
+            "TOP": {
+              "allyChampion": "Malphite",
+              "enemyChampion": "Irelia",
+              "allyGold": 5782,
+              "enemyGold": 6465,
+              "goldDiff": -683,
+              "allyCs": 124,
+              "enemyCs": 164,
+              "csDiff": -40,
+              "allyLevel": 13,
+              "enemyLevel": 13,
+              "levelDiff": 0
+            },
+            "JUNGLE": {
+              "allyChampion": "LeeSin",
+              "enemyChampion": "Gragas",
+              "allyGold": 7137,
+              "enemyGold": 8487,
+              "goldDiff": -1350,
+              "allyCs": 112,
+              "enemyCs": 122,
+              "csDiff": -10,
+              "allyLevel": 11,
+              "enemyLevel": 12,
+              "levelDiff": -1
+            },
+            "MIDDLE": {
+              "allyChampion": "Sylas",
+              "enemyChampion": "Yone",
+              "allyGold": 7223,
+              "enemyGold": 6926,
+              "goldDiff": 297,
+              "allyCs": 129,
+              "enemyCs": 141,
+              "csDiff": -12,
+              "allyLevel": 14,
+              "enemyLevel": 13,
+              "levelDiff": 1
+            },
+            "BOTTOM": {
+              "allyChampion": "Ashe",
+              "enemyChampion": "Jhin",
+              "allyGold": 8981,
+              "enemyGold": 8030,
+              "goldDiff": 951,
+              "allyCs": 118,
+              "enemyCs": 97,
+              "csDiff": 21,
+              "allyLevel": 11,
+              "enemyLevel": 11,
+              "levelDiff": 0
+            },
+            "UTILITY": {
+              "allyChampion": "Lux",
+              "enemyChampion": "Pyke",
+              "allyGold": 6353,
+              "enemyGold": 7720,
+              "goldDiff": -1367,
+              "allyCs": 23,
+              "enemyCs": 28,
+              "csDiff": -5,
+              "allyLevel": 10,
+              "enemyLevel": 9,
+              "levelDiff": 1
+            }
+          }
+        }
+      ],
+      "final": {
+        "myTeamKills": 26,
+        "enemyTeamKills": 45,
+        "killDiff": -19,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Malphite",
+            "enemyChampion": "Irelia",
+            "allyKda": [
+              2,
+              5,
+              5
+            ],
+            "enemyKda": [
+              1,
+              3,
+              7
+            ],
+            "allyGold": 9658,
+            "enemyGold": 11867,
+            "goldDiff": -2209,
+            "allyCs": 194,
+            "enemyCs": 249,
+            "csDiff": -55,
+            "allyDamage": 17338,
+            "enemyDamage": 15198
+          },
+          "JUNGLE": {
+            "allyChampion": "LeeSin",
+            "enemyChampion": "Gragas",
+            "allyKda": [
+              2,
+              9,
+              10
+            ],
+            "enemyKda": [
+              16,
+              4,
+              15
+            ],
+            "allyGold": 9856,
+            "enemyGold": 17592,
+            "goldDiff": -7736,
+            "allyCs": 145,
+            "enemyCs": 194,
+            "csDiff": -49,
+            "allyDamage": 18146,
+            "enemyDamage": 54630
+          },
+          "MIDDLE": {
+            "allyChampion": "Sylas",
+            "enemyChampion": "Yone",
+            "allyKda": [
+              8,
+              10,
+              1
+            ],
+            "enemyKda": [
+              4,
+              9,
+              11
+            ],
+            "allyGold": 11618,
+            "enemyGold": 13579,
+            "goldDiff": -1961,
+            "allyCs": 185,
+            "enemyCs": 233,
+            "csDiff": -48,
+            "allyDamage": 27302,
+            "enemyDamage": 36935
+          },
+          "BOTTOM": {
+            "allyChampion": "Ashe",
+            "enemyChampion": "Jhin",
+            "allyKda": [
+              8,
+              9,
+              4
+            ],
+            "enemyKda": [
+              7,
+              4,
+              11
+            ],
+            "allyGold": 12121,
+            "enemyGold": 14671,
+            "goldDiff": -2550,
+            "allyCs": 169,
+            "enemyCs": 181,
+            "csDiff": -12,
+            "allyDamage": 18942,
+            "enemyDamage": 17496
+          },
+          "UTILITY": {
+            "allyChampion": "Lux",
+            "enemyChampion": "Pyke",
+            "allyKda": [
+              6,
+              12,
+              11
+            ],
+            "enemyKda": [
+              17,
+              6,
+              9
+            ],
+            "allyGold": 11679,
+            "enemyGold": 13747,
+            "goldDiff": -2068,
+            "allyCs": 45,
+            "enemyCs": 39,
+            "csDiff": 6,
+            "allyDamage": 25616,
+            "enemyDamage": 15065
+          }
+        }
+      }
+    },
+    {
+      "matchId": "KR_7893867237",
+      "gameCreation": 1761987266268,
+      "gameDuration": 196,
+      "queueId": 420,
+      "gameMode": "CLASSIC",
+      "championName": "Malphite",
+      "position": "TOP",
+      "opponent": "Yone",
+      "win": true,
+      "snapshots": [],
+      "final": {
+        "myTeamKills": 1,
+        "enemyTeamKills": 2,
+        "killDiff": -1,
+        "roles": {
+          "TOP": {
+            "allyChampion": "Malphite",
+            "enemyChampion": "Yone",
+            "allyKda": [
+              0,
+              0,
+              1
+            ],
+            "enemyKda": [
+              0,
+              1,
+              0
+            ],
+            "allyGold": 1022,
+            "enemyGold": 787,
+            "goldDiff": 235,
+            "allyCs": 11,
+            "enemyCs": 6,
+            "csDiff": 5,
+            "allyDamage": 695,
+            "enemyDamage": 934
+          },
+          "JUNGLE": {
+            "allyChampion": "Kayn",
+            "enemyChampion": "Zed",
+            "allyKda": [
+              1,
+              0,
+              0
+            ],
+            "enemyKda": [
+              0,
+              0,
+              0
+            ],
+            "allyGold": 1320,
+            "enemyGold": 696,
+            "goldDiff": 624,
+            "allyCs": 12,
+            "enemyCs": 0,
+            "csDiff": 12,
+            "allyDamage": 420,
+            "enemyDamage": 0
+          },
+          "MIDDLE": {
+            "allyChampion": "Sylas",
+            "enemyChampion": "Vex",
+            "allyKda": [
+              0,
+              1,
+              0
+            ],
+            "enemyKda": [
+              1,
+              0,
+              0
+            ],
+            "allyGold": 941,
+            "enemyGold": 1262,
+            "goldDiff": -321,
+            "allyCs": 13,
+            "enemyCs": 15,
+            "csDiff": -2,
+            "allyDamage": 731,
+            "enemyDamage": 1342
+          },
+          "BOTTOM": {
+            "allyChampion": "Ezreal",
+            "enemyChampion": "Sivir",
+            "allyKda": [
+              0,
+              1,
+              0
+            ],
+            "enemyKda": [
+              1,
+              0,
+              0
+            ],
+            "allyGold": 955,
+            "enemyGold": 1227,
+            "goldDiff": -272,
+            "allyCs": 14,
+            "enemyCs": 13,
+            "csDiff": 1,
+            "allyDamage": 244,
+            "enemyDamage": 570
+          },
+          "UTILITY": {
+            "allyChampion": "Leona",
+            "enemyChampion": "Seraphine",
+            "allyKda": [
+              0,
+              0,
+              0
+            ],
+            "enemyKda": [
+              0,
+              0,
+              1
+            ],
+            "allyGold": 826,
+            "enemyGold": 953,
+            "goldDiff": -127,
+            "allyCs": 2,
+            "enemyCs": 1,
+            "csDiff": 1,
+            "allyDamage": 467,
+            "enemyDamage": 757
           }
         }
       }
