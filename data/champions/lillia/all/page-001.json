@@ -1,0 +1,300 @@
+{
+  "count": 1,
+  "page": 1,
+  "pageSize": 50,
+  "matches": [
+    {
+      "matchId": "KR_8240916424",
+      "gameCreation": 1780304522999,
+      "gameDuration": 683,
+      "queueId": 890,
+      "gameMode": "SWIFTPLAY",
+      "championName": "Lillia",
+      "position": "Invalid",
+      "opponent": null,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0,
+      "cs": 0,
+      "gold": 8120,
+      "damage": 0,
+      "win": true,
+      "detailPath": "matches/KR_8240916424.json",
+      "items": [
+        2422,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "meChallenges": {
+        "killParticipation": 0,
+        "laneMinionsFirst10Minutes": 0,
+        "soloKills": 0,
+        "turretPlatesTaken": 0,
+        "teamDamagePercentage": 0,
+        "damagePerMinute": 0,
+        "goldPerMinute": 712.9717004985793,
+        "visionScorePerMinute": 0
+      },
+      "laneOpponent": null,
+      "timeline": {
+        "snapshots": [
+          {
+            "minute": 5,
+            "timestamp": 300166,
+            "me": {
+              "gold": 2884,
+              "currentGold": 2884,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 3,
+              "xp": 660,
+              "damageToChampions": 0,
+              "position": {
+                "x": 394,
+                "y": 462
+              }
+            },
+            "opponent": null
+          },
+          {
+            "minute": 10,
+            "timestamp": 600218,
+            "me": {
+              "gold": 6943,
+              "currentGold": 6943,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 3,
+              "xp": 660,
+              "damageToChampions": 0,
+              "position": {
+                "x": 394,
+                "y": 462
+              }
+            },
+            "opponent": null
+          },
+          {
+            "minute": 15,
+            "timestamp": 683360,
+            "me": {
+              "gold": 8120,
+              "currentGold": 8120,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 3,
+              "xp": 660,
+              "damageToChampions": 0,
+              "position": {
+                "x": 394,
+                "y": 462
+              }
+            },
+            "opponent": null
+          },
+          {
+            "minute": 20,
+            "timestamp": 683360,
+            "me": {
+              "gold": 8120,
+              "currentGold": 8120,
+              "cs": 0,
+              "laneCs": 0,
+              "jungleCs": 0,
+              "level": 3,
+              "xp": 660,
+              "damageToChampions": 0,
+              "position": {
+                "x": 394,
+                "y": 462
+              }
+            },
+            "opponent": null
+          }
+        ],
+        "firstKillTimestamp": null,
+        "firstDeathTimestamp": null,
+        "firstAssistTimestamp": null,
+        "championEvents": [],
+        "itemEvents": [],
+        "objectiveEvents": [
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 374823,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13866,
+              "y": 4505
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 421997,
+            "killerId": 4,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 8955,
+              "y": 8510
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 464455,
+            "killerId": 4,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "INNER_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 9767,
+              "y": 10113
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 485555,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "INNER_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13327,
+              "y": 8226
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 519341,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "BASE_TURRET",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13624,
+              "y": 10572
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 535794,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3
+            ],
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "BOT_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13599,
+              "y": 11319
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 560202,
+            "killerId": 5,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "OUTER_TURRET",
+            "laneType": "TOP_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 4318,
+              "y": 13875
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 634972,
+            "killerId": 4,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "BASE_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 11134,
+              "y": 11207
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 651372,
+            "killerId": 2,
+            "assistingParticipantIds": [
+              3,
+              4
+            ],
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "NEXUS_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 13052,
+              "y": 12612
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 659722,
+            "killerId": 0,
+            "bounty": 0,
+            "buildingType": "INHIBITOR_BUILDING",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 11593,
+              "y": 11669
+            }
+          },
+          {
+            "type": "BUILDING_KILL",
+            "timestamp": 666424,
+            "killerId": 4,
+            "bounty": 0,
+            "buildingType": "TOWER_BUILDING",
+            "towerType": "NEXUS_TURRET",
+            "laneType": "MID_LANE",
+            "teamId": 200,
+            "position": {
+              "x": 12611,
+              "y": 13084
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "champion": "lillia",
+  "position": "invalid",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 1,
+  "losses": 0,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": 4246.0,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": 13.0,
+      "avgTopGoldDiff": 661.0,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": 1933.0,
+      "avgBotDuoGoldDiff": 2110.0,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": 9356.0,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": 34.0,
+      "avgTopGoldDiff": 1521.0,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": 3311.0,
+      "avgBotDuoGoldDiff": 4682.0,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "15": {
+      "sampleCount": 0,
+      "avgTeamGoldDiff": null,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": null,
+      "avgTopGoldDiff": null,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": null,
+      "avgBotDuoGoldDiff": null,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "20": {
+      "sampleCount": 0,
+      "avgTeamGoldDiff": null,
+      "avgMyLaneGoldDiff": null,
+      "avgOtherLanesGoldDiff": null,
+      "avgKillDiff": null,
+      "avgTopGoldDiff": null,
+      "avgJungleGoldDiff": null,
+      "avgMidGoldDiff": null,
+      "avgBotDuoGoldDiff": null,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    }
+  },
+  "matches": [
+    {
+      "matchId": "KR_8240916424",
+      "opponent": null,
+      "win": true,
+      "durationMin": 11.4,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 4246,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": 13,
+          "topGoldDiff": 661,
+          "jungleGoldDiff": null,
+          "midGoldDiff": 1933,
+          "botDuoGoldDiff": 2110
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 9356,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": 34,
+          "topGoldDiff": 1521,
+          "jungleGoldDiff": null,
+          "midGoldDiff": 3311,
+          "botDuoGoldDiff": 4682
+        }
+      ]
+    }
+  ]
+}
