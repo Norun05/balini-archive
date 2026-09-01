@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="발린이#극악무도의 League of Legends 전적 아카이브" />
+  <title>발린이 아카이브</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div>
+        <p class="eyebrow">BALINI ARCHIVE</p>
+        <h1>발린이 아카이브</h1>
+        <p id="accountLine" class="muted">계정 정보를 불러오는 중…</p>
+      </div>
+      <span id="syncBadge" class="badge">데이터 준비 중</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero card">
+      <div>
+        <p class="section-kicker">개인 LoL 기록 보관소</p>
+        <h2>사라지지 않는 전적 + AI가 읽기 쉬운 데이터</h2>
+        <p class="muted">Riot Match-V5 원본에서 가공한 가벼운 요약 데이터를 보여줍니다. 원본 타임라인은 별도 보관하고, 이 사이트에는 검색과 분석에 필요한 정보만 올립니다.</p>
+      </div>
+      <div class="hero-stats">
+        <div><strong id="matchCount">0</strong><span>불러온 경기</span></div>
+        <div><strong id="winRate">-</strong><span>승률</span></div>
+        <div><strong id="championCount">0</strong><span>챔피언</span></div>
+      </div>
+    </section>
+
+    <section class="toolbar card">
+      <div class="field grow">
+        <label for="searchInput">검색</label>
+        <input id="searchInput" type="search" placeholder="챔피언, 상대 챔피언, Match ID…" />
+      </div>
+      <div class="field">
+        <label for="championFilter">챔피언</label>
+        <select id="championFilter"><option value="">전체</option></select>
+      </div>
+      <div class="field">
+        <label for="positionFilter">포지션</label>
+        <select id="positionFilter">
+          <option value="">전체</option>
+          <option value="TOP">TOP</option>
+          <option value="JUNGLE">JUNGLE</option>
+          <option value="MIDDLE">MIDDLE</option>
+          <option value="BOTTOM">BOTTOM</option>
+          <option value="UTILITY">SUPPORT</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="resultFilter">결과</label>
+        <select id="resultFilter">
+          <option value="">전체</option>
+          <option value="win">승리</option>
+          <option value="loss">패배</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="section-kicker">MATCHES</p>
+        <h2>경기 기록</h2>
+      </div>
+      <p id="resultCount" class="muted"></p>
+    </section>
+
+    <section id="matchList" class="match-list" aria-live="polite"></section>
+
+    <section id="emptyState" class="empty card" hidden>
+      <h3>아직 사이트용 경기 데이터가 없습니다.</h3>
+      <p class="muted">다음 단계에서 로컬 수집 폴더의 Match JSON을 가볍게 변환해 <code>data/matches.json</code>에 넣으면 여기에 자동으로 나타납니다.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>발린이 아카이브</span>
+    <a href="./data/profile.json">AI용 profile.json</a>
+    <a href="./data/matches.json">AI용 matches.json</a>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
