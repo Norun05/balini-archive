@@ -1,0 +1,116 @@
+{
+  "champion": "velkoz",
+  "position": "utility",
+  "availableCount": 1,
+  "sampleCount": 1,
+  "wins": 0,
+  "losses": 1,
+  "snapshots": {
+    "5": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": 58.0,
+      "avgMyLaneGoldDiff": 224.0,
+      "avgOtherLanesGoldDiff": -166.0,
+      "avgKillDiff": 2.0,
+      "avgTopGoldDiff": 255.0,
+      "avgJungleGoldDiff": 14.0,
+      "avgMidGoldDiff": -79.0,
+      "avgBotDuoGoldDiff": -132.0,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "10": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": 444.0,
+      "avgMyLaneGoldDiff": 397.0,
+      "avgOtherLanesGoldDiff": 47.0,
+      "avgKillDiff": 4.0,
+      "avgTopGoldDiff": 429.0,
+      "avgJungleGoldDiff": -156.0,
+      "avgMidGoldDiff": -669.0,
+      "avgBotDuoGoldDiff": 840.0,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "15": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": -706.0,
+      "avgMyLaneGoldDiff": 881.0,
+      "avgOtherLanesGoldDiff": -1587.0,
+      "avgKillDiff": 2.0,
+      "avgTopGoldDiff": 165.0,
+      "avgJungleGoldDiff": -812.0,
+      "avgMidGoldDiff": -1681.0,
+      "avgBotDuoGoldDiff": 1622.0,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 1
+    },
+    "20": {
+      "sampleCount": 1,
+      "avgTeamGoldDiff": -2119.0,
+      "avgMyLaneGoldDiff": 682.0,
+      "avgOtherLanesGoldDiff": -2801.0,
+      "avgKillDiff": 0.0,
+      "avgTopGoldDiff": -612.0,
+      "avgJungleGoldDiff": -904.0,
+      "avgMidGoldDiff": -2053.0,
+      "avgBotDuoGoldDiff": 1450.0,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 1
+    }
+  },
+  "matches": [
+    {
+      "matchId": "KR_7844698344",
+      "opponent": "Lux",
+      "win": false,
+      "durationMin": 30.5,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 58,
+          "myLaneGoldDiff": 224,
+          "otherLanesGoldDiff": -166,
+          "killDiff": 2,
+          "topGoldDiff": 255,
+          "jungleGoldDiff": 14,
+          "midGoldDiff": -79,
+          "botDuoGoldDiff": -132
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": 444,
+          "myLaneGoldDiff": 397,
+          "otherLanesGoldDiff": 47,
+          "killDiff": 4,
+          "topGoldDiff": 429,
+          "jungleGoldDiff": -156,
+          "midGoldDiff": -669,
+          "botDuoGoldDiff": 840
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -706,
+          "myLaneGoldDiff": 881,
+          "otherLanesGoldDiff": -1587,
+          "killDiff": 2,
+          "topGoldDiff": 165,
+          "jungleGoldDiff": -812,
+          "midGoldDiff": -1681,
+          "botDuoGoldDiff": 1622
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": -2119,
+          "myLaneGoldDiff": 682,
+          "otherLanesGoldDiff": -2801,
+          "killDiff": 0,
+          "topGoldDiff": -612,
+          "jungleGoldDiff": -904,
+          "midGoldDiff": -2053,
+          "botDuoGoldDiff": 1450
+        }
+      ]
+    }
+  ]
+}

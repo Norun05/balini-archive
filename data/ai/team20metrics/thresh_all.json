@@ -1,0 +1,209 @@
+{
+  "champion": "thresh",
+  "position": "all",
+  "availableCount": 3,
+  "sampleCount": 3,
+  "wins": 0,
+  "losses": 3,
+  "snapshots": {
+    "5": {
+      "sampleCount": 3,
+      "avgTeamGoldDiff": -360.33,
+      "avgMyLaneGoldDiff": -61.0,
+      "avgOtherLanesGoldDiff": 119.0,
+      "avgKillDiff": -0.33,
+      "avgTopGoldDiff": 126.0,
+      "avgJungleGoldDiff": -4.5,
+      "avgMidGoldDiff": -162.5,
+      "avgBotDuoGoldDiff": 99.0,
+      "myLaneBehindTeamAhead": 1,
+      "myLaneAheadTeamBehind": 1
+    },
+    "10": {
+      "sampleCount": 3,
+      "avgTeamGoldDiff": -1640.0,
+      "avgMyLaneGoldDiff": -755.0,
+      "avgOtherLanesGoldDiff": -807.0,
+      "avgKillDiff": -3.33,
+      "avgTopGoldDiff": 189.0,
+      "avgJungleGoldDiff": -25.0,
+      "avgMidGoldDiff": -1074.5,
+      "avgBotDuoGoldDiff": -651.5,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 1
+    },
+    "15": {
+      "sampleCount": 3,
+      "avgTeamGoldDiff": -3011.67,
+      "avgMyLaneGoldDiff": -1400.0,
+      "avgOtherLanesGoldDiff": -479.0,
+      "avgKillDiff": -6.33,
+      "avgTopGoldDiff": 400.0,
+      "avgJungleGoldDiff": 398.5,
+      "avgMidGoldDiff": -1464.0,
+      "avgBotDuoGoldDiff": -1213.5,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    },
+    "20": {
+      "sampleCount": 2,
+      "avgTeamGoldDiff": -266.5,
+      "avgMyLaneGoldDiff": 271.0,
+      "avgOtherLanesGoldDiff": 4620.0,
+      "avgKillDiff": -5.0,
+      "avgTopGoldDiff": 2175.0,
+      "avgJungleGoldDiff": 110.0,
+      "avgMidGoldDiff": -257.0,
+      "avgBotDuoGoldDiff": 2863.0,
+      "myLaneBehindTeamAhead": 0,
+      "myLaneAheadTeamBehind": 0
+    }
+  },
+  "matches": [
+    {
+      "matchId": "KR_7925959744",
+      "opponent": "Morgana",
+      "win": false,
+      "durationMin": 30.5,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -1197,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": -1,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -1796,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": -4,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -5277,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": -11,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": -5424,
+          "myLaneGoldDiff": null,
+          "otherLanesGoldDiff": null,
+          "killDiff": -16,
+          "topGoldDiff": null,
+          "jungleGoldDiff": null,
+          "midGoldDiff": null,
+          "botDuoGoldDiff": null
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7844532091",
+      "opponent": "Seraphine",
+      "win": false,
+      "durationMin": 32.5,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": -570,
+          "myLaneGoldDiff": 6,
+          "otherLanesGoldDiff": -576,
+          "killDiff": -1,
+          "topGoldDiff": -10,
+          "jungleGoldDiff": -161,
+          "midGoldDiff": -265,
+          "botDuoGoldDiff": -134
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -31,
+          "myLaneGoldDiff": 85,
+          "otherLanesGoldDiff": -116,
+          "killDiff": 0,
+          "topGoldDiff": 124,
+          "jungleGoldDiff": -186,
+          "midGoldDiff": -223,
+          "botDuoGoldDiff": 254
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": 1018,
+          "myLaneGoldDiff": 267,
+          "otherLanesGoldDiff": 751,
+          "killDiff": 2,
+          "topGoldDiff": 1092,
+          "jungleGoldDiff": -713,
+          "midGoldDiff": -451,
+          "botDuoGoldDiff": 1090
+        },
+        {
+          "minute": 20,
+          "teamGoldDiff": 4891,
+          "myLaneGoldDiff": 271,
+          "otherLanesGoldDiff": 4620,
+          "killDiff": 6,
+          "topGoldDiff": 2175,
+          "jungleGoldDiff": 110,
+          "midGoldDiff": -257,
+          "botDuoGoldDiff": 2863
+        }
+      ]
+    },
+    {
+      "matchId": "KR_7829840027",
+      "opponent": "Chogath",
+      "win": false,
+      "durationMin": 17.3,
+      "snapshots": [
+        {
+          "minute": 5,
+          "teamGoldDiff": 686,
+          "myLaneGoldDiff": -128,
+          "otherLanesGoldDiff": 814,
+          "killDiff": 1,
+          "topGoldDiff": 262,
+          "jungleGoldDiff": 152,
+          "midGoldDiff": -60,
+          "botDuoGoldDiff": 332
+        },
+        {
+          "minute": 10,
+          "teamGoldDiff": -3093,
+          "myLaneGoldDiff": -1595,
+          "otherLanesGoldDiff": -1498,
+          "killDiff": -6,
+          "topGoldDiff": 254,
+          "jungleGoldDiff": 136,
+          "midGoldDiff": -1926,
+          "botDuoGoldDiff": -1557
+        },
+        {
+          "minute": 15,
+          "teamGoldDiff": -4776,
+          "myLaneGoldDiff": -3067,
+          "otherLanesGoldDiff": -1709,
+          "killDiff": -10,
+          "topGoldDiff": -292,
+          "jungleGoldDiff": 1510,
+          "midGoldDiff": -2477,
+          "botDuoGoldDiff": -3517
+        }
+      ]
+    }
+  ]
+}
