@@ -5,6 +5,98 @@
   "sampleCount": 11,
   "wins": 8,
   "losses": 3,
+  "runeSummary": {
+    "keystones": [
+      {
+        "key": "8112",
+        "games": 11,
+        "wins": 8,
+        "losses": 3,
+        "winRate": 0.7273
+      }
+    ],
+    "stylePairs": [
+      {
+        "key": "8100+8200",
+        "games": 5,
+        "wins": 3,
+        "losses": 2,
+        "winRate": 0.6
+      },
+      {
+        "key": "8100+8000",
+        "games": 4,
+        "wins": 3,
+        "losses": 1,
+        "winRate": 0.75
+      },
+      {
+        "key": "8100+8400",
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "winRate": 1.0
+      }
+    ],
+    "exactPages": [
+      {
+        "key": "8112/8139/8140/8106+8017/9105",
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "winRate": 1.0
+      },
+      {
+        "key": "8112/8139/8140/8106+8224/8236",
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "winRate": 1.0
+      },
+      {
+        "key": "8112/8139/8140/8106+8210/8236",
+        "games": 2,
+        "wins": 1,
+        "losses": 1,
+        "winRate": 0.5
+      },
+      {
+        "key": "8112/8139/8140/8106+8444/8242",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "winRate": 1.0
+      },
+      {
+        "key": "8112/8139/8140/8106+8473/8242",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "winRate": 1.0
+      },
+      {
+        "key": "8112/8139/8140/8106+9105/8017",
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "winRate": 1.0
+      },
+      {
+        "key": "8112/8139/8140/8106+8234/8275",
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "winRate": 0.0
+      },
+      {
+        "key": "8112/8139/8140/8106+9105/8014",
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "winRate": 0.0
+      }
+    ]
+  },
   "matches": [
     {
       "matchId": "KR_8331023740",
@@ -21,6 +113,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1458145,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8200,
+            "description": "subStyle",
+            "perks": [
+              8224,
+              8236
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8200,
+        "secondaryPerks": [
+          8224,
+          8236
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 231,
@@ -59,6 +186,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1167958,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8200,
+            "description": "subStyle",
+            "perks": [
+              8224,
+              8236
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8200,
+        "secondaryPerks": [
+          8224,
+          8236
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 370,
@@ -97,6 +259,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1312385,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8000,
+            "description": "subStyle",
+            "perks": [
+              9105,
+              8014
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8000,
+        "secondaryPerks": [
+          9105,
+          8014
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 47,
@@ -135,6 +332,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1401755,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8000,
+            "description": "subStyle",
+            "perks": [
+              8017,
+              9105
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8000,
+        "secondaryPerks": [
+          8017,
+          9105
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 91,
@@ -173,6 +405,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1189931,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8400,
+            "description": "subStyle",
+            "perks": [
+              8473,
+              8242
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8400,
+        "secondaryPerks": [
+          8473,
+          8242
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 340,
@@ -211,6 +478,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1335312,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8200,
+            "description": "subStyle",
+            "perks": [
+              8234,
+              8275
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8200,
+        "secondaryPerks": [
+          8234,
+          8275
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 377,
@@ -249,6 +551,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1341363,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8400,
+            "description": "subStyle",
+            "perks": [
+              8444,
+              8242
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8400,
+        "secondaryPerks": [
+          8444,
+          8242
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": -638,
@@ -287,6 +624,41 @@
       "secondCore": "그림자불꽃",
       "secondCoreTimestamp": 1314605,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8000,
+            "description": "subStyle",
+            "perks": [
+              8017,
+              9105
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8000,
+        "secondaryPerks": [
+          8017,
+          9105
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 14,
@@ -325,6 +697,41 @@
       "secondCore": null,
       "secondCoreTimestamp": null,
       "boots": null,
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8000,
+            "description": "subStyle",
+            "perks": [
+              9105,
+              8017
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8000,
+        "secondaryPerks": [
+          9105,
+          8017
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 88,
@@ -358,6 +765,41 @@
       "secondCore": "리안드리의 고통",
       "secondCoreTimestamp": 1489312,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8200,
+            "description": "subStyle",
+            "perks": [
+              8210,
+              8236
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8200,
+        "secondaryPerks": [
+          8210,
+          8236
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": 55,
@@ -396,6 +838,41 @@
       "secondCore": "리안드리의 고통",
       "secondCoreTimestamp": 1255468,
       "boots": "마법사의 신발",
+      "runes": {
+        "styles": [
+          {
+            "style": 8100,
+            "description": "primaryStyle",
+            "perks": [
+              8112,
+              8139,
+              8140,
+              8106
+            ]
+          },
+          {
+            "style": 8200,
+            "description": "subStyle",
+            "perks": [
+              8210,
+              8236
+            ]
+          }
+        ],
+        "primaryStyle": 8100,
+        "keystone": 8112,
+        "primaryPerks": [
+          8112,
+          8139,
+          8140,
+          8106
+        ],
+        "secondaryStyle": 8200,
+        "secondaryPerks": [
+          8210,
+          8236
+        ]
+      },
       "snapshots": {
         "5": {
           "goldDiff": -86,
