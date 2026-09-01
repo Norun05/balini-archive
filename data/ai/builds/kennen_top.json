@@ -1,0 +1,230 @@
+{
+  "champion": "Kennen",
+  "position": "TOP",
+  "sampleCount": 61,
+  "matchesWithRecognizedFirstCore": 54,
+  "matchesWithRecognizedTwoCore": 38,
+  "notes": [
+    "firstCore/twoCore use ITEM_PURCHASED timestamps, not final inventory order.",
+    "finalPresence is descriptive only and is strongly affected by game length and gold income.",
+    "Only the major AP items listed in this script are recognized as cores."
+  ],
+  "firstCore": [
+    {
+      "key": "마법공학 로켓 벨트",
+      "games": 30,
+      "wins": 19,
+      "losses": 11,
+      "winRate": 0.6333
+    },
+    {
+      "key": "그림자불꽃",
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "winRate": 0.5833
+    },
+    {
+      "key": "리안드리의 고통",
+      "games": 10,
+      "wins": 3,
+      "losses": 7,
+      "winRate": 0.3
+    },
+    {
+      "key": "존야의 모래시계",
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    }
+  ],
+  "twoCoreOrder": [
+    {
+      "key": "마법공학 로켓 벨트 → 그림자불꽃",
+      "games": 10,
+      "wins": 5,
+      "losses": 5,
+      "winRate": 0.5
+    },
+    {
+      "key": "마법공학 로켓 벨트 → 존야의 모래시계",
+      "games": 7,
+      "wins": 5,
+      "losses": 2,
+      "winRate": 0.7143
+    },
+    {
+      "key": "그림자불꽃 → 존야의 모래시계",
+      "games": 5,
+      "wins": 3,
+      "losses": 2,
+      "winRate": 0.6
+    },
+    {
+      "key": "리안드리의 고통 → 공허의 지팡이",
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 0.25
+    },
+    {
+      "key": "리안드리의 고통 → 그림자불꽃",
+      "games": 3,
+      "wins": 1,
+      "losses": 2,
+      "winRate": 0.3333
+    },
+    {
+      "key": "그림자불꽃 → 폭풍쇄도",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5
+    },
+    {
+      "key": "마법공학 로켓 벨트 → 폭풍쇄도",
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "winRate": 0.5
+    },
+    {
+      "key": "리안드리의 고통 → 존야의 모래시계",
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "winRate": 0.0
+    },
+    {
+      "key": "그림자불꽃 → 공허의 지팡이",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "마법공학 로켓 벨트 → 리안드리의 고통",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 1.0
+    },
+    {
+      "key": "존야의 모래시계 → 그림자불꽃",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ],
+  "boots": [
+    {
+      "key": "마법사의 신발",
+      "games": 46,
+      "wins": 27,
+      "losses": 19,
+      "winRate": 0.587
+    },
+    {
+      "key": "헤르메스의 발걸음",
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 0.25
+    },
+    {
+      "key": "판금 장화",
+      "games": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 0.6667
+    }
+  ],
+  "finalItemPresence": [
+    {
+      "key": "마법사의 신발",
+      "games": 46,
+      "wins": 27,
+      "losses": 19,
+      "winRate": 0.587
+    },
+    {
+      "key": "그림자불꽃",
+      "games": 31,
+      "wins": 14,
+      "losses": 17,
+      "winRate": 0.4516
+    },
+    {
+      "key": "마법공학 로켓 벨트",
+      "games": 30,
+      "wins": 19,
+      "losses": 11,
+      "winRate": 0.6333
+    },
+    {
+      "key": "존야의 모래시계",
+      "games": 25,
+      "wins": 13,
+      "losses": 12,
+      "winRate": 0.52
+    },
+    {
+      "key": "리안드리의 고통",
+      "games": 11,
+      "wins": 4,
+      "losses": 7,
+      "winRate": 0.3636
+    },
+    {
+      "key": "공허의 지팡이",
+      "games": 9,
+      "wins": 3,
+      "losses": 6,
+      "winRate": 0.3333
+    },
+    {
+      "key": "폭풍쇄도",
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "winRate": 0.6667
+    },
+    {
+      "key": "라바돈의 죽음모자",
+      "games": 5,
+      "wins": 0,
+      "losses": 5,
+      "winRate": 0.0
+    },
+    {
+      "key": "헤르메스의 발걸음",
+      "games": 4,
+      "wins": 1,
+      "losses": 3,
+      "winRate": 0.25
+    },
+    {
+      "key": "판금 장화",
+      "games": 3,
+      "wins": 2,
+      "losses": 1,
+      "winRate": 0.6667
+    },
+    {
+      "key": "내셔의 이빨",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    },
+    {
+      "key": "리치베인",
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "winRate": 0.0
+    }
+  ]
+}
