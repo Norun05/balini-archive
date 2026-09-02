@@ -150,12 +150,16 @@ def write_bundle(root_dir, key, name_ko, family, has_standard_positions, pairs, 
     by_champion = defaultdict(list)
     by_position = defaultdict(list)
     by_champion_position = defaultdict(list)
+    by_summoner = defaultdict(list)
     for row in rows:
         champion = row.get("champion") or "Unknown"
         by_champion[champion].append(row)
-        if has_standard_positions and row.get("position") in STANDARD_POSITIONS:
-            by_position[row["position"]].append(row)
-            by_champion_position[(champion, row["position"])].append(row)
+        position = row.get("position") if has_standard_positions and row.get("position") in STANDARD_POSITIONS else None
+        if position:
+            by_position[position].append(row)
+            by_champion_position[(champion, position)].append(row)
+        if row.get("summoners"):
+            by_summoner[(champion, position, row["summoners"])].append(row)
 
     champions = []
     for champion, group in sorted(by_champion.items(), key=lambda x: (-len(x[1]), x[0])):
@@ -177,6 +181,16 @@ def write_bundle(root_dir, key, name_ko, family, has_standard_positions, pairs, 
         for position, group in sorted(by_position.items(), key=lambda x: (-len(x[1]), x[0]))
     ]
     write_json(bundle_dir / "positions.json", positions)
+
+    summoners = []
+    for (champion, position, spells), group in sorted(by_summoner.items(), key=lambda x: (-len(x[1]), x[0])):
+        summoners.append({
+            "champion": champion,
+            "position": position,
+            "summoners": spells,
+            **stats.normalize_counters(stats.aggregate(group)),
+        })
+    write_json(bundle_dir / "summoners.json", summoners)
 
     matchup_index = build_matchup_files(bundle_dir, rows, has_standard_positions)
 
@@ -204,6 +218,7 @@ def write_bundle(root_dir, key, name_ko, family, has_standard_positions, pairs, 
             "overview": (bundle_dir / "overview.json").relative_to(DATA).as_posix(),
             "champions": (bundle_dir / "champions.json").relative_to(DATA).as_posix(),
             "positions": (bundle_dir / "positions.json").relative_to(DATA).as_posix(),
+            "summoners": (bundle_dir / "summoners.json").relative_to(DATA).as_posix(),
             "matchups": (bundle_dir / "matchups" / "index.json").relative_to(DATA).as_posix(),
             "itemTimings": (bundle_dir / "item_timings.json").relative_to(DATA).as_posix(),
         },
@@ -299,7 +314,7 @@ def main():
         "modes": mode_bundles,
         "rulesets": list(ruleset_bundles.values()),
         "notes": [
-            "Use by-mode stats for champion, lane, matchup, and item analysis; do not mix special modes into standard Rift conclusions.",
+            "Use by-mode stats for champion, lane, matchup, summoner-spell, and item analysis; do not mix special modes into standard Rift conclusions.",
             "Use by-ruleset stats when the same named mode changed materially across patches (for example Swiftplay 2025 vs 2026 or Arena queue generations).",
             "When the user asks for ordinary lane/build analysis without naming a mode, prefer standard_rift.",
             "Swiftplay remains separate from standard_rift because its economy/objective rules materially differ.",
@@ -380,7 +395,7 @@ def main():
             search_index = {}
         search_index.setdefault("routes", {})["modes"] = "search/modes.json"
         search_index.setdefault("queryExamples", {})["modeAwareAnalysis"] = [
-            "Resolve mode through search/modes.json before opening champion, matchup, or item statistics.",
+            "Resolve mode through search/modes.json before opening champion, matchup, summoner-spell, or item statistics.",
             "If the named mode has multiple rulesets and the question is era-sensitive, use the matching ruleset route.",
             "For an unspecified ordinary Rift analysis, prefer standard_rift instead of all-mode aggregate stats.",
         ]
