@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="발린이#극악무도의 League of Legends 전적 아카이브" />
   <title>발린이 아카이브</title>
-  <link rel="stylesheet" href="./style.css?v=mode-filter-20260903" />
+  <link rel="stylesheet" href="./style.css?v=mode-stats-20260903" />
 </head>
 <body>
   <header class="site-header">
@@ -57,7 +57,10 @@
     </section>
 
     <section class="tab-panel" data-panel="stats" hidden>
-      <section class="section-head"><div><p class="section-kicker">STATISTICS</p><h2>전체 통계</h2></div></section>
+      <section class="section-head"><div><p class="section-kicker">STATISTICS</p><h2>모드별 통계</h2></div><p id="statsModeHint" class="muted"></p></section>
+      <section class="toolbar card compact-toolbar">
+        <div class="field"><label for="statsModeFilter">게임 모드</label><select id="statsModeFilter"><option value="">전체 모드</option></select></div>
+      </section>
       <section id="statsOverview" class="stats-grid"></section>
       <section class="stats-card card"><h3>포지션별</h3><div id="positionStats" class="stats-table-wrap"></div></section>
       <section class="stats-card card"><h3>소환사 주문 조합</h3><div id="summonerStats" class="stats-table-wrap"></div></section>
@@ -65,12 +68,15 @@
 
     <section class="tab-panel" data-panel="champions" hidden>
       <section class="section-head"><div><p class="section-kicker">CHAMPIONS</p><h2>챔피언 통계</h2></div></section>
-      <section class="toolbar card compact-toolbar"><div class="field grow"><label for="championStatsSearch">챔피언 검색</label><input id="championStatsSearch" type="search" placeholder="Kennen, Veigar…" /></div></section>
+      <section class="toolbar card compact-toolbar">
+        <div class="field"><label for="championModeFilter">게임 모드</label><select id="championModeFilter"><option value="">전체 모드</option></select></div>
+        <div class="field grow"><label for="championStatsSearch">챔피언 검색</label><input id="championStatsSearch" type="search" placeholder="Kennen, Veigar…" /></div>
+      </section>
       <section id="championStats" class="stats-list"></section>
     </section>
 
     <section class="tab-panel" data-panel="teammates" hidden>
-      <section class="section-head"><div><p class="section-kicker">PLAYERS</p><h2>함께한 플레이어</h2></div></section>
+      <section class="section-head"><div><p class="section-kicker">PLAYERS</p><h2>함께한 플레이어</h2></div><p class="muted">현재는 전체 모드 합산</p></section>
       <section class="toolbar card compact-toolbar"><div class="field grow"><label for="teammateSearch">Riot ID 검색</label><input id="teammateSearch" type="search" placeholder="DTC Soul…" /></div></section>
       <section id="teammateStats" class="stats-list"></section>
     </section>
@@ -84,6 +90,6 @@
     <a href="./data/stats/index.json">stats/index.json</a>
     <a href="./data/manifest.json">manifest.json</a>
   </footer>
-  <script src="./app.js?v=mode-filter-20260903" defer></script>
+  <script src="./app.js?v=mode-stats-20260903" defer></script>
 </body>
 </html>
