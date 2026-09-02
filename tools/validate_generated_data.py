@@ -29,14 +29,17 @@ def main():
     required = [
         DATA / "manifest.json",
         DATA / "catalog.json",
+        DATA / "modes.json",
         DATA / "stats" / "index.json",
         DATA / "stats" / "overview.json",
         DATA / "stats" / "teammates.json",
         DATA / "stats" / "item_timings.json",
+        DATA / "stats" / "modes.json",
         DATA / "search" / "index.json",
         DATA / "search" / "champions.json",
         DATA / "search" / "matchup_routes.json",
         DATA / "search" / "players.json",
+        DATA / "search" / "modes.json",
     ]
     missing = [p.relative_to(ROOT).as_posix() for p in required if not p.exists()]
     checks["requiredFiles"] = {"ok": not missing, "missing": missing}
@@ -60,10 +63,53 @@ def main():
     if not counts_ok:
         add(errors, "match-count-mismatch", "Manifest, catalog, and detail match counts do not agree.", manifest=manifest_count, catalog=catalog_count, detailFiles=detail_count)
 
+    mode_missing_rows = []
+    if isinstance(catalog, list):
+        for row in catalog:
+            if not row.get("modeKey") or not row.get("modeNameKo") or not row.get("queueSignature"):
+                mode_missing_rows.append(row.get("matchId"))
+                if len(mode_missing_rows) >= 20:
+                    break
+    checks["modeClassification"] = {
+        "ok": not mode_missing_rows,
+        "sampleMissingMatchIds": mode_missing_rows,
+        "manifestModeCount": manifest.get("modeCount"),
+        "defaultAnalysisMode": manifest.get("defaultAnalysisMode"),
+    }
+    if mode_missing_rows:
+        add(errors, "mode-classification-missing", "Some catalog rows are missing normalized mode metadata.", matchIds=mode_missing_rows)
+
+    modes_path = DATA / "modes.json"
+    if modes_path.exists():
+        modes = read_json(modes_path)
+        mode_match_count = int(modes.get("matchCount") or 0)
+        if mode_match_count != catalog_count:
+            add(errors, "mode-count-mismatch", "Mode index does not cover the full catalog.", modes=mode_match_count, catalog=catalog_count)
+        checks["modeIndex"] = {
+            "ok": mode_match_count == catalog_count,
+            "matchCount": mode_match_count,
+            "modeCount": modes.get("modeCount"),
+            "modeKeys": [m.get("modeKey") for m in modes.get("modes") or []],
+        }
+
     stats_count = int(manifest.get("statsMatchCount") or 0)
     if stats_count and stats_count != detail_count:
         add(errors, "stats-count-mismatch", "Precomputed stats do not cover the same number of matches.", stats=stats_count, details=detail_count)
     checks["statsCount"] = {"ok": not stats_count or stats_count == detail_count, "stats": stats_count, "details": detail_count}
+
+    mode_stats_path = DATA / "stats" / "modes.json"
+    if mode_stats_path.exists():
+        mode_stats = read_json(mode_stats_path)
+        default_mode = mode_stats.get("defaultAnalysisMode")
+        route_keys = {x.get("modeKey") for x in mode_stats.get("modes") or []}
+        default_ok = not default_mode or default_mode in route_keys
+        checks["modeStats"] = {
+            "ok": default_ok,
+            "defaultAnalysisMode": default_mode,
+            "routeCount": len(route_keys),
+        }
+        if not default_ok:
+            add(errors, "default-mode-route-missing", "Default analysis mode has no generated mode-stat bundle.", modeKey=default_mode)
 
     latest = None
     if isinstance(catalog, list) and catalog:
@@ -137,6 +183,18 @@ def main():
             route_checks.append({"type": "player", "alias": alias, "path": rel, "ok": ok})
             if not ok:
                 add(errors, "broken-player-route", "A player search route points to a missing file.", alias=alias, path=rel)
+
+    mode_routes_path = DATA / "search" / "modes.json"
+    if mode_routes_path.exists():
+        mode_routes = read_json(mode_routes_path)
+        for key, route in list((mode_routes.get("routes") or {}).items())[:20]:
+            for file_key in ("overview", "champions", "positions", "matchups", "itemTimings"):
+                rel = route.get(file_key)
+                ok = bool(rel and (DATA / rel).exists())
+                route_checks.append({"type": "mode", "mode": key, "file": file_key, "path": rel, "ok": ok})
+                if not ok:
+                    add(errors, "broken-mode-route", "A mode search route points to a missing file.", mode=key, file=file_key, path=rel)
+
     checks["sampleRoutes"] = route_checks
 
     merge_index_candidates = [
@@ -157,7 +215,7 @@ def main():
         add(warnings, "merge-index-missing", "Merged-archive report was not found; old-archive coverage cannot be verified.")
 
     report = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "ok": not errors,
         "errorCount": len(errors),
         "warningCount": len(warnings),
@@ -167,6 +225,7 @@ def main():
         "notes": [
             "Errors fail update_site_data.bat; warnings are written for inspection but do not fail the build.",
             "Ability and summoner-spell cast timestamps are not inferred from Match-V5 when Riot does not provide them explicitly.",
+            "Mode-aware analysis should use data/search/modes.json and data/stats/by-mode/* rather than all-mode aggregates.",
         ],
     }
     write_json(REPORT, report)
