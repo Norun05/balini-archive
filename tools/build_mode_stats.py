@@ -12,7 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 MATCHES_DIR = DATA / "matches"
 STATS_DIR = DATA / "stats"
-OUT = STATS_DIR / "by-mode"
+MODE_OUT = STATS_DIR / "by-mode"
+RULESET_OUT = STATS_DIR / "by-ruleset"
 MODE_INDEX = STATS_DIR / "modes.json"
 SEARCH_DIR = DATA / "search"
 SEARCH_MODE_ROUTES = SEARCH_DIR / "modes.json"
@@ -82,10 +83,10 @@ def item_groups(details):
     return {"firstCore": pack(first), "secondCore": pack(second)}
 
 
-def build_matchup_files(mode_dir: Path, rows, has_standard_positions):
+def build_matchup_files(bundle_dir: Path, rows, has_standard_positions):
     matchup_index = []
     if not has_standard_positions:
-        write_json(mode_dir / "matchups" / "index.json", matchup_index)
+        write_json(bundle_dir / "matchups" / "index.json", matchup_index)
         return matchup_index
 
     groups = defaultdict(list)
@@ -114,7 +115,7 @@ def build_matchup_files(mode_dir: Path, rows, has_standard_positions):
                 **stats.normalize_counters(stats.aggregate(group)),
                 "matchIds": [r["matchId"] for r in group],
             })
-        path = mode_dir / "matchups" / stats.slug(champion) / f"{stats.slug(position)}.json"
+        path = bundle_dir / "matchups" / stats.slug(champion) / f"{stats.slug(position)}.json"
         write_json(path, payload)
         matchup_index.append({
             "champion": champion,
@@ -123,28 +124,28 @@ def build_matchup_files(mode_dir: Path, rows, has_standard_positions):
             "path": path.relative_to(DATA).as_posix(),
         })
 
-    write_json(mode_dir / "matchups" / "index.json", matchup_index)
+    write_json(bundle_dir / "matchups" / "index.json", matchup_index)
     return matchup_index
 
 
-def write_mode_bundle(mode_key, mode_name_ko, mode_family, has_standard_positions, pairs, synthetic=False):
-    mode_dir = OUT / mode_key
-    mode_dir.mkdir(parents=True, exist_ok=True)
+def write_bundle(root_dir, key, name_ko, family, has_standard_positions, pairs, *, kind, synthetic=False):
+    bundle_dir = root_dir / key
+    bundle_dir.mkdir(parents=True, exist_ok=True)
 
     rows = [row for _, row in pairs]
     details = [detail for detail, _ in pairs]
     rows.sort(key=lambda x: x.get("gameCreation") or 0, reverse=True)
 
     overview = {
-        "modeKey": mode_key,
-        "modeNameKo": mode_name_ko,
-        "modeFamily": mode_family,
+        f"{kind}Key": key,
+        f"{kind}NameKo": name_ko,
+        "modeFamily": family,
         "synthetic": synthetic,
         **stats.normalize_counters(stats.aggregate(rows)),
         "generatedAt": int(datetime.now(timezone.utc).timestamp() * 1000),
         "matchCount": len(rows),
     }
-    write_json(mode_dir / "overview.json", overview)
+    write_json(bundle_dir / "overview.json", overview)
 
     by_champion = defaultdict(list)
     by_position = defaultdict(list)
@@ -169,54 +170,57 @@ def write_mode_bundle(mode_key, mode_name_ko, mode_family, has_standard_position
             if (champion, pos) in by_champion_position
         }
         champions.append(entry)
-    write_json(mode_dir / "champions.json", champions)
+    write_json(bundle_dir / "champions.json", champions)
 
     positions = [
         {"position": position, **stats.normalize_counters(stats.aggregate(group))}
         for position, group in sorted(by_position.items(), key=lambda x: (-len(x[1]), x[0]))
     ]
-    write_json(mode_dir / "positions.json", positions)
+    write_json(bundle_dir / "positions.json", positions)
 
-    matchup_index = build_matchup_files(mode_dir, rows, has_standard_positions)
+    matchup_index = build_matchup_files(bundle_dir, rows, has_standard_positions)
 
     timing_payload = {
         "schemaVersion": 1,
-        "modeKey": mode_key,
-        "modeNameKo": mode_name_ko,
+        f"{kind}Key": key,
+        f"{kind}NameKo": name_ko,
         **item_groups(details),
         "notes": [
-            "Core timings are separated by normalized game mode.",
+            "Core timings are separated by normalized mode/ruleset.",
             "Special modes without standard lanes expose position as null instead of Invalid.",
             "Core completion still inherits timeline.itemEconomy heuristic limitations.",
         ],
     }
-    write_json(mode_dir / "item_timings.json", timing_payload)
+    write_json(bundle_dir / "item_timings.json", timing_payload)
 
     return {
-        "modeKey": mode_key,
-        "modeNameKo": mode_name_ko,
-        "modeFamily": mode_family,
+        f"{kind}Key": key,
+        f"{kind}NameKo": name_ko,
+        "modeFamily": family,
         "games": len(rows),
         "synthetic": synthetic,
         "hasStandardPositions": has_standard_positions,
         "files": {
-            "overview": (mode_dir / "overview.json").relative_to(DATA).as_posix(),
-            "champions": (mode_dir / "champions.json").relative_to(DATA).as_posix(),
-            "positions": (mode_dir / "positions.json").relative_to(DATA).as_posix(),
-            "matchups": (mode_dir / "matchups" / "index.json").relative_to(DATA).as_posix(),
-            "itemTimings": (mode_dir / "item_timings.json").relative_to(DATA).as_posix(),
+            "overview": (bundle_dir / "overview.json").relative_to(DATA).as_posix(),
+            "champions": (bundle_dir / "champions.json").relative_to(DATA).as_posix(),
+            "positions": (bundle_dir / "positions.json").relative_to(DATA).as_posix(),
+            "matchups": (bundle_dir / "matchups" / "index.json").relative_to(DATA).as_posix(),
+            "itemTimings": (bundle_dir / "item_timings.json").relative_to(DATA).as_posix(),
         },
         "matchupFileCount": len(matchup_index),
     }
 
 
 def main():
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir(parents=True, exist_ok=True)
+    for out in (MODE_OUT, RULESET_OUT):
+        if out.exists():
+            shutil.rmtree(out)
+        out.mkdir(parents=True, exist_ok=True)
 
     pairs_by_mode = defaultdict(list)
+    pairs_by_ruleset = defaultdict(list)
     meta_by_mode = {}
+    meta_by_ruleset = {}
 
     for path in sorted(MATCHES_DIR.glob("KR_*.json")):
         try:
@@ -229,44 +233,74 @@ def main():
             "modeKey": meta["modeKey"],
             "modeNameKo": meta["modeNameKo"],
             "rulesetKey": meta["rulesetKey"],
+            "rulesetNameKo": meta["rulesetNameKo"],
             "isStandardRift": meta["isStandardRift"],
         })
-        pairs_by_mode[meta["modeKey"]].append((detail, row))
+        pair = (detail, row)
+        pairs_by_mode[meta["modeKey"]].append(pair)
+        pairs_by_ruleset[meta["rulesetKey"]].append(pair)
         meta_by_mode[meta["modeKey"]] = meta
+        meta_by_ruleset[meta["rulesetKey"]] = meta
 
-    bundles = []
+    ruleset_bundles = {}
+    for ruleset_key, pairs in sorted(pairs_by_ruleset.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+        meta = meta_by_ruleset[ruleset_key]
+        ruleset_bundles[ruleset_key] = write_bundle(
+            RULESET_OUT,
+            ruleset_key,
+            meta["rulesetNameKo"],
+            meta["modeFamily"],
+            meta["hasStandardPositions"],
+            pairs,
+            kind="ruleset",
+        )
+
+    mode_bundles = []
     for mode_key, pairs in sorted(pairs_by_mode.items(), key=lambda kv: (-len(kv[1]), kv[0])):
         meta = meta_by_mode[mode_key]
-        bundles.append(write_mode_bundle(
+        bundle = write_bundle(
+            MODE_OUT,
             mode_key,
             meta["modeNameKo"],
             meta["modeFamily"],
             meta["hasStandardPositions"],
             pairs,
-        ))
+            kind="mode",
+        )
+        rule_keys = sorted({row["rulesetKey"] for _, row in pairs})
+        bundle["rulesets"] = [
+            ruleset_bundles[key]
+            for key in rule_keys
+            if key in ruleset_bundles
+        ]
+        mode_bundles.append(bundle)
 
     standard_pairs = []
     for mode_key, pairs in pairs_by_mode.items():
         if mode_key in STANDARD_RIFT_RULE_MODES:
             standard_pairs.extend(pairs)
     if standard_pairs:
-        bundles.insert(0, write_mode_bundle(
+        mode_bundles.insert(0, write_bundle(
+            MODE_OUT,
             "standard_rift",
             "소환사의 협곡 · 일반 규칙",
             "summoners_rift",
             True,
             standard_pairs,
+            kind="mode",
             synthetic=True,
         ))
 
     now_ms = int(datetime.now(timezone.utc).timestamp() * 1000)
     index_payload = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "generatedAt": now_ms,
         "defaultAnalysisMode": "standard_rift" if standard_pairs else None,
-        "modes": bundles,
+        "modes": mode_bundles,
+        "rulesets": list(ruleset_bundles.values()),
         "notes": [
             "Use by-mode stats for champion, lane, matchup, and item analysis; do not mix special modes into standard Rift conclusions.",
+            "Use by-ruleset stats when the same named mode changed materially across patches (for example Swiftplay 2025 vs 2026 or Arena queue generations).",
             "When the user asks for ordinary lane/build analysis without naming a mode, prefer standard_rift.",
             "Swiftplay remains separate from standard_rift because its economy/objective rules materially differ.",
             "Arena/ARAM/URF have no standard lane position stats.",
@@ -275,19 +309,39 @@ def main():
     write_json(MODE_INDEX, index_payload)
 
     SEARCH_DIR.mkdir(parents=True, exist_ok=True)
-    routes = {
-        bundle["modeKey"]: {
+    mode_routes = {}
+    for bundle in mode_bundles:
+        route = {
             "modeNameKo": bundle["modeNameKo"],
             "games": bundle["games"],
             "synthetic": bundle["synthetic"],
             **bundle["files"],
         }
-        for bundle in bundles
+        if bundle.get("rulesets"):
+            route["rulesets"] = {
+                r["rulesetKey"]: {
+                    "rulesetNameKo": r["rulesetNameKo"],
+                    "games": r["games"],
+                    **r["files"],
+                }
+                for r in bundle["rulesets"]
+            }
+        mode_routes[bundle["modeKey"]] = route
+
+    rule_routes = {
+        key: {
+            "rulesetNameKo": bundle["rulesetNameKo"],
+            "games": bundle["games"],
+            **bundle["files"],
+        }
+        for key, bundle in ruleset_bundles.items()
     }
+
     write_json(SEARCH_MODE_ROUTES, {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "defaultAnalysisMode": index_payload["defaultAnalysisMode"],
-        "routes": routes,
+        "routes": mode_routes,
+        "rulesetRoutes": rule_routes,
         "aliases": {
             "일반": "normal_draft",
             "일반전": "normal_draft",
@@ -304,8 +358,17 @@ def main():
             "협곡": "standard_rift",
             "일반규칙협곡": "standard_rift"
         },
+        "rulesetAliases": {
+            "구신속": "swiftplay_2025",
+            "신속2025": "swiftplay_2025",
+            "신신속": "swiftplay_2026",
+            "신속2026": "swiftplay_2026",
+            "구아레나": "arena_1700",
+            "3인아레나": "arena_1750"
+        },
         "notes": [
             "Resolve the requested mode here before opening mode-specific stats.",
+            "If the user distinguishes an old/new ruleset, use rulesetRoutes instead of the combined mode route.",
             "If no mode is named for ordinary champion/lane/build analysis, use defaultAnalysisMode.",
         ],
     })
@@ -318,9 +381,11 @@ def main():
         search_index.setdefault("routes", {})["modes"] = "search/modes.json"
         search_index.setdefault("queryExamples", {})["modeAwareAnalysis"] = [
             "Resolve mode through search/modes.json before opening champion, matchup, or item statistics.",
+            "If the named mode has multiple rulesets and the question is era-sensitive, use the matching ruleset route.",
             "For an unspecified ordinary Rift analysis, prefer standard_rift instead of all-mode aggregate stats.",
         ]
-        search_index["modeRouteCount"] = len(routes)
+        search_index["modeRouteCount"] = len(mode_routes)
+        search_index["rulesetRouteCount"] = len(rule_routes)
         search_index["defaultAnalysisMode"] = index_payload["defaultAnalysisMode"]
         write_json(SEARCH_INDEX, search_index)
 
@@ -328,13 +393,15 @@ def main():
     manifest["schemaVersion"] = max(int(manifest.get("schemaVersion") or 0), 13)
     manifest["modeStatsIndexPath"] = "stats/modes.json"
     manifest["modeStatsRoutePath"] = "search/modes.json"
-    manifest["modeStatsModeCount"] = len(bundles)
+    manifest["modeStatsModeCount"] = len(mode_bundles)
+    manifest["modeStatsRulesetCount"] = len(rule_routes)
     manifest["defaultAnalysisMode"] = index_payload["defaultAnalysisMode"]
     write_json(MANIFEST, manifest)
 
     print(f"Mode stats ready: {sum(len(v) for v in pairs_by_mode.values())} matches")
-    for bundle in bundles:
+    for bundle in mode_bundles:
         print(f"  {bundle['modeNameKo']}: {bundle['games']} games")
+    print(f"Rulesets: {len(rule_routes)}")
     return 0
 
 
