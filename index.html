@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="발린이#극악무도의 League of Legends 전적 아카이브" />
   <title>발린이 아카이브</title>
-  <link rel="stylesheet" href="./style.css?v=stats-tabs-20260902" />
+  <link rel="stylesheet" href="./style.css?v=mode-filter-20260903" />
 </head>
 <body>
   <header class="site-header">
@@ -44,10 +44,11 @@
       <section class="toolbar card">
         <div class="field grow">
           <label for="searchInput">검색</label>
-          <input id="searchInput" type="search" placeholder="챔피언, 상대 챔피언, Match ID…" />
+          <input id="searchInput" type="search" placeholder="챔피언, 상대 챔피언, Match ID, 게임 모드…" />
         </div>
+        <div class="field"><label for="modeFilter">게임 모드</label><select id="modeFilter"><option value="">전체 모드</option></select></div>
         <div class="field"><label for="championFilter">챔피언</label><select id="championFilter"><option value="">전체</option></select></div>
-        <div class="field"><label for="positionFilter">포지션</label><select id="positionFilter"><option value="">전체</option><option value="TOP">TOP</option><option value="JUNGLE">JUNGLE</option><option value="MIDDLE">MIDDLE</option><option value="BOTTOM">BOTTOM</option><option value="UTILITY">SUPPORT</option></select></div>
+        <div class="field"><label for="positionFilter">포지션</label><select id="positionFilter"><option value="">전체</option></select></div>
         <div class="field"><label for="resultFilter">결과</label><select id="resultFilter"><option value="">전체</option><option value="win">승리</option><option value="loss">패배</option></select></div>
       </section>
       <section class="section-head"><div><p class="section-kicker">MATCHES</p><h2>경기 기록</h2></div><p id="resultCount" class="muted"></p></section>
@@ -79,9 +80,10 @@
     <span>발린이 아카이브</span>
     <a href="./data/profile.json">profile.json</a>
     <a href="./data/catalog.json">catalog.json</a>
+    <a href="./data/modes.json">modes.json</a>
     <a href="./data/stats/index.json">stats/index.json</a>
     <a href="./data/manifest.json">manifest.json</a>
   </footer>
-  <script src="./app.js?v=stats-tabs-20260902" defer></script>
+  <script src="./app.js?v=mode-filter-20260903" defer></script>
 </body>
 </html>
