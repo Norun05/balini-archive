@@ -5,6 +5,7 @@ const els = {
   accountLine: $('#accountLine'), syncBadge: $('#syncBadge'), matchCount: $('#matchCount'), winRate: $('#winRate'), championCount: $('#championCount'),
   searchInput: $('#searchInput'), modeFilter: $('#modeFilter'), championFilter: $('#championFilter'), positionFilter: $('#positionFilter'), resultFilter: $('#resultFilter'),
   matchList: $('#matchList'), resultCount: $('#resultCount'), emptyState: $('#emptyState'),
+  statsModeFilter: $('#statsModeFilter'), championModeFilter: $('#championModeFilter'), statsModeHint: $('#statsModeHint'),
   statsOverview: $('#statsOverview'), positionStats: $('#positionStats'), summonerStats: $('#summonerStats'),
   championStats: $('#championStats'), championStatsSearch: $('#championStatsSearch'), teammateStats: $('#teammateStats'), teammateSearch: $('#teammateSearch')
 };
@@ -188,29 +189,96 @@ function renderDetail(d){
 function statCard(label,value,sub=''){return `<article class="metric-card card"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong>${sub?`<small>${escapeHtml(sub)}</small>`:''}</article>`;}
 function statsTable(headers,rows){return `<table class="stats-table"><thead><tr>${headers.map(h=>`<th>${escapeHtml(h)}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table>`;}
 
+function modeBundlesForStats() {
+  const bundles=state.stats.modeIndex?.modes||[];
+  return [...bundles].sort((a,b)=>{
+    const ai=MODE_ORDER.indexOf(a.modeKey), bi=MODE_ORDER.indexOf(b.modeKey);
+    if(ai!==-1||bi!==-1) return (ai===-1?999:ai)-(bi===-1?999:bi);
+    return String(a.modeNameKo||a.modeKey).localeCompare(String(b.modeNameKo||b.modeKey),'ko');
+  });
+}
+
+function fillStatsModeFilters() {
+  const bundles=modeBundlesForStats();
+  for(const select of [els.statsModeFilter,els.championModeFilter]){
+    if(!select) continue;
+    select.innerHTML='<option value="">전체 모드</option>';
+    for(const bundle of bundles){
+      const o=document.createElement('option');
+      o.value=bundle.modeKey;
+      o.textContent=`${bundle.modeNameKo||bundle.modeKey} (${n(bundle.games)})`;
+      select.appendChild(o);
+    }
+  }
+}
+
+async function loadModeStats(modeKey) {
+  if(!modeKey) return state.stats.global;
+  if(state.stats.modeCache.has(modeKey)) return state.stats.modeCache.get(modeKey);
+  const bundle=(state.stats.modeIndex?.modes||[]).find(x=>x.modeKey===modeKey);
+  if(!bundle?.files) return state.stats.global;
+  const f=bundle.files;
+  const [overview,positions,champions,summoners]=await Promise.all([
+    loadJson(`./data/${f.overview}`,null),
+    loadJson(`./data/${f.positions}`,[]),
+    loadJson(`./data/${f.champions}`,[]),
+    loadJson(`./data/${f.summoners}`,[])
+  ]);
+  const result={overview,positions,champions,summoners,modeNameKo:bundle.modeNameKo||modeKey,modeKey};
+  state.stats.modeCache.set(modeKey,result);
+  return result;
+}
+
+async function setStatsMode(modeKey) {
+  if(!state.stats.loaded) return;
+  state.stats.activeMode=modeKey||'';
+  if(els.statsModeFilter) els.statsModeFilter.value=state.stats.activeMode;
+  if(els.championModeFilter) els.championModeFilter.value=state.stats.activeMode;
+  state.stats.current=await loadModeStats(state.stats.activeMode);
+  if(els.statsModeHint){
+    const label=state.stats.activeMode ? (state.stats.current.modeNameKo||state.stats.activeMode) : '전체 모드';
+    els.statsModeHint.textContent=state.stats.activeMode==='standard_rift'
+      ? `${label} — 신속·아레나·칼바람·우르프를 제외한 일반 규칙 협곡 통계입니다.`
+      : `${label} 기준 통계`;
+  }
+  renderOverview();
+  renderChampions();
+}
+
 async function loadStats(){
   if(state.stats.loaded)return;
-  const [overview,positions,champions,teammates,summoners]=await Promise.all([
-    loadJson('./data/stats/overview.json',null),loadJson('./data/stats/positions.json',[]),loadJson('./data/stats/champions.json',[]),loadJson('./data/stats/teammates.json',[]),loadJson('./data/stats/summoners.json',[])
+  const [overview,positions,champions,teammates,summoners,modeIndex]=await Promise.all([
+    loadJson('./data/stats/overview.json',null),
+    loadJson('./data/stats/positions.json',[]),
+    loadJson('./data/stats/champions.json',[]),
+    loadJson('./data/stats/teammates.json',[]),
+    loadJson('./data/stats/summoners.json',[]),
+    loadJson('./data/stats/modes.json',null)
   ]);
-  state.stats={loaded:true,overview,positions,champions,teammates,summoners};
-  renderOverview();renderChampions();renderTeammates();
+  const global={overview,positions,champions,summoners,modeNameKo:'전체 모드',modeKey:''};
+  state.stats={loaded:true,global,current:global,teammates,modeIndex,modeCache:new Map(),activeMode:''};
+  fillStatsModeFilters();
+  const preferred=modeIndex?.defaultAnalysisMode||'';
+  await setStatsMode(preferred);
+  renderTeammates();
 }
 
 function renderOverview(){
-  const o=state.stats.overview;
+  const data=state.stats.current||state.stats.global||{};
+  const o=data.overview;
   if(!o){els.statsOverview.innerHTML='<p class="muted">통계 데이터가 아직 없습니다. update_site_data.bat을 실행해주세요.</p>';return;}
-  els.statsOverview.innerHTML=statCard('전체 경기',n(o.games||o.matchCount))+statCard('승률',fmtPct(o.winRate))+statCard('평균 KDA',String(o.kdaRatio??'-'))+statCard('평균 CS',String(o.avgCs??'-'))+statCard('평균 골드',n(o.avgGold))+statCard('평균 피해량',n(o.avgDamage));
-  const posRows=(state.stats.positions||[]).map(p=>`<tr><td>${escapeHtml(p.position)}</td><td>${n(p.games)}</td><td>${fmtPct(p.winRate)}</td><td>${p.avgKills??'-'} / ${p.avgDeaths??'-'} / ${p.avgAssists??'-'}</td><td>${p.lane?.['10']?.avgGoldDiff??'-'}</td><td>${p.lane?.['10']?.avgCsDiff??'-'}</td></tr>`);
-  els.positionStats.innerHTML=statsTable(['포지션','경기','승률','평균 K/D/A','10분 골드차','10분 CS차'],posRows);
-  const sRows=(state.stats.summoners||[]).slice(0,30).map(s=>`<tr><td>${escapeHtml(s.champion)}</td><td>${escapeHtml(s.position)}</td><td>${escapeHtml(s.summoners)}</td><td>${n(s.games)}</td><td>${fmtPct(s.winRate)}</td></tr>`);
-  els.summonerStats.innerHTML=statsTable(['챔피언','포지션','주문','경기','승률'],sRows);
+  els.statsOverview.innerHTML=statCard('경기',n(o.games||o.matchCount))+statCard('승률',fmtPct(o.winRate))+statCard('평균 KDA',String(o.kdaRatio??'-'))+statCard('평균 CS',String(o.avgCs??'-'))+statCard('평균 골드',n(o.avgGold))+statCard('평균 피해량',n(o.avgDamage));
+  const posRows=(data.positions||[]).map(p=>`<tr><td>${escapeHtml(p.position)}</td><td>${n(p.games)}</td><td>${fmtPct(p.winRate)}</td><td>${p.avgKills??'-'} / ${p.avgDeaths??'-'} / ${p.avgAssists??'-'}</td><td>${p.lane?.['10']?.avgGoldDiff??'-'}</td><td>${p.lane?.['10']?.avgCsDiff??'-'}</td></tr>`);
+  els.positionStats.innerHTML=posRows.length?statsTable(['포지션','경기','승률','평균 K/D/A','10분 골드차','10분 CS차'],posRows):'<p class="muted">이 모드에는 표준 라인 포지션 통계가 없습니다.</p>';
+  const sRows=(data.summoners||[]).slice(0,30).map(s=>`<tr><td>${escapeHtml(s.champion)}</td><td>${escapeHtml(s.position||'해당 없음')}</td><td>${escapeHtml(s.summoners)}</td><td>${n(s.games)}</td><td>${fmtPct(s.winRate)}</td></tr>`);
+  els.summonerStats.innerHTML=sRows.length?statsTable(['챔피언','포지션','주문','경기','승률'],sRows):'<p class="muted">이 모드의 소환사 주문 통계가 없습니다.</p>';
 }
 
 function renderChampions(){
+  const data=state.stats.current||state.stats.global||{};
   const q=(els.championStatsSearch?.value||'').trim().toLowerCase();
-  const list=(state.stats.champions||[]).filter(c=>!q||String(c.champion).toLowerCase().includes(q));
-  els.championStats.innerHTML=list.map(c=>`<article class="stats-card card"><div class="stats-card-head"><div><p class="section-kicker">${n(c.games)} GAMES</p><h3>${escapeHtml(c.champion)}</h3></div><strong>${fmtPct(c.winRate)}</strong></div><div class="mini-metrics"><span>KDA ${c.kdaRatio??'-'}</span><span>평균 CS ${c.avgCs??'-'}</span><span>평균 피해 ${n(c.avgDamage)}</span></div>${c.positions?`<div class="chip-row">${Object.entries(c.positions).map(([p,v])=>`<span class="stat-chip">${escapeHtml(p)} ${n(v.games)}판 · ${fmtPct(v.winRate)}</span>`).join('')}</div>`:''}</article>`).join('')||'<p class="muted">검색 결과가 없습니다.</p>';
+  const list=(data.champions||[]).filter(c=>!q||String(c.champion).toLowerCase().includes(q));
+  els.championStats.innerHTML=list.map(c=>`<article class="stats-card card"><div class="stats-card-head"><div><p class="section-kicker">${n(c.games)} GAMES</p><h3>${escapeHtml(c.champion)}</h3></div><strong>${fmtPct(c.winRate)}</strong></div><div class="mini-metrics"><span>KDA ${c.kdaRatio??'-'}</span><span>평균 CS ${c.avgCs??'-'}</span><span>평균 피해 ${n(c.avgDamage)}</span></div>${c.positions&&Object.keys(c.positions).length?`<div class="chip-row">${Object.entries(c.positions).map(([p,v])=>`<span class="stat-chip">${escapeHtml(p)} ${n(v.games)}판 · ${fmtPct(v.winRate)}</span>`).join('')}</div>`:''}</article>`).join('')||'<p class="muted">검색 결과가 없습니다.</p>';
 }
 
 function renderTeammates(){
@@ -240,6 +308,8 @@ async function init(){
   els.modeFilter?.addEventListener('change',()=>{fillChampionFilter();fillPositionFilter();applyFilters();});
   [els.championFilter,els.positionFilter,els.resultFilter].forEach(el=>el.addEventListener('change',applyFilters));
   document.querySelectorAll('.tab-button').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab)));
+  els.statsModeFilter?.addEventListener('change',e=>setStatsMode(e.target.value));
+  els.championModeFilter?.addEventListener('change',e=>setStatsMode(e.target.value));
   els.championStatsSearch?.addEventListener('input',renderChampions);
   els.teammateSearch?.addEventListener('input',renderTeammates);
 }
