@@ -37,6 +37,11 @@ def pct(n, d):
     return round(n * 100 / d, 2) if d else None
 
 
+def safe_tuple_sort_key(values):
+    """Return a deterministic comparison key even when tuple members are None."""
+    return tuple("" if value is None else str(value) for value in values)
+
+
 def item_groups(details):
     first = defaultdict(list)
     second = defaultdict(list)
@@ -64,7 +69,10 @@ def item_groups(details):
 
     def pack(groups):
         rows = []
-        for (champion, position, item), group in sorted(groups.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+        for (champion, position, item), group in sorted(
+            groups.items(),
+            key=lambda kv: (-len(kv[1]), safe_tuple_sort_key(kv[0])),
+        ):
             wins = sum(1 for r in group if r["win"])
             timestamps = [r["timestamp"] for r in group if isinstance(r.get("timestamp"), (int, float))]
             rows.append({
@@ -183,7 +191,10 @@ def write_bundle(root_dir, key, name_ko, family, has_standard_positions, pairs, 
     write_json(bundle_dir / "positions.json", positions)
 
     summoners = []
-    for (champion, position, spells), group in sorted(by_summoner.items(), key=lambda x: (-len(x[1]), x[0])):
+    for (champion, position, spells), group in sorted(
+        by_summoner.items(),
+        key=lambda x: (-len(x[1]), safe_tuple_sort_key(x[0])),
+    ):
         summoners.append({
             "champion": champion,
             "position": position,
