@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 11,
-  "generatedAt": 1788289691070,
+  "schemaVersion": 13,
+  "generatedAt": 1788394236718,
   "matchCount": 830,
   "timelineSummaryCount": 830,
   "brokenJsonCount": 0,
@@ -134,5 +134,34 @@
   "searchChampionRoutePath": "search/champions.json",
   "searchMatchupRoutePath": "search/matchup_routes.json",
   "searchPlayerRoutePath": "search/players.json",
-  "searchPlayerFilePattern": "search/players/{normalizedRiotId}.json"
+  "searchPlayerFilePattern": "search/players/{normalizedRiotId}.json",
+  "modeIndexPath": "modes.json",
+  "modeClassificationVersion": 1,
+  "modeClassifiedMatchCount": 830,
+  "modeCount": 7,
+  "modeKeys": [
+    "normal_draft",
+    "arena",
+    "swiftplay",
+    "ranked_solo",
+    "arurf",
+    "aram",
+    "ranked_flex"
+  ],
+  "modeCatalogFields": [
+    "modeKey",
+    "modeNameKo",
+    "modeFamily",
+    "rulesetKey",
+    "rulesetNameKo",
+    "isStandardRift",
+    "hasStandardPositions",
+    "modeConfidence",
+    "queueSignature"
+  ],
+  "modeStatsIndexPath": "stats/modes.json",
+  "modeStatsRoutePath": "search/modes.json",
+  "modeStatsModeCount": 8,
+  "modeStatsRulesetCount": 9,
+  "defaultAnalysisMode": "standard_rift"
 }

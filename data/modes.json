@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": 1788394242354,
+  "matchCount": 830,
+  "modeCount": 7,
+  "modes": [
+    {
+      "modeKey": "normal_draft",
+      "modeNameKo": "일반 · 교차 선택",
+      "modeFamily": "summoners_rift",
+      "games": 458,
+      "wins": 269,
+      "losses": 189,
+      "winRate": 58.73,
+      "isStandardRift": true,
+      "hasStandardPositions": true,
+      "queueIds": [
+        {
+          "queueId": 400,
+          "games": 458
+        }
+      ],
+      "gameModes": [
+        {
+          "gameMode": "CLASSIC",
+          "games": 458
+        }
+      ],
+      "mapIds": [
+        {
+          "mapId": 11,
+          "games": 458
+        }
+      ],
+      "queueSignatures": [
+        {
+          "signature": "400|CLASSIC",
+          "games": 458,
+          "sampleMatchId": "KR_8362005931"
+        }
+      ],
+      "rulesets": [
+        {
+          "rulesetKey": "normal_draft",
+          "rulesetNameKo": "일반 · 교차 선택",
+          "games": 458
+        }
+      ],
+      "earliestGameCreation": 1755242368830,
+      "latestGameCreation": 1788091718414
+    },
+    {
+      "modeKey": "arena",
+      "modeNameKo": "아레나",
+      "modeFamily": "arena",
+      "games": 174,
+      "wins": 72,
+      "losses": 102,
+      "winRate": 41.38,
+      "isStandardRift": false,
+      "hasStandardPositions": false,
+      "queueIds": [
+        {
+          "queueId": 1700,
+          "games": 136
+        },
+        {
+          "queueId": 1750,
+          "games": 38
+        }
+      ],
+      "gameModes": [
+        {
+          "gameMode": "CHERRY",
+          "games": 174
+        }
+      ],
+      "mapIds": [
+        {
+          "mapId": 30,
+          "games": 174
+        }
+      ],
+      "queueSignatures": [
+        {
+          "signature": "1700|CHERRY",
+          "games": 136,
+          "sampleMatchId": "KR_8207774563"
+        },
+        {
+          "signature": "1750|CHERRY",
+          "games": 38,
+          "sampleMatchId": "KR_8319847755"
+        }
+      ],
+      "rulesets": [
+        {
+          "rulesetKey": "arena_1700",
+          "rulesetNameKo": "아레나 (기존 규칙)",
+          "games": 136
+        },
+        {
+          "rulesetKey": "arena_1750",
+          "rulesetNameKo": "아레나 (3인 팀 규칙)",
+          "games": 38
+        }
+      ],
+      "earliestGameCreation": 1756208429570,
+      "latestGameCreation": 1785399880488
+    },
+    {
+      "modeKey": "swiftplay",
+      "modeNameKo": "신속 대전",
+      "modeFamily": "summoners_rift",
+      "games": 122,
+      "wins": 77,
+      "losses": 45,
+      "winRate": 63.11,
+      "isStandardRift": false,
+      "hasStandardPositions": true,
+      "queueIds": [
+        {
+          "queueId": 480,
+          "games": 102
+        },
+        {
+          "queueId": 890,
+          "games": 20
+        }
+      ],
+      "gameModes": [
+        {
+          "gameMode": "SWIFTPLAY",
+          "games": 122
+        }
+      ],
+      "mapIds": [
+        {
+          "mapId": 11,
+          "games": 122
+        }
+      ],
+      "queueSignatures": [
+        {
+          "signature": "480|SWIFTPLAY",
+          "games": 102,
+          "sampleMatchId": "KR_8273082269"
+        },
+        {
+          "signature": "890|SWIFTPLAY",
+          "games": 20,
+          "sampleMatchId": "KR_8240916424"
+        }
+      ],
+      "rulesets": [
+        {
+          "rulesetKey": "swiftplay_2026",
+          "rulesetNameKo": "신속 대전 (2026 규칙)",
+          "games": 61
+        },
+        {
+          "rulesetKey": "swiftplay_2025",
+          "rulesetNameKo": "신속 대전 (기존 규칙)",
+          "games": 61
+        }
+      ],
+      "earliestGameCreation": 1757160488375,
+      "latestGameCreation": 1782389592750
+    },
+    {
+      "modeKey": "ranked_solo",
+      "modeNameKo": "솔로/듀오 랭크",
+      "modeFamily": "summoners_rift",
+      "games": 41,
+      "wins": 18,
+      "losses": 23,
+      "winRate": 43.9,
+      "isStandardRift": true,
+      "hasStandardPositions": true,
+      "queueIds": [
+        {
+          "queueId": 420,
+          "games": 41
+        }
+      ],
+      "gameModes": [
+        {
+          "gameMode": "CLASSIC",
+          "games": 41
+        }
+      ],
+      "mapIds": [
+        {
+          "mapId": 11,
+          "games": 41
+        }
+      ],
+      "queueSignatures": [
+        {
+          "signature": "420|CLASSIC",
+          "games": 41,
+          "sampleMatchId": "KR_8338898529"
+        }
+      ],
+      "rulesets": [
+        {
+          "rulesetKey": "ranked_solo",
+          "rulesetNameKo": "솔로/듀오 랭크",
+          "games": 41
+        }
+      ],
+      "earliestGameCreation": 1761397671505,
+      "latestGameCreation": 1786628629941
+    },
+    {
+      "modeKey": "arurf",
+      "modeNameKo": "무작위 우르프",
+      "modeFamily": "urf",
+      "games": 27,
+      "wins": 11,
+      "losses": 16,
+      "winRate": 40.74,
+      "isStandardRift": false,
+      "hasStandardPositions": false,
+      "queueIds": [
+        {
+          "queueId": 900,
+          "games": 27
+        }
+      ],
+      "gameModes": [
+        {
+          "gameMode": "URF",
+          "games": 27
+        }
+      ],
+      "mapIds": [
+        {
+          "mapId": 11,
+          "games": 27
+        }
+      ],
+      "queueSignatures": [
+        {
+          "signature": "900|URF",
+          "games": 27,
+          "sampleMatchId": "KR_8056503470"
+        }
+      ],
+      "rulesets": [
+        {
+          "rulesetKey": "arurf",
+          "rulesetNameKo": "무작위 우르프",
+          "games": 27
+        }
+      ],
+      "earliestGameCreation": 1763791162666,
+      "latestGameCreation": 1769678605626
+    },
+    {
+      "modeKey": "aram",
+      "modeNameKo": "칼바람 나락",
+      "modeFamily": "aram",
+      "games": 7,
+      "wins": 5,
+      "losses": 2,
+      "winRate": 71.43,
+      "isStandardRift": false,
+      "hasStandardPositions": false,
+      "queueIds": [
+        {
+          "queueId": 450,
+          "games": 7
+        }
+      ],
+      "gameModes": [
+        {
+          "gameMode": "ARAM",
+          "games": 7
+        }
+      ],
+      "mapIds": [
+        {
+          "mapId": 12,
+          "games": 7
+        }
+      ],
+      "queueSignatures": [
+        {
+          "signature": "450|ARAM",
+          "games": 7,
+          "sampleMatchId": "KR_7849673855"
+        }
+      ],
+      "rulesets": [
+        {
+          "rulesetKey": "aram",
+          "rulesetNameKo": "칼바람 나락",
+          "games": 7
+        }
+      ],
+      "earliestGameCreation": 1756958843623,
+      "latestGameCreation": 1759596394170
+    },
+    {
+      "modeKey": "ranked_flex",
+      "modeNameKo": "자유 랭크",
+      "modeFamily": "summoners_rift",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "isStandardRift": true,
+      "hasStandardPositions": true,
+      "queueIds": [
+        {
+          "queueId": 440,
+          "games": 1
+        }
+      ],
+      "gameModes": [
+        {
+          "gameMode": "CLASSIC",
+          "games": 1
+        }
+      ],
+      "mapIds": [
+        {
+          "mapId": 11,
+          "games": 1
+        }
+      ],
+      "queueSignatures": [
+        {
+          "signature": "440|CLASSIC",
+          "games": 1,
+          "sampleMatchId": "KR_7864275605"
+        }
+      ],
+      "rulesets": [
+        {
+          "rulesetKey": "ranked_flex",
+          "rulesetNameKo": "자유 랭크",
+          "games": 1
+        }
+      ],
+      "earliestGameCreation": 1760189349525,
+      "latestGameCreation": 1760189349525
+    }
+  ],
+  "notes": [
+    "Mode labels are archive-normalized; Riot queue IDs can be reused or changed over time.",
+    "Classification uses gameMode before queueId for known reused/alternate cases such as observed Swiftplay queue 890.",
+    "rulesetKey separates materially different rule eras without forcing separate top-level UI modes.",
+    "League's Match-V5 gameMode value CLASSIC is not the 2026 product mode named League Classic."
+  ]
+}
