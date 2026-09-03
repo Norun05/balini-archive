@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "ok": true,
   "errorCount": 0,
   "warningCount": 1,
@@ -32,10 +32,35 @@
       "catalog": 830,
       "detailFiles": 830
     },
+    "modeClassification": {
+      "ok": true,
+      "sampleMissingMatchIds": [],
+      "manifestModeCount": 7,
+      "defaultAnalysisMode": "standard_rift"
+    },
+    "modeIndex": {
+      "ok": true,
+      "matchCount": 830,
+      "modeCount": 7,
+      "modeKeys": [
+        "normal_draft",
+        "arena",
+        "swiftplay",
+        "ranked_solo",
+        "arurf",
+        "aram",
+        "ranked_flex"
+      ]
+    },
     "statsCount": {
       "ok": true,
       "stats": 830,
       "details": 830
+    },
+    "modeStats": {
+      "ok": true,
+      "defaultAnalysisMode": "standard_rift",
+      "routeCount": 8
     },
     "latestMatch": {
       "matchId": "KR_8362005931",
@@ -162,20 +187,14 @@
       },
       {
         "type": "player",
-        "alias": "sas-ghost",
-        "path": "search/players/sas-ghost-tf141.json",
-        "ok": true
-      },
-      {
-        "type": "player",
         "alias": "sas-ghost-tf141",
         "path": "search/players/sas-ghost-tf141.json",
         "ok": true
       },
       {
         "type": "player",
-        "alias": "고트-메시1-kr1",
-        "path": "search/players/고트-메시1-kr1.json",
+        "alias": "sas-ghost",
+        "path": "search/players/sas-ghost-tf141.json",
         "ok": true
       },
       {
@@ -186,13 +205,19 @@
       },
       {
         "type": "player",
-        "alias": "찌개는보글보글-kr1",
-        "path": "search/players/찌개는보글보글-kr1.json",
+        "alias": "고트-메시1-kr1",
+        "path": "search/players/고트-메시1-kr1.json",
         "ok": true
       },
       {
         "type": "player",
         "alias": "찌개는보글보글",
+        "path": "search/players/찌개는보글보글-kr1.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "찌개는보글보글-kr1",
         "path": "search/players/찌개는보글보글-kr1.json",
         "ok": true
       },
@@ -222,20 +247,14 @@
       },
       {
         "type": "player",
-        "alias": "jaywon",
-        "path": "search/players/jaywon-1100.json",
-        "ok": true
-      },
-      {
-        "type": "player",
         "alias": "jaywon-1100",
         "path": "search/players/jaywon-1100.json",
         "ok": true
       },
       {
         "type": "player",
-        "alias": "서포터의1순위목표는셋둘하나빵야",
-        "path": "search/players/서포터의1순위목표는셋둘하나빵야-hwayo.json",
+        "alias": "jaywon",
+        "path": "search/players/jaywon-1100.json",
         "ok": true
       },
       {
@@ -246,8 +265,8 @@
       },
       {
         "type": "player",
-        "alias": "찌보글보글",
-        "path": "search/players/찌보글보글-보글보글.json",
+        "alias": "서포터의1순위목표는셋둘하나빵야",
+        "path": "search/players/서포터의1순위목표는셋둘하나빵야-hwayo.json",
         "ok": true
       },
       {
@@ -258,14 +277,300 @@
       },
       {
         "type": "player",
-        "alias": "포니님2-3753",
-        "path": "search/players/포니님2-3753.json",
+        "alias": "찌보글보글",
+        "path": "search/players/찌보글보글-보글보글.json",
         "ok": true
       },
       {
         "type": "player",
         "alias": "포니님2",
         "path": "search/players/포니님2-3753.json",
+        "ok": true
+      },
+      {
+        "type": "player",
+        "alias": "포니님2-3753",
+        "path": "search/players/포니님2-3753.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "standard_rift",
+        "file": "overview",
+        "path": "stats/by-mode/standard_rift/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "standard_rift",
+        "file": "champions",
+        "path": "stats/by-mode/standard_rift/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "standard_rift",
+        "file": "positions",
+        "path": "stats/by-mode/standard_rift/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "standard_rift",
+        "file": "matchups",
+        "path": "stats/by-mode/standard_rift/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "standard_rift",
+        "file": "itemTimings",
+        "path": "stats/by-mode/standard_rift/item_timings.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "normal_draft",
+        "file": "overview",
+        "path": "stats/by-mode/normal_draft/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "normal_draft",
+        "file": "champions",
+        "path": "stats/by-mode/normal_draft/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "normal_draft",
+        "file": "positions",
+        "path": "stats/by-mode/normal_draft/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "normal_draft",
+        "file": "matchups",
+        "path": "stats/by-mode/normal_draft/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "normal_draft",
+        "file": "itemTimings",
+        "path": "stats/by-mode/normal_draft/item_timings.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arena",
+        "file": "overview",
+        "path": "stats/by-mode/arena/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arena",
+        "file": "champions",
+        "path": "stats/by-mode/arena/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arena",
+        "file": "positions",
+        "path": "stats/by-mode/arena/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arena",
+        "file": "matchups",
+        "path": "stats/by-mode/arena/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arena",
+        "file": "itemTimings",
+        "path": "stats/by-mode/arena/item_timings.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "swiftplay",
+        "file": "overview",
+        "path": "stats/by-mode/swiftplay/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "swiftplay",
+        "file": "champions",
+        "path": "stats/by-mode/swiftplay/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "swiftplay",
+        "file": "positions",
+        "path": "stats/by-mode/swiftplay/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "swiftplay",
+        "file": "matchups",
+        "path": "stats/by-mode/swiftplay/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "swiftplay",
+        "file": "itemTimings",
+        "path": "stats/by-mode/swiftplay/item_timings.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_solo",
+        "file": "overview",
+        "path": "stats/by-mode/ranked_solo/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_solo",
+        "file": "champions",
+        "path": "stats/by-mode/ranked_solo/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_solo",
+        "file": "positions",
+        "path": "stats/by-mode/ranked_solo/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_solo",
+        "file": "matchups",
+        "path": "stats/by-mode/ranked_solo/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_solo",
+        "file": "itemTimings",
+        "path": "stats/by-mode/ranked_solo/item_timings.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arurf",
+        "file": "overview",
+        "path": "stats/by-mode/arurf/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arurf",
+        "file": "champions",
+        "path": "stats/by-mode/arurf/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arurf",
+        "file": "positions",
+        "path": "stats/by-mode/arurf/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arurf",
+        "file": "matchups",
+        "path": "stats/by-mode/arurf/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "arurf",
+        "file": "itemTimings",
+        "path": "stats/by-mode/arurf/item_timings.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "aram",
+        "file": "overview",
+        "path": "stats/by-mode/aram/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "aram",
+        "file": "champions",
+        "path": "stats/by-mode/aram/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "aram",
+        "file": "positions",
+        "path": "stats/by-mode/aram/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "aram",
+        "file": "matchups",
+        "path": "stats/by-mode/aram/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "aram",
+        "file": "itemTimings",
+        "path": "stats/by-mode/aram/item_timings.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_flex",
+        "file": "overview",
+        "path": "stats/by-mode/ranked_flex/overview.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_flex",
+        "file": "champions",
+        "path": "stats/by-mode/ranked_flex/champions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_flex",
+        "file": "positions",
+        "path": "stats/by-mode/ranked_flex/positions.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_flex",
+        "file": "matchups",
+        "path": "stats/by-mode/ranked_flex/matchups/index.json",
+        "ok": true
+      },
+      {
+        "type": "mode",
+        "mode": "ranked_flex",
+        "file": "itemTimings",
+        "path": "stats/by-mode/ranked_flex/item_timings.json",
         "ok": true
       }
     ],
@@ -278,6 +583,7 @@
   },
   "notes": [
     "Errors fail update_site_data.bat; warnings are written for inspection but do not fail the build.",
-    "Ability and summoner-spell cast timestamps are not inferred from Match-V5 when Riot does not provide them explicitly."
+    "Ability and summoner-spell cast timestamps are not inferred from Match-V5 when Riot does not provide them explicitly.",
+    "Mode-aware analysis should use data/search/modes.json and data/stats/by-mode/* rather than all-mode aggregates."
   ]
 }

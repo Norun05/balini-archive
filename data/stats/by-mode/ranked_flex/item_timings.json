@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "modeKey": "ranked_flex",
+  "modeNameKo": "자유 랭크",
+  "firstCore": [
+    {
+      "champion": "Mordekaiser",
+      "position": "TOP",
+      "item": "균열 생성기",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "avgCompletionMs": 595587.0,
+      "matchIds": [
+        "KR_7864275605"
+      ]
+    }
+  ],
+  "secondCore": [
+    {
+      "champion": "Mordekaiser",
+      "position": "TOP",
+      "item": "실험적 마공학판",
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "winRate": 100.0,
+      "avgCompletionMs": 1213937.0,
+      "matchIds": [
+        "KR_7864275605"
+      ]
+    }
+  ],
+  "notes": [
+    "Core timings are separated by normalized mode/ruleset.",
+    "Special modes without standard lanes expose position as null instead of Invalid.",
+    "Core completion still inherits timeline.itemEconomy heuristic limitations."
+  ]
+}

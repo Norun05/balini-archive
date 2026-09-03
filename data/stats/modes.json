@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": 1788394341998,
+  "defaultAnalysisMode": "standard_rift",
+  "modes": [
+    {
+      "modeKey": "standard_rift",
+      "modeNameKo": "소환사의 협곡 · 일반 규칙",
+      "modeFamily": "summoners_rift",
+      "games": 500,
+      "synthetic": true,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-mode/standard_rift/overview.json",
+        "champions": "stats/by-mode/standard_rift/champions.json",
+        "positions": "stats/by-mode/standard_rift/positions.json",
+        "summoners": "stats/by-mode/standard_rift/summoners.json",
+        "matchups": "stats/by-mode/standard_rift/matchups/index.json",
+        "itemTimings": "stats/by-mode/standard_rift/item_timings.json"
+      },
+      "matchupFileCount": 41
+    },
+    {
+      "modeKey": "normal_draft",
+      "modeNameKo": "일반 · 교차 선택",
+      "modeFamily": "summoners_rift",
+      "games": 458,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-mode/normal_draft/overview.json",
+        "champions": "stats/by-mode/normal_draft/champions.json",
+        "positions": "stats/by-mode/normal_draft/positions.json",
+        "summoners": "stats/by-mode/normal_draft/summoners.json",
+        "matchups": "stats/by-mode/normal_draft/matchups/index.json",
+        "itemTimings": "stats/by-mode/normal_draft/item_timings.json"
+      },
+      "matchupFileCount": 32,
+      "rulesets": [
+        {
+          "rulesetKey": "normal_draft",
+          "rulesetNameKo": "일반 · 교차 선택",
+          "modeFamily": "summoners_rift",
+          "games": 458,
+          "synthetic": false,
+          "hasStandardPositions": true,
+          "files": {
+            "overview": "stats/by-ruleset/normal_draft/overview.json",
+            "champions": "stats/by-ruleset/normal_draft/champions.json",
+            "positions": "stats/by-ruleset/normal_draft/positions.json",
+            "summoners": "stats/by-ruleset/normal_draft/summoners.json",
+            "matchups": "stats/by-ruleset/normal_draft/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/normal_draft/item_timings.json"
+          },
+          "matchupFileCount": 32
+        }
+      ]
+    },
+    {
+      "modeKey": "arena",
+      "modeNameKo": "아레나",
+      "modeFamily": "arena",
+      "games": 174,
+      "synthetic": false,
+      "hasStandardPositions": false,
+      "files": {
+        "overview": "stats/by-mode/arena/overview.json",
+        "champions": "stats/by-mode/arena/champions.json",
+        "positions": "stats/by-mode/arena/positions.json",
+        "summoners": "stats/by-mode/arena/summoners.json",
+        "matchups": "stats/by-mode/arena/matchups/index.json",
+        "itemTimings": "stats/by-mode/arena/item_timings.json"
+      },
+      "matchupFileCount": 0,
+      "rulesets": [
+        {
+          "rulesetKey": "arena_1700",
+          "rulesetNameKo": "아레나 (기존 규칙)",
+          "modeFamily": "arena",
+          "games": 136,
+          "synthetic": false,
+          "hasStandardPositions": false,
+          "files": {
+            "overview": "stats/by-ruleset/arena_1700/overview.json",
+            "champions": "stats/by-ruleset/arena_1700/champions.json",
+            "positions": "stats/by-ruleset/arena_1700/positions.json",
+            "summoners": "stats/by-ruleset/arena_1700/summoners.json",
+            "matchups": "stats/by-ruleset/arena_1700/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/arena_1700/item_timings.json"
+          },
+          "matchupFileCount": 0
+        },
+        {
+          "rulesetKey": "arena_1750",
+          "rulesetNameKo": "아레나 (3인 팀 규칙)",
+          "modeFamily": "arena",
+          "games": 38,
+          "synthetic": false,
+          "hasStandardPositions": false,
+          "files": {
+            "overview": "stats/by-ruleset/arena_1750/overview.json",
+            "champions": "stats/by-ruleset/arena_1750/champions.json",
+            "positions": "stats/by-ruleset/arena_1750/positions.json",
+            "summoners": "stats/by-ruleset/arena_1750/summoners.json",
+            "matchups": "stats/by-ruleset/arena_1750/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/arena_1750/item_timings.json"
+          },
+          "matchupFileCount": 0
+        }
+      ]
+    },
+    {
+      "modeKey": "swiftplay",
+      "modeNameKo": "신속 대전",
+      "modeFamily": "summoners_rift",
+      "games": 122,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-mode/swiftplay/overview.json",
+        "champions": "stats/by-mode/swiftplay/champions.json",
+        "positions": "stats/by-mode/swiftplay/positions.json",
+        "summoners": "stats/by-mode/swiftplay/summoners.json",
+        "matchups": "stats/by-mode/swiftplay/matchups/index.json",
+        "itemTimings": "stats/by-mode/swiftplay/item_timings.json"
+      },
+      "matchupFileCount": 22,
+      "rulesets": [
+        {
+          "rulesetKey": "swiftplay_2025",
+          "rulesetNameKo": "신속 대전 (기존 규칙)",
+          "modeFamily": "summoners_rift",
+          "games": 61,
+          "synthetic": false,
+          "hasStandardPositions": true,
+          "files": {
+            "overview": "stats/by-ruleset/swiftplay_2025/overview.json",
+            "champions": "stats/by-ruleset/swiftplay_2025/champions.json",
+            "positions": "stats/by-ruleset/swiftplay_2025/positions.json",
+            "summoners": "stats/by-ruleset/swiftplay_2025/summoners.json",
+            "matchups": "stats/by-ruleset/swiftplay_2025/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/swiftplay_2025/item_timings.json"
+          },
+          "matchupFileCount": 14
+        },
+        {
+          "rulesetKey": "swiftplay_2026",
+          "rulesetNameKo": "신속 대전 (2026 규칙)",
+          "modeFamily": "summoners_rift",
+          "games": 61,
+          "synthetic": false,
+          "hasStandardPositions": true,
+          "files": {
+            "overview": "stats/by-ruleset/swiftplay_2026/overview.json",
+            "champions": "stats/by-ruleset/swiftplay_2026/champions.json",
+            "positions": "stats/by-ruleset/swiftplay_2026/positions.json",
+            "summoners": "stats/by-ruleset/swiftplay_2026/summoners.json",
+            "matchups": "stats/by-ruleset/swiftplay_2026/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/swiftplay_2026/item_timings.json"
+          },
+          "matchupFileCount": 13
+        }
+      ]
+    },
+    {
+      "modeKey": "ranked_solo",
+      "modeNameKo": "솔로/듀오 랭크",
+      "modeFamily": "summoners_rift",
+      "games": 41,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-mode/ranked_solo/overview.json",
+        "champions": "stats/by-mode/ranked_solo/champions.json",
+        "positions": "stats/by-mode/ranked_solo/positions.json",
+        "summoners": "stats/by-mode/ranked_solo/summoners.json",
+        "matchups": "stats/by-mode/ranked_solo/matchups/index.json",
+        "itemTimings": "stats/by-mode/ranked_solo/item_timings.json"
+      },
+      "matchupFileCount": 16,
+      "rulesets": [
+        {
+          "rulesetKey": "ranked_solo",
+          "rulesetNameKo": "솔로/듀오 랭크",
+          "modeFamily": "summoners_rift",
+          "games": 41,
+          "synthetic": false,
+          "hasStandardPositions": true,
+          "files": {
+            "overview": "stats/by-ruleset/ranked_solo/overview.json",
+            "champions": "stats/by-ruleset/ranked_solo/champions.json",
+            "positions": "stats/by-ruleset/ranked_solo/positions.json",
+            "summoners": "stats/by-ruleset/ranked_solo/summoners.json",
+            "matchups": "stats/by-ruleset/ranked_solo/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/ranked_solo/item_timings.json"
+          },
+          "matchupFileCount": 16
+        }
+      ]
+    },
+    {
+      "modeKey": "arurf",
+      "modeNameKo": "무작위 우르프",
+      "modeFamily": "urf",
+      "games": 27,
+      "synthetic": false,
+      "hasStandardPositions": false,
+      "files": {
+        "overview": "stats/by-mode/arurf/overview.json",
+        "champions": "stats/by-mode/arurf/champions.json",
+        "positions": "stats/by-mode/arurf/positions.json",
+        "summoners": "stats/by-mode/arurf/summoners.json",
+        "matchups": "stats/by-mode/arurf/matchups/index.json",
+        "itemTimings": "stats/by-mode/arurf/item_timings.json"
+      },
+      "matchupFileCount": 0,
+      "rulesets": [
+        {
+          "rulesetKey": "arurf",
+          "rulesetNameKo": "무작위 우르프",
+          "modeFamily": "urf",
+          "games": 27,
+          "synthetic": false,
+          "hasStandardPositions": false,
+          "files": {
+            "overview": "stats/by-ruleset/arurf/overview.json",
+            "champions": "stats/by-ruleset/arurf/champions.json",
+            "positions": "stats/by-ruleset/arurf/positions.json",
+            "summoners": "stats/by-ruleset/arurf/summoners.json",
+            "matchups": "stats/by-ruleset/arurf/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/arurf/item_timings.json"
+          },
+          "matchupFileCount": 0
+        }
+      ]
+    },
+    {
+      "modeKey": "aram",
+      "modeNameKo": "칼바람 나락",
+      "modeFamily": "aram",
+      "games": 7,
+      "synthetic": false,
+      "hasStandardPositions": false,
+      "files": {
+        "overview": "stats/by-mode/aram/overview.json",
+        "champions": "stats/by-mode/aram/champions.json",
+        "positions": "stats/by-mode/aram/positions.json",
+        "summoners": "stats/by-mode/aram/summoners.json",
+        "matchups": "stats/by-mode/aram/matchups/index.json",
+        "itemTimings": "stats/by-mode/aram/item_timings.json"
+      },
+      "matchupFileCount": 0,
+      "rulesets": [
+        {
+          "rulesetKey": "aram",
+          "rulesetNameKo": "칼바람 나락",
+          "modeFamily": "aram",
+          "games": 7,
+          "synthetic": false,
+          "hasStandardPositions": false,
+          "files": {
+            "overview": "stats/by-ruleset/aram/overview.json",
+            "champions": "stats/by-ruleset/aram/champions.json",
+            "positions": "stats/by-ruleset/aram/positions.json",
+            "summoners": "stats/by-ruleset/aram/summoners.json",
+            "matchups": "stats/by-ruleset/aram/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/aram/item_timings.json"
+          },
+          "matchupFileCount": 0
+        }
+      ]
+    },
+    {
+      "modeKey": "ranked_flex",
+      "modeNameKo": "자유 랭크",
+      "modeFamily": "summoners_rift",
+      "games": 1,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-mode/ranked_flex/overview.json",
+        "champions": "stats/by-mode/ranked_flex/champions.json",
+        "positions": "stats/by-mode/ranked_flex/positions.json",
+        "summoners": "stats/by-mode/ranked_flex/summoners.json",
+        "matchups": "stats/by-mode/ranked_flex/matchups/index.json",
+        "itemTimings": "stats/by-mode/ranked_flex/item_timings.json"
+      },
+      "matchupFileCount": 1,
+      "rulesets": [
+        {
+          "rulesetKey": "ranked_flex",
+          "rulesetNameKo": "자유 랭크",
+          "modeFamily": "summoners_rift",
+          "games": 1,
+          "synthetic": false,
+          "hasStandardPositions": true,
+          "files": {
+            "overview": "stats/by-ruleset/ranked_flex/overview.json",
+            "champions": "stats/by-ruleset/ranked_flex/champions.json",
+            "positions": "stats/by-ruleset/ranked_flex/positions.json",
+            "summoners": "stats/by-ruleset/ranked_flex/summoners.json",
+            "matchups": "stats/by-ruleset/ranked_flex/matchups/index.json",
+            "itemTimings": "stats/by-ruleset/ranked_flex/item_timings.json"
+          },
+          "matchupFileCount": 1
+        }
+      ]
+    }
+  ],
+  "rulesets": [
+    {
+      "rulesetKey": "normal_draft",
+      "rulesetNameKo": "일반 · 교차 선택",
+      "modeFamily": "summoners_rift",
+      "games": 458,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-ruleset/normal_draft/overview.json",
+        "champions": "stats/by-ruleset/normal_draft/champions.json",
+        "positions": "stats/by-ruleset/normal_draft/positions.json",
+        "summoners": "stats/by-ruleset/normal_draft/summoners.json",
+        "matchups": "stats/by-ruleset/normal_draft/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/normal_draft/item_timings.json"
+      },
+      "matchupFileCount": 32
+    },
+    {
+      "rulesetKey": "arena_1700",
+      "rulesetNameKo": "아레나 (기존 규칙)",
+      "modeFamily": "arena",
+      "games": 136,
+      "synthetic": false,
+      "hasStandardPositions": false,
+      "files": {
+        "overview": "stats/by-ruleset/arena_1700/overview.json",
+        "champions": "stats/by-ruleset/arena_1700/champions.json",
+        "positions": "stats/by-ruleset/arena_1700/positions.json",
+        "summoners": "stats/by-ruleset/arena_1700/summoners.json",
+        "matchups": "stats/by-ruleset/arena_1700/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/arena_1700/item_timings.json"
+      },
+      "matchupFileCount": 0
+    },
+    {
+      "rulesetKey": "swiftplay_2025",
+      "rulesetNameKo": "신속 대전 (기존 규칙)",
+      "modeFamily": "summoners_rift",
+      "games": 61,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-ruleset/swiftplay_2025/overview.json",
+        "champions": "stats/by-ruleset/swiftplay_2025/champions.json",
+        "positions": "stats/by-ruleset/swiftplay_2025/positions.json",
+        "summoners": "stats/by-ruleset/swiftplay_2025/summoners.json",
+        "matchups": "stats/by-ruleset/swiftplay_2025/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/swiftplay_2025/item_timings.json"
+      },
+      "matchupFileCount": 14
+    },
+    {
+      "rulesetKey": "swiftplay_2026",
+      "rulesetNameKo": "신속 대전 (2026 규칙)",
+      "modeFamily": "summoners_rift",
+      "games": 61,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-ruleset/swiftplay_2026/overview.json",
+        "champions": "stats/by-ruleset/swiftplay_2026/champions.json",
+        "positions": "stats/by-ruleset/swiftplay_2026/positions.json",
+        "summoners": "stats/by-ruleset/swiftplay_2026/summoners.json",
+        "matchups": "stats/by-ruleset/swiftplay_2026/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/swiftplay_2026/item_timings.json"
+      },
+      "matchupFileCount": 13
+    },
+    {
+      "rulesetKey": "ranked_solo",
+      "rulesetNameKo": "솔로/듀오 랭크",
+      "modeFamily": "summoners_rift",
+      "games": 41,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-ruleset/ranked_solo/overview.json",
+        "champions": "stats/by-ruleset/ranked_solo/champions.json",
+        "positions": "stats/by-ruleset/ranked_solo/positions.json",
+        "summoners": "stats/by-ruleset/ranked_solo/summoners.json",
+        "matchups": "stats/by-ruleset/ranked_solo/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/ranked_solo/item_timings.json"
+      },
+      "matchupFileCount": 16
+    },
+    {
+      "rulesetKey": "arena_1750",
+      "rulesetNameKo": "아레나 (3인 팀 규칙)",
+      "modeFamily": "arena",
+      "games": 38,
+      "synthetic": false,
+      "hasStandardPositions": false,
+      "files": {
+        "overview": "stats/by-ruleset/arena_1750/overview.json",
+        "champions": "stats/by-ruleset/arena_1750/champions.json",
+        "positions": "stats/by-ruleset/arena_1750/positions.json",
+        "summoners": "stats/by-ruleset/arena_1750/summoners.json",
+        "matchups": "stats/by-ruleset/arena_1750/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/arena_1750/item_timings.json"
+      },
+      "matchupFileCount": 0
+    },
+    {
+      "rulesetKey": "arurf",
+      "rulesetNameKo": "무작위 우르프",
+      "modeFamily": "urf",
+      "games": 27,
+      "synthetic": false,
+      "hasStandardPositions": false,
+      "files": {
+        "overview": "stats/by-ruleset/arurf/overview.json",
+        "champions": "stats/by-ruleset/arurf/champions.json",
+        "positions": "stats/by-ruleset/arurf/positions.json",
+        "summoners": "stats/by-ruleset/arurf/summoners.json",
+        "matchups": "stats/by-ruleset/arurf/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/arurf/item_timings.json"
+      },
+      "matchupFileCount": 0
+    },
+    {
+      "rulesetKey": "aram",
+      "rulesetNameKo": "칼바람 나락",
+      "modeFamily": "aram",
+      "games": 7,
+      "synthetic": false,
+      "hasStandardPositions": false,
+      "files": {
+        "overview": "stats/by-ruleset/aram/overview.json",
+        "champions": "stats/by-ruleset/aram/champions.json",
+        "positions": "stats/by-ruleset/aram/positions.json",
+        "summoners": "stats/by-ruleset/aram/summoners.json",
+        "matchups": "stats/by-ruleset/aram/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/aram/item_timings.json"
+      },
+      "matchupFileCount": 0
+    },
+    {
+      "rulesetKey": "ranked_flex",
+      "rulesetNameKo": "자유 랭크",
+      "modeFamily": "summoners_rift",
+      "games": 1,
+      "synthetic": false,
+      "hasStandardPositions": true,
+      "files": {
+        "overview": "stats/by-ruleset/ranked_flex/overview.json",
+        "champions": "stats/by-ruleset/ranked_flex/champions.json",
+        "positions": "stats/by-ruleset/ranked_flex/positions.json",
+        "summoners": "stats/by-ruleset/ranked_flex/summoners.json",
+        "matchups": "stats/by-ruleset/ranked_flex/matchups/index.json",
+        "itemTimings": "stats/by-ruleset/ranked_flex/item_timings.json"
+      },
+      "matchupFileCount": 1
+    }
+  ],
+  "notes": [
+    "Use by-mode stats for champion, lane, matchup, summoner-spell, and item analysis; do not mix special modes into standard Rift conclusions.",
+    "Use by-ruleset stats when the same named mode changed materially across patches (for example Swiftplay 2025 vs 2026 or Arena queue generations).",
+    "When the user asks for ordinary lane/build analysis without naming a mode, prefer standard_rift.",
+    "Swiftplay remains separate from standard_rift because its economy/objective rules materially differ.",
+    "Arena/ARAM/URF have no standard lane position stats."
+  ]
+}

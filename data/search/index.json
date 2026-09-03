@@ -5,7 +5,8 @@
   "routes": {
     "champions": "search/champions.json",
     "matchups": "search/matchup_routes.json",
-    "players": "search/players.json"
+    "players": "search/players.json",
+    "modes": "search/modes.json"
   },
   "queryExamples": {
     "championPositionOpponent": [
@@ -18,11 +19,19 @@
     ],
     "deepMatchReview": [
       "Use matchIds from a stats/player entry and open only data/matches/{matchId}.json for the few relevant games."
+    ],
+    "modeAwareAnalysis": [
+      "Resolve mode through search/modes.json before opening champion, matchup, summoner-spell, or item statistics.",
+      "If the named mode has multiple rulesets and the question is era-sensitive, use the matching ruleset route.",
+      "For an unspecified ordinary Rift analysis, prefer standard_rift instead of all-mode aggregate stats."
     ]
   },
   "statsSchemaVersion": 1,
   "championRouteCount": 66,
   "matchupRouteCount": 105,
   "playerAliasCount": 6046,
-  "playerFileCount": 3030
+  "playerFileCount": 3030,
+  "modeRouteCount": 8,
+  "rulesetRouteCount": 9,
+  "defaultAnalysisMode": "standard_rift"
 }
